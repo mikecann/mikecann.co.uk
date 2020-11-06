@@ -7,7 +7,7 @@ type Props = {
   allPosts: Post[];
 };
 
-const WithStaticProps = ({ allPosts }: Props) => (
+const Posts = ({ allPosts }: Props) => (
   <Layout title="Posts">
     <h1>Posts..</h1>
     <p>
@@ -15,11 +15,11 @@ const WithStaticProps = ({ allPosts }: Props) => (
     </p>
     <p>You are currently on: /users</p>
     <ul>
-      {allPosts.map((post) => (
-        <li key={post.id}>
-          <Link href="/posts/[slug]" as={`/posts/${post.slug}`}>
+      {allPosts.map(({ meta: { title }, slug }) => (
+        <li key={slug}>
+          <Link href="/posts/[slug]" as={`/posts/${slug}`}>
             <a>
-              {post.slug}: {post.title}
+              {slug} ::: {title}
             </a>
           </Link>
         </li>
@@ -35,10 +35,9 @@ const WithStaticProps = ({ allPosts }: Props) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const allPosts = getAllPosts();
-
   return {
     props: { allPosts },
   };
 };
 
-export default WithStaticProps;
+export default Posts;

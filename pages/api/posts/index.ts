@@ -1,15 +1,9 @@
 import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
+import { map, pipe } from "ramda";
 
-const postsDirectory = join(process.cwd(), "_posts");
-
-export function getPostSlugs() {
-  return fs.readdirSync(postsDirectory);
-}
-
-export type Post = {
-  slug?: string;
+export interface PostMeta {
   title?: string;
   tags?: string;
   url?: string;
@@ -18,29 +12,36 @@ export type Post = {
   coverImage?: string;
   coverMeta?: string;
   date?: string;
-  content: string;
-};
+}
 
-export function getPostBySlug(slug: string): Post {
-  const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
+export type PostContent = string;
+
+export type PostSlug = string;
+
+export interface Post {
+  slug: PostSlug;
+  meta: PostMeta;
+  content: PostContent;
+}
+
+export const postsDirectory = join(process.cwd(), "_posts");
+
+export const getPostSlugs = (): PostSlug[] => fs.readdirSync(postsDirectory);
+
+export const sortPostsDescending = (posts: Post[]): Post[] =>
+  posts.sort((post1, post2) =>
+    Date.parse(post1.meta.date ?? "") > Date.parse(post2.meta.date ?? "") ? -1 : 1
+  );
+
+export const getPostBySlug = (slug: PostSlug): Post => {
+  const fullPath = join(postsDirectory, slug, `post.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
   if (data.date) data.date = data.date + "";
 
-  return { ...data, slug, content };
-}
+  return { slug, meta: data, content };
+};
 
-export function getAllPosts() {
-  const slugs = getPostSlugs();
+export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug), sortPostsDescending);
 
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug))
-    // sort posts by date in descending order
-    .sort((post1, post2) =>
-      Date.parse(post1.date ?? "") > Date.parse(post2.date ?? "") ? -1 : 1
-    );
-
-  return posts;
-}
