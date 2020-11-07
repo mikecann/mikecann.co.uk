@@ -3,7 +3,7 @@ import { join } from "path";
 import matter from "gray-matter";
 import { producePostMeta } from "../pages/api/posts/PostMeta";
 
-const postsDirectory = join(process.cwd(), "_posts3");
+const postsDirectory = join(process.cwd(), "public/posts");
 
 const moveMDToOwnDirs = () => {
   for (let filename of fs.readdirSync(postsDirectory)) {

@@ -41,7 +41,7 @@ const StaticPropsDetail = ({ post, html }: Props) => {
           //layout="fill"
           width={2500}
           height={1000}
-          src={getHeaderImageRelativePathForPost(post)}
+          src={post.meta.coverImage}
           quality={100}
           priority
           style={{ objectFit: "cover" }}

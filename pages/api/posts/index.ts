@@ -2,8 +2,7 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { map, pipe } from "ramda";
-
-
+import { PostMeta, producePostMeta } from "./PostMeta";
 
 export type PostContent = string;
 
@@ -16,7 +15,7 @@ export interface Post {
   content: PostContent;
 }
 
-export const postsDirectory = join(process.cwd(), "_posts");
+export const postsDirectory = join(process.cwd(), "public/posts");
 
 export const getPostSlugs = (): PostSlug[] => fs.readdirSync(postsDirectory);
 
@@ -33,7 +32,7 @@ export const getPostBySlug = (slug: PostSlug): Post => {
   //   console.log("getPostBySlug -> size", size);
   // }
 
-  return { absPostPath, slug, meta: data, content };
+  return { absPostPath, slug, meta: producePostMeta(data as any), content };
 };
 
 export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug));
