@@ -6,6 +6,7 @@ import { ensure } from "../../utils/ensure";
 import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
 import { style } from "typestyle";
+import { getHeaderImageRelativePathForPost } from "../../utils/posts";
 
 type Props = {
   post: Post;
@@ -15,37 +16,42 @@ type Props = {
 const contentStyles = style({
   color: "#5d686f",
   //fontWeight: 400,
-  fontSize: "1.3rem",
-  fontFamily:
-    "Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji",
+  fontSize: "1.1em",
   marginTop: 40,
   marginBottom: 40,
-  $nest: {
-    img: {
-      maxWidth: "100%",
-      boxShadow: "0px 0px 10px #bbb !important",
-    },
-  },
+  maxWidth: 700,
+  padding: 10,
+  width: "100%",
+  // $nest: {
+  //   img: {
+  //     maxWidth: "100%",
+  //     marginTop: 20,
+  //     marginBottom: 20,
+  //     boxShadow: "0px 0px 10px #bbb !important",
+  //   },
+  // },
 });
 
-const StaticPropsDetail = ({
-  post: {
-    meta: { coverImage },
-  },
-  html,
-}: Props) => {
+const StaticPropsDetail = ({ post, html }: Props) => {
+  const { meta } = post;
   return (
     <Layout title={`post`}>
-      <Vertical>
-        {coverImage && <Image src={coverImage} alt="cover image" width={800} height={400} />}
-      </Vertical>
-      <Horizontal width="100%" horizontalAlign="center">
-        <div
-          className={contentStyles}
-          style={{ width: 500 }}
-          dangerouslySetInnerHTML={{ __html: html }}
+      <Vertical width="100%">
+        <Image
+          //layout="fill"
+          width={2500}
+          height={1000}
+          src={getHeaderImageRelativePathForPost(post)}
+          quality={100}
+          priority
+          style={{ objectFit: "cover" }}
+          alt="post header image"
         />
-      </Horizontal>
+
+        <Horizontal width="100%" horizontalAlign="center">
+          <div className={contentStyles} dangerouslySetInnerHTML={{ __html: html }} />
+        </Horizontal>
+      </Vertical>
     </Layout>
   );
 };

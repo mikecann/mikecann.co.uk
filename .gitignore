@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+_posts2
+_posts3

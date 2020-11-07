@@ -8,13 +8,13 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div>
+  <div style={{ width: "100%" }}>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <header>
+    <header style={{ width: "100%" }}>
       <nav>
         <Link href="/">
           <a>Home</a>
@@ -30,7 +30,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       </nav>
     </header>
     {children}
-    <footer>
+    <footer style={{ width: "100%" }}>
       <hr />
       <span>I'm here to stay (Footer)</span>
     </footer>

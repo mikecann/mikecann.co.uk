@@ -10,8 +10,13 @@
   },
   "dependencies": {
     "@types/ramda": "^0.27.32",
+    "csstips": "^1.2.0",
+    "csx": "^10.0.1",
+    "fp-ts": "^2.8.5",
     "gls": "^3.0.1",
     "gray-matter": "^4.0.2",
+    "image-size": "^0.9.3",
+    "io-ts": "^2.2.12",
     "next": "10.0.1",
     "ramda": "^0.27.1",
     "react": "17.0.1",
