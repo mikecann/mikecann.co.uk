@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/09/interview-header.png'
+coverImage: /posts/an-interview-with-startup-news/cover.jpg
 date: '2016-09-28T23:26:08.000Z'
 tags:
   - autralia

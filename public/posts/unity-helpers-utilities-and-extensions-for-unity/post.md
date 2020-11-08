@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/06/head.png'
+coverImage: /posts/unity-helpers-utilities-and-extensions-for-unity/cover.jpg
 date: '2014-06-03T03:23:45.000Z'
 tags:
   - github

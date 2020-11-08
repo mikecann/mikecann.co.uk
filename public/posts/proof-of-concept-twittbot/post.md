@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/04/twitbot.png'
+coverImage: /posts/proof-of-concept-twittbot/cover.jpg
 date: '2009-04-30T19:49:32.000Z'
 tags:
   - Bot

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_010.png'
+coverImage: /posts/mr-nibbles-3d-skyboxes-and-fake-shadows/cover.jpg
 date: '2014-07-09T07:16:04.000Z'
 tags:
   - Game

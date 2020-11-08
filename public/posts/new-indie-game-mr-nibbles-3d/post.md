@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_001.png'
+coverImage: /posts/new-indie-game-mr-nibbles-3d/cover.jpg
 date: '2014-07-03T02:40:47.000Z'
 tags: []
 title: 'New Indie Game: Mr Nibbles 3D'

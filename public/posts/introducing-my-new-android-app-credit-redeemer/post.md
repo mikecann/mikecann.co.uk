@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/03/feature-1024x500.png'
+coverImage: /posts/introducing-my-new-android-app-credit-redeemer/cover.jpg
 date: '2016-03-15T02:41:38.000Z'
 tags:
   - Android

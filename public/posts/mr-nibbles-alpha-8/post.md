@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/06/2015-06-17_20-38-23.png'
+coverImage: /posts/mr-nibbles-alpha-8/cover.jpg
 date: '2015-06-21T00:21:44.000Z'
 tags:
   - Android

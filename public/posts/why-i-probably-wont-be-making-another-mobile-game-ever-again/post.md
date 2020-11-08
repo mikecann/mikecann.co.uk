@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/04/Nibbles_1.png'
+coverImage: /posts/why-i-probably-wont-be-making-another-mobile-game-ever-again/cover.jpg
 date: '2016-04-15T05:04:41.000Z'
 tags: []
 title: Why I probably won't be making another mobile game ever again

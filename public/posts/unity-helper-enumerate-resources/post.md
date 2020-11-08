@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/06/screenshot_005.png'
+coverImage: /posts/unity-helper-enumerate-resources/cover.jpg
 date: '2014-06-04T01:48:28.000Z'
 tags:
   - Editor

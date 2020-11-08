@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2006/06/wwwworms.png'
+coverImage: /posts/worms-2/cover.jpg
 date: '2006-06-13T19:16:57.000Z'
 tags: []
 title: Worms 2

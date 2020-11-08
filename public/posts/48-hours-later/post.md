@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/09/48-2.png'
+coverImage: /posts/48-hours-later/cover.jpg
 date: '2010-09-08T01:06:30.000Z'
 tags: []
 title: 48 Hours Later

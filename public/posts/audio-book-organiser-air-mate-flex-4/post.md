@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/12/audiobook.png'
+coverImage: /posts/audio-book-organiser-air-mate-flex-4/cover.jpg
 date: '2009-12-30T13:38:29.000Z'
 tags:
   - Actionscript

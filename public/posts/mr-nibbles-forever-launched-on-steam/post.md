@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/05/hea.jpg'
+coverImage: /posts/mr-nibbles-forever-launched-on-steam/cover.jpg
 date: '2016-05-01T04:03:47.000Z'
 tags:
   - development

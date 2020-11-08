@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/09/2015-09-07_17-21-49.png'
+coverImage: /posts/mr-nibbles-forever-now-on-apple-app-store/cover.jpg
 date: '2015-09-07T09:33:50.000Z'
 tags:
   - 2d

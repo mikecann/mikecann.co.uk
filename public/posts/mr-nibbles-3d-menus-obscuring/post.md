@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_0011.png'
+coverImage: /posts/mr-nibbles-3d-menus-obscuring/cover.jpg
 date: '2014-07-05T00:58:51.000Z'
 tags: []
 title: Mr Nibbles 3D - Menus & Obscuring

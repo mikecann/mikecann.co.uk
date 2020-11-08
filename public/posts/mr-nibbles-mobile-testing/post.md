@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_0023.png'
+coverImage: /posts/mr-nibbles-mobile-testing/cover.jpg
 date: '2014-07-17T04:15:43.000Z'
 tags:
   - development

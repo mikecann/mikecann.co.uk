@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/11/2015-11-09_08-26-05.png'
+coverImage: /posts/tinkering-with-entitias-entitiasteroids/cover.jpg
 date: '2015-11-09T01:50:07.000Z'
 tags:
   - C#

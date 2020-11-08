@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/04/cunning-plan.png'
+coverImage: /posts/the-three-game-challenge-part-2-a-cunning-plan/cover.jpg
 date: '2013-04-12T16:40:16.000Z'
 tags:
   - ash

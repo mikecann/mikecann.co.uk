@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/02/2015-02-02_10-03-16.png'
+coverImage: /posts/mr-nibbles-forever-alpha-3/cover.jpg
 date: '2015-02-02T02:23:23.000Z'
 tags:
   - 2d

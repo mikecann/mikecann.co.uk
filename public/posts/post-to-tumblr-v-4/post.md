@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/03/screenshot_045.png'
+coverImage: /posts/post-to-tumblr-v-4/cover.jpg
 date: '2014-02-21T19:10:33.000Z'
 tags: []
 title: Post To Tumblr v.4

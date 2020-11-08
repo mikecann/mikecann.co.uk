@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2012/05/printomimaps.png'
+coverImage: /posts/printomi-maps/cover.jpg
 date: '2012-05-16T19:36:28.000Z'
 tags: []
 title: Printomi Maps

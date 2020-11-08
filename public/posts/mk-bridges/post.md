@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/10/mkb-header.png'
+coverImage: /posts/mk-bridges/cover.jpg
 date: '2014-10-06T23:53:48.000Z'
 tags:
   - .NET

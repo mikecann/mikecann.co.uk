@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/04/family-jewels.png'
+coverImage: /posts/the-three-game-challenge-part-3-the-family-jewels/cover.jpg
 date: '2013-04-25T11:03:10.000Z'
 tags:
   - ash

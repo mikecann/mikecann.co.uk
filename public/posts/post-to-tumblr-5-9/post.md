@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/10/promotion920x680.png'
+coverImage: /posts/post-to-tumblr-5-9/cover.jpg
 date: '2014-10-03T01:18:15.000Z'
 tags:
   - image

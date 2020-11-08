@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/06/countdown.png'
+coverImage: /posts/8hour-game-countdown-with-neil-haversham/cover.jpg
 date: '2009-06-04T12:38:02.000Z'
 tags:
   - 8HourGame

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/05/THEBROTH.png'
+coverImage: /posts/started-work-at-thebroth-in-perth/cover.jpg
 date: '2015-05-29T00:44:27.000Z'
 tags: []
 title: Started Work at TheBroth in Perth!

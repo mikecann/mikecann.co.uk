@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/07/header.jpg'
+coverImage: /posts/govhack-2015-should-i-drive/cover.jpg
 date: '2015-07-06T11:27:55.000Z'
 tags:
   - app

@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2014/09/screenshot_044-Sep.-29-08.31.png
+coverImage: /posts/mr-nibbles-3d-development-09-animations/cover.jpg
 date: '2014-09-29T00:37:18.000Z'
 tags:
   - 3d

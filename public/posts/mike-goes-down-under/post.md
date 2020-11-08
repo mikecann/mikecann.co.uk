@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/03/CropperCapture1.png'
+coverImage: /posts/mike-goes-down-under/cover.jpg
 date: '2014-03-10T21:16:06.000Z'
 tags:
   - australia

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/11/large-tile-920x680.png'
+coverImage: /posts/trello-tasks-a-new-chrome-extension/cover.jpg
 date: '2015-11-25T00:59:26.000Z'
 tags:
   - browser

@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2016/10/tech-campp-for-kids-judging.jpg
+coverImage: /posts/tech-camps-4-kids/cover.jpg
 date: '2016-10-02T01:57:08.000Z'
 tags:
   - competition

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/04/logo.png'
+coverImage: /posts/taming-unity/cover.jpg
 date: '2014-04-26T00:42:52.000Z'
 tags:
   - Games

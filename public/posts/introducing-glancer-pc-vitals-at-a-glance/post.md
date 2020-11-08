@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/11/glancer-header.jpg'
+coverImage: /posts/introducing-glancer-pc-vitals-at-a-glance/cover.jpg
 date: '2016-11-10T06:53:58.000Z'
 tags:
   - app

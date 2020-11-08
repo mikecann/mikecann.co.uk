@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/12/header.png'
+coverImage: /posts/unity-ash-upgrades/cover.jpg
 date: '2014-12-10T11:25:41.000Z'
 tags:
   - ash

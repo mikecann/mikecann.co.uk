@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/08/gr.png'
+coverImage: /posts/gourmet-ranch/cover.jpg
 date: '2010-08-04T11:57:48.000Z'
 tags:
   - Facebook

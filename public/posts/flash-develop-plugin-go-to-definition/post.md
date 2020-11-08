@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/05/gotodef.png'
+coverImage: /posts/flash-develop-plugin-go-to-definition/cover.jpg
 date: '2009-05-11T19:08:39.000Z'
 tags:
   - C#

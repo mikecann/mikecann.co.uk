@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_0022.png'
+coverImage: /posts/unity-ashteroids-ash-framework-in-unity/cover.jpg
 date: '2014-07-08T10:49:01.000Z'
 tags:
   - ash

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/06/large-tile-920x680.png'
+coverImage: /posts/new-tab-chrome-experiments-a-new-chrome-extension/cover.jpg
 date: '2016-06-27T23:50:30.000Z'
 tags:
   - chrome

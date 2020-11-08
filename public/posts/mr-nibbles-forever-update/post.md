@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/05/2015-05-03_18-01-46.png'
+coverImage: /posts/mr-nibbles-forever-update/cover.jpg
 date: '2015-04-29T10:02:48.000Z'
 tags: []
 title: Mr Nibbles Forever Update

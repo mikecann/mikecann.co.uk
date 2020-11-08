@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2003/12/cdrop.png'
+coverImage: /posts/code-drop-v2/cover.jpg
 date: '2003-12-27T21:54:34.000Z'
 tags: []
 title: Code Drop V2

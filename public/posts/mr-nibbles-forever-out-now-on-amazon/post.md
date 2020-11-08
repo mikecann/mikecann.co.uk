@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/10/nibbles-header.png'
+coverImage: /posts/mr-nibbles-forever-out-now-on-amazon/cover.jpg
 date: '2015-10-30T00:54:45.000Z'
 tags:
   - amazon

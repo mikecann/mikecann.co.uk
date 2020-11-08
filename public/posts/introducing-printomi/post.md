@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2012/04/prinotmi.png'
+coverImage: /posts/introducing-printomi/cover.jpg
 date: '2012-04-04T21:00:14.000Z'
 tags:
   - Announce

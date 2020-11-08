@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2012/12/recursive.png'
+coverImage: /posts/recursive-explore-the-endless-web/cover.jpg
 date: '2012-12-04T08:37:41.000Z'
 tags:
   - chrome

@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2014/09/screenshot_020-Sep.-21-13.33.png
+coverImage: /posts/indie-game-project-management-with-trello/cover.jpg
 date: '2014-09-21T06:28:46.000Z'
 tags:
   - management

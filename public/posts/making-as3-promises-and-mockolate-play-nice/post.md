@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/10/header.jpg'
+coverImage: /posts/making-as3-promises-and-mockolate-play-nice/cover.jpg
 date: '2015-10-13T00:23:55.000Z'
 tags:
   - as3

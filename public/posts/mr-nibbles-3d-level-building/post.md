@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/07/wdactfst.csv'
+coverImage: /images/fallback-post-header.jpg
 date: '2014-07-04T00:58:22.000Z'
 tags: []
 title: Mr Nibbles 3D - Level Building

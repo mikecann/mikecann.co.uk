@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/10/header.jpg'
+coverImage: /posts/the-sleeping-headphones-saga/cover.jpg
 date: '2017-10-23T09:27:00.000Z'
 tags:
   - behphones

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/08/screenshot_009.png'
+coverImage: /posts/post-to-tumblr-5/cover.jpg
 date: '2014-08-18T10:10:10.000Z'
 tags:
   - chrome

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2007/06/chainreacton.png'
+coverImage: /posts/chainreaction-binarysource-release/cover.jpg
 date: '2007-06-03T11:27:22.000Z'
 tags: []
 title: ChainReaction (Binary+Source Release)

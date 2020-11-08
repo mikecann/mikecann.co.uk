@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/12/bw.png'
+coverImage: /posts/blastwave-lost-at-sea/cover.jpg
 date: '2009-12-04T10:38:45.000Z'
 tags:
   - Flash

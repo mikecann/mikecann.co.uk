@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/12/Screenshot01-640x480.png'
+coverImage: /posts/trello-chat-a-chrome-extension/cover.jpg
 date: '2015-12-18T06:50:06.000Z'
 tags:
   - chrome extension

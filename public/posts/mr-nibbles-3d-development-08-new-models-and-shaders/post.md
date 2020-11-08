@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/08/screenshot_002.png'
+coverImage: /posts/mr-nibbles-3d-development-08-new-models-and-shaders/cover.jpg
 date: '2014-08-31T03:12:36.000Z'
 tags:
   - development

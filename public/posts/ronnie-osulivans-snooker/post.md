@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2006/08/ronnie.png'
+coverImage: /posts/ronnie-osulivans-snooker/cover.jpg
 date: '2006-08-31T17:29:37.000Z'
 tags: []
 title: Ronnie o'Sulivans Snooker

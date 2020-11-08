@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/07/2015-07-03_07-33-47.png'
+coverImage: /posts/mr-nibbles-forever-pre-release-9/cover.jpg
 date: '2015-07-03T05:08:07.000Z'
 tags:
   - 2d

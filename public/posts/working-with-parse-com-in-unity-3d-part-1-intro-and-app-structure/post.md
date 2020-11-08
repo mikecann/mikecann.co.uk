@@ -1,5 +1,6 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/unityparse.png'
+coverImage: >-
+  /posts/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/cover.jpg
 date: '2014-11-11T01:24:26.000Z'
 tags:
   - polymer

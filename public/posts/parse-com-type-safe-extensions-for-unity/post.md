@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/05/header.png'
+coverImage: /posts/parse-com-type-safe-extensions-for-unity/cover.jpg
 date: '2014-05-10T09:24:05.000Z'
 tags:
   - extensions

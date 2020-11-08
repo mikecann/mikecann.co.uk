@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2016/09/chrome_2016-09-15_08-29-25.png
+coverImage: /posts/introducing-markd-pinterest-for-people/cover.jpg
 date: '2016-09-15T02:25:17.000Z'
 tags:
   - ASP.Net

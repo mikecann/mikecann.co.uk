@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/05/higlight.png'
+coverImage: /posts/highlight-selected-plugin-updated-by-david-hancock/cover.jpg
 date: '2009-05-04T15:24:57.000Z'
 tags:
   - C#

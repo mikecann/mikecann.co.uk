@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/06/swift.png'
+coverImage: /posts/swft-dependency-injection-component-based-game-framework/cover.jpg
 date: '2010-06-13T16:22:34.000Z'
 tags:
   - community

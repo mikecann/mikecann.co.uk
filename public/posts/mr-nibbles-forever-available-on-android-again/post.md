@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2017/03/mr-nibbles-forever-availabe-on-android-again-header.jpg
+coverImage: /posts/mr-nibbles-forever-available-on-android-again/cover.jpg
 date: '2017-03-06T11:43:58.000Z'
 tags:
   - Android

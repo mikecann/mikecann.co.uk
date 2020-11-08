@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/04/lateesh.png'
+coverImage: /posts/the-three-game-challenge-part-1-lateshas-crib/cover.jpg
 date: '2013-04-03T12:27:08.000Z'
 tags:
   - challenge

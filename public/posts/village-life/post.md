@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/06/vl.png'
+coverImage: /posts/village-life/cover.jpg
 date: '2012-06-05T01:34:24.000Z'
 tags: []
 title: Village Life

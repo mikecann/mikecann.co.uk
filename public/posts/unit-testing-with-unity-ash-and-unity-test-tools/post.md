@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/11/tested-header.png'
+coverImage: /posts/unit-testing-with-unity-ash-and-unity-test-tools/cover.jpg
 date: '2015-11-02T09:45:01.000Z'
 tags:
   - architecture

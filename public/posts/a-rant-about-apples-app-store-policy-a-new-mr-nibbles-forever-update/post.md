@@ -1,5 +1,6 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/02/header.jpg'
+coverImage: >-
+  /posts/a-rant-about-apples-app-store-policy-a-new-mr-nibbles-forever-update/cover.jpg
 date: '2017-02-27T23:30:49.000Z'
 tags:
   - annoying

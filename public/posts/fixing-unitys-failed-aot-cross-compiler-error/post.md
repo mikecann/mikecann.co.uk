@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/06/yuno.jpg'
+coverImage: /posts/fixing-unitys-failed-aot-cross-compiler-error/cover.jpg
 date: '2015-06-24T00:00:53.000Z'
 tags: []
 title: Fixing Unity's Failed AOT cross compiler error

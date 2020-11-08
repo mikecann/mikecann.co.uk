@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/08/photo-30.jpg'
+coverImage: /posts/north-western-australia-winter-2014/cover.jpg
 date: '2014-08-30T06:15:18.000Z'
 tags:
   - australia

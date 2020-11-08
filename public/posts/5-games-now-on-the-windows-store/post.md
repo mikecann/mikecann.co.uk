@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2016/12/English_Get_it_Win_10_InvariantCulture_Default.png
+coverImage: /posts/5-games-now-on-the-windows-store/cover.jpg
 date: '2016-12-29T00:24:27.000Z'
 tags:
   - development

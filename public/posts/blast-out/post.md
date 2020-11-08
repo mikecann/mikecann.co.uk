@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2008/06/blastout.png'
+coverImage: /posts/blast-out/cover.jpg
 date: '2008-06-06T10:01:21.000Z'
 tags: []
 title: Blast Out

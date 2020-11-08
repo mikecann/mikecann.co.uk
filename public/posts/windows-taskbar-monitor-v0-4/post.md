@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/09/taskbar.png'
+coverImage: /posts/windows-taskbar-monitor-v0-4/cover.jpg
 date: '2013-09-25T01:32:29.000Z'
 tags:
   - C#

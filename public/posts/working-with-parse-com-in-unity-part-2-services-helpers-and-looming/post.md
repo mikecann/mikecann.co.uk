@@ -1,5 +1,6 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/unityparse1.png'
+coverImage: >-
+  /posts/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/cover.jpg
 date: '2014-11-11T01:24:32.000Z'
 tags:
   - C#

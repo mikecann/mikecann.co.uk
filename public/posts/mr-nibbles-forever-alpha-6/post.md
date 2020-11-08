@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/02/2015-02-23_10-30-33.png'
+coverImage: /posts/mr-nibbles-forever-alpha-6/cover.jpg
 date: '2015-02-23T03:10:36.000Z'
 tags:
   - 2d game

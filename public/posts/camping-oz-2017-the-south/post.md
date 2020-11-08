@@ -1,6 +1,5 @@
 ---
-coverImage: >-
-  https://www.mikecann.co.uk/wp-content/uploads/2017/09/chrome_2017-10-21_13-05-56.png
+coverImage: /posts/camping-oz-2017-the-south/cover.jpg
 date: '2017-09-15T04:52:35.000Z'
 tags: []
 title: Camping Oz 2017 - The South

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/05/header1.png'
+coverImage: /posts/fixing-unitys-internal-compiler-error/cover.jpg
 date: '2014-05-13T05:25:14.000Z'
 tags: []
 title: Fixing Unity's Internal Compiler Error

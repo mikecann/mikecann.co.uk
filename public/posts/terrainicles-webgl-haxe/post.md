@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2011/10/terranicles.png'
+coverImage: /posts/terrainicles-webgl-haxe/cover.jpg
 date: '2011-10-29T14:14:07.000Z'
 tags: []
 title: 'Terrainicles [WebGL & HaXe]'

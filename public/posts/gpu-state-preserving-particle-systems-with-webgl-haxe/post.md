@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2011/10/gpu-preserve.png'
+coverImage: /posts/gpu-state-preserving-particle-systems-with-webgl-haxe/cover.jpg
 date: '2011-10-20T12:02:35.000Z'
 tags:
   - complex

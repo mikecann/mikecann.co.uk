@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2011/07/dark-fd.png'
+coverImage: /posts/flashdevelop-obsidian-dark-theme-for-haxe/cover.jpg
 date: '2011-07-21T19:19:44.000Z'
 tags:
   - dark

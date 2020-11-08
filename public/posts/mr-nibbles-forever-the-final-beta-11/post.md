@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/08/2015-08-05_17-33-05.png'
+coverImage: /posts/mr-nibbles-forever-the-final-beta-11/cover.jpg
 date: '2015-08-05T10:52:26.000Z'
 tags:
   - beta

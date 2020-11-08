@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2008/04/blastwave.png'
+coverImage: /posts/blast-wave/cover.jpg
 date: '2008-04-29T12:26:59.000Z'
 tags: []
 title: Blast Wave

@@ -1,7 +1,16 @@
-import fs from "fs";
+import fs, { writeFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { producePostMeta } from "../pages/api/posts/PostMeta";
+import { promisify } from "util";
+import fetch from "node-fetch";
+import { pipeline } from "stream";
+import imageSize from "image-size";
+import { getPostCoverImageAbsolutePath } from "../pages/api/posts/index";
+
+const streamPipeline = promisify(pipeline);
+
+const fallbackImage = `/images/fallback-post-header.jpg`;
 
 const postsDirectory = join(process.cwd(), "public/posts");
 
@@ -39,9 +48,10 @@ const renameMDsInOwnDir = () => {
   }
 };
 
-const normalizeMetadata = () => {
+const normalizeMetadata = async () => {
   for (let filename of fs.readdirSync(postsDirectory)) {
-    const absPostPath = join(postsDirectory, filename, `post.md`);
+    const postDir = join(postsDirectory, filename);
+    const absPostPath = join(postDir, `post.md`);
     const fileContents = fs.readFileSync(absPostPath, "utf8");
 
     const { data, content } = matter(fileContents);
@@ -51,8 +61,28 @@ const normalizeMetadata = () => {
         ? (data.date as Date).toISOString()
         : new Date(data.date).toISOString();
 
+    let coverImage: string = data.coverImage || data.featuredImage || fallbackImage;
+
+    if (coverImage.startsWith("/public/posts/"))
+      coverImage = coverImage.replace("/public/posts/", "/posts/");
+
+    if (coverImage.startsWith("http")) {
+      console.log(`downloading '${coverImage}'...`);
+      const response = await fetch(coverImage);
+      if (!response.ok) throw new Error(`unexpected response ${response.statusText}`);
+      await streamPipeline(response.body, fs.createWriteStream(join(postDir, `cover.jpg`)));
+      coverImage = `/public/posts/${filename}/cover.jpg`;
+    }
+
+    try {
+      imageSize(getPostCoverImageAbsolutePath(postDir, coverImage));
+    } catch (e) {
+      console.log(`corrupt image, replacing with fallback`);
+      coverImage = fallbackImage;
+    }
+
     const postMeta = producePostMeta({
-      coverImage: data.coverImage || data.featuredImage || `/images/fallback-post-header.jpg`,
+      coverImage,
       date,
       tags: data.tags ?? [],
       title: data.title,
@@ -65,7 +95,7 @@ const normalizeMetadata = () => {
 async function bootstrap() {
   moveMDToOwnDirs();
   renameMDsInOwnDir();
-  normalizeMetadata();
+  await normalizeMetadata();
 }
 
 bootstrap();

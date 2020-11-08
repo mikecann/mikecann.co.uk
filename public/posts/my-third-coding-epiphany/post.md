@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/07/maxresdefault.jpg'
+coverImage: /posts/my-third-coding-epiphany/cover.jpg
 date: '2016-07-28T05:12:29.000Z'
 tags:
   - architecture

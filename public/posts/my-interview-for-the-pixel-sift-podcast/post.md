@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/05/sift.jpg'
+coverImage: /posts/my-interview-for-the-pixel-sift-podcast/cover.jpg
 date: '2016-05-18T07:14:54.000Z'
 tags:
   - interview

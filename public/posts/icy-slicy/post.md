@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2008/08/icy.png'
+coverImage: /posts/icy-slicy/cover.jpg
 date: '2008-08-13T09:49:18.000Z'
 tags: []
 title: Icy Slicy

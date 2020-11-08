@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/08/feature_graphic.jpg'
+coverImage: /posts/mr-nibbles-forever-out-now-on-google-play/cover.jpg
 date: '2015-08-24T10:05:48.000Z'
 tags:
   - 2d

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2013/03/1024x500.png'
+coverImage: /posts/ectoplasm-a-game-made-in-24-hours-ish/cover.jpg
 date: '2013-03-12T11:35:01.000Z'
 tags:
   - 24hour

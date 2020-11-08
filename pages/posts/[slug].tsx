@@ -6,7 +6,6 @@ import { ensure } from "../../utils/ensure";
 import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
 import { style } from "typestyle";
-import { getHeaderImageRelativePathForPost } from "../../utils/posts";
 
 type Props = {
   post: Post;
@@ -33,15 +32,21 @@ const contentStyles = style({
 });
 
 const StaticPropsDetail = ({ post, html }: Props) => {
-  const { meta } = post;
+  const { meta, coverImageSize, slug } = post;
+  const { coverImage } = meta;
+
+  const src = coverImage.startsWith("./")
+    ? `/posts/${slug}/${coverImage.replace("./", "")}`
+    : coverImage;
+
   return (
     <Layout title={`post`}>
       <Vertical width="100%">
         <Image
           //layout="fill"
-          width={2500}
-          height={1000}
-          src={post.meta.coverImage}
+          width={coverImageSize.width}
+          height={coverImageSize.height}
+          src={src}
           quality={100}
           priority
           style={{ objectFit: "cover" }}

@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2009/05/monkeymines.png'
+coverImage: /posts/monkey-mines/cover.jpg
 date: '2009-05-10T13:30:12.000Z'
 tags:
   - Flash

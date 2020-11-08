@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2015/01/2015-01-24_17-26-15.png'
+coverImage: /posts/mr-nibbles-forever-prototype-2/cover.jpg
 date: '2015-01-25T23:52:20.000Z'
 tags: []
 title: Mr Nibbles Forever - Prototype 2

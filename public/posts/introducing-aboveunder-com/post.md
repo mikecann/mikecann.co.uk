@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/03/header.jpg'
+coverImage: /posts/introducing-aboveunder-com/cover.jpg
 date: '2017-03-22T01:57:16.000Z'
 tags:
   - Above Under

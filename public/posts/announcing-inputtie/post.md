@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2010/09/inp.png'
+coverImage: /posts/announcing-inputtie/cover.jpg
 date: '2010-09-09T17:58:03.000Z'
 tags:
   - AIR

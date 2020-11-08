@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/head.png'
+coverImage: /posts/tinkering-with-google-polymer-and-typescript/cover.jpg
 date: '2014-11-02T05:18:13.000Z'
 tags:
   - css

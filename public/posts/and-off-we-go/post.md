@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2017/03/header-1.jpg'
+coverImage: /posts/and-off-we-go/cover.jpg
 date: '2017-03-24T01:30:00.000Z'
 tags:
   - Blog

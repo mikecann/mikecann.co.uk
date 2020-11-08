@@ -1,5 +1,6 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-11_08-39-16.png'
+coverImage: >-
+  /posts/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/cover.jpg
 date: '2014-11-11T01:24:38.000Z'
 tags:
   - C#

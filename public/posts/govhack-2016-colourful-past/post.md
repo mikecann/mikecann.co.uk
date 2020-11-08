@@ -1,5 +1,5 @@
 ---
-coverImage: 'https://www.mikecann.co.uk/wp-content/uploads/2016/08/header.jpg'
+coverImage: /posts/govhack-2016-colourful-past/cover.jpg
 date: '2016-08-01T07:22:09.000Z'
 tags:
   - ai
