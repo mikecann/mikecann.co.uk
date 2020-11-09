@@ -6,6 +6,7 @@ import { ensure } from "../../utils/ensure";
 import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
 import { style } from "typestyle";
+import { format } from "date-fns";
 
 type Props = {
   post: Post;
@@ -21,19 +22,22 @@ const contentStyles = style({
   maxWidth: 700,
   padding: 10,
   width: "100%",
-  // $nest: {
-  //   img: {
-  //     maxWidth: "100%",
-  //     marginTop: 20,
-  //     marginBottom: 20,
-  //     boxShadow: "0px 0px 10px #bbb !important",
-  //   },
-  // },
+  $nest: {
+    img: {
+      maxWidth: "100%",
+      marginTop: 20,
+      marginBottom: 20,
+      boxShadow: "0px 0px 10px #bbb !important",
+    },
+    h1: {
+      //fontSize: "1em",
+    },
+  },
 });
 
 const StaticPropsDetail = ({ post, html }: Props) => {
   const { meta, coverImageSize, slug } = post;
-  const { coverImage } = meta;
+  const { coverImage, title, date } = meta;
 
   const src = coverImage.startsWith("./")
     ? `/posts/${slug}/${coverImage.replace("./", "")}`
@@ -52,9 +56,14 @@ const StaticPropsDetail = ({ post, html }: Props) => {
           style={{ objectFit: "cover" }}
           alt="post header image"
         />
-
         <Horizontal width="100%" horizontalAlign="center">
-          <div className={contentStyles} dangerouslySetInnerHTML={{ __html: html }} />
+          <Vertical className={contentStyles}>
+            <h1 style={{ fontSize: "3em", margin: 0 }}>{title}</h1>
+            <div style={{ marginTop: 10, marginBottom: 20, color: "#bbbbbb" }}>
+              {format(new Date(date), "do MMMM yyyy")}
+            </div>
+            <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} />
+          </Vertical>
         </Horizontal>
       </Vertical>
     </Layout>
