@@ -7,6 +7,7 @@ import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
 import { style } from "typestyle";
 import { format } from "date-fns";
+import { getPostRootCoverImagePath } from "../../utils/posts";
 
 type Props = {
   post: Post;
@@ -39,10 +40,6 @@ const StaticPropsDetail = ({ post, html }: Props) => {
   const { meta, coverImageSize, slug } = post;
   const { coverImage, title, date } = meta;
 
-  const src = coverImage.startsWith("./")
-    ? `/posts/${slug}/${coverImage.replace("./", "")}`
-    : coverImage;
-
   return (
     <Layout title={`post`}>
       <Vertical width="100%">
@@ -50,7 +47,7 @@ const StaticPropsDetail = ({ post, html }: Props) => {
           //layout="fill"
           width={coverImageSize.width}
           height={coverImageSize.height}
-          src={src}
+          src={getPostRootCoverImagePath(post)}
           quality={100}
           priority
           style={{ objectFit: "cover" }}

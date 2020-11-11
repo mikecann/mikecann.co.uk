@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { map, pipe } from "ramda";
 import { PostMeta, producePostMeta } from "./PostMeta";
 import imageSize from "image-size";
+import { sortPostsDescending } from "../../../utils/posts";
 
 export type PostContent = string;
 
@@ -61,4 +62,4 @@ export const getPostBySlug = (slug: PostSlug): Post => {
   };
 };
 
-export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug));
+export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug), sortPostsDescending);
