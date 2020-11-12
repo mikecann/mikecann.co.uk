@@ -1,10 +1,12 @@
 import { Horizontal } from "gls/lib";
+import Link from "next/link";
 import * as React from "react";
 import { style } from "typestyle";
 
 interface Props {
   icon: React.ReactNode;
   label: string;
+  href?: string;
 }
 
 const styles = style({
@@ -18,10 +20,12 @@ const styles = style({
   },
 });
 
-export const PageButton: React.FC<Props> = ({ icon, label }) => {
+export const PageButton: React.FC<Props> = ({ icon, label, href = "" }) => {
   return (
-    <Horizontal className={styles} verticalAlign="center" spacing={7}>
-      {icon} <div>{label}</div>
-    </Horizontal>
+    <Link href={href} as={href}>
+      <Horizontal className={styles} verticalAlign="center" spacing={7}>
+        {icon} <div>{label}</div>
+      </Horizontal>
+    </Link>
   );
 };

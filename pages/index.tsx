@@ -5,43 +5,54 @@ import { GetStaticProps } from "next";
 import { getAllPosts, Post } from "./api/posts";
 import { Sidebar } from "../components/sidebar/Sidebar";
 import { PostTeaser } from "../components/PostTeaser";
+import { groupPostsByYear, PostsByYear } from "../utils/posts";
+import { HomeLayout } from "../components/HomeLayout";
+import { ArchiveYears } from "../components/ArchiveYears";
 
 type Props = {
-  allPosts: Post[];
+  postsByYear: PostsByYear;
+  theOtherYears: string[];
 };
 
-const IndexPage = ({ allPosts }: Props) => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <Horizontal height="100%">
-      <Sidebar />
-      <Grid
-        width="100%"
-        style={{
-          padding: "10px 40px 40px 450px",
-        }}
-        spacing={20}
-      >
-        {/* TODO: GROUP BY YEARS */}
-        {/* <h1>Welcome to MikeCann.co.uk 👋</h1> */}
-        {allPosts.slice(0, 500).map((post) => (
-          <PostTeaser post={post} />
-          // <li key={slug}>
-          //   <Link href="/posts/[slug]" as={`/posts/${slug}`}>
-          //     <a>
-          //       {slug} ::: {title}
-          //     </a>
-          //   </Link>
-          // </li>
+const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
+  return (
+    <HomeLayout title="Home">
+      {Object.keys(postsByYear)
+        .reverse()
+        .map((year) => (
+          <Vertical width="100%">
+            <h1>{year}</h1>
+            <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
+              {postsByYear[parseInt(year)].map((post) => (
+                <PostTeaser post={post} />
+              ))}
+            </Grid>
+          </Vertical>
         ))}
-      </Grid>
-    </Horizontal>
-  </Layout>
-);
+
+      <Vertical style={{ marginBottom: 20 }}>
+        <h1>Archive</h1>
+        <ArchiveYears years={theOtherYears} />
+      </Vertical>
+    </HomeLayout>
+  );
+};
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const allPosts = getAllPosts();
+  const postsByYear = groupPostsByYear(allPosts);
+
+  const firstThreeYears = Object.keys(postsByYear)
+    .reverse()
+    .slice(0, 3)
+    .reduce((accum, curr) => ({ ...accum, [curr]: postsByYear[parseInt(curr)] }), {});
+
+  const theOtherYears = Object.keys(postsByYear)
+    .filter((year) => !Object.keys(firstThreeYears).includes(year))
+    .reverse();
+
   return {
-    props: { allPosts },
+    props: { postsByYear: firstThreeYears, theOtherYears },
   };
 };
 

@@ -60,14 +60,13 @@ export const Sidebar: React.FC<Props> = ({}) => {
       </Horizontal>
       <VerticalSpacer space={30} />
       <Grid width={300} justify="center" cols={2} colSpan={2} spacing={[30, 40]}>
-        <PageButton icon={<FaHome />} label="Home" />
-        <PageButton icon={<BsFillCollectionFill />} label="Categories" />
+        <PageButton icon={<FaHome />} label="Home" href="/" />
 
-        <PageButton icon={<FaTags />} label="Tags" />
-        <PageButton icon={<HiArchive />} label="Archive" />
+        <PageButton icon={<FaTags />} label="Tags" href="/tags" />
+        <PageButton icon={<HiArchive />} label="Archive" href="/years" />
 
-        <PageButton icon={<IoMdInformationCircle />} label="About" />
-        <PageButton icon={<FaRssSquare />} label="RSS" />
+        <PageButton icon={<IoMdInformationCircle />} label="About" href="/about" />
+        <PageButton icon={<FaRssSquare />} label="RSS" href="/rss.xml" />
 
         <PageButton icon={<IoMdSearch />} label="Search" />
       </Grid>

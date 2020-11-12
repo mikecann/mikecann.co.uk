@@ -37,3 +37,13 @@ body {
     transform: translatey(0px);
   }
 }
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+a:hover {
+  color: #f1773c;
+}

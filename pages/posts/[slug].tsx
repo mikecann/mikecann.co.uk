@@ -36,7 +36,7 @@ const contentStyles = style({
   },
 });
 
-const StaticPropsDetail = ({ post, html }: Props) => {
+const PostPage = ({ post, html }: Props) => {
   const { meta, coverImageSize, slug } = post;
   const { coverImage, title, date } = meta;
 
@@ -67,7 +67,7 @@ const StaticPropsDetail = ({ post, html }: Props) => {
   );
 };
 
-export default StaticPropsDetail;
+export default PostPage;
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = getAllPosts();
