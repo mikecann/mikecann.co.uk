@@ -5,9 +5,10 @@ import { GetStaticProps } from "next";
 import { getAllPosts, Post } from "./api/posts";
 import { Sidebar } from "../components/sidebar/Sidebar";
 import { PostTeaser } from "../components/PostTeaser";
-import { groupPostsByYear, PostsByYear } from "../utils/posts";
+import { groupPostsByYear, PostsByYear, sortPosts } from "../utils/posts";
 import { HomeLayout } from "../components/HomeLayout";
 import { ArchiveYears } from "../components/ArchiveYears";
+import { getAllPostsWithoutContent } from "./api/posts/index";
 
 type Props = {
   postsByYear: PostsByYear;
@@ -24,7 +25,7 @@ const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
             <h1>{year}</h1>
             <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
               {postsByYear[parseInt(year)].map((post) => (
-                <PostTeaser post={post} />
+                <PostTeaser key={`${year}-${post.slug}`} post={post} />
               ))}
             </Grid>
           </Vertical>
@@ -39,7 +40,7 @@ const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
 };
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const allPosts = getAllPosts();
+  const allPosts = sortPosts(getAllPostsWithoutContent(), "desc");
   const postsByYear = groupPostsByYear(allPosts);
 
   const firstThreeYears = Object.keys(postsByYear)

@@ -2,15 +2,22 @@ import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
 import { getAllPosts } from "../api/posts";
 import { HomeLayout } from "../../components/HomeLayout";
-import { PostsByYear, groupPostsByYear, sortPosts, sortYears } from "../../utils/posts";
+import {
+  PostsByYear,
+  groupPostsByYear,
+  sortPosts,
+  sortYears,
+  groupPostsByTag,
+  PostsByTag,
+} from "../../utils/posts";
 import { ArchiveCard } from "../../components/ArchiveCard";
 import { getAllPostsWithoutContent } from "../api/posts/index";
 
 type Props = {
-  postsByYear: PostsByYear;
+  postsByTag: PostsByTag;
 };
 
-const Page = ({ postsByYear }: Props) => {
+const Page = ({ postsByTag }: Props) => {
   return (
     <HomeLayout title="Year XXX">
       <Vertical style={{ marginBottom: 20 }}>
@@ -23,8 +30,8 @@ const Page = ({ postsByYear }: Props) => {
             //margin: "50px auto"
           }}
         > */}
-          {sortYears(Object.keys(postsByYear), "desc").map((year) => (
-            <ArchiveCard title={year} posts={sortPosts(postsByYear[parseInt(year)])} />
+          {Object.keys(postsByTag).map((tag) => (
+            <ArchiveCard title={tag} posts={sortPosts(postsByTag[tag])} />
           ))}
           {/* </div> */}
         </Grid>
@@ -34,8 +41,9 @@ const Page = ({ postsByYear }: Props) => {
 };
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
+  const postsByTag = groupPostsByTag(getAllPostsWithoutContent());
   return {
-    props: { postsByYear: groupPostsByYear(getAllPostsWithoutContent()) },
+    props: { postsByTag },
   };
 };
 

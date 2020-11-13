@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { map, pipe } from "ramda";
 import { PostMeta, producePostMeta } from "./PostMeta";
 import imageSize from "image-size";
-import { sortPostsDescending } from "../../../utils/posts";
+import { removeContentFromPosts } from "../../../utils/posts";
 
 export type PostContent = string;
 
@@ -14,12 +14,15 @@ export interface Post {
   absPostPath: string;
   slug: PostSlug;
   meta: PostMeta;
-  content: PostContent;
   coverImageSize: {
     width: number;
     height: number;
   };
 }
+
+export type PostWithContent = Post & {
+  content: PostContent;
+};
 
 export const postsDirectory = join(process.cwd(), "public/posts");
 
@@ -39,7 +42,7 @@ export const getPostCoverImageRootPath = (slug: string, coverImage: string) => {
   return join(`/posts/${slug}`, coverImage);
 };
 
-export const getPostBySlug = (slug: PostSlug): Post => {
+export const getPostBySlug = (slug: PostSlug): PostWithContent => {
   const postDir = join(postsDirectory, slug);
   const absPostPath = join(postDir, `post.md`);
   const fileContents = fs.readFileSync(absPostPath, "utf8");
@@ -62,4 +65,6 @@ export const getPostBySlug = (slug: PostSlug): Post => {
   };
 };
 
-export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug), sortPostsDescending);
+export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug));
+
+export const getAllPostsWithoutContent = pipe(getAllPosts, removeContentFromPosts);
