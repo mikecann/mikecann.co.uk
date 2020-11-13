@@ -26,7 +26,7 @@ export type PostsByYear = {
   [year: number]: Post[];
 };
 
-export type PostsByTag<T extends Post> = {
+export type PostsByTag<T extends Post = Post> = {
   [tag: string]: T[];
 };
 
