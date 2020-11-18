@@ -1,6 +1,5 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { getAllPosts } from "../api/posts";
 import { HomeLayout } from "../../components/HomeLayout";
 import { PostsByYear, groupPostsByYear, sortPosts, sortYears } from "../../utils/posts";
 import { ArchiveCard } from "../../components/ArchiveCard";
@@ -24,7 +23,7 @@ const Page = ({ postsByYear }: Props) => {
           }}
         > */}
           {sortYears(Object.keys(postsByYear), "desc").map((year) => (
-            <ArchiveCard title={year} posts={sortPosts(postsByYear[parseInt(year)])} />
+            <ArchiveCard key={year} title={year} posts={sortPosts(postsByYear[parseInt(year)])} />
           ))}
           {/* </div> */}
         </Grid>

@@ -1,39 +1,24 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { getAllPosts } from "../api/posts";
 import { HomeLayout } from "../../components/HomeLayout";
-import {
-  PostsByYear,
-  groupPostsByYear,
-  sortPosts,
-  sortYears,
-  groupPostsByTag,
-  PostsByTag,
-} from "../../utils/posts";
-import { ArchiveCard } from "../../components/ArchiveCard";
+import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import { getAllPostsWithoutContent } from "../api/posts/index";
+import Link from "next/link";
 
 type Props = {
-  postsByTag: PostsByTag;
+  tags: { tag: string; postsCount: number }[];
 };
 
-const Page = ({ postsByTag }: Props) => {
+const Page = ({ tags }: Props) => {
   return (
     <HomeLayout title="Year XXX">
       <Vertical style={{ marginBottom: 20 }}>
-        <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
-          {/* <div
-          style={{
-            columnWidth: 320,
-            columnGap: 15,
-            minHeight: 1000,
-            //margin: "50px auto"
-          }}
-        > */}
-          {Object.keys(postsByTag).map((tag) => (
-            <ArchiveCard title={tag} posts={sortPosts(postsByTag[tag])} />
+        <Grid width="100%" spacing={[5, 20]} style={{ alignItems: "center" }}>
+          {tags.map(({ tag, postsCount }) => (
+            <Vertical key={tag + postsCount} verticalAlign="center" style={{ fontSize: 0.5 + 0.1 * postsCount + `em` }}>
+              <Link href={`/tags/${tag}`}>{tag}</Link>
+            </Vertical>
           ))}
-          {/* </div> */}
         </Grid>
       </Vertical>
     </HomeLayout>
@@ -42,8 +27,13 @@ const Page = ({ postsByTag }: Props) => {
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const postsByTag = groupPostsByTag(getAllPostsWithoutContent());
+  const tagsByLastUsed = calculateTagsLastUse(postsByTag);
+  const tags: Props["tags"] = tagsByLastUsed
+    .sort((a, b) => b.lastUse.getTime() - a.lastUse.getTime())
+    .map(({ tag, posts }) => ({ tag, postsCount: posts.length }));
+
   return {
-    props: { postsByTag },
+    props: { tags },
   };
 };
 

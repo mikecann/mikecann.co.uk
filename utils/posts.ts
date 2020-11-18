@@ -55,6 +55,15 @@ export const groupPostsByTag = <T extends Post>(posts: T[]): PostsByTag<T> => {
   return postsByTag;
 };
 
+export const calculateTagsLastUse = <T extends Post>(
+  tags: PostsByTag<T>
+): { tag: string; posts: T[]; lastUse: Date }[] =>
+  Object.entries(tags).map(([tag, posts]) => ({
+    tag,
+    posts,
+    lastUse: posts.length == 0 ? new Date(0) : new Date(sortPosts(posts, "desc")[0].meta.date),
+  }));
+
 export const getPostsByYear = (year: string, posts: Post[]) =>
   groupPostsByYear(posts)[parseInt(year)];
 

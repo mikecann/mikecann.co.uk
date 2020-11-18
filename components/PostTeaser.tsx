@@ -82,7 +82,7 @@ export const PostTeaser: React.FC<Props> = ({ post }) => {
               style={{
                 color: "#ddd",
                 fontSize: "0.6em",
-                borderTop: "1px solid #ddd",
+                borderTop: "1px solid #eee",
                 padding: "0px 5px 5px 5px",
               }}
             >

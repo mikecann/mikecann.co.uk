@@ -21,7 +21,7 @@ const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
       {Object.keys(postsByYear)
         .reverse()
         .map((year) => (
-          <Vertical width="100%">
+          <Vertical key={year} width="100%">
             <h1>{year}</h1>
             <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
               {postsByYear[parseInt(year)].map((post) => (

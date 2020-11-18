@@ -20,7 +20,7 @@ const Page = ({ year, posts, years }: Props) => {
         <h1>{year}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
           {posts.map((post) => (
-            <PostTeaser post={post} />
+            <PostTeaser key={post.slug} post={post} />
           ))}
         </Grid>
       </Vertical>

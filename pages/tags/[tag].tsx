@@ -25,7 +25,7 @@ const Page = ({ tag, posts }: Props) => {
         <h1>{tag}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
           {posts.map((post) => (
-            <PostTeaser post={post} />
+            <PostTeaser key={post.slug} post={post} />
           ))}
         </Grid>
       </Vertical>
