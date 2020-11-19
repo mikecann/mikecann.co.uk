@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import Link from "next/link";
 import Head from "next/head";
+import { SearchModal } from "./searchModal/SearchModal";
 
 type Props = {
   children?: ReactNode;
@@ -34,6 +35,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <hr />
       <span>I'm here to stay (Footer)</span>
     </footer> */}
+    
   </div>
 );
 

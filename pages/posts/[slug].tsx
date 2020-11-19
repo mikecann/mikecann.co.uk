@@ -8,7 +8,9 @@ import { Horizontal, Vertical } from "gls/lib";
 import { style } from "typestyle";
 import { format } from "date-fns";
 import { getPostRootCoverImagePath } from "../../utils/posts";
-import Observer from "@researchgate/react-intersection-observer";
+import { useScrollYPosition } from "react-use-scroll-position";
+import { TopNavbar } from "../../components/navbar/TopNavbar";
+import { SearchModal } from "../../components/searchModal/SearchModal";
 
 type Props = {
   post: Post;
@@ -43,33 +45,29 @@ const PostPage = ({ post, html }: Props) => {
 
   return (
     <Layout title={`post`}>
-      <Observer
-        data-comment="Observer"
-        root={"window"}
-        onChange={(event) => console.log("VISIBILITY", event)}
-      >
-        <Vertical width="100%">
-          <Image
-            //layout="fill"
-            width={coverImageSize.width}
-            height={coverImageSize.height}
-            src={getPostRootCoverImagePath(post)}
-            quality={100}
-            priority
-            style={{ objectFit: "cover" }}
-            alt="post header image"
-          />
-          <Horizontal width="100%" horizontalAlign="center">
-            <Vertical className={contentStyles}>
-              <h1 style={{ fontSize: "3em", margin: 0 }}>{title}</h1>
-              <div style={{ marginTop: 10, marginBottom: 20, color: "#bbbbbb" }}>
-                {format(new Date(date), "do MMMM yyyy")}
-              </div>
-              <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} />
-            </Vertical>
-          </Horizontal>
-        </Vertical>
-      </Observer>
+      <TopNavbar />
+      {/* <SearchModal /> */}
+      <Vertical width="100%">
+        <Image
+          //layout="fill"
+          width={coverImageSize.width}
+          height={coverImageSize.height}
+          src={getPostRootCoverImagePath(post)}
+          quality={100}
+          priority
+          style={{ objectFit: "cover" }}
+          alt="post header image"
+        />
+        <Horizontal width="100%" horizontalAlign="center">
+          <Vertical className={contentStyles}>
+            <h1 style={{ fontSize: "3em", margin: 0 }}>{title}</h1>
+            <div style={{ marginTop: 10, marginBottom: 20, color: "#bbbbbb" }}>
+              {format(new Date(date), "do MMMM yyyy")}
+            </div>
+            <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} />
+          </Vertical>
+        </Horizontal>
+      </Vertical>
     </Layout>
   );
 };
