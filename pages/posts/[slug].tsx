@@ -11,6 +11,7 @@ import { getPostRootCoverImagePath } from "../../utils/posts";
 import { useScrollYPosition } from "react-use-scroll-position";
 import { TopNavbar } from "../../components/navbar/TopNavbar";
 import { SearchModal } from "../../components/searchModal/SearchModal";
+import { useState } from "react";
 
 type Props = {
   post: Post;
@@ -40,13 +41,15 @@ const contentStyles = style({
 });
 
 const PostPage = ({ post, html }: Props) => {
+  
+
   const { meta, coverImageSize, slug } = post;
   const { coverImage, title, date } = meta;
 
   return (
     <Layout title={`post`}>
       <TopNavbar />
-      {/* <SearchModal /> */}
+     
       <Vertical width="100%">
         <Image
           //layout="fill"

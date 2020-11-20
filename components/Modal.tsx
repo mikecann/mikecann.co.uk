@@ -1,9 +1,11 @@
 import { Horizontal, Vertical } from "gls/lib";
 import * as React from "react";
 
-interface Props extends React.ComponentProps<typeof Vertical> {}
+interface Props extends React.ComponentProps<typeof Vertical> {
+  onClose?: () => any;
+}
 
-export const Modal: React.FC<Props> = ({ style, children, ...rest }) => {
+export const Modal: React.FC<Props> = ({ onClose, style, children, ...rest }) => {
   return (
     <Horizontal
       data-comment="Modal"
@@ -18,6 +20,7 @@ export const Modal: React.FC<Props> = ({ style, children, ...rest }) => {
       }}
       horizontalAlign="center"
       verticalAlign="center"
+      onClick={onClose}
     >
       <Vertical
         style={{ backgroundColor: "white", padding: 20, borderRadius: 6, ...style }}

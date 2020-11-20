@@ -7,6 +7,7 @@ interface Props {
   icon: React.ReactNode;
   label: string;
   href?: string;
+  onClick?: () => any;
 }
 
 const styles = style({
@@ -20,10 +21,10 @@ const styles = style({
   },
 });
 
-export const PageButton: React.FC<Props> = ({ icon, label, href = "" }) => {
+export const PageButton: React.FC<Props> = ({ onClick, icon, label, href = "" }) => {
   return (
     <Link href={href} as={href}>
-      <Horizontal className={styles} verticalAlign="center" spacing={7}>
+      <Horizontal onClick={onClick} className={styles} verticalAlign="center" spacing={7}>
         {icon} <div>{label}</div>
       </Horizontal>
     </Link>

@@ -4,14 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn populateAlgolia && next build",
     "start": "next start",
-    "script": "ts-node --files --project ./scripts/tsconfig.json"
+    "script": "ts-node --files --project ./scripts/tsconfig.json",
+    "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts"
   },
   "dependencies": {
     "@types/isomorphic-fetch": "^0.0.35",
     "@types/node-fetch": "^2.5.7",
     "@types/ramda": "^0.27.32",
+    "algoliasearch": "^4.8.0",
     "csstips": "^1.2.0",
     "csx": "^10.0.1",
     "date-fns": "^2.16.1",
