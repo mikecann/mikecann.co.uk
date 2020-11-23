@@ -87,7 +87,7 @@ export const PostTeaser: React.FC<Props> = ({ post }) => {
               }}
             >
               {tags.map((t) => (
-                <div className={tagStyles}>
+                <div key={t} className={tagStyles}>
                   <Link href="/tags/[r]" as={`/tags/${t}`}>
                     {t}
                   </Link>

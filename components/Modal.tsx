@@ -16,14 +16,24 @@ export const Modal: React.FC<Props> = ({ onClose, style, children, ...rest }) =>
         width: "100%",
         height: "100%",
         zIndex: 100,
-        backgroundColor: "rgba(0,0,0,0.5)",
       }}
       horizontalAlign="center"
       verticalAlign="center"
-      onClick={onClose}
     >
+      <div
+        onClick={onClose}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: 101,
+          backgroundColor: "rgba(0,0,0,0.5)",
+        }}
+      />
       <Vertical
-        style={{ backgroundColor: "white", padding: 20, borderRadius: 6, ...style }}
+        style={{ backgroundColor: "white", padding: 20, borderRadius: 6, zIndex: 102, ...style }}
         {...rest}
       >
         {children}

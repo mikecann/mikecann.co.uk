@@ -19,6 +19,7 @@ async function bootstrap() {
     coverImage: e.meta.coverImage,
     createdAt: new Date(e.meta.date).getTime(),
     objectID: e.slug,
+    slug: e.slug,
   }));
 
   console.log(`adding ${toAdd.length} posts`);

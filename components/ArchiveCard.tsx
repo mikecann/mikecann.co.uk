@@ -2,8 +2,6 @@ import { Grid, Vertical } from "gls/lib";
 import * as React from "react";
 import { Post } from "../pages/api/posts";
 import { format } from "date-fns";
-import Image from "next/image";
-import { getPostRootCoverImagePath } from "../utils/posts";
 import { style } from "typestyle";
 import Link from "next/link";
 
@@ -25,7 +23,7 @@ export const ArchiveCard: React.FC<Props> = ({ title, posts }) => {
       <h1 style={{ margin: "0 0 10px" }}>{title}</h1>
       <Vertical spacing={10}>
         {posts.map((post) => (
-          <div>
+          <div key={post.slug}>
             <Link href="/posts/[slug]" as={`/posts/${post.slug}`}>
               {post.meta.title}
             </Link>

@@ -4,4 +4,5 @@ export interface AlgoliaHit {
   coverImage: string;
   createdAt: number;
   objectID: string;
+  slug: string;
 }

@@ -37,9 +37,11 @@ export const TopNavbar: React.FC<Props> = ({}) => {
         }}
       >
         <Link href="/">
-          <IconButton>
-            <FaHome />
-          </IconButton>
+          <a>
+            <IconButton>
+              <FaHome />
+            </IconButton>
+          </a>
         </Link>
 
         <StretchSpacer />
@@ -53,9 +55,8 @@ export const TopNavbar: React.FC<Props> = ({}) => {
         <IconButton onClick={() => setSearchVisible(true)}>
           <FaSearch />
         </IconButton>
-
       </Horizontal>
-      
+
       {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}
     </>
   );
