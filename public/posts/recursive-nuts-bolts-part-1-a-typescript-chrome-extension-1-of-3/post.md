@@ -13,9 +13,9 @@ tags:
 title: "Recursive, Nuts & Bolts Part 1 - A Typescript Chrome Extension  (1 of 3)"
 ---
 
-[![screenshot_04](/wp-content/uploads/2012/12/screenshot_041.png)](https://mikecann.co.uk/personal-project/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_04-5/)
+[![screenshot_04](/wp-content/uploads/2012/12/screenshot_041.png)](/posts/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_04-5/)
 
-As [promised](https://mikecann.co.uk/personal-project/recursive-explore-the-endless-web/) I have decided to write a few blog posts on some of the technology behind my recently release Chrome extension Recursive.
+As [promised](/posts/recursive-explore-the-endless-web/) I have decided to write a few blog posts on some of the technology behind my recently release Chrome extension Recursive.
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ With that out the way lets get on with the show..
 
 When a user open a new tab or browses a new page in Chrome a background script in Recursive inspects the URL you are visiting and so long as it is of type https:// or https:// it will add a small icon to the omni bar:
 
-[![screenshot_02](/wp-content/uploads/2012/12/screenshot_02.png)](https://mikecann.co.uk/personal-project/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_02-10/)
+[![screenshot_02](/wp-content/uploads/2012/12/screenshot_02.png)](/posts/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_02-10/)
 
 Clicking this button opens up a new tab with the Recursive app inside. The app consists of a single HTML document “app.htm” with all of the logic split up into multiple Javascript files which mirror the Typescript files that were used to generate them (more on that below).
 
@@ -41,11 +41,11 @@ There are three main parts of the application; the HTML and its associated contr
 
 ### Typescript Code Structure
 
-I have already mentioned in a[ previous post](https://mikecann.co.uk/personal-project/tinkering-with-typescript/) that I took advantage of the new language Typescript from Microsoft to build Recursive. I won't reiterate the reasons I really like Typescript (I should be paid for my evangelizing :P), go check out my [previous post](https://mikecann.co.uk/personal-project/tinkering-with-typescript/) if you are interested in hearing my thoughts on the language.
+I have already mentioned in a[ previous post](/posts/tinkering-with-typescript/) that I took advantage of the new language Typescript from Microsoft to build Recursive. I won't reiterate the reasons I really like Typescript (I should be paid for my evangelizing :P), go check out my [previous post](/posts/tinkering-with-typescript/) if you are interested in hearing my thoughts on the language.
 
 The way I have structured things in Recursive is to have a central context / entry point in the form of a file called app.ts. This file lives in the root of the project and I use it as a sort of globals file. I know, I know what you are thinking, “Globals! Mike, you should know better!”. In this instance however I think because Recursive is a standable app inside an extension it is unlikely to conflict with any other JS (supposing the libraries I use dont declare any global variables). Besides I don't like the alternative that involves using RequireJS or AMD due to all the magic strings and non-type safety involved.
 
-[![screenshot_03](/wp-content/uploads/2012/12/screenshot_03.png)](https://mikecann.co.uk/personal-project/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_03-6/)
+[![screenshot_03](/wp-content/uploads/2012/12/screenshot_03.png)](/posts/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_03-6/)
 
 App.ts also contains references to every other typescript file in the app. This means that when a new TS file is created I only have to add a single reference back to app.ts and all the classes and types contained in the other files will be available (this solution actually feels kind of icky, much in the same way as globals do, but one of the samples on the Typescript homepage uses this ‘driver’ method so I guess its okay!).
 

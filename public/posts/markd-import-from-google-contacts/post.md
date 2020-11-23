@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2019-08-20T08:51:40.000Z'
+date: "2019-08-20T08:51:40.000Z"
 tags:
   - Markd
   - NewFeature
@@ -33,7 +33,7 @@ Importing seems quite simple on the surface but due to the differences between a
 4. For all the existing marks go through each and update it if it needs updating or skip it if it doesnt.
 5. Gather the results of the following steps and "apply" the changes.
 
-Although the above is fairly simple there is a subtle issue. If you remember back from [my previous post](https://mikecann.co.uk/markd/markd-custom-fields/) on our custom fields feature we decided to implement a system where all fields on all Marks must have a "definition" first. This definition describes its "kind", its "name" and a few other properties. The idea here was that marks could share common fields which would be really useful.
+Although the above is fairly simple there is a subtle issue. If you remember back from [my previous post](/posts/markd-custom-fields/) on our custom fields feature we decided to implement a system where all fields on all Marks must have a "definition" first. This definition describes its "kind", its "name" and a few other properties. The idea here was that marks could share common fields which would be really useful.
 
 The problem with this system is that it complicated the above algorithm, it forced us to load those definitions from the database then compare them in a way to determine if we needed a new definition when importing the fields from a [Google Person](https://developers.google.com/people/api/rest/v1/people#Person). Not only that if you take a look at the API for a Google Person you will notice that many of the fields have a "type", such as [EmailAddress](https://developers.google.com/people/api/rest/v1/people#Person.EmailAddress).
 

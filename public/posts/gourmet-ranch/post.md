@@ -11,7 +11,7 @@ tags:
 title: Gourmet Ranch
 ---
 
-[About 6 months ago I joined a new startup](https://mikecann.co.uk/photos-personal/playdemic-my-fist-day/) called Playdemic as the Lead Flash Developer. I couldn't say much at the time as we were in stealth mode. As our first product has been out for about a month however, I think its about time I wrote a blog post on the subject.
+[About 6 months ago I joined a new startup](/posts/playdemic-my-fist-day/) called Playdemic as the Lead Flash Developer. I couldn't say much at the time as we were in stealth mode. As our first product has been out for about a month however, I think its about time I wrote a blog post on the subject.
 
 <!-- more -->
 

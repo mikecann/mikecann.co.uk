@@ -12,7 +12,7 @@ tags:
 title: Tinkering With Ash
 ---
 
-[Last October](https://mikecann.co.uk/misc/try-harder-2012-slides/) I was fortunate enough to attend the excellent [Try Harder](https://www.tryharder.org.uk/) conference for the second time.[ I have spoken before](https://mikecann.co.uk/photos-personal/try-harder-2012/) about how inspirational the event is where every attendant must give a talk on something they are passionate about. One of the talks was by David Wagner's and was on 'The Value of Tinkering' and it inspired me to[ tinker with TypeScript](https://mikecann.co.uk/personal-project/tinkering-with-typescript/) which led to my [Recursive Chrome Extension](https://mikecann.co.uk/category/personal-project/recursive/).
+[Last October](/posts/try-harder-2012-slides/) I was fortunate enough to attend the excellent [Try Harder](https://www.tryharder.org.uk/) conference for the second time.[ I have spoken before](/posts/try-harder-2012/) about how inspirational the event is where every attendant must give a talk on something they are passionate about. One of the talks was by David Wagner's and was on 'The Value of Tinkering' and it inspired me to[ tinker with TypeScript](/posts/tinkering-with-typescript/) which led to my [Recursive Chrome Extension](/posts/personal-project/recursive/).
 
 <!-- more -->
 
@@ -20,7 +20,7 @@ Before I go any further I should mention that there is a [Try Harder 'Level Up
 
 Following on in the same 'Tinkering' vein I have decided to investigate an AS3 library by another Try Harder attendee [Richard Lord](https://www.richardlord.net/blog):
 
-[![logo](/wp-content/uploads/2013/02/logo.png)](https://mikecann.co.uk/flash/tinkering-with-ash/attachment/logo-4/)
+[![logo](/wp-content/uploads/2013/02/logo.png)](/posts/tinkering-with-ash/attachment/logo-4/)
 
 &nbsp;
 
@@ -35,7 +35,7 @@ What is Ash? Well direct from the [Ash Website:](https://www.ashframework.org/)
 - [Why use an entity system framework for game development?](https://www.richardlord.net/blog/why-use-an-entity-framework)
   If you haven't got a clue what im talking about when I say Entity or Component I strongly recommend checking out his posts first.
 
-The reason why Ash has piqued my interest is because for the last three years I have been working with Entity-Component systems for games but in a totally different way. The way I have been using and developing started with the Push Button Engine (PBE) method and later expanded out to include Dependency Injection culminating in the [Swft Framework](https://mikecann.co.uk/personal-project/swft-dependency-injection-component-based-game-framework/).
+The reason why Ash has piqued my interest is because for the last three years I have been working with Entity-Component systems for games but in a totally different way. The way I have been using and developing started with the Push Button Engine (PBE) method and later expanded out to include Dependency Injection culminating in the [Swft Framework](/posts/swft-dependency-injection-component-based-game-framework/).
 
 Ill give one example of why am starting to fall in love with Ash:
 
@@ -51,7 +51,7 @@ Systems also must not declare dependencies between each other. This rule means y
 
 Thus far I have only spent a limited amount of time tinkering with Ash but I am having a whole lot of fun. I have started work on a little game to experiment around with the framework. At the same time I have been exploring [Starling](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CD8QFjAB&url=http%3A%2F%2Fgamua.com%2Fstarling%2F&ei=yiEdUazkL-uX0QWNz4EI&usg=AFQjCNHKL4BaeidkUlpmw48eBMwyhwG2tw&bvm=bv.42452523,d.d2k), the hardware accelerated 2D rendering framework built on Stage3D. Thus far I have produced this little map editor:
 
-<object width="650" height="650" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="direct" /><param name="src" value="https://mikecann.co.uk/projects/Mash/01/MashWeb.swf" /><param name="quality" value="high" /><param name="pluginspage" value="https://www.macromedia.com/go/getflashplayer" /><embed width="650" height="650" type="application/x-shockwave-flash" src="https://mikecann.co.uk/projects/Mash/01/MashWeb.swf" wmode="direct" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" /></object>
+<object width="650" height="650" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="wmode" value="direct" /><param name="src" value="/projects/Mash/01/MashWeb.swf" /><param name="quality" value="high" /><param name="pluginspage" value="https://www.macromedia.com/go/getflashplayer" /><embed width="650" height="650" type="application/x-shockwave-flash" src="/projects/Mash/01/MashWeb.swf" wmode="direct" quality="high" pluginspage="https://www.macromedia.com/go/getflashplayer" /></object>
 Click to place a block, shift and click to remove, scroll mouse to change block type and hold control and click to zoom in / out.
 
 Its only a tech demo at the moment and as such hasnt got any game play elements. Im not entirely sure what to turn it into but as a platform for tinkering with Ash its been great.

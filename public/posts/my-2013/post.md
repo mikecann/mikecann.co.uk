@@ -8,7 +8,7 @@ title: My 2013
 <iframe src="https://maps.google.co.uk/maps/ms?msa=0&amp;msid=201764211941208132928.0004d331777cd6d50c5fa&amp;ie=UTF8&amp;t=h&amp;source=embed&amp;ll=22.268764,-55.898437&amp;spn=144.562204,221.132813&amp;z=2&amp;output=embed" height="630" width="630" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 <small>View [The Trip](https://maps.google.co.uk/maps/ms?msa=0&amp;msid=201764211941208132928.0004d331777cd6d50c5fa&amp;ie=UTF8&amp;t=h&amp;source=embed&amp;ll=22.268764,-55.898437&amp;spn=144.562204,221.132813&amp;z=2) in a larger map</small>
 
-Well I promised that I would talk about what I would be up to this year now that I have [quit my job](https://mikecann.co.uk/photos-personal/goodbye-playdemic/). Well as the above shows I plan on doing quite a bit of travelling. 7 months of it to be exact.
+Well I promised that I would talk about what I would be up to this year now that I have [quit my job](/posts/goodbye-playdemic/). Well as the above shows I plan on doing quite a bit of travelling. 7 months of it to be exact.
 
 <!-- more -->
 

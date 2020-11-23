@@ -1,8 +1,8 @@
 ---
 coverImage: /posts/terrainicles-webgl-haxe/cover.jpg
-date: '2011-10-29T14:14:07.000Z'
+date: "2011-10-29T14:14:07.000Z"
 tags: []
-title: 'Terrainicles [WebGL & HaXe]'
+title: "Terrainicles [WebGL & HaXe]"
 ---
 
 I have been playing with this thing, tweaking it, making changes for weeks. Theres so many different things I want to add. Different options, scenarios, optimisations etc. I decided however just to follow the 'release early and often' mantra and get this thing out now.
@@ -11,10 +11,10 @@ I have been playing with this thing, tweaking it, making changes for weeks. Ther
 
 Before I go any further check out what im talking about here:
 
-[https://mikecann.co.uk/projects/WebGLTerrainicles/
-(You will need a WebGL compatible browser, that means no IE) ](https://mikecann.co.uk/projects/WebGLTerrainicles/)
+[/projects/WebGLTerrainicles/
+(You will need a WebGL compatible browser, that means no IE) ](/projects/WebGLTerrainicles/)
 
-Its a continuation of my earlier work on [GPU particles using WebGL and HaXE](https://mikecann.co.uk/personal-project/gpu-state-preserving-particle-systems-with-webgl-haxe/). Im trying to emulate some work I did years ago in XNA, on the [LieroXNA project](https://mikecann.co.uk/lieroxna/project-update/).
+Its a continuation of my earlier work on [GPU particles using WebGL and HaXE](/posts/gpu-state-preserving-particle-systems-with-webgl-haxe/). Im trying to emulate some work I did years ago in XNA, on the [LieroXNA project](/posts/project-update/).
 
 It uses the same techniques for updating and rendering particles entirely on the GPU as my previous post. What that means is that is possible have millions of particles interacting updating and rendering simultaneously as all the operations are performed on the GPU.
 

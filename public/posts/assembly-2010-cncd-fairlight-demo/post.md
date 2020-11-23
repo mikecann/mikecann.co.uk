@@ -37,4 +37,4 @@ Oh while im at it check out this one from last year:
 
 If you are interested in more demos from assembly you can get them all here: [https://scene.org/newfiles.php?dayint=7&amp;dir=/parties/2010/assembly10/](https://scene.org/newfiles.php?dayint=7&dir=/parties/2010/assembly10/)
 
-Oh I have also posted about the demoscene before here: [https://mikecann.co.uk/art/andromeda-software-development-lifeforce-2007/](https://mikecann.co.uk/art/andromeda-software-development-lifeforce-2007/)
+Oh I have also posted about the demoscene before here: [/posts/andromeda-software-development-lifeforce-2007/](/posts/andromeda-software-development-lifeforce-2007/)

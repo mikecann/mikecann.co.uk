@@ -1,13 +1,13 @@
 ---
 coverImage: ./header.jpg
-date: '2020-08-15T08:31:40.000Z'
+date: "2020-08-15T08:31:40.000Z"
 tags:
   - Typescript
   - Libraries
 title: Tinkering with MobX Keystone
 ---
 
-Its no secret that im a fan of MobX and have been using it for many years now. I have even [written a couple of libraries](https://mikecann.co.uk/projects/mst-libs) for its sister project MobX State Tree. So when I encountered [MobX Keystone](https://mobx-keystone.js.org/) I was intrigued..
+Its no secret that im a fan of MobX and have been using it for many years now. I have even [written a couple of libraries](/projects/mst-libs) for its sister project MobX State Tree. So when I encountered [MobX Keystone](https://mobx-keystone.js.org/) I was intrigued..
 
 <!-- more -->
 

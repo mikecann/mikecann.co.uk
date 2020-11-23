@@ -36,7 +36,7 @@ We have had 2,867 User installs and 1,623 active device installs. Not bad :)
 
 ## The Process
 
-So from [the beginning](https://mikecann.co.uk/personal-projects/lets-make-a-mobile-game-in-3-weeks-with-haxe-nme/) the this project was to be a quick turn around project. The idea was to try and complete the whole thing in three weeks. It actually ended up being more like 5 weeks for me and 4 weeks for Moh the artist (he was on holiday for one of those) but still not months of development which I wanted to stay clear of.
+So from [the beginning](/posts/lets-make-a-mobile-game-in-3-weeks-with-haxe-nme/) the this project was to be a quick turn around project. The idea was to try and complete the whole thing in three weeks. It actually ended up being more like 5 weeks for me and 4 weeks for Moh the artist (he was on holiday for one of those) but still not months of development which I wanted to stay clear of.
 
 For me, short time-scale games are so much more fun to make than long games. In a short time you can iterate quickly over the core idea then get it out there quickly and see what people think. When time constrained you are are forced to only implement the core functionality and discard the rest. In all likelihood the other stuff is probably just fluff anyways and not really necessary to the game.
 
@@ -62,7 +62,7 @@ I have been using [Haxe](https://haxe.org) for over a year now for various perso
 
 ![](/wp-content/uploads/2012/09/testing2.jpg "testing2")The NME developers have put a lot of time into making the build and certification process as easy as possible for the various platforms. So with "nme setup android" from the command line for example you are able to download and setup the android SDKs and get your certs setup in the correct place for building. Its really great to see that sort of dedication to making the cross platform compilation process as smooth as possible.
 
-The performance of NME is truly great. Thanks to its batched sprite rendering there are very few draw calls and expensive texture-switching. Mr Nibbles runs at solid frame rates on pretty much every smartphone you can think of from the Android G1to the Galaxy S III to the iPhone 3G to the iPad3\. After having worked with the[ nightmare that is J2ME mobile games](https://mikecann.co.uk/commercial-projects/worms-2/) in the past, being able to run your game on so many devices without any code changes really is a pleasure.
+The performance of NME is truly great. Thanks to its batched sprite rendering there are very few draw calls and expensive texture-switching. Mr Nibbles runs at solid frame rates on pretty much every smartphone you can think of from the Android G1to the Galaxy S III to the iPhone 3G to the iPad3\. After having worked with the[ nightmare that is J2ME mobile games](/posts/worms-2/) in the past, being able to run your game on so many devices without any code changes really is a pleasure.
 
 NME isn't perfect however and does have a few issues such as slow and imperfect vector rendering from SWF files. It is however constantly constantly being worked on and im sure it wont be long before the issues are ironed out.
 

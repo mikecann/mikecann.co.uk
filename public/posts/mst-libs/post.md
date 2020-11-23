@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2020-06-01T08:31:40.000Z'
+date: "2020-06-01T08:31:40.000Z"
 tags:
   - Typescript
   - MobXStateTree
@@ -15,7 +15,7 @@ I have generally steered away from building open-source libraries mainly for sel
 
 <!-- more -->
 
-Both libraries are for MobX State Tree (MST) [which I have been using for quite some time](https://mikecann.co.uk/markd/markd-2-total-re-write-using-react-mobx-state-tree-and-parse-server/) now. Its a fantastic library for managing your state in a clear and concise way tho there are some gotchas with parts of it. These libraries try to help with some of those gotchas and thus increase reliability when using MST.
+Both libraries are for MobX State Tree (MST) [which I have been using for quite some time](/posts/markd-2-total-re-write-using-react-mobx-state-tree-and-parse-server/) now. Its a fantastic library for managing your state in a clear and concise way tho there are some gotchas with parts of it. These libraries try to help with some of those gotchas and thus increase reliability when using MST.
 
 # MST Flow Pipe
 

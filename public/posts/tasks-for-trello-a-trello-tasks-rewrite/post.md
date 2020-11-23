@@ -15,7 +15,7 @@ Its been a while since I wrote about my Chrome extension Trello Tasks but thats 
 
 # What does it do?
 
-Well its pretty much exactly the same as Trello Tasks in functionality, so ill copy the description [from that post](https://mikecann.co.uk/trello-tasks/trello-tasks-a-new-chrome-extension/):
+Well its pretty much exactly the same as Trello Tasks in functionality, so ill copy the description [from that post](/posts/trello-tasks-a-new-chrome-extension/):
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2015/11/screenshot-01-640x400.png)](https://www.mikecann.co.uk/wp-content/uploads/2015/11/screenshot-01-640x400.png)
 

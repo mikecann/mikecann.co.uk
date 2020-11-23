@@ -37,9 +37,9 @@ Recently I have been exploring the various other targets offered by haXe, not ju
 > **<strong>[![](/wp-content/uploads/2011/04/ul_spot2.gif "ul_spot2")](/wp-content/uploads/2011/04/ul_spot2.gif) **C# and Java</strong> targets are coming soon! (from @cwaneck)
 > The target that has taken my interest recently has been Javascript.
 
-Having recently worked in Javascript on my Chrome extensions [PostToTumblr](https://mikecann.co.uk/personal-project/posttotumblrs-1628th-user-celebration/) and [ChromeCrawler](https://mikecann.co.uk/personal-project/chrome-crawler-v0-4-background-crawling-more/) I have gained a better understanding of how JS works and how to code in it. Despite this however I still cant get over what I consider some "very nasty" things in the language. Lack of type safety, nested anonymous functions and lack of proper classes just have my stomach all in knots thinking about them.
+Having recently worked in Javascript on my Chrome extensions [PostToTumblr](/posts/posttotumblrs-1628th-user-celebration/) and [ChromeCrawler](/posts/chrome-crawler-v0-4-background-crawling-more/) I have gained a better understanding of how JS works and how to code in it. Despite this however I still cant get over what I consider some "very nasty" things in the language. Lack of type safety, nested anonymous functions and lack of proper classes just have my stomach all in knots thinking about them.
 
-So I was extremely happy to discover that haXe now targets Javascript. It meant I could write the next version of [ChromeCrawler](https://mikecann.co.uk/personal-project/chrome-crawler-v0-4-background-crawling-more/) in type-safe, class-happy haxe and it would simply hide all the nastyness from me once it compiles. (You can ofcourse modify the JS that is exported if you so wish however)
+So I was extremely happy to discover that haXe now targets Javascript. It meant I could write the next version of [ChromeCrawler](/posts/chrome-crawler-v0-4-background-crawling-more/) in type-safe, class-happy haxe and it would simply hide all the nastyness from me once it compiles. (You can ofcourse modify the JS that is exported if you so wish however)
 
 So now, finally to the point of this post. I sat down to write the core functionality of the crawler. To do the URL crawling so far I had been using jQuery's get() method to load an external page.
 

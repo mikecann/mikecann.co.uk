@@ -11,11 +11,11 @@ tags:
 title: "Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]"
 ---
 
-So I have been working on my "[Terraria like Terrain](https://mikecann.co.uk/personal-project/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.
+So I have been working on my "[Terraria like Terrain](/posts/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.
 
 <!-- more -->
 
-Following on from the last post, I have now made it so that each particle can have its texture changed. This completes the functionality required to render each tile as a point sprite, as talked about in my[ previous post](https://mikecann.co.uk/personal-project/hxaria-terraria-like-terrain-in-haxe-and-webgl/).
+Following on from the last post, I have now made it so that each particle can have its texture changed. This completes the functionality required to render each tile as a point sprite, as talked about in my[ previous post](/posts/hxaria-terraria-like-terrain-in-haxe-and-webgl/).
 
 The way it works is that the entire world is recorded in a 2x2 array Tilemap. This 2x2 array holds a single Tile object for every single tile in the world:
 
@@ -189,8 +189,8 @@ public var mapHeight : Int;
 
 Simples!
 
-Anyways you can check the final result out on this page: [https://mikecann.co.uk/projects/hxaria/02/
-](https://mikecann.co.uk/projects/hxaria/02/)(Click and drag to move the camera about)
+Anyways you can check the final result out on this page: [/projects/hxaria/02/
+](/projects/hxaria/02/)(Click and drag to move the camera about)
 
 I have also uploaded a quick video too:
 

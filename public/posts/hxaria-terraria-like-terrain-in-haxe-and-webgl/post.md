@@ -27,9 +27,9 @@ My next thought was that I could share vertices by using vertex indices in a 
 
 This would then only require about 27,200 vertices which is really nice. I was hover having difficulties imagining how I would reference each tile individually in the shader so I could apply texture and color transformations and started wondering if another technique might work..
 
-Having recently done some work with [Point Sprite Particles](https://mikecann.co.uk/personal-project/terrainicles-webgl-haxe/) I knew that the GPU was really good at rendering Point Sprites. So I thought to myself, why not just make each tile a point sprite. That way I could then represent each tile as a vertex then I could pass custom properties such as texture and color to the shader as vertex buffer attributes. Doing it this way means that you only need as many vertices as there are visible tiles (about 27,200 for 4 layers) and I can reference each tile individually in the attribute buffer.
+Having recently done some work with [Point Sprite Particles](/posts/terrainicles-webgl-haxe/) I knew that the GPU was really good at rendering Point Sprites. So I thought to myself, why not just make each tile a point sprite. That way I could then represent each tile as a vertex then I could pass custom properties such as texture and color to the shader as vertex buffer attributes. Doing it this way means that you only need as many vertices as there are visible tiles (about 27,200 for 4 layers) and I can reference each tile individually in the attribute buffer.
 
-So armed with the theory I set to work bashing out some code. Having worked with raw WebGL in haXe on my last [few experiments](https://mikecann.co.uk/personal-project/gpu-state-preserving-particle-systems-with-webgl-haxe/) I decided I didnt want to go through all that [pain](https://mikecann.co.uk/programming/why-developing-for-webgl-sucks/) again just for the sake of a little more performance, so I decided to give Three.js another go in HaXe. Thankfully this time I was treading a known path so I could learn from existing threejs point-sprite particle samples. The bulk of the custom particle system logic I took from this rather excellent sample:
+So armed with the theory I set to work bashing out some code. Having worked with raw WebGL in haXe on my last [few experiments](/posts/gpu-state-preserving-particle-systems-with-webgl-haxe/) I decided I didnt want to go through all that [pain](/posts/why-developing-for-webgl-sucks/) again just for the sake of a little more performance, so I decided to give Three.js another go in HaXe. Thankfully this time I was treading a known path so I could learn from existing threejs point-sprite particle samples. The bulk of the custom particle system logic I took from this rather excellent sample:
 
 [![](/wp-content/uploads/2011/11/Shot_01.png "Shot_01")](https://alteredqualia.com/three/examples/webgl_custom_attributes_particles.html)
 
@@ -37,7 +37,7 @@ So armed with the theory I set to work bashing out some code. Having worked wit
 
 So once I had the project setup it took me no time at all to bash out a sample that showed that I could easily have 27k+ tiles changing size and color each frame:
 
-[https://mikecann.co.uk/projects/Hxaria/01/index.html](https://mikecann.co.uk/projects/Hxaria/01/index.html)
+[/projects/Hxaria/01/index.html](/projects/Hxaria/01/index.html)
 
 Pretty aint it?
 

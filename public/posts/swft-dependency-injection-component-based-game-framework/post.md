@@ -29,7 +29,7 @@ First the history, if you arent interested in this then just skip on down to "Wh
 
 **History**
 
-It started off as an idea I had while playing around with some RobotLegs code. For those not in the know, [RobotLegs ](https://www.robotlegs.org/) (RL) is an awsome Inversion of Control (IoC) or Dependency Injection (DI) MVCS framework for making Rich Internet Applications (I wrote a post on it [here](https://mikecann.co.uk/programming/on-the-bleeding-edge/)). IoC and DI were new concepts to me and I was fascinated and excited by the power that they had especially when couppled with something like [AS3 Signals](https://github.com/robertpenner/as3-signals).
+It started off as an idea I had while playing around with some RobotLegs code. For those not in the know, [RobotLegs ](https://www.robotlegs.org/) (RL) is an awsome Inversion of Control (IoC) or Dependency Injection (DI) MVCS framework for making Rich Internet Applications (I wrote a post on it [here](/posts/on-the-bleeding-edge/)). IoC and DI were new concepts to me and I was fascinated and excited by the power that they had especially when couppled with something like [AS3 Signals](https://github.com/robertpenner/as3-signals).
 
 At the time of this discovery I was working on a game that used [Push Button Engine](https://pushbuttonengine.com/) (PBE) and [Mate ](https://mate.asfusion.com/)as the basis for development. Feeling dissatisfied with PBE and Mate I wondered if there was a way I could take all the cool things I was playing around with RobotLegs and apply them to some of the cool aspects of PBE.
 

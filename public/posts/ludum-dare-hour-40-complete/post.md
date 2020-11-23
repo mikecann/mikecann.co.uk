@@ -27,7 +27,7 @@ So onto the game. First some shots:
 [![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-18.101-300x270.jpg "ScreenHunter_01 Aug. 22 18.10")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-18.101.jpg)[![](/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-22-18.10-300x269.jpg "ScreenHunter_02 Aug. 22 18.10")
 ](/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-22-18.10.jpg)[![](/wp-content/uploads/2010/08/ScreenHunter_03-Aug.-22-18.111-300x273.jpg "ScreenHunter_03 Aug. 22 18.11")](/wp-content/uploads/2010/08/ScreenHunter_03-Aug.-22-18.111.jpg)[![](/wp-content/uploads/2010/08/ScreenHunter_06-Aug.-22-18.111-300x271.jpg "ScreenHunter_06 Aug. 22 18.11")](/wp-content/uploads/2010/08/ScreenHunter_06-Aug.-22-18.111.jpg)
 
-Okay so if you have been following [waaaay back my original intention](https://mikecann.co.uk/ludum-dare/ludum-dare-hour-1/) was to make a game with the same sort of art style as World of Goo but with the game mechanics of Boom Stick. I think I have stayed pretty true to that original idea.
+Okay so if you have been following [waaaay back my original intention](/posts/ludum-dare-hour-1/) was to make a game with the same sort of art style as World of Goo but with the game mechanics of Boom Stick. I think I have stayed pretty true to that original idea.
 
 Basically you fight against waves of enemies that float across the screen. There are currently only 10 waves, I would have liked more and with more variety but oh well ;)
 
@@ -44,7 +44,7 @@ Anyways enough jibber jabber. A few more shots then the game is below:
 
 <object style="width: 600px; height: 500px;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="600" height="500" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://www.mikecann.co.uk/DumpingGround/ld/18/05/LudumDare18.swf" /><embed style="width: 600px; height: 500px;" type="application/x-shockwave-flash" width="600" height="500" src="https://www.mikecann.co.uk/DumpingGround/ld/18/05/LudumDare18.swf"></embed></object>
 
-**EDIT:** I have now made a youtube gameplay video and timelapse of development, [check em here.](https://mikecann.co.uk/?p=1291)
+**EDIT:** I have now made a youtube gameplay video and timelapse of development, [check em here.](/posts/?p=1291)
 
 Tools Used:
 Adobe Photoshop CS5

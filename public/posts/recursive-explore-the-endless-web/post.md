@@ -18,7 +18,7 @@ tags:
 title: Recursive - Explore the endless web
 ---
 
-Wow, well that took longer than expected! [44 days ago I blogged](https://mikecann.co.uk/personal-project/tinkering-with-typescript/) that I had started work on a second version of my Chrome Crawler extension and have only just managed to get it to a state I was happy with enough to release it. To be fair I had been on [a trip to New York](https://mikecann.co.uk/photos-personal/new-york-new-york/) during that period so perhaps I can be excused. Having said that however I think the time has been well spent and am fairly proud of the result.
+Wow, well that took longer than expected! [44 days ago I blogged](/posts/tinkering-with-typescript/) that I had started work on a second version of my Chrome Crawler extension and have only just managed to get it to a state I was happy with enough to release it. To be fair I had been on [a trip to New York](/posts/new-york-new-york/) during that period so perhaps I can be excused. Having said that however I think the time has been well spent and am fairly proud of the result.
 
 <!-- more -->
 
@@ -32,7 +32,7 @@ Recursive is an experimental tool for visualising the world wide web. Given a UR
 
 So what's this all about? Why is it called 'Recursive', why not 'Chrome Crawler 2'?
 
-Although I would like to have called the spiritual successor to ['Chrome Crawler'](https://mikecann.co.uk/personal-project/chrome-crawler-a-web-crawler-written-in-javascript/), 'Chrome Crawler 2' Chrome's [branding guidelines](https://developers.google.com/chrome/web-store/branding) forbid using the Chrome name or logo (they brought this in since the launch of Chrome Crawler 1).
+Although I would like to have called the spiritual successor to ['Chrome Crawler'](/posts/chrome-crawler-a-web-crawler-written-in-javascript/), 'Chrome Crawler 2' Chrome's [branding guidelines](https://developers.google.com/chrome/web-store/branding) forbid using the Chrome name or logo (they brought this in since the launch of Chrome Crawler 1).
 
 With that in mind I decided that rather bend Chrome Crawler's name and logo to fit the guidelines I would create a whole new logo, name and app. The app is a total rewrite from the previous iteration anyway so I thought it justified.
 
@@ -77,7 +77,7 @@ Every page is grouped by its domain and is represented by a circular "node".
 
 [![](/wp-content/uploads/2012/12/Screenshot_013.png "Screenshot_013")](/wp-content/uploads/2012/12/Screenshot_013.png)
 
-So for example "https://mikecann.co.uk/personal-project/tinkering-with-typescript/" would be grouped under the "mikecann.co.uk" domain. Any other pages found while running that match this domain are added as little page icons inside the host node.
+So for example "/posts/tinkering-with-typescript/" would be grouped under the "mikecann.co.uk" domain. Any other pages found while running that match this domain are added as little page icons inside the host node.
 
 [![](/wp-content/uploads/2012/12/Screenshot_014.png "Screenshot_014")](/wp-content/uploads/2012/12/Screenshot_014.png)
 

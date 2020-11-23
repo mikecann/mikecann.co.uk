@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2020-02-09T08:31:40.000Z'
+date: "2020-02-09T08:31:40.000Z"
 tags:
   - Electronics
   - Hardware
@@ -8,7 +8,7 @@ tags:
 title: LED Matrix Toy
 ---
 
-Ever since I [built my own smart mirror](https://mikecann.co.uk/talks/mikes-mirror-the-talk) back in 2018 I have been keen to do another hardware project...
+Ever since I [built my own smart mirror](/posts/mikes-mirror-the-talk) back in 2018 I have been keen to do another hardware project...
 
 <!-- more -->
 

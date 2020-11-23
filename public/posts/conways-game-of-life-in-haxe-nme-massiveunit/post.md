@@ -12,7 +12,7 @@ title: "Conway's Game of Life in haXe [NME & MassiveUnit]"
 
 [![](/wp-content/uploads/2011/10/2011-10-09_1257.png "2011-10-09_1257")](/wp-content/uploads/2011/10/2011-10-09_1257.png)
 
-The second day of [try{harder}](https://mikecann.co.uk/programming/try-harder-my-haxe-slides-and-code/) was dedicated to a single topic; test driven development (TDD).
+The second day of [try{harder}](/posts/try-harder-my-haxe-slides-and-code/) was dedicated to a single topic; test driven development (TDD).
 
 <!-- more -->
 
@@ -166,11 +166,11 @@ To show just how easy it is I made the following video:
 
 <object width="700" height="505"><param name="movie" value="https://www.youtube.com/v/VNF2gH5o9Zs?version=3&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/VNF2gH5o9Zs?version=3&amp;hl=en_GB" type="application/x-shockwave-flash" width="700" height="505" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
-You can see the HTML5 build here: [https://mikecann.co.uk/projects/gameoflife/Export/html5/bin/](https://mikecann.co.uk/projects/gameoflife/Export/html5/bin/)
+You can see the HTML5 build here: [/projects/gameoflife/Export/html5/bin/](/projects/gameoflife/Export/html5/bin/)
 
-And the flash build here: [https://mikecann.co.uk/projects/gameoflife/Export/flash/bin/MyApplication.swf](https://mikecann.co.uk/projects/gameoflife/Export/flash/bin/MyApplication.swf)
+And the flash build here: [/projects/gameoflife/Export/flash/bin/MyApplication.swf](/projects/gameoflife/Export/flash/bin/MyApplication.swf)
 
-I have uploaded the source for the project here: [https://mikecann.co.uk/projects/gameoflife/gameoflife.zip](https://mikecann.co.uk/projects/gameoflife/gameoflife.zip)
+I have uploaded the source for the project here: [/projects/gameoflife/gameoflife.zip](/projects/gameoflife/gameoflife.zip)
 
 ```
 

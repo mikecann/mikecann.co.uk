@@ -12,7 +12,7 @@ tags:
 title: The Three Game Challenge – Part 3 – The Family Jewels
 ---
 
-Well this is it! I have completed the third game in my [three game prototype challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/). ([first game](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-1-lateshas-crib/), [second game](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-2-a-cunning-plan/))
+Well this is it! I have completed the third game in my [three game prototype challenge](/posts/the-three-game-challenge/). ([first game](/posts/the-three-game-challenge-part-1-lateshas-crib/), [second game](/posts/the-three-game-challenge-part-2-a-cunning-plan/))
 
 <!-- more -->
 
@@ -30,7 +30,7 @@ Anyways give it a go and let me know what you think:
 
 [Play The Family Jewels
 
-](https://mikecann.co.uk/projects/jewels)
+](/projects/jewels)
 
 This one took a little less time at the others at 31hours over 7 days, as per the other two I recorded my time spent:
 
@@ -63,6 +63,6 @@ Well that's the end of my challenge! Im surprised I managed to do it. A little
 
 As for the tools I used. I used Richard Lord's excellent [Ash Game Framework](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDEQFjAA&url=http%3A%2F%2Fwww.ashframework.org%2F&ei=sQt5UeOlHsam0wXF74DYBQ&usg=AFQjCNGf9MWL8YXaduF6F9pn2bsVQNDzGQ&sig2=VA_kHUtU14g4k2q5xISD3w&bvm=bv.45645796,d.d2k) to develop them all alongside Starling with Feathers on top of Flash for the rendering. For rapidly prototyping games they have been excellent. Now im more familiar with Ash I may write a post or two about how to go about structuring certain parts of a game in an enitity-component like manner.
 
-But for the next week or so I need to finish my packing before my [mammoth trip to Central and South America](https://mikecann.co.uk/travel/my-2013/).
+But for the next week or so I need to finish my packing before my [mammoth trip to Central and South America](/posts/my-2013/).
 
 &nbsp;

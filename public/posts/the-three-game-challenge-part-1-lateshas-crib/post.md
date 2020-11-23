@@ -11,7 +11,7 @@ tags:
 title: The Three Game Challenge - Part 1 - Latesha's Crib
 ---
 
-Well I have just finished off the first of [my three prototype games challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/) ([part two](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-2-a-cunning-plan/), [part three](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-3-the-family-jewels/)) that I set myself last week.
+Well I have just finished off the first of [my three prototype games challenge](/posts/the-three-game-challenge/) ([part two](/posts/the-three-game-challenge-part-2-a-cunning-plan/), [part three](/posts/the-three-game-challenge-part-3-the-family-jewels/)) that I set myself last week.
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ For this one I started off with an idea that I wanted to make a time-based puzzl
 
 Anyways see what you think:
 
-[Play Latesha's Crib](https://mikecann.co.uk/projects/latesha)
+[Play Latesha's Crib](/projects/latesha)
 
 In total I spent 31 hours over the last week making this over the past week:
 

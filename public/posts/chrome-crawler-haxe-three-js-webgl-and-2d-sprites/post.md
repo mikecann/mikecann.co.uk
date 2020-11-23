@@ -18,7 +18,7 @@ Had a little free time this weekend so thought I would scratch an itch that has 
 
 <!-- more -->
 
-I started the second version of my [Chrome Crawler](https://mikecann.co.uk/personal-project/chrome-crawler-a-web-crawler-written-in-javascript/) extension a little while back. I have been using the language [HaXe ](https://haxe.org/)to develop it in. It's a great language and I wanted to explore its JS target a little more so I thought, why not make a chrome extension using it. I have had several emails from various people requesting features for Chrome Crawler so I thought I would extend the extension and rewrite it in HaXe at the same time.
+I started the second version of my [Chrome Crawler](/posts/chrome-crawler-a-web-crawler-written-in-javascript/) extension a little while back. I have been using the language [HaXe ](https://haxe.org/)to develop it in. It's a great language and I wanted to explore its JS target a little more so I thought, why not make a chrome extension using it. I have had several emails from various people requesting features for Chrome Crawler so I thought I would extend the extension and rewrite it in HaXe at the same time.
 
 I managed to get the basics of the crawler working a few months back but through lack of time got no further. The second thing I wanted to work on after the basic crawling code was how to represent the crawled data. The current method is simply as a list:
 
@@ -54,6 +54,6 @@ After a little jiggery pokery with the [still very new externs](https://haxe.135
 
 Thats 2000 sprites running at 25fps which is less that I would have hoped for WebGL but still probably enough for ChromeCrawler. Im not too sure why the sprites are upside-down, nothing I can do seems to right them, perhaps someone can suggest the solution?
 
-If you have a[ compatible browser](https://www.doesmybrowsersupportwebgl.com/) you can check it out [here](https://mikecann.co.uk/Work/ChromeCrawler/01/crawlerTab.html). I have also uploaded the [source to its own project](https://code.google.com/p/chrome-crawler/source/browse/#svn%2Ftrunk%2FHaXe) if you are interested.
+If you have a[ compatible browser](https://www.doesmybrowsersupportwebgl.com/) you can check it out [here](/Work/ChromeCrawler/01/crawlerTab.html). I have also uploaded the [source to its own project](https://code.google.com/p/chrome-crawler/source/browse/#svn%2Ftrunk%2FHaXe) if you are interested.
 
 The next step is to take the data from the crawl and then render it as a node graph, exiting stuff!

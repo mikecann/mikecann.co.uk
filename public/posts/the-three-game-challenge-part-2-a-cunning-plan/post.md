@@ -14,7 +14,7 @@ tags:
 title: The Three Game Challenge – Part 2 – A Cunning Plan
 ---
 
-Another week, another game completed as part of [my three prototype games challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/) ([part one](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-1-lateshas-crib/), [part three](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-3-the-family-jewels/)) I set myself at the start of this month.
+Another week, another game completed as part of [my three prototype games challenge](/posts/the-three-game-challenge/) ([part one](/posts/the-three-game-challenge-part-1-lateshas-crib/), [part three](/posts/the-three-game-challenge-part-3-the-family-jewels/)) I set myself at the start of this month.
 
 <!-- more -->
 
@@ -27,9 +27,9 @@ So here is "A Cunning Plan":
 
 You can play the game here:
 
-[Play A Cunning Plan](https://mikecann.co.uk/projects/acunningplan)
+[Play A Cunning Plan](/projects/acunningplan)
 
-This game was far more complex to create than [Latesha's Crib](https://mikecann.co.uk/personal-project/the-three-game-challenge-part-1-lateshas-crib/) and hence I spent about 43 hours over the last 9 days making this one.
+This game was far more complex to create than [Latesha's Crib](/posts/the-three-game-challenge-part-1-lateshas-crib/) and hence I spent about 43 hours over the last 9 days making this one.
 
 I was able to save some time by reusing parts of the rendering and hopping logic from Latesha's Crib. As usual I used the  [Ash Framework](https://www.ashframework.org/) with Adobe Starling and Feathers. To code the AI for the computer player I used [Tim Conkling's Excellent Godmode Behaviour Trees](https://github.com/tconkling/godmode-as3) library which is truly an excellent AS3 library. The way Behaviour Trees work is really cool, I strongly recommend checking them out if you are going to design any sort of AI.
 

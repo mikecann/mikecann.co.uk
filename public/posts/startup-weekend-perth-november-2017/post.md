@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2017-11-24T14:51:40.000Z'
+date: "2017-11-24T14:51:40.000Z"
 tags:
   - Syndi.me
   - Blogging
@@ -14,7 +14,7 @@ tags:
 title: Startup Weekend Perth November 2017
 ---
 
-Its been a while since I have done a hackathon. I spent [half of the year](https://mikecann.co.uk/above-under/and-off-we-go/) camping my way around Australia so I guess thats to be expected. So when I saw that startup weekend was running again at the weekend I thought sure, why not.
+Its been a while since I have done a hackathon. I spent [half of the year](/posts/and-off-we-go/) camping my way around Australia so I guess thats to be expected. So when I saw that startup weekend was running again at the weekend I thought sure, why not.
 
 <!-- more -->
 
@@ -26,7 +26,7 @@ I had an idea, pitched it, gathered a team and validated an idea over the course
 
 During Startup Weekend the objective is to go from idea to business over the course of just a couple of days. You form a team with total strangers and work together to validate your business and if possible build a prototype of your product.
 
-The last time I did Startup Weekend was [back in 2015](https://mikecann.co.uk/hackathons/tuckr/startup-weekend-perth-2015-tuckr/) when I worked on a business called Tuckr that aimed to help people locate where those awesome food trucks are near you.
+The last time I did Startup Weekend was [back in 2015](/posts/startup-weekend-perth-2015-tuckr/) when I worked on a business called Tuckr that aimed to help people locate where those awesome food trucks are near you.
 
 I remember ending the weekend that time happy but thinking that I probably wouldnt go again as it didn't really involve much technical work. It was more of an exercise in product validation than actually technical work and as I consider myself a highly technical person I didn't feel that useful.
 

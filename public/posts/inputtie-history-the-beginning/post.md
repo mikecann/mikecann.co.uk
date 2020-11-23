@@ -10,7 +10,7 @@ tags:
 title: Inputtie History - The Beginning
 ---
 
-I [promised in a previous post to post](https://mikecann.co.uk/inputtie/announcing-inputtie/) to talk about the Inputtie development process a little, the various challenges encountered and how I attempted to solve them.
+I [promised in a previous post to post](/posts/announcing-inputtie/) to talk about the Inputtie development process a little, the various challenges encountered and how I attempted to solve them.
 
 <!-- more -->
 
@@ -20,7 +20,7 @@ In this post im going to talk about the very beginning of the project and what I
 
 [caption id="attachment_1372" align="alignright" width="229" caption="Various Inputtie Attempts"]![Various Inputtie Attempts](/wp-content/uploads/2010/10/ScreenHunter_02-Oct.-09-13.46.jpg "Various Inputtie Attempts")](/wp-content/uploads/2010/10/ScreenHunter_02-Oct.-09-13.46.jpg)[/caption]
 
-I have already talked about the problem [in my previous post](https://mikecann.co.uk/inputtie/announcing-inputtie/) but ill recap.
+I have already talked about the problem [in my previous post](/posts/announcing-inputtie/) but ill recap.
 
 About a year ago I was doing a lot of work at home that involved working both on my desktop PC and my MacbookPro. Often I would find myself using my mouse and keyboard on my PC then having to lean accross to use the trackpad and keyboard on my MBP. Now, I hate trackpads so what I started doing was unplugging my keyboard and mouse from my desktop then plugging back into my MBP when I wanted to use it.
 
@@ -43,7 +43,7 @@ First I tried to identify the core features I knew I wanted the tool to have:
 
 My initial thoughts were that Java should be the ideal language to do this in. I could capture the input from one device (somehow) then I could send it to another device and use the Robot class in Java to simulate the input. Because its Java it will work across all operating systems seamlessly so people using it on windows / mac / linux would all get exactly the same experience and I wouldn't have to lift an extra coding finger as Java would take care of all the nasties for me.
 
-It also helped that I was very familiar with Java having worked on severl personal and professional projects in the language. From my [Chain Reaction project](https://mikecann.co.uk/chainreaction/chainreaction-binarysource-release/) I knew it was possible to create relatively nice user interfaces probably it would take some work to make them look as good as I wanted but surely it wouldn't be too hard.
+It also helped that I was very familiar with Java having worked on severl personal and professional projects in the language. From my [Chain Reaction project](/posts/chainreaction-binarysource-release/) I knew it was possible to create relatively nice user interfaces probably it would take some work to make them look as good as I wanted but surely it wouldn't be too hard.
 
 So with some confidence I decided to get cracking on development.
 

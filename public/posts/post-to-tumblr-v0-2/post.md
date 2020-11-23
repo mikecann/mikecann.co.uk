@@ -13,7 +13,7 @@ title: Post To Tumblr - v0.2
 
 [![](/wp-content/uploads/2010/10/Shot_0011.png "Shot_001")](/wp-content/uploads/2010/10/Shot_0011.png)
 
-Just a quick update to [my first chrome extension](https://mikecann.co.uk/personal-project/my-first-chrome-extension-post-to-tumblr/).
+Just a quick update to [my first chrome extension](/posts/my-first-chrome-extension-post-to-tumblr/).
 
 <!-- more -->
 

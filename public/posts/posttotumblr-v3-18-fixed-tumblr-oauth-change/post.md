@@ -11,7 +11,7 @@ tags:
 title: PostToTumblr v3.18 - Fixed Tumblr oauth change
 ---
 
-[![head](/wp-content/uploads/2013/03/head1.png)](https://mikecann.co.uk/personal-project/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/head-9/)
+[![head](/wp-content/uploads/2013/03/head1.png)](/posts/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/head-9/)
 
 <!-- more -->
 
@@ -23,13 +23,13 @@ Before PostToTumblr can post content on a users behalf it first must get an "acc
 
 When PostToTumblr first starts up it checks to see if it still has a valid token (they can expire over time and other various reasons). If it doesnt it must go through the authentication flow. Firstly it redirects the user to the grant permission dialog:
 
-[![screenshot_02](/wp-content/uploads/2013/03/screenshot_02.png)](https://mikecann.co.uk/personal-project/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/screenshot_02-13/)
+[![screenshot_02](/wp-content/uploads/2013/03/screenshot_02.png)](/posts/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/screenshot_02-13/)
 
 When the user clicks allow Tumblr then returns an "oauth token" and an "oauth verifier" to PostToTumblr, which it can then use to get an "access token" which is used to do the posting.
 
 The problem that this update fixed was that the "oauth verifier" that was returned from Tumblr changed:
 
-[![screenshot_03](/wp-content/uploads/2013/03/screenshot_03.png)](https://mikecann.co.uk/personal-project/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/screenshot_03-10/)
+[![screenshot_03](/wp-content/uploads/2013/03/screenshot_03.png)](/posts/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/screenshot_03-10/)
 
 You see at the end of the query string there is now a "#_=_" well this was causing havoc with the URL parameter parsing code in the Google oauth library I was using.
 

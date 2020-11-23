@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/flashdevelop-obsidian-dark-theme-for-haxe/cover.jpg
-date: '2011-07-21T19:19:44.000Z'
+date: "2011-07-21T19:19:44.000Z"
 tags:
   - dark
   - eyestrain
@@ -21,7 +21,7 @@ I took inspiration from the excellent [Obsidian theme on the Eclipse Color The
 
 Im still yet decided if it helps atall, tho I must admit I do like my IDE a little more colorful :)
 
-I have uploaded the theme for download here: [https://mikecann.co.uk/<wbr>projects/FD4Theme/Obsidian-<wbr>HaXe.fdz</wbr></wbr>](https://mikecann.co.uk/projects/FD4Theme/Obsidian-HaXe.fdz)
+I have uploaded the theme for download here: [/posts/projects/FD4Theme/Obsidian-<wbr>HaXe.fdz</wbr></wbr>](/projects/FD4Theme/Obsidian-HaXe.fdz)
 
 &nbsp;
 

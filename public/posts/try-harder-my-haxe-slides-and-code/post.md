@@ -29,7 +29,7 @@ Anyways, at the end of the day I really enjoyed preparing and giving my first ta
 
 I wrote my slides in google docs which are viewable online: [https://docs.google.com/present/view?id=dc6wvdg5_151frv985w7](https://docs.google.com/present/view?id=dc6wvdg5_151frv985w7)
 
-The code samples and examples mentioned on slides are uploaded here: [https://mikecann.co.uk/projects/TryHarder.zip](https://mikecann.co.uk/projects/TryHarder.zip)
+The code samples and examples mentioned on slides are uploaded here: [/projects/TryHarder.zip](/projects/TryHarder.zip)
 
 &nbsp;
 

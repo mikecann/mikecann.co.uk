@@ -34,6 +34,6 @@ title: Sunsetting Printomi
 
 After just 41 days live we have taken the difficult decision to turn off the Printomi servers. Despite the great stats regarding the number of uploads and views and user engagement, without the poster sales we are unable to keep funding the AWS servers and store the 90GB+ of images that users have uploaded.
 
-Developing Printomi has been a great roller coaster ride of a project. It has been hard work, months of late nights to get things into a shape and despite the fact that [less than two months later](https://mikecann.co.uk/business/introducing-printomi/) we decided to shut it all down I still think it was worth it. I am proud of what we accomplished with Printomi and hope that during its short time live others enjoyed what we created.
+Developing Printomi has been a great roller coaster ride of a project. It has been hard work, months of late nights to get things into a shape and despite the fact that [less than two months later](/posts/introducing-printomi/) we decided to shut it all down I still think it was worth it. I am proud of what we accomplished with Printomi and hope that during its short time live others enjoyed what we created.
 
 I am determined not to get downhearted, instead to grow and learn from the many lessons learnt here. Some things worked and others didnt, but it was all good experience. Printomi's mistakes are all about driving me onto the next, bigger, better thing.

@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-03-27T13:15:08.000Z'
+date: "2009-03-27T13:15:08.000Z"
 tags: []
-title: 'Flash Develop Plugin: Highlight Selected'
+title: "Flash Develop Plugin: Highlight Selected"
 ---
 
 **Highlight Selected**
@@ -13,7 +13,7 @@ Notepad++ comes with a feature where if you double click a variable it will high
 
 This plugin is very simple and borrows much of the code from the quick-find plugin.
 
-![](https://mikecann.co.uk/Images/Others/highlightselectionscreen01.png)
+![](/posts/highlightselectionscreen01.png)
 
 I wrote this little plugin an an hour or so last night, i hope others find it useful too :)
 

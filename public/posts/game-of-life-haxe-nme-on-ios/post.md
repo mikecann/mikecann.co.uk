@@ -5,7 +5,7 @@ tags: []
 title: Game of Life HaXe & NME on iOS
 ---
 
-For the last few days I have been playing around with trying to get the[ game of life sample from my previous post](https://mikecann.co.uk/personal-project/conways-game-of-life-in-haxe-nme-massiveunit/) working on the iPhone using haXe with NME.
+For the last few days I have been playing around with trying to get the[ game of life sample from my previous post](/posts/conways-game-of-life-in-haxe-nme-massiveunit/) working on the iPhone using haXe with NME.
 
 <!-- more -->
 

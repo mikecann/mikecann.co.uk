@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2019-01-14T14:51:40.000Z'
+date: "2019-01-14T14:51:40.000Z"
 tags:
   - Personal
   - Employment
@@ -15,7 +15,7 @@ So Friday marks what could be a very important day for me. It was my last day in
 
 # Bamboo
 
-It seems hard to believe that it was [only 6 months](https://mikecann.co.uk/employment/started-at-bamboo/) ago that I joined Bamboo the company building a cryptocurrency investment app.
+It seems hard to believe that it was [only 6 months](/posts/started-at-bamboo/) ago that I joined Bamboo the company building a cryptocurrency investment app.
 
 It's been a wild 6 month ride. Intense long hours with highly motivated and incredibly talented individuals. Pretty much exactly what you expect & want out of a startup.
 
@@ -27,7 +27,7 @@ Bamboo has been great to me and developed a ton there but I always felt like I w
 
 # Markd
 
-I [first wrote about](https://mikecann.co.uk/markd/portfolio/projects/introducing-markd-pinterest-for-people/) Markd back in September of 2016. Its a service that aims to make remembering and organizing people fast, simple and fun.
+I [first wrote about](/posts/portfolio/projects/introducing-markd-pinterest-for-people/) Markd back in September of 2016. Its a service that aims to make remembering and organizing people fast, simple and fun.
 
 Back in 2016 Brandon approached me looking for a a developer to build out an MVP for him. After a short while we completed that. I continued to work on it on and off over the next year or two.
 

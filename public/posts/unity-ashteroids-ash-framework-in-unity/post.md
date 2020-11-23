@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/unity-ashteroids-ash-framework-in-unity/cover.jpg
-date: '2014-07-08T10:49:01.000Z'
+date: "2014-07-08T10:49:01.000Z"
 tags:
   - ash
   - asteroids
@@ -15,7 +15,7 @@ I decided to take a break from the [game development](https://www.mikecann.co.uk
 
 <!-- more -->
 
-Its no secret that im a fan of Entity-Component systems having used various flavours of them for years. My particular favourite however is found in [Richard Lord's Ash Framework](https://www.ashframework.org/). I have used it on numerous projects including my [3-game prototype challenge](https://mikecann.co.uk/personal-project/the-three-game-challenge/).
+Its no secret that im a fan of Entity-Component systems having used various flavours of them for years. My particular favourite however is found in [Richard Lord's Ash Framework](https://www.ashframework.org/). I have used it on numerous projects including my [3-game prototype challenge](/posts/the-three-game-challenge/).
 
 <!--more-->
 
@@ -37,7 +37,7 @@ The AshEngine serves as the root of the hierarchy. So long as you place entities
 
 From that simple foundation I decided to have a go at porting the entire of Richard's Asteroids example over to Unity. I was surprised at how little issues I ran into. You can give it a play here:
 
-[https://mikecann.co.uk/projects/UnityAshteroids/UnityAshteroids.html](https://mikecann.co.uk/projects/UnityAshteroids/UnityAshteroids.html)
+[/projects/UnityAshteroids/UnityAshteroids.html](/projects/UnityAshteroids/UnityAshteroids.html)
 **Use arrow keys to move and space to shoot.**
 
 It all works surprisingly well. [The code](https://github.com/mikecann/UnityAshteroids) is really clean and very simmilar to the original.

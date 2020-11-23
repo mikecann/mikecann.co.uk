@@ -13,7 +13,7 @@ title: The Trip 2013 - El Ramate to Antigua
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - El Ramate to Antigua](https://www.facebook.com/mikeysee/media_set?set=a.10151773308266031.1073741839.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**
 
-After our awesome [trip to Tikal](https://mikecann.co.uk/travel/the-trip-2013-playa-del-carmen-to-tikal/) in Guatamala we returned to our hotel on the lake shore in El Ramate. It had been a long hot day so we relaxed by paddling in the warm waters of the lake.
+After our awesome [trip to Tikal](/posts/the-trip-2013-playa-del-carmen-to-tikal/) in Guatamala we returned to our hotel on the lake shore in El Ramate. It had been a long hot day so we relaxed by paddling in the warm waters of the lake.
 
 <!-- more -->
 

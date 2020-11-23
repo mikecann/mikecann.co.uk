@@ -14,7 +14,7 @@ title: Tinkering With TypeScript
 
 [![](/wp-content/uploads/2012/10/ts2.png "ts2")](/wp-content/uploads/2012/10/ts2.png)
 
-In the spirit of [David Wagner's try { harder } talk on 'the value of tinkering'](https://mikecann.co.uk/photos-personal/try-harder-2012/) I decided to do a little tinkering with a new language from Microsoft called [TypeScript](typescriptlang.org).
+In the spirit of [David Wagner's try { harder } talk on 'the value of tinkering'](/posts/try-harder-2012/) I decided to do a little tinkering with a new language from Microsoft called [TypeScript](typescriptlang.org).
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ TypeScript is basically a superset of Javascript much in the same way C++ is to 
 
 TS compiles down to JS much in the same way that that JS target of Haxe compiles down to JS. Unlike Haxe however the generated code is much more readable and so although there is no integrated debugger (yet) you can just use Chrome's developer console to debug with without too much pain.
 
-Before I get too much more into the specifics of the language I want to mention the project I am tinkering with TS for. [A while back](https://mikecann.co.uk/personal-project/chrome-crawler-a-web-crawler-written-in-javascript/) I wrote an extension for Chrome called Chrome Crawler. It is a rather simplistic web crawler written in JS and released as a Chrome extension (because of the cross-domain scripting limitations with normal JS).
+Before I get too much more into the specifics of the language I want to mention the project I am tinkering with TS for. [A while back](/posts/chrome-crawler-a-web-crawler-written-in-javascript/) I wrote an extension for Chrome called Chrome Crawler. It is a rather simplistic web crawler written in JS and released as a Chrome extension (because of the cross-domain scripting limitations with normal JS).
 
 Over the intervening couple of years I have returned to the project on occasion with an idea to do a second version, however I never actually completed one. So I thought it may be nice if I gave it a go again but this time using TypeScript and at the same time see how it compares to the Haxe JS target.
 

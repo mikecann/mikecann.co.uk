@@ -14,21 +14,21 @@ tags:
 title: "5,000,000 Chrome Crawlers? Why not [haXe & WebGL]"
 ---
 
-Following on from my previous experiments into the world of [haXe and HTML5](https://mikecann.co.uk/personal-project/more-html5-haxe-speed-tests/) I have been playing around again with trying to get as many 2D sprites on screen as I can.
+Following on from my previous experiments into the world of [haXe and HTML5](/posts/more-html5-haxe-speed-tests/) I have been playing around again with trying to get as many 2D sprites on screen as I can.
 
 <!-- more -->
 
-I started by reading some posts by google on how to render things fast in HTML5, and it got me thinking. Where I was likely going wrong with my[ HaXe + Three.js experiments](https://mikecann.co.uk/personal-project/chrome-crawler-haxe-three-js-webgl-and-2d-sprites/) was that I was making a separate draw call to WebGL for each and every crawler. Draw calls are expensive and hence I was reaching the draw call bottleneck at just 2000 sprites being rendered at once.
+I started by reading some posts by google on how to render things fast in HTML5, and it got me thinking. Where I was likely going wrong with my[ HaXe + Three.js experiments](/posts/chrome-crawler-haxe-three-js-webgl-and-2d-sprites/) was that I was making a separate draw call to WebGL for each and every crawler. Draw calls are expensive and hence I was reaching the draw call bottleneck at just 2000 sprites being rendered at once.
 
 What I needed to do was batch the draw calls together and render them at once. I knew from my work on XNA you could group sprite render calls together quite nicely. So I started off coding up a WebGL equivillant of SpriteBatch from XNA.  I managed to get it kind-of working but as is often the way another thought struck my brain, and I decided to tackle that instead.
 
-My thought was; why not just render everything as 2D point sprites? I remembered from my XNA days you [could achieve quite staggering numbers](https://mikecann.co.uk/university-projects/xnagpuparticles-1000000-dynamic-particles/) of 2D sprites in DirectX by using point spites.
+My thought was; why not just render everything as 2D point sprites? I remembered from my XNA days you [could achieve quite staggering numbers](/posts/xnagpuparticles-1000000-dynamic-particles/) of 2D sprites in DirectX by using point spites.
 
 So after a little bit of fiddling and hacking I managed to get point sprites correctly rendering:
 
 <object width="700" height="555" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/KhIT9yNEb8g?version=3&amp;hl=en_GB" /><param name="allowfullscreen" value="true" /><embed width="700" height="555" type="application/x-shockwave-flash" src="https://www.youtube.com/v/KhIT9yNEb8g?version=3&amp;hl=en_GB" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object>
 
-You can play with it here: [https://mikecann.co.uk/projects/HTML5SpeedTests/HaXeWebGL/bin/](https://mikecann.co.uk/projects/HTML5SpeedTests/HaXeWebGL/bin/)
+You can play with it here: [/projects/HTML5SpeedTests/HaXeWebGL/bin/](/projects/HTML5SpeedTests/HaXeWebGL/bin/)
 
 The great thing about point sprites is that I only use one draw call per frame and the GPU is very good at rendering them. The only bottleneck really is the number of pixels you need to draw. With that in mind if you drop the size of the point sprite down to 1x1 you can render a very large (5million) points at interactive framerates (18fps):
 
@@ -83,7 +83,7 @@ That however will have to wait for another evening ;)
 
 I have uploaded the source for this project here incase anyone was interested:
 
-[https://mikecann.co.uk/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip](https://mikecann.co.uk/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip)
+[/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip](/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip)
 
 I warn you its ugly and uncommented, however it should be enough of a start for anyone looking to do something similar.
 

@@ -9,7 +9,7 @@ tags:
 title: Only In America...
 ---
 
-While over in [California](https://mikecann.co.uk/photos-personal/back-from-outer-space/) this month we saw some rather interesting things. Thought I would share them.
+While over in [California](/posts/back-from-outer-space/) this month we saw some rather interesting things. Thought I would share them.
 
 <!-- more -->
 

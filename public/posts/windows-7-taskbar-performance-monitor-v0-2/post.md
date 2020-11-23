@@ -13,7 +13,7 @@ title: Windows 7 Taskbar Performance Monitor v0.2
 
 [![](/wp-content/uploads/2011/02/Shot_01.png "Shot_01")](/wp-content/uploads/2011/02/Shot_01.png)
 
-Been a long time since I have updated this little project of mine. Yep, just checked, its [been almost a year ](https://mikecann.co.uk/personal-projects/windows-7-taskbar-monitor/)since.
+Been a long time since I have updated this little project of mine. Yep, just checked, its [been almost a year ](/posts/windows-7-taskbar-monitor/)since.
 
 <!-- more -->
 

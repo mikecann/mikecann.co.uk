@@ -11,7 +11,7 @@ title: "Artificial - Argon [Tech, House, Progressive]"
 
 [![](/wp-content/uploads/2011/08/Argon-Cover.png "Argon-Cover")](/wp-content/uploads/2011/08/Argon-Cover.png)
 
-First part in a two part mix, see "[Iridium](https://mikecann.co.uk/audio/artificial-iridium-trance-electro-house/)" for part 2.
+First part in a two part mix, see "[Iridium](/audio/artificial-iridium-trance-electro-house/)" for part 2.
 
 <!-- more -->
 

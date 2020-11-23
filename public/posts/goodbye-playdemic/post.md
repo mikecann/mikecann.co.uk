@@ -9,7 +9,7 @@ tags:
 title: Goodbye Playdemic
 ---
 
-[![head](/wp-content/uploads/2013/03/head.png)](https://mikecann.co.uk/photos-personal/goodbye-playdemic/attachment/head-8/)
+[![head](/wp-content/uploads/2013/03/head.png)](/posts/goodbye-playdemic/attachment/head-8/)
 
 Wow doesn't time fly.
 
@@ -28,7 +28,7 @@ Little did either of us know the long winding path that would unfold from that m
 
 Fast forward 5 years. After their success with Rockpool Paul and Alex approached me with a new cunning plan. They were going to start a games company to make these new-fangled social games that Zynga were redefining the games industry with.
 
-Join an exciting new company making cutting edge games with Starboy? [How could I refuse](https://mikecann.co.uk/photos-personal/playdemic-my-fist-day/)...
+Join an exciting new company making cutting edge games with Starboy? [How could I refuse](/posts/playdemic-my-fist-day/)...
 
 Needless to to say the next 3 years were quite a journey. There were ups, there were downs, there were laughs, there were cry's there was even the occasional thigh-rub (still not sure how I didn't get fired for those).
 

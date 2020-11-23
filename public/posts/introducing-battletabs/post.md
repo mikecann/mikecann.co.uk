@@ -20,7 +20,7 @@ This one has been quite a while in the making but im proud to announce this inno
 
 # History
 
-I have been building chrome extensions for [quite some time](https://mikecann.co.uk/post-to-tumbr/my-first-chrome-extension-post-to-tumblr/) and have always considered them a powerful and often overlooked medium.
+I have been building chrome extensions for [quite some time](/posts/my-first-chrome-extension-post-to-tumblr/) and have always considered them a powerful and often overlooked medium.
 
 When I came across the [Tabby Cat](https://chrome.google.com/webstore/detail/tabby-cat/mefhakmgclhhfbdadeojlkbllmecialg) extension a few years back I realized that the New Tab page is a powerful space for content that gets short but frequent attention (every new tab thats opened). It got my brain-juices flowing and I began to wonder what else we could use the new-tab page for.
 

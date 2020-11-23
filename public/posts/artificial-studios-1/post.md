@@ -9,4 +9,4 @@ title: Artificial Studios 1
 
 Wow, well this is where it all began, my first website!
 
-[https://mikecann.co.uk/ArtificialStudios1/Index.html](https://mikecann.co.uk/ArtificialStudios1/Index.html)
+[/ArtificialStudios1/Index.html](/ArtificialStudios1/Index.html)

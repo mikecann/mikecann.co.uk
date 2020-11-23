@@ -1,11 +1,11 @@
 ---
 coverImage: /posts/printomi-maps/cover.jpg
-date: '2012-05-16T19:36:28.000Z'
+date: "2012-05-16T19:36:28.000Z"
 tags: []
 title: Printomi Maps
 ---
 
-Well since we have made the [decision to discontinue Printomi](https://mikecann.co.uk/printomi/sunsetting-printomi/) I have been backing up the databases and downloading the 90GB+ of images that users have uploaded.
+Well since we have made the [decision to discontinue Printomi](/posts/sunsetting-printomi/) I have been backing up the databases and downloading the 90GB+ of images that users have uploaded.
 
 Well it wouldn't be like me if I didn't start thinking about what cool things I do with all those pixels. I remember seeing those [cool Mincraft maps](https://www.deadworkerspartynetwork.com/theshaft/map1/mapalt1/map.html?worldX=980&worldY=0&worldZ=160&zoom=6) that use the Google Maps API to explore the Minecraft servers and it got me thinking if it could be possible to do something like that but for the Printomi images.
 

@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2017-11-04T15:51:42.000Z'
+date: "2017-11-04T15:51:42.000Z"
 tags:
   - projects
   - chrome extension
@@ -11,10 +11,10 @@ tags:
   - azure
   - aws
   - markd
-title: 'Markd 2 - Total Re-Write using React, Mobx-State-Tree and Parse-Server'
+title: "Markd 2 - Total Re-Write using React, Mobx-State-Tree and Parse-Server"
 ---
 
-I last wrote about Markd [back in September of last year](https://mikecann.co.uk/markd/portfolio/projects/introducing-markd-pinterest-for-people/) so I think its about time I gave you an update on our latest progress on the project.
+I last wrote about Markd [back in September of last year](/posts/portfolio/projects/introducing-markd-pinterest-for-people/) so I think its about time I gave you an update on our latest progress on the project.
 
 <!-- more -->
 
@@ -32,7 +32,7 @@ Check out the video below for a quick demonstration:
 
 # The Problem
 
-As [mentioned previously](https://mikecann.co.uk/markd/portfolio/projects/introducing-markd-pinterest-for-people/) the tech stack in Markd 1 was a combination of Aurelia for the extension with Microsoft's ASP.net Core on the backend and hosted on Azure.
+As [mentioned previously](/posts/portfolio/projects/introducing-markd-pinterest-for-people/) the tech stack in Markd 1 was a combination of Aurelia for the extension with Microsoft's ASP.net Core on the backend and hosted on Azure.
 
 The problem was that I was never very happy with the way things were on the code level. There was no sharing between the extension and the client which led to many issues and bugs in conversion from one data format to another. I also had problems building Aurelia as every time I went back to it, everything had changed and I could no longer build. None of the docs matched what I had and it was generally a nightmare.
 
@@ -76,47 +76,47 @@ export const Mark = types
     updatedAt: types.maybe(types.Date),
   })
   .named("Mark")
-  .views(self => ({
+  .views((self) => ({
     get hasBeenSavedToServer() {
-      return self.createdAt != null
+      return self.createdAt != null;
     },
   }))
-  .actions(self => ({
+  .actions((self) => ({
     setName(v: string) {
-      self.name = v
+      self.name = v;
     },
     setProfileImage(v: IMarkdFileSnapshot | null) {
-      self.profileImage = v as any
+      self.profileImage = v as any;
     },
     setTags(v: string[]) {
-      self.tags = v as any
+      self.tags = v as any;
     },
     setLinks(v: string[]) {
-      self.links = v as any
+      self.links = v as any;
     },
     setReferenceImages(v: IMarkdFileSnapshot[]) {
-      self.referenceImages = v as any
+      self.referenceImages = v as any;
     },
     setDescription(v: string) {
-      self.description = v
+      self.description = v;
     },
     setNotes(v: string) {
-      self.notes = v
+      self.notes = v;
     },
     setSourceUrl(v: string) {
-      self.sourceUrl = v
+      self.sourceUrl = v;
     },
     setCreatedByUserId(v: string) {
-      self.createdByUserId = v
+      self.createdByUserId = v;
     },
 
     load: process(function* load(id: string): any {
-      const service = getEnv<IMarkEnv>(self).marksService
-      self.id = id
-      var snapshot = yield service.getMark(id)
-      applySnapshot(self, snapshot)
+      const service = getEnv<IMarkEnv>(self).marksService;
+      self.id = id;
+      var snapshot = yield service.getMark(id);
+      applySnapshot(self, snapshot);
     }),
-  }))
+  }));
 ```
 
 As you can see we can define a number of properties in a strongly typed manner in the "model", then we can declare computed properties such as `hasBeenSavedToServer` in the "views" then we can define actions that can mutate the model in "actions". Those types are checked at compile time (thanks to Typescript) and runtime (during development) so you can catch even more of those pesky Javavascript typing issues.
@@ -143,8 +143,8 @@ Im sorry to say that after all my various web based projects over the years this
 
 ```typescript
 test("when loading, snapshot is applied", async () => {
-  const markServiceMock = mock(MarksService)
-  const marksService = instance(markServiceMock)
+  const markServiceMock = mock(MarksService);
+  const marksService = instance(markServiceMock);
 
   when(markServiceMock.getMark("mid")).thenReturn(
     Promise.resolve({
@@ -152,18 +152,18 @@ test("when loading, snapshot is applied", async () => {
       name: "mike",
       referenceImages: [{ name: "xxx", url: "yyy" }],
     })
-  )
+  );
 
-  var mark = Mark.create({}, { marksService })
+  var mark = Mark.create({}, { marksService });
 
-  await mark.load("mid")
+  await mark.load("mid");
 
-  expect(mark.id).toBe("mid")
-  expect(mark.name).toBe("mike")
-  expect(mark.referenceImages.length).toBe(1)
-  expect(mark.referenceImages[0].name).toBe("xxx")
-  expect(mark.referenceImages[0].url).toBe("yyy")
-})
+  expect(mark.id).toBe("mid");
+  expect(mark.name).toBe("mike");
+  expect(mark.referenceImages.length).toBe(1);
+  expect(mark.referenceImages[0].name).toBe("xxx");
+  expect(mark.referenceImages[0].url).toBe("yyy");
+});
 ```
 
 Writing tests is _almost_ as nice as C#. The above example is one test for the Mark model I used above. We are able to mock the return of the service, await the return of an async operation and assert the result, pretty sweet!

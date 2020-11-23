@@ -13,7 +13,7 @@ title: The Final Development Update for Mr Nibbles Mobile Game
 
 [![](/wp-content/uploads/2012/08/title.png "title")](/wp-content/uploads/2012/08/title.png)
 
-Well it may have taken two weeks longer than [my original plan](https://mikecann.co.uk/personal-projects/lets-make-a-mobile-game-in-3-weeks-with-haxe-nme/) but I can say that after five weeks of development the game is pretty much complete.
+Well it may have taken two weeks longer than [my original plan](/posts/lets-make-a-mobile-game-in-3-weeks-with-haxe-nme/) but I can say that after five weeks of development the game is pretty much complete.
 
 <!-- more -->
 

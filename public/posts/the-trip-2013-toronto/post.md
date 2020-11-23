@@ -16,7 +16,7 @@ _Note: This is a condensed version of the pictures I took with some added narrat
 
 <!-- more -->
 
-After a short 3 day stop in[ Washington DC](https://mikecann.co.uk/travel/the-trip-2013-washington-dc/) next up on my list was Toronto Canada. I knew I had about 5 days to kill following Washington. I had heard from several people that Toronto is a cool city to visit so I thought why not, I wasn't disappointed.
+After a short 3 day stop in[ Washington DC](/posts/the-trip-2013-washington-dc/) next up on my list was Toronto Canada. I knew I had about 5 days to kill following Washington. I had heard from several people that Toronto is a cool city to visit so I thought why not, I wasn't disappointed.
 
 I was nervous arriving as this would be my first time staying in a hostel by myself and thus I wasnt sure how a lot of things worked or whether I would be able to make friends. Fortunately within only a few minutes of arriving I met one of my dorm-mate, a great guy called Heeday.
 

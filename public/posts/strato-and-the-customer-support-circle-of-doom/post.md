@@ -16,7 +16,7 @@ Why is it so hard to find a good web hosting company?
 
 <!-- more -->
 
-About [one year ago I announced](https://mikecann.co.uk/misc/new-blog-host-face-lift/) that I moved hosting from WebFusion over to STRATO in the hopes for higher reliability. This was indeed the case for almost a year. I had no problems, until...
+About [one year ago I announced](/posts/new-blog-host-face-lift/) that I moved hosting from WebFusion over to STRATO in the hopes for higher reliability. This was indeed the case for almost a year. I had no problems, until...
 
 Three weeks ago my blog started to suffer problems, as is clear from my analytics data on one of the domains:
 

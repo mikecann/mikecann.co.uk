@@ -63,7 +63,7 @@ The technology that lets us capture these large images and store them in a compr
 
 Printomi is currently only available to a small subset of the [Gourmet Ranch](https://apps.facebook.com/gourmetranch) user base but we are performing a steady-rollout to everyone, so if you don't have access to the button in Gourmet Ranch just yet then don't worry it should be available for you soon!
 
-Printomi is a culmination of many many hours of hard work, late nights and stress. But its been worth it! I've had a blast throughout the whole process and am proud of the result. I have also learnt a whole bunch in the process. I have had to work with so many technologies to pull this off, to name a few: AS3, C++, C#, ASP.Net, MySQL, IIS, AWS. I have particularly enjoyed the C# work having largely abandoned the language since my [early work](https://mikecann.co.uk/personal-project/windows-7-taskbar-performance-monitor-v0-2/) [with it.](https://mikecann.co.uk/chainreaction/killer-space-penguins/)
+Printomi is a culmination of many many hours of hard work, late nights and stress. But its been worth it! I've had a blast throughout the whole process and am proud of the result. I have also learnt a whole bunch in the process. I have had to work with so many technologies to pull this off, to name a few: AS3, C++, C#, ASP.Net, MySQL, IIS, AWS. I have particularly enjoyed the C# work having largely abandoned the language since my [early work](/posts/windows-7-taskbar-performance-monitor-v0-2/) [with it.](/posts/killer-space-penguins/)
 
 [![](/wp-content/uploads/2012/04/fb1.jpg "fb")](https://www.facebook.com/printomi)[![](/wp-content/uploads/2012/04/tw.jpg "tw")](https://twitter.com/#!/printomi)
 
