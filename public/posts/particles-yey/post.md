@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-12-16T19:10:12.000Z'
+date: "2010-12-16T19:10:12.000Z"
 tags:
   - java
   - Particles
   - pretty
-title: 'Particles, Yey!'
+title: "Particles, Yey!"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0031.png "Shot_003")](https://mikecann.co.uk/wp-content/uploads/2010/12/Shot_0031.png)
+[![](/wp-content/uploads/2010/12/Shot_0031.png "Shot_003")](/wp-content/uploads/2010/12/Shot_0031.png)
 
 Just thought I would share this little thing I was introduced to by a friend.
 

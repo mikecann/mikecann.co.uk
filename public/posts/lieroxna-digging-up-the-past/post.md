@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-08-01T12:44:58.000Z'
+date: "2009-08-01T12:44:58.000Z"
 tags:
   - Code
   - Liero
@@ -36,7 +36,7 @@ I actually took the game to a high standard, and took it to eidos publishers in 
 
 Whats worse is I have actually lost everything! I have lost the source code and the binary everything, I cant believe my own stupidity. All I have left is a power point presentation and some screenshots :(
 
-[![lieroxna1](https://www.mikecann.co.uk/wp-content/uploads/2009/08/lieroxna1-300x224.jpg "lieroxna1")](https://mikecann.co.uk/wp-content/uploads/2009/08/lieroxna1.jpg)[![lieroxna2](https://www.mikecann.co.uk/wp-content/uploads/2009/08/lieroxna2-300x224.jpg "lieroxna2")](https://mikecann.co.uk/wp-content/uploads/2009/08/lieroxna2.jpg)
+[![lieroxna1](https://www.mikecann.co.uk/wp-content/uploads/2009/08/lieroxna1-300x224.jpg "lieroxna1")](/wp-content/uploads/2009/08/lieroxna1.jpg)[![lieroxna2](https://www.mikecann.co.uk/wp-content/uploads/2009/08/lieroxna2-300x224.jpg "lieroxna2")](/wp-content/uploads/2009/08/lieroxna2.jpg)
 
 The game play was actually very good fun, we played quite a few 4-man games in the office.
 

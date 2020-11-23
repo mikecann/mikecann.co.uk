@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-10-17T16:28:27.000Z'
+date: "2010-10-17T16:28:27.000Z"
 tags:
   - chrome
   - extension
@@ -11,7 +11,7 @@ tags:
 title: Post To Tumblr - v0.2
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_0011.png "Shot_001")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_0011.png)
+[![](/wp-content/uploads/2010/10/Shot_0011.png "Shot_001")](/wp-content/uploads/2010/10/Shot_0011.png)
 
 Just a quick update to [my first chrome extension](https://mikecann.co.uk/personal-project/my-first-chrome-extension-post-to-tumblr/).
 

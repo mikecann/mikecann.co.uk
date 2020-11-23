@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-11-17T19:32:11.000Z'
+date: "2011-11-17T19:32:11.000Z"
 tags: []
-title: 'Hxaria, Terraria like terrain in HaXe and WebGL'
+title: "Hxaria, Terraria like terrain in HaXe and WebGL"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/head2.jpg "head2")](https://mikecann.co.uk/wp-content/uploads/2011/11/head2.jpg)
+[![](/wp-content/uploads/2011/11/head2.jpg "head2")](/wp-content/uploads/2011/11/head2.jpg)
 
 I woke up the other day thinking about Terraria. No idea why as I haven't played it in ages, but its the type of game I really enjoy so it must have snuck into my dreams during the night.
 
@@ -13,7 +13,7 @@ I woke up the other day thinking about Terraria. No idea why as I haven't play
 
 Anyways, it got my thinking if it would be possible to make something similar to it in the browser using WebGL. For those not aware of Terraria, it looks something like this:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/screen01.jpg "screen01")](https://mikecann.co.uk/wp-content/uploads/2011/11/screen01.jpg)
+[![](/wp-content/uploads/2011/11/screen01.jpg "screen01")](/wp-content/uploads/2011/11/screen01.jpg)
 
 To produce the above you need several layers of tilemaps (background, water, foreground etc) that can potentially change every single frame (due to lighting environment effects etc). To do that at 1680x1050 at 16x16 per tile with only one layer changing each frame will be 6800 tile draws per frame.
 
@@ -23,7 +23,7 @@ My first thought was to render each tile as a separate quad. That would certa
 
 My next thought was that I could share vertices by using vertex indices in a triangle-strip, that way at best each tile will only require just over one vertex per tile then arrange them in a lattice so that the vertices are shard between tiles:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/mesh_bad.png "mesh_bad")](https://mikecann.co.uk/wp-content/uploads/2011/11/mesh_bad.png)
+[![](/wp-content/uploads/2011/11/mesh_bad.png "mesh_bad")](/wp-content/uploads/2011/11/mesh_bad.png)
 
 This would then only require about 27,200 vertices which is really nice. I was hover having difficulties imagining how I would reference each tile individually in the shader so I could apply texture and color transformations and started wondering if another technique might work..
 
@@ -31,7 +31,7 @@ Having recently done some work with [Point Sprite Particles](https://mikecann.
 
 So armed with the theory I set to work bashing out some code. Having worked with raw WebGL in haXe on my last [few experiments](https://mikecann.co.uk/personal-project/gpu-state-preserving-particle-systems-with-webgl-haxe/) I decided I didnt want to go through all that [pain](https://mikecann.co.uk/programming/why-developing-for-webgl-sucks/) again just for the sake of a little more performance, so I decided to give Three.js another go in HaXe. Thankfully this time I was treading a known path so I could learn from existing threejs point-sprite particle samples. The bulk of the custom particle system logic I took from this rather excellent sample:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/Shot_01.png "Shot_01")](https://alteredqualia.com/three/examples/webgl_custom_attributes_particles.html)
+[![](/wp-content/uploads/2011/11/Shot_01.png "Shot_01")](https://alteredqualia.com/three/examples/webgl_custom_attributes_particles.html)
 
 ([https://alteredqualia.com/three/examples/webgl_custom_attributes_particles.html](https://alteredqualia.com/three/examples/webgl_custom_attributes_particles.html))
 

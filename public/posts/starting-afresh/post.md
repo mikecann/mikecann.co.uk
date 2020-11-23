@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-06-11T13:31:54.000Z'
+date: "2010-06-11T13:31:54.000Z"
 tags:
   - Blog
   - Website
@@ -8,7 +8,7 @@ tags:
 title: Starting Afresh
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg "ScreenHunter_01 Jun. 11 11.37")](https://mikecann.co.uk/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg)
+[![](/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg "ScreenHunter_01 Jun. 11 11.37")](/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg)
 
 The last few weeks my site had been playing up. I have been getting alot of spam comments and other issues. For that reason I have wiped my entire blog and started again using a fresh install and backed up data.
 

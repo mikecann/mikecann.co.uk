@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-10-08T15:59:02.000Z'
+date: "2011-10-08T15:59:02.000Z"
 tags:
   - conference
   - haxe
   - talk
   - tryharder
-title: 'try {harder} - my haXe slides and code'
+title: "try {harder} - my haXe slides and code"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg "OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D")](https://mikecann.co.uk/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg)
+[![](/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg "OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D")](/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg)
 
 This week was a week of firsts. It was the first meeting for the [try {harder}](https://www.tryharder.org.uk/) conference. It was the first flash conference I have ever attended and it was my first time speaking infront of a group of my peers on a topic I feel passionate about.
 

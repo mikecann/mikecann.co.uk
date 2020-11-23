@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-03-14T23:26:05.000Z'
+date: "2010-03-14T23:26:05.000Z"
 tags:
   - C#
   - Performance
@@ -21,11 +21,11 @@ The problem is that while looking for a couple of images for the app I happene
 
 Ah well, I have decided to release my version of the app nonetheless:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_02-Mar.-14-21.45.gif "ScreenHunter_02 Mar. 14 21.45")](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_02-Mar.-14-21.45.gif)
+[![](/wp-content/uploads/2010/03/ScreenHunter_02-Mar.-14-21.45.gif "ScreenHunter_02 Mar. 14 21.45")](/wp-content/uploads/2010/03/ScreenHunter_02-Mar.-14-21.45.gif)
 
 You can open the app multiple times and set each one to monitor a different value:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_03-Mar.-14-21.46.gif "ScreenHunter_03 Mar. 14 21.46")](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_03-Mar.-14-21.46.gif)
+[![](/wp-content/uploads/2010/03/ScreenHunter_03-Mar.-14-21.46.gif "ScreenHunter_03 Mar. 14 21.46")](/wp-content/uploads/2010/03/ScreenHunter_03-Mar.-14-21.46.gif)
 
 I have also decided to post the source up on google code: [https://code.google.com/p/win7-taskbar-mon/](https://code.google.com/p/win7-taskbar-mon/)
 

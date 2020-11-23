@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-07-23T20:57:14.000Z'
+date: "2012-07-23T20:57:14.000Z"
 tags:
   - challenge
   - Game
@@ -11,7 +11,7 @@ tags:
 title: 3 Weeks of Progress on a Mobile Game
 ---
 
-<object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://mikecann.co.uk/wp-content/uploads/2012/07/Main7.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="433" type="application/x-shockwave-flash" src="https://mikecann.co.uk/wp-content/uploads/2012/07/Main7.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
+<object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="/wp-content/uploads/2012/07/Main7.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="433" type="application/x-shockwave-flash" src="/wp-content/uploads/2012/07/Main7.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
 
 As usual you can have a play with the game in its current form above. (Up to jump, left and right to control the player).
 
@@ -40,7 +40,7 @@ Haxe and NME however give me an alternative solution. Using the [SWF library](ht
 
 So to work out the correct size for the various parts of the menus initially I created a few "mock screens" in flash and laid out the various parts in the mocks:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/07/screenshot_10.gif "screenshot_10")](https://mikecann.co.uk/wp-content/uploads/2012/07/screenshot_10.gif)
+[![](/wp-content/uploads/2012/07/screenshot_10.gif "screenshot_10")](/wp-content/uploads/2012/07/screenshot_10.gif)
 
 By designing the mocks to 960x640 (3:2) I need only then at runtime divide the screen width by 960 to work out the correct scale for the game. Simples!
 
@@ -50,7 +50,7 @@ I noticed it was taking a long time to raster the background for my menus to a b
 
 There also appears to be another issue regarding TextFields on iOS. It appears as if the text is being cut off half way. I have also posted about this issue on the mailing list and am awaiting a reply. My solution for now is to provide a background behind my text set to alpha 0, this forces the width and hight to be correct:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/07/screenshot_11.gif "screenshot_11")](https://mikecann.co.uk/wp-content/uploads/2012/07/screenshot_11.gif)
+[![](/wp-content/uploads/2012/07/screenshot_11.gif "screenshot_11")](/wp-content/uploads/2012/07/screenshot_11.gif)
 
 Well with that boring stuff out of the way onto the changes in the game itself.
 

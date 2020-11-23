@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-16T19:57:36.000Z'
+date: "2010-08-16T19:57:36.000Z"
 tags:
   - competition
   - Flash
@@ -9,7 +9,7 @@ tags:
 title: Ludum Dare 18 this Weekend!
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-16-20.48.gif "ScreenHunter_01 Aug. 16 20.48")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-16-20.48.gif)
+[![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-16-20.48.gif "ScreenHunter_01 Aug. 16 20.48")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-16-20.48.gif)
 
 Dont think I have blogged about this yet, so im doing so now.
 

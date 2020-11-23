@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-02-17T19:30:02.000Z'
+date: "2011-02-17T19:30:02.000Z"
 tags:
   - binding
   - compiler
@@ -11,7 +11,7 @@ tags:
 title: Flex Binding & Compile Times
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/02/commandlin01.jpg "commandlin01")](https://mikecann.co.uk/wp-content/uploads/2011/02/commandlin01.jpg)
+[![](/wp-content/uploads/2011/02/commandlin01.jpg "commandlin01")](/wp-content/uploads/2011/02/commandlin01.jpg)
 
 Binding in flex has been playing on my mind for a little while now, so I have decided to finally sit down and try to resolve the issue.
 
@@ -34,4 +34,4 @@ The general gist is that it seems binding adds about 20% onto compile times both
 
 Im not sure if the tests I did were fair so I would love to hear feedback from others.
 
-I have bundled the project up incase anyone wanted to test it themselves: [https://mikecann.co.uk/wp-content/uploads/2011/02/CompileTestGen.zip](https://mikecann.co.uk/wp-content/uploads/2011/02/CompileTestGen.zip)
+I have bundled the project up incase anyone wanted to test it themselves: [/wp-content/uploads/2011/02/CompileTestGen.zip](/wp-content/uploads/2011/02/CompileTestGen.zip)

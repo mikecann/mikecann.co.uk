@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-06-26T16:04:17.000Z'
+date: "2009-06-26T16:04:17.000Z"
 tags:
   - Flash
   - Game
@@ -13,7 +13,7 @@ We are still working on [BlastWave 2](https://www.mikecann.co.uk/?p=513). Over t
 
 <!-- more -->
 
-![bwupdate](https://mikecann.co.uk/wp-content/uploads/2009/06/bwupdate.jpg "bwupdate")
+![bwupdate](/wp-content/uploads/2009/06/bwupdate.jpg "bwupdate")
 
 As can be seen by the screeny we have added many of the characters (tho they need some touching up still) and have added some scenery elements. On the code side I have been playing around with the physics provided by [Box2D](https://box2dflash.sourceforge.net/).
 

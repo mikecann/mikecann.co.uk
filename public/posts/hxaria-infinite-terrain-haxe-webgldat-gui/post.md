@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-11-26T14:19:40.000Z'
+date: "2011-11-26T14:19:40.000Z"
 tags:
   - Experiment
   - haxe
@@ -8,7 +8,7 @@ tags:
   - Particles
   - terraria
   - tilemaps
-title: 'Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]'
+title: "Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]"
 ---
 
 So I have been working on my "[Terraria like Terrain](https://mikecann.co.uk/personal-project/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.
@@ -35,11 +35,11 @@ public var type : Int;
 
 When the TileRenderer needs to render it asks this Tilemap for a Tile that represents that screen coordinate, the Tilemap then offsets the position due to the camera movement and returns a tile. So it looks something like:
 
-&lt;a href=&quot;https://mikecann.co.uk/wp-content/uploads/2011/11/tm.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-1795&quot; title=&quot;tm&quot; src=&quot;https://mikecann.co.uk/wp-content/uploads/2011/11/tm.png&quot; alt=&quot;&quot; width=&quot;600&quot; height=&quot;357&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/wp-content/uploads/2011/11/tm.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-1795&quot; title=&quot;tm&quot; src=&quot;/wp-content/uploads/2011/11/tm.png&quot; alt=&quot;&quot; width=&quot;600&quot; height=&quot;357&quot; /&gt;&lt;/a&gt;
 
 The tile type is then passed to the shader in attribute buffers per point sprite / tile along with all the tiles which are stored on a single texture:
 
-&lt;a href=&quot;https://mikecann.co.uk/wp-content/uploads/2011/11/tilescompressed.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-1803&quot; title=&quot;tilescompressed&quot; src=&quot;https://mikecann.co.uk/wp-content/uploads/2011/11/tilescompressed.png&quot; alt=&quot;&quot; width=&quot;256&quot; height=&quot;352&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-1803&quot; title=&quot;tilescompressed&quot; src=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot; alt=&quot;&quot; width=&quot;256&quot; height=&quot;352&quot; /&gt;&lt;/a&gt;
 
 The shader then performs the neccessary calculations to work out what the UV coordinate in the texture. The Vertex Shader:
 
@@ -97,11 +97,11 @@ So it works in a way very much like a raster engine. You only have to render as 
 
 If the screen area moves beyond the extent of the Tilemap then more tiles are randomly generated:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/22222.png "22222")](https://mikecann.co.uk/wp-content/uploads/2011/11/22222.png)
+[![](/wp-content/uploads/2011/11/22222.png "22222")](/wp-content/uploads/2011/11/22222.png)
 
 The new tiles are randomly selected from 4 different types, Dirt, Gold, Diamonds and Rock. I have added some controls to the demo that allow you to tweak these values to demonstrate the random tile generation:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/Shot_041.png "Shot_04")](https://mikecann.co.uk/wp-content/uploads/2011/11/Shot_041.png)
+[![](/wp-content/uploads/2011/11/Shot_041.png "Shot_04")](/wp-content/uploads/2011/11/Shot_041.png)
 
 The UI may look familiar to people that have seen any experiments anyone who has worked with Three.js before, its the very popular [dat.GUI](https://code.google.com/p/dat-gui/). Its a really simple library written in javascript for creating controls that can be used to tweak experiments, perfect for me!
 

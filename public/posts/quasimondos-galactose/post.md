@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-01-10T21:17:09.000Z'
+date: "2010-01-10T21:17:09.000Z"
 tags:
   - Actionscript
   - Experiment
@@ -11,7 +11,7 @@ tags:
 title: Quasimondo's Galactose
 ---
 
-[![ScreenHunter_02 Jan. 10 20.13](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg "ScreenHunter_02 Jan. 10 20.13")](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg)
+[![ScreenHunter_02 Jan. 10 20.13](/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg "ScreenHunter_02 Jan. 10 20.13")](/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg)
 
 I have immense respect for some of the flash developers out there and Quasimondo is one of them. He has just released a little particle related experiment.<!-- more -->
 

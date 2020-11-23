@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-01-18T13:36:07.000Z'
+date: "2010-01-18T13:36:07.000Z"
 tags:
   - Dropbox
   - Utility
 title: Rename Dropbox Root Folder Windows
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/01/pyDropboxPath.png "pyDropboxPath")](https://mikecann.co.uk/wp-content/uploads/2010/01/pyDropboxPath.png)
+[![](/wp-content/uploads/2010/01/pyDropboxPath.png "pyDropboxPath")](/wp-content/uploads/2010/01/pyDropboxPath.png)
 
 Following on today's handy tips that I have commonly had to employ when dealing with fresh PC installs, I present PyDropboxPath.
 
@@ -17,7 +17,7 @@ Luckily some clever Python developer on the [Dropbox Forum](https://forums.dropb
 
 Again im just copy / pasting the install instructions directly from the forum (replacing the download link for the file):
 
-Dowload: [PyDropboxPath_082](https://mikecann.co.uk/wp-content/uploads/2010/01/PyDropboxPath_082.zip)
+Dowload: [PyDropboxPath_082](/wp-content/uploads/2010/01/PyDropboxPath_082.zip)
 
 _Tested on Ubuntu Jaunty, Windows XP Pro and Windows7 x64 RC. Others tested on OSX and told me it was OK too :)_
 

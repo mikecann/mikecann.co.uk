@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-01T13:27:21.000Z'
+date: "2010-08-01T13:27:21.000Z"
 tags:
   - Awake
   - Book
@@ -10,7 +10,7 @@ tags:
 title: Exploring The World of Lucid Dreaming
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/IMG_0909.jpg "IMG_0909")](https://mikecann.co.uk/wp-content/uploads/2010/08/IMG_0909.jpg)
+[![](/wp-content/uploads/2010/08/IMG_0909.jpg "IMG_0909")](/wp-content/uploads/2010/08/IMG_0909.jpg)
 
 Im not too sure if I have spoken before about Lucid Dreaming. I was interested in the concept several years ago when I first heard about it and then by accidentally managed to do it once while on holiday. It was an incredible experience and ever since the concept of consciously influencing your dreaming state has fascinated me.
 

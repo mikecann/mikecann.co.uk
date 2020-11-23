@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-12-15T00:16:36.000Z'
+date: "2009-12-15T00:16:36.000Z"
 tags:
   - Personal
   - Photos
@@ -13,7 +13,7 @@ Well after the thieving of my bike [a few weeks ago](https://www.mikecann.co.uk/
 
 And here it is:
 
-[![photo](https://mikecann.co.uk/wp-content/uploads/2009/12/photo.jpg "photo")](https://mikecann.co.uk/wp-content/uploads/2009/12/photo.jpg)
+[![photo](/wp-content/uploads/2009/12/photo.jpg "photo")](/wp-content/uploads/2009/12/photo.jpg)
 
 Doesnt it look mean?
 

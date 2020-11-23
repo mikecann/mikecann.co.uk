@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-15T11:10:18.000Z'
+date: "2010-08-15T11:10:18.000Z"
 tags:
   - 2d
   - community
@@ -13,7 +13,7 @@ tags:
 title: Shader Based 2D Shadowing
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/11_scene.png "11_scene")](https://mikecann.co.uk/wp-content/uploads/2010/08/11_scene.png)
+[![](/wp-content/uploads/2010/08/11_scene.png "11_scene")](/wp-content/uploads/2010/08/11_scene.png)
 
 Those who know me know I used to do [quite abit of development](https://mikecann.co.uk/?s=xna) in c# using Microsoft's XNA platform.
 

@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-06-25T18:54:18.000Z'
+date: "2009-06-25T18:54:18.000Z"
 tags:
   - Chill
   - Downtempo
   - Mix
   - Music
-title: 'New Mix: Artificial - Intelligence'
+title: "New Mix: Artificial - Intelligence"
 ---
 
-![aiimage](https://mikecann.co.uk/wp-content/uploads/2009/06/aiimage.gif "aiimage")
+![aiimage](/wp-content/uploads/2009/06/aiimage.gif "aiimage")
 
 Finally, finally I have decided to say sod it and stop tinkering with this god damn mix! I have been making and remaking this thing for the best part of a year but I can still see the rough edges. Its been driving me quite literally mad! Having said that however I have enjoyed making it, else I wouldn't do it... right?
 
@@ -21,6 +21,6 @@ Anyway the idea was to have a two part mix, a more downtempo one and this one (c
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fintelligence%2F&amp;embed_type=widget_standard&amp;embed_uuid=12f33318-2728-401e-918e-f99f721c54de&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>
 
-[Intelligence](https://www.mixcloud.com/mikeysee/intelligence/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
+[Intelligence](https://www.mixcloud.com/mikeysee/intelligence/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
 
 <div style="clear: both; height: 3px; width: auto;"></div>

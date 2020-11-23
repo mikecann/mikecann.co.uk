@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-08-23T20:39:08.000Z'
+date: "2011-08-23T20:39:08.000Z"
 tags:
   - house
   - Mix
   - progressive
   - tech
-title: 'Artificial - Argon [Tech, House, Progressive]'
+title: "Artificial - Argon [Tech, House, Progressive]"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/08/Argon-Cover.png "Argon-Cover")](https://mikecann.co.uk/wp-content/uploads/2011/08/Argon-Cover.png)
+[![](/wp-content/uploads/2011/08/Argon-Cover.png "Argon-Cover")](/wp-content/uploads/2011/08/Argon-Cover.png)
 
 First part in a two part mix, see "[Iridium](https://mikecann.co.uk/audio/artificial-iridium-trance-electro-house/)" for part 2.
 
@@ -19,7 +19,7 @@ What I have tried to do with these two mixes is present two sorts of music that 
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fartificial-argon%2F&amp;embed_type=widget_standard&amp;embed_uuid=fde1588d-ca70-4e3b-b353-344b10183e4d&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>
 
-[Argon](https://www.mixcloud.com/mikeysee/artificial-argon/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
+[Argon](https://www.mixcloud.com/mikeysee/artificial-argon/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
 
 <div style="clear: both; height: 3px; width: auto;"></div>
 

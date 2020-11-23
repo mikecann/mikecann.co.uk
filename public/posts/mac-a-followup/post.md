@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-08-19T09:05:10.000Z'
+date: "2009-08-19T09:05:10.000Z"
 tags:
   - Apple
   - Opinion
@@ -12,4 +12,4 @@ So after reading my last blog post "A Week on The Mac" the family cat had someth
 
 <!-- more -->
 
-[![cat1](https://mikecann.co.uk/wp-content/uploads/2009/08/cat1.jpg "cat1")](https://mikecann.co.uk/wp-content/uploads/2009/08/cat1.jpg)
+[![cat1](/wp-content/uploads/2009/08/cat1.jpg "cat1")](/wp-content/uploads/2009/08/cat1.jpg)

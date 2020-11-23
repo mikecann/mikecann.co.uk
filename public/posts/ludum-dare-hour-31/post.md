@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-22T08:37:45.000Z'
+date: "2010-08-22T08:37:45.000Z"
 tags:
   - 48hours
   - bloom
@@ -14,7 +14,7 @@ tags:
 title: Ludum Dare - Hour 31
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg "ScreenHunter_01 Aug. 22 09.36")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg)
+[![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg "ScreenHunter_01 Aug. 22 09.36")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg)
 
 Well its been quite a while since my last progress report. I have mostly been sleeping (well 4 hours of it anyways).
 

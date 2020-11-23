@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-09-16T17:23:41.000Z'
+date: "2012-09-16T17:23:41.000Z"
 tags:
   - conference
   - haxe
@@ -9,7 +9,7 @@ tags:
 title: WWX & Try Harder 2012
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/09/newhead2.jpg "newhead2")](https://mikecann.co.uk/wp-content/uploads/2012/09/newhead2.jpg)
+[![](/wp-content/uploads/2012/09/newhead2.jpg "newhead2")](/wp-content/uploads/2012/09/newhead2.jpg)
 
 I just realised that I still hadn't posted anything about the Haxe conference, WWX 2012, I attended at in February of this year, how lax of me! Well actually I was waiting for the videos to be released so I could give a link to the lightning talk I gave on my WebGL experiments from last year. (Un)fortunately however, the lightning talks weren't recorded so you cant see my nervously mumble through my presentation.
 

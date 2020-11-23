@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-21T23:04:15.000Z'
+date: "2010-08-21T23:04:15.000Z"
 tags:
   - 48hours
   - competition
@@ -10,7 +10,7 @@ tags:
 title: Ludum Dare - Hour 22
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg "ScreenHunter_02 Aug. 21 23.59")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg)
+[![](/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg "ScreenHunter_02 Aug. 21 23.59")](/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg)
 
 Okay, im starting to get pretty tired. Its not very late (midnight) but I think the lack of sleep last night is catching up with me. Im gonna get a few hours kip now then back up early to start again I think.
 

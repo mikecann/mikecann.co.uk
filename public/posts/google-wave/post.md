@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-10-15T14:06:56.000Z'
+date: "2009-10-15T14:06:56.000Z"
 tags:
   - Google
   - Wave
 title: Google Wave
 ---
 
-[![2009-10-15_1400](https://mikecann.co.uk/wp-content/uploads/2009/10/2009-10-15_1400.png "2009-10-15_1400")](https://mikecann.co.uk/wp-content/uploads/2009/10/2009-10-15_1400.png)
+[![2009-10-15_1400](/wp-content/uploads/2009/10/2009-10-15_1400.png "2009-10-15_1400")](/wp-content/uploads/2009/10/2009-10-15_1400.png)
 
 Had my first proper real-time wave today and although I was a little skeptical at first I must admit it really worked very well and surprisingly was actually alot of fun!
 

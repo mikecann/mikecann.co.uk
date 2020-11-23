@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-03-25T15:27:19.000Z'
+date: "2013-03-25T15:27:19.000Z"
 tags:
   - AIR
   - ash
@@ -10,7 +10,7 @@ tags:
 title: The Three Game Challenge
 ---
 
-![](https://mikecann.co.uk/wp-content/uploads/2013/03/c05c1aa4a34153cda98d2ed3964498f6.png)
+![](/wp-content/uploads/2013/03/c05c1aa4a34153cda98d2ed3964498f6.png)
 
 Well as announced [in my last post](https://mikecann.co.uk/travel/my-2013/) im going to be spending most of this year travelling around various parts of the world. I'm leaving on the 7th on May so I have about a month left before I go so I have been thinking on what small project I can do in the meantime to keep me out of mischief.
 
@@ -22,7 +22,7 @@ The rules are the games all have to be designed as if they are going to work on 
 
 Im also going to get myself another ground rule. I can only use the free [Lost Garden Planet Cute](https://www.lostgarden.com/2007/05/dancs-miraculously-flexible-game.html) assets.
 
-[![main](https://mikecann.co.uk/wp-content/uploads/2013/03/main.png)](https://mikecann.co.uk/personal-project/the-three-game-challenge/attachment/main-9/)
+[![main](/wp-content/uploads/2013/03/main.png)](https://mikecann.co.uk/personal-project/the-three-game-challenge/attachment/main-9/)
 
 I hope that this limitation will mean I don't spend too much time worrying about the tech and how it looks and instead concentrate on what has traditionally been tough for me, making it fun!
 

@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-01-28T13:08:14.000Z'
+date: "2012-01-28T13:08:14.000Z"
 tags: []
 title: Homebrewin' Tip
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/01/head.jpg "head")](https://mikecann.co.uk/wp-content/uploads/2012/01/head.jpg)
+[![](/wp-content/uploads/2012/01/head.jpg "head")](/wp-content/uploads/2012/01/head.jpg)
 
 This post is a little off the normal beaten track for my blog. I have been so super busy of late on a project that I havent really had any time for technical personal projects.
 

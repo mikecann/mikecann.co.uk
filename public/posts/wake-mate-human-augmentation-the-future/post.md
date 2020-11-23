@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-01-24T15:32:21.000Z'
+date: "2010-01-24T15:32:21.000Z"
 tags:
   - iPhone
   - Productivity
   - Sleep
   - Utility
-title: 'Wake Mate - Human Augmentation, the future?'
+title: "Wake Mate - Human Augmentation, the future?"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg "ScreenHunter_01 Jan. 24 14.13")](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg)
+[![](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg "ScreenHunter_01 Jan. 24 14.13")](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg)
 
 Well after a little deliberation I decided to go for it and take a leap and pre-order a "[WakeMate](https://wakemate.com/)". Mainly as an experiment but partially to fuel the geeky gadget lover inside of me, but I do think this sort of thing is a natural extension to our techno-obsessed lifestyle.
 

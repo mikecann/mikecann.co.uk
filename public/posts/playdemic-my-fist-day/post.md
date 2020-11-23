@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-01-11T20:12:13.000Z'
+date: "2010-01-11T20:12:13.000Z"
 tags:
   - Jobs
   - Personal
@@ -8,7 +8,7 @@ tags:
 title: Playdemic - My First Day
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_03-Jan.-11-19.10.jpg "ScreenHunter_03 Jan. 11 19.10")](https://mikecann.co.uk/wp-content/uploads/2010/01/ScreenHunter_03-Jan.-11-19.10.jpg)
+[![](/wp-content/uploads/2010/01/ScreenHunter_03-Jan.-11-19.10.jpg "ScreenHunter_03 Jan. 11 19.10")](/wp-content/uploads/2010/01/ScreenHunter_03-Jan.-11-19.10.jpg)
 
 Well I had mentioned this in a previous post but I thought I might as well add a separate post for it as its quite a big bit of personal news.
 

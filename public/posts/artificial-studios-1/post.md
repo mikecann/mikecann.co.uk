@@ -1,11 +1,11 @@
 ---
 coverImage: /posts/artificial-studios-1/cover.jpg
-date: '2004-01-29T23:07:01.000Z'
+date: "2004-01-29T23:07:01.000Z"
 tags: []
 title: Artificial Studios 1
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/MainSplash.gif "MainSplash")](https://mikecann.co.uk/wp-content/uploads/2011/10/MainSplash.gif)
+[![](/wp-content/uploads/2011/10/MainSplash.gif "MainSplash")](/wp-content/uploads/2011/10/MainSplash.gif)
 
 Wow, well this is where it all began, my first website!
 

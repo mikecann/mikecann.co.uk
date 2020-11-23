@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-06T21:55:53.000Z'
+date: "2010-08-06T21:55:53.000Z"
 tags:
   - Facebook
   - Flash
@@ -9,7 +9,7 @@ tags:
 title: A Few Site Changes
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/Untitled-1.jpg "Untitled-1")](https://mikecann.co.uk/wp-content/uploads/2010/08/Untitled-1.jpg)
+[![](/wp-content/uploads/2010/08/Untitled-1.jpg "Untitled-1")](/wp-content/uploads/2010/08/Untitled-1.jpg)
 
 As im not out tonight I thought I would do a little work on the site.<!-- more -->
 

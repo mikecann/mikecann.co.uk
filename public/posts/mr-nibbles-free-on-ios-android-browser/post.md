@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-08-22T19:49:18.000Z'
+date: "2012-08-22T19:49:18.000Z"
 tags:
   - Android
   - browser
@@ -9,7 +9,7 @@ tags:
   - Game
   - ios
   - nibbles
-title: 'Mr Nibbles, Free on iOS, Android & Browser'
+title: "Mr Nibbles, Free on iOS, Android & Browser"
 ---
 
 Finally! Apple approved the iOS version of the game this morning, and this evening I finished off the site, so the holy trinity of game availability; iOS, Android and the browser is now complete!
@@ -23,7 +23,7 @@ Check it out:
 
 or at: [https://www.mr-nibbles.com](https://www.mr-nibbles.com)
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/08/insert.jpg "insert")](https://www.mr-nibbles.com)
+[![](/wp-content/uploads/2012/08/insert.jpg "insert")](https://www.mr-nibbles.com)
 
 For once I actually finished one of my projects :) Im really happy with how the whole thing went, sure it went a couple of weeks over my original three-week estimate but still im happy with the result. Of course there is so much that could be improved, but for a free game made in a very short time I think it has done
 

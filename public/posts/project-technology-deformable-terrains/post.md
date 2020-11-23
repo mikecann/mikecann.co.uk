@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-12-05T22:25:38.000Z'
+date: "2007-12-05T22:25:38.000Z"
 tags: []
 title: Project Technology (Deformable Terrains)
 ---
@@ -17,14 +17,14 @@ Before i can explain how the terrain is deformed i must first talk about how the
     <tbody>
         <tr>
             <td>
-            <p align="center">![](https://mikecann.co.uk/wp-content/uploads/2007/12/test02_destr.png)
+            <p align="center">![](/wp-content/uploads/2007/12/test02_destr.png)
 
 Destructable Layer
 
             </td>
             <td align="center">
 
-![](https://mikecann.co.uk/wp-content/uploads/2007/12/test02_indestr.png)
+![](/wp-content/uploads/2007/12/test02_indestr.png)
 
 Indestructable Layer
 
@@ -41,14 +41,14 @@ Indestructable Layer
     <tbody>
         <tr>
             <td>
-            <p align="center">![](https://mikecann.co.uk/wp-content/uploads/2007/12/tempmask01.png)
+            <p align="center">![](/wp-content/uploads/2007/12/tempmask01.png)
 
 Destroyed Mask
 
             </td>
             <td align="center">
 
-![](https://mikecann.co.uk/wp-content/uploads/2007/12/test03_final.png)
+![](/wp-content/uploads/2007/12/test03_final.png)
 
 Final Result
 
@@ -73,21 +73,21 @@ Another 2048x2048 &quot;explosion map&quot; texture is used to handle the deform
     <tbody>
         <tr>
             <td align="center">
-            <p>![](https://mikecann.co.uk/wp-content/uploads/2007/12/explosion32.png)
+            <p>![](/wp-content/uploads/2007/12/explosion32.png)
 
 Exp32
 
             </td>
             <td align="center">
 
-![](https://mikecann.co.uk/wp-content/uploads/2007/12/explosion64.png)
+![](/wp-content/uploads/2007/12/explosion64.png)
 
 Exp64
 
             </td>
             <td align="center">
 
-![](https://mikecann.co.uk/wp-content/uploads/2007/12/explosion128.png)
+![](/wp-content/uploads/2007/12/explosion128.png)
 
 Exp128
 

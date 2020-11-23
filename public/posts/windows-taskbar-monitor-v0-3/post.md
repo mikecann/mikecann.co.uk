@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-10-01T10:02:07.000Z'
+date: "2011-10-01T10:02:07.000Z"
 tags: []
 title: Windows Taskbar Monitor v0.3
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_01.png "Shot_01")](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_01.png)
+[![](/wp-content/uploads/2011/10/Shot_01.png "Shot_01")](/wp-content/uploads/2011/10/Shot_01.png)
 
 I have just pushed a few small changes to one of my projects, [Windows Taskbar Monitor](https://code.google.com/p/win7-taskbar-mon/).
 
@@ -33,19 +33,19 @@ One way to get all three to start with different monitors when windows startup w
 
 **1) Click the windows start icon, then right click on "all programs" and click open:**
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_04.png "Shot_04")](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_04.png)
+[![](/wp-content/uploads/2011/10/Shot_04.png "Shot_04")](/wp-content/uploads/2011/10/Shot_04.png)
 
 **2) Navigate to Programs &gt; Startup then make three shortcuts to Windows Taskbar Monitor v0.3 you can rename the shortcuts if you like:**
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_05.png "Shot_05")](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_05.png)
+[![](/wp-content/uploads/2011/10/Shot_05.png "Shot_05")](/wp-content/uploads/2011/10/Shot_05.png)
 
 **3) For each shortcut, right click and select properties:**
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_06.png "Shot_06")](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_06.png)
+[![](/wp-content/uploads/2011/10/Shot_06.png "Shot_06")](/wp-content/uploads/2011/10/Shot_06.png)
 
 **4) Now enter your command line arguments in the Target field after the final .exe:**
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_07.png "Shot_07")](https://mikecann.co.uk/wp-content/uploads/2011/10/Shot_07.png)
+[![](/wp-content/uploads/2011/10/Shot_07.png "Shot_07")](/wp-content/uploads/2011/10/Shot_07.png)
 
 &nbsp;
 

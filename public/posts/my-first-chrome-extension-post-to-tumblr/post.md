@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-10-14T20:02:33.000Z'
+date: "2010-10-14T20:02:33.000Z"
 tags:
   - chrome
   - extension
@@ -14,7 +14,7 @@ tags:
 title: My First Chrome Extension - "Post To Tumblr"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_002.png "Shot_002")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_002.png)
+[![](/wp-content/uploads/2010/10/Shot_002.png "Shot_002")](/wp-content/uploads/2010/10/Shot_002.png)
 
 Woo! I have just published my first Chrome extension :)
 
@@ -35,33 +35,31 @@ chrome.contextMenus.create({
   title: "Post Image To Tumblr",
   contexts: ["image"],
   onclick: postImage,
-})
+});
 
 function postImage(info, tab) {
-  var email = localStorage["tumblr_email"]
-  var password = localStorage["tumblr_pass"]
+  var email = localStorage["tumblr_email"];
+  var password = localStorage["tumblr_pass"];
 
   if (!email || email == "" || !password || password == "") {
-    alert(
-      "Need to set your Tumblr username and password in the options before posting!"
-    )
+    alert("Need to set your Tumblr username and password in the options before posting!");
   } else {
     var o = {
       email: email,
       password: password,
       type: "photo",
       source: info.srcUrl,
-    }
+    };
 
-    var success = function(data, textStatus, request) {
+    var success = function (data, textStatus, request) {
       if (textStatus == "success") {
-        alert("Image posted to Tumblr. Image -&gt; " + info.srcUrl)
+        alert("Image posted to Tumblr. Image -&gt; " + info.srcUrl);
       } else {
-        alert("Bad email or password")
+        alert("Bad email or password");
       }
-    }
+    };
 
-    $.post("https://www.tumblr.com/api/write", o, success)
+    $.post("https://www.tumblr.com/api/write", o, success);
   }
 }
 ```
@@ -70,7 +68,7 @@ Simples!
 
 Theres even an option page where you put in your Tumblr details:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_003.png "Shot_003")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_003.png)
+[![](/wp-content/uploads/2010/10/Shot_003.png "Shot_003")](/wp-content/uploads/2010/10/Shot_003.png)
 
 Oh, there is one issue.
 

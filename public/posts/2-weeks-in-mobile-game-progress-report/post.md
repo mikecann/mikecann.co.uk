@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-07-16T18:59:31.000Z'
+date: "2012-07-16T18:59:31.000Z"
 tags:
   - Flash
   - haxe
@@ -11,7 +11,7 @@ tags:
 title: 2-Weeks In.. Mobile Game Progress Report
 ---
 
-<object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="https://mikecann.co.uk/wp-content/uploads/2012/07/Main3.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="https://mikecann.co.uk/wp-content/uploads/2012/07/Main3.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
+<object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="/wp-content/uploads/2012/07/Main3.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="/wp-content/uploads/2012/07/Main3.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
 
 I'm now two weeks into my original 3-week-deadline mobile game project. You can checkout the progress thus far by playing the game above ('up' to jump, 'left' and 'right' to control the player).
 
@@ -23,7 +23,7 @@ So the story is that our furry marsupial protagonist has ambitions of breaking f
 
 The plan is to break the game levels in into 'stages' like other mobile puzzle games such as cut the rope or angry birds:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/07/angry-birds-gets-45-new-levels.jpg "angry birds gets 45 new levels")](https://mikecann.co.uk/wp-content/uploads/2012/07/angry-birds-gets-45-new-levels.jpg)[ ![](https://mikecann.co.uk/wp-content/uploads/2012/07/519464-cut-the-rope-ipad-screenshot-pick-level-set-from-the-boxess.png "519464-cut-the-rope-ipad-screenshot-pick-level-set-from-the-boxess")](https://mikecann.co.uk/wp-content/uploads/2012/07/519464-cut-the-rope-ipad-screenshot-pick-level-set-from-the-boxess.png)
+[![](/wp-content/uploads/2012/07/angry-birds-gets-45-new-levels.jpg "angry birds gets 45 new levels")](/wp-content/uploads/2012/07/angry-birds-gets-45-new-levels.jpg)[ ![](/wp-content/uploads/2012/07/519464-cut-the-rope-ipad-screenshot-pick-level-set-from-the-boxess.png "519464-cut-the-rope-ipad-screenshot-pick-level-set-from-the-boxess")](/wp-content/uploads/2012/07/519464-cut-the-rope-ipad-screenshot-pick-level-set-from-the-boxess.png)
 
 Each stage will have its own theme, giving the player a refreshed experience per stage. The first of these is going to be set within the cage itself so the tileset and background should hopefully represent that.
 

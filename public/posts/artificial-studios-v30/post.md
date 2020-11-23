@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2006-06-03T09:31:44.000Z'
+date: "2006-06-03T09:31:44.000Z"
 tags: []
 title: Artificial-Studios v3.0
 ---
@@ -13,10 +13,10 @@ This new shiney reincarnation is a blog powerd by the very fancy [Wordpress](htt
 
 The reason for this new version? Well lets just take a quick look at the previous reincarnations...
 
-![artstu1.jpg](https://mikecann.co.uk/wp-content/uploads/2006/06/artstu1.jpg)
+![artstu1.jpg](/wp-content/uploads/2006/06/artstu1.jpg)
 First there was [Artificial Studios V1](https://www.mikecann.co.uk/ArtificialStudios1/ArtStu.html) ([nointro](https://www.mikecann.co.uk/ArtificialStudios1/ArtStuMain.html)) pretty as it was, done compleately in flash 6, it was increadibly hard to maintain with much effort for each new thing i wanted to add.
 
-![as2.gif](https://mikecann.co.uk/wp-content/uploads/2006/06/as2.gif)
+![as2.gif](/wp-content/uploads/2006/06/as2.gif)
 
 Then there was [Artificial Studios V2](https://www.mikecann.co.uk/ArtificialStudios2/) again, designed from scratch it was kinda pretty and it was certainly easyier to maintain than the first version, however it was still a nightmare to maintain.
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-01-18T13:01:24.000Z'
+date: "2010-01-18T13:01:24.000Z"
 tags:
   - Apple
   - Hardware
@@ -10,7 +10,7 @@ tags:
 title: Apple Aluminium Keyboard Windows 7
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/01/CropperCapture1.jpg "CropperCapture[1]")](https://mikecann.co.uk/wp-content/uploads/2010/01/CropperCapture1.jpg)
+[![](/wp-content/uploads/2010/01/CropperCapture1.jpg "CropperCapture[1]")](/wp-content/uploads/2010/01/CropperCapture1.jpg)
 
 Just got my new computer at work. First thing I did was chuck out the stock keyboard and replace with my favourite mac aluminium keyboard.
 
@@ -24,7 +24,7 @@ For convenience I have taken the details on how to use the file directly from th
 
 **Download**
 
-Download the installation package [Apple_Pro_KBD_v2](https://mikecann.co.uk/wp-content/uploads/2010/01/Apple_Pro_KBD_v2.zip) (250K)
+Download the installation package [Apple_Pro_KBD_v2](/wp-content/uploads/2010/01/Apple_Pro_KBD_v2.zip) (250K)
 
 **System requirements**
 

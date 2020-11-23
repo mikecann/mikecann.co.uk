@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-10-20T06:52:57.000Z'
+date: "2012-10-20T06:52:57.000Z"
 tags:
   - chrome
   - extension
@@ -12,7 +12,7 @@ tags:
 title: Tinkering With TypeScript
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/10/ts2.png "ts2")](https://mikecann.co.uk/wp-content/uploads/2012/10/ts2.png)
+[![](/wp-content/uploads/2012/10/ts2.png "ts2")](/wp-content/uploads/2012/10/ts2.png)
 
 In the spirit of [David Wagner's try { harder } talk on 'the value of tinkering'](https://mikecann.co.uk/photos-personal/try-harder-2012/) I decided to do a little tinkering with a new language from Microsoft called [TypeScript](typescriptlang.org).
 
@@ -42,7 +42,7 @@ One of the key features of TypeScript is that it allows you to structure your co
 
 TS also has structural typing so you can define a structure as part of a function or variable definition without first declaring a Class or Interface for it. For example:
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/10/screenshot_10.png "screenshot_10")](https://mikecann.co.uk/wp-content/uploads/2012/10/screenshot_10.png)
+[![](/wp-content/uploads/2012/10/screenshot_10.png "screenshot_10")](/wp-content/uploads/2012/10/screenshot_10.png)
 
 This is great for many reasons but the big one for me is the way it assists tooling particularly when coupled with the excellent VisualStudio 2012 you get all the things you would expect such as intellisense, go to definition, find references and refactoring. For me it takes much of the pain out of the dynamic nature of JS.
 
@@ -182,7 +182,7 @@ The tooling support for TS is pretty good so far. Visual Studio has a plugin for
 
 Because the TS compiler is written in TS they are able to create really cool things such as the [TypeScript Playground](https://www.typescriptlang.org/Playground/):
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/10/screenshot_11.png "screenshot_11")](https://mikecann.co.uk/wp-content/uploads/2012/10/screenshot_11.png)
+[![](/wp-content/uploads/2012/10/screenshot_11.png "screenshot_11")](/wp-content/uploads/2012/10/screenshot_11.png)
 
 With it you can mess around with TS and see its generated JS as you type. It even includes a version of intellisese for that type-hinting goodness.
 

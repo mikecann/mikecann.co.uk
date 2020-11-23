@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-09-19T18:59:38.000Z'
+date: "2010-09-19T18:59:38.000Z"
 tags:
   - Book
   - peter f hamilton
@@ -9,7 +9,7 @@ tags:
 title: The Evolutionary Void
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/09/photo.jpg "photo")](https://mikecann.co.uk/wp-content/uploads/2010/09/photo.jpg)
+[![](/wp-content/uploads/2010/09/photo.jpg "photo")](/wp-content/uploads/2010/09/photo.jpg)
 
 Just thought I would post about my favourite author Peter F. Hamilton.
 

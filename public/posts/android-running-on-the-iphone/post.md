@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-04-22T17:12:51.000Z'
+date: "2010-04-22T17:12:51.000Z"
 tags:
   - Android
   - iPhone
@@ -9,7 +9,7 @@ tags:
 title: Android Running on the iPhone!
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/04/android.gif "android")](https://mikecann.co.uk/wp-content/uploads/2010/04/android.gif)
+[![](/wp-content/uploads/2010/04/android.gif "android")](/wp-content/uploads/2010/04/android.gif)
 
 Wow! This is pretty mental. I know a while back someone had managed to get a Linux kernel running on the iPhone, but there wasnt much to see and I soon forgot about it. It appears now however that [PlanetBeing ](https://linuxoniphone.blogspot.com/2010/04/ive-been-working-on-this-quietly-in.html)from the Dev-Team has managed to take an Android build and get it to run on the iPhone! Check out the video of it below:<!-- more -->
 

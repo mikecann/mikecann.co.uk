@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-11-04T12:42:30.000Z'
+date: "2012-11-04T12:42:30.000Z"
 tags:
   - beauty
   - Holiday
@@ -9,7 +9,7 @@ tags:
 title: New York New York
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/11/header.jpg "header")](https://mikecann.co.uk/wp-content/uploads/2012/11/header.jpg)
+[![](/wp-content/uploads/2012/11/header.jpg "header")](/wp-content/uploads/2012/11/header.jpg)
 
 Last week I took a trip to New York with my friend Becky. We had an awesome time exploring what the city has to offer.
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-06-25T18:59:09.000Z'
+date: "2012-06-25T18:59:09.000Z"
 tags:
   - malaysia
   - Personal
@@ -9,7 +9,7 @@ tags:
 title: Malaysia 2012
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2012/06/screenshot_01.jpg "screenshot_01")](https://mikecann.co.uk/wp-content/uploads/2012/06/screenshot_01.jpg)
+[![](/wp-content/uploads/2012/06/screenshot_01.jpg "screenshot_01")](/wp-content/uploads/2012/06/screenshot_01.jpg)
 
 For the past two weeks I have been travelling about Malaysia seeing a very small chunk of what there is to see there.
 

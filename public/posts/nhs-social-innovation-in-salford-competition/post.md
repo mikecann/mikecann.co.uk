@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-07-12T23:09:27.000Z'
+date: "2013-07-12T23:09:27.000Z"
 tags:
   - competition
   - nhs
@@ -8,7 +8,7 @@ tags:
 title: NHS Social Innovation in Salford Competition
 ---
 
-![screenshot_02](https://mikecann.co.uk/wp-content/uploads/2013/07/screenshot_02.png)
+![screenshot_02](/wp-content/uploads/2013/07/screenshot_02.png)
 
 Before leaving to go on my trip I entered a competition being run by the NHS called "[Social Innovation in Salford](https://www.nwsocialvaluefoundation.org/competition/)". The intention of the competition is to find people with ideas for how to solve some issues currently facing the NHS in the Manchester region.
 

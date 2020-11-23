@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-04-24T16:14:04.000Z'
+date: "2010-04-24T16:14:04.000Z"
 tags:
   - Audio
   - Chill
@@ -10,7 +10,7 @@ tags:
 title: Artificial - Harmonics (Part 3)
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/04/ArtificialHarmonics3.png "ArtificialHarmonics3")](https://mikecann.co.uk/wp-content/uploads/2010/04/ArtificialHarmonics3.png)
+[![](/wp-content/uploads/2010/04/ArtificialHarmonics3.png "ArtificialHarmonics3")](/wp-content/uploads/2010/04/ArtificialHarmonics3.png)
 
 Well its been a while since I have made a new mix, but I have been collecting tracks for it for a while. This one came together fairly quickly actually, about two days worth of composition and then a few variations until I was happy with it. I decided not to add any movie samples to this one to keep it nice and simple, got alot of other projects on at the moment! Im not even sure if people actually like those movie samples tho, let me know if you do!<!-- more -->
 
@@ -20,7 +20,7 @@ Anyways, I have uploaded the mix to SoundCloud and used the last remaining hour 
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fharmonics-part-3%2F&amp;embed_type=widget_standard&amp;embed_uuid=c1efe07a-b992-4dda-a819-0c5438e50968&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>
 
-[Harmonics (Part 3)](https://www.mixcloud.com/mikeysee/harmonics-part-3/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
+[Harmonics (Part 3)](https://www.mixcloud.com/mikeysee/harmonics-part-3/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
 
 <div style="clear: both; height: 3px; width: auto;"></div>
 

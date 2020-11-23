@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-11-20T15:48:50.000Z'
+date: "2011-11-20T15:48:50.000Z"
 tags:
   - Blog
   - hosting
@@ -9,7 +9,7 @@ tags:
 title: New Blog Host & Face-lift
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/11/mememe.jpg "mememe")](https://mikecann.co.uk/wp-content/uploads/2011/11/mememe.jpg)
+[![](/wp-content/uploads/2011/11/mememe.jpg "mememe")](/wp-content/uploads/2011/11/mememe.jpg)
 Just a quick post to say I have finally moved away from my old hosting on WebFusion and now im on the cheaper (and hopefully) more reliable hosting by [STRATO](https://www.strato-hosting.co.uk/).
 
 <!-- more -->

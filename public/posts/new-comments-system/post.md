@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-03-27T20:14:10.000Z'
+date: "2010-03-27T20:14:10.000Z"
 tags:
   - Web
 title: New Comments System
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-27-19.11.gif "ScreenHunter_01 Mar. 27 19.11")](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-27-19.11.gif)
+[![](/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-27-19.11.gif "ScreenHunter_01 Mar. 27 19.11")](/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-27-19.11.gif)
 
 Ive started testing out a new comments system on the blog.
 

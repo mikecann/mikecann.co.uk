@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-05-09T21:57:03.000Z'
+date: "2011-05-09T21:57:03.000Z"
 tags:
   - instagram
   - instagrid
@@ -10,7 +10,7 @@ tags:
 title: Instagrid
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/05/02.jpg "02")](https://mikecann.co.uk/wp-content/uploads/2011/05/02.jpg)
+[![](/wp-content/uploads/2011/05/02.jpg "02")](/wp-content/uploads/2011/05/02.jpg)
 
 I have just returned from a little trip to Germany.
 

@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-12-18T12:26:45.000Z'
+date: "2007-12-18T12:26:45.000Z"
 tags: []
 title: XNA 2.0 && Silicon Minds
 ---
 
-![](https://mikecann.co.uk/wp-content/uploads/2007/12/xna.jpg)
+![](/wp-content/uploads/2007/12/xna.jpg)
 
 Well its that time again. XNA 2.0 [has been released](https://creators.xna.com/Education/GettingStarted.aspx) and with it a new [Dream Build Play competition](https://creators.xna.com/Themes/default/images/horizontal-web-DBP_banner.png).
 

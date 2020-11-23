@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-10-23T19:44:51.000Z'
+date: "2010-10-23T19:44:51.000Z"
 tags:
   - as3
   - broadcast
@@ -20,11 +20,11 @@ In this post I talk about the challenge of device discovery and networking in th
 
 <!-- more -->
 
-**[![](https://mikecann.co.uk/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg "ScreenHunter_03 Oct. 09 13.59")](https://mikecann.co.uk/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg)Zero Configure Networking**
+**[![](/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg "ScreenHunter_03 Oct. 09 13.59")](/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg)Zero Configure Networking**
 
 I knew I wanted Inputtie to be as simple to get running as simply starting it up. For this to happen Inputtie would need to discover all other devices on the network also running Inputtie. So how to do this?
 
-[](https://mikecann.co.uk/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg)
+[](/wp-content/uploads/2010/10/ScreenHunter_03-Oct.-09-13.59.jpg)
 
 Well, as it happened I had been reading at the time about [Apple's Bonjour](https://www.apple.com/support/bonjour/) which was designed to do just what I needed. It is a combination of a multi-cast and DNS lookup service that allows it to detect other Bonjour capable devices on the network. Sounds perfect.
 

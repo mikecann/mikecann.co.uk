@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-03-23T19:17:43.000Z'
+date: "2010-03-23T19:17:43.000Z"
 tags:
   - Flex
   - Framework
@@ -14,4 +14,4 @@ Just as a follow up from my post [on the bleeding edge](https://www.mikecann.co.
 
 (click to enlarge)
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-23-15.51.jpg "ScreenHunter_01 Mar. 23 15.51")](https://mikecann.co.uk/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-23-15.51.jpg)
+[![](/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-23-15.51.jpg "ScreenHunter_01 Mar. 23 15.51")](/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-23-15.51.jpg)

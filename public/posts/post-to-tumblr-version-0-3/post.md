@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-10-31T11:04:26.000Z'
+date: "2010-10-31T11:04:26.000Z"
 tags:
   - browser
   - chrome
@@ -15,7 +15,7 @@ tags:
 title: Post To Tumblr Version 0.3
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_004.png "Shot_004")](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_004.png)
+[![](/wp-content/uploads/2010/10/Shot_004.png "Shot_004")](/wp-content/uploads/2010/10/Shot_004.png)
 
 Just made a quick little update to my chrome extension "Post To Tumblr".
 

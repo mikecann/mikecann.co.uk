@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-01-17T20:35:13.000Z'
+date: "2011-01-17T20:35:13.000Z"
 tags:
   - acquisition
   - employment
@@ -9,7 +9,7 @@ tags:
 title: Playdemic acquired by RockYou
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/01/top.jpg "top")](https://mikecann.co.uk/wp-content/uploads/2011/01/top.jpg)
+[![](/wp-content/uploads/2011/01/top.jpg "top")](/wp-content/uploads/2011/01/top.jpg)
 
 Well as it has now hit the media I guess I can blog about it.
 

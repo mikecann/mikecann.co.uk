@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-21T18:34:52.000Z'
+date: "2010-08-21T18:34:52.000Z"
 tags:
   - bloom
   - Flash
@@ -12,7 +12,7 @@ tags:
 title: Ludum Dare - Hour 17
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg "ScreenHunter_01 Aug. 21 19.31")](https://mikecann.co.uk/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg)
+[![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg "ScreenHunter_01 Aug. 21 19.31")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg)
 
 Okay its been about 6 hours since my last update, and I have been working pretty much solid apart from an hour lunchbreak when I went for a wander into town.
 

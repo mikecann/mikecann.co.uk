@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-03-02T20:27:49.000Z'
+date: "2013-03-02T20:27:49.000Z"
 tags:
   - company
   - leaving
@@ -9,7 +9,7 @@ tags:
 title: Goodbye Playdemic
 ---
 
-[![head](https://mikecann.co.uk/wp-content/uploads/2013/03/head.png)](https://mikecann.co.uk/photos-personal/goodbye-playdemic/attachment/head-8/)
+[![head](/wp-content/uploads/2013/03/head.png)](https://mikecann.co.uk/photos-personal/goodbye-playdemic/attachment/head-8/)
 
 Wow doesn't time fly.
 

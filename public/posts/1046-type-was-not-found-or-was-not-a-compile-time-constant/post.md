@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-02-08T21:42:56.000Z'
+date: "2011-02-08T21:42:56.000Z"
 tags:
   - bug
   - class
@@ -10,10 +10,10 @@ tags:
   - error
   - flash builder
   - Flex
-title: '1046: Type was not found or was not a compile-time constant'
+title: "1046: Type was not found or was not a compile-time constant"
 ---
 
-[![](https://mikecann.co.uk/wp-content/uploads/2011/02/001.jpg "001")](https://mikecann.co.uk/wp-content/uploads/2011/02/001.jpg)
+[![](/wp-content/uploads/2011/02/001.jpg "001")](/wp-content/uploads/2011/02/001.jpg)
 
 Came across this little oddity the other day. Took me ages to work out what was going on, so thought I would share in case anyone else ran into the same issue.<!-- more -->
 

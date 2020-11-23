@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-04-11T11:11:53.000Z'
+date: "2013-04-11T11:11:53.000Z"
 tags:
   - argon
   - house
@@ -13,7 +13,7 @@ tags:
 title: Artificial - Argon Isotope
 ---
 
-[![argon](https://mikecann.co.uk/wp-content/uploads/2013/04/argon.png)](https://mikecann.co.uk/audio/artificial-argon-isotope/attachment/argon/)
+[![argon](/wp-content/uploads/2013/04/argon.png)](https://mikecann.co.uk/audio/artificial-argon-isotope/attachment/argon/)
 
 I decided to take a little break from the coding and over the past few evenings I have put together a new mix.
 
@@ -25,7 +25,7 @@ Argon is a lighter element than [Iridium](https://soundcloud.com/mikecann/artifi
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fartificial-argon-isotope%2F&amp;embed_type=widget_standard&amp;embed_uuid=34002dae-cf25-44a9-b86f-7565999669dd&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>
 
-[Argon Isotope](https://www.mixcloud.com/mikeysee/artificial-argon-isotope/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
+[Argon Isotope](https://www.mixcloud.com/mikeysee/artificial-argon-isotope/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
 
 <div style="clear: both; height: 3px; width: auto;"></div>
 
