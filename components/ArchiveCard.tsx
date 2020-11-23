@@ -23,7 +23,14 @@ export const ArchiveCard: React.FC<Props> = ({ title, posts }) => {
       <h1 style={{ margin: "0 0 10px" }}>{title}</h1>
       <Vertical spacing={10}>
         {posts.map((post) => (
-          <div key={post.slug}>
+          <div
+            key={post.slug}
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              return false;
+            }}
+          >
             <Link href="/posts/[slug]" as={`/posts/${post.slug}`}>
               {post.meta.title}
             </Link>
