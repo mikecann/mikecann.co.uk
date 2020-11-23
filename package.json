@@ -7,7 +7,8 @@
     "build": "yarn populateAlgolia && next build",
     "start": "next start",
     "script": "ts-node --files --project ./scripts/tsconfig.json",
-    "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts"
+    "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts",
+    "checkLinks": "yarn blc http://localhost:3000 -ro"
   },
   "dependencies": {
     "@types/isomorphic-fetch": "^0.0.35",
@@ -37,6 +38,7 @@
   "devDependencies": {
     "@types/node": "^14.14.6",
     "@types/react": "^16.9.55",
+    "broken-link-checker": "^0.7.8",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "pretty-quick": "^3.1.0",
