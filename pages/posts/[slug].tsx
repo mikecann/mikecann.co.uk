@@ -7,49 +7,61 @@ import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
 import { style } from "typestyle";
 import { format } from "date-fns";
-import { getPostRootCoverImagePath } from "../../utils/posts";
+import { getPostRootCoverImagePath, getRelativePathForPost } from "../../utils/posts";
 import { useScrollYPosition } from "react-use-scroll-position";
 import { TopNavbar } from "../../components/navbar/TopNavbar";
 import { SearchModal } from "../../components/searchModal/SearchModal";
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 type Props = {
   post: Post;
   html: string;
 };
 
-const contentStyles = style({
-  color: "#5d686f",
-  //fontWeight: 400,
-  fontSize: "1.1em",
-  marginTop: 40,
-  marginBottom: 40,
-  maxWidth: 700,
-  padding: 10,
-  width: "100%",
-  $nest: {
-    img: {
-      maxWidth: "100%",
-      marginTop: 20,
-      marginBottom: 20,
-      boxShadow: "0px 0px 10px #bbb !important",
-    },
-    h1: {
-      //fontSize: "1em",
-    },
-  },
-});
+// const contentStyles = style({
+//   color: "#5d686f",
+//   //fontWeight: 400,
+//   fontSize: "1.1em",
+//   marginTop: 40,
+//   marginBottom: 40,
+//   maxWidth: 700,
+//   padding: 10,
+//   width: "100%",
+//   $nest: {
+//     img: {
+//       maxWidth: "100%",
+//       marginTop: 20,
+//       marginBottom: 20,
+//       boxShadow: "0px 0px 10px #bbb !important",
+//     },
+//     h1: {
+//       //fontSize: "1em",
+//     },
+//   },
+// });
 
 const PostPage = ({ post, html }: Props) => {
-  
-
   const { meta, coverImageSize, slug } = post;
   const { coverImage, title, date } = meta;
+
+  const renderers = {
+    image: (image: any) => {
+      return (
+        <Image
+          src={getRelativePathForPost(post.slug, image.src)}
+          alt={image.alt}
+          height="200"
+          width="355"
+        />
+      );
+    },
+  };
 
   return (
     <Layout title={`post`}>
       <TopNavbar />
-     
+
       <Vertical width="100%">
         <Image
           //layout="fill"
@@ -62,12 +74,27 @@ const PostPage = ({ post, html }: Props) => {
           alt="post header image"
         />
         <Horizontal width="100%" horizontalAlign="center">
-          <Vertical className={contentStyles}>
-            <h1 style={{ fontSize: "3em", margin: 0 }}>{title}</h1>
+          <Vertical
+            style={{
+              //fontWeight: 400,
+              marginTop: 40,
+              marginBottom: 40,
+              maxWidth: 700,
+              padding: 10,
+              width: "100%",
+            }}
+          >
+            <h1 style={{ fontSize: "3em", margin: 0, color: "#555" }}>{title}</h1>
             <div style={{ marginTop: 10, marginBottom: 20, color: "#bbbbbb" }}>
               {format(new Date(date), "do MMMM yyyy")}
             </div>
-            <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} />
+            <ReactMarkdown
+              className="post-content"
+              children={html}
+              renderers={renderers}
+              allowDangerousHtml
+            />
+            {/* <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} /> */}
           </Vertical>
         </Horizontal>
       </Vertical>
@@ -97,7 +124,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   return {
     props: {
       post,
-      html: await markdownToHtml(post.content || ""),
+      html: post.content, //await markdownToHtml(post.content || ""),
     },
   };
 };

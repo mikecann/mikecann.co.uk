@@ -46,7 +46,10 @@ export const TopNavbar: React.FC<Props> = ({}) => {
 
         <StretchSpacer />
 
-        <div style={{ fontSize: "1.3rem", opacity: 0.5, color: "#333" }}>
+        <div
+          className="navbar-title"
+          style={{ fontSize: "1.2rem", fontWeight: "bold", opacity: 0.5, color: "#333" }}
+        >
           <Link href="/">mikecann.co.uk</Link>
         </div>
 

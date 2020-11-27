@@ -17,6 +17,9 @@ export const sortPosts = <T extends Post>(posts: T[], direction: SortDirection =
 //     Date.parse(post1.meta.date ?? "") > Date.parse(post2.meta.date ?? "") ? -1 : 1
 //   );
 
+export const getRelativePathForPost = (slug: string, path: string) =>
+  path.startsWith("./") ? `/posts/${slug}/${path.replace("./", "")}` : path;
+
 export const getPostRootCoverImagePath = ({ meta: { coverImage }, slug }: Post) =>
   coverImage.startsWith("./") ? `/posts/${slug}/${coverImage.replace("./", "")}` : coverImage;
 

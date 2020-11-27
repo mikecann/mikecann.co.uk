@@ -1,17 +1,31 @@
-  
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import { GetStaticProps } from "next";
+import Layout from "../components/Layout";
+import matter from "gray-matter";
+import ReactMarkdown from "react-markdown";
+import { join } from "path";
+import fs from "fs";
+import { HomeLayout } from "../components/HomeLayout";
+import { Vertical } from "gls/lib";
 
-const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </p>
-  </Layout>
-)
+type Props = {
+  content: string;
+};
 
-export default AboutPage
+const About = ({ content }: Props) => (
+  <HomeLayout title="Posts">
+    <Vertical>
+      <h1>About</h1>
+      <ReactMarkdown className="page-content" children={content} allowDangerousHtml />
+    </Vertical>
+  </HomeLayout>
+);
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const absPath = join(process.cwd(), "public/pages/about/index.md");
+  const { content } = matter(fs.readFileSync(absPath, "utf8"));
+  return {
+    props: { content },
+  };
+};
+
+export default About;

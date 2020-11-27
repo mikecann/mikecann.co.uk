@@ -76,3 +76,39 @@ input {
 input:focus {
   border: 1px solid #ffc7ad;
 }
+
+.post-content,
+.page-content {
+  position: relative;
+  color: #5d686f;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  /* $nest: {
+    img: {
+      maxWidth: "100%",
+      marginTop: 20,
+      marginBottom: 20,
+      boxShadow: "0px 0px 10px #bbb !important",
+    },
+    h1: {
+      //fontSize: "1em",
+    },
+  }, */
+}
+
+/* .post-content img {
+  width: 300px;
+  height: 500px;
+} */
+
+.page-content {
+  width: 700px;
+}
+
+/* .page-content * {
+  font-size: 2em;
+} */
+
+.navbar-title a {
+  color: #5d686f;
+}

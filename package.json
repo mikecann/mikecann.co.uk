@@ -30,6 +30,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^3.11.0",
+    "react-markdown": "^5.0.3",
     "react-use-scroll-position": "^2.0.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
