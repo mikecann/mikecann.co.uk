@@ -1,6 +1,6 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { HomeLayout } from "../../components/HomeLayout";
+import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import { getAllPostsWithoutContent } from "../api/posts/index";
 import Link from "next/link";
@@ -11,7 +11,7 @@ type Props = {
 
 const Page = ({ tags }: Props) => {
   return (
-    <HomeLayout title="Year XXX">
+    <DesktopSidebarLayout title="Year XXX">
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={[5, 20]} style={{ alignItems: "center" }}>
           {tags.map(({ tag, postsCount }) => (
@@ -21,7 +21,7 @@ const Page = ({ tags }: Props) => {
           ))}
         </Grid>
       </Vertical>
-    </HomeLayout>
+    </DesktopSidebarLayout>
   );
 };
 

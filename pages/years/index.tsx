@@ -1,6 +1,6 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { HomeLayout } from "../../components/HomeLayout";
+import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { PostsByYear, groupPostsByYear, sortPosts, sortYears } from "../../utils/posts";
 import { ArchiveCard } from "../../components/ArchiveCard";
 import { getAllPostsWithoutContent } from "../api/posts/index";
@@ -11,7 +11,7 @@ type Props = {
 
 const Page = ({ postsByYear }: Props) => {
   return (
-    <HomeLayout title="Year XXX">
+    <DesktopSidebarLayout title="Year XXX">
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
           {/* <div
@@ -28,7 +28,7 @@ const Page = ({ postsByYear }: Props) => {
           {/* </div> */}
         </Grid>
       </Vertical>
-    </HomeLayout>
+    </DesktopSidebarLayout>
   );
 };
 

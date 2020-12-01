@@ -3,7 +3,7 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllPosts, Post } from "../api/posts";
 import { PostTeaser } from "../../components/PostTeaser";
 import { ensure } from "../../utils/ensure";
-import { HomeLayout } from "../../components/HomeLayout";
+import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { getAllYears, getPostsByYear } from "../../utils/posts";
 import { ArchiveYears } from "../../components/ArchiveYears";
 
@@ -15,7 +15,7 @@ type Props = {
 
 const Page = ({ year, posts, years }: Props) => {
   return (
-    <HomeLayout title="Year XXX">
+    <DesktopSidebarLayout title="Year XXX">
       <Vertical width="100%">
         <h1>{year}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
@@ -28,7 +28,7 @@ const Page = ({ year, posts, years }: Props) => {
         <h1>Archive</h1>
         <ArchiveYears years={years} />
       </Vertical>
-    </HomeLayout>
+    </DesktopSidebarLayout>
   );
 };
 

@@ -13,6 +13,7 @@ import { TopNavbar } from "../../components/navbar/TopNavbar";
 import { SearchModal } from "../../components/searchModal/SearchModal";
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
+import gfm from "remark-gfm";
 
 type Props = {
   post: Post;
@@ -48,12 +49,16 @@ const PostPage = ({ post, html }: Props) => {
   const renderers = {
     image: (image: any) => {
       return (
-        <Image
-          src={getRelativePathForPost(post.slug, image.src)}
-          alt={image.alt}
-          height="200"
-          width="355"
-        />
+        <div style={{ textAlign: "center" }}>
+          <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
+        </div>
+        // <Image
+        //   src={getRelativePathForPost(post.slug, image.src)}
+        //   alt={image.alt}
+        //   layout="fill"
+        //   // height="200"
+        //   // width="355"
+        // />
       );
     },
   };
@@ -93,6 +98,7 @@ const PostPage = ({ post, html }: Props) => {
               children={html}
               renderers={renderers}
               allowDangerousHtml
+              plugins={[gfm]}
             />
             {/* <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} /> */}
           </Vertical>

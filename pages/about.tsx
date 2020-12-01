@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { join } from "path";
 import fs from "fs";
-import { HomeLayout } from "../components/HomeLayout";
+import { DesktopSidebarLayout } from "../components/layout/DesktopSidebarLayout";
 import { Vertical } from "gls/lib";
 
 type Props = {
@@ -12,12 +12,12 @@ type Props = {
 };
 
 const About = ({ content }: Props) => (
-  <HomeLayout title="Posts">
+  <DesktopSidebarLayout title="Posts">
     <Vertical>
       <h1>About</h1>
       <ReactMarkdown className="page-content" children={content} allowDangerousHtml />
     </Vertical>
-  </HomeLayout>
+  </DesktopSidebarLayout>
 );
 
 export const getStaticProps: GetStaticProps<Props> = async () => {

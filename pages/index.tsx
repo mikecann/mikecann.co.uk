@@ -1,14 +1,18 @@
 import { Grid, Horizontal, Vertical } from "gls/lib";
 import Link from "next/link";
-import Layout from "../components/Layout";
 import { GetStaticProps } from "next";
 import { getAllPosts, Post } from "./api/posts";
-import { Sidebar } from "../components/sidebar/Sidebar";
+import { DesktopSidebar } from "../components/sidebar/DesktopSidebar";
 import { PostTeaser } from "../components/PostTeaser";
 import { groupPostsByYear, PostsByYear, sortPosts } from "../utils/posts";
-import { HomeLayout } from "../components/HomeLayout";
+import { DesktopSidebarLayout } from "../components/layout/DesktopSidebarLayout";
 import { ArchiveYears } from "../components/ArchiveYears";
 import { getAllPostsWithoutContent } from "./api/posts/index";
+import React from "react";
+import { Media, MediaContextProvider } from "../utils/media";
+import { MobileSidebarLayout } from "../components/layout/MobileSidebarLayout";
+import { PostsGrid } from "../components/PostsGrid";
+import { TabletSidebarLayout } from "../components/layout/TabletSidebarLayout";
 
 type Props = {
   postsByYear: PostsByYear;
@@ -17,25 +21,35 @@ type Props = {
 
 const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
   return (
-    <HomeLayout title="Home">
-      {Object.keys(postsByYear)
-        .reverse()
-        .map((year) => (
-          <Vertical key={year} width="100%">
-            <h1>{year}</h1>
-            <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
-              {postsByYear[parseInt(year)].map((post) => (
-                <PostTeaser key={`${year}-${post.slug}`} post={post} />
-              ))}
-            </Grid>
+    <MediaContextProvider>
+      <Media at="xs">
+        <MobileSidebarLayout title="Mobile">
+          <PostsGrid postsByYear={postsByYear} />
+          <Vertical style={{ marginBottom: 20 }}>
+            <h1>Archive</h1>
+            <ArchiveYears years={theOtherYears} />
           </Vertical>
-        ))}
-
-      <Vertical style={{ marginBottom: 20 }}>
-        <h1>Archive</h1>
-        <ArchiveYears years={theOtherYears} />
-      </Vertical>
-    </HomeLayout>
+        </MobileSidebarLayout>
+      </Media>
+      <Media at="sm">
+        <TabletSidebarLayout title="Medium">
+          <PostsGrid postsByYear={postsByYear} />
+          <Vertical style={{ marginBottom: 20 }}>
+            <h1>Archive</h1>
+            <ArchiveYears years={theOtherYears} />
+          </Vertical>
+        </TabletSidebarLayout>
+      </Media>
+      <Media greaterThanOrEqual="md">
+        <DesktopSidebarLayout title="Desktop">
+          <PostsGrid postsByYear={postsByYear} />
+          <Vertical style={{ marginBottom: 20 }}>
+            <h1>Archive</h1>
+            <ArchiveYears years={theOtherYears} />
+          </Vertical>
+        </DesktopSidebarLayout>
+      </Media>
+    </MediaContextProvider>
   );
 };
 

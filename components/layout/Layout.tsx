@@ -1,7 +1,6 @@
 import React, { ReactNode } from "react";
-import Link from "next/link";
 import Head from "next/head";
-import { SearchModal } from "./searchModal/SearchModal";
+import { mediaStyles } from "../../utils/media";
 
 type Props = {
   children?: ReactNode;
@@ -14,6 +13,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <title>{title} | mikecann.co.uk</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <style type="text/css" dangerouslySetInnerHTML={{ __html: mediaStyles }} />
     </Head>
     {/* <header style={{ width: "100%" }}>
       <nav>
@@ -35,7 +35,6 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <hr />
       <span>I'm here to stay (Footer)</span>
     </footer> */}
-    
   </div>
 );
 
