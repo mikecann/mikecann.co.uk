@@ -1,9 +1,5 @@
-import { Grid, Horizontal, Vertical } from "gls/lib";
-import Link from "next/link";
+import { Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { getAllPosts, Post } from "./api/posts";
-import { DesktopSidebar } from "../components/sidebar/DesktopSidebar";
-import { PostTeaser } from "../components/PostTeaser";
 import { groupPostsByYear, PostsByYear, sortPosts } from "../utils/posts";
 import { DesktopSidebarLayout } from "../components/layout/DesktopSidebarLayout";
 import { ArchiveYears } from "../components/ArchiveYears";

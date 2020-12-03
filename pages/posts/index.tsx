@@ -1,6 +1,6 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
-import Layout from "../../components/Layout";
+import Layout from "../../components/layout/Layout";
 import { getAllPosts, Post } from "../api/posts";
 
 type Props = {

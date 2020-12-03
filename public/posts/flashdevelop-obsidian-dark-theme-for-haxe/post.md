@@ -21,11 +21,7 @@ I took inspiration from the excellent [Obsidian theme on the Eclipse Color The
 
 Im still yet decided if it helps atall, tho I must admit I do like my IDE a little more colorful :)
 
-I have uploaded the theme for download here: [/posts/projects/FD4Theme/Obsidian-<wbr>HaXe.fdz</wbr></wbr>](/projects/FD4Theme/Obsidian-HaXe.fdz)
-
-&nbsp;
-
-&nbsp;
+I have uploaded the theme for download here: [/posts/projects/FD4Theme/Obsidian-<wbr>HaXe.fdz](/projects/FD4Theme/Obsidian-HaXe.fdz)
 
 Once downloaded just double click it to install, then restart FD, simples!
 

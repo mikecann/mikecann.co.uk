@@ -15,4 +15,4 @@ So here it is, my first attempt at it. Currently the algorithm is very rough as 
 
 Hopefully with abit more time and effort ill get it sorted. At the moment there are 5000 interacting particle on one CPU, hopefully i will beable to push that figue up soon and take advantage of my quad-core system :)
 
-<object width="640" height="505"><param name="movie" value="https://www.youtube.com/v/dvkUKYwgsj4&amp;hl=en_GB&amp;fs=1?rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/dvkUKYwgsj4&amp;hl=en_GB&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/dvkUKYwgsj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>

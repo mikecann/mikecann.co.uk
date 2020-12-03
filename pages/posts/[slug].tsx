@@ -1,6 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { getAllPosts, getPostBySlug, Post } from "../api/posts";
-import Layout from "../../components/Layout";
 import { markdownToHtml } from "../../utils/markdownToHtml";
 import { ensure } from "../../utils/ensure";
 import Image from "next/image";
@@ -14,6 +13,7 @@ import { SearchModal } from "../../components/searchModal/SearchModal";
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
+import Layout from "../../components/layout/Layout";
 
 type Props = {
   post: Post;

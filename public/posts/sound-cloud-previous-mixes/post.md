@@ -12,21 +12,33 @@ Been messing about with [Sound Cloud](https://soundcloud.com/mike-cann) recently
 
 <!-- more -->
 
-Anyways, here are all my mixes done in release order (Tracklistings can be found in the post):
+Anyways, here are all my mixes done (Tracklistings can be found in the post):
 
-[Post](https://www.mikecann.co.uk/audio/personal-mixes/new-mix-coalescence/)
-<object height="81" width="100%"> <param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F29692245"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F29692245" type="application/x-shockwave-flash" width="100%"></embed> </object> <span>[Artificial - Intelligence](https://soundcloud.com/mike-cann/artificial-intelligence) by [mike.cann](https://soundcloud.com/mike-cann)</span>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fharmonics-part-1%2F" frameborder="0" ></iframe>
 
-**June 2009 - Intelligence** - [Download](https://www.mikecann.co.uk/MP3s/Artificial%20-%20Intelligence.mp3) - [Post](https://www.mikecann.co.uk/audio/new-mix-artificial-intelligence/)
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fharmonics-part-2%2F" frameborder="0" ></iframe>
 
-**November 2007 - Future Harmonics** - [Post](https://www.mikecann.co.uk/audio/artificial-future-harmonics/)
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="81" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowscriptaccess" value="always" /><param name="src" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Ffuture-harmonics" /><embed type="application/x-shockwave-flash" width="100%" height="81" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Ffuture-harmonics" allowscriptaccess="always"></embed></object>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fharmonics-part-3%2F" frameborder="0" ></iframe>
 
-**November 2006 - Chill Trip** - [Post](https://www.mikecann.co.uk/audio/personal-mixes/artificial-chilltrip/)
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="81" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowscriptaccess" value="always" /><param name="src" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Fchilltrip" /><embed type="application/x-shockwave-flash" width="100%" height="81" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Fchilltrip" allowscriptaccess="always"></embed></object> <span>[](https://soundcloud.com/mike-cann/chilltrip)</span>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Ffuture-harmonics%2F" frameborder="0" ></iframe>
 
-**June 2006 - Harmonics 2** - [Post](https://www.mikecann.co.uk/audio/personal-mixes/artificial-harmonics-part-2/)
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="81" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowscriptaccess" value="always" /><param name="src" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Fartificial-harmonics-part2" /><embed type="application/x-shockwave-flash" width="100%" height="81" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Fartificial-harmonics-part2" allowscriptaccess="always"></embed></object> <span>[](https://soundcloud.com/mike-cann/artificial-harmonics-part2)</span>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fintelligence%2F" frameborder="0" ></iframe>
 
-**May 2006 - Harmonics 1** - [Post](https://www.mikecann.co.uk/audio/personal-mixes/artificial-harmonics-part-1/)
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="81" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowscriptaccess" value="always" /><param name="src" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Fartificial-harmonics-part-1" /><embed type="application/x-shockwave-flash" width="100%" height="81" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fmike-cann%2Fartificial-harmonics-part-1" allowscriptaccess="always"></embed></object> <span>[](https://soundcloud.com/mike-cann/artificial-harmonics-part-1)</span>
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-chilltrip%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-blue-noise%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-second-harmonic%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-second-life%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-interlude%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-argon%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-iridium%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-argon-isotope%2F" frameborder="0" ></iframe>
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fcoalescent%2F" frameborder="0" ></iframe>
+

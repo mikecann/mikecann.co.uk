@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-09-16T19:37:10.000Z'
+date: "2007-09-16T19:37:10.000Z"
 tags: []
 title: LieroXNA - Weapons and Forces
 ---
@@ -36,4 +36,4 @@ There is still alot of work to be done but im happy with the way it looks at the
 
 If you want to see a larger less compressed video (35meg) you can [download it HERE](https://www.mikecann.co.uk/Files/Upload/files/boom3.wmv).
 
-<object width="640" height="505"><param name="movie" value="https://www.youtube.com/v/PVxXCl4tnsQ&amp;hl=en_GB&amp;fs=1?rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/PVxXCl4tnsQ&amp;hl=en_GB&amp;fs=1?rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/PVxXCl4tnsQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>

@@ -1,5 +1,4 @@
 import { GetStaticProps } from "next";
-import Layout from "../components/Layout";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { join } from "path";

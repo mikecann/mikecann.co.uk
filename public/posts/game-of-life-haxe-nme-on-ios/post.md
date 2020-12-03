@@ -42,7 +42,7 @@ Now when I try to build for ios I get success!
 
 From there is a simple matter of opening the generated xcode project, connecting my iphone and hitting run:
 
-<object width="700" height="386"><param name="movie" value="https://www.youtube.com/v/ZsILr8vjWL8?version=3&amp;hl=en_GB&amp;hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/ZsILr8vjWL8?version=3&amp;hl=en_GB&amp;hd=1" type="application/x-shockwave-flash" width="700" height="386" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/ZsILr8vjWL8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
 I really like how easy the workflow is compared to the Adobe Air packaging system. Generating the xcode project makes things so much faster.
 

@@ -27,7 +27,6 @@ After a brief search we decided on Mike Stead's [MassiveUnit](https://github.com
 An example of a test we wrote is:
 
 ```
-
 package ;
 import massive.munit.Assert;
 import Grid;
@@ -78,7 +77,6 @@ class GridTest
 It should look fairly familiar to anyone who has used FlexUnit before. The metatags @Before @After and @Test perform in exactly the same way as they do in FlexUnit. Another benefit of using munit over the built in testing framework in haXe is that you are given a tool to run tests on all platforms simultaneously:
 
 ```
-
 haxelib run munit test test.hxml
 
 ```
@@ -164,7 +162,7 @@ What it means for this project is we could very quickly get a view for our game 
 
 To show just how easy it is I made the following video:
 
-<object width="700" height="505"><param name="movie" value="https://www.youtube.com/v/VNF2gH5o9Zs?version=3&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/VNF2gH5o9Zs?version=3&amp;hl=en_GB" type="application/x-shockwave-flash" width="700" height="505" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/VNF2gH5o9Zs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
 You can see the HTML5 build here: [/projects/gameoflife/Export/html5/bin/](/projects/gameoflife/Export/html5/bin/)
 

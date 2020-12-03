@@ -12,4 +12,4 @@ Absolutely love the album, love the song and just discovered that I love the vid
 
 <!-- more -->
 
-<object width="720" height="426"><param name="movie" value="https://www.youtube.com/v/P4R1nl_UbSk&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/P4R1nl_UbSk&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="720" height="426"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/P4R1nl_UbSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>

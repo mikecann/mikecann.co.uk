@@ -19,8 +19,8 @@ Enjoy:
 
 <!-- more -->
 
-<object width="700" height="418"><param name="movie" value="https://www.youtube.com/v/Qg5VMg7gnIc?fs=1&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/Qg5VMg7gnIc?fs=1&amp;hl=en_GB" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="700" height="418"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/Qg5VMg7gnIc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
-<object width="700" height="418"><param name="movie" value="https://www.youtube.com/v/KViIaLKfj0I?fs=1&amp;hl=en_GB"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="https://www.youtube.com/v/KViIaLKfj0I?fs=1&amp;hl=en_GB" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="700" height="418"></embed></object>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/KViIaLKfj0I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
 You can play the game here: [/posts/ludum-dare-hour-40-complete/#thegame](/posts/ludum-dare-hour-40-complete/#thegame)

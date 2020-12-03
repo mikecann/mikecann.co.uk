@@ -2,7 +2,6 @@
 coverImage: /images/fallback-post-header.jpg
 date: "2012-10-16T18:32:26.000Z"
 tags:
-  - 1&amp;1
   - Blog
   - hosting
   - rant
@@ -10,7 +9,7 @@ tags:
 title: STRATO and the Customer-Support-Circle-of-Doom
 ---
 
-[![](/wp-content/uploads/2012/10/screenshot_021.png "screenshot_02")](/wp-content/uploads/2012/10/screenshot_021.png)
+[/wp-content/uploads/2012/10/screenshot_021.png](/wp-content/uploads/2012/10/screenshot_021.png)
 
 Why is it so hard to find a good web hosting company?
 
@@ -20,7 +19,7 @@ About [one year ago I announced](/posts/new-blog-host-face-lift/) that I moved 
 
 Three weeks ago my blog started to suffer problems, as is clear from my analytics data on one of the domains:
 
-[![](/wp-content/uploads/2012/10/screenshot_05.png "screenshot_05")](/wp-content/uploads/2012/10/screenshot_05.png)
+[/wp-content/uploads/2012/10/screenshot_05.png](/wp-content/uploads/2012/10/screenshot_05.png)
 
 The traffic drops off from normal levels down to nothing in the space of about a week. I was away the start of the month (more on this in a later blog post) and thus wasn't checking the domain. Its only when I received an email from someone informing me about the fact my blog was down that I sat up and took notice.
 
@@ -44,7 +43,7 @@ With no other options I decided to call my hosting provider STRATO. It turns out
 >
 > Your opinion about our Customer Service is very important to us! Please take some time for our questionnaire - so we can respond even better to your needs in the future. The completion of the form takes only about 3 minutes.
 >
-> Link to the rating system: [https://www.strato-mailcenter.<wbr>com/quality?ident=bd391e7c-<wbr>3c076f-13f18d-47938a-aaafba</wbr></wbr>](https://www.strato-mailcenter.com/quality?ident=bd391e7c-3c076f-13f18d-47938a-aaafba)
+> Link to the rating system: [https://www.strato-mailcenter.com/quality?ident=bd391e7c-3c076f-13f18d-47938a-aaafba](https://www.strato-mailcenter.com/quality?ident=bd391e7c-3c076f-13f18d-47938a-aaafba)
 >
 > With kind regards from Berlin,
 >
@@ -55,25 +54,23 @@ With no other options I decided to call my hosting provider STRATO. It turns out
 
 So after some email jousting back and forth and some experimentation with STRATO's non-functioning recovery console I get the following reply:
 
-> <div>
 >
 > Dear Mr. Cann,
 >
 > Thank you very much for your enquiry to which I am glad to respond.
 >
-> </div>
 >
 > I have taken your server out of the recovery mode for you .**You server could also be slow as it is affected my some major maintenance**
 >
 > **that is also going on at the moment on our windows servers, which could be causing your server to run slow at the moment  , I cannot give you a time frame when this will be completed as i do not have one myself.**
 >
-> <div>Your opinion about our Customer Service is very important to us! Please take some time for our questionnaire - so we can respond even better to your needs in the future. The completion of the form takes only about 3 minutes.</div>
+> Your opinion about our Customer Service is very important to us! Please take some time for our questionnaire - so we can respond even better to your needs in the future. The completion of the form takes only about 3 minutes.
 >
-> Link to the rating system: [https://www.strato-mailcenter.<wbr>com/quality?ident=bd391e7c-<wbr>39a316-13f846-44189a-8050db</wbr></wbr>](https://www.strato-mailcenter.com/quality?ident=bd391e7c-39a316-13f846-44189a-8050db)
+> Link to the rating system: [https://www.strato-mailcenter.com/quality?ident=bd391e7c-39a316-13f846-44189a-8050db](https://www.strato-mailcenter.com/quality?ident=bd391e7c-39a316-13f846-44189a-8050db)
 >
-> <div>With kind regards from xxxx xxxx
+> With kind regards from xxxx xxxx
 >
-> STRATO Customer Care</div>
+> STRATO Customer Care
 > (Bold added by me)
 
 Okay... I thought to myself... I have just been led round the houses for two days emailing back and forth when only just now they tell me they are having some major maintenance issues, why not tell me that from the start? In fact, more to the point,  why are you performing maintenance, without telling me, that has taken my box down for a week?
@@ -100,7 +97,7 @@ I get the following reply a day later:
 >
 > Your opinion about our Customer Service is very important to us! Please take some time for our questionnaire - so we can respond even better to your needs in the future. The completion of the form takes only about 3 minutes.
 >
-> Link to the rating system: [https://www.strato-mailcenter.<wbr>com/quality?ident=bd391e7c-<wbr>a2fc8d-13fff2-44cee9-a53fb3</wbr></wbr>](https://www.strato-mailcenter.com/quality?ident=bd391e7c-a2fc8d-13fff2-44cee9-a53fb3)
+> Link to the rating system: [https://www.strato-mailcenter.com/quality?ident=bd391e7c-a2fc8d-13fff2-44cee9-a53fb3](https://www.strato-mailcenter.com/quality?ident=bd391e7c-a2fc8d-13fff2-44cee9-a53fb3)
 >
 > With kind regards from Berlin,
 >
@@ -113,19 +110,15 @@ What happened? Exactly nothing, I was obviously a little angry at this point:
 
 > Hello,
 >
-> <div>So as its now the end of the week. You promised that my VM will be back up again but low and behold its still not up! Also have you decided not to reply to me any more?</div>
+> So as its now the end of the week. You promised that my VM will be back up again but low and behold its still not up! Also have you decided not to reply to me any more?
 >
-> <div></div>
+> I need a snapshot of my data so I can move my hosting from strato. I also would like the email address of your supervisor so I can speak to them about this.
 >
-> <div>I need a snapshot of my data so I can move my hosting from strato. I also would like the email address of your supervisor so I can speak to them about this.</div>
->
-> <div></div>
->
-> <div>Mike</div>
+> Mike
 > Two days later I get the following:
 > Good Morning Mr. Cann,
 >
-> <div>Thank you very much for your enquiry to which I am glad to respond.</div>
+> Thank you very much for your enquiry to which I am glad to respond.
 >
 > After looking at your contract, I have seen that your sever has been up and running since Saturday [13.10.2012](tel:13.10.2012).
 >
@@ -139,25 +132,25 @@ What happened? Exactly nothing, I was obviously a little angry at this point:
 >
 > I would therefore like to take this opportunity to wish you a pleasant and successful working day!
 >
-> <div>Your opinion about our Customer Service is very important to us! Please take some time for our questionnaire - so we can respond even better to your needs in the future. The completion of the form takes only about 3 minutes.</div>
+> Your opinion about our Customer Service is very important to us! Please take some time for our questionnaire - so we can respond even better to your needs in the future. The completion of the form takes only about 3 minutes.
 >
-> Link to the rating system: [https://www.strato-mailcenter.<wbr>com/quality?ident=bd391e7c-<wbr>c8411a-140d93-40f3ee-9f18a5</wbr></wbr>](https://www.strato-mailcenter.com/quality?ident=bd391e7c-c8411a-140d93-40f3ee-9f18a5)
+> Link to the rating system: [https://www.strato-mailcenter.<wbr>com/quality?ident=bd391e7c-c8411a-140d93-40f3ee-9f18a5](https://www.strato-mailcenter.com/quality?ident=bd391e7c-c8411a-140d93-40f3ee-9f18a5)
 >
-> <div>With kind regards from Berlin,</div>
+> With kind regards from Berlin,
 >
 > xxxx xxxx
-> **WHAT?!??!** Setup delay? Im not setting anything up! I have been with STRATO over a year! Its been up since Saturday, no it bloody hasnt! Its clearly not up now! WTF?
+> WHAT?!??! Setup delay? Im not setting anything up! I have been with STRATO over a year! Its been up since Saturday, no it bloody hasnt! Its clearly not up now! WTF?
 
 I realised that I was trapped in a customer-support-circle-of-doom.
 
 Well that's about the point I decided this company really doesn't care about its customers so im going to move to another hosting provider.
 
-So short of the long, my sites are now being hosted on 1&amp;1 and everything seems to be fine and dandy. Sure it costs twice as much but hopefully that money will ensure a better level of service.
+So short of the long, my sites are now being hosted on 1 & 1 and everything seems to be fine and dandy. Sure it costs twice as much but hopefully that money will ensure a better level of service.
 
 Oh one more thing, apparently STRATO have won awards for their customer service:
 
-[![](/wp-content/uploads/2012/10/screenshot_06.png "screenshot_06")](/wp-content/uploads/2012/10/screenshot_06.png)
+[/wp-content/uploads/2012/10/screenshot_06.png](/wp-content/uploads/2012/10/screenshot_06.png)
 
 _sigh_
 
-&lt;/rant&gt;
+/rant
