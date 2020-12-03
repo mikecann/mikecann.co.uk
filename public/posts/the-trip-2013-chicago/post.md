@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-05-23T16:53:56.000Z"
+date: '2013-05-23T16:53:56.000Z'
 tags:
   - chicago
   - diary
-  - Personal
-  - Photos
-  - Trip
+  - personal
+  - photos
+  - trip
 title: The Trip 2013 - Chicago
 ---
 

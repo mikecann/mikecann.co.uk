@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-21T02:42:21.000Z"
+date: '2010-08-21T02:42:21.000Z'
 tags:
   - competition
   - development
-  - Games
+  - games
   - ludum
 title: Ludum Dare - Hour 0
 ---

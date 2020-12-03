@@ -1,17 +1,17 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-03-05T00:34:57.000Z"
+date: '2010-03-05T00:34:57.000Z'
 tags:
-  - Actionscript
-  - Audio
-  - Download
-  - Flash
-  - Flex
-  - MP3
-  - Music
-  - Source
-  - Trance
-title: "Trance Around The World, Show Downloader"
+  - actionscript
+  - audio
+  - download
+  - flash
+  - flex
+  - mp3
+  - music
+  - source
+  - trance
+title: 'Trance Around The World, Show Downloader'
 ---
 
 Had this little idea a while back, thought I would spend an hour tonight and bash it out.

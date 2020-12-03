@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-01-06T14:15:54.000Z"
+date: '2009-01-06T14:15:54.000Z'
 tags: []
 title: Icy Slicy Like Game
 ---

@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-04-11T21:01:51.000Z"
+date: '2011-04-11T21:01:51.000Z'
 tags:
   - chromecrawler
-  - Code
+  - code
   - haxe
-  - Javascript
+  - javascript
   - parse
   - tips
   - uri

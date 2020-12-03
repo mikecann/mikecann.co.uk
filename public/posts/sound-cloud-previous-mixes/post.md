@@ -2,9 +2,9 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-11-10T19:19:59.000Z'
 tags:
-  - Audio
-  - Mixes
-  - Personal
+  - audio
+  - mixes
+  - personal
 title: Sound Cloud & Previous Mixes
 ---
 

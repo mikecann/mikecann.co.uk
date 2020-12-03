@@ -1,16 +1,16 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-09-22T19:57:09.000Z"
+date: '2010-09-22T19:57:09.000Z'
 tags:
   - beta
   - bug
   - fix
   - icon
-  - Inputtie
+  - inputtie
   - launch
   - patch
-  - Personal
-  - Project
+  - personal
+  - project
   - release
   - version
 title: Inputtie - Beta Release!

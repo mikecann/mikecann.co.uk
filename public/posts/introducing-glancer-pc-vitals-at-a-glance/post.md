@@ -3,11 +3,11 @@ coverImage: /posts/introducing-glancer-pc-vitals-at-a-glance/cover.jpg
 date: '2016-11-10T06:53:58.000Z'
 tags:
   - app
-  - C#
-  - Tool
-  - Util
-  - Windows
-  - WPF
+  - c#
+  - tool
+  - util
+  - windows
+  - wpf
 title: Introducing Glancer - PC Vitals at a Glance
 ---
 

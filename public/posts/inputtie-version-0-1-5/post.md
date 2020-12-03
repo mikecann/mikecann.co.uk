@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-10-17T19:31:34.000Z"
+date: '2010-10-17T19:31:34.000Z'
 tags:
   - button
   - click
-  - Inputtie
+  - inputtie
   - middle
-  - Personal
-  - Project
-  - Update
+  - personal
+  - project
+  - update
   - version
 title: Inputtie - Version 0.1.5
 ---

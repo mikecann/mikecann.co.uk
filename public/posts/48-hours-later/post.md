@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/48-hours-later/cover.jpg
-date: "2010-09-08T01:06:30.000Z"
+date: '2010-09-08T01:06:30.000Z'
 tags: []
 title: 48 Hours Later
 ---

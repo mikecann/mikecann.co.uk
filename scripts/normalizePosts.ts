@@ -84,7 +84,7 @@ const normalizeMetadata = async () => {
     const postMeta = producePostMeta({
       coverImage,
       date,
-      tags: data.tags ?? [],
+      tags: [...data.tags].map((s: string) => s.toLowerCase()),
       title: data.title,
     });
 

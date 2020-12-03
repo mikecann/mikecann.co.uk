@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-05-13T12:46:21.000Z'
 tags:
-  - Websites
+  - websites
 title: Domains..
 ---
 

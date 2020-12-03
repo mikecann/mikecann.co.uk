@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2019-04-12T14:51:40.000Z'
 tags:
-  - Personal
-  - Website
-  - Blog
-  - Typescript
+  - personal
+  - website
+  - blog
+  - typescript
 title: Migrating from Hexo to Gatsby
 ---
 

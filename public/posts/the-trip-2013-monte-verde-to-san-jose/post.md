@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-08-05T13:36:29.000Z"
+date: '2013-08-05T13:36:29.000Z'
 tags:
   - adventure
   - bungee
   - costa rica
   - travel
-  - Trip
+  - trip
   - water
 title: The Trip 2013 - Monte Verde to San Jose
 ---

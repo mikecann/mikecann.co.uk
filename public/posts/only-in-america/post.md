@@ -2,10 +2,10 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-07-15T21:52:24.000Z'
 tags:
-  - America
-  - Fun
-  - Madness
-  - Photos
+  - america
+  - fun
+  - madness
+  - photos
 title: Only In America...
 ---
 

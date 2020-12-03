@@ -2,11 +2,11 @@
 coverImage: /posts/highlight-selected-plugin-updated-by-david-hancock/cover.jpg
 date: '2009-05-04T15:24:57.000Z'
 tags:
-  - C#
-  - FlashDevelop
-  - Personal
-  - Plugin
-  - Projects
+  - c#
+  - flashdevelop
+  - personal
+  - plugin
+  - projects
 title: 'Highlight Selected Plugin, updated by David Hancock'
 ---
 

@@ -3,12 +3,12 @@ coverImage: /images/fallback-post-header.jpg
 date: '2011-04-24T19:49:29.000Z'
 tags:
   - cncd
-  - Code
+  - code
   - demo
-  - Demoscene
+  - demoscene
   - epic
   - fairlight
-  - Music
+  - music
 title: '[Demoscene] Numb Res by Fairlight & CNCD 2011.1'
 ---
 

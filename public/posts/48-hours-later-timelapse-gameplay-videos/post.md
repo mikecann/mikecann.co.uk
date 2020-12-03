@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-23T22:00:57.000Z"
+date: '2010-08-23T22:00:57.000Z'
 tags:
-  - Flash
-  - Game
+  - flash
+  - game
   - gameplay
   - ludum
-  - Timelapse
-  - Video
+  - timelapse
+  - video
 title: 48 Hours Later - Timelapse & Gameplay Videos
 ---
 

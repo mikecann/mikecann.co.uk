@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-05-09T21:57:03.000Z"
+date: '2011-05-09T21:57:03.000Z'
 tags:
   - instagram
   - instagrid
-  - Photos
+  - photos
   - stream
   - upload
 title: Instagrid

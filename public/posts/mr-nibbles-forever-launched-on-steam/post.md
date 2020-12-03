@@ -3,7 +3,7 @@ coverImage: /posts/mr-nibbles-forever-launched-on-steam/cover.jpg
 date: '2016-05-01T04:03:47.000Z'
 tags:
   - development
-  - Game
+  - game
   - pc
   - publishing
 title: Mr Nibbles Forever - Launched on Steam

@@ -2,12 +2,12 @@
 coverImage: ./ml-header.jpg
 date: '2017-11-05T14:51:40.000Z'
 tags:
-  - Machine Learning
-  - Unity
-  - Games
-  - Coding
-  - Programming
-  - AGDLML
+  - machine learning
+  - unity
+  - games
+  - coding
+  - programming
+  - agdlml
 title: A Game Developer Learns Machine Learning - Getting Started
 ---
 

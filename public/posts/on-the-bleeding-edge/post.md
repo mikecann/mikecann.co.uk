@@ -2,15 +2,15 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-02-10T23:26:38.000Z'
 tags:
-  - AIR
-  - Flex
-  - Inputtie
-  - Java FX
-  - Mate
-  - Programming
-  - Projects
-  - Robot Legs
-  - Signals
+  - air
+  - flex
+  - inputtie
+  - java fx
+  - mate
+  - programming
+  - projects
+  - robot legs
+  - signals
 title: On the Bleeding Edge
 ---
 

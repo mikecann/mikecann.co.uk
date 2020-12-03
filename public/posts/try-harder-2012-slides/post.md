@@ -8,7 +8,7 @@ tags:
   - profile
   - slides
   - talk
-  - Tool
+  - tool
   - tryharder
 title: Try Harder 2012 Slides
 ---

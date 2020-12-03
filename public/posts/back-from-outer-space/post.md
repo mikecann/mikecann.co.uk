@@ -2,12 +2,12 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-07-15T18:37:48.000Z'
 tags:
-  - California
-  - Car
-  - Fun
-  - Holiday
-  - Photos
-  - Trip
+  - california
+  - car
+  - fun
+  - holiday
+  - photos
+  - trip
 title: Back From Outer Space
 ---
 

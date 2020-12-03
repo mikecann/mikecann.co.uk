@@ -1,13 +1,13 @@
 ---
 coverImage: ./header.jpg
-date: "2017-11-05T13:37:29.000Z"
+date: '2017-11-05T13:37:29.000Z'
 tags:
-  - Machine Learning
-  - Unity
-  - Games
-  - Coding
-  - Programming
-  - AGDLML
+  - machine learning
+  - unity
+  - games
+  - coding
+  - programming
+  - agdlml
 title: A Game Developer Learns Machine Learning - Intent
 ---
 

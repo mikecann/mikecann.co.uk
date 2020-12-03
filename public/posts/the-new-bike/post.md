@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-12-15T00:16:36.000Z"
+date: '2009-12-15T00:16:36.000Z'
 tags:
-  - Personal
-  - Photos
+  - personal
+  - photos
 title: The New Bike
 ---
 

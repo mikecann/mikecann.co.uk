@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-09-04T23:28:01.000Z"
+date: '2010-09-04T23:28:01.000Z'
 tags:
   - custom
   - develop
-  - Flash
+  - flash
   - joa
   - language
-  - Particles
+  - particles
   - player
   - speed
 title: Joa Does It Again!

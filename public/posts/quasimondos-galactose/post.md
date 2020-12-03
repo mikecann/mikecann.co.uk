@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-10T21:17:09.000Z"
+date: '2010-01-10T21:17:09.000Z'
 tags:
-  - Actionscript
-  - Experiment
-  - Flash
-  - Lab
-  - Particles
-  - Programming
+  - actionscript
+  - experiment
+  - flash
+  - lab
+  - particles
+  - programming
 title: Quasimondo's Galactose
 ---
 

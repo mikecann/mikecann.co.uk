@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-10-20T06:52:57.000Z"
+date: '2012-10-20T06:52:57.000Z'
 tags:
   - chrome
   - extension
-  - HTML
-  - Javascript
+  - html
+  - javascript
   - languages
   - spider
   - typescript

@@ -2,8 +2,8 @@
 coverImage: ./header.jpg
 date: '2019-02-27T09:51:40.000Z'
 tags:
-  - Markd
-  - Personal
+  - markd
+  - personal
 title: What Have I Been Up To In Feb?
 ---
 

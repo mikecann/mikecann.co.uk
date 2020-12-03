@@ -2,12 +2,12 @@
 coverImage: ./header.jpg
 date: '2018-12-27T14:51:40.000Z'
 tags:
-  - Programming
-  - Typescript
-  - Chrome Extensions
-  - React
-  - Bleeding Edge
-  - React Hooks
+  - programming
+  - typescript
+  - chrome extensions
+  - react
+  - bleeding edge
+  - react hooks
 title: Tinkering With React Hooks and Chrome Extensions
 ---
 

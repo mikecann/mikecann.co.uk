@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-01-17T22:54:55.000Z"
+date: '2013-01-17T22:54:55.000Z'
 tags:
   - ableton
-  - Audio
-  - Downtempo
+  - audio
+  - downtempo
   - dubstep
   - melodic
-  - Mix
+  - mix
   - production
   - track
 title: Newmix - Second Harmonic

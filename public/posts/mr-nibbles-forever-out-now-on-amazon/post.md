@@ -3,8 +3,8 @@ coverImage: /posts/mr-nibbles-forever-out-now-on-amazon/cover.jpg
 date: '2015-10-30T00:54:45.000Z'
 tags:
   - amazon
-  - Game
-  - Mobile
+  - game
+  - mobile
   - nibbles
   - release
 title: Mr Nibbles Forever - Out Now on Amazon

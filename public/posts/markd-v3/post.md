@@ -2,12 +2,12 @@
 coverImage: ./header.jpg
 date: '2019-05-17T14:51:40.000Z'
 tags:
-  - Design
-  - Websites
-  - RelationshipManagement
-  - GraphQL
-  - Node
-  - Typescript
+  - design
+  - websites
+  - relationshipmanagement
+  - graphql
+  - node
+  - typescript
 title: Markd V3
 ---
 

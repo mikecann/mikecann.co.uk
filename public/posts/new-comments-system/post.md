@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-03-27T20:14:10.000Z"
+date: '2010-03-27T20:14:10.000Z'
 tags:
-  - Web
+  - web
 title: New Comments System
 ---
 

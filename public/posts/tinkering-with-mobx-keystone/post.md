@@ -1,9 +1,9 @@
 ---
 coverImage: ./header.jpg
-date: "2020-08-15T08:31:40.000Z"
+date: '2020-08-15T08:31:40.000Z'
 tags:
-  - Typescript
-  - Libraries
+  - typescript
+  - libraries
 title: Tinkering with MobX Keystone
 ---
 

@@ -4,8 +4,8 @@ date: '2016-01-29T03:57:56.000Z'
 tags:
   - chrome
   - extension
-  - HTML
-  - Javascript
+  - html
+  - javascript
   - react
   - tumblr
   - typescript

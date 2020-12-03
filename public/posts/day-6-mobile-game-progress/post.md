@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-07-08T12:12:42.000Z"
+date: '2012-07-08T12:12:42.000Z'
 tags:
-  - Draw
-  - Game
+  - draw
+  - game
   - gpu
   - hamster
   - haxe
-  - Mobile
+  - mobile
   - nme
   - space
   - tile

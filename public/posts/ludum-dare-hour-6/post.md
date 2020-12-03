@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-21T08:42:53.000Z"
+date: '2010-08-21T08:42:53.000Z'
 tags:
   - 48hours
   - development
-  - Flash
-  - Game
+  - flash
+  - game
   - ludum
 title: Ludum Dare - Hour 6
 ---

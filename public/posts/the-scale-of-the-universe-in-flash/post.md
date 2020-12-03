@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-02-03T12:46:36.000Z"
+date: '2010-02-03T12:46:36.000Z'
 tags:
-  - Experiment
-  - Flash
-  - Fun
-  - Interesting
-  - Physics
-  - Video
+  - experiment
+  - flash
+  - fun
+  - interesting
+  - physics
+  - video
 title: The Scale of the Universe in Flash
 ---
 

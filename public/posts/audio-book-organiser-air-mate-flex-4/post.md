@@ -1,17 +1,17 @@
 ---
 coverImage: /posts/audio-book-organiser-air-mate-flex-4/cover.jpg
-date: "2009-12-30T13:38:29.000Z"
+date: '2009-12-30T13:38:29.000Z'
 tags:
-  - Actionscript
-  - Audiobook
-  - Flash
-  - Flex
-  - Framework
-  - Mate
-  - Programming
-  - Projects
-  - Utility
-title: "Audio Book Organiser (AIR, Mate, Flex 4)"
+  - actionscript
+  - audiobook
+  - flash
+  - flex
+  - framework
+  - mate
+  - programming
+  - projects
+  - utility
+title: 'Audio Book Organiser (AIR, Mate, Flex 4)'
 ---
 
 Well its been a fun Christmas, I have eaten and drunk to the point that im going to be running it off in the gym till next christmas.

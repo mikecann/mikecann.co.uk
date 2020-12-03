@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-10-15T14:06:56.000Z"
+date: '2009-10-15T14:06:56.000Z'
 tags:
-  - Google
-  - Wave
+  - google
+  - wave
 title: Google Wave
 ---
 

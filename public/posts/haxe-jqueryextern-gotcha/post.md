@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-04-10T09:22:38.000Z"
+date: '2011-04-10T09:22:38.000Z'
 tags:
   - compile
   - gotcha

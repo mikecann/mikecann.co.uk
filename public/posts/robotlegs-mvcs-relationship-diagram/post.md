@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-03-23T19:17:43.000Z"
+date: '2010-03-23T19:17:43.000Z'
 tags:
-  - Flex
-  - Framework
-  - Robot Legs
+  - flex
+  - framework
+  - robot legs
 title: RobotLegs MVCS Relationship Diagram
 ---
 

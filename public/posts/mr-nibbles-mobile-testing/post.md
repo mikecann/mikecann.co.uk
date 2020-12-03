@@ -3,10 +3,10 @@ coverImage: /posts/mr-nibbles-mobile-testing/cover.jpg
 date: '2014-07-17T04:15:43.000Z'
 tags:
   - development
-  - Games
-  - iPhone
+  - games
+  - iphone
   - moblie
-  - Programming
+  - programming
   - unity
 title: Mr Nibbles - Mobile Testing
 ---

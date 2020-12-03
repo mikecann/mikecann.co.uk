@@ -1,21 +1,21 @@
 ---
 coverImage: /posts/swft-dependency-injection-component-based-game-framework/cover.jpg
-date: "2010-06-13T16:22:34.000Z"
+date: '2010-06-13T16:22:34.000Z'
 tags:
   - community
-  - Component
-  - Dependency Injection
-  - Flash
-  - FlashPunk
-  - Flixel
+  - component
+  - dependency injection
+  - flash
+  - flashpunk
+  - flixel
   - framwork
-  - Games
-  - IoC
-  - Opensource
+  - games
+  - ioc
+  - opensource
   - pbe
-  - Personal Projects
-  - Projects
-  - SWFt
+  - personal projects
+  - projects
+  - swft
 title: SWFt - Dependency Injection Component Based Game Framework
 ---
 

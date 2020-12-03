@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2017-12-11T14:51:40.000Z'
 tags:
-  - Photography
-  - Business
-  - Drone
-  - Market
+  - photography
+  - business
+  - drone
+  - market
 title: Above Under - Markets
 ---
 

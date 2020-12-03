@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-04-11T11:11:53.000Z"
+date: '2013-04-11T11:11:53.000Z'
 tags:
   - argon
   - house
-  - Mix
-  - MP3
+  - mix
+  - mp3
   - progressive
   - soundcloud
   - tech

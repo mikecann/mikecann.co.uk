@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-07-04T22:23:23.000Z"
+date: '2012-07-04T22:23:23.000Z'
 tags:
   - challenge
-  - Game
+  - game
   - haxe
-  - Mobile
-  - Update
+  - mobile
+  - update
 title: 3 Days into the 3-Week Challenge
 ---
 

@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-05-14T14:55:01.000Z"
+date: '2011-05-14T14:55:01.000Z'
 tags:
   - chrome
   - crawler
   - spider
-  - Update
+  - update
 title: Chrome Crawler v0.5
 ---
 

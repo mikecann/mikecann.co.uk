@@ -2,9 +2,9 @@
 coverImage: /posts/introducing-my-new-android-app-credit-redeemer/cover.jpg
 date: '2016-03-15T02:41:38.000Z'
 tags:
-  - Android
-  - Mobile
-  - React-Native
+  - android
+  - mobile
+  - react-native
   - typescript
 title: 'Introducing my new Android app: Credit Redeemer'
 ---

@@ -2,9 +2,9 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2012-02-15T13:20:36.000Z'
 tags:
-  - Business
-  - News
-  - Playdemic
+  - business
+  - news
+  - playdemic
   - tv
 title: Playdemic on the Northwest News
 ---

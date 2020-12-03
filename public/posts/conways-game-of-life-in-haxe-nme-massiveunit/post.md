@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-10-09T17:13:29.000Z"
+date: '2011-10-09T17:13:29.000Z'
 tags:
-  - Flash
+  - flash
   - haxe
-  - HTML5
+  - html5
   - nme
   - testing
-title: "Conway's Game of Life in haXe [NME & MassiveUnit]"
+title: 'Conway''s Game of Life in haXe [NME & MassiveUnit]'
 ---
 
 [![](/wp-content/uploads/2011/10/2011-10-09_1257.png "2011-10-09_1257")](/wp-content/uploads/2011/10/2011-10-09_1257.png)

@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-16T19:57:36.000Z"
+date: '2010-08-16T19:57:36.000Z'
 tags:
   - competition
-  - Flash
-  - Games
+  - flash
+  - games
   - ludum
 title: Ludum Dare 18 this Weekend!
 ---

@@ -3,7 +3,7 @@ coverImage: /posts/mr-nibbles-forever-alpha-6/cover.jpg
 date: '2015-02-23T03:10:36.000Z'
 tags:
   - 2d game
-  - Game
+  - game
   - mr nibbles forever
   - platformer
   - unity

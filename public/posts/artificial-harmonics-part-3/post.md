@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-04-24T16:14:04.000Z"
+date: '2010-04-24T16:14:04.000Z'
 tags:
-  - Audio
-  - Chill
-  - Downtempo
-  - Mixes
-  - Projects
+  - audio
+  - chill
+  - downtempo
+  - mixes
+  - projects
 title: Artificial - Harmonics (Part 3)
 ---
 

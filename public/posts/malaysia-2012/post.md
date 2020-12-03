@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-06-25T18:59:09.000Z"
+date: '2012-06-25T18:59:09.000Z'
 tags:
   - malaysia
-  - Personal
-  - Photos
+  - personal
+  - photos
   - travel
 title: Malaysia 2012
 ---

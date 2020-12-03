@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-07-12T23:09:27.000Z"
+date: '2013-07-12T23:09:27.000Z'
 tags:
   - competition
   - nhs

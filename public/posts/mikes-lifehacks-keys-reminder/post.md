@@ -2,9 +2,9 @@
 coverImage: ./header.jpg
 date: '2018-03-11T14:51:40.000Z'
 tags:
-  - Lifehack
-  - Personal
-  - Forgetful
+  - lifehack
+  - personal
+  - forgetful
 title: Mike's Lifehacks - Keys Reminder
 ---
 

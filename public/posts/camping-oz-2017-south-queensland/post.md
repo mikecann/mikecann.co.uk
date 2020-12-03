@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2017-08-09T00:53:00.000Z'
 tags:
-  - Blog
-  - Drone
+  - blog
+  - drone
   - photo
   - travel
 title: Camping Oz 2017- South Queensland

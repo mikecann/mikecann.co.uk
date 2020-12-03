@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-22T17:46:14.000Z"
+date: '2010-08-22T17:46:14.000Z'
 tags:
   - finished
-  - Flash
-  - Game
-  - Games
+  - flash
+  - game
+  - games
   - leiro
   - ludum
-  - Project
+  - project
 title: Ludum Dare - Hour 40 - COMPLETE!
 ---
 

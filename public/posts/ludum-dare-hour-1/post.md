@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-21T03:37:14.000Z"
+date: '2010-08-21T03:37:14.000Z'
 tags:
   - boomstick
   - design
-  - Flash
-  - Idea
-  - Liero
+  - flash
+  - idea
+  - liero
   - ludum
   - worms
 title: Ludum Dare - Hour 1

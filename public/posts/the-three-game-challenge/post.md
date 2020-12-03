@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-03-25T15:27:19.000Z"
+date: '2013-03-25T15:27:19.000Z'
 tags:
-  - AIR
+  - air
   - ash
   - challenge
-  - Game
-  - Mobile
+  - game
+  - mobile
 title: The Three Game Challenge
 ---
 

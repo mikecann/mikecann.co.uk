@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-02-08T21:42:56.000Z"
+date: '2011-02-08T21:42:56.000Z'
 tags:
   - bug
   - class
@@ -9,8 +9,8 @@ tags:
   - crash
   - error
   - flash builder
-  - Flex
-title: "1046: Type was not found or was not a compile-time constant"
+  - flex
+title: '1046: Type was not found or was not a compile-time constant'
 ---
 
 [![](/wp-content/uploads/2011/02/001.jpg "001")](/wp-content/uploads/2011/02/001.jpg)

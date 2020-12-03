@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-06-17T20:11:27.000Z"
+date: '2009-06-17T20:11:27.000Z'
 tags:
-  - Personal
-  - Photos
-  - Trip
+  - personal
+  - photos
+  - trip
 title: Nova Scotia in 10 Days
 ---
 

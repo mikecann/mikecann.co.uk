@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-05-27T09:35:50.000Z'
 tags:
-  - Fun
-  - Video
+  - fun
+  - video
 title: Did You Know 3.0...
 ---
 

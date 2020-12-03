@@ -3,12 +3,12 @@ coverImage: /images/fallback-post-header.jpg
 date: '2010-07-27T08:11:00.000Z'
 tags:
   - community
-  - Games
-  - Maps
-  - Play
-  - Starcraft2
-  - TowerDefense
-  - Video
+  - games
+  - maps
+  - play
+  - starcraft2
+  - towerdefense
+  - video
 title: Starcraft II & TDs
 ---
 

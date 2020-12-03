@@ -2,8 +2,8 @@
 coverImage: ./header.jpg
 date: '2018-08-19T09:51:40.000Z'
 tags:
-  - Misc
-  - Personal
+  - misc
+  - personal
 title: Chat for Trello - a Trello Chat Rewrite
 ---
 

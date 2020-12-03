@@ -4,10 +4,10 @@ coverImage: >-
 date: '2015-10-30T05:45:00.000Z'
 tags:
   - architecture
-  - C#
+  - c#
   - entity
-  - Framework
-  - Game
+  - framework
+  - game
 title: Unity Ash - A different way of thinking about making games in Unity
 ---
 

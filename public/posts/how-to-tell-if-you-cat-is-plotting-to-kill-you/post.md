@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-05-21T17:16:28.000Z'
 tags:
-  - Fun
+  - fun
 title: How to tell if you cat is plotting to kill you...
 ---
 

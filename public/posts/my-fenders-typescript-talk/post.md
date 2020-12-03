@@ -2,9 +2,9 @@
 coverImage: ./header.jpg
 date: '2020-01-14T08:31:40.000Z'
 tags:
-  - Public Speaking
-  - Talks
-  - Typescript
+  - public speaking
+  - talks
+  - typescript
 title: My Fenders Typescript Talk
 ---
 

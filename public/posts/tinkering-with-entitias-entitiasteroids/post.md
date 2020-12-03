@@ -2,9 +2,9 @@
 coverImage: /posts/tinkering-with-entitias-entitiasteroids/cover.jpg
 date: '2015-11-09T01:50:07.000Z'
 tags:
-  - C#
-  - Games
-  - Programming
+  - c#
+  - games
+  - programming
   - unity
 title: Tinkering With Entitias - Entitiasteroids
 ---

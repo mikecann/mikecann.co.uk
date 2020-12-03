@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-11T20:12:13.000Z"
+date: '2010-01-11T20:12:13.000Z'
 tags:
-  - Jobs
-  - Personal
-  - Playdemic
+  - jobs
+  - personal
+  - playdemic
 title: Playdemic - My First Day
 ---
 

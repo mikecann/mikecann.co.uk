@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-08-15T18:56:59.000Z"
+date: '2012-08-15T18:56:59.000Z'
 tags: []
 title: Improve Flash Builder Performance and Compile Times by 30%
 ---

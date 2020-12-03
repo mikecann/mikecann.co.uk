@@ -1,8 +1,8 @@
 ---
 coverImage: ./header.jpg
-date: "2020-10-28T08:31:40.000Z"
+date: '2020-10-28T08:31:40.000Z'
 tags:
-  - Photos and Personal
+  - photos and personal
 title: BattleTabs - Ships and Fleets Update
 ---
 

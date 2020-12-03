@@ -4,12 +4,12 @@ date: '2015-03-14T03:31:31.000Z'
 tags:
   - 2d
   - everyplay
-  - Game
+  - game
   - highscores
   - mr nibbles
   - unity
-  - Update
-  - Video
+  - update
+  - video
 title: Mr Nibbles Forever - Alpha 7
 ---
 

@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-05-16T15:07:13.000Z"
+date: '2010-05-16T15:07:13.000Z'
 tags:
-  - Personal
-  - Social
-  - Update
+  - personal
+  - social
+  - update
 title: Mike Cann & Social Networks
 ---
 

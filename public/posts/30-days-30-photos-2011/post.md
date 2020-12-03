@@ -6,7 +6,7 @@ tags:
   - instagram
   - phot
   - photo
-  - Twitter
+  - twitter
   - upload
 title: 30 Days 30 Photos - 2011
 ---

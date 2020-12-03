@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-08-02T19:55:28.000Z"
+date: '2013-08-02T19:55:28.000Z'
 tags:
-  - Blog
+  - blog
   - hike
   - ometepe
   - travel
-  - Trip
+  - trip
 title: The Trip 2013 - Granada to Ometepe
 ---
 

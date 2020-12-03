@@ -4,9 +4,9 @@ date: '2015-07-03T05:08:07.000Z'
 tags:
   - 2d
   - development
-  - Game
+  - game
   - mr nibbles
-  - Physics
+  - physics
   - unity
   - unity3d
 title: Mr Nibbles Forever - Pre Release 9

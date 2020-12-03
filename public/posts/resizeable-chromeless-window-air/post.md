@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-02-22T00:06:58.000Z"
+date: '2010-02-22T00:06:58.000Z'
 tags:
-  - AIR
-  - Component
-  - Flash
-  - MXML
-  - Projects
-  - Resize
-  - Source
+  - air
+  - component
+  - flash
+  - mxml
+  - projects
+  - resize
+  - source
 title: Resizeable Chromeless Window AIR
 ---
 

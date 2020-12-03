@@ -1,13 +1,13 @@
 ---
 coverImage: /posts/the-three-game-challenge-part-3-the-family-jewels/cover.jpg
-date: "2013-04-25T11:03:10.000Z"
+date: '2013-04-25T11:03:10.000Z'
 tags:
   - ash
-  - Flash
-  - Game
+  - flash
+  - game
   - gem
   - match three
-  - Mobile
+  - mobile
   - starling
 title: The Three Game Challenge – Part 3 – The Family Jewels
 ---

@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-12-10T20:44:37.000Z"
+date: '2009-12-10T20:44:37.000Z'
 tags:
-  - HTML
-  - Programming
-  - Projects
-  - WBFG
-  - Websites
+  - html
+  - programming
+  - projects
+  - wbfg
+  - websites
 title: The Case of The Transitional Doctype
 ---
 

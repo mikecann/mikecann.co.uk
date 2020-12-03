@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-08-27T16:21:37.000Z"
+date: '2009-08-27T16:21:37.000Z'
 tags:
-  - Art
-  - Draw
-  - Pixel
+  - art
+  - draw
+  - pixel
 title: Q-BLOCK
 ---
 

@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-10-08T09:23:18.000Z"
+date: '2009-10-08T09:23:18.000Z'
 tags:
-  - CS5
-  - Flash
-  - Tool
+  - cs5
+  - flash
+  - tool
 title: Flash to IPhone CS5
 ---
 

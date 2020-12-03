@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2019-08-26T08:51:40.000Z'
 tags:
-  - Markd
-  - NewFeature
-  - LinkedIn
-  - Typescript
+  - markd
+  - newfeature
+  - linkedin
+  - typescript
 title: Markd - Import From LinkedIn
 ---
 

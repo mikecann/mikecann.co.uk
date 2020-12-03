@@ -2,8 +2,8 @@
 coverImage: /posts/and-off-we-go/cover.jpg
 date: '2017-03-24T01:30:00.000Z'
 tags:
-  - Blog
-  - Drone
+  - blog
+  - drone
   - photo
   - travel
 title: And Off We Go!

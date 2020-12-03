@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-11-04T12:42:30.000Z"
+date: '2012-11-04T12:42:30.000Z'
 tags:
   - beauty
-  - Holiday
+  - holiday
   - new york
-  - Photos
+  - photos
 title: New York New York
 ---
 

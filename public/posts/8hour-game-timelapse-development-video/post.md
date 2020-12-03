@@ -2,12 +2,12 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-06-04T14:01:14.000Z'
 tags:
-  - 8HourGame
-  - Flash
-  - Game
-  - Project
-  - Timelapse
-  - Video
+  - 8hourgame
+  - flash
+  - game
+  - project
+  - timelapse
+  - video
 title: 8hour Game Timelapse Development Video
 ---
 

@@ -2,11 +2,11 @@
 coverImage: /posts/taming-unity/cover.jpg
 date: '2014-04-26T00:42:52.000Z'
 tags:
-  - Games
-  - MVC
-  - RobotLegs
-  - strangeIoC
-  - Unit Testing
+  - games
+  - mvc
+  - robotlegs
+  - strangeioc
+  - unit testing
 title: Taming Unity
 ---
 

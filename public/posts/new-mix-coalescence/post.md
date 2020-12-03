@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-07-14T10:50:03.000Z"
+date: '2009-07-14T10:50:03.000Z'
 tags:
-  - Chill
-  - Downtemo
-  - Mix
-  - Music
-  - Personal
-title: "New Mix: Coalescence"
+  - chill
+  - downtemo
+  - mix
+  - music
+  - personal
+title: 'New Mix: Coalescence'
 ---
 
 [![artificialcoalcover](/wp-content/uploads/2009/07/artificialcoalcover.png "artificialcoalcover")](/wp-content/uploads/2009/07/artificialcoalcover.png)

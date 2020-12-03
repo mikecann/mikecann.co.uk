@@ -2,11 +2,11 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-07-26T12:35:56.000Z'
 tags:
-  - Movies
-  - Opera
-  - SciFi
-  - Singing
-  - Video
+  - movies
+  - opera
+  - scifi
+  - singing
+  - video
 title: The Fifth Element Fan? Watch This!
 ---
 

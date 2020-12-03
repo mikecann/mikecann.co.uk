@@ -2,12 +2,12 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-08-21T13:14:14.000Z'
 tags:
-  - Flash
-  - Game
+  - flash
+  - game
   - ludum
-  - Personal
+  - personal
   - progress
-  - Project
+  - project
 title: 'Ludum Dare - Hour 11 '
 ---
 

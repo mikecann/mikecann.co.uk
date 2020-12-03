@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-05-21T15:58:55.000Z"
+date: '2013-05-21T15:58:55.000Z'
 tags:
   - diary
   - photo
-  - Trip
+  - trip
   - washington
 title: The Trip 2013 - Washington DC
 ---

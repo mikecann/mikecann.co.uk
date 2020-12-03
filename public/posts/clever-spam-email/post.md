@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-04-17T18:41:57.000Z"
+date: '2010-04-17T18:41:57.000Z'
 tags:
   - clever
   - email
   - gmail
   - security
-  - Spam
+  - spam
   - trick
   - virus
 title: Clever Spam Email..

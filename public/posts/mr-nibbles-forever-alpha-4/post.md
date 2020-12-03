@@ -4,7 +4,7 @@ date: '2015-02-09T01:55:08.000Z'
 tags:
   - 2d
   - development
-  - Game
+  - game
   - indie
   - mr nibbles
   - unity

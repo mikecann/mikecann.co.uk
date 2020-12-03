@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-07-03T10:56:52.000Z"
+date: '2009-07-03T10:56:52.000Z'
 tags:
-  - Flash
-  - Games
+  - flash
+  - games
 title: Monkey Dressup
 ---
 

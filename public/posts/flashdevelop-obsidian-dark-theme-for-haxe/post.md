@@ -1,12 +1,12 @@
 ---
 coverImage: /posts/flashdevelop-obsidian-dark-theme-for-haxe/cover.jpg
-date: "2011-07-21T19:19:44.000Z"
+date: '2011-07-21T19:19:44.000Z'
 tags:
   - dark
   - eyestrain
-  - FlashDevelop
+  - flashdevelop
   - ide
-  - Programming
+  - programming
   - theme
 title: FlashDevelop Obsidian Dark Theme For HaXe
 ---

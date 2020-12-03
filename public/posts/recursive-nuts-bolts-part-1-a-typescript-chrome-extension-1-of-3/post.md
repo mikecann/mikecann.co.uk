@@ -1,16 +1,16 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-12-23T17:33:58.000Z"
+date: '2012-12-23T17:33:58.000Z'
 tags:
   - chrome
   - crawler
   - extension
-  - HTML
-  - Programming
+  - html
+  - programming
   - spider
   - typescript
-  - Web
-title: "Recursive, Nuts & Bolts Part 1 - A Typescript Chrome Extension  (1 of 3)"
+  - web
+title: 'Recursive, Nuts & Bolts Part 1 - A Typescript Chrome Extension  (1 of 3)'
 ---
 
 [![screenshot_04](/wp-content/uploads/2012/12/screenshot_041.png)](/posts/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_04-5/)

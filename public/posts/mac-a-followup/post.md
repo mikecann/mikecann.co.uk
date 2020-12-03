@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-08-19T09:05:10.000Z"
+date: '2009-08-19T09:05:10.000Z'
 tags:
-  - Apple
-  - Opinion
-  - Review
+  - apple
+  - opinion
+  - review
 title: Mac - a Followup
 ---
 

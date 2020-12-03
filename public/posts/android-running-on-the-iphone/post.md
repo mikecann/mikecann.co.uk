@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-04-22T17:12:51.000Z"
+date: '2010-04-22T17:12:51.000Z'
 tags:
-  - Android
-  - iPhone
-  - Jailbreak
-  - Video
+  - android
+  - iphone
+  - jailbreak
+  - video
 title: Android Running on the iPhone!
 ---
 

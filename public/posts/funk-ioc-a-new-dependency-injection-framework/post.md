@@ -1,17 +1,17 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-04-08T21:17:10.000Z"
+date: '2010-04-08T21:17:10.000Z'
 tags:
-  - Actionscript
-  - Flash
-  - Framework
-  - Functional
-  - Funk
-  - Impressive
-  - IoC
-  - Programming
-  - Robot Legs
-  - Swift Suspenders
+  - actionscript
+  - flash
+  - framework
+  - functional
+  - funk
+  - impressive
+  - ioc
+  - programming
+  - robot legs
+  - swift suspenders
 title: Funk IoC - A New Dependency Injection Framework
 ---
 

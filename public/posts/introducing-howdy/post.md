@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2019-12-30T08:31:40.000Z'
 tags:
-  - Markd
-  - Howdy
-  - Video
-  - Website
-  - Typescript
+  - markd
+  - howdy
+  - video
+  - website
+  - typescript
 title: Introducing - Howdy
 ---
 

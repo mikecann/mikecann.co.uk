@@ -2,11 +2,11 @@
 coverImage: /posts/introducing-markd-pinterest-for-people/cover.jpg
 date: '2016-09-15T02:25:17.000Z'
 tags:
-  - ASP.Net
+  - asp.net
   - aurelia
   - chrome extension
   - commercial project
-  - Website
+  - website
 title: Introducing Markd - Pinterest for people
 ---
 

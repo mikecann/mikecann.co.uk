@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-12-26T15:16:42.000Z"
+date: '2013-12-26T15:16:42.000Z'
 tags:
   - argentina
   - beach
-  - Beer
+  - beer
   - birds
   - brazil
   - sun

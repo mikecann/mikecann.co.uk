@@ -3,7 +3,7 @@ coverImage: /posts/5-games-now-on-the-windows-store/cover.jpg
 date: '2016-12-29T00:24:27.000Z'
 tags:
   - development
-  - Games
+  - games
   - promo
   - windows store
 title: 5 Games now on the Windows Store

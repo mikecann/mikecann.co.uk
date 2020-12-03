@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-03-02T20:27:49.000Z"
+date: '2013-03-02T20:27:49.000Z'
 tags:
   - company
   - leaving
-  - Playdemic
-  - Trip
+  - playdemic
+  - trip
 title: Goodbye Playdemic
 ---
 

@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-01T13:27:21.000Z"
+date: '2010-08-01T13:27:21.000Z'
 tags:
-  - Awake
-  - Book
-  - Dreams
-  - Lucid
-  - Mind
+  - awake
+  - book
+  - dreams
+  - lucid
+  - mind
 title: Exploring The World of Lucid Dreaming
 ---
 

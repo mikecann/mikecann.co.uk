@@ -2,12 +2,12 @@
 coverImage: ./header.jpg
 date: '2018-04-22T14:51:40.000Z'
 tags:
-  - Open Source
-  - Programming
-  - Typescript
-  - Cryptocurrency
-  - Bitcoin
-  - Exodus
+  - open source
+  - programming
+  - typescript
+  - cryptocurrency
+  - bitcoin
+  - exodus
 title: New OS Project - exodus-safe-to-csv
 ---
 

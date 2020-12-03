@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-06-12T18:13:14.000Z"
+date: '2011-06-12T18:13:14.000Z'
 tags:
   - chrome
   - extension
   - haxe
   - js
-  - Plugin
+  - plugin
   - three.js
-  - WebGL
-title: "Chrome Crawler, HaXe, Three.js, WebGL and 2D Sprites"
+  - webgl
+title: 'Chrome Crawler, HaXe, Three.js, WebGL and 2D Sprites'
 ---
 
 [![](/wp-content/uploads/2011/06/banbanbnanbab.jpg "banbanbnanbab")](/wp-content/uploads/2011/06/banbanbnanbab.jpg)

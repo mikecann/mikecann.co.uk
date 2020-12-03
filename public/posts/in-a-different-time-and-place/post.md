@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-10-08T18:59:02.000Z'
 tags:
-  - Photos
+  - photos
 title: In a Different Time and Place..
 ---
 

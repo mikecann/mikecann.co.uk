@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2017-06-05T00:24:00.000Z'
 tags:
-  - Blog
-  - Drone
+  - blog
+  - drone
   - photo
   - travel
 title: Camping Oz 2017 - East Kimberly

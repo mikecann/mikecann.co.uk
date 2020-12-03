@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2019-11-17T09:51:40.000Z'
 tags:
-  - Chrome Extension
-  - Game
-  - Async
-  - Typescript
-  - Battleships
+  - chrome extension
+  - game
+  - async
+  - typescript
+  - battleships
 title: Introducing BattleTabs
 ---
 

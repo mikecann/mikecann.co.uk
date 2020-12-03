@@ -2,7 +2,7 @@
 coverImage: /posts/mr-nibbles-forever-available-on-android-again/cover.jpg
 date: '2017-03-06T11:43:58.000Z'
 tags:
-  - Android
+  - android
   - ban
   - nibbles
   - publisher

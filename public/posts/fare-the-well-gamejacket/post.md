@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-06-18T16:18:04.000Z"
+date: '2009-06-18T16:18:04.000Z'
 tags:
-  - Business
-  - Jobs
-  - Personal
+  - business
+  - jobs
+  - personal
 title: Fare-The-Well GameJacket!
 ---
 

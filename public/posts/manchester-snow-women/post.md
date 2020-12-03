@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-05T15:07:37.000Z"
+date: '2010-01-05T15:07:37.000Z'
 tags:
-  - Personal
-  - Photos
+  - personal
+  - photos
 title: Manchester Snow Women
 ---
 

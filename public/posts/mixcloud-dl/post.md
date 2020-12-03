@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2018-09-16T14:51:40.000Z'
 tags:
-  - Misc
-  - Programming
-  - Typescript
-  - Tool
+  - misc
+  - programming
+  - typescript
+  - tool
 title: Mixcloud-dl
 ---
 

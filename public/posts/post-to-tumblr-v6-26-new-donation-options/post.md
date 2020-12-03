@@ -6,7 +6,7 @@ tags:
   - extension
   - payment
   - paypal
-  - Update
+  - update
 title: Post To Tumblr v6.26 - New Donation Options
 ---
 

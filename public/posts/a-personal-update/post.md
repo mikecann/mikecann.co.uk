@@ -2,8 +2,8 @@
 coverImage: ./header.jpg
 date: '2020-03-11T08:31:40.000Z'
 tags:
-  - Personal
-  - Life
+  - personal
+  - life
 title: A Personal Update
 ---
 

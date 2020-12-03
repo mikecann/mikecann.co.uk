@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-10-23T19:44:51.000Z"
+date: '2010-10-23T19:44:51.000Z'
 tags:
   - as3
   - broadcast
-  - C#
-  - Flash
+  - c#
+  - flash
   - java
   - jgroup
   - jmdns

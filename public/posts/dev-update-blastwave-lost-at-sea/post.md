@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-07-15T16:07:19.000Z"
+date: '2009-07-15T16:07:19.000Z'
 tags:
-  - Blastwave
-  - Flash
-  - Game
-  - Projects
-  - Update
-title: "Dev Update: BlastWave - Lost At Sea"
+  - blastwave
+  - flash
+  - game
+  - projects
+  - update
+title: 'Dev Update: BlastWave - Lost At Sea'
 ---
 
 Oliver and I have been working hard on the game and we are almost ready to rock.

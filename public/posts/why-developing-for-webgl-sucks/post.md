@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-10-21T17:36:42.000Z"
+date: '2011-10-21T17:36:42.000Z'
 tags:
-  - Flash
-  - Javascript
+  - flash
+  - javascript
   - opengl
   - rant
   - textures
   - threejs
-  - WebGL
+  - webgl
 title: Why Developing for WebGL Sucks!
 ---
 

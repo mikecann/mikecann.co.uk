@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2017-03-21T12:00:00.000Z'
 tags:
-  - Blog
-  - Drone
+  - blog
+  - drone
   - photo
   - travel
 title: Introducing Above Under!

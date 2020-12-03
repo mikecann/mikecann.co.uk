@@ -2,9 +2,9 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-12-23T18:13:45.000Z'
 tags:
-  - Cats
-  - Fun
-  - Video
+  - cats
+  - fun
+  - video
 title: Kitten vs Spam
 ---
 

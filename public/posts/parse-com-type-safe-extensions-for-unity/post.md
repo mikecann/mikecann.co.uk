@@ -5,7 +5,7 @@ tags:
   - extensions
   - github
   - parse.com
-  - Programming
+  - programming
   - test
   - unity
 title: Parse.com Type-Safe Extensions for Unity

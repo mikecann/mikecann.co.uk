@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-07-16T18:59:31.000Z"
+date: '2012-07-16T18:59:31.000Z'
 tags:
-  - Flash
+  - flash
   - haxe
   - ios
-  - Mobile
+  - mobile
   - nme
-  - Project
+  - project
 title: 2-Weeks In.. Mobile Game Progress Report
 ---
 

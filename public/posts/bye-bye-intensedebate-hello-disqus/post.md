@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-06-19T18:39:58.000Z"
+date: '2011-06-19T18:39:58.000Z'
 tags:
   - comments
   - disqus
   - intensedebate
-  - Website
-title: "Bye Bye IntenseDebate, Hello Disqus"
+  - website
+title: 'Bye Bye IntenseDebate, Hello Disqus'
 ---
 
 [![](/wp-content/uploads/2011/06/disqus2.jpg "disqus2")](/wp-content/uploads/2011/06/disqus2.jpg)

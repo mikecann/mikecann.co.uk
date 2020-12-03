@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2007-12-18T12:26:45.000Z"
+date: '2007-12-18T12:26:45.000Z'
 tags: []
 title: XNA 2.0 && Silicon Minds
 ---

@@ -2,15 +2,15 @@
 coverImage: ./header.jpg
 date: '2017-12-17T14:51:40.000Z'
 tags:
-  - Games
-  - Machine Learning
-  - AI
-  - Mr Nibbles
-  - Programming
-  - Unity
-  - C#
-  - Python
-  - AGDLML
+  - games
+  - machine learning
+  - ai
+  - mr nibbles
+  - programming
+  - unity
+  - c#
+  - python
+  - agdlml
 title: A Game Developer Learns Machine Learning - A Little Deeper
 ---
 

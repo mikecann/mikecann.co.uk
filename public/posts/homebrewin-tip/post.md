@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-01-28T13:08:14.000Z"
+date: '2012-01-28T13:08:14.000Z'
 tags: []
 title: Homebrewin' Tip
 ---

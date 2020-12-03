@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-03-20T18:23:06.000Z"
+date: '2011-03-20T18:23:06.000Z'
 tags:
   - bass
-  - Download
+  - download
   - dubstep
-  - Mix
-  - MP3
+  - mix
+  - mp3
   - soundcloud
 title: Artificial - Blue Noise
 ---

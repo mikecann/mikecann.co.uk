@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2018-02-13T08:00:40.000Z'
 tags:
-  - Employement
-  - TapSlots
-  - GenVis
-  - Machine Learning
-  - AI
+  - employement
+  - tapslots
+  - genvis
+  - machine learning
+  - ai
 title: Goodbye TapSlots - Hello GenVis
 ---
 

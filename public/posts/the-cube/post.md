@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2020-05-22T08:31:40.000Z'
 tags:
-  - Typescript
-  - Hardware
-  - IoT
-  - Toy
+  - typescript
+  - hardware
+  - iot
+  - toy
 title: The Cube
 ---
 

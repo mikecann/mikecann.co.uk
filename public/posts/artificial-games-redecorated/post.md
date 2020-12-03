@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-05-20T23:36:29.000Z"
+date: '2009-05-20T23:36:29.000Z'
 tags:
-  - Web
-  - Website
+  - web
+  - website
 title: Artificial Games Redecorated
 ---
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-11-01T14:22:47.000Z"
+date: '2013-11-01T14:22:47.000Z'
 tags:
   - guayaquil
   - huaraz

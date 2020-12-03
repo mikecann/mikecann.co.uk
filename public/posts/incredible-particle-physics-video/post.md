@@ -3,10 +3,10 @@ coverImage: /images/fallback-post-header.jpg
 date: '2010-07-20T17:37:21.000Z'
 tags:
   - engine
-  - Impressive
-  - Particles
-  - Physics
-  - Video
+  - impressive
+  - particles
+  - physics
+  - video
 title: Incredible Particle & Physics Video
 ---
 

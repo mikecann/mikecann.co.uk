@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2008-11-25T15:00:35.000Z"
+date: '2008-11-25T15:00:35.000Z'
 tags: []
 title: Flashteroids 3D (teaser)
 ---

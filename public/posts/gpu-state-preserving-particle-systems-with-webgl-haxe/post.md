@@ -1,16 +1,16 @@
 ---
 coverImage: /posts/gpu-state-preserving-particle-systems-with-webgl-haxe/cover.jpg
-date: "2011-10-20T12:02:35.000Z"
+date: '2011-10-20T12:02:35.000Z'
 tags:
   - complex
   - glsl
   - gpu
-  - Hardware
+  - hardware
   - haxe
-  - Javascript
-  - Particles
-  - Programming
-  - WebGL
+  - javascript
+  - particles
+  - programming
+  - webgl
 title: GPU State Preserving Particle Systems with WebGL & HaXe
 ---
 

@@ -1,11 +1,11 @@
 ---
 coverImage: ./header.jpg
-date: "2019-08-20T08:51:40.000Z"
+date: '2019-08-20T08:51:40.000Z'
 tags:
-  - Markd
-  - NewFeature
-  - Google
-  - Typescript
+  - markd
+  - newfeature
+  - google
+  - typescript
 title: Markd - Import From Google Contacts
 ---
 

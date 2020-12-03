@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-04-13T21:44:56.000Z"
+date: '2010-04-13T21:44:56.000Z'
 tags:
   - hosting
-  - News
-  - Personal
+  - news
+  - personal
   - plesk
   - webfusion
-  - Websites
+  - websites
   - wordpress
 title: mikecann.co.uk moved.. again.. too!
 ---

@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-21T23:04:15.000Z"
+date: '2010-08-21T23:04:15.000Z'
 tags:
   - 48hours
   - competition
-  - Flash
-  - Game
+  - flash
+  - game
   - ludum
 title: Ludum Dare - Hour 22
 ---

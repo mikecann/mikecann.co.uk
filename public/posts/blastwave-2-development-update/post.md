@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-06-26T16:04:17.000Z"
+date: '2009-06-26T16:04:17.000Z'
 tags:
-  - Flash
-  - Game
-  - Personal
-  - Projects
+  - flash
+  - game
+  - personal
+  - projects
 title: BlastWave 2 Development Update
 ---
 

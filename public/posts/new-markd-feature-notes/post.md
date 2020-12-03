@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2019-06-08T08:51:40.000Z'
 tags:
-  - Markd
-  - NewFeature
-  - Notes
-  - Typescript
+  - markd
+  - newfeature
+  - notes
+  - typescript
 title: New Markd Feature - Notes
 ---
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/placeed-3/cover.jpg
-date: "2008-02-03T13:50:24.000Z"
+date: '2008-02-03T13:50:24.000Z'
 tags: []
 title: PlaceEd 3
 ---

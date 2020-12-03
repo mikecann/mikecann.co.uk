@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-16T12:13:17.000Z"
+date: '2010-01-16T12:13:17.000Z'
 tags:
-  - Personal
-  - RSS
-  - Utility
+  - personal
+  - rss
+  - utility
 title: Google Reader
 ---
 

@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2017-11-04T15:51:42.000Z"
+date: '2017-11-04T15:51:42.000Z'
 tags:
   - projects
   - chrome extension
@@ -11,7 +11,7 @@ tags:
   - azure
   - aws
   - markd
-title: "Markd 2 - Total Re-Write using React, Mobx-State-Tree and Parse-Server"
+title: 'Markd 2 - Total Re-Write using React, Mobx-State-Tree and Parse-Server'
 ---
 
 I last wrote about Markd [back in September of last year](/posts/portfolio/projects/introducing-markd-pinterest-for-people/) so I think its about time I gave you an update on our latest progress on the project.

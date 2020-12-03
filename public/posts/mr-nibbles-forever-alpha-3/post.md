@@ -4,7 +4,7 @@ date: '2015-02-02T02:23:23.000Z'
 tags:
   - 2d
   - development
-  - Game
+  - game
   - mr nibbles
   - unity
 title: Mr Nibbles Forever - Alpha 3

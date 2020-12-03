@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-09-03T19:34:07.000Z"
+date: '2009-09-03T19:34:07.000Z'
 tags:
-  - Dropbox
-  - Idea
-  - Sync
+  - dropbox
+  - idea
+  - sync
 title: File and Folder Syncing
 ---
 

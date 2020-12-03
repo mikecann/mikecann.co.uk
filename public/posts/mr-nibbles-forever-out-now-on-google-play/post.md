@@ -3,9 +3,9 @@ coverImage: /posts/mr-nibbles-forever-out-now-on-google-play/cover.jpg
 date: '2015-08-24T10:05:48.000Z'
 tags:
   - 2d
-  - Android
-  - Game
-  - Mobile
+  - android
+  - game
+  - mobile
   - release
 title: Mr Nibbles Forever - Out now on Google Play
 ---

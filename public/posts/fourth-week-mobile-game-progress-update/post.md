@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-07-30T07:21:05.000Z"
+date: '2012-07-30T07:21:05.000Z'
 tags:
   - challenge
-  - Game
+  - game
   - haxe
-  - Mobile
+  - mobile
   - nme
 title: Fourth Week Mobile Game Progress Update
 ---

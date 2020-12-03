@@ -5,9 +5,9 @@ tags:
   - chrome
   - css
   - extension
-  - HTML
-  - Javascript
-  - Programming
+  - html
+  - javascript
+  - programming
   - typescript
 title: New Tab Chrome Experiments - A new Chrome Extension
 ---

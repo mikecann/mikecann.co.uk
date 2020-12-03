@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-18T13:01:24.000Z"
+date: '2010-01-18T13:01:24.000Z'
 tags:
-  - Apple
-  - Hardware
-  - Personal
-  - Utility
-  - Windows
+  - apple
+  - hardware
+  - personal
+  - utility
+  - windows
 title: Apple Aluminium Keyboard Windows 7
 ---
 

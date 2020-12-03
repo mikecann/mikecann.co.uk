@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-07-23T21:44:43.000Z"
+date: '2013-07-23T21:44:43.000Z'
 tags:
-  - Blog
+  - blog
   - diary
   - guatamala
   - travel

@@ -2,13 +2,13 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-08-01T09:58:17.000Z'
 tags:
-  - Defcon
-  - GSM
-  - Hack
-  - Heels
-  - Mobile
+  - defcon
+  - gsm
+  - hack
+  - heels
+  - mobile
   - security
-  - Video
+  - video
 title: Defcon 2010 - Hacker Intercepts GSM
 ---
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-06-19T22:11:05.000Z"
+date: '2011-06-19T22:11:05.000Z'
 tags:
   - api
   - chrome
@@ -8,7 +8,7 @@ tags:
   - post
   - rightclick
   - tumblr
-  - Update
+  - update
   - version
 title: PostToTumblr 0.8 - 8000 Users and Counting
 ---

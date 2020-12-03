@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-01-13T11:12:53.000Z"
+date: '2013-01-13T11:12:53.000Z'
 tags:
   - chrome
   - extension
   - haxe
-  - HTML
+  - html
   - post
   - tumblr
-  - Update
+  - update
 title: PostToTumblr v3.12 Update
 ---
 

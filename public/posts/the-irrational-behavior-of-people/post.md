@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-09-11T09:33:25.000Z'
 tags:
-  - Marketing
+  - marketing
 title: The Irrational Behavior of People
 ---
 

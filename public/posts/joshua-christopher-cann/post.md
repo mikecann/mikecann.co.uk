@@ -2,7 +2,7 @@
 coverImage: ./header.jpg
 date: '2020-06-04T08:31:40.000Z'
 tags:
-  - Photos and Personal
+  - photos and personal
 title: Joshua Christopher Cann
 ---
 

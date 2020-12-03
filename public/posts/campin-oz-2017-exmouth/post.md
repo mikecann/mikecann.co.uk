@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2017-04-20T01:26:00.000Z'
 tags:
-  - Blog
-  - Drone
+  - blog
+  - drone
   - photo
   - travel
 title: Campin Oz 2017 - Exmouth

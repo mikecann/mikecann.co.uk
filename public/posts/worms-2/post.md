@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/worms-2/cover.jpg
-date: "2006-06-13T19:16:57.000Z"
+date: '2006-06-13T19:16:57.000Z'
 tags: []
 title: Worms 2
 ---

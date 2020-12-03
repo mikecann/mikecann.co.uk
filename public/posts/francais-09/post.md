@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-07-30T13:00:55.000Z'
 tags:
-  - Personal
-  - Photos
+  - personal
+  - photos
 title: Francais '09
 ---
 

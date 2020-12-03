@@ -2,9 +2,9 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-11-08T16:56:20.000Z'
 tags:
-  - Audio
-  - Awsome
-  - Video
+  - audio
+  - awsome
+  - video
 title: Trifonic - Parks on Fire
 ---
 

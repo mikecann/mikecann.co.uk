@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-08-04T14:02:35.000Z"
+date: '2009-08-04T14:02:35.000Z'
 tags:
-  - Jobs
-  - News
-  - Personal
+  - jobs
+  - news
+  - personal
 title: New Job - Massively Multimedia
 ---
 

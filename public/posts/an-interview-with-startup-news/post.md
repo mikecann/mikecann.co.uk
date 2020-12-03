@@ -4,7 +4,7 @@ date: '2016-09-28T23:26:08.000Z'
 tags:
   - autralia
   - interview
-  - News
+  - news
   - startup
   - taslk
 title: An Interview with Startup News

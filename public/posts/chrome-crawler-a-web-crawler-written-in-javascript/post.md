@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-12-06T18:28:57.000Z"
+date: '2010-12-06T18:28:57.000Z'
 tags:
   - chrome
   - crawl
-  - Download
+  - download
   - extension
   - files
-  - Google
+  - google
   - options
-  - Project
+  - project
   - simple
   - spider
 title: Chrome Crawler - A web-crawler written in Javascript

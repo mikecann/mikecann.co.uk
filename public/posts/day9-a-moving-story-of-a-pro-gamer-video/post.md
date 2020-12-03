@@ -4,9 +4,9 @@ date: '2010-11-22T17:52:59.000Z'
 tags:
   - emotional
   - gaming
-  - Starcraft2
+  - starcraft2
   - tale
-  - Video
+  - video
   - watch
 title: 'Day[9] - A Moving Story of a Pro-Gamer [Video]'
 ---

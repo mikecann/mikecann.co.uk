@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2014-01-21T15:13:33.000Z"
+date: '2014-01-21T15:13:33.000Z'
 tags:
   - summary
-  - Trip
+  - trip
 title: The Trip 2013 - The Stats
 ---
 

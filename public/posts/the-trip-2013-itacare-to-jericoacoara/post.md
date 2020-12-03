@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2014-01-05T11:33:29.000Z"
+date: '2014-01-05T11:33:29.000Z'
 tags:
   - brazil
   - kite
@@ -9,7 +9,7 @@ tags:
   - sea
   - sun
   - travel
-  - Trip
+  - trip
 title: The Trip 2013 - Itacare to Jericoacoara
 ---
 

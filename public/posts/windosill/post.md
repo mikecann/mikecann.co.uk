@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-07-31T10:11:53.000Z"
+date: '2009-07-31T10:11:53.000Z'
 tags:
-  - Excellent
-  - Flash
-  - Games
+  - excellent
+  - flash
+  - games
 title: Windosill
 ---
 

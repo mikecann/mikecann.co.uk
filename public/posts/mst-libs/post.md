@@ -1,13 +1,13 @@
 ---
 coverImage: ./header.jpg
-date: "2020-06-01T08:31:40.000Z"
+date: '2020-06-01T08:31:40.000Z'
 tags:
-  - Typescript
-  - MobXStateTree
-  - MobX
-  - MST
-  - OpenSource
-  - Github
+  - typescript
+  - mobxstatetree
+  - mobx
+  - mst
+  - opensource
+  - github
 title: MobX State Tree Libraries
 ---
 

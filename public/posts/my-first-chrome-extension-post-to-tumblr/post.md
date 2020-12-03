@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-10-14T20:02:33.000Z"
+date: '2010-10-14T20:02:33.000Z'
 tags:
   - chrome
   - extension
-  - HTML
-  - Javascript
+  - html
+  - javascript
   - json
-  - Personal
-  - Plugin
-  - Project
+  - personal
+  - plugin
+  - project
   - tumblr
 title: My First Chrome Extension - "Post To Tumblr"
 ---

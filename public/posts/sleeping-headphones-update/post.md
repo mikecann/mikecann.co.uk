@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2018-10-30T14:51:40.000Z'
 tags:
-  - Misc
-  - Personal
-  - Lifehack
-  - Sleeping
-  - Headphones
+  - misc
+  - personal
+  - lifehack
+  - sleeping
+  - headphones
 title: Sleeping Headphones Update
 ---
 

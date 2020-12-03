@@ -2,10 +2,10 @@
 coverImage: /posts/monkey-mines/cover.jpg
 date: '2009-05-10T13:30:12.000Z'
 tags:
-  - Flash
-  - Game
-  - Personal
-  - Projects
+  - flash
+  - game
+  - personal
+  - projects
 title: Monkey Mines
 ---
 

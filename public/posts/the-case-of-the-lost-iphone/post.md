@@ -2,7 +2,7 @@
 coverImage: ./header2.jpg
 date: '2019-10-15T08:20:40.000Z'
 tags:
-  - Good Deed
+  - good deed
 title: The Case of the Lost iPhone
 ---
 

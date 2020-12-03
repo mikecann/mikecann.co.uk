@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-09-24T18:19:24.000Z"
+date: '2009-09-24T18:19:24.000Z'
 tags:
-  - Apps
-  - Idea
-  - iPhone
+  - apps
+  - idea
+  - iphone
 title: Called It!
 ---
 

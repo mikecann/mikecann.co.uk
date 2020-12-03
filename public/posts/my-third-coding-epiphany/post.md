@@ -3,7 +3,7 @@ coverImage: /posts/my-third-coding-epiphany/cover.jpg
 date: '2016-07-28T05:12:29.000Z'
 tags:
   - architecture
-  - Code
+  - code
 title: My Third Coding Epiphany
 ---
 

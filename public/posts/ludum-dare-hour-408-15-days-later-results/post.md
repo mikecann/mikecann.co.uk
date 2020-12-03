@@ -4,10 +4,10 @@ date: '2010-09-07T07:19:50.000Z'
 tags:
   - competition
   - dare
-  - Flash
+  - flash
   - judge
   - ludum
-  - Project
+  - project
   - rank
   - score
 title: Ludum Dare Hour 408 (15 Days later) - Results!

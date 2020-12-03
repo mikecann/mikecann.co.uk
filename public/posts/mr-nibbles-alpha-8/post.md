@@ -2,11 +2,11 @@
 coverImage: /posts/mr-nibbles-alpha-8/cover.jpg
 date: '2015-06-21T00:21:44.000Z'
 tags:
-  - Android
-  - Art
-  - Audio
+  - android
+  - art
+  - audio
   - coding
-  - Game
+  - game
   - ios
   - unity
 title: Mr Nibbles Alpha 8

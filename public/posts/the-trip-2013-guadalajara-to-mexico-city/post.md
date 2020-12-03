@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-06-23T11:12:50.000Z"
+date: '2013-06-23T11:12:50.000Z'
 tags:
   - diary
   - friends
   - mexico
   - travel
-  - Trip
+  - trip
 title: The Trip 2013 - Guadalajara to Mexico City
 ---
 

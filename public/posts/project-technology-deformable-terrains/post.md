@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2007-12-05T22:25:38.000Z"
+date: '2007-12-05T22:25:38.000Z'
 tags: []
 title: Project Technology (Deformable Terrains)
 ---

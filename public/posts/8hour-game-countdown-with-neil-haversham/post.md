@@ -2,10 +2,10 @@
 coverImage: /posts/8hour-game-countdown-with-neil-haversham/cover.jpg
 date: '2009-06-04T12:38:02.000Z'
 tags:
-  - 8HourGame
-  - Flash
-  - Game
-  - Projects
+  - 8hourgame
+  - flash
+  - game
+  - projects
 title: '8hour Game: Countdown with Neil Haversham'
 ---
 

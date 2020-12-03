@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2008-11-11T14:32:56.000Z"
+date: '2008-11-11T14:32:56.000Z'
 tags: []
 title: GameJacket
 ---

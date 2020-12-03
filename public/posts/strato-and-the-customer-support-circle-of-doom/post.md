@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-10-16T18:32:26.000Z"
+date: '2012-10-16T18:32:26.000Z'
 tags:
-  - Blog
+  - blog
   - hosting
   - rant
   - strato

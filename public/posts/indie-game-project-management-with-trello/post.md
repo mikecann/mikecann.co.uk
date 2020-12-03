@@ -3,7 +3,7 @@ coverImage: /posts/indie-game-project-management-with-trello/cover.jpg
 date: '2014-09-21T06:28:46.000Z'
 tags:
   - management
-  - Project
+  - project
   - trello
 title: Indie Game Project Management with Trello
 ---

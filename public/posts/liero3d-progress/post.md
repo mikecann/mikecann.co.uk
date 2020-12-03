@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-03-23T20:30:49.000Z"
+date: '2011-03-23T20:30:49.000Z'
 tags:
   - 3d
-  - Liero
+  - liero
   - ssao
 title: Liero3D Progress
 ---

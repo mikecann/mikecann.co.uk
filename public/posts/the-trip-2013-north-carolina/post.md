@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-05-29T00:39:25.000Z"
+date: '2013-05-29T00:39:25.000Z'
 tags:
   - diary
   - north carolina
-  - Trip
+  - trip
   - trvel
 title: The Trip 2013 - North Carolina
 ---

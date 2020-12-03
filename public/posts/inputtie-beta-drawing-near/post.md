@@ -1,16 +1,16 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-09-21T19:26:11.000Z"
+date: '2010-09-21T19:26:11.000Z'
 tags:
   - beta
   - desktop
-  - Flash
-  - Inputtie
+  - flash
+  - inputtie
   - linux
   - mac
   - photo
   - testing
-  - Windows
+  - windows
 title: Inputtie - Beta Drawing Near!
 ---
 

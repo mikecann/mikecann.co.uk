@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/printomi-maps/cover.jpg
-date: "2012-05-16T19:36:28.000Z"
+date: '2012-05-16T19:36:28.000Z'
 tags: []
 title: Printomi Maps
 ---

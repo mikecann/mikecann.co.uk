@@ -3,7 +3,7 @@ coverImage: /posts/trello-chat-a-chrome-extension/cover.jpg
 date: '2015-12-18T06:50:06.000Z'
 tags:
   - chrome extension
-  - Tool
+  - tool
   - trello
   - typescript
 title: Trello Chat - A Chrome Extension

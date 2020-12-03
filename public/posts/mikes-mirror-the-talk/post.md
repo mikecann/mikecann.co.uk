@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2018-07-24T14:51:40.000Z'
 tags:
-  - Talks
-  - Mirror
-  - IoT
-  - Hardware
-  - Machine Learning
+  - talks
+  - mirror
+  - iot
+  - hardware
+  - machine learning
 title: Mikes Mirror - The Talk
 ---
 

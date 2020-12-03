@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-07-07T14:37:25.000Z'
 tags:
-  - Web
+  - web
 title: Domains so Many Domains!
 ---
 

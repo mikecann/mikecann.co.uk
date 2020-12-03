@@ -2,8 +2,8 @@
 coverImage: ./header.jpg
 date: '2018-12-02T14:51:40.000Z'
 tags:
-  - Talks
-  - Public Speaking
+  - talks
+  - public speaking
 title: Talks of 2018
 ---
 

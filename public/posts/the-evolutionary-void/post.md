@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-09-19T18:59:38.000Z"
+date: '2010-09-19T18:59:38.000Z'
 tags:
-  - Book
+  - book
   - peter f hamilton
   - read
   - sci-fi

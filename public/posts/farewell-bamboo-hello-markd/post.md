@@ -1,11 +1,11 @@
 ---
 coverImage: ./header.jpg
-date: "2019-01-14T14:51:40.000Z"
+date: '2019-01-14T14:51:40.000Z'
 tags:
-  - Personal
-  - Employment
-  - Startup
-  - Markd
+  - personal
+  - employment
+  - startup
+  - markd
 title: Farewell Bamboo - Hello Markd
 ---
 

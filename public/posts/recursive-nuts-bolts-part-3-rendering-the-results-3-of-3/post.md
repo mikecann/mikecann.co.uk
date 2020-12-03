@@ -1,19 +1,19 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-12-29T12:45:47.000Z"
+date: '2012-12-29T12:45:47.000Z'
 tags:
   - box2d
   - canvas2d
   - chrome
   - crawler
   - extension
-  - HTML
-  - Javascript
-  - Physics
+  - html
+  - javascript
+  - physics
   - rendering
   - spider
   - typescript
-title: "Recursive, Nuts & Bolts Part 3 - Rendering the Results (3 of 3)"
+title: 'Recursive, Nuts & Bolts Part 3 - Rendering the Results (3 of 3)'
 ---
 
 [![screenshot_01](/wp-content/uploads/2012/12/screenshot_01.png)](/posts/recursive-nuts-bolts-part-3-rendering-the-results-3-of-3/attachment/screenshot_01-7/)

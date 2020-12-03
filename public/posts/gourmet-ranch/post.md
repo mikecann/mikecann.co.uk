@@ -1,13 +1,13 @@
 ---
 coverImage: /posts/gourmet-ranch/cover.jpg
-date: "2010-08-04T11:57:48.000Z"
+date: '2010-08-04T11:57:48.000Z'
 tags:
-  - Facebook
-  - Flash
-  - Games
-  - Gourmet Ranch
-  - Playdemic
-  - Professional
+  - facebook
+  - flash
+  - games
+  - gourmet ranch
+  - playdemic
+  - professional
 title: Gourmet Ranch
 ---
 

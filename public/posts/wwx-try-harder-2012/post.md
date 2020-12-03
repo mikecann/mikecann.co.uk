@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-09-16T17:23:41.000Z"
+date: '2012-09-16T17:23:41.000Z'
 tags:
   - conference
   - haxe

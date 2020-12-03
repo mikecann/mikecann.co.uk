@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2014-01-30T12:38:42.000Z'
 tags:
-  - Mixes
+  - mixes
 title: All my mixes in one place
 ---
 

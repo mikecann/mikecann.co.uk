@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-08-05T20:52:06.000Z"
+date: '2012-08-05T20:52:06.000Z'
 tags:
   - development
-  - Game
+  - game
   - haxe
-  - Mobile
+  - mobile
   - nme
   - progress
 title: The Final Development Update for Mr Nibbles Mobile Game

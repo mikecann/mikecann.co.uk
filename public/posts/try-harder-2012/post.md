@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-10-17T20:02:06.000Z"
+date: '2012-10-17T20:02:06.000Z'
 tags:
   - adobe
   - as3
@@ -8,7 +8,7 @@ tags:
   - monocle
   - photo
   - retreat
-  - RobotLegs
+  - robotlegs
   - speaking
   - stray
 title: Try Harder 2012

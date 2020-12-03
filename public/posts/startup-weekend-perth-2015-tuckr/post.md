@@ -2,7 +2,7 @@
 coverImage: /posts/startup-weekend-perth-2015-tuckr/cover.jpg
 date: '2015-11-16T02:49:19.000Z'
 tags:
-  - Business
+  - business
   - event
   - hackathon
   - perth

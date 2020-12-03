@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-10-31T18:50:22.000Z"
+date: '2010-10-31T18:50:22.000Z'
 tags:
   - caption
   - extension
   - preformat
   - tumblr
-  - Update
+  - update
 title: Post To Tumblr Version 0.4
 ---
 

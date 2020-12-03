@@ -2,8 +2,8 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-07-03T19:57:55.000Z'
 tags:
-  - Server
-  - Web
+  - server
+  - web
 title: 'Panic over, nginx comes to the rescue'
 ---
 

@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-12-08T20:53:22.000Z"
+date: '2013-12-08T20:53:22.000Z'
 tags:
   - bolivia
   - buenos aires
   - south america
   - steal
   - travel
-  - Trip
+  - trip
   - uraguay
 title: The Trip 2013 - La Paz to Mercedes
 ---

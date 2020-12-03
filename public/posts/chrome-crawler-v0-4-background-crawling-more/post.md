@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-12-19T22:54:33.000Z"
+date: '2010-12-19T22:54:33.000Z'
 tags:
   - api
   - background
   - chrome
   - crawl
-  - Javascript
+  - javascript
   - spider
-  - Update
+  - update
 title: Chrome Crawler v0.4 - Background Crawling & More!
 ---
 

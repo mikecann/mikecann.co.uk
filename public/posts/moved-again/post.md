@@ -2,11 +2,11 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-04-11T14:57:49.000Z'
 tags:
-  - Flat
-  - Manchester
-  - Move
-  - Personal
-  - Video
+  - flat
+  - manchester
+  - move
+  - personal
+  - video
 title: Moved.. Again!
 ---
 

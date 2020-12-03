@@ -5,7 +5,7 @@ tags:
   - australia
   - emigrate
   - life
-  - Personal
+  - personal
   - travel
 title: Mike Goes Down Under
 ---

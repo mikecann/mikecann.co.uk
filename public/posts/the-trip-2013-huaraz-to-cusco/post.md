@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-11-17T22:38:25.000Z"
+date: '2013-11-17T22:38:25.000Z'
 tags:
   - canyon
   - condor
   - cusco
   - peru
   - travel
-  - Trip
+  - trip
 title: The Trip 2013 - Huaraz to Cusco
 ---
 

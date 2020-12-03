@@ -1,17 +1,17 @@
 ---
 coverImage: /posts/announcing-inputtie/cover.jpg
-date: "2010-09-09T17:58:03.000Z"
+date: '2010-09-09T17:58:03.000Z'
 tags:
-  - AIR
+  - air
   - clipboard
   - donate
   - java
   - keyboard
   - mouse
-  - Personal
-  - Project
-  - Sync
-  - Tool
+  - personal
+  - project
+  - sync
+  - tool
 title: Announcing Inputtie
 ---
 

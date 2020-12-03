@@ -3,7 +3,7 @@ coverImage: >-
   /posts/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/cover.jpg
 date: '2014-11-11T01:24:38.000Z'
 tags:
-  - C#
+  - c#
   - parse.com
   - testing
   - typescript

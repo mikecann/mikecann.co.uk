@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-07-31T11:50:23.000Z"
+date: '2011-07-31T11:50:23.000Z'
 tags:
   - from dust
-  - Games
+  - games
   - god game
   - liquid
   - pc
-  - Physics
+  - physics
   - simulation
   - xbox
 title: From Dust

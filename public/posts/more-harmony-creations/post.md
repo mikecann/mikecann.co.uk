@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-03-24T00:34:01.000Z"
+date: '2010-03-24T00:34:01.000Z'
 tags: []
 title: More Harmony Creations
 ---

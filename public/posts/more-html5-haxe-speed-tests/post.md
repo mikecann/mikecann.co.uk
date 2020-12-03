@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-07-10T19:13:25.000Z"
+date: '2011-07-10T19:13:25.000Z'
 tags:
   - canvas
   - haxe
-  - HTML5
-  - Performance
-  - Programming
-  - Project
+  - html5
+  - performance
+  - programming
+  - project
   - speed
 title: More HTML5 & HaXe Speed Tests
 ---

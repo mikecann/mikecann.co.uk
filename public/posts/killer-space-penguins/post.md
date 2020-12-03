@@ -2,7 +2,7 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2007-03-12T17:11:37.000Z'
 tags:
-  - C#
+  - c#
 title: Killer space penguins!
 ---
 

@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-03-27T13:15:08.000Z"
+date: '2009-03-27T13:15:08.000Z'
 tags: []
-title: "Flash Develop Plugin: Highlight Selected"
+title: 'Flash Develop Plugin: Highlight Selected'
 ---
 
 **Highlight Selected**

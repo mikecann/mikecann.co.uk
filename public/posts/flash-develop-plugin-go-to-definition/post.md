@@ -2,11 +2,11 @@
 coverImage: /posts/flash-develop-plugin-go-to-definition/cover.jpg
 date: '2009-05-11T19:08:39.000Z'
 tags:
-  - C#
-  - Flash
-  - FlashDevelop
-  - Plugin
-  - Projects
+  - c#
+  - flash
+  - flashdevelop
+  - plugin
+  - projects
 title: 'Flash Develop Plugin: Go To Definition'
 ---
 

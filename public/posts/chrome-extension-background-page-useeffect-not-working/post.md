@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2019-09-01T08:51:40.000Z'
 tags:
-  - React
-  - React Hooks
-  - Chrome Extension
-  - Typescript
+  - react
+  - react hooks
+  - chrome extension
+  - typescript
 title: Chrome Extension Background Page & React Hooks useEffect Not Working
 ---
 

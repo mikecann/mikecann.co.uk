@@ -2,15 +2,15 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2010-08-02T08:25:14.000Z'
 tags:
-  - Behaviour
-  - Code
-  - Expected
-  - Flex4
-  - Group
-  - Programming
-  - Rollover
-  - Spark
-  - Video
+  - behaviour
+  - code
+  - expected
+  - flex4
+  - group
+  - programming
+  - rollover
+  - spark
+  - video
 title: Flex 4 Spark & Rollover Group Containing Rect
 ---
 

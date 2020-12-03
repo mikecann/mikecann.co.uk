@@ -3,7 +3,7 @@ coverImage: /posts/north-western-australia-winter-2014/cover.jpg
 date: '2014-08-30T06:15:18.000Z'
 tags:
   - australia
-  - Photos
+  - photos
   - travel
 title: 'North Western Australia, Winter 2014'
 ---

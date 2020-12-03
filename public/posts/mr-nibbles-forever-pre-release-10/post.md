@@ -4,7 +4,7 @@ date: '2015-07-12T07:59:34.000Z'
 tags:
   - 2d
   - development
-  - Game
+  - game
   - mr nibbles forever
 title: Mr Nibbles Forever - Pre Release 10
 ---

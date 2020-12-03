@@ -2,13 +2,13 @@
 coverImage: ./header.jpg
 date: '2018-06-13T16:51:40.000Z'
 tags:
-  - Mirror
-  - Electron
-  - React
-  - Typescript
-  - Woodworking
-  - Hardware
-  - Linux
+  - mirror
+  - electron
+  - react
+  - typescript
+  - woodworking
+  - hardware
+  - linux
 title: Mikes Mirror - Overview
 ---
 

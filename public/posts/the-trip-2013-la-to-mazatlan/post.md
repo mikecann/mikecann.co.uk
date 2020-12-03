@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-06-18T12:23:33.000Z"
+date: '2013-06-18T12:23:33.000Z'
 tags:
   - ater
-  - Blog
+  - blog
   - diary
   - dolphns
   - mexico

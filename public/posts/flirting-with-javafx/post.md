@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-12-13T21:38:03.000Z"
+date: '2009-12-13T21:38:03.000Z'
 tags:
-  - Inputtie
-  - Java FX
-  - Programming
-  - Projects
+  - inputtie
+  - java fx
+  - programming
+  - projects
 title: Flirting With JavaFX
 ---
 

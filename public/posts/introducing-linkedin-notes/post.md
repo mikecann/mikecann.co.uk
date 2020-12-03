@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2019-10-27T08:51:40.000Z'
 tags:
-  - Markd
-  - Extension
-  - Chrome
-  - LinkedIn
-  - Typescript
+  - markd
+  - extension
+  - chrome
+  - linkedin
+  - typescript
 title: Introducing - LinkedIn Notes
 ---
 

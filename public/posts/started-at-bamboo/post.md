@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2018-07-15T14:51:40.000Z'
 tags:
-  - Cryptocurrency
-  - Blockchain
-  - Typescript
-  - React Native
+  - cryptocurrency
+  - blockchain
+  - typescript
+  - react native
 title: Started At Bamboo
 ---
 

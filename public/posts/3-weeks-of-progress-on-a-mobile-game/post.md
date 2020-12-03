@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-07-23T20:57:14.000Z"
+date: '2012-07-23T20:57:14.000Z'
 tags:
   - challenge
-  - Game
+  - game
   - haxe
-  - Mobile
+  - mobile
   - nme
-  - Programming
+  - programming
 title: 3 Weeks of Progress on a Mobile Game
 ---
 

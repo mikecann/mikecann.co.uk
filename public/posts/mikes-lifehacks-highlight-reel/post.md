@@ -2,9 +2,9 @@
 coverImage: ./header.jpg
 date: '2020-09-27T14:51:40.000Z'
 tags:
-  - Lifehack
-  - Personal
-  - Gratitude
+  - lifehack
+  - personal
+  - gratitude
 title: Mike's Lifehacks - Highlight Reel
 ---
 

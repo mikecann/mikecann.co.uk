@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2006-06-13T09:08:52.000Z"
+date: '2006-06-13T09:08:52.000Z'
 tags: []
 title: Does it Offend You - Weird Science
 ---

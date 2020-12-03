@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-06-11T13:31:54.000Z"
+date: '2010-06-11T13:31:54.000Z'
 tags:
-  - Blog
-  - Website
+  - blog
+  - website
   - wordpress
 title: Starting Afresh
 ---

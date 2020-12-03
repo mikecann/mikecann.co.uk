@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-07-02T16:09:23.000Z"
+date: '2009-07-02T16:09:23.000Z'
 tags:
-  - iPhone
-  - Personal
+  - iphone
+  - personal
 title: New Laptop = iPhone Fun!
 ---
 

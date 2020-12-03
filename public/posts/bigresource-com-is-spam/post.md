@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-11-01T20:31:47.000Z"
+date: '2009-11-01T20:31:47.000Z'
 tags:
-  - Campaign
-  - Spam
+  - campaign
+  - spam
 title: Bigresource.com IS SPAM
 ---
 

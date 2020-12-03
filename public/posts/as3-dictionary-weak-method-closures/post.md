@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-16T19:44:06.000Z"
+date: '2010-08-16T19:44:06.000Z'
 tags:
   - as3
   - as3signals
   - bug
-  - Code
+  - code
   - dictionary
-  - PureMVC
-  - RobotLegs
-title: "AS3, Dictionary & Weak Method Closures"
+  - puremvc
+  - robotlegs
+title: 'AS3, Dictionary & Weak Method Closures'
 ---
 
 This is going to be a technical post so those of you not of the code persuasion look away now..

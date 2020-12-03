@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-09-05T13:39:39.000Z"
+date: '2013-09-05T13:39:39.000Z'
 tags:
-  - Blog
+  - blog
   - bogota
   - colombia
   - medellin
   - travel
-  - Trip
+  - trip
 title: The Trip 2013 - Bogota to Medellin
 ---
 

@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-08-01T12:44:58.000Z"
+date: '2009-08-01T12:44:58.000Z'
 tags:
-  - Code
-  - Liero
-  - Projects
-  - XNA
+  - code
+  - liero
+  - projects
+  - xna
 title: LieroXNA - Digging up the past..
 ---
 

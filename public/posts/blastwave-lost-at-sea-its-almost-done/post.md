@@ -2,11 +2,11 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-08-26T10:15:51.000Z'
 tags:
-  - Blastwave 2
-  - Flash
-  - Game
-  - Projects
-  - Teaser
+  - blastwave 2
+  - flash
+  - game
+  - projects
+  - teaser
 title: 'BlastWave: Lost at Sea - Its almost done!'
 ---
 

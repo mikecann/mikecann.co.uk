@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2018-05-25T08:03:40.000Z'
 tags:
-  - Personal Projects
-  - Personal
-  - Typescript
-  - Chrome Extensions
+  - personal projects
+  - personal
+  - typescript
+  - chrome extensions
 title: Tasks for Trello - A Trello Tasks Rewrite
 ---
 

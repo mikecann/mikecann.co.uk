@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-10-09T14:09:19.000Z"
+date: '2010-10-09T14:09:19.000Z'
 tags:
   - development
   - history
   - java
   - planning
-  - Project
+  - project
 title: Inputtie History - The Beginning
 ---
 

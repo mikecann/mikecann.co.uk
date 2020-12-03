@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-07-06T23:48:10.000Z"
+date: '2013-07-06T23:48:10.000Z'
 tags:
-  - Blog
+  - blog
   - diary
-  - Fun
+  - fun
   - history
   - mexico
   - palenque

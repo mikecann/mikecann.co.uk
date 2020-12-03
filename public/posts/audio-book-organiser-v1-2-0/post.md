@@ -1,16 +1,16 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-09T19:37:42.000Z"
+date: '2010-01-09T19:37:42.000Z'
 tags:
-  - Actionscript
-  - Audiobook
-  - Flash
-  - Flex
-  - Framework
-  - Mate
-  - Programming
-  - Projects
-  - Utility
+  - actionscript
+  - audiobook
+  - flash
+  - flex
+  - framework
+  - mate
+  - programming
+  - projects
+  - utility
 title: Audio Book Organiser v1.2.0
 ---
 

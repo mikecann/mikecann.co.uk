@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-06-30T11:04:25.000Z"
+date: '2012-06-30T11:04:25.000Z'
 tags:
   - as3
   - as3hx
   - haxe
   - library
-  - RobotLegs
+  - robotlegs
   - swiftsuspenders
 title: On Porting RobotLegs2 & SwiftSupenders2 to Haxe
 ---

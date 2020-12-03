@@ -1,11 +1,11 @@
 ---
 coverImage: /posts/recursive-explore-the-endless-web/cover.jpg
-date: "2012-12-04T08:37:41.000Z"
+date: '2012-12-04T08:37:41.000Z'
 tags:
   - chrome
   - chrome crawler
   - crawler
-  - Download
+  - download
   - extension
   - files
   - l-system
@@ -13,8 +13,8 @@ tags:
   - spider
   - typescript
   - visualise
-  - Web
-  - Website
+  - web
+  - website
 title: Recursive - Explore the endless web
 ---
 

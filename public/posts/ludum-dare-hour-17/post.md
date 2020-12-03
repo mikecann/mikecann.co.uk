@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-21T18:34:52.000Z"
+date: '2010-08-21T18:34:52.000Z'
 tags:
   - bloom
-  - Flash
-  - Game
-  - Liero
+  - flash
+  - game
+  - liero
   - ludum
-  - Particles
-  - Project
+  - particles
+  - project
 title: Ludum Dare - Hour 17
 ---
 

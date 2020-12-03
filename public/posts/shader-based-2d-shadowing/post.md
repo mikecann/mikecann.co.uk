@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-08-15T11:10:18.000Z"
+date: '2010-08-15T11:10:18.000Z'
 tags:
   - 2d
   - community
   - hlsl
-  - Programming
+  - programming
   - shader
   - shadow
   - university
-  - XNA
+  - xna
 title: Shader Based 2D Shadowing
 ---
 

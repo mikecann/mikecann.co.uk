@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-02-02T14:17:45.000Z"
+date: '2010-02-02T14:17:45.000Z'
 tags:
-  - Beer
-  - Blog
-  - Flash
-  - Flex
-  - Framework
-  - Video
+  - beer
+  - blog
+  - flash
+  - flex
+  - framework
+  - video
 title: Jessie Warden - Flash & Flex Videos
 ---
 

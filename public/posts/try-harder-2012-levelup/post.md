@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-03-12T17:39:07.000Z"
+date: '2012-03-12T17:39:07.000Z'
 tags:
   - as3
-  - Code
+  - code
   - conference
-  - Flash
+  - flash
   - levelup
   - tdd
   - tryharder
-title: "Try { Harder } 2012 Levelup"
+title: 'Try { Harder } 2012 Levelup'
 ---
 
 [![](/wp-content/uploads/2012/03/header.png "header")](/wp-content/uploads/2012/03/header.png)

@@ -1,16 +1,16 @@
 ---
 coverImage: /posts/the-three-game-challenge-part-2-a-cunning-plan/cover.jpg
-date: "2013-04-12T16:40:16.000Z"
+date: '2013-04-12T16:40:16.000Z'
 tags:
   - ash
   - challenge
   - feathers
-  - Flash
-  - Game
-  - Mobile
+  - flash
+  - game
+  - mobile
   - rts
   - starling
-  - Web
+  - web
 title: The Three Game Challenge – Part 2 – A Cunning Plan
 ---
 

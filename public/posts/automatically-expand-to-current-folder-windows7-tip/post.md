@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-12-20T19:47:50.000Z"
+date: '2010-12-20T19:47:50.000Z'
 tags:
   - handy
   - tips
   - windows7
-title: "Automatically Expand To Current Folder [Windows7 Tip]"
+title: 'Automatically Expand To Current Folder [Windows7 Tip]'
 ---
 
 [![](/wp-content/uploads/2010/12/Shot_0032.png "Shot_003")](/wp-content/uploads/2010/12/Shot_0032.png)

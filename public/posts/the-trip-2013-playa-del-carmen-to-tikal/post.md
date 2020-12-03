@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-07-18T22:52:57.000Z"
+date: '2013-07-18T22:52:57.000Z'
 tags:
   - belize
-  - Blog
+  - blog
   - guatamala
   - mexico
-  - Photos
+  - photos
   - travel
 title: The Trip 2013 - Playa del Carmen to Tikal
 ---

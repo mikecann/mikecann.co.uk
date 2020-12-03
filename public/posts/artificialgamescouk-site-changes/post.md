@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2008-10-14T23:14:16.000Z"
+date: '2008-10-14T23:14:16.000Z'
 tags: []
 title: ArtificialGames.co.uk & Site Changes
 ---

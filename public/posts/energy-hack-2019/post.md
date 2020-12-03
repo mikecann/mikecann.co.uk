@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2019-11-19T13:51:40.000Z'
 tags:
-  - Hackathon
-  - Energy
-  - Startups
-  - Perth
+  - hackathon
+  - energy
+  - startups
+  - perth
 title: Energy Hack 2019
 ---
 

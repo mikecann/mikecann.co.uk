@@ -2,9 +2,9 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-11-19T19:08:59.000Z'
 tags:
-  - Bike
-  - Personal
-  - Stolen
+  - bike
+  - personal
+  - stolen
 title: 'Bike Be Gone :('
 ---
 

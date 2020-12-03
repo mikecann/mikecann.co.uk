@@ -4,12 +4,12 @@ coverImage: >-
 date: '2017-02-27T23:30:49.000Z'
 tags:
   - annoying
-  - Apple
+  - apple
   - forced
   - hamster
   - nibbles
   - rant
-  - Update
+  - update
 title: A rant about Apple's App Store policy & A new Mr Nibbles Forever Update
 ---
 

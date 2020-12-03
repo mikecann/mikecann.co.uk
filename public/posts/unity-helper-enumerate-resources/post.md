@@ -2,11 +2,11 @@
 coverImage: /posts/unity-helper-enumerate-resources/cover.jpg
 date: '2014-06-04T01:48:28.000Z'
 tags:
-  - Editor
+  - editor
   - open-source
-  - Resources
+  - resources
   - unity
-  - Util
+  - util
 title: Unity Helper - Enumerate Resources
 ---
 

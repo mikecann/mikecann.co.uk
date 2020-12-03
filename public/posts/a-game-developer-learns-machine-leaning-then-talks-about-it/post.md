@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2018-01-16T14:51:40.000Z'
 tags:
-  - Talks
-  - Personal
-  - Machine Learning
-  - Game Development
-  - Mr Nibbles Forever
+  - talks
+  - personal
+  - machine learning
+  - game development
+  - mr nibbles forever
 title: A Game Developer Learns Machine Learning - Then talks about it
 ---
 

@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-12T00:07:04.000Z"
+date: '2010-01-12T00:07:04.000Z'
 tags:
-  - Actionscript
-  - Audiobook
-  - Drag-Drop
-  - Flex
-  - iTunes
-  - Programming
-  - Projects
-  - Utility
+  - actionscript
+  - audiobook
+  - drag-drop
+  - flex
+  - itunes
+  - programming
+  - projects
+  - utility
 title: AudioBook Organiser v1.3.0 - Drag'n'Drop
 ---
 

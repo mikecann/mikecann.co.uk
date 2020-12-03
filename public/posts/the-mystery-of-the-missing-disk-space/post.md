@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2014-02-15T11:31:48.000Z"
+date: '2014-02-15T11:31:48.000Z'
 tags:
   - disk space
   - solution
-  - Windows
+  - windows
 title: The Mystery of the Missing Disk Space
 ---
 

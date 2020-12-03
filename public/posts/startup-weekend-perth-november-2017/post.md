@@ -1,16 +1,16 @@
 ---
 coverImage: ./header.jpg
-date: "2017-11-24T14:51:40.000Z"
+date: '2017-11-24T14:51:40.000Z'
 tags:
-  - Syndi.me
-  - Blogging
-  - Tech
-  - Business
-  - Startups
-  - Leadership
-  - Teamwork
-  - Hackathon
-  - Trello
+  - syndi.me
+  - blogging
+  - tech
+  - business
+  - startups
+  - leadership
+  - teamwork
+  - hackathon
+  - trello
 title: Startup Weekend Perth November 2017
 ---
 

@@ -1,13 +1,13 @@
 ---
 coverImage: /posts/the-three-game-challenge-part-1-lateshas-crib/cover.jpg
-date: "2013-04-03T12:27:08.000Z"
+date: '2013-04-03T12:27:08.000Z'
 tags:
   - challenge
   - coding
   - fast
-  - Game
+  - game
   - latesha
-  - Mobile
+  - mobile
 title: The Three Game Challenge - Part 1 - Latesha's Crib
 ---
 

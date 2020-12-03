@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-02-16T20:57:04.000Z"
+date: '2011-02-16T20:57:04.000Z'
 tags:
-  - C#
+  - c#
   - monitor
-  - Performance
-  - Taskbar
-  - Tool
+  - performance
+  - taskbar
+  - tool
   - windows7
 title: Windows 7 Taskbar Performance Monitor v0.2
 ---

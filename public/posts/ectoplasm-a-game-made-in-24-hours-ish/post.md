@@ -1,15 +1,15 @@
 ---
 coverImage: /posts/ectoplasm-a-game-made-in-24-hours-ish/cover.jpg
-date: "2013-03-12T11:35:01.000Z"
+date: '2013-03-12T11:35:01.000Z'
 tags:
   - 24hour
-  - Game
+  - game
   - gamejam
   - ios
   - microphone
-  - Mobile
+  - mobile
   - shipit
-title: "Ectoplasm, a Game Made in 24 hours (ish)"
+title: 'Ectoplasm, a Game Made in 24 hours (ish)'
 ---
 
 Just before [leaving Playdemic](/posts/goodbye-playdemic/) we had a company-wide ship-it-day. If you haven't done one of these before they are great and work very similar to game jams like [Ludum Dare](https://www.ludumdare.com/). Basically you have 24 hours to create something related to the company then you have to present it.

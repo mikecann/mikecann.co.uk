@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-09-08T14:22:05.000Z"
+date: '2012-09-08T14:22:05.000Z'
 tags:
-  - Android
+  - android
   - debrief
-  - Game
+  - game
   - ios
-  - Mobile
+  - mobile
   - mr nibbles
   - post mortem
 title: Mr Nibbles - The Post Mortem

@@ -1,14 +1,14 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-02-14T18:30:55.000Z"
+date: '2013-02-14T18:30:55.000Z'
 tags:
   - as3
   - ash
-  - Code
-  - Component
+  - code
+  - component
   - entity
-  - Flash
-  - Framework
+  - flash
+  - framework
 title: Tinkering With Ash
 ---
 

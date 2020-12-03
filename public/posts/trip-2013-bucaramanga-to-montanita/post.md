@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-10-14T21:07:12.000Z"
+date: '2013-10-14T21:07:12.000Z'
 tags:
   - colombia
   - ecuador

@@ -3,8 +3,8 @@ coverImage: /posts/mr-nibbles-forever-now-on-apple-app-store/cover.jpg
 date: '2015-09-07T09:33:50.000Z'
 tags:
   - 2d
-  - Game
-  - Mobile
+  - game
+  - mobile
   - nibbles
   - release
 title: Mr Nibbles Forever - Now on Apple App Store!

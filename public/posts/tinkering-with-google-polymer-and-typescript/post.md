@@ -3,8 +3,8 @@ coverImage: /posts/tinkering-with-google-polymer-and-typescript/cover.jpg
 date: '2014-11-02T05:18:13.000Z'
 tags:
   - css
-  - Google
-  - HTML
+  - google
+  - html
   - polymer
   - typescript
   - web components

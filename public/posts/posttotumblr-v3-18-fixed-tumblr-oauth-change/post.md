@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-03-05T20:42:49.000Z"
+date: '2013-03-05T20:42:49.000Z'
 tags:
   - bug
   - chrome
   - extension
-  - Javascript
+  - javascript
   - posttotumblr
   - tumblr
 title: PostToTumblr v3.18 - Fixed Tumblr oauth change

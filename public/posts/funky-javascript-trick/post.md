@@ -1,10 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-05-20T11:44:15.000Z"
+date: '2009-05-20T11:44:15.000Z'
 tags:
-  - Fun
-  - Javascript
-  - Programming
+  - fun
+  - javascript
+  - programming
 title: Funky Javascript Trick
 ---
 

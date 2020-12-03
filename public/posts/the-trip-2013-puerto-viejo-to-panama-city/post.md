@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2013-08-19T22:13:06.000Z"
+date: '2013-08-19T22:13:06.000Z'
 tags:
-  - Blog
+  - blog
   - island
   - panama
   - panama city

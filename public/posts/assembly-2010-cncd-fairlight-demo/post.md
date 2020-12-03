@@ -5,15 +5,15 @@ tags:
   - assembly
   - cncd
   - demo
-  - Demoscene
+  - demoscene
   - fairlight
   - glitch
   - gpu
   - lan
-  - Music
-  - Particles
+  - music
+  - particles
   - party
-  - Video
+  - video
 title: Assembly 2010 - CNCD & Fairlight Demo
 ---
 

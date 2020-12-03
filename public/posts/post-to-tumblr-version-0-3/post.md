@@ -1,17 +1,17 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-10-31T11:04:26.000Z"
+date: '2010-10-31T11:04:26.000Z'
 tags:
   - browser
   - chrome
   - extension
-  - Javascript
+  - javascript
   - notification
-  - Plugin
-  - Update
+  - plugin
+  - update
   - upgrade
   - version
-  - Video
+  - video
 title: Post To Tumblr Version 0.3
 ---
 

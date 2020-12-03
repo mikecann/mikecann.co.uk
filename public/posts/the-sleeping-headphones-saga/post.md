@@ -3,10 +3,10 @@ coverImage: /posts/the-sleeping-headphones-saga/cover.jpg
 date: '2017-10-23T09:27:00.000Z'
 tags:
   - behphones
-  - Experiment
+  - experiment
   - headphones
   - product
-  - Sleep
+  - sleep
 title: The sleeping headphones saga
 ---
 

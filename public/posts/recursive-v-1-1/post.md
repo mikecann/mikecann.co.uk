@@ -1,17 +1,17 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2012-12-16T18:38:53.000Z"
+date: '2012-12-16T18:38:53.000Z'
 tags:
   - chrome
   - crawler
   - extension
-  - HTML
-  - Javascript
+  - html
+  - javascript
   - recursing
   - spider
-  - Tool
+  - tool
   - typescript
-  - Update
+  - update
 title: Recursive v.1.1
 ---
 

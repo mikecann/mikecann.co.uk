@@ -2,9 +2,9 @@
 coverImage: /images/fallback-post-header.jpg
 date: '2009-10-16T16:38:20.000Z'
 tags:
-  - Google
-  - Video
-  - Wave
+  - google
+  - video
+  - wave
 title: What is Google Wave Anyways?
 ---
 

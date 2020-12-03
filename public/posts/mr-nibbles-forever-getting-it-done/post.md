@@ -2,9 +2,9 @@
 coverImage: /posts/mr-nibbles-forever-getting-it-done/cover.jpg
 date: '2015-06-21T07:30:58.000Z'
 tags:
-  - Business
+  - business
   - goals
-  - Marketing
+  - marketing
   - plan
 title: Mr Nibbles Forever - Getting it done
 ---

@@ -1,12 +1,12 @@
 ---
 coverImage: /posts/unity-ashteroids-ash-framework-in-unity/cover.jpg
-date: "2014-07-08T10:49:01.000Z"
+date: '2014-07-08T10:49:01.000Z'
 tags:
   - ash
   - asteroids
   - framwork
-  - Game
-  - Programming
+  - game
+  - programming
   - unity
 title: Unity Ashteroids - Ash Game Framework in Unity
 ---

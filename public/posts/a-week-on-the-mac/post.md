@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2009-08-18T17:55:14.000Z"
+date: '2009-08-18T17:55:14.000Z'
 tags:
-  - Apple
-  - Opinion
+  - apple
+  - opinion
 title: A Week on the Mac
 ---
 

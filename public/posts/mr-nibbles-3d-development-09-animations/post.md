@@ -4,7 +4,7 @@ date: '2014-09-29T00:37:18.000Z'
 tags:
   - 3d
   - animation
-  - Game
+  - game
   - nibbles
   - unity
 title: Mr Nibbles 3D Development 09 - Animations

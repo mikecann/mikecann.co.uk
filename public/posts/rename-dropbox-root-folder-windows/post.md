@@ -1,9 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2010-01-18T13:36:07.000Z"
+date: '2010-01-18T13:36:07.000Z'
 tags:
-  - Dropbox
-  - Utility
+  - dropbox
+  - utility
 title: Rename Dropbox Root Folder Windows
 ---
 

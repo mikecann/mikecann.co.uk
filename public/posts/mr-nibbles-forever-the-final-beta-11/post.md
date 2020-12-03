@@ -4,10 +4,10 @@ date: '2015-08-05T10:52:26.000Z'
 tags:
   - beta
   - bug fix
-  - Game
+  - game
   - indie
-  - Mobile
-  - Update
+  - mobile
+  - update
 title: Mr Nibbles Forever - The Final Beta (11)
 ---
 

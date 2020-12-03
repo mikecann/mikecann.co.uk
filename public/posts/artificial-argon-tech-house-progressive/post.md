@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: "2011-08-23T20:39:08.000Z"
+date: '2011-08-23T20:39:08.000Z'
 tags:
   - house
-  - Mix
+  - mix
   - progressive
   - tech
-title: "Artificial - Argon [Tech, House, Progressive]"
+title: 'Artificial - Argon [Tech, House, Progressive]'
 ---
 
 [![](/wp-content/uploads/2011/08/Argon-Cover.png "Argon-Cover")](/wp-content/uploads/2011/08/Argon-Cover.png)

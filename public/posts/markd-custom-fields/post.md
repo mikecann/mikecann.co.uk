@@ -2,10 +2,10 @@
 coverImage: ./header.jpg
 date: '2019-05-30T07:51:40.000Z'
 tags:
-  - Markd
-  - NewFeature
-  - CustomFields
-  - Typescript
+  - markd
+  - newfeature
+  - customfields
+  - typescript
 title: Markd - Custom Fields
 ---
 

@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2017-11-05T08:37:13.000Z'
 tags:
-  - Open Source
-  - Javascript
-  - Programming
-  - Tests
-  - Lint
+  - open source
+  - javascript
+  - programming
+  - tests
+  - lint
 title: Node Package Scripts
 ---
 

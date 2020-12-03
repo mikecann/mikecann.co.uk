@@ -4,8 +4,8 @@ date: '2015-11-25T00:59:26.000Z'
 tags:
   - browser
   - chrome extension
-  - HTML5
-  - Plugin
+  - html5
+  - plugin
   - typescript
 title: Trello Tasks - A Chrome Extension
 ---
