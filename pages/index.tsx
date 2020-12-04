@@ -1,14 +1,11 @@
 import { Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
 import { groupPostsByYear, PostsByYear, sortPosts } from "../utils/posts";
-import { DesktopSidebarLayout } from "../components/layout/DesktopSidebarLayout";
 import { ArchiveYears } from "../components/ArchiveYears";
 import { getAllPostsWithoutContent } from "./api/posts/index";
 import React from "react";
-import { Media, MediaContextProvider } from "../utils/media";
-import { MobileSidebarLayout } from "../components/layout/MobileSidebarLayout";
 import { PostsGrid } from "../components/PostsGrid";
-import { TabletSidebarLayout } from "../components/layout/TabletSidebarLayout";
+import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
 
 type Props = {
   postsByYear: PostsByYear;
@@ -17,35 +14,13 @@ type Props = {
 
 const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
   return (
-    <MediaContextProvider>
-      <Media at="xs">
-        <MobileSidebarLayout title="Mobile">
-          <PostsGrid postsByYear={postsByYear} />
-          <Vertical style={{ marginBottom: 20 }}>
-            <h1>Archive</h1>
-            <ArchiveYears years={theOtherYears} />
-          </Vertical>
-        </MobileSidebarLayout>
-      </Media>
-      <Media at="sm">
-        <TabletSidebarLayout title="Medium">
-          <PostsGrid postsByYear={postsByYear} />
-          <Vertical style={{ marginBottom: 20 }}>
-            <h1>Archive</h1>
-            <ArchiveYears years={theOtherYears} />
-          </Vertical>
-        </TabletSidebarLayout>
-      </Media>
-      <Media greaterThanOrEqual="md">
-        <DesktopSidebarLayout title="Desktop">
-          <PostsGrid postsByYear={postsByYear} />
-          <Vertical style={{ marginBottom: 20 }}>
-            <h1>Archive</h1>
-            <ArchiveYears years={theOtherYears} />
-          </Vertical>
-        </DesktopSidebarLayout>
-      </Media>
-    </MediaContextProvider>
+    <ResponsiveSidebarLayouts>
+      <PostsGrid postsByYear={postsByYear} />
+      <Vertical style={{ marginBottom: 20 }}>
+        <h1>Archive</h1>
+        <ArchiveYears years={theOtherYears} />
+      </Vertical>
+    </ResponsiveSidebarLayouts>
   );
 };
 

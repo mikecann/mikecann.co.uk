@@ -4,6 +4,7 @@ import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayo
 import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import { getAllPostsWithoutContent } from "../api/posts/index";
 import Link from "next/link";
+import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 
 type Props = {
   tags: { tag: string; postsCount: number }[];
@@ -11,17 +12,21 @@ type Props = {
 
 const Page = ({ tags }: Props) => {
   return (
-    <DesktopSidebarLayout title="Year XXX">
+    <ResponsiveSidebarLayouts>
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={[5, 20]} style={{ alignItems: "center" }}>
           {tags.map(({ tag, postsCount }) => (
-            <Vertical key={tag + postsCount} verticalAlign="center" style={{ fontSize: 0.5 + 0.1 * postsCount + `em` }}>
+            <Vertical
+              key={tag + postsCount}
+              verticalAlign="center"
+              style={{ fontSize: 0.5 + 0.1 * postsCount + `em` }}
+            >
               <Link href={`/tags/${tag}`}>{tag}</Link>
             </Vertical>
           ))}
         </Grid>
       </Vertical>
-    </DesktopSidebarLayout>
+    </ResponsiveSidebarLayouts>
   );
 };
 

@@ -12,6 +12,7 @@ import {
   getAllTags,
   sortPosts,
 } from "../../utils/posts";
+import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 
 type Props = {
   tag: string;
@@ -20,7 +21,7 @@ type Props = {
 
 const Page = ({ tag, posts }: Props) => {
   return (
-    <DesktopSidebarLayout title="Year XXX">
+    <ResponsiveSidebarLayouts>
       <Vertical width="100%">
         <h1>{tag}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
@@ -29,7 +30,7 @@ const Page = ({ tag, posts }: Props) => {
           ))}
         </Grid>
       </Vertical>
-    </DesktopSidebarLayout>
+    </ResponsiveSidebarLayouts>
   );
 };
 

@@ -6,6 +6,7 @@ import { ensure } from "../../utils/ensure";
 import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { getAllYears, getPostsByYear } from "../../utils/posts";
 import { ArchiveYears } from "../../components/ArchiveYears";
+import {ResponsiveSidebarLayouts} from '../../components/layout/ResponsiveSidebarLayouts';
 
 type Props = {
   year: string;
@@ -15,7 +16,7 @@ type Props = {
 
 const Page = ({ year, posts, years }: Props) => {
   return (
-    <DesktopSidebarLayout title="Year XXX">
+    <ResponsiveSidebarLayouts>
       <Vertical width="100%">
         <h1>{year}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
@@ -28,7 +29,7 @@ const Page = ({ year, posts, years }: Props) => {
         <h1>Archive</h1>
         <ArchiveYears years={years} />
       </Vertical>
-    </DesktopSidebarLayout>
+    </ResponsiveSidebarLayouts>
   );
 };
 

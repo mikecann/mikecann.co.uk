@@ -5,18 +5,19 @@ import { join } from "path";
 import fs from "fs";
 import { DesktopSidebarLayout } from "../components/layout/DesktopSidebarLayout";
 import { Vertical } from "gls/lib";
+import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
 
 type Props = {
   content: string;
 };
 
 const About = ({ content }: Props) => (
-  <DesktopSidebarLayout title="Posts">
+  <ResponsiveSidebarLayouts>
     <Vertical>
       <h1>About</h1>
-      <ReactMarkdown className="page-content" children={content} allowDangerousHtml />
+      <ReactMarkdown className="markdown-content" children={content} allowDangerousHtml />
     </Vertical>
-  </DesktopSidebarLayout>
+  </ResponsiveSidebarLayouts>
 );
 
 export const getStaticProps: GetStaticProps<Props> = async () => {

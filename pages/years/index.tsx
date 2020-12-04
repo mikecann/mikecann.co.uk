@@ -4,6 +4,7 @@ import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayo
 import { PostsByYear, groupPostsByYear, sortPosts, sortYears } from "../../utils/posts";
 import { ArchiveCard } from "../../components/ArchiveCard";
 import { getAllPostsWithoutContent } from "../api/posts/index";
+import {ResponsiveSidebarLayouts} from '../../components/layout/ResponsiveSidebarLayouts';
 
 type Props = {
   postsByYear: PostsByYear;
@@ -11,7 +12,7 @@ type Props = {
 
 const Page = ({ postsByYear }: Props) => {
   return (
-    <DesktopSidebarLayout title="Year XXX">
+    <ResponsiveSidebarLayouts>
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
           {/* <div
@@ -28,7 +29,7 @@ const Page = ({ postsByYear }: Props) => {
           {/* </div> */}
         </Grid>
       </Vertical>
-    </DesktopSidebarLayout>
+    </ResponsiveSidebarLayouts>
   );
 };
 

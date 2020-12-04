@@ -94,7 +94,7 @@ const PostPage = ({ post, html }: Props) => {
               {format(new Date(date), "do MMMM yyyy")}
             </div>
             <ReactMarkdown
-              className="post-content"
+              className="markdown-content"
               children={html}
               renderers={renderers}
               allowDangerousHtml

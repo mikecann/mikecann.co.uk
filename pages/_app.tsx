@@ -1,10 +1,11 @@
 import { normalize, setupPage } from "csstips";
 import { GLSDefaults } from "gls/lib";
 import { AppProps } from "next/app";
+import "../styles/normalize.css";
 import "../styles/globals.css";
 
-normalize();
-setupPage("body");
+// normalize();
+// setupPage("body");
 
 // This default export is required in a new `pages/_app.js` file.
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
