@@ -2,6 +2,8 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import Layout from "../../components/layout/Layout";
 import { getAllPosts, Post } from "../api/posts";
+import {generateRss} from '../../utils/rss';
+import fs from 'fs';
 
 type Props = {
   allPosts: Post[];
@@ -35,6 +37,10 @@ const Posts = ({ allPosts }: Props) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const allPosts = getAllPosts();
+  const rss = generateRss(allPosts);
+
+  fs.writeFileSync("./public/rss.xml", rss);
+  
   return {
     props: { allPosts },
   };

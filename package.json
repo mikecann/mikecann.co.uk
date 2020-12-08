@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "yarn populateAlgolia && next build",
     "start": "next start",
+    "generateRSS": "yarn script ./scripts/generateRSS.ts",
     "script": "ts-node --files --project ./scripts/tsconfig.json",
     "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts",
     "checkLinks": "yarn blc http://localhost:3000 -ro"
@@ -15,6 +16,7 @@
     "@types/isomorphic-fetch": "^0.0.35",
     "@types/node-fetch": "^2.5.7",
     "@types/ramda": "^0.27.32",
+    "@types/rss": "^0.0.28",
     "algoliasearch": "^4.8.0",
     "csstips": "^1.2.0",
     "csx": "^10.0.1",
@@ -36,6 +38,7 @@
     "remark": "^13.0.0",
     "remark-gfm": "^1.0.0",
     "remark-html": "^13.0.1",
+    "rss": "^1.2.2",
     "typestyle": "^2.1.0"
   },
   "devDependencies": {

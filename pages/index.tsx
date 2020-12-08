@@ -6,6 +6,9 @@ import { getAllPostsWithoutContent } from "./api/posts/index";
 import React from "react";
 import { PostsGrid } from "../components/PostsGrid";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
+import { getAllPosts } from "./api/posts";
+import { generateRss } from "../utils/rss";
+import fs from "fs";
 
 type Props = {
   postsByYear: PostsByYear;
@@ -25,6 +28,8 @@ const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
 };
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
+  
+
   const allPosts = sortPosts(getAllPostsWithoutContent(), "desc");
   const postsByYear = groupPostsByYear(allPosts);
 
