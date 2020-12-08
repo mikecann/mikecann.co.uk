@@ -1,4 +1,4 @@
-import { normalize, setupPage } from "csstips";
+import "../utils/hydrate";
 import { GLSDefaults } from "gls/lib";
 import { AppProps } from "next/app";
 import "../styles/normalize.css";

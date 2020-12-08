@@ -3,7 +3,6 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { join } from "path";
 import fs from "fs";
-import { DesktopSidebarLayout } from "../components/layout/DesktopSidebarLayout";
 import { Vertical } from "gls/lib";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
 
