@@ -1,23 +1,7 @@
-import { Grid, Vertical } from "gls/lib";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { getStyles } from "typestyle";
 
-//console.log([Grid, Vertical]);
-
 export default class extends Document {
-  // static async getInitialProps(ctx: any) {
-  //   const initialProps = await Document.getInitialProps(ctx);
-  //   return {
-  //     ...initialProps,
-  //     styles: (
-  //       <>
-  //         {initialProps.styles}
-  //         {}
-  //       </>
-  //     ),
-  //   };
-  // }
-
   render(): JSX.Element {
     return (
       <Html lang="en">

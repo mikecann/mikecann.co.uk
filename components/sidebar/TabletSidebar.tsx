@@ -11,6 +11,7 @@ import { IoMdSearch, IoMdInformationCircle } from "react-icons/io";
 import { SearchModal } from "../searchModal/SearchModal";
 import { useState } from "react";
 import { Background } from "./Background";
+import { SocialIcons } from "./SocialIcons";
 
 interface Props {}
 
@@ -30,24 +31,7 @@ export const TabletSidebar: React.FC<Props> = ({}) => {
         <div style={{ fontSize: "1.8em", fontWeight: "bold" }}>Mike Cann</div>
         <VerticalSpacer space={30} />
         <Grid style={{ padding: 10 }} justify="center" spacing={[10, 10]}>
-          <SocialIcon>
-            <AiOutlineGithub />
-          </SocialIcon>
-          <SocialIcon>
-            <RiStackOverflowLine />
-          </SocialIcon>
-          <SocialIcon>
-            <AiOutlineTwitter />
-          </SocialIcon>
-          <SocialIcon>
-            <AiFillFacebook />
-          </SocialIcon>
-          <SocialIcon>
-            <AiFillLinkedin />
-          </SocialIcon>
-          <SocialIcon>
-            <MdEmail />
-          </SocialIcon>
+          <SocialIcons />
         </Grid>
         <VerticalSpacer space={30} />
         <Vertical width="100%" horizontalAlign="center" spacing={20}>

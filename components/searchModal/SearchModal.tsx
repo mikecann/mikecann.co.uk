@@ -6,17 +6,14 @@ import { ensure } from "../../utils/ensure";
 import { AlgoliaHit } from "../../pages/api/algolia/types";
 import { useWindowSize } from "../../utils/useWindowSize";
 import Image from "next/image";
-import { format } from "date-fns";
 import { style } from "typestyle";
-import Link from "next/link";
 import { CloseButton } from "../CloseButton";
+import { getAlgoliaIndex } from "../../utils/algolia";
+import { SearchResult } from "./SearchResult";
 
 interface Props {
   onClose: () => any;
 }
-
-const client = algoliasearch("JYZJ63OX7U", "01ddc3505766aa8d46cbbd65006671ec");
-const index = client.initIndex("next-mikecann");
 
 export const SearchModal: React.FC<Props> = ({ onClose }) => {
   const [term, setTerm] = React.useState("");
@@ -26,10 +23,12 @@ export const SearchModal: React.FC<Props> = ({ onClose }) => {
   const { innerHeight, innerWidth } = useWindowSize();
 
   React.useEffect(() => {
-    index.search(term).then((resp) => {
-      console.log("algolia response", resp);
-      setResults(resp.hits as any);
-    });
+    getAlgoliaIndex()
+      .search(term)
+      .then((resp) => {
+        console.log("algolia response", resp);
+        setResults(resp.hits as any);
+      });
   }, [term]);
 
   React.useEffect(() => {
@@ -64,7 +63,7 @@ export const SearchModal: React.FC<Props> = ({ onClose }) => {
         {results
           .sort((a, b) => b.createdAt - a.createdAt)
           .map((hit) => (
-            <Teaser key={hit.objectID} hit={hit} onClick={onClose} />
+            <SearchResult key={hit.objectID} hit={hit} onClick={onClose} />
           ))}
         {results.length == 0 && (
           <div style={{ height: "100%" }}>
@@ -79,53 +78,4 @@ export const SearchModal: React.FC<Props> = ({ onClose }) => {
   );
 };
 
-function Teaser({ hit, onClick }: { hit: AlgoliaHit; onClick: () => any }) {
-  const { coverImage, createdAt, excerpt, title, slug } = hit;
-  const [isOver, setIsOver] = React.useState(false);
-  return (
-    <Link href={`/posts/${slug}`}>
-      <a onClick={onClick}>
-        <Horizontal
-          spacing={10}
-          width="100%"
-          onMouseOver={() => setIsOver(true)}
-          onMouseLeave={() => setIsOver(false)}
-          style={{
-            overflowX: "hidden",
-          }}
-        >
-          {/* <Image
-        // layout="fill"
-        src={coverImage}
-        quality={80}
-        width={200}
-        height={150}
-        style={{ objectFit: "cover", width: 200, height: 150 }}
-      /> */}
-          <img
-            // layout="fill"
-            src={coverImage}
-            width={100}
-            height={60}
-            style={{
-              objectFit: "cover",
-              borderRadius: 6,
-              opacity: isOver ? 1 : 0.7,
-              transition: "all 0.1s linear",
-            }}
-          />
-          <Vertical
-            verticalAlign="center"
-            spacing={5}
-            style={{ width: "calc(100% - 140px)", overflow: "hidden" }}
-          >
-            <div style={{ margin: 0 }}>{title}</div>
-            <div style={{ color: "#bbbbbb", fontSize: "0.8em" }}>
-              {format(new Date(createdAt), "do MMMM yyyy")}
-            </div>
-          </Vertical>
-        </Horizontal>
-      </a>
-    </Link>
-  );
-}
+
