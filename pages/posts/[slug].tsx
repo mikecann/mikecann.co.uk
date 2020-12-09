@@ -14,6 +14,7 @@ import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import Layout from "../../components/layout/Layout";
+import { useWindowSize } from "../../utils/useWindowSize";
 
 type Props = {
   post: Post;
@@ -75,7 +76,7 @@ const PostPage = ({ post, html }: Props) => {
           src={getPostRootCoverImagePath(post)}
           quality={100}
           priority
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "cover", width: "100%", height: 200 }}
           alt="post header image"
         />
         <Horizontal width="100%" horizontalAlign="center">

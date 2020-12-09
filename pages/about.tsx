@@ -5,6 +5,7 @@ import { join } from "path";
 import fs from "fs";
 import { Vertical } from "gls/lib";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
+import { style } from "typestyle";
 
 type Props = {
   content: string;
@@ -12,7 +13,14 @@ type Props = {
 
 const About = ({ content }: Props) => (
   <ResponsiveSidebarLayouts>
-    <Vertical>
+    <Vertical
+      style={{
+        //fontWeight: 400,
+        paddingRight: 20,
+        maxWidth: 700,
+        width: "100%",
+      }}
+    >
       <h1>About</h1>
       <ReactMarkdown className="markdown-content" children={content} allowDangerousHtml />
     </Vertical>
