@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2017-12-17T14:51:40.000Z'
+date: "2017-12-17T14:51:40.000Z"
 tags:
   - games
   - machine learning
@@ -8,7 +8,7 @@ tags:
   - mr nibbles
   - programming
   - unity
-  - c#
+  - c sharp
   - python
   - agdlml
 title: A Game Developer Learns Machine Learning - A Little Deeper

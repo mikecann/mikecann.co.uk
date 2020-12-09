@@ -3,7 +3,7 @@ coverImage: /posts/mr-nibbles-forever-a-prototype/cover.jpg
 date: "2015-01-19T00:50:46.000Z"
 tags:
   - 2d
-  - c#
+  - c sharp
   - endless runner
   - game
   - nibbles

@@ -9,7 +9,7 @@
     "generateRSS": "yarn script ./scripts/generateRSS.ts",
     "script": "ts-node --files --project ./scripts/tsconfig.json",
     "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts",
-    "checkLinks": "yarn blc http://localhost:3000 -ro"
+    "checkLinks": "yarn blc http://localhost:3000 -ro --exclude https://www.linkedin.com/in/mikecann"
   },
   "dependencies": {
     "@artsy/fresnel": "^1.3.0",

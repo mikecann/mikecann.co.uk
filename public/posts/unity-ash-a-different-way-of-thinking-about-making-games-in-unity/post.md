@@ -1,10 +1,10 @@
 ---
 coverImage: >-
   /posts/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/cover.jpg
-date: '2015-10-30T05:45:00.000Z'
+date: "2015-10-30T05:45:00.000Z"
 tags:
   - architecture
-  - c#
+  - c sharp
   - entity
   - framework
   - game

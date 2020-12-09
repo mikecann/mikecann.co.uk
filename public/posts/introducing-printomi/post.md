@@ -1,13 +1,13 @@
 ---
 coverImage: /posts/introducing-printomi/cover.jpg
-date: '2012-04-04T21:00:14.000Z'
+date: "2012-04-04T21:00:14.000Z"
 tags:
   - announce
   - api
   - as3
   - asp.net
   - business
-  - c#
+  - c sharp
   - flash
   - website
 title: Introducing Printomi

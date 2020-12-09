@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-03-14T23:26:05.000Z'
+date: "2010-03-14T23:26:05.000Z"
 tags:
-  - c#
+  - c sharp
   - performance
   - projects
   - taskbar

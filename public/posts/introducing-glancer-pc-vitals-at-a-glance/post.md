@@ -1,9 +1,9 @@
 ---
 coverImage: /posts/introducing-glancer-pc-vitals-at-a-glance/cover.jpg
-date: '2016-11-10T06:53:58.000Z'
+date: "2016-11-10T06:53:58.000Z"
 tags:
   - app
-  - c#
+  - c sharp
   - tool
   - util
   - windows

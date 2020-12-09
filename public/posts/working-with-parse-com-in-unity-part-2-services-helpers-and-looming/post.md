@@ -1,15 +1,15 @@
 ---
 coverImage: >-
   /posts/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/cover.jpg
-date: '2014-11-11T01:24:32.000Z'
+date: "2014-11-11T01:24:32.000Z"
 tags:
-  - c#
+  - c sharp
   - github
   - helpers
   - library
   - parse.com
   - unity
-title: 'Working with Parse.com in Unity - Part 2 - Services, Helpers and Looming'
+title: "Working with Parse.com in Unity - Part 2 - Services, Helpers and Looming"
 ---
 
 > This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:

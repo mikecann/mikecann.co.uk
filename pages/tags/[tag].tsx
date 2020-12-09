@@ -13,6 +13,7 @@ import {
   sortPosts,
 } from "../../utils/posts";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
+import { encodeTag } from "../../utils/tags";
 
 type Props = {
   tag: string;
@@ -39,7 +40,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: tags.map((tag) => ({
       params: {
-        tag,
+        tag: encodeTag(tag),
       },
     })),
     fallback: false,

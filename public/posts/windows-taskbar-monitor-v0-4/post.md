@@ -1,8 +1,8 @@
 ---
 coverImage: /posts/windows-taskbar-monitor-v0-4/cover.jpg
-date: '2013-09-25T01:32:29.000Z'
+date: "2013-09-25T01:32:29.000Z"
 tags:
-  - c#
+  - c sharp
   - taskbars
   - tool
   - windows

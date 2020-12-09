@@ -1,8 +1,8 @@
 ---
 coverImage: /posts/tinkering-with-entitias-entitiasteroids/cover.jpg
-date: '2015-11-09T01:50:07.000Z'
+date: "2015-11-09T01:50:07.000Z"
 tags:
-  - c#
+  - c sharp
   - games
   - programming
   - unity

@@ -1,6 +1,5 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import { getAllPostsWithoutContent } from "../api/posts/index";
 import Link from "next/link";
