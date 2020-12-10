@@ -15,33 +15,13 @@ import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import Layout from "../../components/layout/Layout";
 import { useWindowSize } from "../../utils/useWindowSize";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { darcula } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 type Props = {
   post: Post;
   html: string;
 };
-
-// const contentStyles = style({
-//   color: "#5d686f",
-//   //fontWeight: 400,
-//   fontSize: "1.1em",
-//   marginTop: 40,
-//   marginBottom: 40,
-//   maxWidth: 700,
-//   padding: 10,
-//   width: "100%",
-//   $nest: {
-//     img: {
-//       maxWidth: "100%",
-//       marginTop: 20,
-//       marginBottom: 20,
-//       boxShadow: "0px 0px 10px #bbb !important",
-//     },
-//     h1: {
-//       //fontSize: "1em",
-//     },
-//   },
-// });
 
 const PostPage = ({ post, html }: Props) => {
   const { meta, coverImageSize, slug } = post;
@@ -53,13 +33,13 @@ const PostPage = ({ post, html }: Props) => {
         <div style={{ textAlign: "center" }}>
           <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
         </div>
-        // <Image
-        //   src={getRelativePathForPost(post.slug, image.src)}
-        //   alt={image.alt}
-        //   layout="fill"
-        //   // height="200"
-        //   // width="355"
-        // />
+      );
+    },
+    code: ({ language, value }: any) => {
+      return (
+        <div style={{ fontSize: "0.8em" }}>
+          <SyntaxHighlighter style={darcula} language={language} children={value} />
+        </div>
       );
     },
   };
@@ -69,24 +49,23 @@ const PostPage = ({ post, html }: Props) => {
       <TopNavbar />
 
       <Vertical width="100%">
-        <Image
-          //layout="fill"
-          width={coverImageSize.width}
-          height={coverImageSize.height}
-          src={getPostRootCoverImagePath(post)}
-          quality={100}
-          priority
-          style={{ objectFit: "cover", width: "100%", height: 200 }}
-          alt="post header image"
-        />
+        <div style={{ width: "100%", height: "75vh", position: "relative" }}>
+          <Image
+            layout="fill"
+            className="post-header"
+            src={getPostRootCoverImagePath(post)}
+            quality={100}
+            priority
+            alt="post header image"
+          />
+        </div>
         <Horizontal width="100%" horizontalAlign="center">
           <Vertical
             style={{
-              //fontWeight: 400,
               marginTop: 40,
               marginBottom: 40,
               maxWidth: 700,
-              padding: 10,
+              padding: 20,
               width: "100%",
             }}
           >
@@ -101,7 +80,6 @@ const PostPage = ({ post, html }: Props) => {
               allowDangerousHtml
               plugins={[gfm]}
             />
-            {/* <div style={{ position: "relative" }} dangerouslySetInnerHTML={{ __html: html }} /> */}
           </Vertical>
         </Horizontal>
       </Vertical>
@@ -131,7 +109,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   return {
     props: {
       post,
-      html: post.content, //await markdownToHtml(post.content || ""),
+      html: post.content,
     },
   };
 };

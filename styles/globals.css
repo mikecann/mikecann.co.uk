@@ -144,3 +144,7 @@ blockquote p {
 .navbar-title a {
   color: #5d686f;
 }
+
+.post-header {
+  object-fit: cover;
+}
