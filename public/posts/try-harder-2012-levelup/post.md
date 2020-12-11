@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-03-12T17:39:07.000Z'
+date: "2012-03-12T17:39:07.000Z"
 tags:
   - as3
   - code
@@ -9,7 +9,7 @@ tags:
   - levelup
   - tdd
   - tryharder
-title: 'Try { Harder } 2012 Levelup'
+title: "Try { Harder } 2012 Levelup"
 ---
 
 [![](/wp-content/uploads/2012/03/header.png "header")](/wp-content/uploads/2012/03/header.png)
@@ -23,5 +23,3 @@ The event was such a success that not only is it going to run again this year (w
 What's more [Stray](https://www.xxcoder.net/), the primary organiser of the event has just announced that Jetbrains the makers of the popular [IntelliJ IDEA](https://www.jetbrains.com/idea/) IDE are going to be sponsoring the event meaning each paying participant will receive a licence to use the IDE!
 
 Interested? Head over to the levelup site and sign up: [https://www.tryharder.org.uk/level-up-2012/](https://www.tryharder.org.uk/level-up-2012/)
-
-&nbsp;

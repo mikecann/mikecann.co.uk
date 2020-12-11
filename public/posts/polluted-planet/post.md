@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2008-01-03T11:34:32.000Z'
+date: "2008-01-03T11:34:32.000Z"
 tags: []
 title: Polluted Planet
 ---
@@ -10,8 +10,6 @@ I stumbled accross this yesterday and thought it was too good not to comment on 
 <!-- more -->
 
 <embed src="https://www.youtube.com/v/f75qk4XbiuA&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
-
-&nbsp;
 
 You know me how i love particles, and this is just particle crazy!
 

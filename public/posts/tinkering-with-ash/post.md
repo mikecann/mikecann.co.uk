@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-02-14T18:30:55.000Z'
+date: "2013-02-14T18:30:55.000Z"
 tags:
   - as3
   - ash
@@ -21,8 +21,6 @@ Before I go any further I should mention that there is a [Try Harder 'Level Up
 Following on in the same 'Tinkering' vein I have decided to investigate an AS3 library by another Try Harder attendee [Richard Lord](https://www.richardlord.net/blog):
 
 [![logo](/wp-content/uploads/2013/02/logo.png)](/posts/tinkering-with-ash/attachment/logo-4/)
-
-&nbsp;
 
 What is Ash? Well direct from the [Ash Website:](https://www.ashframework.org/)
 

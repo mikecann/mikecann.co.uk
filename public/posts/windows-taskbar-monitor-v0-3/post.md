@@ -15,8 +15,6 @@ One of the users of the app noted that they find it rather annoying having the
 
 While I was there I also added a couple of command line arguments to the app so that you could configure each instance from a shortcut.
 
-&nbsp;
-
 The options are:
 
 **-bars [true/false]**
@@ -26,8 +24,6 @@ This tells the app to startup with the bars enabled or not, the default is true.
 **-type [cpu/mem/net]**
 
 This tells which of the three monitors the app should start up with, cpu, memory or network.
-
-&nbsp;
 
 One way to get all three to start with different monitors when windows startup would be to use the statup folder in windows.
 
@@ -47,20 +43,8 @@ One way to get all three to start with different monitors when windows startup w
 
 [![](/wp-content/uploads/2011/10/Shot_07.png "Shot_07")](/wp-content/uploads/2011/10/Shot_07.png)
 
-&nbsp;
-
 Et voilà when windows starts you should now have three different monitors opening!
 
 I have pushed all the source code and the new binary files to my google code project: [https://code.google.com/p/win7-taskbar-mon/](https://code.google.com/p/win7-taskbar-mon/)
 
 Enjoy!
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

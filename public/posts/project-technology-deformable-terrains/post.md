@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-12-05T22:25:38.000Z'
+date: "2007-12-05T22:25:38.000Z"
 tags: []
 title: Project Technology (Deformable Terrains)
 ---
@@ -35,7 +35,7 @@ Indestructable Layer
 </table>
 </p>
 
-&nbsp;There is also a &quot;destroyed mask&quot; that is used to create areas at the start that have already been destroyed. This is mainly used so that you dont have to burrow for ages at the start to get to your opposition. Combined together you end up with the final result below.
+There is also a &quot;destroyed mask&quot; that is used to create areas at the start that have already been destroyed. This is mainly used so that you dont have to burrow for ages at the start to get to your opposition. Combined together you end up with the final result below.
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
     <tbody>
@@ -59,7 +59,7 @@ Final Result
 </table>
 </p>
 
-&nbsp;Each texture layer at the moment is 2048x2048 (which is the maximum texture resolution the 360 supports) and is in the format Color (8bpp). The indestructable and the destructable layer are then sent to the GPU for use in rendering and particle collisions by the GPU particle system.
+Each texture layer at the moment is 2048x2048 (which is the maximum texture resolution the 360 supports) and is in the format Color (8bpp). The indestructable and the destructable layer are then sent to the GPU for use in rendering and particle collisions by the GPU particle system.
 
 Objects such as players and weapons that are updated by the CPU however cannot perform collision checks on a texture that is on the GPU (without calling getData() which causes read-back which is horribly slow). So the destructable and the instructable layers are duplicated in the initial load of the level and saved as a large two dimensional array of Colors on the CPU.
 
@@ -98,31 +98,29 @@ Exp128
 </table>
 </p>
 
-&nbsp;When an explosion occurs it is added to a list of other explosions that have occured that frame. When the render of the level is called the list of explosions that have happened that frame are iterated through and rendered to the 2048x2048 &quot;explosion map&quot; map texture in the correct world location that the explosion occured. This &quot;explosion map&quot; is then passed to a texture render shader which using render targets updates the terrain texture:
+When an explosion occurs it is added to a list of other explosions that have occured that frame. When the render of the level is called the list of explosions that have happened that frame are iterated through and rendered to the 2048x2048 &quot;explosion map&quot; map texture in the correct world location that the explosion occured. This &quot;explosion map&quot; is then passed to a texture render shader which using render targets updates the terrain texture:
 
 float4 PixelShader(float2 texCoord : TEXCOORD0) : COLOR0
 
 {
 
-&nbsp;&nbsp; &nbsp;float4 outCol = float4(1,0,0,0);
+float4 outCol = float4(1,0,0,0);
 
-&nbsp;&nbsp; &nbsp;float4 explosinCol = tex2D(ExplosionSampler, texCoord);
+float4 explosinCol = tex2D(ExplosionSampler, texCoord);
 
-&nbsp;&nbsp; &nbsp;if (explosinCol.x!=0)
+if (explosinCol.x!=0)
 
-&nbsp;&nbsp; &nbsp;{
+{
 
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;outCol = tex2D(TextureSampler, texCoord);
+outCol = tex2D(TextureSampler, texCoord);
 
-&nbsp;&nbsp; &nbsp;}
+}
 
-&nbsp;&nbsp;&nbsp; float4 indestr = tex2D(IndestructableSampler, texCoord);
+float4 indestr = tex2D(IndestructableSampler, texCoord);
 
-&nbsp;&nbsp;&nbsp; if (indestr.w!=0){ outCol = indestr;&nbsp; }
+if (indestr.w!=0){ outCol = indestr; }
 
-&nbsp;&nbsp; &nbsp;
-
-&nbsp;&nbsp;&nbsp; return outCol;
+return outCol;
 
 }
 

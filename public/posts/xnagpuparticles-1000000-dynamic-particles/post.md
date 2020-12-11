@@ -19,4 +19,4 @@ If you are interested in seeing the source code for this project, just drop me a
 
 Oh also, the written report for this can be found [https://www.mikecann.co.uk/Work/GPUParticles2003.doc](GPUParticles2003.doc)
 
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="505" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/vxrg1YavBIg&amp;hl=en_GB&amp;fs=1?rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="505" src="https://www.youtube.com/v/vxrg1YavBIg&amp;hl=en_GB&amp;fs=1?rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Avxrg1YavBIg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

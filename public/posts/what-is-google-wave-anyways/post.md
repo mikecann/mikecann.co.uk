@@ -12,4 +12,4 @@ I just thought that not everyone knows what Google Wave actually is. Well this v
 
 <!-- more -->
 
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/rDu2A3WzQpo&amp;hl=en&amp;fs=1&amp;hd=1" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="https://www.youtube.com/v/rDu2A3WzQpo&amp;hl=en&amp;fs=1&amp;hd=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/rDu2A3WzQpo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

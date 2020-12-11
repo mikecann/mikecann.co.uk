@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2008-08-28T10:00:05.000Z'
+date: "2008-08-28T10:00:05.000Z"
 tags: []
 title: Yhazee Strikes Again!
 ---
 
-Prolly his funniest one yet i think :P&nbsp;
+Prolly his funniest one yet i think :P
 
 <!-- more -->
 

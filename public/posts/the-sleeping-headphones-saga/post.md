@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/the-sleeping-headphones-saga/cover.jpg
-date: '2017-10-23T09:27:00.000Z'
+date: "2017-10-23T09:27:00.000Z"
 tags:
   - behphones
   - experiment
@@ -37,8 +37,6 @@ Another problem with these headphones is that they are wired, which means that y
 <span style="color: #339966;">**Pros:** Ubiquitous, Cheap (ish), Good sound quality</span>
 <span style="color: #ff0000;">**Cons:** Painful when sleeping on them, cords risk strangulation</span>
 
-&nbsp;
-
 ## SleepPhones Headband
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/sleepphones-headphones-headband-2.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/sleepphones-headphones-headband-2.jpg)
@@ -56,8 +54,6 @@ The biggest problem with them however is that I live in Australia and it can get
 <span style="color: #339966;">**Pros:** Comfortable, single wire means less things to kill yourself with</span>
 <span style="color: #ff0000;">**Cons:** I got too hot, headband shifts, cable too short, kind of pricey</span>
 
-&nbsp;
-
 ## BedPhones
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/Bedphones-31u8vwkkxjzale44ympn9m.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/Bedphones-31u8vwkkxjzale44ympn9m.jpg)
@@ -70,8 +66,6 @@ The biggest problem is the over-ear wire they use to hold them in place was so f
 
 <span style="color: #339966;">**Pros:** Comfortable for long-term use</span>
 <span style="color: #ff0000;">**Cons:** Poor sound quality, fall out of ear, wired still, strangulation issues</span>
-
-&nbsp;
 
 ## Panasonic RP-HS46
 
@@ -93,8 +87,6 @@ They are also still wired so although it hasn't happened yet I can imagine that 
 **<span style="color: #339966;"><span style="color: #ff0000;">Cons:</span></span>**<span style="color: #339966;"><span style="color: #ff0000;"> Hard plastic, strangulation wires still</span></span>
 </span>
 
-&nbsp;
-
 ## [NOT TRIED] BedPhones Wireless
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/bpw-man-laying-down-web-smallest-1024x683.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/bpw-man-laying-down-web-smallest.jpg)
@@ -110,8 +102,6 @@ At \$100 USD these really are rather expensive as an experiment but I spend 8 ho
 <span style="color: #339966;">**Pros:** Wireless, low-profile, soft, designed for sleeping in</span>
 <span style="color: #ff0000;">**Cons:** Expensive, untested</span>
 
-&nbsp;
-
 ## [NOT TRIED] Ear Hero
 
 [![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/122830902_1280x720-1024x576.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/122830902_1280x720.jpg)
@@ -126,8 +116,6 @@ The only problem is their rather large (\$150 USD) price-tag makes them out of t
 
 <span style="color: #339966;">**Pros:** Very low profile</span>
 <span style="color: #ff0000;">**Cons:** Pricey, not tested</span>
-
-&nbsp;
 
 # Conclusion
 

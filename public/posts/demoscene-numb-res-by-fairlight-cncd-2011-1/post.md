@@ -18,6 +18,6 @@ This weekend was [The Gathering](https://www.demoparty.net/the-gathering-2011/),
 
 The following is the offering by the ever excellent CNCD &amp; Fairlight. I p[osted a particle-tastic video by them last year](/posts/assembly-2010-cncd-fairlight-demo/) so if you like this sort of thing I **strongly** recommend that you check that out too.
 
-<object width="700" height="424"><param name="movie" value="https://www.youtube.com/v/wPdYfn9_dIM?fs=1&amp;hl=en_US&amp;hd=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="700" height="424" src="https://www.youtube.com/v/wPdYfn9_dIM?fs=1&amp;hl=en_US&amp;hd=1" allowfullscreen="true" allowscriptaccess="always"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/wPdYfn9_dIM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Edit:** Oh if you like the music on this video you should check out the artist album, its bloody fantastic! [https://stereowildlife.co.uk/](https://https://stereowildlife.co.uk/)

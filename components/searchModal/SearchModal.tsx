@@ -60,11 +60,9 @@ export const SearchModal: React.FC<Props> = ({ onClose }) => {
           width: "100%",
         }}
       >
-        {results
-          .sort((a, b) => b.createdAt - a.createdAt)
-          .map((hit) => (
-            <SearchResult key={hit.objectID} hit={hit} onClick={onClose} />
-          ))}
+        {results.map((hit) => (
+          <SearchResult key={hit.objectID} hit={hit} onClick={onClose} />
+        ))}
         {results.length == 0 && (
           <div style={{ height: "100%" }}>
             {/* <Header icon>
@@ -77,5 +75,3 @@ export const SearchModal: React.FC<Props> = ({ onClose }) => {
     </Modal>
   );
 };
-
-

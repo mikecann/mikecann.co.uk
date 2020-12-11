@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-06-12T18:13:14.000Z'
+date: "2011-06-12T18:13:14.000Z"
 tags:
   - chrome
   - extension
@@ -9,7 +9,7 @@ tags:
   - plugin
   - three.js
   - webgl
-title: 'Chrome Crawler, HaXe, Three.js, WebGL and 2D Sprites'
+title: "Chrome Crawler, HaXe, Three.js, WebGL and 2D Sprites"
 ---
 
 [![](/wp-content/uploads/2011/06/banbanbnanbab.jpg "banbanbnanbab")](/wp-content/uploads/2011/06/banbanbnanbab.jpg)
@@ -24,15 +24,9 @@ I managed to get the basics of the crawler working a few months back but through
 
 ![](/wp-content/uploads/2010/12/Shot_002.png)
 
-&nbsp;
-
 A while back however I recieved a mail from "**[MrJimmyCzech](https://www.youtube.com/user/MrJimmyCzech)**" who sent me a link to a video he had made using Chrome Crawler and Gephi:
 
-&nbsp;
-
-<object width="700" height="428"><param name="movie" value="https://www.youtube.com/v/C8P6ZttaZRo?version=3&amp;hl=en_GB&amp;hd=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="700" height="428" src="https://www.youtube.com/v/C8P6ZttaZRo?version=3&amp;hl=en_GB&amp;hd=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-
-&nbsp;
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/C8P6ZttaZRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 As you can see its pretty cool, visually graphed out as a big node tree.
 
@@ -41,8 +35,6 @@ So it got me thinking, can I replicate this directly in Chrome Crawler? To do th
 The first thing I tried was using the [HaXe version of the Raphael library](https://lib.haxe.org/p/raphaelExtern). The library is designed for graphing and uses the Canvas with SVG for rendering, so I thought it would be perfect for replicating Gephi. I tested it however and only managed about 300 circles moving and updating at 25FPS:
 
 [![](/wp-content/uploads/2011/06/outttt.jpg "outttt")](/wp-content/uploads/2011/06/outttt.jpg)
-
-&nbsp;
 
 300 nodes just wasnt going to cut it, I needed more.
 

@@ -1,12 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-10-08T15:59:02.000Z'
+date: "2011-10-08T15:59:02.000Z"
 tags:
   - conference
   - haxe
   - talk
   - tryharder
-title: 'try {harder} - my haXe slides and code'
+title: "try {harder} - my haXe slides and code"
 ---
 
 [![](/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg "OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D")](/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg)
@@ -30,9 +30,3 @@ Anyways, at the end of the day I really enjoyed preparing and giving my first ta
 I wrote my slides in google docs which are viewable online: [https://docs.google.com/present/view?id=dc6wvdg5_151frv985w7](https://docs.google.com/present/view?id=dc6wvdg5_151frv985w7)
 
 The code samples and examples mentioned on slides are uploaded here: [/projects/TryHarder.zip](/projects/TryHarder.zip)
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

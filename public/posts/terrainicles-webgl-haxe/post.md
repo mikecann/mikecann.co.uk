@@ -1,8 +1,8 @@
 ---
 coverImage: /posts/terrainicles-webgl-haxe/cover.jpg
-date: '2011-10-29T14:14:07.000Z'
+date: "2011-10-29T14:14:07.000Z"
 tags: []
-title: 'Terrainicles [WebGL & HaXe]'
+title: "Terrainicles [WebGL & HaXe]"
 ---
 
 I have been playing with this thing, tweaking it, making changes for weeks. Theres so many different things I want to add. Different options, scenarios, optimisations etc. I decided however just to follow the 'release early and often' mantra and get this thing out now.
@@ -24,7 +24,7 @@ There are several options on the right hand side that can be used to tweak the p
 
 There are so many things I could add to improve this. You can see some of them in a video I made years ago:
 
-<object width="700" height="505" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/MocF1IU-5dc?version=3&amp;hl=en_US" /><param name="allowfullscreen" value="true" /><embed width="700" height="505" type="application/x-shockwave-flash" src="https://www.youtube.com/v/MocF1IU-5dc?version=3&amp;hl=en_US" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/MocF1IU-5dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There we have some cool stuff like Bloom, forces and multiple rendering layers going on. It would be nice to get those in this sample too.
 
@@ -35,9 +35,3 @@ I have uploaded the source for this sample to Github for people to lookat/fork i
 [https://github.com/mikecann/WebGLTerrainicles](https://github.com/mikecann/WebGLTerrainicles)
 
 Enjoy!
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

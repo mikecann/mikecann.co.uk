@@ -7,4 +7,4 @@ title: Meowcenaries
 
 So much WIN!
 
-<object width="480" height="385" data="https://www.youtube.com/v/xHHndubyXYQ&amp;hl=en&amp;fs=1&amp;color1=0x402061&amp;color2=0x9461ca" type="application/x-shockwave-flash"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/xHHndubyXYQ&amp;hl=en&amp;fs=1&amp;color1=0x402061&amp;color2=0x9461ca" /><param name="allowfullscreen" value="true" /></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/xHHndubyXYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn populateAlgolia && next build",
+    "build": "yarn populateAlgolia && yarn generateRSS && next build",
     "start": "next start",
     "generateRSS": "yarn script ./scripts/generateRSS.ts",
     "script": "ts-node --files --project ./scripts/tsconfig.json",

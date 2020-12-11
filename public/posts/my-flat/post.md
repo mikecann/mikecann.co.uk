@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2008-05-18T11:11:46.000Z'
+date: "2008-05-18T11:11:46.000Z"
 tags: []
 title: My Flat!
 ---
@@ -14,5 +14,3 @@ But it also means that i have to go flat hunting again and I have to leave this 
 So if you are interested in this flat smack bang in the centre of Mancheter then send either me ([mike.cann@gmail.com](https://mike.cann@gmail.com)) or Michelle ([m_blenkharn@hotmail.com](mailto:m_blenkharn@hotmail.com)) an email.
 
 <embed width="425" height="366" wmode="transparent" type="application/x-shockwave-flash" src="https://www.youtube.com/v/3FRstdlJpHE"></embed>
-
-&nbsp;

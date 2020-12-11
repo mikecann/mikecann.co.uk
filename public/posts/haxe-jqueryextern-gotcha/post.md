@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-04-10T09:22:38.000Z'
+date: "2011-04-10T09:22:38.000Z"
 tags:
   - compile
   - gotcha
@@ -58,7 +58,3 @@ It turns out that to beable to use the JQueryS class you must first import the J
 > Low and behold that worked!
 
 As I couldn't find the solution to this problem on a Google search I thought I would write up the solution myself so that others don't stumble on this rather singular gotcha.
-
-&nbsp;
-
-&nbsp;

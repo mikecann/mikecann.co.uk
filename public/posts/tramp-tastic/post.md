@@ -13,4 +13,4 @@ I used to be [into messing about on trampolines](https://picasaweb.google.com/mi
 
 <!-- more -->
 
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="385" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/_4s2H9cH7Sw&amp;hl=en_GB&amp;fs=1&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="640" height="385" src="https://www.youtube.com/v/_4s2H9cH7Sw&amp;hl=en_GB&amp;fs=1&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/_4s2H9cH7Sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

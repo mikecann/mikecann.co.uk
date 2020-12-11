@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-01-17T22:54:55.000Z'
+date: "2013-01-17T22:54:55.000Z"
 tags:
   - ableton
   - audio
@@ -50,9 +50,3 @@ Give it a listen see what you think:
 15\. Astrobear - First Contact
 16\. Trifonic - Ninth Wave
 17 - Twin Atlantic - Yes I was Drunk (Matt Lange Remix)
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

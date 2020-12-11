@@ -14,18 +14,18 @@ Firstly I worked on setting up a framework for weapons that allows them to be de
 <?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?>
 
 <weapon name=&quot;Rocket&quot; type=&quot;projectile&quot;>
-&nbsp;&nbsp;&nbsp; <properties>
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <texture>rocket</texture>
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <trail>smoke</trail>
-&nbsp;&nbsp;&nbsp; </properties>
+ <properties>
+  <texture>rocket</texture>
+  <trail>smoke</trail>
+ </properties>
 
-&nbsp;&nbsp;&nbsp; <events>
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <onTerrainCollide>
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <spawn type=&quot;explosion&quot; size=&quot;64&quot;&nbsp; where=&quot;this&quot; velocity=&quot;this&quot; />
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <spawn type=&quot;shrapnel&quot; quantity=&quot;10&quot;&nbsp; where=&quot;this&quot; velocity=&quot;this&quot; />
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <die/>
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </onTerrainCollide>
-&nbsp;&nbsp;&nbsp; </events>
+ <events>
+  <onTerrainCollide>
+   <spawn type=&quot;explosion&quot; size=&quot;64&quot; where=&quot;this&quot; velocity=&quot;this&quot; />
+   <spawn type=&quot;shrapnel&quot; quantity=&quot;10&quot; where=&quot;this&quot; velocity=&quot;this&quot; />
+   <die/>
+  </onTerrainCollide>
+ </events>
 </weapon>
 
 In addition I have been working on adding forces into the game. It took abit of tweaking but now explosions have a force which repels particles around it, you can see this in action in the video below. I have also added a &quot;vortex&quot; special weapon that sucks particles towards it which then swirl around until the vortex implodes expelling all the particles.

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-08-11T20:38:13.000Z'
+date: "2011-08-11T20:38:13.000Z"
 tags:
   - chrome
   - code
@@ -11,7 +11,7 @@ tags:
   - sprites
   - stateless
   - webgl
-title: '5,000,000 Chrome Crawlers? Why not [haXe & WebGL]'
+title: "5,000,000 Chrome Crawlers? Why not [haXe & WebGL]"
 ---
 
 Following on from my previous experiments into the world of [haXe and HTML5](/posts/more-html5-haxe-speed-tests/) I have been playing around again with trying to get as many 2D sprites on screen as I can.
@@ -26,7 +26,7 @@ My thought was; why not just render everything as 2D point sprites? I remembered
 
 So after a little bit of fiddling and hacking I managed to get point sprites correctly rendering:
 
-<object width="700" height="555" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/KhIT9yNEb8g?version=3&amp;hl=en_GB" /><param name="allowfullscreen" value="true" /><embed width="700" height="555" type="application/x-shockwave-flash" src="https://www.youtube.com/v/KhIT9yNEb8g?version=3&amp;hl=en_GB" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/KhIT9yNEb8g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can play with it here: [/projects/HTML5SpeedTests/HaXeWebGL/bin/](/projects/HTML5SpeedTests/HaXeWebGL/bin/)
 

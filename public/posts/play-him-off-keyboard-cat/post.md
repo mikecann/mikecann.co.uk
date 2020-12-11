@@ -7,6 +7,6 @@ title: 'Play Him Off, Keyboard Cat'
 
 Latest meme to do with cats, you know im all over this like a nappy rash:
 
-<object width="480" height="385" data="https://www.youtube.com/v/BhsLTsZgajs&amp;hl=en&amp;fs=1&amp;color1=0x402061&amp;color2=0x9461ca" type="application/x-shockwave-flash"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/BhsLTsZgajs&amp;hl=en&amp;fs=1&amp;color1=0x402061&amp;color2=0x9461ca" /><param name="allowfullscreen" value="true" /></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/BhsLTsZgajs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There is a site full of em, oh the joy! [https://playhimoffkeyboardcat.com/](https://playhimoffkeyboardcat.com/)

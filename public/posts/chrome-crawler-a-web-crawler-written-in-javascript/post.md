@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-12-06T18:28:57.000Z'
+date: "2010-12-06T18:28:57.000Z"
 tags:
   - chrome
   - crawl
@@ -37,7 +37,7 @@ Theres an options page that lets you customise the way it all works:
 
 If you are still confused check out the video below:
 
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="550" height="437" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/ceeQEMTSD0I?fs=1&amp;hl=en_GB&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="550" height="437" src="https://www.youtube.com/v/ceeQEMTSD0I?fs=1&amp;hl=en_GB&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ceeQEMTSD0I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 So why did I make this? Well to be frank, I made it mostly "just 'cause I can"!
 

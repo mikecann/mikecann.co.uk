@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-01-09T19:46:01.000Z'
+date: "2013-01-09T19:46:01.000Z"
 tags:
   - chat
   - im
@@ -8,7 +8,7 @@ tags:
   - msn
   - rant
   - skype
-title: 'Skype IM, is a bag of crap [Rant]'
+title: "Skype IM, is a bag of crap [Rant]"
 ---
 
 [![head](/wp-content/uploads/2013/01/head.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/head-4/)
@@ -45,45 +45,29 @@ Sharing files over anything but Skype contacts? No chance.
 
 [![screenshot.5](/wp-content/uploads/2013/01/screenshot.5.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot-5/)
 
-&nbsp;
-
 Annoying messages and adverts are REALLY annoying.
 
 [![screenshot_08](/wp-content/uploads/2013/01/screenshot_08.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_08/)
 
-&nbsp;
-
 [![screenshot_09](/wp-content/uploads/2013/01/screenshot_09.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_09/)
 
-&nbsp;
-
 [![screenshot_10](/wp-content/uploads/2013/01/screenshot_10.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_10-3/)
-
-&nbsp;
 
 Want to delete a conversation, sure that's easy just..
 
 [![screenshot_11](/wp-content/uploads/2013/01/screenshot_11.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_11-3/)
 
-&nbsp;
-
 Tabs are soooo not cool any more, lets make a new window for each conversation!
 
 [![screenshot_12](/wp-content/uploads/2013/01/screenshot_12.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_12/)
-
-&nbsp;
 
 "Go back to Digsby if you hate it so much" I hear you cry. Well.. This is where the fun really starts because it appears that now I have linked MSN with my Skype account there is no way to unlink it! Because MSN is a single-sign-on-only service if I open Digsby then it kicks me out of Skype.
 
 [![screenshot_14](/wp-content/uploads/2013/01/screenshot_14.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_14/)
 
-&nbsp;
-
 If I log into Skype, then Disgby doesnt sign out, but I cant use it to talk to my MSN friends:
 
 [![screenshot_15](/wp-content/uploads/2013/01/screenshot_15.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/screenshot_15/)
-
-&nbsp;
 
 Which basically means I cant use Digsby for MSN and have Skype open at the same time. Joy.
 

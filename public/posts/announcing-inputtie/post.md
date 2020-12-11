@@ -65,7 +65,7 @@ Despite my constant badgering and mind-changing Oli has done a [fantastic job on
 
 He even found time to do an awsome video that shows off the best features of Inputtie:
 
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="344" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/OUM1EGbUMvQ?fs=1&amp;hl=en_GB&amp;rel=0" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="425" height="344" src="https://www.youtube.com/v/OUM1EGbUMvQ?fs=1&amp;hl=en_GB&amp;rel=0" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/OUM1EGbUMvQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ** Planned Extensions**
 

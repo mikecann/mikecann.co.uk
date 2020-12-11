@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-07-31T11:50:23.000Z'
+date: "2011-07-31T11:50:23.000Z"
 tags:
   - from dust
   - games
@@ -25,7 +25,7 @@ From Dust is a god game that follows in the heels of other god games such as Pop
 
 Check out this tech-demo / trailer for the game:
 
-<object width="700" height="428" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/gSOQGazo7Oo?version=3&amp;hl=en_US" /><param name="allowfullscreen" value="true" /><embed width="700" height="428" type="application/x-shockwave-flash" src="https://www.youtube.com/v/gSOQGazo7Oo?version=3&amp;hl=en_US" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gSOQGazo7Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 When I watched that earlier in the week I was amazed but skeptical that everything shown was actually how it was in game. After downloading and playing it on xbox this week however I can confirm that everything shown in the above video is in game and more. Not only that its actually fun!
 
@@ -42,5 +42,3 @@ I have been pondering over the tech and thinking how they managed to get such a 
 It must be a GPU based liquid simulation (particularly as the xbox CPU is weak), however I didn't think they were good enough to do something like this. Perhaps they are using some optimized Smooth Particle Hydrodynamics such as that employed by Fairlight from the scene: [https://directtovideo.wordpress.com/2011/05/03/numb-res/](https://directtovideo.wordpress.com/2011/05/03/numb-res/)
 
 Anyways, the game is available for download right now on xbox or if you are like me and are pc-inclined then it should be available on [PC from the 17th of August](https://www.google.co.uk/url?sa=t&source=web&cd=2&ved=0CCMQFjAB&url=http%3A%2F%2Fwww.eurogamer.net%2Farticles%2F2011-07-25-from-dust-pc-release-date-pushed-back&ei=Yj41TvETh8GEB_DA7JAL&usg=AFQjCNFjEJouzN_BKbussaGnnmqeJBmCHQ).
-
-&nbsp;

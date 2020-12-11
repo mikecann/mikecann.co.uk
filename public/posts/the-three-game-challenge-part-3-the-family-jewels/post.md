@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/the-three-game-challenge-part-3-the-family-jewels/cover.jpg
-date: '2013-04-25T11:03:10.000Z'
+date: "2013-04-25T11:03:10.000Z"
 tags:
   - ash
   - flash
@@ -64,5 +64,3 @@ Well that's the end of my challenge! Im surprised I managed to do it. A little
 As for the tools I used. I used Richard Lord's excellent [Ash Game Framework](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDEQFjAA&url=http%3A%2F%2Fwww.ashframework.org%2F&ei=sQt5UeOlHsam0wXF74DYBQ&usg=AFQjCNGf9MWL8YXaduF6F9pn2bsVQNDzGQ&sig2=VA_kHUtU14g4k2q5xISD3w&bvm=bv.45645796,d.d2k) to develop them all alongside Starling with Feathers on top of Flash for the rendering. For rapidly prototyping games they have been excellent. Now im more familiar with Ash I may write a post or two about how to go about structuring certain parts of a game in an enitity-component like manner.
 
 But for the next week or so I need to finish my packing before my [mammoth trip to Central and South America](/posts/my-2013/).
-
-&nbsp;

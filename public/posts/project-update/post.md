@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-11-11T22:07:16.000Z'
+date: "2007-11-11T22:07:16.000Z"
 tags: []
 title: Project Update
 ---
 
-Well its been a while since i have posted an update regarding the LieroXNA project. I havent been slacking.&nbsp;
+Well its been a while since i have posted an update regarding the LieroXNA project. I havent been slacking.
 
 <!-- more -->
 

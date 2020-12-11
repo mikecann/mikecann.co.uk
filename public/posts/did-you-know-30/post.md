@@ -11,4 +11,4 @@ Abit old I know but I only just stumbled across it, very interesting watch, but 
 
 <!-- more -->
 
-<object width="640" height="505" data="https://www.youtube.com/v/jpEnFwiqdx8&amp;hl=en&amp;fs=1" type="application/x-shockwave-flash"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/v/jpEnFwiqdx8&amp;hl=en&amp;fs=1" /><param name="allowfullscreen" value="true" /></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/jpEnFwiqdx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

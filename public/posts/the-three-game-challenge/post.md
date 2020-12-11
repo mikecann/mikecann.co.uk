@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-03-25T15:27:19.000Z'
+date: "2013-03-25T15:27:19.000Z"
 tags:
   - air
   - ash
@@ -27,7 +27,3 @@ Im also going to get myself another ground rule. I can only use the free [Lost G
 I hope that this limitation will mean I don't spend too much time worrying about the tech and how it looks and instead concentrate on what has traditionally been tough for me, making it fun!
 
 Ill be updating regularly on my progress and then throw a vote out at the end of it and see which one people like the most, wish me luck!
-
-&nbsp;
-
-&nbsp;

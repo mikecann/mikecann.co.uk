@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2013-03-23T18:14:19.000Z'
+date: "2013-03-23T18:14:19.000Z"
 tags: []
 title: My 2013
 ---
@@ -27,7 +27,3 @@ From Cuba I am going to head south to Peru were im going to take another long to
 To end it I may end up meeting another friend in Brazil or Argentina Late November / December time. Then I am going to fly out of Rio back to the UK in time for Christmas!
 
 So there are a lot of ifs and buts in there but that's the rough plan. Im going to take a cheap laptop around with me so I can post updates here and show off some pictures of beautiful places :P If you don't hear from me for a few months its either because there is no internet around or I have been kidnapped or put in a prison somewhere!
-
-&nbsp;
-
-&nbsp;

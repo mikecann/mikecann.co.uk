@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-11-17T19:32:11.000Z'
+date: "2011-11-17T19:32:11.000Z"
 tags: []
-title: 'Hxaria, Terraria like terrain in HaXe and WebGL'
+title: "Hxaria, Terraria like terrain in HaXe and WebGL"
 ---
 
 [![](/wp-content/uploads/2011/11/head2.jpg "head2")](/wp-content/uploads/2011/11/head2.jpg)
@@ -48,5 +48,3 @@ Im planning to continue work on this sample, my next step is to get each particl
 I have uploaded the source to github for your perousal: [https://github.com/mikecann/Hxaria](https://github.com/mikecann/Hxaria)
 
 Enjoy!
-
-&nbsp;

@@ -30,7 +30,7 @@ From the change log:
 
 To highlight these new changes I decided to update the promo video too:
 
-<object width="700" height="555"><param name="movie" value="https://www.youtube.com/v/hvqjEXdAeqI?version=3&amp;hl=en_GB&amp;hd=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="700" height="555" src="https://www.youtube.com/v/hvqjEXdAeqI?version=3&amp;hl=en_GB&amp;hd=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/hvqjEXdAeqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I have also added a donation button into the options. I have no idea if anyone will click it, an interesting experiment tho.
 

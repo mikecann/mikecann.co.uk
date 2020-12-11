@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-05-03T13:42:03.000Z'
+date: "2007-05-03T13:42:03.000Z"
 tags: []
 title: New project started! TowerDefence
 ---
@@ -19,7 +19,7 @@ For those of you that dont know, TD's are mini games that happened by accident. 
 
 Soon there were hundreds then thousands of these different &quot;mini-games&quot; some were TD's others were completely different. Hundreds of thousands play these custom games every day even now some 5 years after its release.
 
-So after all that, the new project! Well infact its not a new project at all, its taking the TD idea and expanding, elaborating and improving on it. Users will be given a friendly editor that they can use on thier Windows machine to build the levels in an easy, interactive and fun way. The levels can then be saved and exported out for use on the X-Box and PC.&nbsp; Levels will be given high scores and multiplayer abilities (eventually) encouraging others to replay the levels to get better scores to become the &quot;pro&quot; at a certain TD.
+So after all that, the new project! Well infact its not a new project at all, its taking the TD idea and expanding, elaborating and improving on it. Users will be given a friendly editor that they can use on thier Windows machine to build the levels in an easy, interactive and fun way. The levels can then be saved and exported out for use on the X-Box and PC. Levels will be given high scores and multiplayer abilities (eventually) encouraging others to replay the levels to get better scores to become the &quot;pro&quot; at a certain TD.
 
 Well thats the basics of the idea, I have a great many more ideas of ways to improve the way TDs work. But I will detail these in the weeks to come.
 

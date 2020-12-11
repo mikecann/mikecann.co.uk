@@ -1,15 +1,15 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2008-06-11T15:53:03.000Z'
+date: "2008-06-11T15:53:03.000Z"
 tags: []
-title: 'FlashDevelop, Preloaders and GameJacket'
+title: "FlashDevelop, Preloaders and GameJacket"
 ---
 
 This is a clone of the post i made on the GameJacket developer forums here: [https://gamejacket.com/forum/topic.asp?TOPIC_ID=59](https://gamejacket.com/forum/topic.asp?TOPIC_ID=59) but i think it deserves a re-post here so it can be googled :)
 
 <!-- more -->
 
-&nbsp;<span class="spnMessageText" id="msg">As i had quite abit of trouble getting GameJacket to fit into my work flow properly and have no finally managed it I have decided to share my experiences and write a tutorial.
+<span class="spnMessageText" id="msg">As i had quite abit of trouble getting GameJacket to fit into my work flow properly and have no finally managed it I have decided to share my experiences and write a tutorial.
 
 So this is a tutorial for using FlashDevelop with the Flex Complier to build a game with a pre-loader that passes the GameJacket security checks.</span>
 
@@ -29,33 +29,29 @@ package
 
 {
 
-&nbsp;&nbsp;&nbsp; import flash.display.Bitmap;
+import flash.display.Bitmap;
 
-&nbsp;&nbsp;&nbsp; import flash.display.Sprite;
+import flash.display.Sprite;
 
-&nbsp;&nbsp;&nbsp;
+public class Main extends Sprite
 
-&nbsp;&nbsp;&nbsp; public class Main extends Sprite
+{
 
-&nbsp;&nbsp;&nbsp; {
+[Embed(source = &quot;cat.gif&quot;)]
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; [Embed(source = &quot;cat.gif&quot;)]
+public var Cat:Class;
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; public var Cat:Class;
+public function Main():void
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+{
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; public function Main():void
+var bm : Bitmap = Bitmap(new Cat());
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {&nbsp;&nbsp;&nbsp;
+addChild(bm);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; var bm : Bitmap = Bitmap(new Cat());
+}
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; addChild(bm);
-
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }
-
-&nbsp;&nbsp;&nbsp; }
+}
 
 }
 
@@ -73,89 +69,79 @@ package
 
 {
 
-&nbsp;&nbsp;&nbsp; import flash.display.Sprite;
+import flash.display.Sprite;
 
-&nbsp;&nbsp;&nbsp; import flash.display.LoaderInfo;
+import flash.display.LoaderInfo;
 
-&nbsp;&nbsp;&nbsp; import flash.events.Event;
+import flash.events.Event;
 
-&nbsp;&nbsp;&nbsp; import flash.text.TextField;
+import flash.text.TextField;
 
-&nbsp;&nbsp;&nbsp; import flash.text.TextFieldAutoSize;
+import flash.text.TextFieldAutoSize;
 
-&nbsp;&nbsp;&nbsp; public class GJCheck extends Sprite
+public class GJCheck extends Sprite
 
-&nbsp;&nbsp;&nbsp; {
+{
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; public var GameJacketSec : GameJacketAS3 = new GameJacketAS3();
+public var GameJacketSec : GameJacketAS3 = new GameJacketAS3();
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+public function GJCheck()
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; public function GJCheck()
+{
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {
+// Setup and run GameJacket Security Code
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; // Setup and run GameJacket Security Code
+// GameJacketAS3.as file must be in the same folder as your fla when publishing
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; // GameJacketAS3.as file must be in the same folder as your fla when publishing
+GameJacketSec.setVariables(LoaderInfo(this.root.loaderInfo));
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.setVariables(LoaderInfo(this.root.loaderInfo));
+// Add Event Listeners so we know the outcome of the security checks
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+GameJacketSec.addEventListener(&quot;GameJacketPass&quot;, securityOK);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; // Add Event Listeners so we know the outcome of the security checks
+GameJacketSec.addEventListener(&quot;GameJacketFail&quot;, securityError);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.addEventListener(&quot;GameJacketPass&quot;, securityOK);
+}
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.addEventListener(&quot;GameJacketFail&quot;, securityError);&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+private function securityOK(e:Event):void
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }
+{
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+// Remove the event listeners
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; private function securityOK(e:Event):void
+GameJacketSec.removeEventListener(&quot;GameJacketPass&quot;, securityOK);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {
+GameJacketSec.removeEventListener(&quot;GameJacketFail&quot;, securityError);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; // Remove the event listeners
+}
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.removeEventListener(&quot;GameJacketPass&quot;, securityOK);
+private function securityError(e:Event):void
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.removeEventListener(&quot;GameJacketFail&quot;, securityError);&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+{
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }
+// Remove the event listeners
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+GameJacketSec.removeEventListener(&quot;GameJacketPass&quot;, securityOK);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; private function securityError(e:Event):void
+GameJacketSec.removeEventListener(&quot;GameJacketFail&quot;, securityError);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; {
+// This function will run if the game does not pass the security checks
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; // Remove the event listeners
+var tf : TextField = new TextField();
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.removeEventListener(&quot;GameJacketPass&quot;, securityOK);
+tf.text = &quot;An error has occured please contact: you@webmaster.com&quot;;
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; GameJacketSec.removeEventListener(&quot;GameJacketFail&quot;, securityError);
+tf.autoSize = TextFieldAutoSize.CENTER;
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+tf.x = (stage.stageWidth / 2)-(tf.textWidth/2);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; // This function will run if the game does not pass the security checks
+tf.y = stage.stageHeight / 2;
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; var tf : TextField = new TextField();
+addChild(tf);
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; tf.text = &quot;An error has occured please contact: you@webmaster.com&quot;;
+}
 
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; tf.autoSize = TextFieldAutoSize.CENTER;&nbsp;&nbsp;&nbsp;
-
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; tf.x = (stage.stageWidth / 2)-(tf.textWidth/2);
-
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; tf.y = stage.stageHeight / 2;
-
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; addChild(tf);&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }
-
-&nbsp;&nbsp;&nbsp; }
+}
 
 }
 
@@ -175,13 +161,11 @@ public function GJCheck()
 
 {
 
-&nbsp;&nbsp;&nbsp; ...&nbsp;&nbsp;&nbsp;
+...
 
-&nbsp;&nbsp;&nbsp; securityOK(null); // Dont forget to remove this line before submitting to GJ
+securityOK(null); // Dont forget to remove this line before submitting to GJ
 
 }
-
-&nbsp;
 
 <span class="spnMessageText" id="msg"> Also add this line so that when the security succeeds we start the Preloader:
 
@@ -191,13 +175,11 @@ private function securityOK(e:Event):void
 
 {
 
-&nbsp;&nbsp;&nbsp; ...
+...
 
-&nbsp;&nbsp;&nbsp;
+// Start the preloader
 
-&nbsp;&nbsp;&nbsp; // Start the preloader
-
-&nbsp;&nbsp;&nbsp; addChild(new Preloader());&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+addChild(new Preloader());
 
 }
 
