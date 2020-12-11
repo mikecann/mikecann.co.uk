@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-03-17T19:26:32.000Z'
+date: "2009-03-17T19:26:32.000Z"
 tags: []
 title: AS3 Loader.loadBytes() Class Name Collisions
 ---
@@ -13,8 +13,8 @@ Basically I wanted a method of loading a SWF as a byte array then turning the by
 
 So my flow looked like:
 
-**SWFA -&gt; StreamURL.load("SWFB.swf")
-SWFA -&gt; Loader.loadBytes() **
+**SWFA -> StreamURL.load("SWFB.swf")
+SWFA -> Loader.loadBytes() **
 
 So off I went and coded my solution, to my surprise it worked great. Well kinda, the problem with using loadBytes() is that you have no way of passing flashVars through to the loaded SWF like normal (see this bug report for more info: [https://bugs.adobe.com/jira/browse/FP-445](https://bugs.adobe.com/jira/browse/FP-445)).
 
@@ -22,9 +22,9 @@ When you inspect the root.loaderInfo.url (\_root.\_url in as2) property of the l
 
 So the flow looks like:
 
-**SWFA -&gt; Loader.load("proxy.swf?someparam=22")
-ProxySWF -&gt; StreamURL.load("SWFB.swf")
-ProxySWF -&gt; Loader.loadBytes() **
+**SWFA -> Loader.load("proxy.swf?someparam=22")
+ProxySWF -> StreamURL.load("SWFB.swf")
+ProxySWF -> Loader.loadBytes() **
 
 This way when you call root.loaderInfo.url from within SWFB it will give you something like: "https://www.mydomain.com/proxy.swf?someparam=22" which isnt perfect but atleast you have the params there to play with.
 

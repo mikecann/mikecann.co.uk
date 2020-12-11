@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-10-20T06:52:57.000Z'
+date: "2012-10-20T06:52:57.000Z"
 tags:
   - chrome
   - extension
@@ -54,20 +54,14 @@ Like Haxe you can 'define' things as being available at runtime, this means you 
 
 Alot of the type-safe TS stuff is familiar to me because of Haxe. I think some things in TS are nicer fit because its only designed to compile to JS unlike Haxe which can compile to many different languages. For example TS has function overriding baked into the language also strongly typed functions in my option are a little nicer:
 
-```
-
-(index: any, domElement: Element) => any
-
+```typescript
+(index: any, domElement: Element) => any;
 ```
 
 is a function type that takes in two params and returns anything (including void), its Haxe inequivalent:
 
-```
-
-
+```haxe
 Dynamic -> Element -> Dynamic
-
-
 ```
 
 These things however are just my opinion, but it does tie nicely into one of my favourite features of TypeScript...
@@ -76,29 +70,21 @@ These things however are just my opinion, but it does tie nicely into one of my 
 
 Lambda functions are basically syntactical sugar to anonymous function definitions so instead of:
 
-```
-
+```haxe
 var fn = function(a, b) { return a+b; }
-
 ```
 
 You could write this as:
 
-```
-
-
-var fn = (a, b) => a+b;
-
-
+```typescript
+var fn = (a, b) => a + b;
 ```
 
 Which is really nice when looping over arrays:
 
-```
-
-var a = [4,2,1,6,5];
-a.sort((a,b)=>a-b).forEach(i=>console.log(i));
-
+```typescript
+var a = [4, 2, 1, 6, 5];
+a.sort((a, b) => a - b).forEach((i) => console.log(i));
 ```
 
 Because TS uses type-inference all the variables in the above are type safe. I really love how terse this syntax is and have had quite a few discussions about introducing it into Haxe.
@@ -107,26 +93,21 @@ There is one big difference between function() and lambda definitions however an
 
 For example take this example from the [javascriptplayground.com blog post](https://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this):
 
-```
-
-
-$("myLink").on("click", function() {
-    console.log(this); //points to myLink (as expected)
-    $.ajax({
-        //ajax set up
-        success: function() {
-            console.log(this); //points to the global object. Huh?
-        }
-    });
+```typescript
+$("myLink").on("click", function () {
+  console.log(this); //points to myLink (as expected)
+  $.ajax({
+    //ajax set up
+    success: function () {
+      console.log(this); //points to the global object. Huh?
+    },
+  });
 });
-
-
 ```
 
 This is a common gotcha in JS coding and the usual solution is to do something like the following:
 
-```
-
+```typescript
 $("myLink").on("click", function() {
     console.log(this); //points to myLink (as expected)
     var _this = this;  //store reference
@@ -138,40 +119,32 @@ console.log(\_this); //better!
 }
 });
 });
-
 ```
 
 In TypeScript lambda functions "this" is scoped to the block in which the lambda was defined so the above can be written more simply as:
 
-```
-
-
+```typescript
 $("myLink").on("click", function() {
     console.log(this); // points to myLink (as expected)
     $.ajax({
         success: () => console.log(this); // points to myLink
     });
 });
-
-
 ```
 
 ### this.
 
 One minor thing that does annoy be about TS is the necessity to put "this." in front of every single member variable access. For example:
 
-```
-
+```typescript
 class Crawler {
-constructor(private url:string){}
+  constructor(private url: string) {}
 
-    crawl(){
-    	console.log(url); // error
-    	console.log(this.url) // okay
-    }
-
+  crawl() {
+    console.log(url); // error
+    console.log(this.url); // okay
+  }
 }
-
 ```
 
 Some may consider it rather minor but I find it annoying coming from a Haxe / AS3 / C# perspective where member variable access is implied. I guess the reasoning is because in JS if you dont supply a var before a variable declaration / usage you are referring to global scope, thus in that above example "console.log(url);" would be trying to log global.url which is undefined.
@@ -195,7 +168,3 @@ The generated JS looks very similar to the source TS (and will look even more so
 More important than any particular nuance of the language however is who is backing it. Microsoft is a huge company with a massive following of developers. It pays many people to work on the language and evangelise it. What this results in is a much bigger community. A bigger community means you have more questions asked on Stack Overflow, more API definitions written and more job positions specialising in the language. Also having Anders Hejlsberg, the father of C#, behind it you can be confident that the language will continue to develop in a manner that (if you are a C# fan) makes sense.
 
 I have been having a whole lot of fun in TypeScript, and have high hopes for its future.
-
-```
-
-```

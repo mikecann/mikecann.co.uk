@@ -1,7 +1,7 @@
 ---
 coverImage: >-
   /posts/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/cover.jpg
-date: '2014-11-11T01:24:26.000Z'
+date: "2014-11-11T01:24:26.000Z"
 tags:
   - polymer
   - unity
@@ -53,11 +53,11 @@ shield.SaveAsync();
 .. and retrieve data:
 
 [code lang="csharp"]
-var query = new ParseQuery&lt;Armor&gt;()
+var query = new ParseQuery<Armor>()
 .WhereLessThanOrEqualTo(&quot;rupees&quot;, ((Player)ParseUser.CurrentUser).Rupees);
-query.FindAsync().ContinueWith(t =&gt;
+query.FindAsync().ContinueWith(t =>
 {
-IEnumerable&lt;Armor&gt; result = t.Result;
+IEnumerable<Armor> result = t.Result;
 });
 [/code]
 
@@ -70,7 +70,7 @@ query.equalTo(&quot;movie&quot;, request.params.movie);
 query.find({
 success: function(results) {
 var sum = 0;
-for (var i = 0; i &lt; results.length; ++i) {
+for (var i = 0; i < results.length; ++i) {
 sum += results[i].get(&quot;stars&quot;);
 }
 response.success(sum / results.length);
@@ -122,8 +122,8 @@ public class GameUser : ParseUser
  [ParseFieldName(&quot;playerName&quot;)]
 public string PlayerName
 {
-get { return GetProperty&lt;string&gt;(&quot;PlayerName&quot;); }
-set { SetProperty&lt;string&gt;(value, &quot;PlayerName&quot;); }
+get { return GetProperty<string>(&quot;PlayerName&quot;); }
+set { SetProperty<string>(value, &quot;PlayerName&quot;); }
 }
 
     public bool IsPlayerNameSet { get { return !String.IsNullOrEmpty(PlayerName); } }

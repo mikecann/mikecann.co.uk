@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/taming-unity/cover.jpg
-date: '2014-04-26T00:42:52.000Z'
+date: "2014-04-26T00:42:52.000Z"
 tags:
   - games
   - mvc
@@ -26,9 +26,9 @@ The method I was using was in the Awake() I would use GameObject.FindObjectOfTyp
 
 [code lang="csharp"]
 private MyManager \_manager;
-public MyClass(MyManager &lt;span class=&quot;hiddenGrammarError&quot; pre=&quot;&quot;&gt;manager)
+public MyClass(MyManager <span class=&quot;hiddenGrammarError&quot; pre=&quot;&quot;>manager)
 {
-\_manager&lt;/span&gt; = manager;
+\_manager</span> = manager;
 }
 
 void Awake()

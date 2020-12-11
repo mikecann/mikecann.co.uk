@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-02T08:25:14.000Z'
+date: "2010-08-02T08:25:14.000Z"
 tags:
   - behaviour
   - code
@@ -28,19 +28,19 @@ The code in the video is as follows:
 
 ```
 
-&lt;s:WindowedApplication xmlns:fx="https://ns.adobe.com/mxml/2009"
+<s:WindowedApplication xmlns:fx="https://ns.adobe.com/mxml/2009"
 xmlns:s="library://ns.adobe.com/flex/spark"
-xmlns:mx="library://ns.adobe.com/flex/mx"&gt;
+xmlns:mx="library://ns.adobe.com/flex/mx">
 
-    &lt;s:Group rollOver="trace('ya')"&gt;
-    	&lt;s:Rect x="100" y="100" width="20" height="20"&gt;
-    		&lt;s:fill&gt;
-    			&lt;s:SolidColor color="0x00ff00" /&gt;
-    		&lt;/s:fill&gt;
-    	&lt;/s:Rect&gt;
-    &lt;/s:Group&gt;
+    <s:Group rollOver="trace('ya')">
+    	<s:Rect x="100" y="100" width="20" height="20">
+    		<s:fill>
+    			<s:SolidColor color="0x00ff00" />
+    		</s:fill>
+    	</s:Rect>
+    </s:Group>
 
-&lt;/s:WindowedApplication&gt;
+</s:WindowedApplication>
 
 ```
 
@@ -50,19 +50,19 @@ So this now works:
 
 ```
 
-&lt;s:WindowedApplication xmlns:fx="https://ns.adobe.com/mxml/2009"
+<s:WindowedApplication xmlns:fx="https://ns.adobe.com/mxml/2009"
    xmlns:s="library://ns.adobe.com/flex/spark"
-   xmlns:mx="library://ns.adobe.com/flex/mx"&gt;
+   xmlns:mx="library://ns.adobe.com/flex/mx">
 
-	&lt;s:Group rollOver="trace('ya')" mouseEnabledWhereTransparent="false"&gt;
-		&lt;s:Rect x="100" y="100" width="20" height="20"&gt;
-			&lt;s:fill&gt;
-				&lt;s:SolidColor color="0x00ff00" /&gt;
-			&lt;/s:fill&gt;
-		&lt;/s:Rect&gt;
-	&lt;/s:Group&gt;
+	<s:Group rollOver="trace('ya')" mouseEnabledWhereTransparent="false">
+		<s:Rect x="100" y="100" width="20" height="20">
+			<s:fill>
+				<s:SolidColor color="0x00ff00" />
+			</s:fill>
+		</s:Rect>
+	</s:Group>
 
-&lt;/s:WindowedApplication&gt;
+</s:WindowedApplication>
 
 ```
 

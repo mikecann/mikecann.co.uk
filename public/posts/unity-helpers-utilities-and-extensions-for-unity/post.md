@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/unity-helpers-utilities-and-extensions-for-unity/cover.jpg
-date: '2014-06-03T03:23:45.000Z'
+date: "2014-06-03T03:23:45.000Z"
 tags:
   - github
   - library
@@ -20,16 +20,16 @@ One such annoyance is the inability to use interfaces in GetComponent() and GetC
 using UnityHelpers;
 
 var obj = new GameObject();
-obj.AddComponent&lt;MyComponent&gt;();
+obj.AddComponent<MyComponent>();
 
-obj.Has&lt;MyComponent&gt;(); // Returns true or false
-obj.Has&lt;IMyComponent&gt;(); // Can also handle interfaces
+obj.Has<MyComponent>(); // Returns true or false
+obj.Has<IMyComponent>(); // Can also handle interfaces
 
-obj.Get&lt;MyComponent&gt;(); // Returns the first component
-obj.Get&lt;IMyComponent&gt;(); // Returns the first component that implements the interface
+obj.Get<MyComponent>(); // Returns the first component
+obj.Get<IMyComponent>(); // Returns the first component that implements the interface
 
-obj.GetAll&lt;MyComponent&gt;(); // Gets all the components
-obj.GetAll&lt;IMyComponent&gt;(); // Gets all the components that implement the interface
+obj.GetAll<MyComponent>(); // Gets all the components
+obj.GetAll<IMyComponent>(); // Gets all the components that implement the interface
 [/code]
 
 Another utility is for adding children to GameObjects:
@@ -41,7 +41,7 @@ var obj = new GameObject();
 
 obj.AddChild(&quot;Mike&quot;); // Creates a new GameObject named &quot;Mike&quot; and adds it as a child
 
-var player = obj.AddChild&lt;Player&gt;(&quot;Dave&quot;); // Creates a new GameObject named &quot;Dave&quot; and adds the component &quot;Player&quot; returning it
+var player = obj.AddChild<Player>(&quot;Dave&quot;); // Creates a new GameObject named &quot;Dave&quot; and adds the component &quot;Player&quot; returning it
 
 obj.AddChild(typeof(Player), typeof(Friendly), typeof(AI)); // Creates a new GameObject and adds a number of components
 [/code]

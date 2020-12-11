@@ -50,8 +50,7 @@ So I kind of cheated. The fountain simulation on the GPU isn't the same as my 
 
 Currently each crawler's position is calculated in the vertex shader each frame like so:
 
-```
-
+```glsl
 attribute float maxAge;
 attribute float startingAge;
 attribute float velX;
@@ -64,15 +63,14 @@ varying float invAgeRatioSq;
 
 void main(void)
 {
-float age = mod(uTime+startingAge, maxAge);
-float ageRatio = age / maxAge;
-float invAge = 1.0 - ageRatio;
-invAgeRatioSq = 1.0 - (ageRatio \* ageRatio);
+  float age = mod(uTime+startingAge, maxAge);
+  float ageRatio = age / maxAge;
+  float invAge = 1.0 - ageRatio;
+  invAgeRatioSq = 1.0 - (ageRatio \* ageRatio);
 
-    gl_Position = vec4((-velX*ageRatio*0.8), (velY*ageRatio)+(-0.4*age*ageRatio)-0.5, 0., 1.);
+  gl_Position = vec4((-velX*ageRatio*0.8), (velY*ageRatio)+(-0.4*age*ageRatio)-0.5, 0., 1.);
 
-    gl_PointSize = uPointSize;
-
+  gl_PointSize = uPointSize;
 }
 
 ```
@@ -86,7 +84,3 @@ I have uploaded the source for this project here incase anyone was interested:
 [/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip](/projects/HTML5SpeedTests/HTML5SpeedTests_2.zip)
 
 I warn you its ugly and uncommented, however it should be enough of a start for anyone looking to do something similar.
-
-```
-
-```

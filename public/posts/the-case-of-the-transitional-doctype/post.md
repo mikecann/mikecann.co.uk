@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-12-10T20:44:37.000Z'
+date: "2009-12-10T20:44:37.000Z"
 tags:
   - html
   - programming
@@ -22,11 +22,11 @@ Normally when you hear that there is an issue with a site on IE and not on FF or
 
 To cut a long story short I worked my way up from the bottom of the page to the top until I reaced the very top line:
 
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 This line was the only line that differed in the index to the category page, which read:
 
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"&gt;
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 
 So I took out the "Transitional" and low and behold it worked!
 

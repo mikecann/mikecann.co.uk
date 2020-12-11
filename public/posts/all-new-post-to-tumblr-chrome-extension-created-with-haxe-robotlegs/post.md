@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-09-11T19:29:45.000Z'
+date: "2012-09-11T19:29:45.000Z"
 tags:
   - chrome
   - extension
@@ -44,8 +44,7 @@ An example of this is the way in which you access the "localStorage" object in c
 
 So to access the localStorage you can use untyped to quickly get access to a global variable, I then decided to wrap this little hack in a Model class to make it a little neater:
 
-```
-
+```haxe
 package models;
 import js.Lib;
 
@@ -56,7 +55,6 @@ import js.Lib;
 
 class ChromeLocalStorageModel extends BaseModel
 {
-
 	public function get(key:String) : Dynamic
 	{
 		var val = untyped localStorage[key];
@@ -69,7 +67,6 @@ class ChromeLocalStorageModel extends BaseModel
 		trace('Saving in localStorage: '+key+" :: "+val);
 		untyped localStorage[key] = val;
 	}
-
 }
 
 ```
@@ -82,29 +79,25 @@ The only problem is the issue with Views and Mediation. Because unlike Flash eve
 
 Im not sure if the way I have used RobotLegs is the correct or best way, it was more of an experiment as I went along. The way I have done it is to wrap many of the main HTML elements in my own view classes. So for example I have a "DivView" that represents a "div" and extends BaseView:
 
-```
-
+```haxe
 class DivView extends BaseView
 {
-
 	public function new(elementId:String=null)
 	{
 		super(Lib.document.createElement('div'));
 		if (elementId != null) element.id = elementId;
 	}
-
 }
 
 ```
 
 BaseView implements the IViewContainer interface:
 
-```
-
+```haxe
 class BaseView implements IViewContainer
 {
-	public var viewAdded:Dynamic -&gt; Void;
-	public var viewRemoved:Dynamic -&gt; Void;
+	public var viewAdded:Dynamic -> Void;
+	public var viewRemoved:Dynamic -> Void;
 
 	public var element : HtmlDom;
 	public var parent : BaseView;
@@ -152,59 +145,53 @@ class BaseView implements IViewContainer
 
 Then say I want to construct the following html:
 
-```
-
-&lt;div id="container"&gt;
-&lt;div id="inner"&gt;Hello World!&lt;/div&gt;
-&lt;/div&gt;
-
+```haxe
+<div id="container">
+<div id="inner">Hello World!</div>
+</div>
 ```
 
 I would do something like this:
 
-```
-
+```haxe
 class MainPopupContainer extends DivView
 {
-private var inner : DivView;
+	private var inner : DivView;
 
-    public function new()
-    {
-    	super("container");
+	public function new()
+	{
+		super("container");
 
-    	inner = new DivView("inner");
-    	inner.element.innerHTML = "Hello World!";
-    	add(inner);
-    }
-
+		inner = new DivView("inner");
+		inner.element.innerHTML = "Hello World!";
+		add(inner);
+	}
 }
 
 ```
 
 Then perhaps I want to turn the "Hello World!" red when clicked I would do something like this:
 
-```
-
+```haxe
 class MainPopupContainer extends DivView
 {
-private var inner : DivView;
+	private var inner : DivView;
 
-    public function new()
-    {
-    	super("container");
+	public function new()
+	{
+		super("container");
 
-    	inner = new DivView("inner");
-    	inner.element.innerHTML = "Hello World!";
-    	add(inner);
+		inner = new DivView("inner");
+		inner.element.innerHTML = "Hello World!";
+		add(inner);
 
-    	new JQuery(inner.element).click(onInnerClicked);
-    }
+		new JQuery(inner.element).click(onInnerClicked);
+	}
 
-    private function onInnerClicked()
-    {
-    	inner.element.style.color = "#FF0000";
-    }
-
+	private function onInnerClicked()
+	{
+		inner.element.style.color = "#FF0000";
+	}
 }
 
 ```
@@ -218,7 +205,3 @@ For example I may have a "HeaderOptionButton" that defines some inline styles th
 As I said, im not sure if im doing it the "right" or "best" way, its just the way that seemed to work at the time ;)
 
 Well that's a quick overview of where im at. Once I have cleaned the project up a little and added some missing features ill be sticking the source up on GitHub for anyone interested.
-
-```
-
-```

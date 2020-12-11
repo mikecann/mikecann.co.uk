@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-11-28T19:14:10.000Z'
+date: "2010-11-28T19:14:10.000Z"
 tags:
   - as3
   - code
@@ -10,7 +10,7 @@ tags:
   - mxml
   - spark
   - tip
-title: 'Multi-Line Flex Label [MXML]'
+title: "Multi-Line Flex Label [MXML]"
 ---
 
 Just stumbled across this one while writing some mxml for a personal project and thought I would share.
@@ -19,7 +19,7 @@ Have you ever wanted to have multi-line text in your label component in spark an
 
 ```
 
-&lt;s:Label text="I like text on the n next line" /&gt;
+<s:Label text="I like text on the n next line" />
 
 ```
 
@@ -33,7 +33,7 @@ After some playing however I stumbled accross the following solution:
 
 ```
 
-&lt;s:Label text="I like text on the {'n'} next line" /&gt;
+<s:Label text="I like text on the {'n'} next line" />
 
 ```
 

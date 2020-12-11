@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-10-14T20:02:33.000Z'
+date: "2010-10-14T20:02:33.000Z"
 tags:
   - chrome
   - extension
@@ -53,7 +53,7 @@ function postImage(info, tab) {
 
     var success = function (data, textStatus, request) {
       if (textStatus == "success") {
-        alert("Image posted to Tumblr. Image -&gt; " + info.srcUrl);
+        alert("Image posted to Tumblr. Image -> " + info.srcUrl);
       } else {
         alert("Bad email or password");
       }
@@ -74,4 +74,4 @@ Oh, there is one issue.
 
 No matter what I tried I couldn't manage to get the Tumblr API to return an error. So if you enter your username or password incorrectly it still reports success, not entirely sure why, if someone knows I would love to hear why!
 
-Interested? You can go grab it over on the chrome extensions gallery page -&gt; [HERE](https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah?hl=en)
+Interested? You can go grab it over on the chrome extensions gallery page -> [HERE](https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah?hl=en)

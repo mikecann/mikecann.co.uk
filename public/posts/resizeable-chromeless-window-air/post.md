@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-02-22T00:06:58.000Z'
+date: "2010-02-22T00:06:58.000Z"
 tags:
   - air
   - component
@@ -26,13 +26,13 @@ The component that lets you do this is pretty simple:
 
 ```
 
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;s:Group xmlns:fx="https://ns.adobe.com/mxml/2009"
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="https://ns.adobe.com/mxml/2009"
 xmlns:s="library://ns.adobe.com/flex/spark"
-xmlns:mx="library://ns.adobe.com/flex/halo"&gt;
+xmlns:mx="library://ns.adobe.com/flex/halo">
 
-&lt;fx:Script&gt;
-&lt;![CDATA[
+<fx:Script>
+<![CDATA[
 import flash.display.NativeWindowResize;
 import flash.events.MouseEvent;
 
@@ -65,82 +65,82 @@ else { return; }
 stage.nativeWindow.startResize(resizeFrom);
 }
 
-]]&gt;
-&lt;/fx:Script&gt;
+]]>
+</fx:Script>
 
-&lt;s:Group id="topSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="0" y="0" width="{width}" height="{RESIZE_AREA}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0xFF0000" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="topSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="0" y="0" width="{width}" height="{RESIZE_AREA}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0xFF0000" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="rightSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="{width-RESIZE_AREA}" y="0" width="{RESIZE_AREA}" height="{height}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0x00FF00" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="rightSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="{width-RESIZE_AREA}" y="0" width="{RESIZE_AREA}" height="{height}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0x00FF00" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="bottomSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="0" y="{height-RESIZE_AREA}" width="{width}" height="{RESIZE_AREA}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0x0000FF" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="bottomSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="0" y="{height-RESIZE_AREA}" width="{width}" height="{RESIZE_AREA}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0x0000FF" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="leftSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="0" y="0" width="{RESIZE_AREA}" height="{height}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0x000000" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="leftSide" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="0" y="0" width="{RESIZE_AREA}" height="{height}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0x000000" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="topLeft" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="0" y="0" width="{RESIZE_AREA}" height="{RESIZE_AREA}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0xffffff" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="topLeft" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="0" y="0" width="{RESIZE_AREA}" height="{RESIZE_AREA}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0xffffff" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="topRight" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="{width-RESIZE_AREA}" y="0" width="{RESIZE_AREA}" height="{RESIZE_AREA}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0xffffff" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="topRight" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="{width-RESIZE_AREA}" y="0" width="{RESIZE_AREA}" height="{RESIZE_AREA}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0xffffff" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="bottomRight" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="{width-RESIZE_AREA}" y="{height-RESIZE_AREA}" width="{RESIZE_AREA}" height="{RESIZE_AREA}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0xffffff" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="bottomRight" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="{width-RESIZE_AREA}" y="{height-RESIZE_AREA}" width="{RESIZE_AREA}" height="{RESIZE_AREA}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0xffffff" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;s:Group id="bottomLeft" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
-x="0" y="{height-RESIZE_AREA}" width="{RESIZE_AREA}" height="{RESIZE_AREA}"&gt;
-&lt;s:Rect width="100%" height="100%"&gt;
-&lt;s:fill&gt;
-&lt;s:SolidColor color="0xffffff" /&gt;
-&lt;/s:fill&gt;
-&lt;/s:Rect&gt;
-&lt;/s:Group&gt;
+<s:Group id="bottomLeft" rollOver="onRollOver(event)" rollOut="onRollOut(event)" mouseDown="onMouseDown(event)"
+x="0" y="{height-RESIZE_AREA}" width="{RESIZE_AREA}" height="{RESIZE_AREA}">
+<s:Rect width="100%" height="100%">
+<s:fill>
+<s:SolidColor color="0xffffff" />
+</s:fill>
+</s:Rect>
+</s:Group>
 
-&lt;/s:Group&gt;
+</s:Group>
 
 ```
 
@@ -148,12 +148,12 @@ To use it in your app just add the component into your existing view somewhere:
 
 ```
 
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;s:SkinnableContainer xmlns:fx="https://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/halo"&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<s:SkinnableContainer xmlns:fx="https://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/halo">
 
-&lt;components:WindowResizer width="{width}" height="{height}" alpha="0" buttonMode="true" /&gt;
+<components:WindowResizer width="{width}" height="{height}" alpha="0" buttonMode="true" />
 
-&lt;/s:SkinnableContainer&gt;
+</s:SkinnableContainer>
 
 ```
 

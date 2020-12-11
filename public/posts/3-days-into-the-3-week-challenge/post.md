@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-07-04T22:23:23.000Z'
+date: "2012-07-04T22:23:23.000Z"
 tags:
   - challenge
   - game
@@ -32,22 +32,22 @@ Loading this key first I can then determine what colour the platform will be rec
 
 class LevelManager
 {
-public static var TYPES : Hash&lt;Class&lt;Dynamic&gt;&gt;;
+public static var TYPES : Hash<Class<Dynamic>>;
 
     public var gridW : Int;
     public var gridH : Int;
-    public var tiles : Array&lt;BaseObject&gt;;
+    public var tiles : Array<BaseObject>;
 
     public function new()
     {
     	if (TYPES == null)
     	{
     		var objectTypes = [null, SolidBlock, SpawnPoint, Ring];
-    		TYPES = new Hash&lt;Class&lt;Dynamic&gt;&gt;();
+    		TYPES = new Hash<Class<Dynamic>>();
     		var bmd =  Assets.getBitmapData("assets/levels/key.png");
     		if (bmd == null) throw new Error("key png is null for some reason!");
     		var i = 0;
-    		for (y in 0...bmd.height) for (x in 0...bmd.width) if(i&lt;objectTypes.length) TYPES.set("" + StringTools.hex(bmd.getPixel(x, y), 6), objectTypes[i++]);
+    		for (y in 0...bmd.height) for (x in 0...bmd.width) if(i<objectTypes.length) TYPES.set("" + StringTools.hex(bmd.getPixel(x, y), 6), objectTypes[i++]);
     	}
     }
 
@@ -135,8 +135,8 @@ private function checkTileCollide(fromTX:Int, fromTY:Int, toTX:Int, toTY:Int, po
 	{
 		if (dTX == 0)
 		{
-			var d =  Math.abs(pos.y-((toTY - fromTY) &gt; 0?toTY * Game.GRID_SIZE:fromTY * Game.GRID_SIZE));
-			if (d &lt; radius)
+			var d =  Math.abs(pos.y-((toTY - fromTY) > 0?toTY * Game.GRID_SIZE:fromTY * Game.GRID_SIZE));
+			if (d < radius)
 			{
 				pos.y += dTY * (radius - d);
 				vel.y = 0;
@@ -145,8 +145,8 @@ private function checkTileCollide(fromTX:Int, fromTY:Int, toTX:Int, toTY:Int, po
 		}
 		if (dTY == 0)
 		{
-			var d =  Math.abs(pos.x-((toTX - fromTX) &gt; 0?toTX * Game.GRID_SIZE:fromTX * Game.GRID_SIZE));
-			if (d &lt; radius)
+			var d =  Math.abs(pos.x-((toTX - fromTX) > 0?toTX * Game.GRID_SIZE:fromTX * Game.GRID_SIZE));
+			if (d < radius)
 			{
 				pos.x += dTX * (radius - d);
 				vel.x = 0;
@@ -155,9 +155,9 @@ private function checkTileCollide(fromTX:Int, fromTY:Int, toTX:Int, toTY:Int, po
 		}
 		else
 		{
-			var tp = new Vec2((dTX&gt;0?fromTX:toTX)*Game.GRID_SIZE, (dTY&gt;0?fromTY:toTY)*Game.GRID_SIZE);
+			var tp = new Vec2((dTX>0?fromTX:toTX)*Game.GRID_SIZE, (dTY>0?fromTY:toTY)*Game.GRID_SIZE);
 			var vToCorner = new Vec2(tp.x - pos.x, tp.y - pos.y);
-			if (vToCorner.lengthSqr() &lt; radius * radius)
+			if (vToCorner.lengthSqr() < radius * radius)
 			{
 				var ang = Math.atan2(vToCorner.y, vToCorner.x);
 				pos.x = tp.x - Math.cos(ang) * radius;

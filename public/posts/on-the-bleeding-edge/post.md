@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-02-10T23:26:38.000Z'
+date: "2010-02-10T23:26:38.000Z"
 tags:
   - air
   - flex
@@ -28,7 +28,7 @@ So after months of work, hardship and struggles I read a very interesting articl
 
 So what this meant to me was that I could write the bulk of my project including its interface in my much preferred Adobe Flex (Air) and then use Native Process to communicate with a small kernel of Java that would do all the dirty work that Air itself cant do.
 
-So after a little playing with [Flerry](https://www.riaspace.net/2010/01/flerry-flex-java-bridge-for-adobe-air-2-0/) for Air-&gt;Java bridge I started to think about the structure of the code and the framework I would use. For my initial few runs at this project I had been using the Java version of PureMVC. I really like some aspects of PureMVC but I think its can be so overly cumbersome in some circumstances (ill write another post on this in the future I think). So instead I looked at the alternatives.
+So after a little playing with [Flerry](https://www.riaspace.net/2010/01/flerry-flex-java-bridge-for-adobe-air-2-0/) for Air->Java bridge I started to think about the structure of the code and the framework I would use. For my initial few runs at this project I had been using the Java version of PureMVC. I really like some aspects of PureMVC but I think its can be so overly cumbersome in some circumstances (ill write another post on this in the future I think). So instead I looked at the alternatives.
 
 I have been using [Mate](https://mate.asfusion.com/) alot recently at work and on my own mini-project the [Audio Book Organiser](https://www.mikecann.co.uk/programming/audio-book-organiser-air-mate-flex-4/). However as this project is partly for my own learning and personal growth I decided to look at what else there was out there. From the videos by [Jessie Warden](https://www.mikecann.co.uk/fun-videos/jessie-warden-flash-flex-videos/) I had heard about [Robot Legs](https://www.robotlegs.org). Apparently this framework has been around for a while, but it was the first I had heard of it. Taking at look at it I immediately became very excited as it looks like it offers all the things that make PureMVC great but without the extra coding-baggage that goes with it.
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-07-10T19:13:25.000Z'
+date: "2011-07-10T19:13:25.000Z"
 tags:
   - canvas
   - haxe
@@ -32,7 +32,7 @@ The results this time were better (14FPS with 5,000 crawlers) so I now wondered 
 
 [/projects/HTML5SpeedTests/HaXeCanvas/bin/](/projects/HTML5SpeedTests/HaXeCanvas/bin/)
 
-Surprisingly it actually runs faster (17FPS with 5,000 crawlers) ! This is quite a surprise and totally contradicts my notion that going from HaXe -&gt; JS would incur a cost. I was expecting some cost, but a performance increase?! I can only speculate that behind the scenes the JS engine in the browser is able to JIT compile the HaXe JS much better than the hand-crafted JS and hence more speed.
+Surprisingly it actually runs faster (17FPS with 5,000 crawlers) ! This is quite a surprise and totally contradicts my notion that going from HaXe -> JS would incur a cost. I was expecting some cost, but a performance increase?! I can only speculate that behind the scenes the JS engine in the browser is able to JIT compile the HaXe JS much better than the hand-crafted JS and hence more speed.
 
 If you are interested in the source then I have uploaded it here: [/projects/HTML5SpeedTests/HTML5SpeedTests_1.zip](/projects/HTML5SpeedTests/HTML5SpeedTests_1.zip)
 

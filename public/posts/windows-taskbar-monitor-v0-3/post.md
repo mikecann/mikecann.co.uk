@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-10-01T10:02:07.000Z'
+date: "2011-10-01T10:02:07.000Z"
 tags: []
 title: Windows Taskbar Monitor v0.3
 ---
@@ -35,7 +35,7 @@ One way to get all three to start with different monitors when windows startup w
 
 [![](/wp-content/uploads/2011/10/Shot_04.png "Shot_04")](/wp-content/uploads/2011/10/Shot_04.png)
 
-**2) Navigate to Programs &gt; Startup then make three shortcuts to Windows Taskbar Monitor v0.3 you can rename the shortcuts if you like:**
+**2) Navigate to Programs > Startup then make three shortcuts to Windows Taskbar Monitor v0.3 you can rename the shortcuts if you like:**
 
 [![](/wp-content/uploads/2011/10/Shot_05.png "Shot_05")](/wp-content/uploads/2011/10/Shot_05.png)
 

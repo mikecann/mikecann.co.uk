@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/parse-com-type-safe-extensions-for-unity/cover.jpg
-date: '2014-05-10T09:24:05.000Z'
+date: "2014-05-10T09:24:05.000Z"
 tags:
   - extensions
   - github
@@ -18,19 +18,19 @@ As mentioned in my [previous post](https://www.mikecann.co.uk/games/taming-unity
 The Parse Unity library is okay, not as fully fleshed as some of the other languages they support but good enough for what I needed apart from one critical point, the lack of type-safety in the queries such as:
 
 [code language="csharp"]
-new ParseQuery&lt;Armor&gt;().WhereLessThanOrEqualTo(&quot;cost&quot;, 13);
+new ParseQuery<Armor>().WhereLessThanOrEqualTo(&quot;cost&quot;, 13);
 [/code]
 
 This annoyed me so much that I decided to write some extension methods that take advantage of Lambda functions to provide the type-safety. The above now becomes:
 
 [code language="csharp"]
-new ParseQuery&lt;Armor&gt;().WhereLessThanOrEqualTo(a =&gt; a.Cost, 13);
+new ParseQuery<Armor>().WhereLessThanOrEqualTo(a => a.Cost, 13);
 [/code]
 
 The library can also handle chains such as
 
 [code language="csharp"]
-new ParseQuery&lt;Player&gt;().Include(p =&gt; p.Stats.Heath.Remaining); // becomes &quot;stats.health.remaining&quot;
+new ParseQuery<Player>().Include(p => p.Stats.Heath.Remaining); // becomes &quot;stats.health.remaining&quot;
 [/code]
 
 The library also handles interfaces by introducing a new attribute "ParseFieldType".
@@ -42,7 +42,7 @@ public class Father : ParseObject, IFather
 public IChild Daughter { get; set; }
 }
 
-new ParseQuery&lt;Father&gt;().Include(f =&gt; f.Daughter.Name); // becomes &quot;daughter.name&quot; and works because ParseFieldType redirects the chain to Child rather than IChild
+new ParseQuery<Father>().Include(f => f.Daughter.Name); // becomes &quot;daughter.name&quot; and works because ParseFieldType redirects the chain to Child rather than IChild
 [/code]
 
 It can even handle lists
@@ -51,10 +51,10 @@ It can even handle lists
 public class Father : ParseObject, IFather
 {
 [ParseFieldName(&quot;children&quot;)][parsefieldtype(typeof(child))]
-public List&lt;IChild&gt; Children { get; set; }
+public List<IChild> Children { get; set; }
 }
 
-new ParseQuery&lt;Father&gt;().Include(f =&gt; f.Children[0].Name); // becomes &quot;children.name&quot;
+new ParseQuery<Father>().Include(f => f.Children[0].Name); // becomes &quot;children.name&quot;
 [/code]
 
 To get started go grab the .dll from my Github project for the library: [https://github.com/mikecann/Unity-Parse-Helpers](https://github.com/mikecann/Unity-Parse-Helpers)

@@ -56,7 +56,7 @@ public float maxAge = 3;
     void Update()
     {
     	age += Time.deltaTime;
-    	if (age &gt;= maxAge)
+    	if (age >= maxAge)
     		Destroy(gameObject);
     }
 
@@ -82,11 +82,11 @@ public Bullet Bullet { get; set; }
 
 public class BulletAgingSystem : ISystem
 {
-private INodeList&lt;BulletNode&gt; \_nodes;
+private INodeList<BulletNode> \_nodes;
 
     public void AddedToEngine(Engine engine)
     {
-    	_nodes = engine.GetNodes&lt;BulletNode&gt;();
+    	_nodes = engine.GetNodes<BulletNode>();
     }
 
     public void RemovedFromEngine(Engine engine)
@@ -99,7 +99,7 @@ private INodeList&lt;BulletNode&gt; \_nodes;
     	foreach (var node in _nodes)
     	{
     		node.Bullet.age += delta;
-    		if (node.Bullet.age &gt;= node.Bullet.maxAge)
+    		if (node.Bullet.age >= node.Bullet.maxAge)
     			node.Entity.Destroy();
     	}
     }
@@ -122,7 +122,7 @@ public float maxAge = 3;
 public float age;
 }
 
-public class BulletAgingSystem : NodelessSystem&lt;Bullet, Entity&gt;
+public class BulletAgingSystem : NodelessSystem<Bullet, Entity>
 {
 public BulletAgeSystem()
 {
@@ -132,7 +132,7 @@ public BulletAgeSystem()
     private void OnUpdate(float delta, Bullet bullet, Entity entity)
     {
     	bullet.age += delta;
-    	if (bullet.age &gt;= bullet.maxAge)
+    	if (bullet.age >= bullet.maxAge)
     		entity.Destroy();
     }
 
@@ -152,12 +152,12 @@ private PlayerManager manager;
 
     void Awake()
     {
-    	manager = FindObjectOfType&lt;PlayerManager&gt;();
+    	manager = FindObjectOfType<PlayerManager>();
     }
 
      void OnCollisionEnter2D(Collision2D coll)
      {
-    	 var asteroid = hit.gameObject.GetComponent&lt;Asteroid&gt;();
+    	 var asteroid = hit.gameObject.GetComponent<Asteroid>();
          if (asteroid != null)
     	 	manager.PlayerHitByAsteroid(this);
      }
@@ -168,7 +168,7 @@ public class PlayerManager : MonoBehaviour
 {
 public void PlayerHitByAsteroid(Player player)
 {
-var asteroids = FindObjectsOfType&lt;Asteroid&gt;();
+var asteroids = FindObjectsOfType<Asteroid>();
 
     	// Find a place to respawn the Player
     	var postion = UnityEngine.Random.insideUnitCircle*1000;
@@ -179,10 +179,10 @@ var asteroids = FindObjectsOfType&lt;Asteroid&gt;();
     	player.transform.position.y = postion.y;
     }
 
-    private bool IsClearToAddShip(Vector2 newSpaceshipPosition, IEnumberable&lt;Asteroid&gt; asteroids)
+    private bool IsClearToAddShip(Vector2 newSpaceshipPosition, IEnumberable<Asteroid> asteroids)
     {
     	foreach (var asteroid in asteroids)
-    		if (Vector2.Distance(asteroid.transform.position, newSpaceshipPosition) &lt;= 1f)
+    		if (Vector2.Distance(asteroid.transform.position, newSpaceshipPosition) <= 1f)
     			return false;
 
     	return true;
@@ -202,7 +202,7 @@ public class Player : MonoBehaviour
 
 public class Collisions : MonoBehaviour
 {
-public List&lt;Collision2D&gt; hits = new List&lt;Collision2D&gt;();
+public List<Collision2D> hits = new List<Collision2D>();
 
     void OnCollisionEnter2D(Collision2D coll)
     {
@@ -226,13 +226,13 @@ public Transform Transform { get; set; }
 
 public class PlayerCollisionSystem : ISystem
 {
-private INodeList&lt;PlayerCollisionNode&gt; \_players;
-private INodeList&lt;AsteroidNode&gt; \_asteroids;
+private INodeList<PlayerCollisionNode> \_players;
+private INodeList<AsteroidNode> \_asteroids;
 
     public void AddedToEngine(Engine engine)
     {
-    	_players = engine.GetNodes&lt;PlayerCollisionNode&gt;();
-    	_asteroids = engine.GetNodes&lt;AsteroidNode&gt;();
+    	_players = engine.GetNodes<PlayerCollisionNode>();
+    	_asteroids = engine.GetNodes<AsteroidNode>();
     }
 
     public void RemovedFromEngine(Engine engine)
@@ -247,7 +247,7 @@ private INodeList&lt;AsteroidNode&gt; \_asteroids;
     	{
     		foreach (var hit in playerNode.Collision.hits)
             {
-    			var asteroid = hit.gameObject.GetComponent&lt;Asteroid&gt;();
+    			var asteroid = hit.gameObject.GetComponent<Asteroid>();
                 if (asteroid == null)
                     continue;
 
@@ -270,7 +270,7 @@ private INodeList&lt;AsteroidNode&gt; \_asteroids;
     private bool IsClearToAddShip(Vector2 newSpaceshipPosition)
     {
     	foreach (var asteroidNode in _asteroids)
-    		if (Vector2.Distance(asteroidNode.Transform.position, newSpaceshipPosition) &lt;= 1f)
+    		if (Vector2.Distance(asteroidNode.Transform.position, newSpaceshipPosition) <= 1f)
     			return false;
 
     	return true;
@@ -339,7 +339,7 @@ The "Entity" represents an Entity in Ash but in Unity is actually a MonoBehaviou
 public interface IEntity
 {
 ...
-T Add&lt;T&gt;() where T : Component;
+T Add<T>() where T : Component;
 void Remove(Component component);
 ...
 }

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-08-16T19:44:06.000Z'
+date: "2010-08-16T19:44:06.000Z"
 tags:
   - as3
   - as3signals
@@ -9,7 +9,7 @@ tags:
   - dictionary
   - puremvc
   - robotlegs
-title: 'AS3, Dictionary & Weak Method Closures'
+title: "AS3, Dictionary & Weak Method Closures"
 ---
 
 This is going to be a technical post so those of you not of the code persuasion look away now..
@@ -133,13 +133,13 @@ And then a simple Application to hook it all together:
 
 ```
 
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;s:Application xmlns:fx="https://ns.adobe.com/mxml/2009"
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="https://ns.adobe.com/mxml/2009"
 xmlns:s="library://ns.adobe.com/flex/spark"
-xmlns:mx="library://ns.adobe.com/flex/mx"&gt;
+xmlns:mx="library://ns.adobe.com/flex/mx">
 
-    &lt;fx:Script&gt;
-    	&lt;![CDATA[
+    <fx:Script>
+    	<![CDATA[
     		import mx.controls.List;
 
     		protected var _dispatcher : SimpleDispatcher = new SimpleDispatcher(true);
@@ -166,16 +166,16 @@ xmlns:mx="library://ns.adobe.com/flex/mx"&gt;
     			_dispatcher.dispatch();
     		}
 
-    	]]&gt;
-    &lt;/fx:Script&gt;
+    	]]>
+    </fx:Script>
 
-    &lt;s:VGroup width="100%" height="100%" horizontalAlign="center" verticalAlign="middle"&gt;
-    	&lt;s:Button label="Add Listener" click="onAddListenerClicked(event)" /&gt;
-    	&lt;s:Button label="Run GC" click="onRunGCClicked(event)" /&gt;
-    	&lt;s:Button label="Dispatch" click="onDispatchClicked(event)" /&gt;
-    &lt;/s:VGroup&gt;
+    <s:VGroup width="100%" height="100%" horizontalAlign="center" verticalAlign="middle">
+    	<s:Button label="Add Listener" click="onAddListenerClicked(event)" />
+    	<s:Button label="Run GC" click="onRunGCClicked(event)" />
+    	<s:Button label="Dispatch" click="onDispatchClicked(event)" />
+    </s:VGroup>
 
-&lt;/s:Application&gt;
+</s:Application>
 
 ```
 

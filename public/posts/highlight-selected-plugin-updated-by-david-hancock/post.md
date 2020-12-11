@@ -35,7 +35,7 @@ No longer highlights white-space characters
 
 **Installation**
 
-- Open FlashDevelop, Click Tools -&gt; Application Files
+- Open FlashDevelop, Click Tools -> Application Files
 - Copy the DLL to the "Plugins" directory
 - Restart FlashDevelop
 

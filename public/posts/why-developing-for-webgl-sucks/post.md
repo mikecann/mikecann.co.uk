@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-10-21T17:36:42.000Z'
+date: "2011-10-21T17:36:42.000Z"
 tags:
   - flash
   - javascript
@@ -22,14 +22,12 @@ For some time now I have been working with WebGL and have developed a sort of lo
 
 First off is the way you have to structure your GL calls. For example take a look at the following generic bit of webGL harvested from the net:
 
-```
-
+```js
 texture = gl.createTexture();
 gl.activeTexture(gl.TEXTURE0);
 gl.bindTexture(gl.TEXTURE_2D, texture);
 gl.pixelStorei(gl.UNPACK_ALIGNMENT, 1);
-gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 64, 64, 0,
-gl.RGB, gl.FLOAT, new Float32Array(pix));
+gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 64, 64, 0, gl.RGB, gl.FLOAT, new Float32Array(pix));
 gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
 gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
 
@@ -37,22 +35,18 @@ texture1 = gl.createTexture();
 gl.activeTexture(gl.TEXTURE1);
 gl.bindTexture(gl.TEXTURE_2D, texture1);
 gl.pixelStorei(gl.UNPACK_ALIGNMENT, 1);
-gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 64, 64, 0,
-gl.RGB, gl.FLOAT, new Float32Array(pix1));
+gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 64, 64, 0, gl.RGB, gl.FLOAT, new Float32Array(pix1));
 gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
 gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
 
 FBO = gl.createFramebuffer();
 gl.bindFramebuffer(gl.FRAMEBUFFER, FBO);
-gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0,
-gl.TEXTURE_2D, texture, 0);
+gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, texture, 0);
 FBO1 = gl.createFramebuffer();
 gl.bindFramebuffer(gl.FRAMEBUFFER, FBO1);
-gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0,
-gl.TEXTURE_2D, texture1, 0);
-if( gl.checkFramebufferStatus(gl.FRAMEBUFFER) != gl.FRAMEBUFFER_COMPLETE)
-alert(err + "FLOAT as the color attachment to an FBO");
-
+gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, texture1, 0);
+if (gl.checkFramebufferStatus(gl.FRAMEBUFFER) != gl.FRAMEBUFFER_COMPLETE)
+  alert(err + "FLOAT as the color attachment to an FBO");
 ```
 
 All it does is create a couple of textures, setting their starting values and creates two frame buffers for rendering to. Its just it looks complicated and difficult to understand.
@@ -65,11 +59,9 @@ The principal behind WebGL was to provide a very low-level library which other d
 
 Flash11's Stage3D has the same philosophy as webGL, to provide a low level API for other developers to build libraries upon. The thing is Flash11's low-level API makes more sense and is more readable. For example the following to me is much more readable than its webGL equivalent:
 
-```
-
+```js
 texture = c.createTexture(logo.width, logo.height, Context3DTextureFormat.BGRA, false);
 texture.uploadFromBitmapData(logo);
-
 ```
 
 The Stage3D API also uses language like "upload" to let you know when you are transferring data to the GPU, for a new comer to GL you have no clue when things are going to the GPU. Its small things like this that reduce the "WTF?" factor when tackling the tricky world of hardware-accelerated 3D programming.
@@ -111,7 +103,3 @@ If you do happen to get an error message (unlikely) or you word your problem in 
 ## But..
 
 Now having just ranted on for several hundred words about why it sucks im going to finish it off by saying that im going to continue to develop for WebGL using haXe regardless. Why? Well I just like making pretty things that run fast and GPGPU programming appeals to me for some unknown (likely sadistic) reason.
-
-```
-
-```

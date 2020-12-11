@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-10-17T16:28:27.000Z'
+date: "2010-10-17T16:28:27.000Z"
 tags:
   - chrome
   - extension
@@ -19,7 +19,7 @@ Just a quick update to [my first chrome extension](/posts/my-first-chrome-extens
 
 Following a request someone left in the comments I have now added an option to set how the post should be published. So now you can choose whether you want your cat with a lime on its head to be posted to your drafts or your queue or simply to your default wall.
 
-You can grab the new version in the usual place on the Chrome Extensions Gallery -&gt;[ https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah?hl=en](https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah?hl=en)
+You can grab the new version in the usual place on the Chrome Extensions Gallery ->[ https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah?hl=en](https://chrome.google.com/extensions/detail/dbpicbbcpanckagpdjflgojlknomoiah?hl=en)
 
 I think it updates by its itself, but I cant be sure!
 

@@ -53,7 +53,7 @@ For example, the code that is run before a User is saved looks like:
 // Force this TS file to become a module
 export var x = 2;
 
-Parse.Cloud.beforeSave(&quot;\_User&quot;, (request, response) =&gt; {
+Parse.Cloud.beforeSave(&quot;\_User&quot;, (request, response) => {
 
     // Must have a player name
     if (request.object.get(&quot;playerName&quot;) == null || request.object.get(&quot;playerName&quot;) == &quot;&quot;)

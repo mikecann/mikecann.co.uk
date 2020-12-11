@@ -1,13 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-10-09T17:13:29.000Z'
+date: "2011-10-09T17:13:29.000Z"
 tags:
   - flash
   - haxe
   - html5
   - nme
   - testing
-title: 'Conway''s Game of Life in haXe [NME & MassiveUnit]'
+title: "Conway's Game of Life in haXe [NME & MassiveUnit]"
 ---
 
 [![](/wp-content/uploads/2011/10/2011-10-09_1257.png "2011-10-09_1257")](/wp-content/uploads/2011/10/2011-10-09_1257.png)
@@ -26,7 +26,7 @@ After a brief search we decided on Mike Stead's [MassiveUnit](https://github.com
 
 An example of a test we wrote is:
 
-```
+```haxe
 package ;
 import massive.munit.Assert;
 import Grid;
@@ -76,7 +76,7 @@ class GridTest
 
 It should look fairly familiar to anyone who has used FlexUnit before. The metatags @Before @After and @Test perform in exactly the same way as they do in FlexUnit. Another benefit of using munit over the built in testing framework in haXe is that you are given a tool to run tests on all platforms simultaneously:
 
-```
+```haxe
 haxelib run munit test test.hxml
 
 ```
@@ -91,7 +91,7 @@ Once built and tested we decided to give the code a simple visual representation
 
 [NME ](https://www.haxenme.org/)is a library and tool chain for haXe designed to allow the developer to use the flash API on multiple platforms. They achieve this by writing platform targeted version of the flash API. So what this means is code such as the following:
 
-```
+```haxe
 
 package ;
 import flash.display.Bitmap;
@@ -169,7 +169,3 @@ You can see the HTML5 build here: [/projects/gameoflife/Export/html5/bin/](/pro
 And the flash build here: [/projects/gameoflife/Export/flash/bin/MyApplication.swf](/projects/gameoflife/Export/flash/bin/MyApplication.swf)
 
 I have uploaded the source for the project here: [/projects/gameoflife/gameoflife.zip](/projects/gameoflife/gameoflife.zip)
-
-```
-
-```

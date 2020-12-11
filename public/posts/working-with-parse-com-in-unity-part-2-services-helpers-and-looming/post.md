@@ -37,13 +37,13 @@ In the sample project I have just one service, the UserService, which is respons
 Lets take a look at the Login method in the UserService class:
 
 [code lang="csharp"]
-public Task&lt;GameUser&gt; Login(string email, string password)
+public Task<GameUser> Login(string email, string password)
 {
 Debug.Log(&quot;Logging in..&quot;);
 
     return ParseUser.LogInAsync(email, password)
     	.OnMainThread()
-    	.Then(t =&gt; Task.FromResult((GameUser)t.Result));
+    	.Then(t => Task.FromResult((GameUser)t.Result));
 
 }
 [/code]
@@ -90,7 +90,7 @@ isLoading = true;
     userService.Signup(usernameInp.text, passwordInp.text, playernameInp.text)
 
     	// Then Login
-    	.Then(t =&gt; userService.Login(usernameInp.text, passwordInp.text))
+    	.Then(t => userService.Login(usernameInp.text, passwordInp.text))
 
     	// Then we are done
     	.Then(OnLoggedIn, OnError);
@@ -105,13 +105,13 @@ This makes chaining asynchronous logic together in Unity a breeze and you don't 
 The first major headache I came across when using Parse in Unity is to do with threading. Note from my earlier example of Login in UserService:
 
 [code lang="csharp"]
-public Task&lt;GameUser&gt; Login(string email, string password)
+public Task<GameUser> Login(string email, string password)
 {
 Debug.Log(&quot;Logging in..&quot;);
 
     return ParseUser.LogInAsync(email, password)
     	.OnMainThread()
-    	.Then(t =&gt; Task.FromResult((GameUser)t.Result));
+    	.Then(t => Task.FromResult((GameUser)t.Result));
 
 }
 [/code]
@@ -127,14 +127,14 @@ There are a few ways around this issue, Parse documents that you can [use corout
 A Loomer basically just takes a function and waits until the game is running on the main thread before executing the function. So behind the scenes my "OnMainThread" extension function is calling the loomer which ensures that any Tasks that follow it will execute on the main thread:
 
 [code lang="csharp"]
-public static Task&lt;T&gt; OnMainThread&lt;T&gt;(this Task&lt;T&gt; task)
+public static Task<T> OnMainThread<T>(this Task<T> task)
 {
-var tcs = new TaskCompletionSource&lt;T&gt;();
+var tcs = new TaskCompletionSource<T>();
 var loom = Loom.Instance;
 
-    Action&lt;Task&lt;T&gt;&gt; a = t =&gt;
+    Action<Task<T>> a = t =>
     {
-    	loom.QueueOnMainThread(() =&gt;
+    	loom.QueueOnMainThread(() =>
     	{
     		if (t.IsFaulted) tcs.SetException(t.Exception);
     		else if (t.IsCanceled) tcs.SetCanceled();

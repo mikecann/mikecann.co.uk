@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/unit-testing-with-unity-ash-and-unity-test-tools/cover.jpg
-date: '2015-11-02T09:45:01.000Z'
+date: "2015-11-02T09:45:01.000Z"
 tags:
   - architecture
   - engine
@@ -16,7 +16,7 @@ So I promised in my [last post](https://www.mikecann.co.uk/programming/unity-ash
 I have added some tests to the [Unity Asteroids](https://github.com/mikecann/UnityAshteroids) example game. Lets take a look at one of the simpler systems as an example, the DeathThroesSystem:
 
 [code lang="csharp"]
-public class DeathThroesSystem : NodelessSystem&lt;DeathThroes, Entity, Audio&gt;
+public class DeathThroesSystem : NodelessSystem<DeathThroes, Entity, Audio>
 {
 public DeathThroesSystem()
 {
@@ -32,7 +32,7 @@ public DeathThroesSystem()
     private void OnUpdate(float delta, DeathThroes death, Entity entity, Audio audio)
     {
         death.countdown -= delta;
-        if (death.countdown &lt;= 0)
+        if (death.countdown <= 0)
             entity.Destroy();
     }
 
@@ -62,17 +62,17 @@ private DeathThroesSystem \_system;
     {
         var e = AddEntityToEngine();
 
-        Assert.AreEqual(1, e.GetComponent&lt;Audio&gt;().toPlay.Count);
-        Assert.AreEqual(e.GetComponent&lt;DeathThroes&gt;().deathSound, e.GetComponent&lt;Audio&gt;().toPlay[0]);
+        Assert.AreEqual(1, e.GetComponent<Audio>().toPlay.Count);
+        Assert.AreEqual(e.GetComponent<DeathThroes>().deathSound, e.GetComponent<Audio>().toPlay[0]);
     }
 
     private GameObject AddEntityToEngine()
     {
         var obj = CreateGameObject();
-        obj.AddComponent&lt;DeathThroes&gt;();
-        obj.AddComponent&lt;Audio&gt;();
-        obj.AddComponent&lt;Entity&gt;();
-        _engine.AddEntity(obj.AddComponent&lt;Entity&gt;());
+        obj.AddComponent<DeathThroes>();
+        obj.AddComponent<Audio>();
+        obj.AddComponent<Entity>();
+        _engine.AddEntity(obj.AddComponent<Entity>());
         return obj;
     }
 
@@ -90,11 +90,11 @@ public void AfterUpdate_CountdownDecremented()
 {
 var e = AddEntityToEngine();
 
-    var before = e.GetComponent&lt;DeathThroes&gt;().countdown;
+    var before = e.GetComponent<DeathThroes>().countdown;
 
     _engine.Update(1.5f);
 
-    Assert.AreEqual(before - 1.5f, e.GetComponent&lt;DeathThroes&gt;().countdown, 0.01f);
+    Assert.AreEqual(before - 1.5f, e.GetComponent<DeathThroes>().countdown, 0.01f);
 
 }
 [/code]
@@ -106,11 +106,11 @@ public void AfterCountdownTimerEnds_EntityDestroyed()
 {
 var e = AddEntityToEngine();
 
-    var before = e.GetComponent&lt;DeathThroes&gt;().countdown;
+    var before = e.GetComponent<DeathThroes>().countdown;
 
     _engine.Update(before + 1);
 
-    Assert.IsTrue(e.GetComponent&lt;Entity&gt;().IsDestroyed);
+    Assert.IsTrue(e.GetComponent<Entity>().IsDestroyed);
 
 }
 [/code]

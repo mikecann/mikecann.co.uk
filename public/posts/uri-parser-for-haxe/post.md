@@ -1,14 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-04-11T21:01:51.000Z'
+date: "2011-04-11T21:01:51.000Z"
 tags:
   - chromecrawler
   - code
   - haxe
   - javascript
   - parse
-  - tips
-  - uri
 title: URI Parser For HaXe
 ---
 
@@ -24,7 +22,7 @@ Confused I jumped on the haXe IRC, unfortunately the solutions the kind people t
 
 Anyways, I promised to share the code when I was done so here it is:
 
-```
+```haxe
 
 package utils;
 import haxe.Http;
@@ -55,7 +53,7 @@ public var query : String;
 public var anchor : String;
 
     // Privates
-    inline static private var _parts : Array&lt;String&gt; = ["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"];
+    inline static private var _parts : Array<String> = ["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"];
 
     public function new(url:String)
     {
@@ -77,7 +75,7 @@ public var anchor : String;
 
     public function toString() : String
     {
-    	var s : String = "For Url -&gt; " + url + "n";
+    	var s : String = "For Url -> " + url + "n";
     	for (i in 0..._parts.length)
     	{
     		s += _parts[i] + ": " + Reflect.field(this, _parts[i]) + (i==_parts.length-1?"":"n");
@@ -96,17 +94,14 @@ public var anchor : String;
 
 So for example the following use:
 
-```
-
+```haxe
 trace(new URLParser("https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home"));
-
 ```
 
 Will print the following:
 
 ```
-
-For Url -&gt; https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
+For Url -> https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
 source: https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
 protocol: http
 authority: www.mikecann.co.uk
@@ -121,7 +116,6 @@ directory: /programming/haxe/haxe-jqueryextern-gotcha
 file:
 query: somevar=1242
 anchor: home
-
 ```
 
 Simples!
@@ -129,7 +123,3 @@ Simples!
 Im not sure how performant the reflection usage would be on the various platforms haXe targets but atleast it would work and its fairly elegant to boot ;)
 
 Edit: Thank you Adrian Cowen for posting this as a haXe snippet: [https://haxe.org/doc/snip/uri_parser](https://haxe.org/doc/snip/uri_parser)
-
-```
-
-```

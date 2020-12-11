@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-08-18T17:55:14.000Z'
+date: "2009-08-18T17:55:14.000Z"
 tags:
   - apple
   - opinion
@@ -19,7 +19,7 @@ The install / uninstall process. This one took a little bit of getting used to. 
 
 **Dislike:**
 
-Finder. I may not have got it setup totally correctly yet but so far this app has been pissing me off more than any other so far. I dont like the way you delete files and folders from it by either having to drag them to the recycle bin or by having to press cmd &amp; backspace, a simple backspace would have been better. Also copying files to and from folders is frustrating. In windows you select some files hit ctrl &amp; c then select the folder for the files to go to then ctrl &amp; v, do this in mac and your files and folders end up going in the root folder not the one you are navigating. The same goes for making a new folder, you would expect selecting a folder then going file -&gt; new folder would create a new folder in the selected folder, nope, it goes in the root again :(
+Finder. I may not have got it setup totally correctly yet but so far this app has been pissing me off more than any other so far. I dont like the way you delete files and folders from it by either having to drag them to the recycle bin or by having to press cmd &amp; backspace, a simple backspace would have been better. Also copying files to and from folders is frustrating. In windows you select some files hit ctrl &amp; c then select the folder for the files to go to then ctrl &amp; v, do this in mac and your files and folders end up going in the root folder not the one you are navigating. The same goes for making a new folder, you would expect selecting a folder then going file -> new folder would create a new folder in the selected folder, nope, it goes in the root again :(
 
 The cmd key. Why? What is the purpose of having control, alt and cmd? Im slowly getting used to using the cmd key for things such as cmd &amp; w to close windows and tabs and cmd &amp; n to open new things but I dont see why you couldnt just use ctrl for this purpose. Whats more, when I switch back to a windows computer at home I end up getting confused and hitting the alt key all the time :S
 

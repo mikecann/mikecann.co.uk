@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/fixing-unitys-internal-compiler-error/cover.jpg
-date: '2014-05-13T05:25:14.000Z'
+date: "2014-05-13T05:25:14.000Z"
 tags: []
 title: Fixing Unity's Internal Compiler Error
 ---
@@ -12,7 +12,7 @@ As mentioned in my [last post](https://www.mikecann.co.uk/personal-project/parse
 [Tasks](https://www.parse.com/docs/unity_guide#tasks) are very much like JS promises (except they are type-safe) and return when the operation has completed. For example:
 
 [code lang="csharp"]
-obj.SaveAsync().ContinueWith(task =&gt;
+obj.SaveAsync().ContinueWith(task =>
 {
 if (task.IsCanceled)
 {
@@ -32,30 +32,30 @@ else
 You can chain tasks together like so:
 
 [code lang="csharp"]
-var query = new ParseQuery&lt;ParseObject&gt;(&quot;Student&quot;)
+var query = new ParseQuery<ParseObject>(&quot;Student&quot;)
 .OrderByDescending(&quot;gpa&quot;);
 
-query.FindAsync().ContinueWith(t =&gt;
+query.FindAsync().ContinueWith(t =>
 {
 var students = t.Result;
-IEnumerator&lt;ParseObject&gt; enumerator = students.GetEnumerator();
+IEnumerator<ParseObject> enumerator = students.GetEnumerator();
 enumerator.MoveNext();
 var student = enumerator.Current;
 student[&quot;valedictorian&quot;] = true;
 return student.SaveAsync();
-}).Unwrap().ContinueWith(t =&gt;
+}).Unwrap().ContinueWith(t =>
 {
 return query.FindAsync();
-}).Unwrap().ContinueWith(t =&gt;
+}).Unwrap().ContinueWith(t =>
 {
 var students = t.Result;
-IEnumerator&lt;ParseObject&gt; enumerator = students.GetEnumerator();
+IEnumerator<ParseObject> enumerator = students.GetEnumerator();
 enumerator.MoveNext();
 enumerator.MoveNext();
 var student = enumerator.Current;
 student[&quot;salutatorian&quot;] = true;
 return student.SaveAsync();
-}).Unwrap().ContinueWith(t =&gt;
+}).Unwrap().ContinueWith(t =>
 {
 // Everything is done!
 });
@@ -67,8 +67,8 @@ Fortunately someone else also had noticed this problem and [solved it](https://w
 
 [code lang="csharp"]
 Task.Factory.StartNew(StartBusyIndicator)
-.Then(task =&gt; GetWebResponseAsync(url))
-.Then(task =&gt; Console.WriteLine(task.Result.Headers))
+.Then(task => GetWebResponseAsync(url))
+.Then(task => Console.WriteLine(task.Result.Headers))
 .Finally(ExceptionHandler, StopBusyIndicator);
 [/code]
 
@@ -83,9 +83,9 @@ It took me a while to work out what was going on. I managed to simplify the enti
 [code lang="csharp"]
 public static class TaskHelpers
 {
-public static void Then&lt;TIn&gt;(this Task&lt;TIn&gt; task, Action&lt;Task&lt;TIn&gt;&gt; next)
+public static void Then<TIn>(this Task<TIn> task, Action<Task<TIn>> next)
 {
-task.ContinueWith(t =&gt;
+task.ContinueWith(t =>
 {
 });  
  }
@@ -99,9 +99,9 @@ It took me quite a while to work out what was going on, but I eventually worked 
 [code lang="csharp"]
 public static class TaskHelpers
 {
-public static void Continue&lt;TIn&gt;(this Task&lt;TIn&gt; task, Action&lt;Task&lt;TIn&gt;&gt; next)
+public static void Continue<TIn>(this Task<TIn> task, Action<Task<TIn>> next)
 {
-Action&lt;Task&gt; a = t =&gt; { };
+Action<Task> a = t => { };
 task.ContinueWith(a);  
  }
 }

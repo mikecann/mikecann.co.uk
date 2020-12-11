@@ -52,7 +52,7 @@ return pool.CreateEntity()
 .AddCollisionRadius(1)
 .IsControllable(controllable)
 .IsWrappedAroundGameBounds(true)
-.AddForce(new List&lt;Vector2&gt;(), 0)
+.AddForce(new List<Vector2>(), 0)
 .AddResource(&quot;Prefabs/Spaceship&quot;);
 }
 [/code]
@@ -90,7 +90,7 @@ Im not exactly sure why but sometimes adding IEnsureComponent to a system fixes 
 - Reactive systems are one of the best things about Entitias but 99% of the time you end up writing something like:
 
 [code lang="csharp"]
-public void Execute(List&lt;Entity&gt; entities)
+public void Execute(List<Entity> entities)
 {
 foreach (var entity in entities)
 {

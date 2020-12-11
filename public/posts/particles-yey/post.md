@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-12-16T19:10:12.000Z'
+date: "2010-12-16T19:10:12.000Z"
 tags:
   - java
   - particles
   - pretty
-title: 'Particles, Yey!'
+title: "Particles, Yey!"
 ---
 
 [![](/wp-content/uploads/2010/12/Shot_0031.png "Shot_003")](/wp-content/uploads/2010/12/Shot_0031.png)
@@ -24,4 +24,4 @@ Apparently its creator, Grant Kot has been playing around with particles for som
 
 Pretty!
 
-Edit: Didnt realise but this is the same guy that did Polluted Planet that I covered almost 3 years ago -&gt; [/posts/polluted-planet/](/posts/polluted-planet/) thats some awesome particle based dedication right there, I think I need to buy him a beer ;)
+Edit: Didnt realise but this is the same guy that did Polluted Planet that I covered almost 3 years ago -> [/posts/polluted-planet/](/posts/polluted-planet/) thats some awesome particle based dedication right there, I think I need to buy him a beer ;)

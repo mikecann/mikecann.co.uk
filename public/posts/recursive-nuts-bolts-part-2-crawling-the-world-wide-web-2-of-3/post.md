@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-12-27T11:28:11.000Z'
+date: "2012-12-27T11:28:11.000Z"
 tags:
   - canvas2d
   - chrome
@@ -11,7 +11,7 @@ tags:
   - javascript
   - spider
   - typescript
-title: 'Recursive, Nuts & Bolts Part 2 - Crawling the World Wide Web (2 of 3)'
+title: "Recursive, Nuts & Bolts Part 2 - Crawling the World Wide Web (2 of 3)"
 ---
 
 [![screenshot_05](/wp-content/uploads/2012/12/screenshot_05.png)](/posts/recursive-nuts-bolts-part-2-crawling-the-world-wide-web-2-of-3/attachment/screenshot_05-5/)
@@ -70,11 +70,11 @@ var links = new string[];
 
 // Grab all HREF links
 var results = c.pageHTML.match(/hrefs*=s*"([^"]*)/g);
-if (results) results.forEach(s=&gt;links.push(s.split(""")[1]));
+if (results) results.forEach(s=>links.push(s.split(""")[1]));
 
 // And all SRC links
 results = c.pageHTML.match(/srcs*=s*"([^"]*)/g);
-if (results) results.forEach(s=&gt;links.push(s.split(""")[1]));
+if (results) results.forEach(s=>links.push(s.split(""")[1]));
 
 ```
 

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-11-26T14:19:40.000Z'
+date: "2011-11-26T14:19:40.000Z"
 tags:
   - experiment
   - haxe
@@ -8,7 +8,7 @@ tags:
   - particles
   - terraria
   - tilemaps
-title: 'Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]'
+title: "Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]"
 ---
 
 So I have been working on my "[Terraria like Terrain](/posts/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.
@@ -20,7 +20,8 @@ Following on from the last post, I have now made it so that each particle can ha
 The way it works is that the entire world is recorded in a 2x2 array Tilemap. This 2x2 array holds a single Tile object for every single tile in the world:
 
 [code lang="actionscript3" lines="normal"]
-&lt;pre&gt;class Tile
+
+<pre>class Tile
 {
 public var x : Int;
 public var y : Int;
@@ -28,23 +29,25 @@ public var type : Int;
 
     public function new(x:Int, y:Int, type:Int) { this.x = x; this.y = y; this.type = type; }
 
-}&lt;/pre&gt;
+}</pre>
+
 [/code ]
 
 &amp;nbsp;
 
 When the TileRenderer needs to render it asks this Tilemap for a Tile that represents that screen coordinate, the Tilemap then offsets the position due to the camera movement and returns a tile. So it looks something like:
 
-&lt;a href=&quot;/wp-content/uploads/2011/11/tm.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-1795&quot; title=&quot;tm&quot; src=&quot;/wp-content/uploads/2011/11/tm.png&quot; alt=&quot;&quot; width=&quot;600&quot; height=&quot;357&quot; /&gt;&lt;/a&gt;
+<a href=&quot;/wp-content/uploads/2011/11/tm.png&quot;><img class=&quot;alignnone size-full wp-image-1795&quot; title=&quot;tm&quot; src=&quot;/wp-content/uploads/2011/11/tm.png&quot; alt=&quot;&quot; width=&quot;600&quot; height=&quot;357&quot; /></a>
 
 The tile type is then passed to the shader in attribute buffers per point sprite / tile along with all the tiles which are stored on a single texture:
 
-&lt;a href=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-1803&quot; title=&quot;tilescompressed&quot; src=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot; alt=&quot;&quot; width=&quot;256&quot; height=&quot;352&quot; /&gt;&lt;/a&gt;
+<a href=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot;><img class=&quot;alignnone size-full wp-image-1803&quot; title=&quot;tilescompressed&quot; src=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot; alt=&quot;&quot; width=&quot;256&quot; height=&quot;352&quot; /></a>
 
 The shader then performs the neccessary calculations to work out what the UV coordinate in the texture. The Vertex Shader:
 
 [code lang=&quot;glsl&quot; lines=&quot;normal&quot;]
-&lt;pre&gt;uniform float amplitude;
+
+<pre>uniform float amplitude;
 uniform float tileSize;
 uniform float texTilesWide;
 uniform float texTilesHigh;
@@ -68,7 +71,8 @@ vColor = customColor;
     gl_PointSize = size;
     gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
 
-}&lt;/pre&gt;
+}</pre>
+
 [/code ]
 
 &amp;nbsp;
@@ -76,7 +80,8 @@ vColor = customColor;
 And the Fragment Shader:
 
 [code lang=&quot;glsl&quot; lines=&quot;normal&quot;]
-&lt;pre&gt;uniform vec3 color;
+
+<pre>uniform vec3 color;
 uniform sampler2D texture;
 uniform float invTexTilesWide;
 uniform float invTexTilesHigh;
@@ -90,7 +95,8 @@ vec2 uv = vec2( gl_PointCoord.x*invTexTilesWide + invTexTilesWide*vTilePos.x, gl
 
     gl_FragColor = texture2D( texture, uv );
 
-}&lt;/pre&gt;
+}</pre>
+
 [/code]
 
 So it works in a way very much like a raster engine. You only have to render as many particles as the screen can contain.
@@ -126,7 +132,7 @@ extern class GUI
     public function min(value:Float) : GUI;
     public function max(value:Float) : GUI;
     public function step(value:Float) : GUI;
-    public function onFinishChange(f:Void -&gt; Void) : GUI;
+    public function onFinishChange(f:Void -> Void) : GUI;
     public function listen() : GUI;
 
 }

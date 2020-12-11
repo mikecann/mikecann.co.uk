@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2011-02-08T21:42:56.000Z'
+date: "2011-02-08T21:42:56.000Z"
 tags:
   - bug
   - class
@@ -10,7 +10,7 @@ tags:
   - error
   - flash builder
   - flex
-title: '1046: Type was not found or was not a compile-time constant'
+title: "1046: Type was not found or was not a compile-time constant"
 ---
 
 [![](/wp-content/uploads/2011/02/001.jpg "001")](/wp-content/uploads/2011/02/001.jpg)
@@ -23,11 +23,10 @@ To cut a long story short it seems that if you try to new a member property that
 
 So for example take the two following classes:
 
-```
-
+```actionscript
 package package2
 {
-import package1.MyTestClass;
+  import package1.MyTestClass;
 
     public class MyTestClass2
     {
@@ -40,32 +39,29 @@ import package1.MyTestClass;
 
 And
 
-```
-
+```actionscript
 package package1
 {
-public class MyTestClass
-{
-public function MyTestClass(someVar:String)
-{
-trace(someVar);
+  public class MyTestClass
+  {
+    public function MyTestClass(someVar:String)
+    {
+      trace(someVar);
+    }
+  }
 }
-}
-}
-
 ```
 
 Now try using them in the following fashion:
 
-```
-
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;s:Application xmlns:fx="https://ns.adobe.com/mxml/2009"
+```actionscript
+<?xml version="1.0" encoding="utf-8"?>;
+<s:Application xmlns:fx="https://ns.adobe.com/mxml/2009"
 xmlns:s="library://ns.adobe.com/flex/spark"
-xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="application1_creationCompleteHandler(event)"&gt;
+xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="application1_creationCompleteHandler(event)">;
 
-    &lt;fx:Script&gt;
-    	&lt;![CDATA[
+    <fx:Script>;
+    	<![CDATA[
     		import mx.events.FlexEvent;
 
     		protected function application1_creationCompleteHandler(event:FlexEvent):void
@@ -74,46 +70,35 @@ xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="application1_creatio
     			var class1 : MyTestClass = new (class2.type)("hello");
     		}
 
-    	]]&gt;
-    &lt;/fx:Script&gt;
+    	]]>;
+    </fx:Script>;
 
-&lt;/s:Application&gt;
-
+</s:Application>;
 ```
 
 And uh oh, bad times:
 
 ```
-
 1046: Type was not found or was not a compile-time constant: MyTestClass. FlexBugExperiment.mxml /FlexBugExperiment/src/main line 14 Flex Problem
 
 1046: Type was not found or was not a compile-time constant: MyTestClass2. FlexBugExperiment.mxml /FlexBugExperiment/src/main line 13 Flex Problem
 
 1180: Call to a possibly undefined method MyTestClass2. FlexBugExperiment.mxml /FlexBugExperiment/src/main line 13 Flex Problem
-
 ```
 
 The bad line is:
 
-```
-
+```actionscript
 var class1 : MyTestClass = new (class2.type)("hello");
-
 ```
 
 If you take away the "hello" part or you split it out into two lines like so:
 
-```
-
+```actionscript
 var tmpC : Class = (class2.type);
 var class1 : MyTestClass = new tmpC("hello");
-
 ```
 
 Then everything is gravy
 
 Anyway, I hope this helped someone out!
-
-```
-
-```

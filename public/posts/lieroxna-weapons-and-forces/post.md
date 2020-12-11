@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-09-16T19:37:10.000Z'
+date: "2007-09-16T19:37:10.000Z"
 tags: []
 title: LieroXNA - Weapons and Forces
 ---
@@ -11,22 +11,22 @@ Firstly I worked on setting up a framework for weapons that allows them to be de
 
 <!-- more -->
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+<?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?>
 
-&lt;weapon name=&quot;Rocket&quot; type=&quot;projectile&quot;&gt;
-&nbsp;&nbsp;&nbsp; &lt;properties&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;texture&gt;rocket&lt;/texture&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;trail&gt;smoke&lt;/trail&gt;
-&nbsp;&nbsp;&nbsp; &lt;/properties&gt;
+<weapon name=&quot;Rocket&quot; type=&quot;projectile&quot;>
+&nbsp;&nbsp;&nbsp; <properties>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <texture>rocket</texture>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <trail>smoke</trail>
+&nbsp;&nbsp;&nbsp; </properties>
 
-&nbsp;&nbsp;&nbsp; &lt;events&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;onTerrainCollide&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;spawn type=&quot;explosion&quot; size=&quot;64&quot;&nbsp; where=&quot;this&quot; velocity=&quot;this&quot; /&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;spawn type=&quot;shrapnel&quot; quantity=&quot;10&quot;&nbsp; where=&quot;this&quot; velocity=&quot;this&quot; /&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;die/&gt;
-&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;/onTerrainCollide&gt;
-&nbsp;&nbsp;&nbsp; &lt;/events&gt;
-&lt;/weapon&gt;
+&nbsp;&nbsp;&nbsp; <events>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <onTerrainCollide>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <spawn type=&quot;explosion&quot; size=&quot;64&quot;&nbsp; where=&quot;this&quot; velocity=&quot;this&quot; />
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <spawn type=&quot;shrapnel&quot; quantity=&quot;10&quot;&nbsp; where=&quot;this&quot; velocity=&quot;this&quot; />
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <die/>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </onTerrainCollide>
+&nbsp;&nbsp;&nbsp; </events>
+</weapon>
 
 In addition I have been working on adding forces into the game. It took abit of tweaking but now explosions have a force which repels particles around it, you can see this in action in the video below. I have also added a &quot;vortex&quot; special weapon that sucks particles towards it which then swirl around until the vortex implodes expelling all the particles.
 

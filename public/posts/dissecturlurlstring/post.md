@@ -1,8 +1,8 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2009-01-16T13:00:49.000Z'
+date: "2009-01-16T13:00:49.000Z"
 tags: []
-title: 'dissectURL(url:String)'
+title: "dissectURL(url:String)"
 ---
 
 Been a while since i have shared any coding tips, but here is one for those Actionscript 3 Coders out there. Its a helper function that splits a URL up into its different parts using RegExp.<!-- more -->
@@ -19,7 +19,7 @@ Been a while since i have shared any coding tips, but here is one for those Acti
 >
 > var r : Object = new Object();
 >
-> for (var i:int = 0; i &lt; keys.length; i++) { r[keys[i]] = o[i];Â Â Â  }
+> for (var i:int = 0; i < keys.length; i++) { r[keys[i]] = o[i];Â Â Â  }
 >
 > return r;
 >

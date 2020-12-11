@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-03-23T20:24:22.000Z'
+date: "2010-03-23T20:24:22.000Z"
 tags:
   - art
   - drawing
   - html5
-title: 'Harmony, HTML5 Procedural Drawing'
+title: "Harmony, HTML5 Procedural Drawing"
 ---
 
 [![](/wp-content/uploads/2010/03/mcimg.png "mcimg")](/wp-content/uploads/2010/03/mcimg.png)
@@ -28,4 +28,4 @@ And this one maze:
 
 (click for full-size)
 
-Anyways, I would love to see some creations from proper artists. Make your own here -&gt; [https://mrdoob.com/projects/harmony](https://mrdoob.com/projects/harmony) and drop me a comment with yours!
+Anyways, I would love to see some creations from proper artists. Make your own here -> [https://mrdoob.com/projects/harmony](https://mrdoob.com/projects/harmony) and drop me a comment with yours!

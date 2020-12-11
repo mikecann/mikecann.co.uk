@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/introducing-markd-pinterest-for-people/cover.jpg
-date: '2016-09-15T02:25:17.000Z'
+date: "2016-09-15T02:25:17.000Z"
 tags:
   - asp.net
   - aurelia
@@ -58,14 +58,15 @@ Its a framework for web app development from Rob Eisenberg, the same dude that w
 Much like Angular its a template-based framework like Angular e.g.
 
 [code lang="html"]
-&lt;template&gt;
-&lt;h1&gt;\${heading}&lt;/h1&gt;
+<template>
 
-&lt;form submit.trigger=&quot;addTodo()&quot;&gt;
-&lt;input type=&quot;text&quot; value.bind=&quot;todoDescription&quot;&gt;
-&lt;button type=&quot;submit&quot;&gt;Add Todo&lt;/button&gt;
-&lt;/form&gt;
-&lt;/template&gt;
+<h1>\${heading}</h1>
+
+<form submit.trigger=&quot;addTodo()&quot;>
+<input type=&quot;text&quot; value.bind=&quot;todoDescription&quot;>
+<button type=&quot;submit&quot;>Add Todo</button>
+</form>
+</template>
 [/code]
 
 You then write a backing "Component" class which implements the "addTodo()" function and provides the "heading" variable etc.

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2010-01-12T00:07:04.000Z'
+date: "2010-01-12T00:07:04.000Z"
 tags:
   - actionscript
   - audiobook
@@ -27,10 +27,10 @@ NativeDragManager.doDrag(null,cp);
 
 <div>Which gets fired by my DataGrid in the view:</div>
 
-<div>&lt;mx:DataGrid width="100%" height="100%" dataProvider="{books}" editable="true"</div>
+<div><mx:DataGrid width="100%" height="100%" dataProvider="{books}" editable="true"</div>
 <div>  itemEditEnd="{dispatchEvent(new BooksEvent(BooksEvent.PROPERTY_CHANGED));}"</div>
 <div>  dragEnabled="true"</div>
-<div>  dragStart="{dispatchEvent(new BooksEvent(BooksEvent.BOOK_BEGIN_DRAG, AudioBookModel(event.currentTarget.selectedItem)))}"&gt;</div>
+<div>  dragStart="{dispatchEvent(new BooksEvent(BooksEvent.BOOK_BEGIN_DRAG, AudioBookModel(event.currentTarget.selectedItem)))}"></div>
 <div>Its pretty cool.</div>
 <div>Anyways, the latest version and the source is below:</div>
 <div>

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2012-07-08T12:12:42.000Z'
+date: "2012-07-08T12:12:42.000Z"
 tags:
   - draw
   - game
@@ -61,7 +61,7 @@ extern class Tilesheet
 	 * @param	smooth		(Optional) Whether drawn tiles should be smoothed (Default: false)
 	 * @param	flags		(Optional) Flags to enable scale, rotation, RGB and/or alpha when drawing (Default: 0)
 	 */
-	function drawTiles (graphics:Graphics, tileData:Array&lt;Float&gt;, smooth:Bool = false, flags:Int = 0):Void;
+	function drawTiles (graphics:Graphics, tileData:Array<Float>, smooth:Bool = false, flags:Int = 0):Void;
 }
 
 ```
@@ -102,7 +102,7 @@ public function update(delta:Int) : Void
 {
 	var dx = x - game.player.x;
 	var dy = y - game.player.y;
-	visible = animated = (dx * dx) + (dy * dy) &lt; game.root.stage.stageWidth * game.root.stage.stageHeight;
+	visible = animated = (dx * dx) + (dy * dy) < game.root.stage.stageWidth * game.root.stage.stageHeight;
 }
 
 ```
