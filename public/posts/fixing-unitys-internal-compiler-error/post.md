@@ -32,8 +32,8 @@ else
 You can chain tasks together like so:
 
 [code lang="csharp"]
-var query = new ParseQuery<ParseObject>(&quot;Student&quot;)
-.OrderByDescending(&quot;gpa&quot;);
+var query = new ParseQuery<ParseObject>("Student")
+.OrderByDescending("gpa");
 
 query.FindAsync().ContinueWith(t =>
 {
@@ -41,7 +41,7 @@ var students = t.Result;
 IEnumerator<ParseObject> enumerator = students.GetEnumerator();
 enumerator.MoveNext();
 var student = enumerator.Current;
-student[&quot;valedictorian&quot;] = true;
+student["valedictorian"] = true;
 return student.SaveAsync();
 }).Unwrap().ContinueWith(t =>
 {
@@ -53,7 +53,7 @@ IEnumerator<ParseObject> enumerator = students.GetEnumerator();
 enumerator.MoveNext();
 enumerator.MoveNext();
 var student = enumerator.Current;
-student[&quot;salutatorian&quot;] = true;
+student["salutatorian"] = true;
 return student.SaveAsync();
 }).Unwrap().ContinueWith(t =>
 {

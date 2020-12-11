@@ -26,7 +26,7 @@ The method I was using was in the Awake() I would use GameObject.FindObjectOfTyp
 
 [code lang="csharp"]
 private MyManager \_manager;
-public MyClass(MyManager <span class=&quot;hiddenGrammarError&quot; pre=&quot;&quot;>manager)
+public MyClass(MyManager <span class="hiddenGrammarError" pre="">manager)
 {
 \_manager</span> = manager;
 }

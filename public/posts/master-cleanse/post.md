@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2007-08-27T13:58:51.000Z'
+date: "2007-08-27T13:58:51.000Z"
 tags: []
 title: Master Cleanse
 ---
@@ -11,7 +11,7 @@ This is all I will be eating for the next 14 days! Well the ingredients of anywa
 
 <!-- more -->
 
-Those that know me know that im not really a mega health fanatic, in fact usually quite the opposite. This is one of the reasons I want to try this. Another reason is that it will be a massive challenge for me not to drink any alcohol during this period. This i think will be the hardest part especially as I have my sisters &quot;late&quot; 21st party coming up on friday where I wont be able to touch a drop!
+Those that know me know that im not really a mega health fanatic, in fact usually quite the opposite. This is one of the reasons I want to try this. Another reason is that it will be a massive challenge for me not to drink any alcohol during this period. This i think will be the hardest part especially as I have my sisters "late" 21st party coming up on friday where I wont be able to touch a drop!
 
 Basically it works by taking senna tea (green box in the photo) before I go to bed. Senna tea is a mega laxative and should flush the system. In the morning i have to drink warm salt water which also has a laxative effect. During the day i drink a drink that is a mixture of lemons, maple syrup and Cayenne pepper (hot!).
 
@@ -39,4 +39,4 @@ Well today we went clay pigeon shooting today with work. Realy good fun, tho I w
 
 The detox went okay today, tho I was definitely much more hungry than I was yesterday. I have however now decided that today is going to be the final day. I have decided this because after talking to lots of people I think that the benefits of this probably dont outweigh the negative sides to it. The hunger and the pain from the senna and the salt is my bodies way of telling me to eat and stop forcing laxatives into it, so I think its a good idea to listen to it now.
 
-Im a little disappointed that I couldnt make it to 14 days but as Toni said &quot;If you want it enough, you will do it&quot;, I guess I just didnt want it enough! Goodluck however to anyone else that tries this. Let me know either here or by email how you get on.
+Im a little disappointed that I couldnt make it to 14 days but as Toni said "If you want it enough, you will do it", I guess I just didnt want it enough! Goodluck however to anyone else that tries this. Let me know either here or by email how you get on.

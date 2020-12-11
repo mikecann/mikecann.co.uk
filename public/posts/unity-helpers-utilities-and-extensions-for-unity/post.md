@@ -39,9 +39,9 @@ using UnityHelpers;
 
 var obj = new GameObject();
 
-obj.AddChild(&quot;Mike&quot;); // Creates a new GameObject named &quot;Mike&quot; and adds it as a child
+obj.AddChild("Mike"); // Creates a new GameObject named "Mike" and adds it as a child
 
-var player = obj.AddChild<Player>(&quot;Dave&quot;); // Creates a new GameObject named &quot;Dave&quot; and adds the component &quot;Player&quot; returning it
+var player = obj.AddChild<Player>("Dave"); // Creates a new GameObject named "Dave" and adds the component "Player" returning it
 
 obj.AddChild(typeof(Player), typeof(Friendly), typeof(AI)); // Creates a new GameObject and adds a number of components
 [/code]

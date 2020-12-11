@@ -37,15 +37,15 @@ public var type : Int;
 
 When the TileRenderer needs to render it asks this Tilemap for a Tile that represents that screen coordinate, the Tilemap then offsets the position due to the camera movement and returns a tile. So it looks something like:
 
-<a href=&quot;/wp-content/uploads/2011/11/tm.png&quot;><img class=&quot;alignnone size-full wp-image-1795&quot; title=&quot;tm&quot; src=&quot;/wp-content/uploads/2011/11/tm.png&quot; alt=&quot;&quot; width=&quot;600&quot; height=&quot;357&quot; /></a>
+<a href="/wp-content/uploads/2011/11/tm.png"><img class="alignnone size-full wp-image-1795" title="tm" src="/wp-content/uploads/2011/11/tm.png" alt="" width="600" height="357" /></a>
 
 The tile type is then passed to the shader in attribute buffers per point sprite / tile along with all the tiles which are stored on a single texture:
 
-<a href=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot;><img class=&quot;alignnone size-full wp-image-1803&quot; title=&quot;tilescompressed&quot; src=&quot;/wp-content/uploads/2011/11/tilescompressed.png&quot; alt=&quot;&quot; width=&quot;256&quot; height=&quot;352&quot; /></a>
+<a href="/wp-content/uploads/2011/11/tilescompressed.png"><img class="alignnone size-full wp-image-1803" title="tilescompressed" src="/wp-content/uploads/2011/11/tilescompressed.png" alt="" width="256" height="352" /></a>
 
 The shader then performs the neccessary calculations to work out what the UV coordinate in the texture. The Vertex Shader:
 
-[code lang=&quot;glsl&quot; lines=&quot;normal&quot;]
+[code lang="glsl" lines="normal"]
 
 <pre>uniform float amplitude;
 uniform float tileSize;
@@ -79,7 +79,7 @@ vColor = customColor;
 
 And the Fragment Shader:
 
-[code lang=&quot;glsl&quot; lines=&quot;normal&quot;]
+[code lang="glsl" lines="normal"]
 
 <pre>uniform vec3 color;
 uniform sampler2D texture;

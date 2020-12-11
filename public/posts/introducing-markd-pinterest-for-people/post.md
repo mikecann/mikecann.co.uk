@@ -62,9 +62,9 @@ Much like Angular its a template-based framework like Angular e.g.
 
 <h1>\${heading}</h1>
 
-<form submit.trigger=&quot;addTodo()&quot;>
-<input type=&quot;text&quot; value.bind=&quot;todoDescription&quot;>
-<button type=&quot;submit&quot;>Add Todo</button>
+<form submit.trigger="addTodo()">
+<input type="text" value.bind="todoDescription">
+<button type="submit">Add Todo</button>
 </form>
 </template>
 [/code]

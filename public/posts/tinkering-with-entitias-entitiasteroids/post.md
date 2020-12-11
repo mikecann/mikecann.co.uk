@@ -53,7 +53,7 @@ return pool.CreateEntity()
 .IsControllable(controllable)
 .IsWrappedAroundGameBounds(true)
 .AddForce(new List<Vector2>(), 0)
-.AddResource(&quot;Prefabs/Spaceship&quot;);
+.AddResource("Prefabs/Spaceship");
 }
 [/code]
 

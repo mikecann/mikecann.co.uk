@@ -11,9 +11,9 @@ Firstly I worked on setting up a framework for weapons that allows them to be de
 
 <!-- more -->
 
-<?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?>
+<?xml version="1.0" encoding="utf-8" ?>
 
-<weapon name=&quot;Rocket&quot; type=&quot;projectile&quot;>
+<weapon name="Rocket" type="projectile">
  <properties>
   <texture>rocket</texture>
   <trail>smoke</trail>
@@ -21,16 +21,16 @@ Firstly I worked on setting up a framework for weapons that allows them to be de
 
  <events>
   <onTerrainCollide>
-   <spawn type=&quot;explosion&quot; size=&quot;64&quot; where=&quot;this&quot; velocity=&quot;this&quot; />
-   <spawn type=&quot;shrapnel&quot; quantity=&quot;10&quot; where=&quot;this&quot; velocity=&quot;this&quot; />
+   <spawn type="explosion" size="64" where="this" velocity="this" />
+   <spawn type="shrapnel" quantity="10" where="this" velocity="this" />
    <die/>
   </onTerrainCollide>
  </events>
 </weapon>
 
-In addition I have been working on adding forces into the game. It took abit of tweaking but now explosions have a force which repels particles around it, you can see this in action in the video below. I have also added a &quot;vortex&quot; special weapon that sucks particles towards it which then swirl around until the vortex implodes expelling all the particles.
+In addition I have been working on adding forces into the game. It took abit of tweaking but now explosions have a force which repels particles around it, you can see this in action in the video below. I have also added a "vortex" special weapon that sucks particles towards it which then swirl around until the vortex implodes expelling all the particles.
 
-The size of the world has now been expanded and a simple camera has been added. Previously the intention was the world was to be split into multiple tiles of 1024x768 textures but i have now decided against that due to the level of complexity involved and gone for a system that uses one large texture (2048x2048 currently) instead. I have also changed the texture so its a little less &quot;programmer art&quot; as I was getting some stick for that :P
+The size of the world has now been expanded and a simple camera has been added. Previously the intention was the world was to be split into multiple tiles of 1024x768 textures but i have now decided against that due to the level of complexity involved and gone for a system that uses one large texture (2048x2048 currently) instead. I have also changed the texture so its a little less "programmer art" as I was getting some stick for that :P
 
 There is still alot of work to be done but im happy with the way it looks at the moment. You will have to excuse the video quality below, flash isnt the best compression for alot of fast moving small particles.
 

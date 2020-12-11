@@ -39,7 +39,7 @@ Lets take a look at the Login method in the UserService class:
 [code lang="csharp"]
 public Task<GameUser> Login(string email, string password)
 {
-Debug.Log(&quot;Logging in..&quot;);
+Debug.Log("Logging in..");
 
     return ParseUser.LogInAsync(email, password)
     	.OnMainThread()
@@ -67,13 +67,13 @@ userService.Login(usernameInp.text, passwordInp.text)
 private void OnLoginError(Exception e)
 {
 isLoading = false;
-menus.ErrorPopup.Open(&quot;Error logging in!&quot;);
+menus.ErrorPopup.Open("Error logging in!");
 }
 
 private void OnLoggedIn(GameUser user)
 {
 isLoading = false;  
- menus.States.SetState(&quot;Logged In State&quot;);
+ menus.States.SetState("Logged In State");
 }
 [/code]
 
@@ -107,7 +107,7 @@ The first major headache I came across when using Parse in Unity is to do with t
 [code lang="csharp"]
 public Task<GameUser> Login(string email, string password)
 {
-Debug.Log(&quot;Logging in..&quot;);
+Debug.Log("Logging in..");
 
     return ParseUser.LogInAsync(email, password)
     	.OnMainThread()

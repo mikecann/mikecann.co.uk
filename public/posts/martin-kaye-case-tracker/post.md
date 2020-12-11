@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2006-07-27T19:30:57.000Z'
+date: "2006-07-27T19:30:57.000Z"
 tags: []
 title: Martin-Kaye Case Tracker
 ---
@@ -10,7 +10,7 @@ This is my first commercial Rich Internet App written in flash. It was written f
 
 <!-- more -->
 
-It allows clients to login and view thier currently active case's and view a myriad of infomation about each case. It also allows the client to add &quot;activities&quot; to individual cases for the firm to view.
+It allows clients to login and view thier currently active case's and view a myriad of infomation about each case. It also allows the client to add "activities" to individual cases for the firm to view.
 
 It was written in flash 8 and uses amfphp to communicate with an MSSQL backend. It was designed to be used on multiple sites for multiple brokers so has been split into modules allowing for easy skinning accross multiple websites.
 

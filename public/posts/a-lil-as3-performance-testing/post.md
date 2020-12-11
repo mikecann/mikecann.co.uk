@@ -9,7 +9,7 @@ While i have been thinking about what im going to work on for my next flash game
 
 Because of my earlier work on destructible landscapes on [LieroXNA ](https://www.mikecann.co.uk/?p=208)i know where the potential performance bottlenecks lie.
 
-One of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one &quot;lookup&quot; must happen to do this (pixel perfect collisions).
+One of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one "lookup" must happen to do this (pixel perfect collisions).
 
 <!-- more -->
 
@@ -74,11 +74,11 @@ public class Main extends Sprite
 
 
 
-               trace(&quot;&quot;);
+               trace("");
 
-               trace(&quot;&quot;);
+               trace("");
 
-               trace(&quot;----- WRITE TESTS -----&quot;);
+               trace("----- WRITE TESTS -----");
 
 
 
@@ -90,7 +90,7 @@ public class Main extends Sprite
 
                t.update();
 
-               trace(&quot;BYTE ARRAY: &quot; + t._time);
+               trace("BYTE ARRAY: " + t._time);
 
 
 
@@ -102,7 +102,7 @@ public class Main extends Sprite
 
                t.update();
 
-               trace(&quot;ARRAY: &quot; + t._time);
+               trace("ARRAY: " + t._time);
 
 
 
@@ -110,11 +110,11 @@ public class Main extends Sprite
 
 
 
-               trace(&quot;&quot;);
+               trace("");
 
-               trace(&quot;&quot;);
+               trace("");
 
-               trace(&quot;----- READ TESTS -----&quot;);
+               trace("----- READ TESTS -----");
 
 
 
@@ -148,7 +148,7 @@ public class Main extends Sprite
 
                t.update();
 
-               trace(&quot;BYTE ARRAY: &quot; + t._time);
+               trace("BYTE ARRAY: " + t._time);
 
 
 
@@ -180,7 +180,7 @@ public class Main extends Sprite
 
                t.update();
 
-               trace(&quot;ARRAY: &quot; + t._time);
+               trace("ARRAY: " + t._time);
 
 
 
@@ -214,7 +214,7 @@ public class Main extends Sprite
 
                t.update();
 
-               trace(&quot;BITMAP: &quot; + t._time);
+               trace("BITMAP: " + t._time);
 
 
 
@@ -250,7 +250,7 @@ public class Main extends Sprite
 
                t.update();
 
-               trace(&quot;TRANSPARRENT BITMAP: &quot; + t._time);
+               trace("TRANSPARRENT BITMAP: " + t._time);
 
 
 
@@ -284,3 +284,4 @@ TRANSPARRENT BITMAP: 1779
 So as you can see it looks like the ByteArray and the Array are about as fast as each other as is the Bitmap read and Transparrent Bitmap read.
 
 You can grab this project here: [https://www.mikecann.co.uk/Files/Destructable.zip](https://www.mikecann.co.uk/Files/Destructable.zip)
+````

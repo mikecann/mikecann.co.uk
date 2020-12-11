@@ -1,11 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.jpg
-date: '2008-01-30T21:56:33.000Z'
+date: "2008-01-30T21:56:33.000Z"
 tags: []
 title: XNALiquids 03
 ---
 
-Well i was just thinking in work today that it may be possible to detect the bounds of the the particle &quot;clusters&quot; and then line drawing the boundry and then you wouldnt notice the compression that the particles tend to suffer from.
+Well i was just thinking in work today that it may be possible to detect the bounds of the the particle "clusters" and then line drawing the boundry and then you wouldnt notice the compression that the particles tend to suffer from.
 
 <!-- more -->
 

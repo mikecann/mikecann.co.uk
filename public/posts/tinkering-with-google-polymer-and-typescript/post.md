@@ -40,36 +40,67 @@ I'm using a login element as an example:
 **login.html**
 
 ```html
-<link rel=&quot;import&quot;
-href=&quot;/bower_components/polymer/polymer.html&quot;> <link
-rel=&quot;import&quot;
-href=&quot;/bower_components/paper-toast/paper-toast.html&quot;> <link
-rel=&quot;import&quot;
-href=&quot;/bower_components/paper-button/paper-button.html&quot;> <link
-rel=&quot;import&quot;
-href=&quot;/bower_components/paper-input/paper-input.html&quot;> <link
-rel=&quot;import&quot;
-href=&quot;/bower_components/paper-fab/paper-fab.html&quot;> <link
-rel=&quot;import&quot;
-href=&quot;/bower_components/core-icons/core-icons.html&quot;>
-<polymer-element name=&quot;tt-login&quot;
-attributes=&quot;userService&quot;> <template> <style> .card {
-margin-top: 64px; max-height: 580px; max-width: 512px; box-shadow: 0 2px 5px 0
-rgba(0,0,0,.26); border-radius: 2px; padding: 20px 16px; box-sizing: border-box;
-background-color: white; } </style> <div class=&quot;card&quot;>
-<h1>Login</h1> <paper-input floatinglabel label=&quot;Your
-email&quot; type=&quot;email&quot; value=&quot;{ {email}}&quot;
-error=&quot;Input is not an email!&quot;></paper-input> <paper-input
-floatinglabel label=&quot;Your password&quot; type=&quot;password&quot;
-value=&quot;{ {password}}&quot; error=&quot;Input is not an
-email!&quot;></paper-input> <div horizontal center layout> <a
-href=&quot;/#signup&quot;><paper-button disabled?=&quot;{
-{isLoggingIn}}&quot;>Signup</paper-button></a> <div
-flex></div> <paper-button id=&quot;check&quot; on-click=&quot;{
-{login}}&quot; disabled?=&quot;{
-{isLoggingIn}}&quot;>Login</paper-button> </div> <paper-toast
-id=&quot;errorToast&quot;></paper-toast> </div> </template>
-<script src=&quot;login.js&quot;></script> </polymer-element>
+<link rel="import" href="/bower_components/polymer/polymer.html" />
+<link rel="import" href="/bower_components/paper-toast/paper-toast.html" />
+<link rel="import" href="/bower_components/paper-button/paper-button.html" />
+<link rel="import" href="/bower_components/paper-input/paper-input.html" />
+<link rel="import" href="/bower_components/paper-fab/paper-fab.html" />
+<link rel="import" href="/bower_components/core-icons/core-icons.html" />
+<polymer-element name="tt-login" attributes="userService">
+  <template>
+    <style>
+      .card {
+        margin-top: 64px;
+        max-height: 580px;
+        max-width: 512px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+        border-radius: 2px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+        background-color: white;
+      }
+    </style>
+    <div class="card">
+      <h1>Login</h1>
+      <paper-input
+        floatinglabel
+        label="Your
+email"
+        type="email"
+        value="{ {email}}"
+        error="Input is not an email!"
+      ></paper-input>
+      <paper-input
+        floatinglabel
+        label="Your password"
+        type="password"
+        value="{ {password}}"
+        error="Input is not an
+email!"
+      ></paper-input>
+      <div horizontal center layout>
+        <a href="/#signup"
+          ><paper-button
+            disabled?="{
+{isLoggingIn}}"
+            >Signup</paper-button
+          ></a
+        >
+        <div flex></div>
+        <paper-button
+          id="check"
+          on-click="{
+{login}}"
+          disabled?="{
+{isLoggingIn}}"
+          >Login</paper-button
+        >
+      </div>
+      <paper-toast id="errorToast"></paper-toast>
+    </div>
+  </template>
+  <script src="login.js"></script>
+</polymer-element>
 ```
 
 Its a pretty simple login element with some binding using some of Google's paper elements but hopefully you get the idea.
@@ -80,37 +111,36 @@ Its a pretty simple login element with some binding using some of Google's paper
 
 ```typescript
 class Login extends PolymerElement {
+  userService: UserService;
 
-    userService: UserService;
+  email: string;
+  password: string;
+  isLoggingIn: boolean;
 
-    email: string;
-    password: string;
-    isLoggingIn: boolean;
+  errorToast: PaperToast;
 
-    errorToast: PaperToast;
+  ready() {
+    this.errorToast = this.$.errorToast;
+  }
 
-    ready() {
-        this.errorToast = this.$.errorToast;
-    }
+  login() {
+    this.isLoggingIn = true;
+    this.userService
+      .login(this.email, this.password)
+      .then((user) => this.onUserLoggedIn(user))
+      .fail((err) => this.onParseError(err));
+  }
 
-    login() {
-        this.isLoggingIn = true;
-        this.userService.login(this.email, this.password)
-            .then(user => this.onUserLoggedIn(user))
-            .fail(err => this.onParseError(err));
-    }
+  private onUserLoggedIn(u: Parse.User) {
+    this.isLoggingIn = false;
+    this.fire("logged-in");
+  }
 
-    private onUserLoggedIn(u: Parse.User) {
-        this.isLoggingIn = false;
-        this.fire(&quot;logged-in&quot;);
-    }
-
-    private onParseError(error: Parse.Error) {
-        this.isLoggingIn = false;
-        this.errorToast.text = error.message;
-        this.errorToast.show();
-    }
-
+  private onParseError(error: Parse.Error) {
+    this.isLoggingIn = false;
+    this.errorToast.text = error.message;
+    this.errorToast.show();
+  }
 }
 
 Polymer(Login.prototype);
@@ -144,18 +174,32 @@ We must pass the prototype into the call then do our variable initting in the re
 Now we can use it pretty easily:
 
 ```html
-<!DOCTYPE html> <html> <head> <meta
-charset=&quot;utf-8&quot;> <meta name=&quot;viewport&quot;
-content=&quot;width=device-width, minimum-scale=1.0, initial-scale=1.0,
-user-scalable=yes&quot;> <title>Login Example</title> <script
-src=&quot;bower_components/platform/platform.js&quot;></script> <!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, initial-scale=1.0,
+user-scalable=yes"
+    />
+    <title>Login Example</title>
+    <script src="bower_components/platform/platform.js"></script>
+    <!--
 This is only needed because of the Typescript interface problem! -->
-<script src=&quot;lib/polymer_utils.js&quot;></script> <!-- Our
-login element --> <link rel=&quot;import&quot;
-href=&quot;login.html&quot;> </head> <body fullbleed layout vertical
-unresolved> <userService
-id=&quot;userService&quot;></userService> <login userService=&quot;{
-{$.userService}}&quot;></login> </body> </html>
+    <script src="lib/polymer_utils.js"></script>
+    <!-- Our
+login element -->
+    <link rel="import" href="login.html" />
+  </head>
+  <body fullbleed layout vertical unresolved>
+    <userService id="userService"></userService>
+    <login
+      userService="{
+{$.userService}}"
+    ></login>
+  </body>
+</html>
 ```
 
 I hope that helps other that are looking to do their own tinkering with Typescript and Polymer!

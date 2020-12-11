@@ -4963,7 +4963,7 @@ Well im back from my excellent holiday in Mata with my little lady. I havent upl
         <item>
             <title><![CDATA[1,000,000 Views!!]]></title>
             <description><![CDATA[
-Normally when i post a big number like that its followed by the word &quot;particles&quot; but surprisingly this time it followed by the word &quot;views&quot;. Why? Well i have (probably a few days ago now) broken my 1 million plays cherry on 4 flash games....]]></description>
+Normally when i post a big number like that its followed by the word "particles" but surprisingly this time it followed by the word "views". Why? Well i have (probably a few days ago now) broken my 1 million plays cherry on 4 flash games....]]></description>
             <link>https://mikecann.co.uk/posts/1000000-views</link>
             <guid isPermaLink="false">https://mikecann.co.uk/posts/1000000-views</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
@@ -5074,7 +5074,7 @@ While i have been thinking about what im going to work on for my next flash game
 
 Because of my earlier work on destructible landscapes on [LieroXNA ](https://www.mikecann.co.uk/?p=208)i know where the potential performance bottlenecks lie.
 
-One of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one &quot;lookup&quot; must happen to do this (pixel perfect collisions).
+One of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one "lookup" must happen to do this (pixel perfect collisions).
 
 ...]]></description>
             <link>https://mikecann.co.uk/posts/a-lil-as3-performance-testing</link>
@@ -5145,7 +5145,7 @@ One project I have been working on for a while (in my spare time at work and in 
         <item>
             <title><![CDATA[XNALiquids 03]]></title>
             <description><![CDATA[
-Well i was just thinking in work today that it may be possible to detect the bounds of the the particle &quot;clusters&quot; and then line drawing the boundry and then you wouldnt notice the compression that the particles tend to suffer from.
+Well i was just thinking in work today that it may be possible to detect the bounds of the the particle "clusters" and then line drawing the boundry and then you wouldnt notice the compression that the particles tend to suffer from.
 
 ...]]></description>
             <link>https://mikecann.co.uk/posts/xnaliquids-03</link>

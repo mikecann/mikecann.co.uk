@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/mike-goes-down-under/cover.jpg
-date: '2014-03-10T21:16:06.000Z'
+date: "2014-03-10T21:16:06.000Z"
 tags:
   - australia
   - emigrate
@@ -18,6 +18,6 @@ Last May I took off on a journey of a life time to the Americas. In 8.5 months I
 
 So I was surprised when she invited me to come live with her in Australia. She must be mad I thought to myself. Still, I had better go over there and find out if she has actually lost it.
 
-Well guess its fortunate that Australia is the top of my &quot;to visit&quot; list. So I thought to myself what better way to check out this huge continent than with a beautiful, smart and funny lady who I guess is partly insane too.
+Well guess its fortunate that Australia is the top of my "to visit" list. So I thought to myself what better way to check out this huge continent than with a beautiful, smart and funny lady who I guess is partly insane too.
 
 As for what ill be working on while im over there, I have some freelance work lined up but my real passion is games so I plan on working on an indie game or two while im out there. Thats until the remaining of my saving last and I have to get a job or more likely she finally gets fed up of me and sends me back to England!

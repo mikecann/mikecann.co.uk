@@ -42,7 +42,7 @@ Parse.com features a simple way to store..
 [code lang="csharp"]
 var shield = new Armor
 {
-DisplayName = &quot;Wooden Shield&quot;,
+DisplayName = "Wooden Shield",
 IsFireproof = false,
 Rupees = 50
 };
@@ -54,7 +54,7 @@ shield.SaveAsync();
 
 [code lang="csharp"]
 var query = new ParseQuery<Armor>()
-.WhereLessThanOrEqualTo(&quot;rupees&quot;, ((Player)ParseUser.CurrentUser).Rupees);
+.WhereLessThanOrEqualTo("rupees", ((Player)ParseUser.CurrentUser).Rupees);
 query.FindAsync().ContinueWith(t =>
 {
 IEnumerable<Armor> result = t.Result;
@@ -64,19 +64,19 @@ IEnumerable<Armor> result = t.Result;
 You can also have routines run on the server written using Javascript:
 
 [code lang="javascript"]
-Parse.Cloud.define(&quot;averageStars&quot;, function(request, response) {
-var query = new Parse.Query(&quot;Review&quot;);
-query.equalTo(&quot;movie&quot;, request.params.movie);
+Parse.Cloud.define("averageStars", function(request, response) {
+var query = new Parse.Query("Review");
+query.equalTo("movie", request.params.movie);
 query.find({
 success: function(results) {
 var sum = 0;
 for (var i = 0; i < results.length; ++i) {
-sum += results[i].get(&quot;stars&quot;);
+sum += results[i].get("stars");
 }
 response.success(sum / results.length);
 },
 error: function() {
-response.error(&quot;movie lookup failed&quot;);
+response.error("movie lookup failed");
 }
 });
 });
@@ -116,14 +116,14 @@ This is the Unity project, you can structure this how you like but I have provid
 
 The common project contains code that is common to the frontend and backend. This is usually just models that represent the database, in this case its just a simple class GameUser:
 
-[code lang="csharp"][parseclassname(&quot;_user&quot;)]
+[code lang="csharp"][parseclassname("_user")]
 public class GameUser : ParseUser
 {  
- [ParseFieldName(&quot;playerName&quot;)]
+ [ParseFieldName("playerName")]
 public string PlayerName
 {
-get { return GetProperty<string>(&quot;PlayerName&quot;); }
-set { SetProperty<string>(value, &quot;PlayerName&quot;); }
+get { return GetProperty<string>("PlayerName"); }
+set { SetProperty<string>(value, "PlayerName"); }
 }
 
     public bool IsPlayerNameSet { get { return !String.IsNullOrEmpty(PlayerName); } }

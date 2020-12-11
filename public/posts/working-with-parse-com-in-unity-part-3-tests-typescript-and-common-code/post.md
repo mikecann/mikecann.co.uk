@@ -53,15 +53,15 @@ For example, the code that is run before a User is saved looks like:
 // Force this TS file to become a module
 export var x = 2;
 
-Parse.Cloud.beforeSave(&quot;\_User&quot;, (request, response) => {
+Parse.Cloud.beforeSave("\_User", (request, response) => {
 
     // Must have a player name
-    if (request.object.get(&quot;playerName&quot;) == null || request.object.get(&quot;playerName&quot;) == &quot;&quot;)
-        return response.error(&quot;Must supply a player name when creating a new user&quot;);
+    if (request.object.get("playerName") == null || request.object.get("playerName") == "")
+        return response.error("Must supply a player name when creating a new user");
 
     // Email and username must equal
-    if (request.object.get(&quot;email&quot;) != request.object.get(&quot;username&quot;))
-        return response.error(&quot;Username and email address must be equal&quot;);
+    if (request.object.get("email") != request.object.get("username"))
+        return response.error("Username and email address must be equal");
 
     // All done
     response.success();
@@ -91,13 +91,13 @@ ParseUser.LogOut();
 }
 
         [Test]
-        [ExpectedException(ExpectedMessage = &quot;Must supply a player name when creating a new user&quot;)]
+        [ExpectedException(ExpectedMessage = "Must supply a player name when creating a new user")]
         public async void RequiresPlayerName()
         {
             var user = new GameUser()
             {
                 Username = TestingHelpers.GetRandomUserEmail(),
-                Password = &quot;a&quot;
+                Password = "a"
             };
             await user.SignUpAsync();
         }

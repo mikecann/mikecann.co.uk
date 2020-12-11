@@ -37,7 +37,7 @@ public class Main extends Sprite
 
 {
 
-[Embed(source = &quot;cat.gif&quot;)]
+[Embed(source = "cat.gif")]
 
 public var Cat:Class;
 
@@ -57,13 +57,13 @@ addChild(bm);
 
 <span class="spnMessageText" id="msg">You will obviously replace this with your actual game code but for the purposes of this tutorial the game consists of a very large picture of a cat.
 
-Try running this now, as you should expect there is our &quot;game&quot; up and running.
+Try running this now, as you should expect there is our "game" up and running.
 
 The next step is to add the GameJacket security code. To do this lets add a new class to the project and call it GJCheck.as:
 
 ![](../../../../../flash/GameJacketTutorial/02.png)
 
-Now we are going to fill this with the same code as there is in the &quot;main.as&quot; of the AS3 folder of the GameJacket Developer Pack:</span>
+Now we are going to fill this with the same code as there is in the "main.as" of the AS3 folder of the GameJacket Developer Pack:</span>
 
 package
 
@@ -97,9 +97,9 @@ GameJacketSec.setVariables(LoaderInfo(this.root.loaderInfo));
 
 // Add Event Listeners so we know the outcome of the security checks
 
-GameJacketSec.addEventListener(&quot;GameJacketPass&quot;, securityOK);
+GameJacketSec.addEventListener("GameJacketPass", securityOK);
 
-GameJacketSec.addEventListener(&quot;GameJacketFail&quot;, securityError);
+GameJacketSec.addEventListener("GameJacketFail", securityError);
 
 }
 
@@ -109,9 +109,9 @@ private function securityOK(e:Event):void
 
 // Remove the event listeners
 
-GameJacketSec.removeEventListener(&quot;GameJacketPass&quot;, securityOK);
+GameJacketSec.removeEventListener("GameJacketPass", securityOK);
 
-GameJacketSec.removeEventListener(&quot;GameJacketFail&quot;, securityError);
+GameJacketSec.removeEventListener("GameJacketFail", securityError);
 
 }
 
@@ -121,15 +121,15 @@ private function securityError(e:Event):void
 
 // Remove the event listeners
 
-GameJacketSec.removeEventListener(&quot;GameJacketPass&quot;, securityOK);
+GameJacketSec.removeEventListener("GameJacketPass", securityOK);
 
-GameJacketSec.removeEventListener(&quot;GameJacketFail&quot;, securityError);
+GameJacketSec.removeEventListener("GameJacketFail", securityError);
 
 // This function will run if the game does not pass the security checks
 
 var tf : TextField = new TextField();
 
-tf.text = &quot;An error has occured please contact: you@webmaster.com&quot;;
+tf.text = "An error has occured please contact: you@webmaster.com";
 
 tf.autoSize = TextFieldAutoSize.CENTER;
 
@@ -147,11 +147,11 @@ addChild(tf);
 
 <span class="spnMessageText" id="msg"> As you can see this is just the standard Game Jacket security check code but with a little more helpful message if the the security check fails.
 
-Now this is in we need to make sure that this is our new &quot;document&quot; class for the game, to do this in FlashDevelop right-click GJCheck.as and select always compile:
+Now this is in we need to make sure that this is our new "document" class for the game, to do this in FlashDevelop right-click GJCheck.as and select always compile:
 
 ![](../../../../../flash/GameJacketTutorial/03.png)
 
-Now you can test run your game again and unsurprisingly you should be presented with &quot;An error has occured please contact: [you@webmaster.com](mailto:you@webmaster.com)&quot;, this is because your game hasnt been uploaded to the GameJacket website yet and hasnt been approved.
+Now you can test run your game again and unsurprisingly you should be presented with "An error has occured please contact: [you@webmaster.com](mailto:you@webmaster.com)", this is because your game hasnt been uploaded to the GameJacket website yet and hasnt been approved.
 
 To get around the security check and make the rest of this tutorial possible change the constructor in GJCheck.as to add this line:
 
@@ -185,7 +185,7 @@ addChild(new Preloader());
 
 <span class="spnMessageText" id="msg"> And now add a new class to the project and call it Preloader.as and make it extend Sprite. Before we write the code for the preloader we need to setup flash develop so that it compiles our game into the second frame of the Flash Movie, this way our preloader can sit on the first frame and monitor the loading progress of the second frame.
 
-To do this we need to change add some additional compiler options to the flex compile line. To do this right click the project in the project explorer and select properties then go to the compiler options tab and enter &quot;-frame two Main&quot; in the Additional Compiler Options box:
+To do this we need to change add some additional compiler options to the flex compile line. To do this right click the project in the project explorer and select properties then go to the compiler options tab and enter "-frame two Main" in the Additional Compiler Options box:
 
 ![](../../../../../flash/GameJacketTutorial/04.png)
 
@@ -197,6 +197,6 @@ And thats all there is to it, you can now test out your game, if you do test it 
 
 ![](../../../../../flash/GameJacketTutorial/05.png)
 
-**!!DONT FORGET!!** Dont forget to remove the &quot;securityOK(null);&quot; in the GJCheck constructor before you try to upload to GameJacket or else you will pass the security check every time when you are supposed to fail.
+**!!DONT FORGET!!** Dont forget to remove the "securityOK(null);" in the GJCheck constructor before you try to upload to GameJacket or else you will pass the security check every time when you are supposed to fail.
 
 Download project source code: [https://www.mikecann.co.uk/flash/GameJacketTutorial/GameJacketProject.zip](../../../../../flash/GameJacketTutorial/GameJacketProject.zip)</span>

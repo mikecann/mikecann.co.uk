@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/unity-helper-enumerate-resources/cover.jpg
-date: '2014-06-04T01:48:28.000Z'
+date: "2014-06-04T01:48:28.000Z"
 tags:
   - editor
   - open-source
@@ -19,7 +19,7 @@ Following on from [yesterdays post](https://www.mikecann.co.uk/programming/unity
 Enumerate Resources is a handy util for creating type-safe resource references. Traditionally you have to manually create constant strings to load resources at runtime:
 
 [code lang="csharp"]
-Resources.Load(&quot;Prefabs/Cars/Porsche&quot;);
+Resources.Load("Prefabs/Cars/Porsche");
 [/code]
 
 This is fragile. If the asset is moved you wont know about the crash until you run the game, this line of code may not be executed often and hence introduces a bug that may only present itself at a later date.
