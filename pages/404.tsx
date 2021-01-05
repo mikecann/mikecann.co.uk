@@ -4,11 +4,14 @@ import * as React from "react";
 import { getAlgoliaIndex } from "../utils/algolia";
 import { AlgoliaHit } from "./api/algolia/types";
 import { SearchResult } from "../components/searchModal/SearchResult";
+import { SearchModal } from "../components/searchModal/SearchModal";
 
 type Props = {};
 
 const NotFoundPage = ({}: Props) => {
   const [results, setResults] = React.useState<Array<AlgoliaHit>>([]);
+  const [loading, setLoading] = React.useState(false);
+  const [searchVisible, setSearchVisible] = React.useState(false);
 
   const term = (() => {
     if (!global.window) return "";
@@ -17,21 +20,60 @@ const NotFoundPage = ({}: Props) => {
   })();
 
   React.useEffect(() => {
+    if (!term) return;
+    setLoading(true);
+    console.log(`Searching for '${term}'`);
     getAlgoliaIndex()
       .search(term)
       .then((resp) => {
+        setLoading(false);
+        console.log(`Results loaded`, resp);
         if (resp.hits.length != 0) setResults(resp.hits as any);
         else
           getAlgoliaIndex()
             .search("")
             .then((resp) => setResults(resp.hits as any));
+      })
+      .catch((e) => {
+        console.log(`Algolia search error`, e);
+        setLoading(false);
       });
   }, [term]);
 
-  for (let hit of results) if (hit.slug == term) window.open(`/posts/${term}`, "_self");
+  const render = () => {
+    if (loading)
+      return (
+        <Vertical spacing={20}>
+          <h1>Page Not Found</h1>
+          <p>Searching for matches..</p>
+        </Vertical>
+      );
 
-  return (
-    <ResponsiveSidebarLayouts>
+    if (results.length == 0)
+      return (
+        <Vertical spacing={20}>
+          <h1>Page Not Found</h1>
+          <p>It seems like that page has moved or doesnt exist.</p>
+          <p>
+            You can try <a onClick={() => setSearchVisible(false)}>searching</a> for something else.
+          </p>
+        </Vertical>
+      );
+
+    if (results.length == 1) {
+      const url = `/posts/${results[0].slug}`;
+      window.open(url, "_self");
+      return (
+        <Vertical spacing={20}>
+          <h1>Page Moved</h1>
+          <p>
+            Loading page at its new location: <a href={url}>{url}</a>
+          </p>
+        </Vertical>
+      );
+    }
+
+    return (
       <Vertical spacing={20}>
         <h1>Page Not Found</h1>
         <p>It seems like that page has moved, heres some similar posts:</p>
@@ -41,6 +83,13 @@ const NotFoundPage = ({}: Props) => {
           ))}
         </Vertical>
       </Vertical>
+    );
+  };
+
+  return (
+    <ResponsiveSidebarLayouts>
+      {render()}
+      {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}
     </ResponsiveSidebarLayouts>
   );
 };
