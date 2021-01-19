@@ -1,22 +1,19 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { getAllPosts, getPostBySlug, Post } from "../api/posts";
-import { markdownToHtml } from "../../utils/markdownToHtml";
 import { ensure } from "../../utils/ensure";
 import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
-import { style } from "typestyle";
 import { format } from "date-fns";
 import { getPostRootCoverImagePath, getRelativePathForPost } from "../../utils/posts";
-import { useScrollYPosition } from "react-use-scroll-position";
 import { TopNavbar } from "../../components/navbar/TopNavbar";
-import { SearchModal } from "../../components/searchModal/SearchModal";
-import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import Layout from "../../components/layout/Layout";
-import { useWindowSize } from "../../utils/useWindowSize";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { darcula } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import { DiscussionEmbed } from "disqus-react";
+import { MailchimpSignupForm } from "../../components/mailchimp/MailchimpSignupForm";
+import { MailchimpSignupPopup } from "../../components/mailchimp/MailchimpSignupPopup";
 
 type Props = {
   post: Post;
@@ -24,8 +21,8 @@ type Props = {
 };
 
 const PostPage = ({ post, html }: Props) => {
-  const { meta, coverImageSize, slug } = post;
-  const { coverImage, title, date } = meta;
+  const { meta, slug } = post;
+  const { title, date } = meta;
 
   const renderers = {
     image: (image: any) => {
@@ -79,6 +76,17 @@ const PostPage = ({ post, html }: Props) => {
               renderers={renderers}
               allowDangerousHtml
               plugins={[gfm]}
+            />
+            <h3 style={{ textAlign: "center", color: "#aaa" }}>SIGNUP</h3>
+            <MailchimpSignupForm />
+            <MailchimpSignupPopup />
+            <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
+            <DiscussionEmbed
+              shortname="devwbfg"
+              config={{
+                identifier: slug,
+                title: title,
+              }}
             />
           </Vertical>
         </Horizontal>
