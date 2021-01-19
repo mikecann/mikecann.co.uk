@@ -15,7 +15,7 @@ Now we have our [new designs](/markd/markd-v3) in place for [Markd](https://mark
 
 # TLDR;
 
-`youtube: https://www.youtube.com/watch?v=sCe_tsPEvnI`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/sCe_tsPEvnI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Reasoning
 

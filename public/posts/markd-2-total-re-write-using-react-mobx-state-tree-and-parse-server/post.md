@@ -28,7 +28,7 @@ At its core, its a chrome-extension that lets you "bookmark people". So for exam
 
 Check out the video below for a quick demonstration:
 
-`youtube: https://www.youtube.com/embed/0TH_JNTOPdg`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/0TH_JNTOPdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # The Problem
 

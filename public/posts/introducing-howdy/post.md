@@ -18,7 +18,7 @@ A couple of months ago my [Markd](https://markd.ltd/) co-founder [Brandon](https
 
 Howdy is a service for sending short personalized video messages to one another.
 
-`youtube: https://www.youtube.com/watch?v=WbT3Lkynx9g`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/WbT3Lkynx9g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Concept & Testing
 

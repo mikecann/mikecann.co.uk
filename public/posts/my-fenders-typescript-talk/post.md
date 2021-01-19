@@ -14,7 +14,7 @@ Back in August 2019 I have a talk at the local [Front End Web Developers (Fender
 
 # The Talk
 
-`youtube: https://www.youtube.com/watch?v=OFKYo8lvS7E`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/OFKYo8lvS7E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 As you could probably guess if you had looked at my past few years worth of posts on this blog I have been using Typescript on a daily basis and I am really impressed with the power of the type system so I thought I would try to share some of that fascination with others in Perth.
 

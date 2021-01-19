@@ -16,7 +16,7 @@ Lately we (Markd Ltd) have been working on a few different projects, today we ar
 
 # TLDR;
 
-`youtube: https://www.youtube.com/watch?v=OD8sAuqS2vA`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/OD8sAuqS2vA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The above is a demo of it in action, should give you an indication of what its all about.
 
@@ -32,7 +32,7 @@ You can add tags and notes to that Connection. If you want to hide the sidebar y
 
 You can easily move that tab up and down so it wont get in the way of other UI elements or extensions below it.
 
-`youtube: https://youtu.be/xWqa8jBZPBY`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/xWqa8jBZPBY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Collecting custom notes and tags is all well and good but once you have done that what can you do with them?
 

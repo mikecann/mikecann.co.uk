@@ -16,7 +16,7 @@ Lately we (Markd Ltd) have been working on a few different projects, today we ar
 
 # TLDR;
 
-`youtube: https://www.youtube.com/watch?v=ozsu-J0XTOM&feature=youtu.be`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/ozsu-J0XTOM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The above is a demo of it in action, should give you an indication of what its all about.
 

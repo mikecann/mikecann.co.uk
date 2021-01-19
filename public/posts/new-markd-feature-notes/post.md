@@ -15,7 +15,7 @@ Thick and fast on the heels of our last new feature [Custom Fields](/markd/markd
 
 # TLDR;
 
-`youtube: https://www.youtube.com/watch?v=D0l5nf7Vjqo`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/D0l5nf7Vjqo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Why?
 
@@ -35,7 +35,7 @@ Just like with the [custom fields](/markd/markd-custom-fields) feature it took u
 
 The first iteration we had it look more like a list of documents rather than a list of "comment" like notes in an activity feed. Although this was functional it felt a little too "worky" and against our philosophy for the product: "Fast, Simple and **Fun**"
 
-`youtube: https://www.youtube.com/watch?v=aBJgli8T4hs`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/aBJgli8T4hs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The second attempt is the one you see on [https://app.markd.co](https://app.markd.co) now and better aligns with how we want notes to feel and sets the stage for future item types into the "activity feed".
 

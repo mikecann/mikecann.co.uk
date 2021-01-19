@@ -35,7 +35,7 @@ If you want to see the code for this post then checkout this tag: https://github
 
 My original [Intent](/machine-learning/a-game-developer-learns-machine-learning-intent/) was to teach an ML agent to learn my game [Mr Nibbles Forever](http://epicshrimp.com/app/mrnibblesforever/). Based on my experience up to this point I think what might be easier is to begin with trying to train an agent to learn a game similar to "[Mr Nibbles](http://mr-nibbles.com/)" instead of "[Mr Nibbles Forever](http://epicshrimp.com/app/mrnibblesforever/)".
 
-`youtube: https://www.youtube.com/embed/lyAf7VVLdKg`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/lyAf7VVLdKg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Rather than an endless procedurally generated game like Mr Nibbles Forever, Mr Nibbles is a level-based platform-puzzler.
 
@@ -49,7 +49,7 @@ Unity recently launched a [set of tools](https://docs.unity3d.com/Manual/Tilemap
 
 So I set to work using those tools to construct some levels:
 
-`youtube: https://www.youtube.com/embed/99TRpAmZFYM`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/99TRpAmZFYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I borrowed some code from Unity's [tutorial on platform games](https://unity3d.com/learn/tutorials/topics/2d-game-creation/creating-basic-platformer-game) to build a "Platform Controller" for Mr Nibbles. This is the thing that actually controls the how mr nibbles moves given an input.
 
@@ -57,7 +57,7 @@ I added a little of flourish in the way of big tubes to represent the entrance a
 
 The end result is that you are able to play a number of levels as mr nibbles. When you reach the exit another level is randomly selected and Mr Nibbles is spawned into that.
 
-`youtube: https://www.youtube.com/embed/IHdPzaLRY98`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/IHdPzaLRY98" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # The Agent
 
@@ -273,7 +273,7 @@ It looks okay, we can see that the cumulative reward increases sharply and level
 
 When we try our model out in the game however we see this:
 
-`youtube: https://www.youtube.com/embed/S21Rkob0XfM`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/S21Rkob0XfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 On the positive side, it looks like he is attempting to move towards the exit point when the exit is to the right of the spawn point. On the negative side he doesnt ever seem to want to try going left and also seems to get stuck for a long time at a small hurdle.
 

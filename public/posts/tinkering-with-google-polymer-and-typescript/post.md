@@ -17,7 +17,7 @@ I recently had the opportunity to experiment with something I have been meaning 
 
 I first heard about Polymer at Google IO 2014:
 
-`youtube: https://www.youtube.com/embed/8OJ7ih8EE7s`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/8OJ7ih8EE7s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I highly recommend watching that video if you want to know more about Polymer but the high level idea is that its a library built on top of the new HTML Web Components and it allows us to write our own custom HTML elements in a way that makes sense.
 
@@ -25,7 +25,7 @@ I really liked the look of it as it reminded me greatly of Adobe's Flex (MXML) i
 
 So it took me a few days to get my head around things to begin with. One thing I would recommend if you are interested in tinkering with Polymer then first checkout this video:
 
-`youtube: https://www.youtube.com/embed/INH_OW4lFSs`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/INH_OW4lFSs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I wish I had used that to begin with as it would have saved me a whole heap of "is this the correct way to do it?" headaches.
 

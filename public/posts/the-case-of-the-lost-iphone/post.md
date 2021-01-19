@@ -12,7 +12,7 @@ Todays post is a little different from my usual technical or business related po
 
 # TLDR;
 
-`youtube: https://www.youtube.com/watch?v=4r3j5qWkO34`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/4r3j5qWkO34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I was contacted to give an interview by Dariya Salmin of ABC's South West Radio show "Mornings" about the found iPhone, give it a listen if you dont do readin' :)
 
@@ -24,7 +24,7 @@ A few weekends ago it was an unusually hot spring day here in Western Australia 
 
 I had a fantastic swim, there wasn't anyone else down there and the water was full of fish hiding under the jetty.
 
-`youtube: https://www.youtube.com/watch?v=YeOIC7A582M`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/YeOIC7A582M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 So there I was happily swimming along when I noticed something sticking out of the sand. I swam over and to my surprise it was an iPhone..
 

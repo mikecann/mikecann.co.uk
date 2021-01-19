@@ -19,7 +19,7 @@ While in Europe I spent a week with my parents in the Alps on a rather excellent
 
 I even snuck in a day of snowboarding for the first time at the end of the trip:
 
-`youtube: https://www.youtube.com/embed/rUpN_Qrh3vc`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/rUpN_Qrh3vc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Above and Below the Water
 
@@ -31,7 +31,7 @@ So I have been out a number of times, whenever the wind will allow basically. It
 
 To round off my favorite Australian past times, this month I have also been doing a fair bit of snorkeling / free diving around Perth and Busselton. I put tohether this short movie of one of my Busso dives:
 
-`youtube: https://www.youtube.com/embed/YeOIC7A582M`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/YeOIC7A582M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Markd
 
@@ -41,7 +41,7 @@ We have been doing a lot behind the scenes, planning out what features we want a
 
 Our first major new feature, Lists, went live last week. I wont go into it too much as my co-founder Brandon already did an excellent job describing it in this post: https://blog.markd.co/2019/02/21/new-feature-add-to-lists.html
 
-`youtube: https://www.youtube.com/embed/9_IFBqUas6s`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/9_IFBqUas6s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 We are working hard on a number of other features including a major re-design of the site which im really excited about and cant wait to share once its ready.
 

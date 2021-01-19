@@ -19,7 +19,7 @@ I spent a few hours tinkering with the new (alpha release) version of React whic
 
 The below video is a quick demo of what the chrome extension does.
 
-`youtube: https://www.youtube.com/embed/iydk07TCOOs`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/iydk07TCOOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The video demonstrates how the state is able to be shared between the background page, child pages and content scripts simultaneously.
 

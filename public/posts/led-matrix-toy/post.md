@@ -16,7 +16,7 @@ Ever since I [built my own smart mirror](/posts/mikes-mirror-the-talk) back in 2
 
 This is what I ended up building:
 
-`youtube: https://www.youtube.com/watch?v=PWc4lJeD_T4`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/PWc4lJeD_T4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # 31st October 2019
 
@@ -70,7 +70,7 @@ Fortunately I could continue for now as I had a power supply that would work dir
 
 So after getting everything connected and powered on to my surprise it actually worked!
 
-`youtube: https://www.youtube.com/watch?v=h4k6GrrQxe4`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/h4k6GrrQxe4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I couldn't believe it. I was totally expecting it just to not power up or the matrix not to light up or something but it just worked. Awesome!
 

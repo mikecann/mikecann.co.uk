@@ -45,7 +45,7 @@ So thanks to Alans awesome designs and after a lot of hard work I think we have 
 
 Heres a short video showing some of the main features:
 
-`youtube: https://www.youtube.com/embed/k7Ks42OSyTI`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/k7Ks42OSyTI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # Tech
 
@@ -71,7 +71,7 @@ These tests hammer the actual API from the outside which then hits a local datab
 
 On the client side I actually have very few "unit" tests and instead opt for a few high-level End-To-End (E2E) tests which use [Google Puppeteer](https://github.com/GoogleChrome/puppeteer) to spin up an actual browser which then clicks on actual elements on the screen and observes the results match the expected results.
 
-`youtube: https://www.youtube.com/embed/iyl7XSTZE-I`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/iyl7XSTZE-I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I run these E2E tests twice, once for desktop sized resolutions and once for mobile sized resolutions.
 

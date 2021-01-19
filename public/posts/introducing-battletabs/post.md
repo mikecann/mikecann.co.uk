@@ -16,7 +16,7 @@ This one has been quite a while in the making but im proud to announce this inno
 
 # TLDR;
 
-`youtube: https://www.youtube.com/watch?v=AEC2tPX6HdM`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/AEC2tPX6HdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 # History
 
@@ -94,13 +94,13 @@ We decided that the Vikings theme would be best for the first release but we lik
 
 I got to work developing the actual game in isometric. I had built a few isometric games before and one effect I like from block based isometric is seeing the blocks move independently, it gives a sort of rippley water effect so I had a go at implementing that.
 
-`youtube: https://www.youtube.com/watch?v=AaU5sJXYWhs`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/AaU5sJXYWhs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 I was originally using React to do all of this but I discovered that react is a little too slow to animate this many objects so I reluctantly changed over to using Phaser3 for the game engine. I really didnt enjoy using Phaser tho, I think I would probably just roll my own solution in the future for more control.
 
 Talking about isometric we had some issues with the length of the ships and isometric depth sorting.
 
-`youtube: https://www.youtube.com/watch?v=ivIm2bZNQ3Q`
+<iframe width="853" height="480" src="https://www.youtube.com/embed/ivIm2bZNQ3Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The issue is that isometric doesnt work too well when you have long sprites. After much discussion and experimentation (and fighting with Phaser) we decided on a solution that split the sprites up so they could be depth sorted individually
 
