@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-01-27T22:49:23.000Z"
+date: '2009-01-27T22:49:23.000Z'
 tags: []
 title: An evening and a bit later..
+oldUrl: /actionscript/an-evening-and-a-bit-later
 ---
 
 Ive been playing around with abit of tech for my next game. Not too sure what the game is going to be yet but while playing I had an idea and made this little toy:

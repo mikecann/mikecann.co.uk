@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-05-09T21:57:03.000Z"
+date: '2011-05-09T21:57:03.000Z'
 tags:
   - instagram
   - instagrid
@@ -8,6 +8,7 @@ tags:
   - stream
   - upload
 title: Instagrid
+oldUrl: /misc/instagrid
 ---
 
 [![](/wp-content/uploads/2011/05/02.jpg "02")](/wp-content/uploads/2011/05/02.jpg)

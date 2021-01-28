@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-09-19T18:59:38.000Z"
+date: '2010-09-19T18:59:38.000Z'
 tags:
   - book
   - peter f hamilton
   - read
   - sci-fi
 title: The Evolutionary Void
+oldUrl: /books/the-evolutionary-void
 ---
 
 [![](/wp-content/uploads/2010/09/photo.jpg "photo")](/wp-content/uploads/2010/09/photo.jpg)

@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-09-27T00:22:33.000Z"
+date: '2013-09-27T00:22:33.000Z'
 tags:
   - cashcard fraud
   - problems
   - stolen
   - tavel
 title: Think Twice Before Getting an STA Travel Cashcard
+oldUrl: /travel/think-twice-before-getting-an-sta-travel-cashcard
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/09/screenshot_012.png)

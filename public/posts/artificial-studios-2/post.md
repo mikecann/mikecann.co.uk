@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-08-04T12:37:21.000Z"
+date: '2006-08-04T12:37:21.000Z'
 tags: []
 title: Artificial-Studios 2
+oldUrl: /mysql/artificial-studios-2
 ---
 
 ![](/wp-content/uploads/Image/artstu2.gif)

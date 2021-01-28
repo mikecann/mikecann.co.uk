@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-06-23T11:12:50.000Z"
+date: '2013-06-23T11:12:50.000Z'
 tags:
   - diary
   - friends
@@ -8,6 +8,7 @@ tags:
   - travel
   - trip
 title: The Trip 2013 - Guadalajara to Mexico City
+oldUrl: /td-project/the-trip-2013-guadalajara-to-mexico-city
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/06/screenshot_021.png)

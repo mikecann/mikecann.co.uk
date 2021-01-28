@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-03-23T20:24:22.000Z"
+date: '2010-03-23T20:24:22.000Z'
 tags:
   - art
   - drawing
   - html5
-title: "Harmony, HTML5 Procedural Drawing"
+title: 'Harmony, HTML5 Procedural Drawing'
+oldUrl: /art/harmony-html5-procedural-drawing
 ---
 
 [![](/wp-content/uploads/2010/03/mcimg.png "mcimg")](/wp-content/uploads/2010/03/mcimg.png)

@@ -9,6 +9,7 @@ tags:
   - bleeding edge
   - react hooks
 title: Tinkering With React Hooks and Chrome Extensions
+oldUrl: /programming/tinkering-with-react-hooks-and-chrome-extensions
 ---
 
 I spent a few hours tinkering with the new (alpha release) version of React which includes the new React Hooks feature. I wanted to experiment with it in a semi-realistic environment (not CodeSandbox). I have built a few chrome extensions in the past and I knew the challenges well so I thought it would be a good scenario to challenge React Hooks and see what it can do.

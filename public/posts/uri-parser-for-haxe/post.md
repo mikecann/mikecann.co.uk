@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-04-11T21:01:51.000Z"
+date: '2011-04-11T21:01:51.000Z'
 tags:
   - chromecrawler
   - code
@@ -8,6 +8,7 @@ tags:
   - javascript
   - parse
 title: URI Parser For HaXe
+oldUrl: /chrome-crawler/uri-parser-for-haxe
 ---
 
 Continuing on my [theme of the moment haXe](/posts/haxe-jqueryextern-gotcha/), I have another post  regarding the development of my haXe rewrite of  [ChromeCrawler](/posts/chrome-crawler-v0-4-background-crawling-more/).

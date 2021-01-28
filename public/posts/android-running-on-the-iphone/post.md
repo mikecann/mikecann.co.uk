@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-04-22T17:12:51.000Z"
+date: '2010-04-22T17:12:51.000Z'
 tags:
   - android
   - iphone
   - jailbreak
   - video
 title: Android Running on the iPhone!
+oldUrl: /fun-amp-videos/android-running-on-the-iphone
 ---
 
 [![](/wp-content/uploads/2010/04/android.gif "android")](/wp-content/uploads/2010/04/android.gif)

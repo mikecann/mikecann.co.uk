@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-06-20T13:25:40.000Z"
+date: '2006-06-20T13:25:40.000Z'
 tags: []
 title: Particle Explosion
+oldUrl: /actionscript/111
 ---
 
 Well here is some flash i did a couple of months back now. I had planned to do a whole series of these and upload the source for others to use on their site, but other projects came up that required my attention more. Perhaps I will get time to do them this summer :)

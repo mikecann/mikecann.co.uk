@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-03-14T23:26:05.000Z"
+date: '2010-03-14T23:26:05.000Z'
 tags:
   - c sharp
   - performance
@@ -9,6 +9,7 @@ tags:
   - tool
   - windows 7
 title: Windows 7 Taskbar Monitor
+oldUrl: /c/windows-7-taskbar-monitor
 ---
 
 Well this will learn me!

@@ -10,6 +10,7 @@ tags:
   - ios
   - unity
 title: Mr Nibbles Alpha 8
+oldUrl: /mr-nibbles-forever/mr-nibbles-alpha-8
 ---
 
 Well its been exactly [95 days since my last Alpha release](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever/mr-nibbles-forever-alpha-7/) of my mobile game Mr Nibbles Forever which is far too long. I apologise to people who have been asking me for a new version. I took on a few paid freelance projects a few months ago and they took up a whole bunch of time then I decided to take a full time position up in Perth a month ago which [drastically cut down my Mr Nibbles development time](https://www.mikecann.co.uk/uncategorized/started-work-at-thebroth-in-perth/) sadly.

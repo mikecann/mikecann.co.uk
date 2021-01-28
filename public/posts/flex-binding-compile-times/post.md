@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-02-17T19:30:02.000Z"
+date: '2011-02-17T19:30:02.000Z'
 tags:
   - binding
   - compiler
@@ -9,6 +9,7 @@ tags:
   - spark
   - speed
 title: Flex Binding & Compile Times
+oldUrl: /actionscript/flex-binding-compile-times
 ---
 
 [![](/wp-content/uploads/2011/02/commandlin01.jpg "commandlin01")](/wp-content/uploads/2011/02/commandlin01.jpg)

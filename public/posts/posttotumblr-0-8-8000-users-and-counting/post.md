@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-06-19T22:11:05.000Z"
+date: '2011-06-19T22:11:05.000Z'
 tags:
   - api
   - chrome
@@ -11,6 +11,7 @@ tags:
   - update
   - version
 title: PostToTumblr 0.8 - 8000 Users and Counting
+oldUrl: /javascript/posttotumblr-0-8-8000-users-and-counting
 ---
 
 [![](/wp-content/uploads/2011/06/Shot_01.png "Shot_01")](/wp-content/uploads/2011/06/Shot_01.png)

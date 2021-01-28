@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-07-26T17:55:38.000Z"
+date: '2013-07-26T17:55:38.000Z'
 tags:
   - blog
   - copan
   - hondorus
   - travel
 title: The Trip 2013 - Copán to Roatán
+oldUrl: /2013-trip/the-trip-2013-copan-to-roatan
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Copán to Roatán](https://www.facebook.com/mikeysee/media_set?set=a.10151781346696031.1073741840.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**

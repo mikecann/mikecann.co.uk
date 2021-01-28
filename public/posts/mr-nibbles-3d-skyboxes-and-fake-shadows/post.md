@@ -8,6 +8,7 @@ tags:
   - shadows
   - skybox
 title: Mr Nibbles 3D - Skyboxes and Fake Shadows
+oldUrl: /mr-nibbles-3d/mr-nibbles-3d-skyboxes-and-fake-shadows
 ---
 
 After that [short interlude](https://www.mikecann.co.uk/myprojects/unityasteroids/unity-ashteroids-ash-framework-in-unity/) im back to games development. This time its more work on Mr Nibbles 3D.

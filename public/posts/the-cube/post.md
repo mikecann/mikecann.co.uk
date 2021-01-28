@@ -7,6 +7,7 @@ tags:
   - iot
   - toy
 title: The Cube
+oldUrl: /projects/the-cube
 ---
 
 After months and months its finally done! My 6-sided 24,576 LED self-contained cube project is finally complete!

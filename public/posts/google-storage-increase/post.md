@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-11-12T09:19:38.000Z"
+date: '2009-11-12T09:19:38.000Z'
 tags:
   - google
   - news
 title: Google Storage Increase
+oldUrl: /misc/google-storage-increase
 ---
 
 [![ScreenHunter_02 Nov. 12 08.15](/wp-content/uploads/2009/11/ScreenHunter_02-Nov.-12-08.15.gif "ScreenHunter_02 Nov. 12 08.15")](/wp-content/uploads/2009/11/ScreenHunter_02-Nov.-12-08.15.gif)

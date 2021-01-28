@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-06-25T18:54:18.000Z"
+date: '2009-06-25T18:54:18.000Z'
 tags:
   - chill
   - downtempo
   - mix
   - music
-title: "New Mix: Artificial - Intelligence"
+title: 'New Mix: Artificial - Intelligence'
+oldUrl: /audio/new-mix-artificial-intelligence
 ---
 
 ![aiimage](/wp-content/uploads/2009/06/aiimage.gif "aiimage")

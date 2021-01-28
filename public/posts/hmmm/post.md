@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-04-07T14:34:59.000Z"
+date: '2009-04-07T14:34:59.000Z'
 tags: []
 title: Hmmm
+oldUrl: /photos-personal/hmmm
 ---
 
 Council Tax FAIL ?

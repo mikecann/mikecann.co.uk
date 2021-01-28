@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-05-23T16:53:56.000Z"
+date: '2013-05-23T16:53:56.000Z'
 tags:
   - chicago
   - diary
@@ -8,6 +8,7 @@ tags:
   - photos
   - trip
 title: The Trip 2013 - Chicago
+oldUrl: /2013-trip/the-trip-2013-chicago
 ---
 
 ![screenshot_08](/wp-content/uploads/2013/05/screenshot_08.png)

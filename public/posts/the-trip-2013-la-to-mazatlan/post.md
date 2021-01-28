@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-06-18T12:23:33.000Z"
+date: '2013-06-18T12:23:33.000Z'
 tags:
   - ater
   - blog
@@ -10,6 +10,7 @@ tags:
   - photo
   - sea lions
 title: The Trip 2013 - LA to Mazatlan
+oldUrl: /2013-trip/the-trip-2013-la-to-mazatlan
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/06/screenshot_02.png)

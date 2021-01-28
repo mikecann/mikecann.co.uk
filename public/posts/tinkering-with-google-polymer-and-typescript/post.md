@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/tinkering-with-google-polymer-and-typescript/cover.jpg
-date: "2014-11-02T05:18:13.000Z"
+date: '2014-11-02T05:18:13.000Z'
 tags:
   - css
   - google
@@ -9,6 +9,7 @@ tags:
   - typescript
   - web components
 title: Tinkering with Google Polymer and Typescript
+oldUrl: /polymer/tinkering-with-google-polymer-and-typescript
 ---
 
 I recently had the opportunity to experiment with something I have been meaning to play with for a little while, Google's Polymer.

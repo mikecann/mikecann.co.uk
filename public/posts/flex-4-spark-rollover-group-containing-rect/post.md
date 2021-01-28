@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-02T08:25:14.000Z"
+date: '2010-08-02T08:25:14.000Z'
 tags:
   - behaviour
   - code
@@ -12,6 +12,7 @@ tags:
   - spark
   - video
 title: Flex 4 Spark & Rollover Group Containing Rect
+oldUrl: /actionscript/flex-4-spark-rollover-group-containing-rect
 ---
 
 Was working on my top-secret Flex-based project over the weekend when I discovered something I hadn't come across before.

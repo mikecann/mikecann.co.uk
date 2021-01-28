@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-10-21T17:36:42.000Z"
+date: '2011-10-21T17:36:42.000Z'
 tags:
   - flash
   - javascript
@@ -10,6 +10,7 @@ tags:
   - threejs
   - webgl
 title: Why Developing for WebGL Sucks!
+oldUrl: /programming/why-developing-for-webgl-sucks
 ---
 
 [![](/wp-content/uploads/2011/10/head02.png "head02")](/wp-content/uploads/2011/10/head02.png)

@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-02-15T13:20:36.000Z"
+date: '2012-02-15T13:20:36.000Z'
 tags:
   - business
   - news
   - playdemic
   - tv
 title: Playdemic on the Northwest News
+oldUrl: /business/playdemic-on-the-northwest-news
 ---
 
 <iframe width="600" height="335" src="https://www.youtube.com/embed/TjMnDQw4zqI" frameborder="0" allowfullscreen></iframe>

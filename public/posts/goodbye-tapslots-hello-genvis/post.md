@@ -8,6 +8,7 @@ tags:
   - machine learning
   - ai
 title: Goodbye TapSlots - Hello GenVis
+oldUrl: /personal/goodbye-tapslots-hello-genvis
 ---
 
 For the past 3 years (almost) I have been working as a software developer at TapSlots in Perth Australia. Its been a wild ride of learning and development but over the Christmas break I decided that its about time that I tried something new.

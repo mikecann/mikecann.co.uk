@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-07-12T23:09:27.000Z"
+date: '2013-07-12T23:09:27.000Z'
 tags:
   - competition
   - nhs
   - salford
 title: NHS Social Innovation in Salford Competition
+oldUrl: /misc/nhs-social-innovation-in-salford-competition
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/07/screenshot_02.png)

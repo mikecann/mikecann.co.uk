@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-03-17T19:26:32.000Z"
+date: '2009-03-17T19:26:32.000Z'
 tags: []
 title: AS3 Loader.loadBytes() Class Name Collisions
+oldUrl: /misc/as3-loaderloadbytes-class-name-collisions
 ---
 
 Well I spent hours at work today scratching my head and getting generally very annoyed over this one so I thought I would share it with the world so others can benefit from my frustrations.

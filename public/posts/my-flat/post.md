@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2008-05-18T11:11:46.000Z"
+date: '2008-05-18T11:11:46.000Z'
 tags: []
 title: My Flat!
+oldUrl: /misc/my-flat
 ---
 
 Well i have now found a new job at a company called Dubit in Leeds, it looks to be an excellent company, looking forward to working there.

@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/introducing-printomi/cover.jpg
-date: "2012-04-04T21:00:14.000Z"
+date: '2012-04-04T21:00:14.000Z'
 tags:
   - announce
   - api
@@ -11,6 +11,7 @@ tags:
   - flash
   - website
 title: Introducing Printomi
+oldUrl: /business/introducing-printomi
 ---
 
 I'm extremely proud to announce the launch of a project I have been working on for quite a while now.

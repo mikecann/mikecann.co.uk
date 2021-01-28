@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-08-09T00:53:00.000Z"
+date: '2017-08-09T00:53:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Camping Oz 2017- South Queensland
+oldUrl: /above-under/camping-oz-2017-south-queensland
 ---
 
 After Townsville we continued to work our way down the east coast of Australia. The next stop for us was Airlie Beach where we took the opportunity to visit the work famous Whitsunday islands.

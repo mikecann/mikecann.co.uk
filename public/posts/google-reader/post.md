@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-01-16T12:13:17.000Z"
+date: '2010-01-16T12:13:17.000Z'
 tags:
   - personal
   - rss
   - utility
 title: Google Reader
+oldUrl: /photos-personal/google-reader
 ---
 
 [![](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-16-11.00.jpg "ScreenHunter_01 Jan. 16 11.00")](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-16-11.00.jpg)

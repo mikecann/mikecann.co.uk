@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-01-13T11:12:53.000Z"
+date: '2013-01-13T11:12:53.000Z'
 tags:
   - chrome
   - extension
@@ -10,6 +10,7 @@ tags:
   - tumblr
   - update
 title: PostToTumblr v3.12 Update
+oldUrl: /post-to-tumbr/posttotumblr-v3-12-update
 ---
 
 [![head](/wp-content/uploads/2013/01/head1.png)](/posts/posttotumblr-v3-12-update/attachment/head-5/)

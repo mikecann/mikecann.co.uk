@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-02-22T00:06:58.000Z"
+date: '2010-02-22T00:06:58.000Z'
 tags:
   - air
   - component
@@ -10,6 +10,7 @@ tags:
   - resize
   - source
 title: Resizeable Chromeless Window AIR
+oldUrl: /mxml/resizeable-chromeless-window-air
 ---
 
 Thought I would share this little ditty. Been working in AIR recently and decided to make the window "chromeless" which means there are no controls so no resizing.

@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-11-26T23:10:09.000Z"
+date: '2009-11-26T23:10:09.000Z'
 tags:
   - personal
   - photos
 title: Christmas..
+oldUrl: /photos-personal/christmas
 ---
 
 Well kind of.. We got our very pretty little tree up today:

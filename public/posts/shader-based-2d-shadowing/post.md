@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-15T11:10:18.000Z"
+date: '2010-08-15T11:10:18.000Z'
 tags:
   - 2d
   - community
@@ -11,6 +11,7 @@ tags:
   - university
   - xna
 title: Shader Based 2D Shadowing
+oldUrl: /c/shader-based-2d-shadowing
 ---
 
 [![](/wp-content/uploads/2010/08/11_scene.png "11_scene")](/wp-content/uploads/2010/08/11_scene.png)

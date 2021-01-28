@@ -8,6 +8,7 @@ tags:
   - hardware
   - machine learning
 title: Mikes Mirror - The Talk
+oldUrl: /talks/mikes-mirror-the-talk
 ---
 
 After my many [hard-learnt-lessons](/projects/mikes-mirror-overview/) building a Smart Mirror the past few months, I decided it might be a good idea to share some of those lessons with others in the community.

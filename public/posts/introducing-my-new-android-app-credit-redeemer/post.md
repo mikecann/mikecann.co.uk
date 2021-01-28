@@ -7,6 +7,7 @@ tags:
   - react-native
   - typescript
 title: 'Introducing my new Android app: Credit Redeemer'
+oldUrl: /credit-redeemer/introducing-my-new-android-app-credit-redeemer
 ---
 
 The past couple of weeks I have been working on a new project and something a little different from my usual games related projects.

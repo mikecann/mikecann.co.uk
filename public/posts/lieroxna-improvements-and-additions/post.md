@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-09-30T19:36:37.000Z"
+date: '2007-09-30T19:36:37.000Z'
 tags: []
 title: LieroXNA - Improvements and Additions
+oldUrl: /c/lieroxna-improvements-and-additions
 ---
 
 <p>Been a while since I have posted about LieroXNA but I havent been doing nothing. Changes and things:

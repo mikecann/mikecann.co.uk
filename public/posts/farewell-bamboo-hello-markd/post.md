@@ -7,6 +7,7 @@ tags:
   - startup
   - markd
 title: Farewell Bamboo - Hello Markd
+oldUrl: /personal/farewell-bamboo-hello-markd
 ---
 
 So Friday marks what could be a very important day for me. It was my last day in the employ of Bamboo but was my first day in the employ of myself for Markd!

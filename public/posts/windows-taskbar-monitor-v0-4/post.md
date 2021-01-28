@@ -1,12 +1,13 @@
 ---
 coverImage: /posts/windows-taskbar-monitor-v0-4/cover.jpg
-date: "2013-09-25T01:32:29.000Z"
+date: '2013-09-25T01:32:29.000Z'
 tags:
   - c sharp
   - taskbars
   - tool
   - windows
 title: Windows Taskbar Monitor v0.4
+oldUrl: /projects/windows-taskbar-monitor-v0-4
 ---
 
 Over the years I have had a great many projects, most of which have been chronicled on this blog. The majority of them I leave alone once I have finished with them and never return to.

@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2014-01-21T15:13:33.000Z"
+date: '2014-01-21T15:13:33.000Z'
 tags:
   - summary
   - trip
 title: The Trip 2013 - The Stats
+oldUrl: /2013-trip/the-trip-2013-the-stats
 ---
 
 [![screenshot_02](/wp-content/uploads/2014/01/screenshot_02.png)](https://mapsengine.google.com/map/embed?mid=zqHG_2WyX1Rw.kX4lL2DfOU1E)

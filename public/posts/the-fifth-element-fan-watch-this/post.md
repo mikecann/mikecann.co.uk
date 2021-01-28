@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-07-26T12:35:56.000Z"
+date: '2010-07-26T12:35:56.000Z'
 tags:
   - movies
   - opera
@@ -8,6 +8,7 @@ tags:
   - singing
   - video
 title: The Fifth Element Fan? Watch This!
+oldUrl: /fun-amp-videos/the-fifth-element-fan-watch-this
 ---
 
 Its no secret that im a sci-fi fan and The Fifth Element is my favourite film. Watched it again in epic 1080p BluRay quality last night. Went poking about on Youtube afterwards and found this little gem:<!-- more -->

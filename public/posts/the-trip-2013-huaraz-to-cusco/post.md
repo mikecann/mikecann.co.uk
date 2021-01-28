@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-11-17T22:38:25.000Z"
+date: '2013-11-17T22:38:25.000Z'
 tags:
   - canyon
   - condor
@@ -9,6 +9,7 @@ tags:
   - travel
   - trip
 title: The Trip 2013 - Huaraz to Cusco
+oldUrl: /2013-trip/the-trip-2013-huaraz-to-cusco
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [Trip 2013 - Huaraz to Cusco](https://www.facebook.com/media/set/?set=a.10152010035196031.1073741853.593661030&type=1&l=23ceec3c7d). Each picture can be clicked to see a larger version and comment / like.**

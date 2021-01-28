@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-08-18T17:55:14.000Z"
+date: '2009-08-18T17:55:14.000Z'
 tags:
   - apple
   - opinion
 title: A Week on the Mac
+oldUrl: /misc/a-week-on-the-mac
 ---
 
 Well its now a couple of weeks into using my shiney new MacBook Pro 15" and I have decided to do an early report on a few things I like / dont like about it. Its not an exhaustive list but just a small rant of my main pleasures / gripes.<!-- more -->

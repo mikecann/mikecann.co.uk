@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/the-three-game-challenge-part-3-the-family-jewels/cover.jpg
-date: "2013-04-25T11:03:10.000Z"
+date: '2013-04-25T11:03:10.000Z'
 tags:
   - ash
   - flash
@@ -10,6 +10,7 @@ tags:
   - mobile
   - starling
 title: The Three Game Challenge – Part 3 – The Family Jewels
+oldUrl: /actionscript/the-three-game-challenge-part-3-the-family-jewels
 ---
 
 Well this is it! I have completed the third game in my [three game prototype challenge](/posts/the-three-game-challenge/). ([first game](/posts/the-three-game-challenge-part-1-lateshas-crib/), [second game](/posts/the-three-game-challenge-part-2-a-cunning-plan/))

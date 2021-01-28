@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-03-20T18:23:06.000Z"
+date: '2011-03-20T18:23:06.000Z'
 tags:
   - bass
   - download
@@ -9,6 +9,7 @@ tags:
   - mp3
   - soundcloud
 title: Artificial - Blue Noise
+oldUrl: /audio/artificial-blue-noise
 ---
 
 [![](/wp-content/uploads/2011/03/700.png "700")](/wp-content/uploads/2011/03/700.png)

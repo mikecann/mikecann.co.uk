@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-17T21:38:14.000Z"
+date: '2006-05-17T21:38:14.000Z'
 tags: []
 title: gems
+oldUrl: /art/gems
 ---
 
 > This was created (like most of my images) as an experiment, this time it was into using radioisty lighting.

@@ -7,6 +7,7 @@ tags:
   - drone
   - market
 title: Above Under - Markets
+oldUrl: /above-under/above-under-markets
 ---
 
 For the past couple of weeks I have run a Sunday market stall for my side-project-business Above Under. Its my first time ever running a stall and its been a really interesting experience thus far.

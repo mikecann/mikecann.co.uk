@@ -7,6 +7,7 @@ tags:
   - typescript
   - chrome extensions
 title: Tasks for Trello - A Trello Tasks Rewrite
+oldUrl: /tasks-for-trello/tasks-for-trello-a-trello-tasks-rewrite
 ---
 
 Its been a while since I wrote about my Chrome extension Trello Tasks but thats not for lack of interest in the project. At the moment it has 3,546 users and I have had innumerable requests for new features so seeing as I had to update it to comply with GDPR anyways, I thought it was time to give it some love.

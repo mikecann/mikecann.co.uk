@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-05-27T09:35:50.000Z"
+date: '2009-05-27T09:35:50.000Z'
 tags:
   - fun
   - video
 title: Did You Know 3.0...
+oldUrl: /fun-amp-videos/did-you-know-30
 ---
 
 Abit old I know but I only just stumbled across it, very interesting watch, but does anyone else feel a little unsettled after watching it?

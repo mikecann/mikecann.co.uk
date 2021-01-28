@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-06-03T09:31:44.000Z"
+date: '2006-06-03T09:31:44.000Z'
 tags: []
 title: Artificial-Studios v3.0
+oldUrl: /websites/artificial-studios-v30
 ---
 
 Yup thats right a new version of Artificial-Studios... again!

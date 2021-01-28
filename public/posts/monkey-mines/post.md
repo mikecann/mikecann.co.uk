@@ -7,6 +7,7 @@ tags:
   - personal
   - projects
 title: Monkey Mines
+oldUrl: /games/monkey-mines
 ---
 
 Well here it is at last! Finally after almost a month of wheeling and dealing we have at last released Monkey Mines to the world at large.

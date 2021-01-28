@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-07-06T23:48:10.000Z"
+date: '2013-07-06T23:48:10.000Z'
 tags:
   - blog
   - diary
@@ -12,6 +12,7 @@ tags:
   - travel
   - water
 title: The Trip 2013 - Oaxaca to Chichen Itza
+oldUrl: /2013-trip/the-trip-2013-oaxaca-to-chichen-itza
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/07/screenshot_01.png)

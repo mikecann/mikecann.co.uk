@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-12-16T19:10:12.000Z"
+date: '2010-12-16T19:10:12.000Z'
 tags:
   - java
   - particles
   - pretty
-title: "Particles, Yey!"
+title: 'Particles, Yey!'
+oldUrl: /fun-amp-videos/particles-yey
 ---
 
 [![](/wp-content/uploads/2010/12/Shot_0031.png "Shot_003")](/wp-content/uploads/2010/12/Shot_0031.png)

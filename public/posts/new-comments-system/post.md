@@ -1,9 +1,10 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-03-27T20:14:10.000Z"
+date: '2010-03-27T20:14:10.000Z'
 tags:
   - web
 title: New Comments System
+oldUrl: /websites/new-comments-system
 ---
 
 [![](/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-27-19.11.gif "ScreenHunter_01 Mar. 27 19.11")](/wp-content/uploads/2010/03/ScreenHunter_01-Mar.-27-19.11.gif)

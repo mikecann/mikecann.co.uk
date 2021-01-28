@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-02-16T20:57:04.000Z"
+date: '2011-02-16T20:57:04.000Z'
 tags:
   - c sharp
   - monitor
@@ -9,6 +9,7 @@ tags:
   - tool
   - windows7
 title: Windows 7 Taskbar Performance Monitor v0.2
+oldUrl: /c/windows-7-taskbar-performance-monitor-v0-2
 ---
 
 [![](/wp-content/uploads/2011/02/Shot_01.png "Shot_01")](/wp-content/uploads/2011/02/Shot_01.png)

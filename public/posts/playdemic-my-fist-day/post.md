@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-01-11T20:12:13.000Z"
+date: '2010-01-11T20:12:13.000Z'
 tags:
   - jobs
   - personal
   - playdemic
 title: Playdemic - My First Day
+oldUrl: /photos-personal/playdemic-my-fist-day
 ---
 
 [![](/wp-content/uploads/2010/01/ScreenHunter_03-Jan.-11-19.10.jpg "ScreenHunter_03 Jan. 11 19.10")](/wp-content/uploads/2010/01/ScreenHunter_03-Jan.-11-19.10.jpg)

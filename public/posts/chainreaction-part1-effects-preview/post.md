@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-04-17T11:13:35.000Z"
+date: '2007-04-17T11:13:35.000Z'
 tags: []
 title: ChainReaction (part1) - Effects Preview
+oldUrl: /actionscript/chainreaction-part1-effects-preview
 ---
 
 Okay its project presenting time again. This time its a biggie, its my final year main module, 60 credits of year-long projectness (not a word i know).

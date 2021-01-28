@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-07-25T07:34:00.000Z"
+date: '2017-07-25T07:34:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Camping Oz 2017 - North Queensland
+oldUrl: /above-under/camping-oz-2017-north-queensland
 ---
 
 A few days after leaving Daly Waters and the NT we arrived into Cairns in the north of Queensland.

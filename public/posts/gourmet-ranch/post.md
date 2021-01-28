@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/gourmet-ranch/cover.jpg
-date: "2010-08-04T11:57:48.000Z"
+date: '2010-08-04T11:57:48.000Z'
 tags:
   - facebook
   - flash
@@ -9,6 +9,7 @@ tags:
   - playdemic
   - professional
 title: Gourmet Ranch
+oldUrl: /games/gourmet-ranch
 ---
 
 [About 6 months ago I joined a new startup](/posts/playdemic-my-fist-day/) called Playdemic as the Lead Flash Developer. I couldn't say much at the time as we were in stealth mode. As our first product has been out for about a month however, I think its about time I wrote a blog post on the subject.

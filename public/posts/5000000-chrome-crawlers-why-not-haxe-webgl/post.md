@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-08-11T20:38:13.000Z"
+date: '2011-08-11T20:38:13.000Z'
 tags:
   - chrome
   - code
@@ -11,7 +11,8 @@ tags:
   - sprites
   - stateless
   - webgl
-title: "5,000,000 Chrome Crawlers? Why not [haXe & WebGL]"
+title: '5,000,000 Chrome Crawlers? Why not [haXe & WebGL]'
+oldUrl: /glsl/5000000-chrome-crawlers-why-not-haxe-webgl
 ---
 
 Following on from my previous experiments into the world of [haXe and HTML5](/posts/more-html5-haxe-speed-tests/) I have been playing around again with trying to get as many 2D sprites on screen as I can.

@@ -5,6 +5,7 @@ tags:
   - markd
   - personal
 title: What Have I Been Up To In Feb?
+oldUrl: /personal/what-have-i-been-up-to-in-febuary
 ---
 
 Its been an adventurous month of travel, activities and hard work on our exciting new venture [Markd](https://markd.co).

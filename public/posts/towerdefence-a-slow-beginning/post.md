@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-05-05T20:01:22.000Z"
+date: '2007-05-05T20:01:22.000Z'
 tags: []
 title: TowerDefence - A Slow Beginning
+oldUrl: /c/towerdefence-a-slow-beginning
 ---
 
 ![](https://www.mikecann.co.uk/Work/TDProject/engine02.png)

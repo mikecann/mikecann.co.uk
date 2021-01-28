@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-08-05T20:52:06.000Z"
+date: '2012-08-05T20:52:06.000Z'
 tags:
   - development
   - game
@@ -9,6 +9,7 @@ tags:
   - nme
   - progress
 title: The Final Development Update for Mr Nibbles Mobile Game
+oldUrl: /games/the-final-development-update-for-mr-nibbles-mobile-game
 ---
 
 [![](/wp-content/uploads/2012/08/title.png "title")](/wp-content/uploads/2012/08/title.png)

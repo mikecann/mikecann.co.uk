@@ -10,6 +10,7 @@ tags:
   - programming
   - typescript
 title: New Tab Chrome Experiments - A new Chrome Extension
+oldUrl: /new-tab-chrome-experiments/new-tab-chrome-experiments-a-new-chrome-extension
 ---
 
 I really enjoy making Chrome Extension, I love how fast it is to go from idea to implementation then availability on the store.

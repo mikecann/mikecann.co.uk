@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-01-18T13:01:24.000Z"
+date: '2010-01-18T13:01:24.000Z'
 tags:
   - apple
   - hardware
@@ -8,6 +8,7 @@ tags:
   - utility
   - windows
 title: Apple Aluminium Keyboard Windows 7
+oldUrl: /photos-personal/apple-aluminium-keyboard-windows-7
 ---
 
 [![](/wp-content/uploads/2010/01/CropperCapture1.jpg "CropperCapture[1]")](/wp-content/uploads/2010/01/CropperCapture1.jpg)

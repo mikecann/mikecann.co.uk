@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-10-20T06:52:57.000Z"
+date: '2012-10-20T06:52:57.000Z'
 tags:
   - chrome
   - extension
@@ -10,6 +10,7 @@ tags:
   - spider
   - typescript
 title: Tinkering With TypeScript
+oldUrl: /chrome-crawler/tinkering-with-typescript
 ---
 
 [![](/wp-content/uploads/2012/10/ts2.png "ts2")](/wp-content/uploads/2012/10/ts2.png)

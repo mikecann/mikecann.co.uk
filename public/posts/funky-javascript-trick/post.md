@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-05-20T11:44:15.000Z"
+date: '2009-05-20T11:44:15.000Z'
 tags:
   - fun
   - javascript
   - programming
 title: Funky Javascript Trick
+oldUrl: /programming/funky-javascript-trick
 ---
 
 ![img01](/wp-content/uploads/2009/05/img01.png "img01")

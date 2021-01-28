@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-03-05T00:34:57.000Z"
+date: '2010-03-05T00:34:57.000Z'
 tags:
   - actionscript
   - audio
@@ -11,7 +11,8 @@ tags:
   - music
   - source
   - trance
-title: "Trance Around The World, Show Downloader"
+title: 'Trance Around The World, Show Downloader'
+oldUrl: /actionscript/trance-around-the-world-show-downloader
 ---
 
 Had this little idea a while back, thought I would spend an hour tonight and bash it out.

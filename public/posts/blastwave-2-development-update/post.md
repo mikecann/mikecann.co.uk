@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-06-26T16:04:17.000Z"
+date: '2009-06-26T16:04:17.000Z'
 tags:
   - flash
   - game
   - personal
   - projects
 title: BlastWave 2 Development Update
+oldUrl: /actionscript/blastwave-2-development-update
 ---
 
 We are still working on [BlastWave 2](https://www.mikecann.co.uk/?p=513). Over the last 4 days or so we have progressed quite far:

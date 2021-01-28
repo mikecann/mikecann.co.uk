@@ -9,6 +9,7 @@ tags:
   - port
   - steam
 title: Mr Nibbles Forever Steam Greenlit!
+oldUrl: /mr-nibbles-forever/mr-nibbles-forever-steam-greenlit
 ---
 
 I was just looking through my last few posts and realized that I hadn't mentioned yet that [Mr Nibbles Forever](https://epicshrimp.com/app/mrnibblesforever/) is coming to the Desktop!

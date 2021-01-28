@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-08-12T12:56:47.000Z"
+date: '2006-08-12T12:56:47.000Z'
 tags: []
 title: Flash Whiteboard
+oldUrl: /actionscript/flash-whiteboard
 ---
 
 The flash whiteboard is a little experiment i cooked up in a couple of days. It basically allows the user to 'hand write' a message which is then saved on the server. Once done you can then [view the list of messages](https://www.mikecann.co.uk/?page_id=131). The whiteboard was written in flash and php was used to communicate with the server.

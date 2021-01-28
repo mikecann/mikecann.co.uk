@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-17T22:05:54.000Z"
+date: '2006-05-17T22:05:54.000Z'
 tags: []
 title: skyworld
+oldUrl: /art/skyworld
 ---
 
 This image is still alot of peoples favourite. I personally think its "okay" very simple and easy to make

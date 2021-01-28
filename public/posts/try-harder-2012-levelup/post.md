@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-03-12T17:39:07.000Z"
+date: '2012-03-12T17:39:07.000Z'
 tags:
   - as3
   - code
@@ -9,7 +9,8 @@ tags:
   - levelup
   - tdd
   - tryharder
-title: "Try { Harder } 2012 Levelup"
+title: 'Try { Harder } 2012 Levelup'
+oldUrl: /misc/try-harder-2012-levelup
 ---
 
 [![](/wp-content/uploads/2012/03/header.png "header")](/wp-content/uploads/2012/03/header.png)

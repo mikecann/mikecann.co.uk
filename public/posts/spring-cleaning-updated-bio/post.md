@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-12-31T16:24:10.000Z"
+date: '2011-12-31T16:24:10.000Z'
 tags: []
 title: Spring Cleaning & Updated Bio
+oldUrl: /photos-personal/spring-cleaning-updated-bio
 ---
 
 ![](/wp-content/uploads/2007/09/about01.png)

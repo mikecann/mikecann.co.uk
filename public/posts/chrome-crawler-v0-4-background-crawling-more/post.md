@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-12-19T22:54:33.000Z"
+date: '2010-12-19T22:54:33.000Z'
 tags:
   - api
   - background
@@ -10,6 +10,7 @@ tags:
   - spider
   - update
 title: Chrome Crawler v0.4 - Background Crawling & More!
+oldUrl: /chrome-crawler/chrome-crawler-v0-4-background-crawling-more
 ---
 
 [![](/wp-content/uploads/2010/12/Shot_0041.png "Shot_004")](/wp-content/uploads/2010/12/Shot_0041.png)

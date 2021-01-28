@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-04-28T15:17:42.000Z"
+date: '2009-04-28T15:17:42.000Z'
 tags: []
 title: Paul Oakenfold's Urban Soundtracks
+oldUrl: /audio/paul-oakenfolds-urban-soundtracks
 ---
 
 As I enjoy both trance music and audio books, so what could be better than mixing both together?

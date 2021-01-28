@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-02-03T12:46:36.000Z"
+date: '2010-02-03T12:46:36.000Z'
 tags:
   - experiment
   - flash
@@ -9,6 +9,7 @@ tags:
   - physics
   - video
 title: The Scale of the Universe in Flash
+oldUrl: /fun-amp-videos/the-scale-of-the-universe-in-flash
 ---
 
 Got sent this today by a friend who linked to Newgrounds [upload](https://www.newgrounds.com/portal/view/525347).

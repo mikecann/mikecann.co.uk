@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-17T21:56:20.000Z"
+date: '2006-05-17T21:56:20.000Z'
 tags: []
 title: planet
+oldUrl: /art/planet
 ---
 
 > This image was created as a splash screen for a web-based game i was going to create, however i never realy got round to creating the game and ended up with this image instead

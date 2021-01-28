@@ -9,6 +9,7 @@ tags:
   - bitcoin
   - exodus
 title: New OS Project - exodus-safe-to-csv
+oldUrl: /programming/new-os-project-exodus-safe-to-csv
 ---
 
 Just a quick one today, I thought I would share a little tool I wrote to help with converting data exported from Exodus to be used in CoinTracking.com.

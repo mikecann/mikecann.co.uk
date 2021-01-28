@@ -7,6 +7,7 @@ tags:
   - typescript
   - tool
 title: Mixcloud-dl
+oldUrl: /misc/mixcloud-dl
 ---
 
 I love the mix-streaming service Mixcloud but its unfriendly user-interface was really starting to bug me so I whipped up this little tool to help.

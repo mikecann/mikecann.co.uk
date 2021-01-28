@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-06-18T16:18:04.000Z"
+date: '2009-06-18T16:18:04.000Z'
 tags:
   - business
   - jobs
   - personal
 title: Fare-The-Well GameJacket!
+oldUrl: /photos-personal/fare-the-well-gamejacket
 ---
 
 ![sorrygj](/wp-content/uploads/2009/06/sorrygj.gif "sorrygj")

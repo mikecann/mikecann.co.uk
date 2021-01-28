@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-11-20T15:48:50.000Z"
+date: '2011-11-20T15:48:50.000Z'
 tags:
   - blog
   - hosting
   - site
   - strato
 title: New Blog Host & Face-lift
+oldUrl: /misc/new-blog-host-face-lift
 ---
 
 [![](/wp-content/uploads/2011/11/mememe.jpg "mememe")](/wp-content/uploads/2011/11/mememe.jpg)

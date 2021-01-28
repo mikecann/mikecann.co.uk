@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-03-30T10:30:40.000Z"
+date: '2007-03-30T10:30:40.000Z'
 tags: []
-title: "XNAGPUParticles (1,000,000 Dynamic Particles)"
+title: 'XNAGPUParticles (1,000,000 Dynamic Particles)'
+oldUrl: /c/xnagpuparticles-1000000-dynamic-particles
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/particles17.png)This is another submission of work i have done in my final year. This time the project is all my own work.

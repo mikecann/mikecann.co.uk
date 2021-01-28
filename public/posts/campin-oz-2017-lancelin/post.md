@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-03-28T10:47:00.000Z"
+date: '2017-03-28T10:47:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Campin Oz 2017 - Lancelin
+oldUrl: /above-under/campin-oz-2017-lancelin
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

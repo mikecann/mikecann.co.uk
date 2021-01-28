@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-03-14T16:11:36.000Z"
+date: '2007-03-14T16:11:36.000Z'
 tags: []
 title: Imagining the Tenth Dimension
+oldUrl: /fun-amp-videos/imagining-the-tenth-dimension
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/10dimensions.png)

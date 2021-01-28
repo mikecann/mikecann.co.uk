@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-12-06T18:28:57.000Z"
+date: '2010-12-06T18:28:57.000Z'
 tags:
   - chrome
   - crawl
@@ -13,6 +13,7 @@ tags:
   - simple
   - spider
 title: Chrome Crawler - A web-crawler written in Javascript
+oldUrl: /chrome-crawler/chrome-crawler-a-web-crawler-written-in-javascript
 ---
 
 [![](/wp-content/uploads/2010/12/700.jpg "700")](/wp-content/uploads/2010/12/700.jpg)

@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-03-29T10:49:39.000Z"
+date: '2007-03-29T10:49:39.000Z'
 tags: []
 title: Portal 2D - Alpha
+oldUrl: /c/portal-2d-alpha
 ---
 
 Okay this is a very very alpha release of a game that was created for a team project at the final year of university.

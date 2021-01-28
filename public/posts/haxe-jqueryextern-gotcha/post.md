@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-04-10T09:22:38.000Z"
+date: '2011-04-10T09:22:38.000Z'
 tags:
   - compile
   - gotcha
@@ -9,6 +9,7 @@ tags:
   - jquery
   - tips
 title: HaXe & jQueryExtern Gotcha
+oldUrl: /haxe/haxe-jqueryextern-gotcha
 ---
 
 [![](/wp-content/uploads/2011/04/ahxelogo.jpg "ahxelogo")](/wp-content/uploads/2011/04/ahxelogo.jpg)

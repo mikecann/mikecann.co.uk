@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-05-11T01:12:00.000Z"
+date: '2017-05-11T01:12:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Camping Oz 2017 - West Kimberly
+oldUrl: /above-under/camping-oz-2017-west-kimberly
 ---
 
 Wow, its been a while since I have written an update but so much has been going on I have struggled to find the time!

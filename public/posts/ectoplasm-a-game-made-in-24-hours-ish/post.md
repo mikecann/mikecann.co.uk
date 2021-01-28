@@ -10,6 +10,7 @@ tags:
   - mobile
   - shipit
 title: 'Ectoplasm, a Game Made in 24 hours (ish)'
+oldUrl: /actionscript/ectoplasm-a-game-made-in-24-hours-ish
 ---
 
 Just before [leaving Playdemic](/posts/goodbye-playdemic/) we had a company-wide ship-it-day. If you haven't done one of these before they are great and work very similar to game jams like [Ludum Dare](https://www.ludumdare.com/). Basically you have 24 hours to create something related to the company then you have to present it.

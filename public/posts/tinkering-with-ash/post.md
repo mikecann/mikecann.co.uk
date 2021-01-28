@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-02-14T18:30:55.000Z"
+date: '2013-02-14T18:30:55.000Z'
 tags:
   - as3
   - ash
@@ -10,6 +10,7 @@ tags:
   - flash
   - framework
 title: Tinkering With Ash
+oldUrl: /actionscript/tinkering-with-ash
 ---
 
 [Last October](/posts/try-harder-2012-slides/) I was fortunate enough to attend the excellent [Try Harder](https://www.tryharder.org.uk/) conference for the second time.[ I have spoken before](/posts/try-harder-2012/) about how inspirational the event is where every attendant must give a talk on something they are passionate about. One of the talks was by David Wagner's and was on 'The Value of Tinkering' and it inspired me to[ tinker with TypeScript](/posts/tinkering-with-typescript/) which led to my [Recursive Chrome Extension](/posts/personal-project/recursive/).

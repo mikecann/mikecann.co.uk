@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-01-26T09:48:24.000Z"
+date: '2007-01-26T09:48:24.000Z'
 tags: []
 title: Kitty Wash
+oldUrl: /fun-amp-videos/kitty-wash
 ---
 
 Okay all that know me know i love kittys, but i also love to see kittys get scared.. (dont ask me why)

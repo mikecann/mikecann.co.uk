@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-07-18T22:52:57.000Z"
+date: '2013-07-18T22:52:57.000Z'
 tags:
   - belize
   - blog
@@ -9,6 +9,7 @@ tags:
   - photos
   - travel
 title: The Trip 2013 - Playa del Carmen to Tikal
+oldUrl: /2013-trip/the-trip-2013-playa-del-carmen-to-tikal
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/07/screenshot_01.png)

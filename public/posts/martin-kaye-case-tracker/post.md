@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-07-27T19:30:57.000Z"
+date: '2006-07-27T19:30:57.000Z'
 tags: []
 title: Martin-Kaye Case Tracker
+oldUrl: /actionscript/martin-kaye-case-tracker
 ---
 
 ![](/wp-content/uploads/Image/ecase.gif)

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-10-14T21:07:12.000Z"
+date: '2013-10-14T21:07:12.000Z'
 tags:
   - colombia
   - ecuador
@@ -8,6 +8,7 @@ tags:
   - rock climbing
   - travel
 title: Trip 2013 - Bucaramanga to Montanita
+oldUrl: /2013-trip/trip-2013-bucaramanga-to-montanita
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/10/screenshot_01.png)

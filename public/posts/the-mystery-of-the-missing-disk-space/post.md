@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2014-02-15T11:31:48.000Z"
+date: '2014-02-15T11:31:48.000Z'
 tags:
   - disk space
   - solution
   - windows
 title: The Mystery of the Missing Disk Space
+oldUrl: /misc/the-mystery-of-the-missing-disk-space
 ---
 
 [![screenshot_06](/wp-content/uploads/2014/02/screenshot_06.png)](/wp-content/uploads/2014/02/screenshot_06.png)

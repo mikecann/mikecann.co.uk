@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-17T21:40:01.000Z"
+date: '2006-05-17T21:40:01.000Z'
 tags: []
 title: llamp2
+oldUrl: /art/llamp2
 ---
 
 Llamp2 uses the same image created by lightwave however i applied different effects to it photoshop.

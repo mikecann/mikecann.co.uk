@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-06-30T11:04:25.000Z"
+date: '2012-06-30T11:04:25.000Z'
 tags:
   - as3
   - as3hx
@@ -9,6 +9,7 @@ tags:
   - robotlegs
   - swiftsuspenders
 title: On Porting RobotLegs2 & SwiftSupenders2 to Haxe
+oldUrl: /actionscript/on-porting-robotlegs2-swiftsupenders2-to-haxe
 ---
 
 [![](/wp-content/uploads/2012/06/robotlegsplushaxe.jpg "robotlegsplushaxe")](/wp-content/uploads/2012/06/robotlegsplushaxe.jpg)

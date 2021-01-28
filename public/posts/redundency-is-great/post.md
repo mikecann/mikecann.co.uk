@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2008-03-31T17:16:54.000Z"
+date: '2008-03-31T17:16:54.000Z'
 tags: []
 title: Redundency is Great
+oldUrl: /photos-personal/redundency-is-great
 ---
 
 Well thats it for my time at Rockpool Games.

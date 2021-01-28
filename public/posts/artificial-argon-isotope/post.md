@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-04-11T11:11:53.000Z"
+date: '2013-04-11T11:11:53.000Z'
 tags:
   - argon
   - house
@@ -11,6 +11,7 @@ tags:
   - tech
   - techo
 title: Artificial - Argon Isotope
+oldUrl: /audio/artificial-argon-isotope
 ---
 
 [![argon](/wp-content/uploads/2013/04/argon.png)](/audio/artificial-argon-isotope/attachment/argon/)

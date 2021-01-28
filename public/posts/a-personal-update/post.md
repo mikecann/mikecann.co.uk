@@ -5,6 +5,7 @@ tags:
   - personal
   - life
 title: A Personal Update
+oldUrl: /personal/a-personal-update
 ---
 
 This blog has been going for a long time and in the early days it was a mixture of Personal updates and technical updates.

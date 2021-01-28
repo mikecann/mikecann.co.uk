@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-06-13T09:08:52.000Z"
+date: '2006-06-13T09:08:52.000Z'
 tags: []
 title: Does it Offend You - Weird Science
+oldUrl: /singles/does-it-offend-you-weird-science
 ---
 
 ![Does it Offend You - Weird Science](/wp-content/uploads/2006/06/Weird_Science.jpg)

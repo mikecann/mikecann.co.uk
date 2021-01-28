@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-10-25T22:19:09.000Z"
+date: '2010-10-25T22:19:09.000Z'
 tags:
   - auto update
   - screen edge
   - upgrade
   - version
 title: Inputtie - Version 0.1.6
+oldUrl: /inputtie/inputtie-version-0-1-6
 ---
 
 Made a few small stability changes with Inputtie tonight, thought I would share.

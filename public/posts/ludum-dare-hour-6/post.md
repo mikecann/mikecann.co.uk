@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-21T08:42:53.000Z"
+date: '2010-08-21T08:42:53.000Z'
 tags:
   - 48hours
   - development
@@ -8,6 +8,7 @@ tags:
   - game
   - ludum
 title: Ludum Dare - Hour 6
+oldUrl: /48-hours-later/ludum-dare-hour-6
 ---
 
 Progress update. I had a small sleep between 5 and 7 as I was getting pretty sleepy and my body still thought it was night time.

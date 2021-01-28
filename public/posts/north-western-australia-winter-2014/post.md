@@ -6,6 +6,7 @@ tags:
   - photos
   - travel
 title: 'North Western Australia, Winter 2014'
+oldUrl: /photos-personal/north-western-australia-winter-2014
 ---
 
 Well I have been back for over 3 weeks now but only just got round to uploading the pictures and videos from my 3 week trip up north. I had an absolute blast exploring some of the more remote Australian countryside.

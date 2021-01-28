@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-12-15T00:16:36.000Z"
+date: '2009-12-15T00:16:36.000Z'
 tags:
   - personal
   - photos
 title: The New Bike
+oldUrl: /photos-personal/the-new-bike
 ---
 
 Well after the thieving of my bike [a few weeks ago](https://www.mikecann.co.uk/misc/bike-be-gone/) I was offered a new bike as replacement by the insurance company, a Kona Shred, another dirt bike.

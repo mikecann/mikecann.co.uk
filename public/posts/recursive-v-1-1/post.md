@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-12-16T18:38:53.000Z"
+date: '2012-12-16T18:38:53.000Z'
 tags:
   - chrome
   - crawler
@@ -13,6 +13,7 @@ tags:
   - typescript
   - update
 title: Recursive v.1.1
+oldUrl: /recursive/recursive-v-1-1
 ---
 
 [![Screenshot_001](/wp-content/uploads/2012/12/Screenshot_001-1024x423.png)](/posts/recursive-v-1-1/attachment/screenshot_001/)

@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-21T02:42:21.000Z"
+date: '2010-08-21T02:42:21.000Z'
 tags:
   - competition
   - development
   - games
   - ludum
 title: Ludum Dare - Hour 0
+oldUrl: /48-hours-later/ludum-dare-hour-0
 ---
 
 Okay its 3:31am the competition started 31mins ago. I had originally intended to wake up at 5-6am then start coding but I couldnt sleep so I thought I would get cracking early then catch a nap later on when im tired.

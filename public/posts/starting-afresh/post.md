@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-06-11T13:31:54.000Z"
+date: '2010-06-11T13:31:54.000Z'
 tags:
   - blog
   - website
   - wordpress
 title: Starting Afresh
+oldUrl: /websites/starting-afresh
 ---
 
 [![](/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg "ScreenHunter_01 Jun. 11 11.37")](/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg)

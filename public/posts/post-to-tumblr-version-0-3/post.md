@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-10-31T11:04:26.000Z"
+date: '2010-10-31T11:04:26.000Z'
 tags:
   - browser
   - chrome
@@ -13,6 +13,7 @@ tags:
   - version
   - video
 title: Post To Tumblr Version 0.3
+oldUrl: /post-to-tumbr/post-to-tumblr-version-0-3
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_004.png "Shot_004")](/wp-content/uploads/2010/10/Shot_004.png)

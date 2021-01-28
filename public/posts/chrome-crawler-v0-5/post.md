@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-05-14T14:55:01.000Z"
+date: '2011-05-14T14:55:01.000Z'
 tags:
   - chrome
   - crawler
   - spider
   - update
 title: Chrome Crawler v0.5
+oldUrl: /chrome-crawler/chrome-crawler-v0-5
 ---
 
 [![](/wp-content/uploads/2011/05/icon128.png "icon128")](/wp-content/uploads/2011/05/icon128.png)

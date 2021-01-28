@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-01-28T13:08:14.000Z"
+date: '2012-01-28T13:08:14.000Z'
 tags: []
 title: Homebrewin' Tip
+oldUrl: /misc/homebrewin-tip
 ---
 
 [![](/wp-content/uploads/2012/01/head.jpg "head")](/wp-content/uploads/2012/01/head.jpg)

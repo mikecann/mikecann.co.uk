@@ -6,6 +6,7 @@ tags:
   - games
   - projects
 title: 'BlastWave: Lost at Sea'
+oldUrl: /actionscript/blastwave-lost-at-sea
 ---
 
 FINALLY ITS LIVE!!!! Oh my, it has taken literally[ months and months](https://www.mikecann.co.uk/personal-project/the-next-one-blast-wave-2/) to get all the deals sorted but finally now its done and out.

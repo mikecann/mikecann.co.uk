@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-04-17T18:41:57.000Z"
+date: '2010-04-17T18:41:57.000Z'
 tags:
   - clever
   - email
@@ -10,6 +10,7 @@ tags:
   - trick
   - virus
 title: Clever Spam Email..
+oldUrl: /misc/clever-spam-email
 ---
 
 Its not often that spam gets through my gmail spam filters but this one did, and its quite ingenious:

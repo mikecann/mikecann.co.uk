@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-11-19T19:08:59.000Z"
+date: '2009-11-19T19:08:59.000Z'
 tags:
   - bike
   - personal
   - stolen
-title: "Bike Be Gone :("
+title: 'Bike Be Gone :('
+oldUrl: /misc/bike-be-gone
 ---
 
 Went downstairs to the first floor carpark this morning to grab my bike for my morning 15min cycle into work to find that all that remained was this:

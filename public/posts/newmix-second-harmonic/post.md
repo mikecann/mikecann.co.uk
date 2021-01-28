@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-01-17T22:54:55.000Z"
+date: '2013-01-17T22:54:55.000Z'
 tags:
   - ableton
   - audio
@@ -11,6 +11,7 @@ tags:
   - production
   - track
 title: Newmix - Second Harmonic
+oldUrl: /audio/newmix-second-harmonic
 ---
 
 [![head02](/wp-content/uploads/2013/01/head02.png)](/posts/newmix-second-harmonic/attachment/head02-2/)

@@ -5,6 +5,7 @@ tags:
   - talks
   - public speaking
 title: Talks of 2018
+oldUrl: /talks/talks-of-2018
 ---
 
 I totally forgot to post about the various talks I gave this year so I thought I would take a few minutes and post about them.

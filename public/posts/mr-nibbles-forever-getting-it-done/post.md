@@ -7,6 +7,7 @@ tags:
   - marketing
   - plan
 title: Mr Nibbles Forever - Getting it done
+oldUrl: /mr-nibbles-forever/mr-nibbles-forever-getting-it-done
 ---
 
 I talked about this in my [last blog post](https://www.mikecann.co.uk/myprojects/mr-nibbles-alpha-8/) but Mr Nibbles Forever is starting to take shape now. The features have been ready for some time now and the the last update saw 95% of the game's artwork go in. Basically the game itself its pretty much there apart from bug fixes and polish.

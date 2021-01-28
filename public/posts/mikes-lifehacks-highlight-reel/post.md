@@ -6,6 +6,7 @@ tags:
   - personal
   - gratitude
 title: Mike's Lifehacks - Highlight Reel
+oldUrl: /lifehacks/mikes-lifehacks-highlight-reel
 ---
 
 This is a technique my girlfriend I have have been practicing every day for years now so I thought I would share.

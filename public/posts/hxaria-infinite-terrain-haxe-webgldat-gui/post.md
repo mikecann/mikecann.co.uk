@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-11-26T14:19:40.000Z"
+date: '2011-11-26T14:19:40.000Z'
 tags:
   - experiment
   - haxe
@@ -8,7 +8,8 @@ tags:
   - particles
   - terraria
   - tilemaps
-title: "Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]"
+title: 'Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]'
+oldUrl: /glsl/hxaria-infinite-terrain-haxe-webgldat-gui
 ---
 
 So I have been working on my "[Terraria like Terrain](/posts/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.

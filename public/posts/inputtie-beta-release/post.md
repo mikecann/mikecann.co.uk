@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-09-22T19:57:09.000Z"
+date: '2010-09-22T19:57:09.000Z'
 tags:
   - beta
   - bug
@@ -14,6 +14,7 @@ tags:
   - release
   - version
 title: Inputtie - Beta Release!
+oldUrl: /inputtie/inputtie-beta-release
 ---
 
 [![](/wp-content/uploads/2010/09/ScreenHunter_01-Sep.-22-19.58.png "ScreenHunter_01 Sep. 22 19.58")](/wp-content/uploads/2010/09/ScreenHunter_01-Sep.-22-19.58.png)

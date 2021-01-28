@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-03-25T15:27:19.000Z"
+date: '2013-03-25T15:27:19.000Z'
 tags:
   - air
   - ash
@@ -8,6 +8,7 @@ tags:
   - game
   - mobile
 title: The Three Game Challenge
+oldUrl: /games/the-three-game-challenge
 ---
 
 ![](/wp-content/uploads/2013/03/c05c1aa4a34153cda98d2ed3964498f6.png)

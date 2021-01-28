@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2014-01-18T18:16:36.000Z"
+date: '2014-01-18T18:16:36.000Z'
 tags:
   - brazil
   - gardens
@@ -9,6 +9,7 @@ tags:
   - sugarloaf
   - travel
 title: The Trip 2013 - Jericoacoara to Newport
+oldUrl: /2013-trip/the-trip-2013-jericoacoara-to-newport
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [Trip 2013 - Jericoacoara to Newport](https://www.facebook.com/media/set/?set=a.10152177819916031.1073741862.593661030&type=1&l=aa502a700c). Each picture can be clicked to see a larger version and comment / like.**

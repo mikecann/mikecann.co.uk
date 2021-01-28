@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-21T23:04:15.000Z"
+date: '2010-08-21T23:04:15.000Z'
 tags:
   - 48hours
   - competition
@@ -8,6 +8,7 @@ tags:
   - game
   - ludum
 title: Ludum Dare - Hour 22
+oldUrl: /48-hours-later/ludum-dare-hour-22
 ---
 
 [![](/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg "ScreenHunter_02 Aug. 21 23.59")](/wp-content/uploads/2010/08/ScreenHunter_02-Aug.-21-23.59.jpg)

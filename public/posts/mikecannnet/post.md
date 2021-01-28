@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-04-06T15:16:39.000Z"
+date: '2009-04-06T15:16:39.000Z'
 tags: []
 title: mikecann.net
+oldUrl: /misc/mikecannnet
 ---
 
 ![mikecannnet](/wp-content/uploads/2009/04/mikecannnet.png "mikecannnet")

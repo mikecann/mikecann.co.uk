@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2014-07-04T00:58:22.000Z"
+date: '2014-07-04T00:58:22.000Z'
 tags: []
 title: Mr Nibbles 3D - Level Building
+oldUrl: /mr-nibbles-3d/mr-nibbles-3d-level-building
 ---
 
 As this is a level based puzzle game one of the big requirements for the project will be the ability to quickly build and test levels. In the original Mr Nibbles the levels were all 2D generated from a bitmap image where each pixel represents a single tile in the world. So for example here is level 4:

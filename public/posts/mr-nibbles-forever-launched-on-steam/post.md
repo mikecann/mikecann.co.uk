@@ -7,6 +7,7 @@ tags:
   - pc
   - publishing
 title: Mr Nibbles Forever - Launched on Steam
+oldUrl: /mr-nibbles-forever/mr-nibbles-forever-launched-on-steam
 ---
 
 Yesterday marked the culmination of many months of hard work, we [released Mr Nibbles Forever to the Steam store](https://store.steampowered.com/app/448050/)!

@@ -10,6 +10,7 @@ tags:
   - hardware
   - linux
 title: Mikes Mirror - Software
+oldUrl: /projects/mikes-mirror-software
 ---
 
 Building the frame and assembling [the hardware](/projects/mikes-mirror-hardware/) for my Smart Mirror was a tough but fun journey. But now its time for what im good at, the software.

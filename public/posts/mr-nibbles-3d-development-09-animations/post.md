@@ -8,6 +8,7 @@ tags:
   - nibbles
   - unity
 title: Mr Nibbles 3D Development 09 - Animations
+oldUrl: /games/mr-nibbles-3d-development-09-animations
 ---
 
 Its been a little while since I have posted about Mr Nibbles 3D progress but we have been making progress slowly but surely. After a few hiccups creating and importing animations from C4D we now finally have Mr Nibbles in the game with mostly the correct animations in place, check out this video to see:

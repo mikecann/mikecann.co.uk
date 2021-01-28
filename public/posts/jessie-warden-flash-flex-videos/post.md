@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-02-02T14:17:45.000Z"
+date: '2010-02-02T14:17:45.000Z'
 tags:
   - beer
   - blog
@@ -9,6 +9,7 @@ tags:
   - framework
   - video
 title: Jessie Warden - Flash & Flex Videos
+oldUrl: /fun-amp-videos/jessie-warden-flash-flex-videos
 ---
 
 [![](/wp-content/uploads/2010/02/ScreenHunter_01-Feb.-02-13.15.gif "ScreenHunter_01 Feb. 02 13.15")](/wp-content/uploads/2010/02/ScreenHunter_01-Feb.-02-13.15.gif)

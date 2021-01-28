@@ -3,6 +3,7 @@ coverImage: /posts/artificial-studios-1/cover.jpg
 date: '2004-01-29T23:07:01.000Z'
 tags: []
 title: Artificial Studios 1
+oldUrl: /projects/artificial-studios-1
 ---
 
 [![](/wp-content/uploads/2011/10/MainSplash.gif "MainSplash")](/wp-content/uploads/2011/10/MainSplash.gif)

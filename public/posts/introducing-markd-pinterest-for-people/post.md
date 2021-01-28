@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/introducing-markd-pinterest-for-people/cover.jpg
-date: "2016-09-15T02:25:17.000Z"
+date: '2016-09-15T02:25:17.000Z'
 tags:
   - asp.net
   - aurelia
@@ -8,6 +8,7 @@ tags:
   - commercial project
   - website
 title: Introducing Markd - Pinterest for people
+oldUrl: /markd/introducing-markd-pinterest-for-people
 ---
 
 [Markd](https://markd.co/) is a project I have been working on for Brandon over a [pepwuper.com](https://www.pepwuper.com/) for a while now.

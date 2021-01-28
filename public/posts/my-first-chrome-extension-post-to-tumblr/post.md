@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-10-14T20:02:33.000Z"
+date: '2010-10-14T20:02:33.000Z'
 tags:
   - chrome
   - extension
@@ -12,6 +12,7 @@ tags:
   - project
   - tumblr
 title: My First Chrome Extension - "Post To Tumblr"
+oldUrl: /post-to-tumbr/my-first-chrome-extension-post-to-tumblr
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_002.png "Shot_002")](/wp-content/uploads/2010/10/Shot_002.png)

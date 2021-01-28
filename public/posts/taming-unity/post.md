@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/taming-unity/cover.jpg
-date: "2014-04-26T00:42:52.000Z"
+date: '2014-04-26T00:42:52.000Z'
 tags:
   - games
   - mvc
@@ -8,6 +8,7 @@ tags:
   - strangeioc
   - unit testing
 title: Taming Unity
+oldUrl: /c/taming-unity
 ---
 
 [![logo](https://www.mikecann.co.uk/wp-content/uploads/2014/04/logo.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/04/logo.png)

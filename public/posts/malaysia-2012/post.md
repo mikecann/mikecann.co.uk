@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-06-25T18:59:09.000Z"
+date: '2012-06-25T18:59:09.000Z'
 tags:
   - malaysia
   - personal
   - photos
   - travel
 title: Malaysia 2012
+oldUrl: /photos-personal/malaysia-2012
 ---
 
 [![](/wp-content/uploads/2012/06/screenshot_01.jpg "screenshot_01")](/wp-content/uploads/2012/06/screenshot_01.jpg)

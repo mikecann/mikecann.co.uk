@@ -1,13 +1,14 @@
 ---
 coverImage: /posts/highlight-selected-plugin-updated-by-david-hancock/cover.jpg
-date: "2009-05-04T15:24:57.000Z"
+date: '2009-05-04T15:24:57.000Z'
 tags:
   - c sharp
   - flashdevelop
   - personal
   - plugin
   - projects
-title: "Highlight Selected Plugin, updated by David Hancock"
+title: 'Highlight Selected Plugin, updated by David Hancock'
+oldUrl: /c/highlight-selected-plugin-updated-by-david-hancock
 ---
 
 This sort of things brings a big smile to my face; I got an excellent email yesterday from a chap named [Dave Hancock](https://gonegothic.com/) asking my permission to post an update he had made to my [Highlight Selected](https://www.mikecann.co.uk/?p=403) plugin.

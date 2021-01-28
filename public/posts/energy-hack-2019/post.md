@@ -7,6 +7,7 @@ tags:
   - startups
   - perth
 title: Energy Hack 2019
+oldUrl: /personal/energy-hack-2019
 ---
 
 Just a quick post on my recent attendance of the one-day hackathon "Energy Hack".

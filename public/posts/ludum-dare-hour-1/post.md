@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-21T03:37:14.000Z"
+date: '2010-08-21T03:37:14.000Z'
 tags:
   - boomstick
   - design
@@ -10,6 +10,7 @@ tags:
   - ludum
   - worms
 title: Ludum Dare - Hour 1
+oldUrl: /48-hours-later/ludum-dare-hour-1
 ---
 
 [![](/wp-content/uploads/2010/08/ScreenHunter_14-Aug.-21-04.28-1024x458.gif "ScreenHunter_14 Aug. 21 04.28")](/wp-content/uploads/2010/08/ScreenHunter_14-Aug.-21-04.28.gif)

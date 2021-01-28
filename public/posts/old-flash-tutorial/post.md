@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-09-21T22:30:51.000Z"
+date: '2006-09-21T22:30:51.000Z'
 tags: []
 title: Old flash tutorial
+oldUrl: /flash/old-flash-tutorial
 ---
 
 ![](/wp-content/uploads/Image/flashtutorialss.png)

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-03-05T20:42:49.000Z"
+date: '2013-03-05T20:42:49.000Z'
 tags:
   - bug
   - chrome
@@ -9,6 +9,7 @@ tags:
   - posttotumblr
   - tumblr
 title: PostToTumblr v3.18 - Fixed Tumblr oauth change
+oldUrl: /haxe/posttotumblr-v3-18-fixed-tumblr-oauth-change
 ---
 
 [![head](/wp-content/uploads/2013/03/head1.png)](/posts/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/head-9/)

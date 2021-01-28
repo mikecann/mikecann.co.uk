@@ -8,6 +8,7 @@ tags:
   - typescript
   - battleships
 title: Introducing BattleTabs
+oldUrl: /markd/introducing-battletabs
 ---
 
 This one has been quite a while in the making but im proud to announce this innovative new game we have been working on.

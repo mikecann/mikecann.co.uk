@@ -7,6 +7,7 @@ tags:
   - typescript
   - react native
 title: Started At Bamboo
+oldUrl: /employment/started-at-bamboo
 ---
 
 Just a quick employment update today.

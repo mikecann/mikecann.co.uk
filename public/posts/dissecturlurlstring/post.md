@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-01-16T13:00:49.000Z"
+date: '2009-01-16T13:00:49.000Z'
 tags: []
-title: "dissectURL(url:String)"
+title: 'dissectURL(url:String)'
+oldUrl: /actionscript/dissecturlurlstring
 ---
 
 Been a while since i have shared any coding tips, but here is one for those Actionscript 3 Coders out there. Its a helper function that splits a URL up into its different parts using RegExp.<!-- more -->

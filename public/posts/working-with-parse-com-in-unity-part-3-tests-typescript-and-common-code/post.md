@@ -1,14 +1,16 @@
 ---
 coverImage: >-
   /posts/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/cover.jpg
-date: "2014-11-11T01:24:38.000Z"
+date: '2014-11-11T01:24:38.000Z'
 tags:
   - c sharp
   - parse.com
   - testing
   - typescript
   - unity
-title: "Working with Parse.com in Unity - Part 3 - Tests, Typescript and Common Code"
+title: 'Working with Parse.com in Unity - Part 3 - Tests, Typescript and Common Code'
+oldUrl: >-
+  /programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code
 ---
 
 > This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:

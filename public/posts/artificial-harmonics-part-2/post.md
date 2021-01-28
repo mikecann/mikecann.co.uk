@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-06-30T09:37:06.000Z"
+date: '2006-06-30T09:37:06.000Z'
 tags: []
 title: Artificial Harmonics ( part 2 )
+oldUrl: /personal-mixes/artificial-harmonics-part-2
 ---
 
 \*\*

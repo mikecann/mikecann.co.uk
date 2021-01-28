@@ -4,6 +4,7 @@ date: '2019-10-15T08:20:40.000Z'
 tags:
   - good deed
 title: The Case of the Lost iPhone
+oldUrl: /personal/the-case-of-the-lost-iphone
 ---
 
 Todays post is a little different from my usual technical or business related posts, its a tale of search and discovery..

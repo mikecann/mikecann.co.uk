@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/unity-helpers-utilities-and-extensions-for-unity/cover.jpg
-date: "2014-06-03T03:23:45.000Z"
+date: '2014-06-03T03:23:45.000Z'
 tags:
   - github
   - library
@@ -8,6 +8,7 @@ tags:
   - unity
   - utils
 title: Unity Helpers - Utilities and Extensions for Unity
+oldUrl: /c/unity-helpers-utilities-and-extensions-for-unity
 ---
 
 During the development of my up and coming game I have encountered some snags when developing in Unity so I wrote a number of utilities and extension methods to help out.

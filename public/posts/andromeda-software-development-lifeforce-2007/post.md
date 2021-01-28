@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-11-11T15:28:51.000Z"
+date: '2009-11-11T15:28:51.000Z'
 tags:
   - cool
   - demoscene
   - video
 title: Andromeda Software Development - Lifeforce 2007
+oldUrl: /art/andromeda-software-development-lifeforce-2007
 ---
 
 I know this is now a coupple of years old, but just [stumbled accross it.](https://www.pouet.net/prod.php?which=31571)

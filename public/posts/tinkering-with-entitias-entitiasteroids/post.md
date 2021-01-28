@@ -1,12 +1,13 @@
 ---
 coverImage: /posts/tinkering-with-entitias-entitiasteroids/cover.jpg
-date: "2015-11-09T01:50:07.000Z"
+date: '2015-11-09T01:50:07.000Z'
 tags:
   - c sharp
   - games
   - programming
   - unity
 title: Tinkering With Entitias - Entitiasteroids
+oldUrl: /entitiasteroids/tinkering-with-entitias-entitiasteroids
 ---
 
 **EDIT: Check the comments for an excellent reply from Simon, creator of Entitias.**

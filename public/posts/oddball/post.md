@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-17T21:54:57.000Z"
+date: '2006-05-17T21:54:57.000Z'
 tags: []
 title: oddball
+oldUrl: /art/oddball
 ---
 
 > I personally dont like this image and feel like it could be done alot better but people have told me they like it so im posting it here anyways

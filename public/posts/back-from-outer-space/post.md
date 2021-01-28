@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-07-15T18:37:48.000Z"
+date: '2010-07-15T18:37:48.000Z'
 tags:
   - california
   - car
@@ -9,6 +9,7 @@ tags:
   - photos
   - trip
 title: Back From Outer Space
+oldUrl: /photos-personal/back-from-outer-space
 ---
 
 .. well California actually but im just listening to abit of Prodigy so I thought it appropriate.

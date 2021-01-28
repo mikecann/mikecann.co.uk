@@ -7,6 +7,7 @@ tags:
   - game
   - projects
 title: '8hour Game: Countdown with Neil Haversham'
+oldUrl: /actionscript/8hour-game-countdown-with-neil-haversham
 ---
 
 1 Programmer, 1 Artist, 8hours, surely nothing of any quality can be made in that time? Well there you would be wrong because Michael Cann (www.mikecann.co.uk) and Oliver Pitceathly (www.olip.co.uk) present to you "Countdown with Neil Haversham":

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-22T08:37:45.000Z"
+date: '2010-08-22T08:37:45.000Z'
 tags:
   - 48hours
   - bloom
@@ -12,6 +12,7 @@ tags:
   - particles
   - worms
 title: Ludum Dare - Hour 31
+oldUrl: /48-hours-later/ludum-dare-hour-31
 ---
 
 [![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg "ScreenHunter_01 Aug. 22 09.36")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-22-09.36.jpg)

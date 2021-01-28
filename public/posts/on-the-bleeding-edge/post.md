@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-02-10T23:26:38.000Z"
+date: '2010-02-10T23:26:38.000Z'
 tags:
   - air
   - flex
@@ -12,6 +12,7 @@ tags:
   - robot legs
   - signals
 title: On the Bleeding Edge
+oldUrl: /actionscript/on-the-bleeding-edge
 ---
 
 Well it thought it was about time I did some posting about my personal project im working on at the moment as I havent spoken about my coding for a while.

@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-10-19T20:21:25.000Z"
+date: '2007-10-19T20:21:25.000Z'
 tags: []
 title: Cheers Pete!
+oldUrl: /misc/cheers-pete
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/cheerspete.png)

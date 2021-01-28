@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-12-23T18:13:45.000Z"
+date: '2009-12-23T18:13:45.000Z'
 tags:
   - cats
   - fun
   - video
 title: Kitten vs Spam
+oldUrl: /fun-amp-videos/kitten-vs-spam
 ---
 
 Well im back from Germany and after a horrendous journey involving stolen passports, lost luggage, cancelled flights, 11 hour waits in airports and 9 hour bus journeys I needed something to cheer me up. This fit the bill nicely:

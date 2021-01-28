@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-01-09T19:37:42.000Z"
+date: '2010-01-09T19:37:42.000Z'
 tags:
   - actionscript
   - audiobook
@@ -12,6 +12,7 @@ tags:
   - projects
   - utility
 title: Audio Book Organiser v1.2.0
+oldUrl: /actionscript/audio-book-organiser-v1-2-0
 ---
 
 [![ScreenHunter_01 Jan. 09 18.34](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-09-18.34.jpg "ScreenHunter_01 Jan. 09 18.34")](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-09-18.34.jpg)

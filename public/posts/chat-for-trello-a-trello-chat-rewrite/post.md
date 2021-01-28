@@ -5,6 +5,7 @@ tags:
   - misc
   - personal
 title: Chat for Trello - a Trello Chat Rewrite
+oldUrl: /misc/chat-for-trello-a-trello-chat-rewrite
 ---
 
 In the [spirit of repeating myself](http://mikecann.co.uk/tasks-for-trello/tasks-for-trello-a-trello-tasks-rewrite/). I have decided to rewrite another one of my chrome extensions.

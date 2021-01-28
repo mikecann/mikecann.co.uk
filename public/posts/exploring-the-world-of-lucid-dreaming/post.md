@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-01T13:27:21.000Z"
+date: '2010-08-01T13:27:21.000Z'
 tags:
   - awake
   - book
@@ -8,6 +8,7 @@ tags:
   - lucid
   - mind
 title: Exploring The World of Lucid Dreaming
+oldUrl: /books/exploring-the-world-of-lucid-dreaming
 ---
 
 [![](/wp-content/uploads/2010/08/IMG_0909.jpg "IMG_0909")](/wp-content/uploads/2010/08/IMG_0909.jpg)

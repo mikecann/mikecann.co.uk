@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-08-14T12:24:40.000Z"
+date: '2006-08-14T12:24:40.000Z'
 tags: []
 title: Polynate
+oldUrl: /art/polynate
 ---
 
 ![](/wp-content/uploads/Image/polynate-thumb.png)

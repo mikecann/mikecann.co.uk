@@ -8,6 +8,7 @@ tags:
   - mr nibbles
   - unity
 title: Mr Nibbles Forever - Alpha 3
+oldUrl: /mr-nibbles-forever/mr-nibbles-forever-alpha-3
 ---
 
 I have had far less time than I would have liked to work on the game this week mainly because it was my birthday over the weekend and quite a bit of time was spent preparing for that.

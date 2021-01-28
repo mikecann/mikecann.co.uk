@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-11-14T14:06:56.000Z"
+date: '2007-11-14T14:06:56.000Z'
 tags: []
 title: Confused Kitty
+oldUrl: /fun-amp-videos/confused-kitty
 ---
 
 I dont know why i find this so funny...

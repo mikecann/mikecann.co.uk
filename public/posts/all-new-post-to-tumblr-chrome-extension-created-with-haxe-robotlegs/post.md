@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-09-11T19:29:45.000Z"
+date: '2012-09-11T19:29:45.000Z'
 tags:
   - chrome
   - extension
@@ -8,6 +8,7 @@ tags:
   - javascript
   - tumblr
 title: All New Post To Tumblr Chrome Extension created with Haxe & Robotlegs
+oldUrl: /haxe/all-new-post-to-tumblr-chrome-extension-created-with-haxe-robotlegs
 ---
 
 [![](/wp-content/uploads/2012/09/newhead.jpg "newhead")](/wp-content/uploads/2012/09/newhead.jpg)

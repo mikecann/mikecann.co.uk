@@ -1,13 +1,14 @@
 ---
 coverImage: /posts/flash-develop-plugin-go-to-definition/cover.jpg
-date: "2009-05-11T19:08:39.000Z"
+date: '2009-05-11T19:08:39.000Z'
 tags:
   - c sharp
   - flash
   - flashdevelop
   - plugin
   - projects
-title: "Flash Develop Plugin: Go To Definition"
+title: 'Flash Develop Plugin: Go To Definition'
+oldUrl: /c/flash-develop-plugin-go-to-definition
 ---
 
 **Go To Definition**

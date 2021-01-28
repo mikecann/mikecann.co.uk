@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-02-26T17:10:56.000Z"
+date: '2012-02-26T17:10:56.000Z'
 tags:
   - dnb
   - dubstep
   - mix
   - music
 title: Artificial - Second Life
+oldUrl: /audio/artificial-second-life
 ---
 
 [![](/wp-content/uploads/2012/02/header.png "header")](/wp-content/uploads/2012/02/header.png)

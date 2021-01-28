@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-01-18T13:36:07.000Z"
+date: '2010-01-18T13:36:07.000Z'
 tags:
   - dropbox
   - utility
 title: Rename Dropbox Root Folder Windows
+oldUrl: /photos-personal/rename-dropbox-root-folder-windows
 ---
 
 [![](/wp-content/uploads/2010/01/pyDropboxPath.png "pyDropboxPath")](/wp-content/uploads/2010/01/pyDropboxPath.png)

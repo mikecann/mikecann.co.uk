@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-11-01T20:31:47.000Z"
+date: '2009-11-01T20:31:47.000Z'
 tags:
   - campaign
   - spam
 title: Bigresource.com IS SPAM
+oldUrl: /misc/bigresource-com-is-spam
 ---
 
 Thats it im angry enough with this site to actually write a blogpost about it.

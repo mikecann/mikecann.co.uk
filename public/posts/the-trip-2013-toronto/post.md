@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-05-22T16:31:08.000Z"
+date: '2013-05-22T16:31:08.000Z'
 tags:
   - diary
   - photos
@@ -8,6 +8,7 @@ tags:
   - toronto
   - travel
 title: The Trip 2013 - Toronto
+oldUrl: /2013-trip/the-trip-2013-toronto
 ---
 
 ![screenshot_05](/wp-content/uploads/2013/05/screenshot_05.png)

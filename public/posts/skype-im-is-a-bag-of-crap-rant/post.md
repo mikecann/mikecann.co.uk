@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-01-09T19:46:01.000Z"
+date: '2013-01-09T19:46:01.000Z'
 tags:
   - chat
   - im
@@ -8,7 +8,8 @@ tags:
   - msn
   - rant
   - skype
-title: "Skype IM, is a bag of crap [Rant]"
+title: 'Skype IM, is a bag of crap [Rant]'
+oldUrl: /misc/skype-im-is-a-bag-of-crap-rant
 ---
 
 [![head](/wp-content/uploads/2013/01/head.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/head-4/)

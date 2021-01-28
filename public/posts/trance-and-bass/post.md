@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-27T22:41:59.000Z"
+date: '2006-05-27T22:41:59.000Z'
 tags: []
 title: Trance and Bass
+oldUrl: /albums/trance-and-bass
 ---
 
 **Artist:** [John B](https://www.beta-recordings.co.uk/)

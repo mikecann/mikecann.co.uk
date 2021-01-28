@@ -3,6 +3,7 @@ coverImage: /posts/printomi-maps/cover.jpg
 date: '2012-05-16T19:36:28.000Z'
 tags: []
 title: Printomi Maps
+oldUrl: /html/printomi-maps
 ---
 
 Well since we have made the [decision to discontinue Printomi](/posts/sunsetting-printomi/) I have been backing up the databases and downloading the 90GB+ of images that users have uploaded.

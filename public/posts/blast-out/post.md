@@ -3,6 +3,7 @@ coverImage: /posts/blast-out/cover.jpg
 date: '2008-06-06T10:01:21.000Z'
 tags: []
 title: Blast Out
+oldUrl: /actionscript/blast-out
 ---
 
 Well here is my next flash based offering...

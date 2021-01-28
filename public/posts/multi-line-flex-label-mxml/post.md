@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-11-28T19:14:10.000Z"
+date: '2010-11-28T19:14:10.000Z'
 tags:
   - as3
   - code
@@ -10,7 +10,8 @@ tags:
   - mxml
   - spark
   - tip
-title: "Multi-Line Flex Label [MXML]"
+title: 'Multi-Line Flex Label [MXML]'
+oldUrl: /flex/multi-line-flex-label-mxml
 ---
 
 Just stumbled across this one while writing some mxml for a personal project and thought I would share.

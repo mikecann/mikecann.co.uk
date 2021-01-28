@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-10-31T21:00:00.000Z"
+date: '2017-10-31T21:00:00.000Z'
 tags:
   - website
   - blog
@@ -10,6 +10,7 @@ tags:
   - personal
   - testies
 title: The Static Blog
+oldUrl: /blog/the-static-blog
 ---
 
 For too long I have suffered from a slow blog. Im currently inbetween project so I decided it was finally time to change that.

@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-03-21T12:00:00.000Z"
+date: '2017-03-21T12:00:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Introducing Above Under!
+oldUrl: /above-under/introducing-above-under
 ---
 
 Im very proud to announce this new venture [AboveUnder.com](https://AboveUnder.com). I have been talking about doing this for a while and happy to finally do it.

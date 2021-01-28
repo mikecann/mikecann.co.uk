@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-07-31T11:50:23.000Z"
+date: '2011-07-31T11:50:23.000Z'
 tags:
   - from dust
   - games
@@ -11,6 +11,7 @@ tags:
   - simulation
   - xbox
 title: From Dust
+oldUrl: /fun-amp-videos/from-dust
 ---
 
 [![](/wp-content/uploads/2011/07/Gamescom-2010-From-Dust-First-Look-Preview.jpg "Gamescom-2010-From-Dust-First-Look-Preview")](/wp-content/uploads/2011/07/Gamescom-2010-From-Dust-First-Look-Preview.jpg)

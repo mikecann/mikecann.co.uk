@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-09-08T14:22:05.000Z"
+date: '2012-09-08T14:22:05.000Z'
 tags:
   - android
   - debrief
@@ -10,6 +10,7 @@ tags:
   - mr nibbles
   - post mortem
 title: Mr Nibbles - The Post Mortem
+oldUrl: /haxe/mr-nibbles-the-post-mortem
 ---
 
 [![](/wp-content/uploads/2012/09/header.jpg "header")](/wp-content/uploads/2012/09/header.jpg)

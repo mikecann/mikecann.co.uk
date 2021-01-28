@@ -8,6 +8,7 @@ tags:
   - mobile
   - release
 title: Mr Nibbles Forever - Out now on Google Play
+oldUrl: /games/mr-nibbles-forever-out-now-on-google-play
 ---
 
 The title says it all! The game is now finally out on Google Play:

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-09-04T23:28:01.000Z"
+date: '2010-09-04T23:28:01.000Z'
 tags:
   - custom
   - develop
@@ -11,6 +11,7 @@ tags:
   - player
   - speed
 title: Joa Does It Again!
+oldUrl: /actionscript/joa-does-it-again
 ---
 
 [![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-31-14.04.jpg "ScreenHunter_01 Aug. 31 14.04")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-31-14.04.jpg)

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-09T17:08:47.000Z"
+date: '2010-08-09T17:08:47.000Z'
 tags:
   - assembly
   - cncd
@@ -15,6 +15,7 @@ tags:
   - party
   - video
 title: Assembly 2010 - CNCD & Fairlight Demo
+oldUrl: /fun-amp-videos/assembly-2010-cncd-fairlight-demo
 ---
 
 It was the massive annual Assembly gathering last week. Traditionally its a place for the [demo scene](https://scene.org) to gather and present their demos and to hack out new ones.

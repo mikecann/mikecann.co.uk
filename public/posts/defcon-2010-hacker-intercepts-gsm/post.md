@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-01T09:58:17.000Z"
+date: '2010-08-01T09:58:17.000Z'
 tags:
   - defcon
   - gsm
@@ -10,6 +10,7 @@ tags:
   - security
   - video
 title: Defcon 2010 - Hacker Intercepts GSM
+oldUrl: /fun-amp-videos/defcon-2010-hacker-intercepts-gsm
 ---
 
 I know I have been posting alot of videos lately but this one caught my eye for a couple of reasons this morning.

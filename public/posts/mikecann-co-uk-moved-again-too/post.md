@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-04-13T21:44:56.000Z"
+date: '2010-04-13T21:44:56.000Z'
 tags:
   - hosting
   - news
@@ -10,6 +10,7 @@ tags:
   - websites
   - wordpress
 title: mikecann.co.uk moved.. again.. too!
+oldUrl: /websites/mikecann-co-uk-moved-again-too
 ---
 
 [![](/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-13-21.27.jpg "ScreenHunter_01 Apr. 13 21.27")](/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-13-21.27.jpg)[![](/wp-content/uploads/2010/04/ScreenHunter_02-Apr.-13-21.29.jpg "ScreenHunter_02 Apr. 13 21.29")](/wp-content/uploads/2010/04/ScreenHunter_02-Apr.-13-21.29.jpg)

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-11-01T14:22:47.000Z"
+date: '2013-11-01T14:22:47.000Z'
 tags:
   - guayaquil
   - huaraz
@@ -11,6 +11,7 @@ tags:
   - travel
   - trijillo
 title: The Trip 2013 - Montanita to Huaraz
+oldUrl: /2013-trip/the-trip-2013-montanita-to-huaraz
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [Trip 2013 - Montanita to Huaraz](https://www.facebook.com/media/set/?set=a.10151984227476031.1073741851.593661030&type=1&l=9f791fa595). Each picture can be clicked to see a larger version and comment / like.**

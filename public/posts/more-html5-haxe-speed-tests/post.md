@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-07-10T19:13:25.000Z"
+date: '2011-07-10T19:13:25.000Z'
 tags:
   - canvas
   - haxe
@@ -10,6 +10,7 @@ tags:
   - project
   - speed
 title: More HTML5 & HaXe Speed Tests
+oldUrl: /haxe/more-html5-haxe-speed-tests
 ---
 
 [![](/wp-content/uploads/2011/07/header.png "header")](/wp-content/uploads/2011/07/header.png)

@@ -17,6 +17,7 @@ tags:
   - projects
   - swft
 title: SWFt - Dependency Injection Component Based Game Framework
+oldUrl: /programming/swft-dependency-injection-component-based-game-framework
 ---
 
 This is my first post of what I suspect will be many on the subject of SWFt.

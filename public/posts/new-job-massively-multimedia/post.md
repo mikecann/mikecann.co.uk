@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-08-04T14:02:35.000Z"
+date: '2009-08-04T14:02:35.000Z'
 tags:
   - jobs
   - news
   - personal
 title: New Job - Massively Multimedia
+oldUrl: /photos-personal/new-job-massively-multimedia
 ---
 
 [![logo](/wp-content/uploads/2009/08/logo.png "logo")](/wp-content/uploads/2009/08/logo.png)

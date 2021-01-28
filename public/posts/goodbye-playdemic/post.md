@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-03-02T20:27:49.000Z"
+date: '2013-03-02T20:27:49.000Z'
 tags:
   - company
   - leaving
   - playdemic
   - trip
 title: Goodbye Playdemic
+oldUrl: /photos-personal/goodbye-playdemic
 ---
 
 [![head](/wp-content/uploads/2013/03/head.png)](/posts/goodbye-playdemic/attachment/head-8/)

@@ -9,6 +9,7 @@ tags:
   - programming
   - theme
 title: FlashDevelop Obsidian Dark Theme For HaXe
+oldUrl: /haxe/flashdevelop-obsidian-dark-theme-for-haxe
 ---
 
 Just a quick update this evening.

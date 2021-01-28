@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-01-17T20:35:13.000Z"
+date: '2011-01-17T20:35:13.000Z'
 tags:
   - acquisition
   - employment
   - playdemic
   - rockyou
 title: Playdemic acquired by RockYou
+oldUrl: /misc/playdemic-acquired-by-rockyou
 ---
 
 [![](/wp-content/uploads/2011/01/top.jpg "top")](/wp-content/uploads/2011/01/top.jpg)

@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-02-05T16:00:19.000Z"
+date: '2009-02-05T16:00:19.000Z'
 tags: []
 title: Dev-Bot 2.0
+oldUrl: /misc/dev-bot-20
 ---
 
 We had our new developer delivered at GameJacket today, he is called dev-bot 2.0:

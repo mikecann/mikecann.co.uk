@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-06-04T14:01:14.000Z"
+date: '2009-06-04T14:01:14.000Z'
 tags:
   - 8hourgame
   - flash
@@ -9,6 +9,7 @@ tags:
   - timelapse
   - video
 title: 8hour Game Timelapse Development Video
+oldUrl: /actionscript/8hour-game-timelapse-development-video
 ---
 
 As promised here is the time-lapse sequence for the development process of my 8hr game [Countdown with Neil Haversham](https://www.mikecann.co.uk/?p=537). The video is comprised of 789 JPGs taken every 30 seconds then compressed into a movie.

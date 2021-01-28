@@ -12,6 +12,7 @@ tags:
   - projects
   - utility
 title: 'Audio Book Organiser (AIR, Mate, Flex 4)'
+oldUrl: /actionscript/audio-book-organiser-air-mate-flex-4
 ---
 
 Well its been a fun Christmas, I have eaten and drunk to the point that im going to be running it off in the gym till next christmas.

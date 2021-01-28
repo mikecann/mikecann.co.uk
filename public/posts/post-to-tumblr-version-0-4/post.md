@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-10-31T18:50:22.000Z"
+date: '2010-10-31T18:50:22.000Z'
 tags:
   - caption
   - extension
@@ -8,6 +8,7 @@ tags:
   - tumblr
   - update
 title: Post To Tumblr Version 0.4
+oldUrl: /post-to-tumbr/post-to-tumblr-version-0-4
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_0012.png "Shot_001")](/wp-content/uploads/2010/10/Shot_0012.png)

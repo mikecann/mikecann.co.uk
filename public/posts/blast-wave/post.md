@@ -3,6 +3,7 @@ coverImage: /posts/blast-wave/cover.jpg
 date: '2008-04-29T12:26:59.000Z'
 tags: []
 title: Blast Wave
+oldUrl: /blastwave/blast-wave
 ---
 
 Heres my latest flash based creation, Blast Wave.

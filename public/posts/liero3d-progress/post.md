@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-03-23T20:30:49.000Z"
+date: '2011-03-23T20:30:49.000Z'
 tags:
   - 3d
   - liero
   - ssao
 title: Liero3D Progress
+oldUrl: /misc/liero3d-progress
 ---
 
 [![](/wp-content/uploads/2011/03/Untitled-1.jpg "Untitled-1")](/wp-content/uploads/2011/03/Untitled-1.jpg)

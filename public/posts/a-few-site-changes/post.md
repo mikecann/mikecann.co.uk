@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-06T21:55:53.000Z"
+date: '2010-08-06T21:55:53.000Z'
 tags:
   - facebook
   - flash
   - twitter
   - website
 title: A Few Site Changes
+oldUrl: /websites/a-few-site-changes
 ---
 
 [![](/wp-content/uploads/2010/08/Untitled-1.jpg "Untitled-1")](/wp-content/uploads/2010/08/Untitled-1.jpg)

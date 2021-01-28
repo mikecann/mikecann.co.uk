@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-05-17T22:01:56.000Z"
+date: '2006-05-17T22:01:56.000Z'
 tags: []
 title: sword
+oldUrl: /art/sword
 ---
 
 > This is one of my very first images and hence you can tell by the cartoony feel too it. Only reason its up here becuse i like the effect with the three lines on the right hand side

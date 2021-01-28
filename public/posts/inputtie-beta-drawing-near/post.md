@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-09-21T19:26:11.000Z"
+date: '2010-09-21T19:26:11.000Z'
 tags:
   - beta
   - desktop
@@ -12,6 +12,7 @@ tags:
   - testing
   - windows
 title: Inputtie - Beta Drawing Near!
+oldUrl: /inputtie/inputtie-beta-drawing-near
 ---
 
 Final testing is under way here at mission control for the [Inputtie](https://www.inputtie.com) Beta.

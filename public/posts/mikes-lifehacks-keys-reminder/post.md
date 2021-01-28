@@ -6,6 +6,7 @@ tags:
   - personal
   - forgetful
 title: Mike's Lifehacks - Keys Reminder
+oldUrl: /lifehacks/mikes-lifehacks-keys-reminder
 ---
 
 Bit of a departure from the usual technically focused blog posts today to talk about a little "[lifehack](https://www.lifehacker.com.au)" that I use frequently to help me remember things. So if you are like me and have a terrible memory, then read on.

@@ -9,6 +9,7 @@ tags:
   - programming
   - unity
 title: Mr Nibbles - Mobile Testing
+oldUrl: /mr-nibbles-3d/mr-nibbles-mobile-testing
 ---
 
 This will be the last update for a while as I am heading up north WA for 3 weeks from tomorrow but before I went I wanted to get the game running on my iphone so I could test it while I was away. After a few accelerometer tweaks im glad to say that the game works just fine on Android and iOS:

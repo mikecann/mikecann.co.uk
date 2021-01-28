@@ -1,7 +1,7 @@
 ---
 coverImage: >-
   /posts/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/cover.jpg
-date: "2015-10-30T05:45:00.000Z"
+date: '2015-10-30T05:45:00.000Z'
 tags:
   - architecture
   - c sharp
@@ -9,6 +9,7 @@ tags:
   - framework
   - game
 title: Unity Ash - A different way of thinking about making games in Unity
+oldUrl: /programming/unity-ash-a-different-way-of-thinking-about-making-games-in-unity
 ---
 
 [Over a year ago](https://www.mikecann.co.uk/portfolio/projects/unity-ashteroids-ash-framework-in-unity/) I decided to scratch an itch and see if I could get Richard Lord's Ash framework to work in Unity. It actually turned out to be far easier than I had imagined. A few people contacted me as they wanted to use it for production games so I decided to do [a little more work on it a few months later](https://www.mikecann.co.uk/programming/unity-ash-upgrades/) to fix some of the easily solved issues with my quick port.

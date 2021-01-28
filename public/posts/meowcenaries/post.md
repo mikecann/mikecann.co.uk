@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-04-24T09:41:12.000Z"
+date: '2009-04-24T09:41:12.000Z'
 tags: []
 title: Meowcenaries
+oldUrl: /fun-amp-videos/meowcenaries
 ---
 
 So much WIN!

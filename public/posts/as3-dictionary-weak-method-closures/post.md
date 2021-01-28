@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-16T19:44:06.000Z"
+date: '2010-08-16T19:44:06.000Z'
 tags:
   - as3
   - as3signals
@@ -9,7 +9,8 @@ tags:
   - dictionary
   - puremvc
   - robotlegs
-title: "AS3, Dictionary & Weak Method Closures"
+title: 'AS3, Dictionary & Weak Method Closures'
+oldUrl: /actionscript/as3-dictionary-weak-method-closures
 ---
 
 This is going to be a technical post so those of you not of the code persuasion look away now..

@@ -12,6 +12,7 @@ tags:
   - social
   - team
 title: GovHack 2015 - Should I Drive?
+oldUrl: /hackathons/govhack-2015-should-i-drive
 ---
 
 Well I took a short break this weekend from Mr Nibbles Forever development to head down the street to [SpaceCubed](https://spacecubed.com/) and compete in the [2015 GovHack competition](https://www.govhack.org/perth2015/).

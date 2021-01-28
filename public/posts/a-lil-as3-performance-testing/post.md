@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2008-05-01T20:47:11.000Z"
+date: '2008-05-01T20:47:11.000Z'
 tags: []
 title: A lil AS3 Performance Testing
+oldUrl: /actionscript/a-lil-as3-performance-testing
 ---
 
 While i have been thinking about what im going to work on for my next flash game i have decided to look abit into whether doing destructible landscapes is now feasible with the new (ish) bitmap abilities.

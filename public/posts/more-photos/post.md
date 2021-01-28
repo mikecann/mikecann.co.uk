@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-06-03T10:31:18.000Z"
+date: '2007-06-03T10:31:18.000Z'
 tags: []
 title: More Photos..
+oldUrl: /photos-personal/more-photos
 ---
 
 Just some [more photos](https://picasaweb.google.com/mike.cann) of my latest comings and goings :P

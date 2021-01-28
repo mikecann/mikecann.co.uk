@@ -8,6 +8,7 @@ tags:
   - paypal
   - update
 title: Post To Tumblr v6.26 - New Donation Options
+oldUrl: /post-to-tumbr/post-to-tumblr-v6-26-new-donation-options
 ---
 
 Its been a while since I have blogged about [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah), my popular Chrome Extension for Tumblr. I have been quiet but certainly not inactive.

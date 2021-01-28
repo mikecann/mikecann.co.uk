@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-04-22T02:02:00.000Z"
+date: '2017-04-22T02:02:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Camping Oz 2017 - Pilbara
+oldUrl: /above-under/camping-oz-2017-pilbara
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

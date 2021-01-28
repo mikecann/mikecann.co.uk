@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-10-09T14:09:19.000Z"
+date: '2010-10-09T14:09:19.000Z'
 tags:
   - development
   - history
@@ -8,6 +8,7 @@ tags:
   - planning
   - project
 title: Inputtie History - The Beginning
+oldUrl: /inputtie/inputtie-history-the-beginning
 ---
 
 I [promised in a previous post to post](/posts/announcing-inputtie/) to talk about the Inputtie development process a little, the various challenges encountered and how I attempted to solve them.

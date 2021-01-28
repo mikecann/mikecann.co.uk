@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-12-10T20:44:37.000Z"
+date: '2009-12-10T20:44:37.000Z'
 tags:
   - html
   - programming
@@ -8,6 +8,7 @@ tags:
   - wbfg
   - websites
 title: The Case of The Transitional Doctype
+oldUrl: /html/the-case-of-the-transitional-doctype
 ---
 
 I took a little break from my 'top secret' project (more on this coming soon) this evening to do some much needed repair work on one of my flash games portals [www.worldsbestflashgames.com](www.worldsbestflashgames.com).

@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-09-08T13:20:04.000Z"
+date: '2012-09-08T13:20:04.000Z'
 tags: []
 title: Mr Nibbles & Blackberry
+oldUrl: /mr-nibbles/mr-nibbles-blackberry
 ---
 
 [![](/wp-content/uploads/2012/09/header1.jpg "header")](/wp-content/uploads/2012/09/header1.jpg)

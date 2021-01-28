@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-05-21T22:12:25.000Z"
+date: '2007-05-21T22:12:25.000Z'
 tags: []
 title: Photo Update
+oldUrl: /photos-personal/photo-update
 ---
 
 Updated my photos on picassa again. Mainly photos from bens birthday and some from other nights out and some of just random things :D

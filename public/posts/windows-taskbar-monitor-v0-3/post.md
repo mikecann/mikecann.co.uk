@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-10-01T10:02:07.000Z"
+date: '2011-10-01T10:02:07.000Z'
 tags: []
 title: Windows Taskbar Monitor v0.3
+oldUrl: /c/windows-taskbar-monitor-v0-3
 ---
 
 [![](/wp-content/uploads/2011/10/Shot_01.png "Shot_01")](/wp-content/uploads/2011/10/Shot_01.png)

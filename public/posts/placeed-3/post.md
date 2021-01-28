@@ -3,6 +3,7 @@ coverImage: /posts/placeed-3/cover.jpg
 date: '2008-02-03T13:50:24.000Z'
 tags: []
 title: PlaceEd 3
+oldUrl: /c/placeed-3
 ---
 
 Recently I have been working on some small tools for the lads at work to aid them in designing mobile phone games.

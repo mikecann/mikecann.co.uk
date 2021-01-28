@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-09-05T13:39:39.000Z"
+date: '2013-09-05T13:39:39.000Z'
 tags:
   - blog
   - bogota
@@ -9,6 +9,7 @@ tags:
   - travel
   - trip
 title: The Trip 2013 - Bogota to Medellin
+oldUrl: /2013-trip/the-trip-2013-bogota-to-medellin
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/09/screenshot_01.png)

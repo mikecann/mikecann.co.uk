@@ -8,6 +8,7 @@ tags:
   - platformer
   - unity
 title: Mr Nibbles Forever - Alpha 6
+oldUrl: /mr-nibbles-forever/mr-nibbles-forever-alpha-6
 ---
 
 I haven't posted an update on my new game Mr Nibbles Forever for a couple of weeks not because I haven't been doing anything (quite the opposite) rather the game has been in a little flux and thus was a little too broken to blog about.

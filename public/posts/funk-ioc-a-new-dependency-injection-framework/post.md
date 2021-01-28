@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-04-08T21:17:10.000Z"
+date: '2010-04-08T21:17:10.000Z'
 tags:
   - actionscript
   - flash
@@ -13,6 +13,7 @@ tags:
   - robot legs
   - swift suspenders
 title: Funk IoC - A New Dependency Injection Framework
+oldUrl: /actionscript/funk-ioc-a-new-dependency-injection-framework
 ---
 
 [![](/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-08-20.11.gif "ScreenHunter_01 Apr. 08 20.11")](/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-08-20.11.gif)

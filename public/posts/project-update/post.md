@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-11-11T22:07:16.000Z"
+date: '2007-11-11T22:07:16.000Z'
 tags: []
 title: Project Update
+oldUrl: /c/project-update
 ---
 
 Well its been a while since i have posted an update regarding the LieroXNA project. I havent been slacking.

@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-05-16T15:07:13.000Z"
+date: '2010-05-16T15:07:13.000Z'
 tags:
   - personal
   - social
   - update
 title: Mike Cann & Social Networks
+oldUrl: /projects/mike-cann-social-networks
 ---
 
 Well as it appears that every day there is a new "Must Join" social network and I appear to have joined most of them I thought I would write a little rundown post of where you can find my digital presence.

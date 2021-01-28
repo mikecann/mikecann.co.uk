@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-08-02T19:55:28.000Z"
+date: '2013-08-02T19:55:28.000Z'
 tags:
   - blog
   - hike
@@ -8,6 +8,7 @@ tags:
   - travel
   - trip
 title: The Trip 2013 - Granada to Ometepe
+oldUrl: /2013-trip/the-trip-2013-granada-to-ometepe
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [The Trip 2013 - Granada to Ometepe](https://www.facebook.com/mikeysee/media_set?set=a.10151789732396031.1073741841.593661030&type=3). Each picture can be clicked to see a larger version and comment / like.**

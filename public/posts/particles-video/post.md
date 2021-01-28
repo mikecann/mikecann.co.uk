@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-04-01T15:17:10.000Z"
+date: '2007-04-01T15:17:10.000Z'
 tags: []
 title: Particles Video
+oldUrl: /c/particles-video
 ---
 
 This is the video of the XNAGPUParticles project i have uploaded for those peeps who doent have the requirements to run it but want to check it out anyways.<!-- more -->

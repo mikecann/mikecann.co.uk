@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-10-15T14:06:56.000Z"
+date: '2009-10-15T14:06:56.000Z'
 tags:
   - google
   - wave
 title: Google Wave
+oldUrl: /misc/google-wave
 ---
 
 [![2009-10-15_1400](/wp-content/uploads/2009/10/2009-10-15_1400.png "2009-10-15_1400")](/wp-content/uploads/2009/10/2009-10-15_1400.png)

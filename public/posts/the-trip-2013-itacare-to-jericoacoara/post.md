@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2014-01-05T11:33:29.000Z"
+date: '2014-01-05T11:33:29.000Z'
 tags:
   - brazil
   - kite
@@ -11,6 +11,7 @@ tags:
   - travel
   - trip
 title: The Trip 2013 - Itacare to Jericoacoara
+oldUrl: /2013-trip/the-trip-2013-itacare-to-jericoacoara
 ---
 
 **Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [Trip 2013 - Itacare to Jericoacoara](https://www.facebook.com/media/set/?set=a.10152149614891031.1073741861.593661030&type=1&l=5726e155d9). Each picture can be clicked to see a larger version and comment / like.**

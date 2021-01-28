@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-01-10T21:17:09.000Z"
+date: '2010-01-10T21:17:09.000Z'
 tags:
   - actionscript
   - experiment
@@ -9,6 +9,7 @@ tags:
   - particles
   - programming
 title: Quasimondo's Galactose
+oldUrl: /actionscript/quasimondos-galactose
 ---
 
 [![ScreenHunter_02 Jan. 10 20.13](/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg "ScreenHunter_02 Jan. 10 20.13")](/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg)

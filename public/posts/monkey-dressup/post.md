@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-07-03T10:56:52.000Z"
+date: '2009-07-03T10:56:52.000Z'
 tags:
   - flash
   - games
 title: Monkey Dressup
+oldUrl: /actionscript/monkey-dressup
 ---
 
 ![monkeykitten](/wp-content/uploads/2009/07/monkeykitten.jpg "monkeykitten")

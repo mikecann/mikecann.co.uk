@@ -7,6 +7,7 @@ tags:
   - linkedin
   - typescript
 title: Markd - Import From LinkedIn
+oldUrl: /markd/markd-import-from-linked-in
 ---
 
 Just a quick update today about a new feature for [Markd](https://markd.co): Import from LinkedIn

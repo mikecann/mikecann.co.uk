@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2008-11-11T14:32:56.000Z"
+date: '2008-11-11T14:32:56.000Z'
 tags: []
 title: GameJacket
+oldUrl: /photos-personal/gamejacket
 ---
 
 Well today is my second day at my new job and as i havent mentioned my employment change on this blog yet i thought its about time to post about it.<!-- more -->

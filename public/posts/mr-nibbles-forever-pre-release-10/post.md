@@ -7,6 +7,7 @@ tags:
   - game
   - mr nibbles forever
 title: Mr Nibbles Forever - Pre Release 10
+oldUrl: /games/mr-nibbles-forever-pre-release-10
 ---
 
 Its been almost exactly a week since the last developmental release of Mr Nibbles Forever. According to [the plan](https://www.mikecann.co.uk/myprojects/mr-nibbles-forever-getting-it-done/) this week should have been about implementing the landing page and gathering feedback from people, as I managed to get the landing page sorted in the first week I decided to spend the time developing the game instead.

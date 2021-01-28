@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-09-16T17:23:41.000Z"
+date: '2012-09-16T17:23:41.000Z'
 tags:
   - conference
   - haxe
   - speaking
   - wwx
 title: WWX & Try Harder 2012
+oldUrl: /misc/wwx-try-harder-2012
 ---
 
 [![](/wp-content/uploads/2012/09/newhead2.jpg "newhead2")](/wp-content/uploads/2012/09/newhead2.jpg)

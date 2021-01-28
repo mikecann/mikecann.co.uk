@@ -6,6 +6,7 @@ tags:
   - extension
   - post to tumblr
 title: Post To Tumblr - v6.16 - Templated Variables
+oldUrl: /post-to-tumbr/post-to-tumblr-v6-16-templated-variables
 ---
 
 Its been a while since I have posted about [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en) so I thought I would do a quick update seeings as I am still definitely working on it.

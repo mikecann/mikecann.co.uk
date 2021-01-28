@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2018-01-10T14:51:40.000Z"
+date: '2018-01-10T14:51:40.000Z'
 tags:
   - games
   - machine learning
@@ -12,6 +12,7 @@ tags:
   - python
   - agdlml
 title: A Game Developer Learns Machine Learning - Mr Nibbles Basics
+oldUrl: /machine-learning/a-game-developer-learns-machine-learning-mr-nibbles-basics
 ---
 
 In my [last post](/machine-learning/a-game-developer-learns-machine-learning-a-little-deeper/) we dug a little deeper into machine learning by starting from scratch and training an agent on a vastly simplified version of mr nibbles. In this post we will explore what happens when we step it up a notch and attempt to train on a significantly more complex version of the game.

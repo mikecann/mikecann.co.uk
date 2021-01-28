@@ -13,6 +13,7 @@ tags:
   - sync
   - tool
 title: Announcing Inputtie
+oldUrl: /inputtie/announcing-inputtie
 ---
 
 For the last year or so my major personal-project has been under wraps but after a few intense weeks its finally time to talk about it!

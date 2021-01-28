@@ -8,6 +8,7 @@ tags:
   - website
   - typescript
 title: Introducing - Howdy
+oldUrl: /howdy/introducing-howdy
 ---
 
 A couple of months ago my [Markd](https://markd.ltd/) co-founder [Brandon](https://www.linkedin.com/in/theBrandonWu) came up with an great idea for a new app, we mulled it over, ran a few experiments and decided to build it, thus [Howdy](https://howdy.page/) was born.

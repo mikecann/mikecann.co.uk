@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2008-10-14T23:14:16.000Z"
+date: '2008-10-14T23:14:16.000Z'
 tags: []
 title: ArtificialGames.co.uk & Site Changes
+oldUrl: /misc/artificialgamescouk-site-changes
 ---
 
 [![](/wp-content/uploads/2008/10/artificialgamesscreeny.png "artificialgamesscreeny")](www.artificialgames.co.uk)

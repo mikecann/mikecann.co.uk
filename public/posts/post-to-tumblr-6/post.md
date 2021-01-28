@@ -10,6 +10,7 @@ tags:
   - tumblr
   - typescript
 title: Post To Tumblr 6
+oldUrl: /post-to-tumbr/post-to-tumblr-6
 ---
 
 [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah) my popular Chrome extension will be entering its 6th year of continual development this year so I thought it fitting that I give it a much needed overhaul.

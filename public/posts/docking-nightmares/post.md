@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-05-09T11:09:35.000Z"
+date: '2007-05-09T11:09:35.000Z'
 tags: []
 title: Docking Nightmares
+oldUrl: /c/docking-nightmares
 ---
 
 ![](https://www.mikecann.co.uk/Work/TDProject/engine04.png)

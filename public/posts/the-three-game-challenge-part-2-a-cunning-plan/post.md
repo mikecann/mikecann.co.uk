@@ -12,6 +12,7 @@ tags:
   - starling
   - web
 title: The Three Game Challenge – Part 2 – A Cunning Plan
+oldUrl: /a-cunning-plan/the-three-game-challenge-part-2-a-cunning-plan
 ---
 
 Another week, another game completed as part of [my three prototype games challenge](/posts/the-three-game-challenge/) ([part one](/posts/the-three-game-challenge-part-1-lateshas-crib/), [part three](/posts/the-three-game-challenge-part-3-the-family-jewels/)) I set myself at the start of this month.

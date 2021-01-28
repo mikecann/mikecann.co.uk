@@ -7,6 +7,7 @@ tags:
   - notes
   - typescript
 title: New Markd Feature - Notes
+oldUrl: /markd/new-markd-feature-notes
 ---
 
 Thick and fast on the heels of our last new feature [Custom Fields](/markd/markd-custom-fields) today we are happy to announce our latest feature: Notes.

@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-04-29T08:30:16.000Z"
+date: '2009-04-29T08:30:16.000Z'
 tags: []
 title: Tilt-Shift Video
+oldUrl: /fun-amp-videos/tilt-shift-video
 ---
 
 This is the first time I have heard of the photography technique known as "Tilt-Shift". I dont know why but it appeals to me on some fundamental level :P<!-- more -->

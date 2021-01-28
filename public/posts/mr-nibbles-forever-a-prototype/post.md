@@ -1,6 +1,6 @@
 ---
 coverImage: /posts/mr-nibbles-forever-a-prototype/cover.jpg
-date: "2015-01-19T00:50:46.000Z"
+date: '2015-01-19T00:50:46.000Z'
 tags:
   - 2d
   - c sharp
@@ -10,6 +10,7 @@ tags:
   - prototype
   - unity
 title: Mr Nibbles Forever - A Prototype
+oldUrl: /mr-nibbles-forever/mr-nibbles-forever-a-prototype
 ---
 
 About a week ago I had an idea: what would [Mr Nibbles](https://www.mikecann.co.uk/portfolio/mr-nibbles-2/) look like if it was turned into an endless runner? Well in-between other things I knocked out a gameplay prototype using my weapon of choice these days, Unity.

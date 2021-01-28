@@ -1,10 +1,11 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-05-20T23:36:29.000Z"
+date: '2009-05-20T23:36:29.000Z'
 tags:
   - web
   - website
 title: Artificial Games Redecorated
+oldUrl: /websites/artificial-games-redecorated
 ---
 
 [![agscreen01](/wp-content/uploads/2009/05/agscreen01.png "agscreen01")](https://www.artificialgames.co.uk)

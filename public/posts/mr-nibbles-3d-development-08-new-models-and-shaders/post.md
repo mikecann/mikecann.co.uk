@@ -7,6 +7,7 @@ tags:
   - nibbles
   - shaders
 title: 'Mr Nibbles 3D Development 08 - New Models and Shaders '
+oldUrl: /mr-nibbles-3d/mr-nibbles-3d-development-08-new-models-and-shaders
 ---
 
 Its been a little while since I have had any time to work on my new game Mr Nibbles 3D but i'm happy to be back developing again. I have conscripted a friend of mine to do the artwork for the game and he has been busy over the last few weeks coming up with some new models of the game.

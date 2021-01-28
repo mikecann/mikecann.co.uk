@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2008-01-17T21:38:56.000Z"
+date: '2008-01-17T21:38:56.000Z'
 tags: []
 title: XNALiquids02
+oldUrl: /c/xnaliquids02
 ---
 
 Okay well i have been playing around with my particles **AGAIN **:P

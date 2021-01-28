@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-07-31T10:11:53.000Z"
+date: '2009-07-31T10:11:53.000Z'
 tags:
   - excellent
   - flash
   - games
 title: Windosill
+oldUrl: /flash/windosill
 ---
 
 [![windowsil](/wp-content/uploads/2009/07/windowsil.png "windowsil")](https://www.mochigames.com/game/play/windosill_v4/)

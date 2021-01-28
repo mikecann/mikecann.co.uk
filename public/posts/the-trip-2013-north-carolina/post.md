@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-05-29T00:39:25.000Z"
+date: '2013-05-29T00:39:25.000Z'
 tags:
   - diary
   - north carolina
   - trip
   - trvel
 title: The Trip 2013 - North Carolina
+oldUrl: /2013-trip/the-trip-2013-north-carolina
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/05/screenshot_021.png)

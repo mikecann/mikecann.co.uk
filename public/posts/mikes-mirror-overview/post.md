@@ -10,6 +10,7 @@ tags:
   - hardware
   - linux
 title: Mikes Mirror - Overview
+oldUrl: /projects/mikes-mirror-overview
 ---
 
 I have been wanting to do this for a while and as I recently found myself with a little spare time I decided to finally do it... build a Smart Mirror.

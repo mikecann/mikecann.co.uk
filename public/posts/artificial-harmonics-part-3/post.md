@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-04-24T16:14:04.000Z"
+date: '2010-04-24T16:14:04.000Z'
 tags:
   - audio
   - chill
@@ -8,6 +8,7 @@ tags:
   - mixes
   - projects
 title: Artificial - Harmonics (Part 3)
+oldUrl: /audio/artificial-harmonics-part-3
 ---
 
 [![](/wp-content/uploads/2010/04/ArtificialHarmonics3.png "ArtificialHarmonics3")](/wp-content/uploads/2010/04/ArtificialHarmonics3.png)

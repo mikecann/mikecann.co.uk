@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-11-17T19:32:11.000Z"
+date: '2011-11-17T19:32:11.000Z'
 tags: []
-title: "Hxaria, Terraria like terrain in HaXe and WebGL"
+title: 'Hxaria, Terraria like terrain in HaXe and WebGL'
+oldUrl: /haxe/hxaria-terraria-like-terrain-in-haxe-and-webgl
 ---
 
 [![](/wp-content/uploads/2011/11/head2.jpg "head2")](/wp-content/uploads/2011/11/head2.jpg)

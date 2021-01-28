@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-05-12T16:40:42.000Z"
+date: '2012-05-12T16:40:42.000Z'
 tags: []
 title: Sunsetting Printomi
+oldUrl: /printomi/sunsetting-printomi
 ---
 
 [![](/wp-content/uploads/2012/05/02.png "02")](/wp-content/uploads/2012/05/02.png)

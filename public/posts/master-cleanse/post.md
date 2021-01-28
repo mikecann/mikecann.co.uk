@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-08-27T13:58:51.000Z"
+date: '2007-08-27T13:58:51.000Z'
 tags: []
 title: Master Cleanse
+oldUrl: /photos-personal/master-cleanse
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/lemon.JPG)

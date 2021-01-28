@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-10-17T20:02:06.000Z"
+date: '2012-10-17T20:02:06.000Z'
 tags:
   - adobe
   - as3
@@ -12,6 +12,7 @@ tags:
   - speaking
   - stray
 title: Try Harder 2012
+oldUrl: /photos-personal/try-harder-2012
 ---
 
 [![](/wp-content/uploads/2012/10/thheader.jpg "thheader")](/wp-content/uploads/2012/10/headfull.jpg)

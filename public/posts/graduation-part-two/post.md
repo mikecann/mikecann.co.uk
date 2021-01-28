@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-11-27T13:25:25.000Z"
+date: '2007-11-27T13:25:25.000Z'
 tags: []
 title: Graduation Part Two
+oldUrl: /photos-personal/graduation-part-two
 ---
 
 [![](https://lh4.google.com/mike.cann/R0wLbcA26rI/AAAAAAAAEs0/RL9WXF7gGP4/s400/DSC02638.JPG)](https://picasaweb.google.com/mike.cann/Graduation07/photo#5137493840927058610)

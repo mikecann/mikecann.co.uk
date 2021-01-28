@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2006-06-21T09:24:44.000Z"
+date: '2006-06-21T09:24:44.000Z'
 tags: []
 title: Partice Font
+oldUrl: /actionscript/112
 ---
 
 This is the second of my experimments into flash particles, i wanted to do a whole load more of these but ran out of time. Perhaps ill pick it up again this summer.

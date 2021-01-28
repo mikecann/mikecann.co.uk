@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-05-21T15:58:55.000Z"
+date: '2013-05-21T15:58:55.000Z'
 tags:
   - diary
   - photo
   - trip
   - washington
 title: The Trip 2013 - Washington DC
+oldUrl: /2013-trip/the-trip-2013-washington-dc
 ---
 
 [![screenshot_02](/wp-content/uploads/2013/05/screenshot_02.png)](/wp-content/uploads/2013/05/screenshot_02.png)

@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-07-23T21:44:43.000Z"
+date: '2013-07-23T21:44:43.000Z'
 tags:
   - blog
   - diary
   - guatamala
   - travel
 title: The Trip 2013 - El Ramate to Antigua
+oldUrl: /2013-trip/the-trip-2013-el-ramate-to-antigua
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/07/screenshot_01.png)

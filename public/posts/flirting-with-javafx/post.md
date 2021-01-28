@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-12-13T21:38:03.000Z"
+date: '2009-12-13T21:38:03.000Z'
 tags:
   - inputtie
   - java fx
   - programming
   - projects
 title: Flirting With JavaFX
+oldUrl: /javafx/flirting-with-javafx
 ---
 
 For the past several months I have been working on a little project completely different to anything I have done before. Its a desktop application that uses a number of novel technologies to do something I think is pretty cool. Ill talk more about what it actually is and does in the coming weeks, but for this post I just want to talk about the struggles and discoveries I have been through and made with the technology.

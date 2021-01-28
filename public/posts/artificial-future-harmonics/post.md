@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2007-11-24T18:08:32.000Z"
+date: '2007-11-24T18:08:32.000Z'
 tags: []
 title: Artificial - Future Harmonics
+oldUrl: /audio/artificial-future-harmonics
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/FutureHarmonics.png)

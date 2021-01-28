@@ -7,6 +7,7 @@ tags:
   - blog
   - typescript
 title: Migrating from Hexo to Gatsby
+oldUrl: /blog/migrating-from-hexo-to-gatsby
 ---
 
 Its been almost 2 years since I had to change anything with my blog but unfortunately 2 years is a long time in web development, and my blog needed some love.

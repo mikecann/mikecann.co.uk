@@ -12,6 +12,7 @@ tags:
   - aws
   - markd
 title: 'Markd 2 - Total Re-Write using React, Mobx-State-Tree and Parse-Server'
+oldUrl: /markd/markd-2-total-re-write-using-react-mobx-state-tree-and-parse-server
 ---
 
 I last wrote about Markd [back in September of last year](/posts/portfolio/projects/introducing-markd-pinterest-for-people/) so I think its about time I gave you an update on our latest progress on the project.

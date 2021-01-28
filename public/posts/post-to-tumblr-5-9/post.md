@@ -7,6 +7,7 @@ tags:
   - tumblr
   - upload
 title: Post To Tumblr 5.9
+oldUrl: /post-to-tumbr/post-to-tumblr-5-9
 ---
 
 One thing that has always bothered me with Post To Tumblr ever since version 1.0, and I have finally fixed it in 5.9!

@@ -1,8 +1,9 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-08-12T17:27:43.000Z"
+date: '2012-08-12T17:27:43.000Z'
 tags: []
 title: Github Project Uploads
+oldUrl: /uncategorized/github-project-uploads
 ---
 
 [![](/wp-content/uploads/2012/08/6a00d8341c767353ef016762f7c808970b-800wi.png "6a00d8341c767353ef016762f7c808970b-800wi")](/wp-content/uploads/2012/08/6a00d8341c767353ef016762f7c808970b-800wi.png)

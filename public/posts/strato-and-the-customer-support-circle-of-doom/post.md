@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-10-16T18:32:26.000Z"
+date: '2012-10-16T18:32:26.000Z'
 tags:
   - blog
   - hosting
   - rant
   - strato
 title: STRATO and the Customer-Support-Circle-of-Doom
+oldUrl: /photos-personal/strato-and-the-customer-support-circle-of-doom
 ---
 
 [/wp-content/uploads/2012/10/screenshot_021.png](/wp-content/uploads/2012/10/screenshot_021.png)

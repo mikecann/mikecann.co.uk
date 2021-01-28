@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2011-04-24T19:49:29.000Z"
+date: '2011-04-24T19:49:29.000Z'
 tags:
   - cncd
   - code
@@ -9,7 +9,8 @@ tags:
   - epic
   - fairlight
   - music
-title: "[Demoscene] Numb Res by Fairlight & CNCD 2011.1"
+title: '[Demoscene] Numb Res by Fairlight & CNCD 2011.1'
+oldUrl: /fun-amp-videos/demoscene-numb-res-by-fairlight-cncd-2011-1
 ---
 
 This weekend was [The Gathering](https://www.demoparty.net/the-gathering-2011/), a massive gathering of nerds and gamers in Norway. What started out as a humble [demoscene](https://demoscene.org) party has blossomed into a 5 day gathering of some of the best gamers and scene groups around.

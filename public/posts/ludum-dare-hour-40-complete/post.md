@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-08-22T17:46:14.000Z"
+date: '2010-08-22T17:46:14.000Z'
 tags:
   - finished
   - flash
@@ -10,6 +10,7 @@ tags:
   - ludum
   - project
 title: Ludum Dare - Hour 40 - COMPLETE!
+oldUrl: /48-hours-later/ludum-dare-hour-40-complete
 ---
 
 [![](/wp-content/uploads/2010/08/title.png "title")](/wp-content/uploads/2010/08/title.png)

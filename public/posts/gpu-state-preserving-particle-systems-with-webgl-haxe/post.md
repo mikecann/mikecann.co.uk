@@ -12,6 +12,7 @@ tags:
   - programming
   - webgl
 title: GPU State Preserving Particle Systems with WebGL & HaXe
+oldUrl: /glsl/gpu-state-preserving-particle-systems-with-webgl-haxe
 ---
 
 Well this is the post I didnt think was going to happen. I have been struggling for weeks with this little bit of tech, ill explain more about why it has been so difficult in another post. For now however, ill just talk about this sample.

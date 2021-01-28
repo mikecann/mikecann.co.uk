@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-06-17T20:11:27.000Z"
+date: '2009-06-17T20:11:27.000Z'
 tags:
   - personal
   - photos
   - trip
 title: Nova Scotia in 10 Days
+oldUrl: /misc/nova-scotia-in-10-days
 ---
 
 [![novampa](/wp-content/uploads/2009/06/novampa.jpg "novampa")](https://picasaweb.google.co.uk/lh/albumMap?uname=mike.cann&aid=5348332286173974433#map)

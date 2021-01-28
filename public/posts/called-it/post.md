@@ -1,11 +1,12 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2009-09-24T18:19:24.000Z"
+date: '2009-09-24T18:19:24.000Z'
 tags:
   - apps
   - idea
   - iphone
 title: Called It!
+oldUrl: /misc/called-it
 ---
 
 [![500x_fs-details](/wp-content/uploads/2009/09/500x_fs-details.jpg "500x_fs-details")](/wp-content/uploads/2009/09/500x_fs-details.jpg)

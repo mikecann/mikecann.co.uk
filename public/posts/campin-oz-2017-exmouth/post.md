@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2017-04-20T01:26:00.000Z"
+date: '2017-04-20T01:26:00.000Z'
 tags:
   - blog
   - drone
   - photo
   - travel
 title: Campin Oz 2017 - Exmouth
+oldUrl: /above-under/campin-oz-2017-exmouth
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

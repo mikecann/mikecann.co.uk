@@ -3,6 +3,7 @@ coverImage: /posts/fixing-unitys-failed-aot-cross-compiler-error/cover.jpg
 date: '2015-06-24T00:00:53.000Z'
 tags: []
 title: Fixing Unity's Failed AOT cross compiler error
+oldUrl: /programming/fixing-unitys-failed-aot-cross-compiler-error
 ---
 
 While working on Mr Nibbles Forever I have encountered many annoying errors with Unity. None has been more annoying than the dreaded AOT errors I was getting when building for iOS.

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-07-08T12:12:42.000Z"
+date: '2012-07-08T12:12:42.000Z'
 tags:
   - draw
   - game
@@ -12,6 +12,7 @@ tags:
   - space
   - tile
 title: Day 6 - Mobile Game Progress
+oldUrl: /mr-nibbles/day-6-mobile-game-progress
 ---
 
 <object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="/wp-content/uploads/2012/07/Main1.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="/wp-content/uploads/2012/07/Main1.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>

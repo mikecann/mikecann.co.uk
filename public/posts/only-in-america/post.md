@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2010-07-15T21:52:24.000Z"
+date: '2010-07-15T21:52:24.000Z'
 tags:
   - america
   - fun
   - madness
   - photos
 title: Only In America...
+oldUrl: /photos-personal/only-in-america
 ---
 
 While over in [California](/posts/back-from-outer-space/) this month we saw some rather interesting things. Thought I would share them.

@@ -1,6 +1,6 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2013-08-19T22:13:06.000Z"
+date: '2013-08-19T22:13:06.000Z'
 tags:
   - blog
   - island
@@ -10,6 +10,7 @@ tags:
   - sand
   - travel
 title: The Trip 2013 - Puerto Viejo to Panama City
+oldUrl: /2013-trip/the-trip-2013-puerto-viejo-to-panama-city
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/08/screenshot_02.png)

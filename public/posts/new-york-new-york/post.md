@@ -1,12 +1,13 @@
 ---
 coverImage: /images/fallback-post-header.png
-date: "2012-11-04T12:42:30.000Z"
+date: '2012-11-04T12:42:30.000Z'
 tags:
   - beauty
   - holiday
   - new york
   - photos
 title: New York New York
+oldUrl: /photos-personal/new-york-new-york
 ---
 
 [![](/wp-content/uploads/2012/11/header.jpg "header")](/wp-content/uploads/2012/11/header.jpg)
