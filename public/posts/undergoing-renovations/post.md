@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2008-10-09T16:36:45.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2008-10-09T16:36:45.000Z"
 tags: []
 title: Undergoing Renovations
 ---

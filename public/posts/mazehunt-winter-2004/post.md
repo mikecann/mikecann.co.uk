@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2004-11-27T21:58:33.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2004-11-27T21:58:33.000Z"
 tags: []
 title: MazeHunt
 ---

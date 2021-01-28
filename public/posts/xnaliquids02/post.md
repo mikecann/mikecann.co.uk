@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2008-01-17T21:38:56.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2008-01-17T21:38:56.000Z"
 tags: []
 title: XNALiquids02
 ---

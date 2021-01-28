@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-01-27T18:23:48.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-01-27T18:23:48.000Z"
 tags: []
 title: Forget me not..
 ---

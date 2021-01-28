@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-07-18T22:52:57.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-07-18T22:52:57.000Z"
 tags:
   - belize
   - blog

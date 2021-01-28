@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2010-02-22T00:06:58.000Z"
 tags:
   - air

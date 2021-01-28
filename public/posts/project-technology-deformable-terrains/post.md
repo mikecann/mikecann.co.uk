@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2007-12-05T22:25:38.000Z"
 tags: []
 title: Project Technology (Deformable Terrains)
@@ -27,8 +27,6 @@ There is also a "destroyed mask" that is used to create areas at the start that 
 
 Destroyed Mask
 
-         
-
 ![](/wp-content/uploads/2007/12/test03_final.png)
 
 Final Result
@@ -47,7 +45,6 @@ Another 2048x2048 "explosion map" texture is used to handle the deformation of t
 
 Exp32
 
-          
 ![](/wp-content/uploads/2007/12/explosion64.png)
 
 Exp64
@@ -56,7 +53,6 @@ Exp64
 
 Exp128
 
-           
 When an explosion occurs it is added to a list of other explosions that have occured that frame. When the render of the level is called the list of explosions that have happened that frame are iterated through and rendered to the 2048x2048 "explosion map" map texture in the correct world location that the explosion occured. This "explosion map" is then passed to a texture render shader which using render targets updates the terrain texture:
 
 ```

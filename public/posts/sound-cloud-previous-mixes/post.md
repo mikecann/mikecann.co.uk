@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-11-10T19:19:59.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-11-10T19:19:59.000Z"
 tags:
   - audio
   - mixes
@@ -41,4 +41,3 @@ Anyways, here are all my mixes done (Tracklistings can be found in the post):
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fartificial-argon-isotope%2F" frameborder="0" ></iframe>
 
 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fmikeysee%2Fcoalescent%2F" frameborder="0" ></iframe>
-

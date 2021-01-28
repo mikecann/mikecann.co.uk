@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-08-04T14:02:35.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-08-04T14:02:35.000Z"
 tags:
   - jobs
   - news

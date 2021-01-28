@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-08-05T13:36:29.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-08-05T13:36:29.000Z"
 tags:
   - adventure
   - bungee

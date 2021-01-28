@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2008-05-18T11:11:46.000Z"
 tags: []
 title: My Flat!

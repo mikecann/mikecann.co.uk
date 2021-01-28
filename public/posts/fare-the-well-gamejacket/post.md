@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-06-18T16:18:04.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-06-18T16:18:04.000Z"
 tags:
   - business
   - jobs

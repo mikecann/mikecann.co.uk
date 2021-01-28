@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-22T08:37:45.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-22T08:37:45.000Z"
 tags:
   - 48hours
   - bloom

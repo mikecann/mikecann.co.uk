@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-11-11T15:28:51.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-11-11T15:28:51.000Z"
 tags:
   - cool
   - demoscene

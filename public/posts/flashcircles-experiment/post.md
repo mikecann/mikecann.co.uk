@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-10-02T19:03:26.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-10-02T19:03:26.000Z"
 tags: []
 title: FlashCircles Experiment (+Source)
 ---

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-21T13:14:14.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-21T13:14:14.000Z"
 tags:
   - flash
   - game
@@ -8,7 +8,7 @@ tags:
   - personal
   - progress
   - project
-title: 'Ludum Dare - Hour 11 '
+title: "Ludum Dare - Hour 11 "
 ---
 
 Thought I would update now I have a basic scene and a controllable player. See for yourself:

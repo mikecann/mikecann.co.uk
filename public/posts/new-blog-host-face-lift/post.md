@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-11-20T15:48:50.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-11-20T15:48:50.000Z"
 tags:
   - blog
   - hosting

@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2009-12-10T20:44:37.000Z"
 tags:
   - html

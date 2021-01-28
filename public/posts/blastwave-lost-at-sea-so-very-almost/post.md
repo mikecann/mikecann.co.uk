@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-11-24T11:33:05.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-11-24T11:33:05.000Z"
 tags:
   - blastwave 2
   - flash
@@ -8,7 +8,7 @@ tags:
   - projects
   - sponsorship
   - teaser
-title: 'BlastWave: Lost at Sea, so very almost!'
+title: "BlastWave: Lost at Sea, so very almost!"
 ---
 
 It has been months and months since Oliver and I finished (functionally) our latest flash game 'BlastWave: Lost at Sea'. It has taken all this time to sort out sponsorship deals, with all the various portals. We have been through headache after headache but its finally almost time to release to the general public!

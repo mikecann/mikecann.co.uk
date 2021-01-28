@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-01-17T20:35:13.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-01-17T20:35:13.000Z"
 tags:
   - acquisition
   - employment

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-05-21T22:12:25.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-05-21T22:12:25.000Z"
 tags: []
 title: Photo Update
 ---

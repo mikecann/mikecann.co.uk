@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-08-03T15:10:09.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-08-03T15:10:09.000Z"
 tags: []
 title: Artificial-Studios 1
 ---

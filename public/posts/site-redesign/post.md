@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2008-04-11T11:59:23.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2008-04-11T11:59:23.000Z"
 tags: []
 title: Site-Redesign
 ---

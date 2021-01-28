@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-05-27T09:35:50.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-05-27T09:35:50.000Z"
 tags:
   - fun
   - video

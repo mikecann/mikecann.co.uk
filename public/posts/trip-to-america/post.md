@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-07-20T09:51:41.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-07-20T09:51:41.000Z"
 tags: []
 title: Trip to America
 ---

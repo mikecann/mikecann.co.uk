@@ -1,10 +1,10 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-08-23T20:40:10.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-08-23T20:40:10.000Z"
 tags:
   - electro
   - trance
-title: 'Artificial - Iridium [Trance, Electro, House]'
+title: "Artificial - Iridium [Trance, Electro, House]"
 ---
 
 [![](/wp-content/uploads/2011/08/Iridium-Cover.png "Iridium-Cover")](/wp-content/uploads/2011/08/Iridium-Cover.png)

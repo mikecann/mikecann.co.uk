@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-05-20T11:44:15.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-05-20T11:44:15.000Z"
 tags:
   - fun
   - javascript

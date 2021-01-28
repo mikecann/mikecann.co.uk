@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-05-09T11:09:35.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-05-09T11:09:35.000Z"
 tags: []
 title: Docking Nightmares
 ---

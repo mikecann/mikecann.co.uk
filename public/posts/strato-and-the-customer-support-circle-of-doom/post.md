@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-10-16T18:32:26.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-10-16T18:32:26.000Z"
 tags:
   - blog
   - hosting
@@ -54,11 +54,9 @@ With no other options I decided to call my hosting provider STRATO. It turns out
 
 So after some email jousting back and forth and some experimentation with STRATO's non-functioning recovery console I get the following reply:
 
->
 > Dear Mr. Cann,
 >
 > Thank you very much for your enquiry to which I am glad to respond.
->
 >
 > I have taken your server out of the recovery mode for you .**You server could also be slow as it is affected my some major maintenance**
 >

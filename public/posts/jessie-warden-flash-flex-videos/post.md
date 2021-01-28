@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-02-02T14:17:45.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-02-02T14:17:45.000Z"
 tags:
   - beer
   - blog

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2004-08-27T21:57:03.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2004-08-27T21:57:03.000Z"
 tags: []
 title: Avatar Creation
 ---

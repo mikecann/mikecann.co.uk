@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-05-29T00:39:25.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-05-29T00:39:25.000Z"
 tags:
   - diary
   - north carolina

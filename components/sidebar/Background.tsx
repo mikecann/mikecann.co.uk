@@ -13,6 +13,7 @@ export const Background: React.FC<Props> = ({ style, ...rest }) => {
         height: "100%",
         position: "fixed",
         backgroundImage: "url(/images/sidebar-bg.jpg)",
+        backgroundSize: "cover",
         color: "#ebebeb",
         textAlign: "center",
         padding: 20,

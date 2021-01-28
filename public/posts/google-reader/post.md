@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-01-16T12:13:17.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-01-16T12:13:17.000Z"
 tags:
   - personal
   - rss

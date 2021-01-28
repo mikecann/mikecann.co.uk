@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-03-27T20:14:10.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-03-27T20:14:10.000Z"
 tags:
   - web
 title: New Comments System

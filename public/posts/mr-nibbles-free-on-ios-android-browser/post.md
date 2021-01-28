@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-08-22T19:49:18.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-08-22T19:49:18.000Z"
 tags:
   - android
   - browser
@@ -9,7 +9,7 @@ tags:
   - game
   - ios
   - nibbles
-title: 'Mr Nibbles, Free on iOS, Android & Browser'
+title: "Mr Nibbles, Free on iOS, Android & Browser"
 ---
 
 Finally! Apple approved the iOS version of the game this morning, and this evening I finished off the site, so the holy trinity of game availability; iOS, Android and the browser is now complete!

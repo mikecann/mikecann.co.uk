@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-11-09T11:22:10.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-11-09T11:22:10.000Z"
 tags: []
 title: Coder Tidbit 01
 ---

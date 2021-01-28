@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-08-27T16:21:37.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-08-27T16:21:37.000Z"
 tags:
   - art
   - draw

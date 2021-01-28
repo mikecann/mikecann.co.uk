@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-07-27T08:11:00.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-07-27T08:11:00.000Z"
 tags:
   - community
   - games

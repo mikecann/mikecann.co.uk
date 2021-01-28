@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-08-10T15:40:54.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-08-10T15:40:54.000Z"
 tags: []
 title: Artificial Studios 1 - Intro
 ---

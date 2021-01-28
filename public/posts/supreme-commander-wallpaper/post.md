@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-03-19T19:55:46.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-03-19T19:55:46.000Z"
 tags: []
 title: Supreme Commander Wallpaper
 ---

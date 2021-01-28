@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-12-19T22:54:33.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-12-19T22:54:33.000Z"
 tags:
   - api
   - background

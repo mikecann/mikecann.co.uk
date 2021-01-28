@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-03-11T13:47:25.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-03-11T13:47:25.000Z"
 tags: []
 title: A Quick preview of whats to come
 ---

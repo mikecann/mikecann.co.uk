@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2008-05-01T20:47:11.000Z"
 tags: []
 title: A lil AS3 Performance Testing

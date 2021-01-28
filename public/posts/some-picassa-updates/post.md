@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-03-10T21:25:53.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-03-10T21:25:53.000Z"
 tags: []
 title: Some picassa updates
 ---

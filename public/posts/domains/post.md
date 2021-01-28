@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-05-13T12:46:21.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-05-13T12:46:21.000Z"
 tags:
   - websites
 title: Domains..

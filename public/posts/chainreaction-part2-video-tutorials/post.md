@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-04-23T16:22:51.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-04-23T16:22:51.000Z"
 tags: []
 title: ChainReaction (Part2) - Video Tutorials
 ---

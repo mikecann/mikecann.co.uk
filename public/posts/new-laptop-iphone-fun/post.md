@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-07-02T16:09:23.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-07-02T16:09:23.000Z"
 tags:
   - iphone
   - personal

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-11-17T22:38:25.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-11-17T22:38:25.000Z"
 tags:
   - canyon
   - condor

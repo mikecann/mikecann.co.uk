@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-01-24T14:03:02.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-01-24T14:03:02.000Z"
 tags: []
 title: ShadowShader in RenderMonkey
 ---

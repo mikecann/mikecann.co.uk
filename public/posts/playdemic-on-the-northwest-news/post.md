@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-02-15T13:20:36.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-02-15T13:20:36.000Z"
 tags:
   - business
   - news

@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2007-10-25T09:33:02.000Z"
 tags: []
 title: Stall

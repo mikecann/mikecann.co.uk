@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-08-21T20:43:53.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-08-21T20:43:53.000Z"
 tags: []
 title: Back From America - Photos + Videos
 ---

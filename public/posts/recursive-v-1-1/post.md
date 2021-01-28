@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-12-16T18:38:53.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-12-16T18:38:53.000Z"
 tags:
   - chrome
   - crawler

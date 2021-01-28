@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-11-01T20:31:47.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-11-01T20:31:47.000Z"
 tags:
   - campaign
   - spam

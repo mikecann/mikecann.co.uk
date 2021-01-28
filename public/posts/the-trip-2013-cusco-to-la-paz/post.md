@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-11-22T16:45:58.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-11-22T16:45:58.000Z"
 tags:
   - bike
   - death road

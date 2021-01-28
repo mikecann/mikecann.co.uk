@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-06-23T11:12:50.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-06-23T11:12:50.000Z"
 tags:
   - diary
   - friends

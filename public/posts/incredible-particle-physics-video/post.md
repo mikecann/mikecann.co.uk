@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-07-20T17:37:21.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-07-20T17:37:21.000Z"
 tags:
   - engine
   - impressive

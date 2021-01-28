@@ -1,8 +1,8 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-04-22T10:16:16.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-04-22T10:16:16.000Z"
 tags: []
-title: 'Play Him Off, Keyboard Cat'
+title: "Play Him Off, Keyboard Cat"
 ---
 
 Latest meme to do with cats, you know im all over this like a nappy rash:

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2003-07-10T14:59:36.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2003-07-10T14:59:36.000Z"
 tags: []
 title: Code Drop V2 - 2003
 ---

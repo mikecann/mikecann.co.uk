@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-08-05T20:52:06.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-08-05T20:52:06.000Z"
 tags:
   - development
   - game

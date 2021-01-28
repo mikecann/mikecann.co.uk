@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-01-29T18:17:16.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-01-29T18:17:16.000Z"
 tags: []
 title: Audiosize
 ---

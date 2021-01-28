@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-07-23T20:57:14.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-07-23T20:57:14.000Z"
 tags:
   - challenge
   - game

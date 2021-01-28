@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2008-07-25T15:16:46.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2008-07-25T15:16:46.000Z"
 tags: []
 title: New 'Games' Page
 ---

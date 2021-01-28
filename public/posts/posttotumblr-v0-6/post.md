@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-12-01T23:22:13.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-12-01T23:22:13.000Z"
 tags:
   - chrome
   - extension

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2017-06-13T06:19:00.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2017-06-13T06:19:00.000Z"
 tags:
   - blog
   - drone

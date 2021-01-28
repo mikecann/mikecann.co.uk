@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-04-30T19:49:06.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-04-30T19:49:06.000Z"
 tags: []
 title: All-new look
 ---

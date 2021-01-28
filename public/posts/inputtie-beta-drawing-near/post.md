@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-09-21T19:26:11.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-09-21T19:26:11.000Z"
 tags:
   - beta
   - desktop

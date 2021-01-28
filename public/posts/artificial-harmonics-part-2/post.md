@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-06-30T09:37:06.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-06-30T09:37:06.000Z"
 tags: []
 title: Artificial Harmonics ( part 2 )
 ---
@@ -49,6 +49,6 @@ Tracklist:
 
 <iframe width="100%" height="180" src="//www.mixcloud.com/widget/iframe/?feed=http%3A%2F%2Fwww.mixcloud.com%2Fmikeysee%2Fharmonics-part-2%2F&amp;embed_type=widget_standard&amp;embed_uuid=7b07d2f0-89dc-45b7-b806-6f494962b025&amp;hide_tracklist=1&amp;hide_cover=1" frameborder="0"></iframe><div style="clear: both; height: 3px; width: auto;"></div>
 
-[Harmonics (Part 2)](https://www.mixcloud.com/mikeysee/harmonics-part-2/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
+[Harmonics (Part 2)](https://www.mixcloud.com/mikeysee/harmonics-part-2/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=resource_link)<span> by </span>[Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=profile_link)<span> on </span>[ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)
 
 <div style="clear: both; height: 3px; width: auto;"></div>

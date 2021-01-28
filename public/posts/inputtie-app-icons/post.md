@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-09-20T17:51:55.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-09-20T17:51:55.000Z"
 tags:
   - air
   - app

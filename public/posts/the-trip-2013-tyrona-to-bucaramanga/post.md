@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-09-21T12:00:14.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-09-21T12:00:14.000Z"
 tags:
   - bucaramanga
   - cartagena

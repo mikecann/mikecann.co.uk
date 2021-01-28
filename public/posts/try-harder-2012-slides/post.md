@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-10-19T11:50:43.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-10-19T11:50:43.000Z"
 tags:
   - adobe
   - as3

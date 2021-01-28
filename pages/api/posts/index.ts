@@ -29,8 +29,8 @@ export const postsDirectory = join(process.cwd(), "public/posts");
 export const getPostSlugs = (): PostSlug[] => fs.readdirSync(postsDirectory);
 
 export const getPostCoverImageAbsolutePath = (cwd: string, coverImage: string) => {
-  if (coverImage == "/images/fallback-post-header.jpg")
-    return join(process.cwd(), "public/images/fallback-post-header.jpg");
+  if (coverImage == "/images/fallback-post-header.png")
+    return join(process.cwd(), "public/images/fallback-post-header.png");
 
   if (coverImage.startsWith("./")) return join(cwd, coverImage);
 

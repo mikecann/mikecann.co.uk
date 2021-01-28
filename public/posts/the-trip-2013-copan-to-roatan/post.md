@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-07-26T17:55:38.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-07-26T17:55:38.000Z"
 tags:
   - blog
   - copan

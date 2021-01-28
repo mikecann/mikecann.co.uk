@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-04-24T16:14:04.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-04-24T16:14:04.000Z"
 tags:
   - audio
   - chill

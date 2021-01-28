@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-04-27T13:48:43.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-04-27T13:48:43.000Z"
 tags: []
 title: XNAGPUParticles 1.1
 ---

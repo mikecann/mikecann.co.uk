@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-02-17T19:30:02.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-02-17T19:30:02.000Z"
 tags:
   - binding
   - compiler

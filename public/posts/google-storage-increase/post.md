@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-11-12T09:19:38.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-11-12T09:19:38.000Z"
 tags:
   - google
   - news

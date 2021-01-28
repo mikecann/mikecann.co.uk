@@ -10,7 +10,7 @@ import { getPostCoverImageAbsolutePath } from "../pages/api/posts/index";
 
 const streamPipeline = promisify(pipeline);
 
-const fallbackImage = `/images/fallback-post-header.jpg`;
+const fallbackImage = `/images/fallback-post-header.png`;
 
 const postsDirectory = join(process.cwd(), "public/posts");
 

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-09-17T13:57:32.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-09-17T13:57:32.000Z"
 tags:
   - travel
   - trip

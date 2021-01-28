@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-22T17:46:14.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-22T17:46:14.000Z"
 tags:
   - finished
   - flash

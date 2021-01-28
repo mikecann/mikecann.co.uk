@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-03-29T10:49:39.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-03-29T10:49:39.000Z"
 tags: []
 title: Portal 2D - Alpha
 ---

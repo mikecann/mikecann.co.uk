@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-01-18T13:36:07.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-01-18T13:36:07.000Z"
 tags:
   - dropbox
   - utility

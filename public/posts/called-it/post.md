@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-09-24T18:19:24.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-09-24T18:19:24.000Z"
 tags:
   - apps
   - idea

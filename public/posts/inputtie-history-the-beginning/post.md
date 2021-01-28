@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-10-09T14:09:19.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-10-09T14:09:19.000Z"
 tags:
   - development
   - history

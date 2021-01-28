@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-06-18T09:11:43.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-06-18T09:11:43.000Z"
 tags: []
 title: Dry spell
 ---

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-08-19T09:05:10.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-08-19T09:05:10.000Z"
 tags:
   - apple
   - opinion

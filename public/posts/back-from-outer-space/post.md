@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-07-15T18:37:48.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-07-15T18:37:48.000Z"
 tags:
   - california
   - car

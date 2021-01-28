@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-09-08T14:07:40.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-09-08T14:07:40.000Z"
 tags: []
 title: Some more pics up
 ---

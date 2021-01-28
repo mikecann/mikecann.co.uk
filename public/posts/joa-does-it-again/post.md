@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-09-04T23:28:01.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-09-04T23:28:01.000Z"
 tags:
   - custom
   - develop

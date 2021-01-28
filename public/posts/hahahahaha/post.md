@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-01-28T19:41:59.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-01-28T19:41:59.000Z"
 tags: []
 title: hahahahaha
 ---

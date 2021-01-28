@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-06-30T18:13:08.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-06-30T18:13:08.000Z"
 tags:
   - camera
   - instagram

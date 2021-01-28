@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-03-20T18:23:06.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-03-20T18:23:06.000Z"
 tags:
   - bass
   - download

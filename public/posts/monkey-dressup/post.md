@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-07-03T10:56:52.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-07-03T10:56:52.000Z"
 tags:
   - flash
   - games

@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2006-06-21T09:24:44.000Z"
 tags: []
 title: Partice Font

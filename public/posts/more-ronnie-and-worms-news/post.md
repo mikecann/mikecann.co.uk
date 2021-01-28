@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-09-29T16:01:09.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-09-29T16:01:09.000Z"
 tags: []
 title: More Ronnie and Worms News!
 ---

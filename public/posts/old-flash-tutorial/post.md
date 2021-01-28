@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-09-21T22:30:51.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-09-21T22:30:51.000Z"
 tags: []
 title: Old flash tutorial
 ---

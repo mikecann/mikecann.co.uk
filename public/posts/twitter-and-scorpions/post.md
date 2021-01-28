@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-02-17T11:01:16.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-02-17T11:01:16.000Z"
 tags: []
 title: Twitter and Scorpions
 ---

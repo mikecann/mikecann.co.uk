@@ -1,8 +1,8 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-02-20T16:04:06.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-02-20T16:04:06.000Z"
 tags: []
-title: '#tweetcoding icyslicy'
+title: "#tweetcoding icyslicy"
 ---
 
 This is another entry for tweetcoding comp, this time i have been ultra-cheeky ;)

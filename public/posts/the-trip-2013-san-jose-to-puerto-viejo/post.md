@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-08-13T14:08:48.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-08-13T14:08:48.000Z"
 tags:
   - blog
   - costa rica

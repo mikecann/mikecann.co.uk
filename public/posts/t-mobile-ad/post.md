@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-01-22T10:50:22.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-01-22T10:50:22.000Z"
 tags: []
 title: T-Mobile Ad
 ---

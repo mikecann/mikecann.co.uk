@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-12-26T15:16:42.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-12-26T15:16:42.000Z"
 tags:
   - argentina
   - beach

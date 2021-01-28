@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-10-19T20:21:25.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-10-19T20:21:25.000Z"
 tags: []
 title: Cheers Pete!
 ---

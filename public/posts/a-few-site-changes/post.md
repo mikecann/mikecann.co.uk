@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-06T21:55:53.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-06T21:55:53.000Z"
 tags:
   - facebook
   - flash

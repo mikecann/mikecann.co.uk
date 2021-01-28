@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-01-26T09:48:24.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-01-26T09:48:24.000Z"
 tags: []
 title: Kitty Wash
 ---

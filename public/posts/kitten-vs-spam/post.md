@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-12-23T18:13:45.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-12-23T18:13:45.000Z"
 tags:
   - cats
   - fun

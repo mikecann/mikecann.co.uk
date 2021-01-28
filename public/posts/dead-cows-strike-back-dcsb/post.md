@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-08-10T15:54:24.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-08-10T15:54:24.000Z"
 tags: []
 title: Dead Cows Strike Back (DCSB)
 ---

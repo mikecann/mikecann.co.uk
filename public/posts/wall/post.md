@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2006-05-17T22:02:43.000Z"
 tags: []
 title: wall

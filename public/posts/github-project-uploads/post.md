@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-08-12T17:27:43.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-08-12T17:27:43.000Z"
 tags: []
 title: Github Project Uploads
 ---

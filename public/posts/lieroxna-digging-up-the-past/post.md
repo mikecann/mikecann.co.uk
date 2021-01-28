@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-08-01T12:44:58.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-08-01T12:44:58.000Z"
 tags:
   - code
   - liero

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-04-11T14:57:49.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-04-11T14:57:49.000Z"
 tags:
   - flat
   - manchester

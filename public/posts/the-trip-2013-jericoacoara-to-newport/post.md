@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2014-01-18T18:16:36.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2014-01-18T18:16:36.000Z"
 tags:
   - brazil
   - gardens

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-15T11:10:18.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-15T11:10:18.000Z"
 tags:
   - 2d
   - community

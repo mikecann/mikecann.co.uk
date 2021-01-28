@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2007-05-27T15:24:53.000Z"
 tags: []
 title: Unit Placement

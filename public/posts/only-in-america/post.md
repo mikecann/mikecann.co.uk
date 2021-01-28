@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-07-15T21:52:24.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-07-15T21:52:24.000Z"
 tags:
   - america
   - fun

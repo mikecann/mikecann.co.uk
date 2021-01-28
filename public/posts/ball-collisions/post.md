@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-07-06T14:27:26.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-07-06T14:27:26.000Z"
 tags: []
 title: Ball Collisions
 ---

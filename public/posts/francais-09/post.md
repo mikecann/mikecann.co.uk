@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-07-30T13:00:55.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-07-30T13:00:55.000Z"
 tags:
   - personal
   - photos

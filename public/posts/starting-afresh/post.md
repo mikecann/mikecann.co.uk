@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-06-11T13:31:54.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-06-11T13:31:54.000Z"
 tags:
   - blog
   - website

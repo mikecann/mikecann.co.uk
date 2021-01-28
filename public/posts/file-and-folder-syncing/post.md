@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-09-03T19:34:07.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-09-03T19:34:07.000Z"
 tags:
   - dropbox
   - idea

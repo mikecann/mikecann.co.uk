@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2008-01-03T11:34:32.000Z"
 tags: []
 title: Polluted Planet

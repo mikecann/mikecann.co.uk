@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-06-04T14:01:14.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-06-04T14:01:14.000Z"
 tags:
   - 8hourgame
   - flash

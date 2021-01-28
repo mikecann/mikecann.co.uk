@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-08-12T12:56:47.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-08-12T12:56:47.000Z"
 tags: []
 title: Flash Whiteboard
 ---

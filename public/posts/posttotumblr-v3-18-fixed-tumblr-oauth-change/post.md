@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-03-05T20:42:49.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-03-05T20:42:49.000Z"
 tags:
   - bug
   - chrome

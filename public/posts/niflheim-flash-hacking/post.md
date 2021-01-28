@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-04-23T12:46:27.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-04-23T12:46:27.000Z"
 tags: []
 title: Niflheim & Flash Hacking
 ---

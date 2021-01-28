@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-01-11T20:12:13.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-01-11T20:12:13.000Z"
 tags:
   - jobs
   - personal

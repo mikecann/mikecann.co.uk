@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-08-12T12:27:52.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-08-12T12:27:52.000Z"
 tags: []
 title: Cannyshammy Everquest Goodbye
 ---

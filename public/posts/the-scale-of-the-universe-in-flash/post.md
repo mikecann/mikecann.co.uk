@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-02-03T12:46:36.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-02-03T12:46:36.000Z"
 tags:
   - experiment
   - flash

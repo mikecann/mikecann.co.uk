@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-04-06T15:16:39.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-04-06T15:16:39.000Z"
 tags: []
 title: mikecann.net
 ---

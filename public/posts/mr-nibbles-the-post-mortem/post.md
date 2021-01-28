@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-09-08T14:22:05.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-09-08T14:22:05.000Z"
 tags:
   - android
   - debrief

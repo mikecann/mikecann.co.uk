@@ -1,12 +1,12 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-01-24T15:32:21.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-01-24T15:32:21.000Z"
 tags:
   - iphone
   - productivity
   - sleep
   - utility
-title: 'Wake Mate - Human Augmentation, the future?'
+title: "Wake Mate - Human Augmentation, the future?"
 ---
 
 [![](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg "ScreenHunter_01 Jan. 24 14.13")](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg)

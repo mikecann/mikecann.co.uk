@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-04-17T11:13:35.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-04-17T11:13:35.000Z"
 tags: []
 title: ChainReaction (part1) - Effects Preview
 ---

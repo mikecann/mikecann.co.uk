@@ -1,10 +1,10 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-07-03T19:57:55.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-07-03T19:57:55.000Z"
 tags:
   - server
   - web
-title: 'Panic over, nginx comes to the rescue'
+title: "Panic over, nginx comes to the rescue"
 ---
 
 A while back I changed my hosting over from the worse than dismal streamline.net over to the much better slicehost service. Slicehost offer alot more power by giving your own server with root access. All well and good if you are knowing what you are doing in Linux, i dont, so I struggled for some time getting Apache and php and all the rest running nice.

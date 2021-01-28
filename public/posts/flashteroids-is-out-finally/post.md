@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2008-12-21T00:17:27.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2008-12-21T00:17:27.000Z"
 tags: []
 title: Flashteroids is out... finally!
 ---

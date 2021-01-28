@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-12-31T16:24:10.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-12-31T16:24:10.000Z"
 tags: []
 title: Spring Cleaning & Updated Bio
 ---

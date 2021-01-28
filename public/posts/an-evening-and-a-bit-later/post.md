@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-01-27T22:49:23.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-01-27T22:49:23.000Z"
 tags: []
 title: An evening and a bit later..
 ---

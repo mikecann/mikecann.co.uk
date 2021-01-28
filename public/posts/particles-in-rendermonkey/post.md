@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-01-24T13:53:11.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-01-24T13:53:11.000Z"
 tags: []
 title: Particles in RenderMonkey
 ---

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-21T23:04:15.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-21T23:04:15.000Z"
 tags:
   - 48hours
   - competition

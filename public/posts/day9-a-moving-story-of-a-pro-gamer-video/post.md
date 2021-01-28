@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-11-22T17:52:59.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-11-22T17:52:59.000Z"
 tags:
   - emotional
   - gaming
@@ -8,7 +8,7 @@ tags:
   - tale
   - video
   - watch
-title: 'Day[9] - A Moving Story of a Pro-Gamer [Video]'
+title: "Day[9] - A Moving Story of a Pro-Gamer [Video]"
 ---
 
 Day[9] is a Starcraft2 commentator and a professional gamer (among other things). I have been following him for sometime watching his 'casts' of games. He just posted this video on Youtube (although its an old episode), its an incredibly moving tale of his journey through gaming to becoming one of the top players in the world. More than that he relates it to how his family have supported him through his passion and giving him belief to do what he loves.

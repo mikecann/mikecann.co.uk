@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-06-19T22:11:05.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-06-19T22:11:05.000Z"
 tags:
   - api
   - chrome

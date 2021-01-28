@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-01-05T08:50:21.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-01-05T08:50:21.000Z"
 tags: []
 title: Back from Berlin
 ---

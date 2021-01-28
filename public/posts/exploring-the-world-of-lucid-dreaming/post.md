@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-08-01T13:27:21.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-08-01T13:27:21.000Z"
 tags:
   - awake
   - book

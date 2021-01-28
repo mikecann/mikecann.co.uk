@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-07-17T09:20:48.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-07-17T09:20:48.000Z"
 tags: []
 title: Photos - LAN07
 ---

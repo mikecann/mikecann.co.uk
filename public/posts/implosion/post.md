@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2006-05-17T21:39:35.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2006-05-17T21:39:35.000Z"
 tags: []
 title: implosion
 ---

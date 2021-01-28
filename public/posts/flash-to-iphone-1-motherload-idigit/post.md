@@ -1,12 +1,12 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-08-05T18:34:23.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-08-05T18:34:23.000Z"
 tags:
   - flash
   - game
   - iphone
   - review
-title: 'Flash to iPhone: #1 MotherLoad / iDigIt'
+title: "Flash to iPhone: #1 MotherLoad / iDigIt"
 ---
 
 Every day I am seeing new game releases on the app store that have already seen a life in the flash game world. I dont know whether its the original developer that is making these iPhone ports or if the IP is being ripped off. Anyways I thought it may be a good idea to report on a few of these games ports, things I like / dislike with any changes made in the transition from flash to iPhone.

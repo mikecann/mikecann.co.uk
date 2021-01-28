@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-05-29T18:13:36.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-05-29T18:13:36.000Z"
 tags: []
 title: Picking and Bounding Boxes
 ---

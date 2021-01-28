@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-05-21T15:58:55.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-05-21T15:58:55.000Z"
 tags:
   - diary
   - photo

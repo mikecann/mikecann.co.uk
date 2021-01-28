@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-03-23T20:30:49.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-03-23T20:30:49.000Z"
 tags:
   - 3d
   - liero

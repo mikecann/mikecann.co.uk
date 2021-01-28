@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2014-01-05T11:33:29.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2014-01-05T11:33:29.000Z"
 tags:
   - brazil
   - kite

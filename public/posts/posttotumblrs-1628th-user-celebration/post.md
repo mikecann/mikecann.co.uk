@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2011-01-04T20:58:30.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2011-01-04T20:58:30.000Z"
 tags:
   - chrome
   - code
@@ -9,7 +9,7 @@ tags:
   - javascript
   - update
   - users
-title: 'PostToTumblr''s 1,628th User Celebration'
+title: "PostToTumblr's 1,628th User Celebration"
 ---
 
 [![](/wp-content/uploads/2011/01/Shot_003.png "Shot_003")](/wp-content/uploads/2011/01/Shot_003.png)

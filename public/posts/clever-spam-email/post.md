@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-04-17T18:41:57.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-04-17T18:41:57.000Z"
 tags:
   - clever
   - email

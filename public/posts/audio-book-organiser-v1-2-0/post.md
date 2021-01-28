@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-01-09T19:37:42.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-01-09T19:37:42.000Z"
 tags:
   - actionscript
   - audiobook

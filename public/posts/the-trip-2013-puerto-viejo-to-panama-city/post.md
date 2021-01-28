@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2013-08-19T22:13:06.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2013-08-19T22:13:06.000Z"
 tags:
   - blog
   - island

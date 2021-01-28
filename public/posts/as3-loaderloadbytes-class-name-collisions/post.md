@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2009-03-17T19:26:32.000Z"
 tags: []
 title: AS3 Loader.loadBytes() Class Name Collisions

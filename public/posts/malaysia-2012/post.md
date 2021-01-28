@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-06-25T18:59:09.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-06-25T18:59:09.000Z"
 tags:
   - malaysia
   - personal

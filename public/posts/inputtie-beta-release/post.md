@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-09-22T19:57:09.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-09-22T19:57:09.000Z"
 tags:
   - beta
   - bug

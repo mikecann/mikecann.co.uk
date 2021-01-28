@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-07-26T12:35:56.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-07-26T12:35:56.000Z"
 tags:
   - movies
   - opera

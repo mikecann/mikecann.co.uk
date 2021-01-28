@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2008-09-24T11:07:56.000Z"
 tags: []
 title: Im Famous!

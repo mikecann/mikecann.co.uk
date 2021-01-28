@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-07-31T10:11:53.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-07-31T10:11:53.000Z"
 tags:
   - excellent
   - flash

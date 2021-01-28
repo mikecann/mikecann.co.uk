@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2007-02-08T12:28:46.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2007-02-08T12:28:46.000Z"
 tags: []
 title: Stupid vista
 ---

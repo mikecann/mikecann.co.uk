@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2009-04-28T15:17:42.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2009-04-28T15:17:42.000Z"
 tags: []
 title: Paul Oakenfold's Urban Soundtracks
 ---

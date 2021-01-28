@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2010-01-10T21:17:09.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2010-01-10T21:17:09.000Z"
 tags:
   - actionscript
   - experiment

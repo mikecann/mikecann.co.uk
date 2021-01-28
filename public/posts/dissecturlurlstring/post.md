@@ -1,5 +1,5 @@
 ---
-coverImage: /images/fallback-post-header.jpg
+coverImage: /images/fallback-post-header.png
 date: "2009-01-16T13:00:49.000Z"
 tags: []
 title: "dissectURL(url:String)"

@@ -1,6 +1,6 @@
 ---
-coverImage: /images/fallback-post-header.jpg
-date: '2012-07-16T18:59:31.000Z'
+coverImage: /images/fallback-post-header.png
+date: "2012-07-16T18:59:31.000Z"
 tags:
   - flash
   - haxe
