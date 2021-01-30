@@ -2,11 +2,11 @@
 coverImage: ./header.jpg
 date: '2020-12-26T07:31:40.000Z'
 tags:
-  - Postgres
-  - NodeJS
-  - Typescript
-  - Testing
-  - BattleTabs
+  - postgres
+  - nodeJS
+  - typescript
+  - testing
+  - battleTabs
 title: Drastically Speed Up Your Local Postgres Tests
 ---
 

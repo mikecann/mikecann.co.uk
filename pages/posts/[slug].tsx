@@ -24,8 +24,6 @@ const PostPage = ({ post, html }: Props) => {
   const { meta, slug } = post;
   const { title, date } = meta;
 
-  console.log(`rendering post`, meta);
-
   const renderers = {
     image: (image: any) => {
       return (

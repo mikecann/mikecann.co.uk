@@ -2,9 +2,9 @@
 coverImage: ./header.jpg
 date: '2021-01-29T07:31:40.000Z'
 tags:
-  - Typescript
-  - Blog
-  - Performance
+  - typescript
+  - blog
+  - performance
 title: Why This Blog Runs on NextJS Instead of Gatsby Now
 ---
 
