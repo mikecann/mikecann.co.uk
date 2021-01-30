@@ -1,12 +1,12 @@
 ---
 coverImage: ./header.jpg
-date: '2020-12-26T07:31:40.000Z'
+date: "2020-12-26T07:31:40.000Z"
 tags:
   - postgres
-  - nodeJS
+  - nodejs
   - typescript
   - testing
-  - battleTabs
+  - battletabs
 title: Drastically Speed Up Your Local Postgres Tests
 ---
 

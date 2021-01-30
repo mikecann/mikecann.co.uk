@@ -1,8 +1,8 @@
 ---
 coverImage: ./header.jpg
-date: '2020-11-26T07:31:40.000Z'
+date: "2020-11-26T07:31:40.000Z"
 tags:
-  - nodejs
+  - node
   - typescript
   - battletabs
 title: How To Halve Your Node JS Memory Usage
