@@ -5,19 +5,29 @@ const matter = require("gray-matter");
 const postsDirectory = join(process.cwd(), "public/posts");
 
 module.exports = {
+  async redirects() {
+    const redirects = [];
+
+    for (let slug of fs.readdirSync(postsDirectory)) {
+      const postDir = join(postsDirectory, slug);
+      const absPostPath = join(postDir, `post.md`);
+      const fileContents = fs.readFileSync(absPostPath, "utf8");
+
+      const { data, content } = matter(fileContents);
+
+      if (!data.oldUrl) continue;
+
+      redirects.push({
+        source: data.oldUrl,
+        destination: `/posts/${slug}`,
+        permanent: true,
+      });
+    }
+
+    return redirects;
+  },
+
   async rewrites() {
-    // for (let filename of fs.readdirSync(postsDirectory)) {
-    //   const postDir = join(postsDirectory, filename);
-    //   const absPostPath = join(postDir, `post.md`);
-    //   const fileContents = fs.readFileSync(absPostPath, "utf8");
-
-    //   const { data, content } = matter(fileContents);
-
-    //   if (!data.oldUrl) continue;
-
-    //   console.log(data.oldUrl);
-    // }
-
     return [
       {
         source: "/wp-content/:splat*",

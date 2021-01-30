@@ -24,6 +24,8 @@ const PostPage = ({ post, html }: Props) => {
   const { meta, slug } = post;
   const { title, date } = meta;
 
+  console.log(`rendering post`, meta);
+
   const renderers = {
     image: (image: any) => {
       return (
@@ -84,7 +86,7 @@ const PostPage = ({ post, html }: Props) => {
             <DiscussionEmbed
               shortname="devwbfg"
               config={{
-                identifier: slug,
+                identifier: meta.oldUrl ?? slug,
                 title: title,
               }}
             />

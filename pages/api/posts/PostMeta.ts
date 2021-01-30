@@ -7,7 +7,9 @@ export const PostMeta = t.intersection([
     coverImage: t.string,
     date: t.string,
   }),
-  t.partial({}),
+  t.partial({
+    oldUrl: t.string,
+  }),
 ]);
 
 export interface PostMeta extends t.TypeOf<typeof PostMeta> {}
@@ -16,4 +18,3 @@ export const producePostMeta = (overrides: PostMeta & {}): PostMeta =>
   PostMeta.encode({
     ...overrides,
   });
-
