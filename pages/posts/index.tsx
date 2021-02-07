@@ -2,15 +2,20 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import Layout from "../../components/layout/Layout";
 import { getAllPosts, Post } from "../api/posts";
-import {generateRss} from '../../utils/rss';
-import fs from 'fs';
+import { generateRss } from "../../utils/rss";
+import fs from "fs";
+import Head from "next/head";
 
 type Props = {
   allPosts: Post[];
 };
 
 const Posts = ({ allPosts }: Props) => (
-  <Layout title="Posts">
+  <Layout>
+    <Head>
+      <title key="title">Posts - mikecann.co.uk</title>
+    </Head>
+
     <h1>Posts..</h1>
     <p>
       Example fetching data from inside <code>getStaticProps()</code>.
@@ -40,7 +45,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   const rss = generateRss(allPosts);
 
   fs.writeFileSync("./public/rss.xml", rss);
-  
+
   return {
     props: { allPosts },
   };

@@ -14,6 +14,7 @@ import { darcula } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { DiscussionEmbed } from "disqus-react";
 import { MailchimpSignupForm } from "../../components/mailchimp/MailchimpSignupForm";
 import { MailchimpSignupPopup } from "../../components/mailchimp/MailchimpSignupPopup";
+import Head from "next/head";
 
 type Props = {
   post: Post;
@@ -42,7 +43,19 @@ const PostPage = ({ post, html }: Props) => {
   };
 
   return (
-    <Layout title={`post`}>
+    <Layout>
+      <Head>
+        <title key="title">{title} - mikecann.co.uk</title>
+        <meta property="og:title" content={`${title} - mikecann.co.uk`} key="og-title" />
+        <meta property="og:site_name" content="MikeCann.co.uk" key="og-site_name" />
+        <meta property="og:url" content={`https://mikecann.co.uk/posts/${slug}`} key="og-url" />
+        <meta
+          property="og:image"
+          content={`https://mikecann.co.uk` + getPostRootCoverImagePath(post)}
+          key="og-image"
+        />
+      </Head>
+
       <TopNavbar />
 
       <Vertical width="100%">

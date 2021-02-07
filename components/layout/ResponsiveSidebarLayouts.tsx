@@ -10,13 +10,13 @@ export const ResponsiveSidebarLayouts: React.FC<Props> = ({ children }) => {
   return (
     <MediaContextProvider>
       <Media at="xs">
-        <MobileSidebarLayout title="Mobile">{children}</MobileSidebarLayout>
+        <MobileSidebarLayout>{children}</MobileSidebarLayout>
       </Media>
       <Media at="sm">
-        <TabletSidebarLayout title="Medium">{children}</TabletSidebarLayout>
+        <TabletSidebarLayout>{children}</TabletSidebarLayout>
       </Media>
       <Media greaterThanOrEqual="md">
-        <DesktopSidebarLayout title="Desktop">{children}</DesktopSidebarLayout>
+        <DesktopSidebarLayout>{children}</DesktopSidebarLayout>
       </Media>
     </MediaContextProvider>
   );

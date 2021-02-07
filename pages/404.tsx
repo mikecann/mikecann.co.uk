@@ -5,6 +5,7 @@ import { getAlgoliaIndex } from "../utils/algolia";
 import { AlgoliaHit } from "./api/algolia/types";
 import { SearchResult } from "../components/searchModal/SearchResult";
 import { SearchModal } from "../components/searchModal/SearchModal";
+import Head from 'next/head';
 
 type Props = {};
 
@@ -88,6 +89,9 @@ const NotFoundPage = ({}: Props) => {
 
   return (
     <ResponsiveSidebarLayouts>
+      <Head>
+        <title key="title">404 - mikecann.co.uk</title>
+      </Head>
       {render()}
       {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}
     </ResponsiveSidebarLayouts>

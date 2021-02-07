@@ -4,7 +4,8 @@ import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayo
 import { PostsByYear, groupPostsByYear, sortPosts, sortYears } from "../../utils/posts";
 import { ArchiveCard } from "../../components/ArchiveCard";
 import { getAllPostsWithoutContent } from "../api/posts/index";
-import {ResponsiveSidebarLayouts} from '../../components/layout/ResponsiveSidebarLayouts';
+import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
+import Head from "next/head";
 
 type Props = {
   postsByYear: PostsByYear;
@@ -13,6 +14,9 @@ type Props = {
 const Page = ({ postsByYear }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
+      <Head>
+        <title key="title">archive - mikecann.co.uk</title>
+      </Head>
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
           {/* <div

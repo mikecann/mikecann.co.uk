@@ -4,6 +4,7 @@ import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import { getAllPostsWithoutContent } from "../api/posts/index";
 import Link from "next/link";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
+import Head from 'next/head';
 
 type Props = {
   tags: { tag: string; postsCount: number }[];
@@ -12,6 +13,9 @@ type Props = {
 const Page = ({ tags }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
+      <Head>
+        <title key="title">tags - mikecann.co.uk</title>
+      </Head>
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={[5, 20]} style={{ alignItems: "center" }}>
           {tags.map(({ tag, postsCount }) => (

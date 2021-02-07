@@ -7,6 +7,7 @@ import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayo
 import { getAllYears, getPostsByYear } from "../../utils/posts";
 import { ArchiveYears } from "../../components/ArchiveYears";
 import {ResponsiveSidebarLayouts} from '../../components/layout/ResponsiveSidebarLayouts';
+import Head from 'next/head';
 
 type Props = {
   year: string;
@@ -17,6 +18,9 @@ type Props = {
 const Page = ({ year, posts, years }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
+      <Head>
+        <title key="title">archive {year} - mikecann.co.uk</title>
+      </Head>
       <Vertical width="100%">
         <h1>{year}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>

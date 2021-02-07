@@ -14,6 +14,7 @@ import {
 } from "../../utils/posts";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import { encodeTag } from "../../utils/tags";
+import Head from "next/head";
 
 type Props = {
   tag: string;
@@ -23,6 +24,10 @@ type Props = {
 const Page = ({ tag, posts }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
+      <Head>
+        <title key="title">{tag} - mikecann.co.uk</title>
+      </Head>
+
       <Vertical width="100%">
         <h1>{tag}</h1>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>
