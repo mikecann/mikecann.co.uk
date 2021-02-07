@@ -22,6 +22,7 @@ export const MobileSidebar: React.FC<Props> = ({}) => {
     <>
       <Background style={{ width: 60 }}>
         <img
+          alt={`profile picture of me mike cann`}
           style={{ borderRadius: "50%", animation: "float 6s ease-in-out infinite" }}
           width={40}
           height={40}

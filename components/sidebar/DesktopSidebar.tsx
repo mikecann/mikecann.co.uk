@@ -1,12 +1,7 @@
 import * as React from "react";
 import { Grid, Horizontal, Vertical, VerticalSpacer } from "gls/lib";
-import { SocialIcon } from "./SocialIcon";
-import { AiOutlineGithub, AiOutlineTwitter, AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
-import { RiStackOverflowLine } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
 import { PageButton } from "./PageButton";
 import { FaHome, FaTags, FaRssSquare } from "react-icons/fa";
-import { BsFillCollectionFill } from "react-icons/bs";
 import { HiArchive } from "react-icons/hi";
 import { IoMdSearch, IoMdInformationCircle } from "react-icons/io";
 import { SearchModal } from "../searchModal/SearchModal";
@@ -23,6 +18,7 @@ export const DesktopSidebar: React.FC<Props> = ({}) => {
     <>
       <Background>
         <img
+          alt={`profile picture of me mike cann`}
           style={{ borderRadius: "50%", animation: "float 6s ease-in-out infinite" }}
           width={125}
           height={125}

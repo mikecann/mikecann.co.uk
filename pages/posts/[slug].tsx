@@ -66,7 +66,7 @@ const PostPage = ({ post, html }: Props) => {
             src={getPostRootCoverImagePath(post)}
             quality={100}
             priority
-            alt="post header image"
+            alt={`post header image for ${title}`}
           />
         </div>
         <Horizontal width="100%" horizontalAlign="center">

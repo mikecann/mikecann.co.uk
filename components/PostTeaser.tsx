@@ -60,6 +60,7 @@ export const PostTeaser: React.FC<Props> = ({ post }) => {
         style={{ border: "1px solid #ddd", borderRadius: 6, overflow: "hidden" }}
       >
         <Image
+          alt={`post cover image for ${title}`}
           className={imgStyle}
           src={getPostRootCoverImagePath(post)}
           width={600}

@@ -30,7 +30,7 @@ In the end we went with a very simple and stylized version that we thought suits
 
 Alan also was responsible for our new logo which I think looks awesome when shown off in its animated form:
 
-<img style="box-shadow: none !important; margin-bottom: 20px" src="./markd-logo-animated-large.gif" />
+<img alt="markd logo animated large" style="box-shadow: none !important; margin-bottom: 20px" src="./markd-logo-animated-large.gif" />
 
 For this version of Markd we decided to split the website up into two parts;
 

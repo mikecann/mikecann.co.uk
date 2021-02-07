@@ -21,6 +21,7 @@ export function SearchResult({ hit, onClick }: { hit: AlgoliaHit; onClick?: () =
         >
           <img
             // layout="fill"
+            alt={`${title} post cover image`}
             src={coverImage}
             width={100}
             height={60}
