@@ -36,8 +36,29 @@ const PostPage = ({ post, html }: Props) => {
     code: ({ language, value }: any) => {
       return (
         <div style={{ fontSize: "0.8em" }}>
-          <SyntaxHighlighter style={darcula} language={language} children={value} />
+          <SyntaxHighlighter
+            customStyle={{ borderRadius: 6 }}
+            style={darcula}
+            language={language}
+            children={value}
+          />
         </div>
+      );
+    },
+    inlineCode: ({ language, value }: any) => {
+      return (
+        <code
+          style={{
+            padding: "0.2em 0.4em",
+            margin: "0",
+            fontSize: "85%",
+            backgroundColor: "rgb(161, 161, 161)",
+            borderRadius: 6,
+            color: "white",
+          }}
+        >
+          {value}
+        </code>
       );
     },
   };

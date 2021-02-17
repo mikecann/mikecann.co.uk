@@ -22,7 +22,7 @@
     "csstips": "^1.2.0",
     "csx": "^10.0.1",
     "date-fns": "^2.16.1",
-    "disqus-react": "^1.0.10",
+    "disqus-react": "^1.0.11",
     "fp-ts": "^2.8.5",
     "gls": "^3.0.1",
     "gray-matter": "^4.0.2",
