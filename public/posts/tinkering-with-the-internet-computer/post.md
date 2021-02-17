@@ -23,9 +23,9 @@ Theres a lot of buzzwords in there but I see it as a decentralized app execution
 
 [There a bunch of other cool things](https://dfinity.org/faq/) that make the project exciting from the way that the code executes in a "tamperproof" manner to the way the blockchain and tokens are used to both pay for execution and to operate as a governance mechanism.
 
-As a programmer and tech nerd however the main thing that interested me however was their new programming language Motoko and the way the applications are structured in the form of the Actor Model.
+As a programmer and tech nerd the main thing that interested me is their new programming language the way applications are structured in the form of the Actor Model.
 
-So lets start tinkering..
+So lets tinker..
 
 # Getting Setup
 
@@ -59,13 +59,13 @@ actor Counter {
 }
 ```
 
-As you can see you simply define an actor `Counter` which has some state `value` which can be incremented by calling `inc` and then returned to the caller;
+As you can see you simply define an actor `Counter` which has some state `value` which can be incremented by calling `inc` and then returned to the caller.
 
 Actors dont need to worry about saving their state to a database, the state is automatically persisted and depersisted by the system as actors are invoked.
 
-The beauty of this model is its simplicity. You no longer worry about how to structure your tables and indices in your database simply pass a message to an actor (calling a function) to query or mutate its data.
+The beauty of this model is its simplicity. You no longer have to worry about how to structure your DB tables and indices, simply pass a message to an actor (calling a function) to query or mutate its data.
 
-Calling an actor from the frontend is as simple as importing it and calling it as a RPC:
+Calling an actor from the frontend is as simple as importing it and calling it:
 
 ```js
 import my_app from "ic:canisters/my_app";
@@ -75,7 +75,7 @@ my_app.greet(window.prompt("Enter your name:")).then((greeting) => {
 });
 ```
 
-And because its just an RPC the typescript definitions for your actor are easily generated.
+And because its just an RPC the typescript definitions for your actor are easily generated 💯.
 
 # Queries vs Mutation
 
@@ -85,7 +85,7 @@ The reason why they have two kinds of functions is a bit complicated but has to 
 
 This delay time is actually quite significant, the docs quote [1-2 seconds](https://dfinity.org/faq/), but when running locally its more like 3+ seconds. This might not sound like a lot but when you compare it to the millisecond responses everyone is used to with modern websites it does highlight a bit of an issue.
 
-This inherent mutation delay sounds like a bit of a deal-breaker but if you are careful in the way you apply optimistic state updates on the client, you can make it appear as if the state change happened immediately.
+This inherent mutation delay sounds like a bit of a deal-breaker but if you are careful in the way you apply optimistic state updates on the client, [you can make it appear as if the state change happened immediately](https://medium.com/dfinity/how-i-built-a-multiplayer-reversi-game-on-the-internet-computer-f67d2fed0fc3).
 
 # Other Problems
 
@@ -123,4 +123,4 @@ I have barely scratched the surface of the Internet Computer but what I have see
 
 I think for my next step I would like to build something a little more meaningful and have it running on a remote network so others can access it.
 
-Right now however im going to keep an eye on the project and wait a while. They have a bit more work to do to make it user friendly and I don't want to pay the early adopter tax when there are so many other cool shiny things to play with ;)
+Right now however im going to keep an eye on the project and wait a while. They have a bit more work to do to make it user friendly and I don't want to pay the early adopter tax when there are so many other cool shiny things to play with 😉
