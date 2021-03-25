@@ -29,7 +29,9 @@ const PostPage = ({ post, html }: Props) => {
     image: (image: any) => {
       return (
         <div style={{ textAlign: "center" }}>
-          <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
+          <a href={getRelativePathForPost(post.slug, image.src)}>
+            <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
+          </a>
         </div>
       );
     },
