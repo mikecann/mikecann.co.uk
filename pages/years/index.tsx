@@ -39,7 +39,7 @@ const Page = ({ postsByYear }: Props) => {
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   return {
-    props: { postsByYear: groupPostsByYear(getAllPostsWithoutContent()) },
+    props: { postsByYear: groupPostsByYear(sortPosts(getAllPostsWithoutContent(), "desc")) },
   };
 };
 

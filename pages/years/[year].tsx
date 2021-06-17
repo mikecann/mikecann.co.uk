@@ -4,10 +4,10 @@ import { getAllPosts, Post } from "../api/posts";
 import { PostTeaser } from "../../components/PostTeaser";
 import { ensure } from "../../utils/ensure";
 import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
-import { getAllYears, getPostsByYear } from "../../utils/posts";
+import { getAllYears, getPostsByYear, sortPosts } from "../../utils/posts";
 import { ArchiveYears } from "../../components/ArchiveYears";
-import {ResponsiveSidebarLayouts} from '../../components/layout/ResponsiveSidebarLayouts';
-import Head from 'next/head';
+import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
+import Head from "next/head";
 
 type Props = {
   year: string;
@@ -53,7 +53,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const query = ensure(params);
   const year = ensure(query.year) + "";
 
-  const allPosts = getAllPosts();
+  const allPosts = sortPosts(getAllPosts(), "desc");
   const posts = getPostsByYear(year, allPosts);
   const years = getAllYears(allPosts);
 
