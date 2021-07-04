@@ -15,6 +15,7 @@ import { DiscussionEmbed } from "disqus-react";
 import { MailchimpSignupForm } from "../../components/mailchimp/MailchimpSignupForm";
 import { MailchimpSignupPopup } from "../../components/mailchimp/MailchimpSignupPopup";
 import Head from "next/head";
+import { PostTags } from "../../components/PostTags";
 
 type Props = {
   post: Post;
@@ -103,9 +104,10 @@ const PostPage = ({ post, html }: Props) => {
             }}
           >
             <h1 style={{ fontSize: "3em", margin: 0, color: "#555" }}>{title}</h1>
-            <div style={{ marginTop: 10, marginBottom: 20, color: "#bbbbbb" }}>
-              {format(new Date(date), "do MMMM yyyy")}
-            </div>
+            <Vertical spacing={5} style={{ marginBottom: 10, marginTop: 10 }}>
+              <div style={{ color: "#bbbbbb" }}>{format(new Date(date), "do MMMM yyyy")}</div>
+              <PostTags tags={post.meta.tags} />
+            </Vertical>
             <ReactMarkdown
               className="markdown-content"
               children={html}

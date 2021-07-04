@@ -6,6 +6,7 @@ import Image from "next/image";
 import { getPostRootCoverImagePath } from "../utils/posts";
 import { style } from "typestyle";
 import Link from "next/link";
+import { PostTags } from "./PostTags";
 
 interface Props {
   post: Post;
@@ -78,23 +79,9 @@ export const PostTeaser: React.FC<Props> = ({ post }) => {
             </div>
           </Vertical>
           {tags.length > 0 && (
-            <Grid
-              spacing={[5, 5]}
-              style={{
-                color: "#ddd",
-                fontSize: "0.6em",
-                borderTop: "1px solid #eee",
-                padding: "0px 5px 5px 5px",
-              }}
-            >
-              {tags.map((t) => (
-                <div key={t} className={tagStyles}>
-                  <Link href="/tags/[r]" as={`/tags/${t}`}>
-                    {t}
-                  </Link>
-                </div>
-              ))}
-            </Grid>
+            <div style={{ borderTop: "1px solid #eee", padding: 5 }}>
+              <PostTags tags={tags} />
+            </div>
           )}
         </Vertical>
       </Vertical>
