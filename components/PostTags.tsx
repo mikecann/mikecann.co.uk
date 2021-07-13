@@ -1,10 +1,11 @@
-import { Grid } from "gls/lib";
+import { Grid, Horizontal } from "gls/lib";
 import * as React from "react";
 import Link from "next/link";
 import { style } from "typestyle";
 
-interface Props {
+interface Props extends React.ComponentProps<typeof Horizontal> {
   tags: string[];
+  style?: React.CSSProperties;
 }
 
 const tagStyles = style({
@@ -27,15 +28,18 @@ const tagStyles = style({
   },
 });
 
-export const PostTags: React.FC<Props> = ({ tags }) => {
+export const PostTags: React.FC<Props> = ({ tags, style, ...rest }) => {
   if (tags.length == 0) return null;
   return (
-    <Grid
-      spacing={[5, 5]}
+    <Horizontal
       style={{
         color: "#ddd",
         fontSize: "0.6em",
+        flexWrap: "wrap",
+        ...style,
       }}
+      spacing={5}
+      {...rest}
     >
       {tags.map((t) => (
         <div key={t} className={tagStyles}>
@@ -44,6 +48,6 @@ export const PostTags: React.FC<Props> = ({ tags }) => {
           </Link>
         </div>
       ))}
-    </Grid>
+    </Horizontal>
   );
 };

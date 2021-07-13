@@ -103,10 +103,12 @@ const PostPage = ({ post, html }: Props) => {
               width: "100%",
             }}
           >
-            <h1 style={{ fontSize: "3em", margin: 0, color: "#555" }}>{title}</h1>
-            <Vertical spacing={5} style={{ marginBottom: 10, marginTop: 10 }}>
+            <h1 style={{ fontSize: "3em", margin: 0, color: "#555", textAlign: "center" }}>
+              {title}
+            </h1>
+            <Vertical spacing={5} style={{ marginBottom: 10, marginTop: 10, textAlign: "center" }}>
               <div style={{ color: "#bbbbbb" }}>{format(new Date(date), "do MMMM yyyy")}</div>
-              <PostTags tags={post.meta.tags} />
+              <PostTags horizontalAlign="center" tags={post.meta.tags} />
             </Vertical>
             <ReactMarkdown
               className="markdown-content"
