@@ -37,3 +37,5 @@ _posts2
 _posts3
 
 local.config.json
+
+.env
