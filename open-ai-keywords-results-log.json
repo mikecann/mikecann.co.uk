@@ -1,0 +1,3277 @@
+[
+  {
+    "title": "1,000,000 Views!!",
+    "prompt": "Blog Post: Normally when i post a big number like that its followed by the word \"particles\" but surprisingly this time it followed by the word \"views\". Why? Well i have (probably a few days ago now) broken my 1 million plays cherry on 4 flash games.\n\nTo be fair the majority of these have come from my latest game IcySlicy (670k and counting), but im still pretty proud of the number. Im hoping my next game will do over a million by itself, but then again it could just get two plays :P\n\nKeywords: ",
+    "tags": [
+      "icy slicy free",
+      "icy slicy online",
+      "icy slicy play",
+      "icy slicy puzzle",
+      "icy slicy puzzle game",
+      "icy slicy puzzle online",
+      "icy slicy puzzle game online,"
+    ]
+  },
+  {
+    "title": "Particle Explosion",
+    "prompt": "Blog Post: Well here is some flash i did a couple of months back now. I had planned to do a whole series of these and upload the source for others to use on their site, but other projects came up that required my attention more. Perhaps I will get time to do them this summer :)\n\nAnyways here is my first experiment with particles. I wanted to see how optimized i could create the system to get as many particles as possible on the screen at one time. As you can see, its starts slowing down quite easily (around 500 on a normal system). Apparently with AS3 we will get ints as a data type which will hopefully will speed things up a bit :)\nOnce i get a chance ill upload the source for this, but for now here is the .swf\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Partice Font",
+    "prompt": "Blog Post: This is the second of my experimments into flash particles, i wanted to do a whole load more of these but ran out of time. Perhaps ill pick it up again this summer.\n\nThis one uses a bitmap image and my particle system to create a fuzzy effect by constrictiong each particle to its birth site. I was planning on havig these words \"explode\" and the next word formed out of the remenants of the previous word, but as you can see im halfway there :P Here is the swf.\n\nKeywords: ",
+    "tags": [
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash",
+      "flash"
+    ]
+  },
+  {
+    "title": "216 Chorlton Mills..",
+    "prompt": "Blog Post: As some of you know im currently in the process of moving flats. As I have done a video of all the other places i have lived in I thought it would be fitting to do a video of this place before I move out for good. So here here is my current flat 216 Chorlton Mills, she's abit small but very cosey ;)\n\nKeywords: ",
+    "tags": [
+      "iphone 6 plus",
+      "iphone 6s",
+      "iphone 6s plus",
+      "iphone 6",
+      "iphone 6 plus",
+      "iph"
+    ]
+  },
+  {
+    "title": "48 Hours Later",
+    "prompt": "Blog Post: 48 Hours Later is a game I developed over two days for the Ludum Dare game development competition. Starting from scratch I wrote this short flash based arcade shooter. The game incorporates bloom-like software shaders and destructible terrains.\n\nCheck it out:\nhttps://www.mikecann.co.uk/DumpingGround/ld/18/05/LudumDare18.swf\nI blogged about its progress which you can checkout here\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "A lil AS3 Performance Testing",
+    "prompt": "Blog Post: While i have been thinking about what im going to work on for my next flash game i have decided to look abit into whether doing destructible landscapes is now feasible with the new (ish) bitmap abilities.\nBecause of my earlier work on destructible landscapes on LieroXNA i know where the potential performance bottlenecks lie.\nOne of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one \"lookup\" must happen to do this (pixel perfect collisions).\n\nSo before i dive into this potentially hazardous project i have decided to do a little performance checking to see which method would be the best.\nMy reasoning is i can either:\nA - check the pixel data of a BitmapData object using getPixel or getPixel32\nB - store the collision data in an Array which may allow for faster reading.\nC - instead of using an array use a ByteArray which may be even quicker\nSo to test which of these methods is quicker i wrote this quick thing in FlashDevelop:\npublic class Main extends Sprite\n\n             {\n\n              public function Main():void\n\n              {\n\n\n\n               // Vars\n\n               var i : int;\n\n               var j : int;\n\n               var x : int;\n\n               var y : int;\n\n               var w : int = 500;\n\n               var h : int = 500;\n\n               var reps : int = 50;\n\n               var n : int = w * h;\n\n               var tmp : int;\n\n               var tmp2 : uint;\n\n               var t : cTimer = new cTimer();\n\n               var ba : ByteArray = new ByteArray();\n\n               var a : Array = new Array();\n\n               var bm : BitmapData = new BitmapData(w, h, false);\n\n               var tbm : BitmapData = new BitmapData(w, h, true);\n\n\n\n\n\n\n\n               trace(\"\");\n\n               trace(\"\");\n\n               \n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "A Quick preview of whats to come",
+    "prompt": "Blog Post: Well here is one of the first outputs from the new tool i am developing for my university final year project. Its designed to be a little advert for a mini-game which i have also created. Its meant to be used as a demonstration of how easy it is to get particle effects into flash using my tool. Let me know what you think :D\nEdit: For some reason wordpress doesnt like it so go to this link to see it.\n\nKeywords: ",
+    "tags": [
+      "Development,"
+    ]
+  },
+  {
+    "title": "abduction",
+    "prompt": "Blog Post: Abduction was on of my early experiments with volumetric lighting, using the same alien charachter as before i was attempting to create a steriotypical abduction image.\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Acoustic Cover of Binary Finary's 1998",
+    "prompt": "Blog Post: This is one of my favourite tunes of all time, glad someone has covered it, even if the quality of the video is crap. Hopefully someone one will do a better version :)\n\nKeywords: ",
+    "tags": [
+      "video clip"
+    ]
+  },
+  {
+    "title": "alien2",
+    "prompt": "Blog Post: Alien2 was one of my very early pieces of work. I wanted to create the impression the alien was coming through a misty doorway with light streaming behind him. However at the time i didnt have the technical know-how to achieve this effect and so had to make do with the effect above.\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "sci-fi monster",
+      "sci-fi spaceship",
+      "sci-fi spaceship art",
+      "sci-fi spaceship character",
+      "sci-fi spaceship creature",
+      "sci-fi spaceship monster",
+      "sci-fi spaceship"
+    ]
+  },
+  {
+    "title": "All-new look",
+    "prompt": "Blog Post: Isnt it nice, an hours worth of customising the Blog Oh Blog theme and im happy. Hoping to do a flash banner at the top soon tho.\n\nKeywords: ",
+    "tags": [
+      "ipod nano",
+      "ipod touch",
+      "ipod nano",
+      "ipod shuffle",
+      "ipod nano",
+      "ipod touch",
+      "ipod nano",
+      "ipod shuffle",
+      "ipod nano",
+      "ipod touch",
+      "ipod"
+    ]
+  },
+  {
+    "title": "An evening and a bit later..",
+    "prompt": "Blog Post: Ive been playing around with abit of tech for my next game. Not too sure what the game is going to be yet but while playing I had an idea and made this little toy:\nTurn your speakers on!\n\nMusic is \"Stay Crunchy\" by a rather odd chap called Ronald Jenkees.\n\nKeywords: ",
+    "tags": [
+      "game development blog",
+      "game design blog",
+      "game design blog",
+      "design",
+      "development",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog,"
+    ]
+  },
+  {
+    "title": "archisland",
+    "prompt": "Blog Post: Archisland is one of my most reccent additions and was done in Bryce. Took alot of tinkering to get it looking like this, even though it isnt perfect im happy with it\n\nUsed: Bryce 5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "medieval city",
+      "medieval island",
+      "medieval landscape",
+      "medieval scene",
+      "medieval town",
+      "medieval village",
+      "medieval wall",
+      "medieval walls",
+      "medieval"
+    ]
+  },
+  {
+    "title": "Artificial - ChillTrip",
+    "prompt": "Blog Post: Well its been a little while, but here is a new downtempo set by me :)\nThis one is a little shorter than the last two and has a more triphop feel to it.\n\nHope you enjoy :D\n\n\nChillTrip by Artificial on  Mixcloud\n\nKeywords: ",
+    "tags": [
+      "chill",
+      "trippy",
+      "chillout",
+      "chilloutmusic",
+      "chilloutmusic",
+      "chillout",
+      "chilloutmusic",
+      "chillout",
+      "chilloutmusic",
+      "chillout",
+      "chilloutmusic",
+      "chillout,"
+    ]
+  },
+  {
+    "title": "Artificial - Future Harmonics",
+    "prompt": "Blog Post: Its been quite some time indeed since i have released a mix so i decided to make another one. This one is a culmination of several weeks work and im pretty proud of it.\n\nIts hard to describe which genre this mix falls into, as the name suggests i was going for a harmonics style mix but with a more edgey, IDM type feel to it, not sure if i succeeded, but oh well.\nDidnt manage to fit all the tracks i wanted into this one so they may be a simmilar mix on the way in the near future :)\n\n\nFuture Harmonics by Artificial on  Mixcloud\n\nKeywords: ",
+    "tags": [
+      "Bass",
+      "Breakbeat",
+      "Glitch",
+      "Downtempo",
+      "Ambient",
+      "Chillout",
+      "Future Bass",
+      "Future Garage",
+      "Future House",
+      "Future RnB",
+      "Future Pop",
+      "Future Funk",
+      "Future Disco"
+    ]
+  },
+  {
+    "title": "Artificial Harmonics ( part 1 )",
+    "prompt": "Blog Post: Artist: Artificial ** Genre:** downtempo / chillout\n\n\n Its been a coupple of months in the making but its FINALLY compleate, my first purely digital mix! Its taken me a long time and it was re-started on numerous occasions, but im finally happy with it. I have named it part 1 because there were that many good tunes i wanted to put in, in the end i had to reside to putting in only the tunes that fit the mood of the mix and leaving the others for a second part\n\n\n Tracklisting is below: \n\n01 - Kronos Quartet - Summer Overture\n\n02 - Frou Frou - Let Go (artificial extended)\n\n03 - Ulrich Schnauss - Suddenly The Trees Are Giving Away\n\n04 - Finley Quaye - Dice\n\n05 - Japanese Seizure Robots - Alone in A Crowded Room (Extended Version)\n\n06 - Massive Attack - What Your Soul Sings\n\n07 - Sinestetici And Kilowatts - Ideal Chameleon\n\n08 - Fifth Element - Techno Opera\n\n09 - Portishead - Roads\n\n10 - The Chemical Brothers - One Too Many Mornings\n\n11 - Conjure One - Sleep (Serenity Remix)\n\n12 - Hybrid - Blackout\n\n13 - Telepopmusik - Mathematics\n\n14 - Sia - Breathe Me (Ulrich Schnauss Remix)\n\n15 - Telepopmusik - Breathe\n\n16 - Snow Patrol - How To Be Dead\n\n\n\n[Harmonics (Part 1)](https://www.mixcloud.com/mikeysee/harmonics-part-1/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=resource_link) by [Artificial](https://www.mixcloud.com/mikeysee/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=profile_link) on [ Mixcloud](https://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link)\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Artificial Harmonics ( part 2 )",
+    "prompt": "Blog Post: **\n**\nArtist: Artificial ** Genre:** downtempo / chillout / pop\nWell its a long time in the coming but here it is, the second part of my Harmonics series. I started this thing about four months ago and only now have i found the time to complete it. Its a little shorter than the previous version mainly because i ran out of tracks that fit the flow of the set. Im extremely happy with the first half but the second half, im not entirely sure, give it a listen and leave me a comment of what u think :)\nThis one has alot more production work on it with clips from two movies and editing of tracks and effects added here and there. Also there are alot of tracks on there from free music producers, to hear more music from groups such as LEGO and Try^D check out Jamendo.\nTracklist:\n01. Ulrich Schnauss\n02. LEGO - Mal de tete\n03. Try^d - The Final Rewind (extended intro)\n04. Overseer - Meteorology (extended intro)\n05. Lamb - Gabriel\n06. Inklein Quartet - Lonely Whale Song\n07. Squarepusher - Iambic Poetry\n08. Radiohead - Meeting in the Aisle\n09. Tang Kai - Further Away (intro)\n10. Hybrid - Altitude (Red Square Reprise)\n11. Playme - Hygiene\n12. Hooverphonic - Battersea\n13. Portishead - Numb\n14. Blue Foundation - End of Day\n15. Sigur Ros - Mea Bloansir\n\n\nHarmonics (Part 2) by Artificial on  Mixcloud\n\nKeywords: ",
+    "tags": [
+      "electronic",
+      "music",
+      "free",
+      "download",
+      "mp3",
+      "album",
+      "review",
+      "blog",
+      "blogpost",
+      "blog-post",
+      "blog-post-2014-02-08-20-52-21",
+      "blog-post-2014"
+    ]
+  },
+  {
+    "title": "Artificial Studios 1",
+    "prompt": "Blog Post: Wow, well this is where it all began, my first website!\n/ArtificialStudios1/Index.html\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Artificial Studios 1 - Intro",
+    "prompt": "Blog Post: Well i thought i would post these intros separate from my old website as its quite a nice demonstration of some of the things i have done in flash over the years. This one is my old intro from my very first website so bear with the unpolished graphics.\nTake a look at it\n\nKeywords: ",
+    "tags": [
+      "graphics",
+      "design",
+      "flash",
+      "flash intro",
+      "flash website",
+      "flash graphics",
+      "flash design",
+      "flash animation",
+      "flash website",
+      "flash graphics",
+      "flash design",
+      "flash animation",
+      "flash website",
+      "flash graphics",
+      "flash design",
+      "flash animation",
+      "flash website",
+      "flash"
+    ]
+  },
+  {
+    "title": "Artificial-Studios 2",
+    "prompt": "Blog Post: And then there was the second incarnation of Artificial-Studios. Although it was far more manageable than version 1.0 but it was still too complicated to add new content.\n**\nLink:** www.artificial-studios.co.uk/ArtificialStudios2/\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Artificial Studios 2 - Intro",
+    "prompt": "Blog Post: Well this is the intro for the second version of this website. I went for a much more minimalist approach with this one as opposed to the massively complicated intro of the previous version. Let me know what u think ;)\nLink: Take a peek!\n\nKeywords: ",
+    "tags": [
+      "WordPress",
+      "Blogger",
+      "Blog",
+      "Blogging",
+      "Tutorial",
+      "Tutorials",
+      "Tutorials",
+      "Tutorial",
+      "Tutorials",
+      "Tutorial",
+      "Tutorials",
+      "Tutorial",
+      "Tutorials",
+      "Tutorial",
+      "Tutorial",
+      "Tutorial",
+      "Tutorial",
+      "Tutorial",
+      "Tutorial",
+      "Tutorial"
+    ]
+  },
+  {
+    "title": "Artificial-Studios 3",
+    "prompt": "Blog Post: And so version 3 was born. Now in blog from thanks to wordpress it was much easyier to add new content and to maintain.\n**\nLink:** www.artificial-studios.co.uk\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Artificial-Studios v3.0",
+    "prompt": "Blog Post: Yup thats right a new version of Artificial-Studios… again!\nThis new shiney reincarnation is a blog powerd by the very fancy Wordpress!\n\nThe reason for this new version? Well lets just take a quick look at the previous reincarnations…\n\nFirst there was Artificial Studios V1 (nointro) pretty as it was, done compleately in flash 6, it was increadibly hard to maintain with much effort for each new thing i wanted to add.\n\nThen there was Artificial Studios V2 again, designed from scratch it was kinda pretty and it was certainly easyier to maintain than the first version, however it was still a nightmare to maintain.\nSo that leads us to this current version, which is extremely easy to maintain, perhaps its a ltitle less personal as the design is just a template by Fredrik Fahlstad but I think it still looks good!\nLet me know which is your favourite!\n\nKeywords: ",
+    "tags": [
+      "artificial studios v3.1.1",
+      "artificial studios v3.1.2",
+      "artificial studios v3.1.3",
+      "artificial studios v3.1."
+    ]
+  },
+  {
+    "title": "Artificial-Studios 1",
+    "prompt": "Blog Post: In the beginning there was flash and flash was great, but flash soon betrayed its creator and became hard to maintain.\nhttps://mikecann-web-wordpress.s3.ap-southeast-2.amazonaws.com/ArtificialStudios1/Index.html\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "artificial2",
+    "prompt": "Blog Post: Artificial2 is my very first piece of artwork and is the result of a tutorial i followed. At the time i couldnt work out why the bloodcell in the foreground was all squarey, so i decided to make the blood green and call it \"artificial\" blood. This is where the name for my entire collection of art and games has stemmed from.\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "ArtificialGames.co.uk & Site Changes",
+    "prompt": "Blog Post: Well i have now finished moving about and have set up a home for Artificial Games.\nI have also been forced to remove the comunity mixes from this site due to restriced hosting space, oh well i would preferr good hosting over infinate space.\n\nKeywords: ",
+    "tags": [
+      "blog",
+      "free",
+      "download",
+      "free",
+      "blogspot",
+      "blog",
+      "blogspot",
+      "free",
+      "free",
+      "free",
+      "free",
+      "free",
+      "blogspot",
+      "blog",
+      "blogspot",
+      "blog",
+      "blogspot",
+      "blog",
+      "blogspot",
+      "blog",
+      "blog"
+    ]
+  },
+  {
+    "title": "AS3 Loader.loadBytes() Class Name Collisions",
+    "prompt": "Blog Post: Well I spent hours at work today scratching my head and getting generally very annoyed over this one so I thought I would share it with the world so others can benefit from my frustrations.\nBasically I wanted a method of loading a SWF as a byte array then turning the byte array back into a SWF at run-time. This is quite handily catered for in AS3 with the use of URLStream and Loader.loadBytes().\n\nSo my flow looked like:\n**SWFA -> StreamURL.load(\"SWFB.swf\")\nSWFA -> Loader.loadBytes() **\nSo off I went and coded my solution, to my surprise it worked great. Well kinda, the problem with using loadBytes() is that you have no way of passing flashVars through to the loaded SWF like normal (see this bug report for more info: https://bugs.adobe.com/jira/browse/FP-445).\nWhen you inspect the root.loaderInfo.url (_root._url in as2) property of the loaded swf it gives you the URL of the loader instead of the URL you want. My solution to this was to proxy the loading in another swf and then pass this swf all the params I want to go in the child swf.\nSo the flow looks like:\n**SWFA -> Loader.load(\"proxy.swf?someparam=22\")\nProxySWF -> StreamURL.load(\"SWFB.swf\")\nProxySWF -> Loader.loadBytes() **\nThis way when you call root.loaderInfo.url from within SWFB it will give you something like: \"https://www.mydomain.com/proxy.swf?someparam=22\" which isnt perfect but atleast you have the params there to play with.\nUnfortunately however when I implemented this nothing happened. The proxy loaded, it loaded SWFB fine, added it to the stage but nothing was displayed. No errors nothing. I found this very perplexing as the code was practically the same as before just in a different SWF.\nAnyways, to cut a long story short I finally found out what was going wrong. The document class of the proxy was named \"Main.as\" and the document class of SWFB is was named \"Main.as\". I renamed one of them and suddenly\n\nKeywords: ",
+    "tags": [
+      "loader",
+      "loadbytes",
+      "main.as",
+      "main.swf",
+      "main.as",
+      "main.swf",
+      "main.as",
+      "main.swf",
+      "main.as",
+      "main.swf",
+      "main.as,"
+    ]
+  },
+  {
+    "title": "Audiosize",
+    "prompt": "Blog Post: After another evenings worth of work I have come up with this little thing.\nIts mainly a test to see how the new GameJacket tech fares when floated on the open sea that is the flash games industry.\n\nStill, give it a go let me know what you think!\n\nKeywords: ",
+    "tags": [
+      "GameJacket.com",
+      "GameJacket.org",
+      "GameJacket.net",
+      "GameJacket.org",
+      "GameJacket.net",
+      "Game"
+    ]
+  },
+  {
+    "title": "Avatar Creation",
+    "prompt": "Blog Post: This is my first ever project i did in DirectX. It was created again for a university project at the start of the year in 2004. I had ambitious plans for a dynamic mesh manipulation application so the user could create their own personal avatar for a MMORPG.\n\nAfter much struggling and pain i had to scale back my plans. Despite this, i still managed to implement a system of mesh editing using sliders and was extremely proud of it at the time. Using the \"AvatarCreation\" executable the user can create their own custom avatar and then save it ready for use in the future MMORPG game. Using the \"AvatarView\" executable i was able to demonstrate that the custom avatar could be loaded and simply animated.\nUsed: Microsoft Visual Studio .NET (DirectX 9c), 3DS Max **\nDownload:** Spudman-v1.00.zip (694 KB)\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Back From America - Photos + Videos",
+    "prompt": "Blog Post: Hello All!\nYes im now back from the good old U.S. of A. Had an awsome time, many exciting things seen many exciting things done and many interesting people met.\n\nBest sight of the trip: Hard to say, everything was pretty damn amazing but if I absolutely had to single out one memorable event it must be camping out under the stars in the navajo homelands.\nCraziest sight of the trip: Seeing a bloke with no legs front-flip out of his wheelchair..\nAnyways, I have so many pictures and videos I had to buy an upgrade for my picassa account. But this upgrade now means I can upload videos to picassa, yey!\nGo check out the photos on my picassa account HERE. Some highlights include:\n[![](https://lh3.google.com/mike.cann/RsoSDHFk-HI/AAAAAAAADeA/JnnEaHrVJJI/s400/DSC02200.JPG)](https://picasaweb.google.com/mike.cann/AmericaPhotos07/photo#5100909372601858162)    [![](https://lh6.google.com/mike.cann/RsoNS3Fk7YI/AAAAAAAAC58/TX6vke2S80c/s400/DSC01939.JPG)](https://picasaweb.google.com/mike.cann/AmericaPhotos07/photo#5100904145626656130)\n\n \nAlso check some of the videos HERE.\n\nKeywords: ",
+    "tags": [
+      "America trip 2007 pictures",
+      "America trip 2007 videos",
+      "America trip 2007 blog",
+      "America trip 2007 blog photos",
+      "America trip 2007 blog pictures",
+      "America trip 2007 blog videos",
+      "America trip 2007 blog post",
+      "America trip 2007"
+    ]
+  },
+  {
+    "title": "Back from Berlin",
+    "prompt": "Blog Post: Well its now 2009 and im back at work, but as sad as it sounds im enjoying being back desprite the backlog of support tickets here at GameJacket :P\nNew years for me was spent with my little lady Toni in Berlin with her friends. We spent NYE in a club called Matrix with some of her friends. As you can see from some of the pictures i have taken they do things a little differently in Germany for NYE (donuts at midnight ?!).\n\nAnyways, I totally enjoyed myself and would love to go back again but now its back to GameJacket and my other Games. On that subject I have been resting over Christmas after the stress of releasing Flashteroids, and have had time to think about what my next game will be. My question is has anyone seen a good remake of Minesweeper in Flash?\nSome highlights from Berlin\n\nKeywords: ",
+    "tags": [
+      "games",
+      "game",
+      "games",
+      "gamejacket",
+      "flash",
+      "html5",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games",
+      "games,"
+    ]
+  },
+  {
+    "title": "Ball Collisions",
+    "prompt": "Blog Post: Here is a little experiment i used in a game during my time at Rockpool.\n\nIts not perfect and was worked on quirte abit before it was released in proper game. (dont worry the game wasnt about beachballs and 8balls :P). Should you want to see the code i have provided the source for this example here.\n\nKeywords: ",
+    "tags": [
+      "cocos2d-iphone-extension-ball",
+      "cocos2d-iphone-extension-ball-behaviour,"
+    ]
+  },
+  {
+    "title": "Blast Out",
+    "prompt": "Blog Post: Well here is my next flash based offering…\nIts called blast out and the idea is its a modern day version of Break Out. You have to bounce the ball around (which you may recognise from Blast Wave ;)) and destroy the terrain to release the particles. You can collect the particles by holding the left mouse to attract them down to your paddle.\n\nThis is actually a much smaller version than the \"full\" game that i wrote. I originally intended to allow users to make thier own levels in-game which they could then share with others. Unfortunately however flash doesnt allow cross-domain file sharing so i had to cut all that beautiful WORKING code out at the last minute :(\nOh well, i think whats left is still pretty good, hope you enjoy it too!\n\nKeywords: ",
+    "tags": [
+      "Physics",
+      "Arcade",
+      "Online",
+      "Multiplayer",
+      "Physics",
+      "Paddle",
+      "Ball",
+      "Collect",
+      "Particles",
+      "Destroy",
+      "Destroy Terrain",
+      "Destroy Blocks",
+      "Destroy Terrain Blocks",
+      "Destroy Terrain",
+      "Destroy Blocks",
+      "Destroy Terrain Blocks"
+    ]
+  },
+  {
+    "title": "Blast Wave",
+    "prompt": "Blog Post: Heres my latest flash based creation, Blast Wave.\nThis one was a blast to make, no pun intended, and only took 2 weeks. Hope you all enjoy!\n\nKeywords: ",
+    "tags": [
+      "space",
+      "spaceship",
+      "alien",
+      "alien invasion",
+      "arcade",
+      "space invaders",
+      "arcade game",
+      "alien invasion",
+      "space invaders",
+      "space invaders game",
+      "alien",
+      "alien invasion",
+      "arcade",
+      "space invaders",
+      "arcade game",
+      "alien invasion",
+      "space invaders",
+      "space"
+    ]
+  },
+  {
+    "title": "boxthing",
+    "prompt": "Blog Post: Boxthing was my second ever creation. Im not sure where the idea for it came from, i think it was just an experiment into reflection and bumpmapping. Many people say they dont like this one, however im kinda partial to it\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "BumpSpace",
+    "prompt": "Blog Post: This was a tech demo I created for one of my final projects in my second year of university. Due to the severe time restrictions at the end of the term i wasnt able to do the project i wanted to (ToyTown MMORPG) so insted of trying to struggle and force a large project into a small time frame i decided not to do a MMORPG.\n\nOver the year i had seen several nice effects and snippits of code, such as Dot3 Bump Mapping, Particle Effects and Bezier Curves. I decided to have a go at these effects and others myself, the result being this application, it isnt a game but rather a demo of some of my programming skills.\nUsed: Microsoft Visual Studio .NET (DirectX 9c), 3DS Max\nDownload: BumpSpace-v1.0.zip (3.89Mb)\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Camping Oz 2017 - The South",
+    "prompt": "Blog Post: After our adventures in Central Australia we started heading south, first stopping off at the curiously peculiar Coober Pedy.\n\n\nThis town is made famous by the fact that its surroundings are littered with opal mines. Infact opal mining is just about the only reason you would want to live in this dry hot place.\nIt gets so hot in summer and water and power is so scarce that the residents often convert their old mines into homes, churches, hotels and anything else.\n\nThe owner of the campsite we were staying at showed us around the 12-bed b'n'b he was digging out of the hillside:\n\nI really enjoyed my time there but I can understand why its not everyone's up of tea. They even have a \"golf course\":\n\nFollowing on from Coober Pedy we headed south past the incredible fields of yellow canola\n\nUntil we reached the coastline and the small town of Fowlers Bay.\n\nWe werent expecting much from Fowlers Bay but ended up having an awesome time there.\nIts a surprisingly beautiful place with stunning sand dunes and groups of whales just off the shore.\n\n\nEvening were spent huddled around the campfire with the other guests drinking beer and sharing stories. Exactly what you want from a camping trip.\n\nUnfortunately we had to move on after a few days and make our way to Esperance, first stopping off at the incredible Bunda Cliffs on the Nulabore Highway.\n\nThen finally we arrived at the drone mecca that is Esperance. Why do I call it drone mecca, well just take a look at these:\n\n\n\n\nIts hard not be be impressed by the raw beauty of this place and in my opinion its best viewed from above.\n\n\n\nA few days in Esperance and it was sadly all over for our epic 5-month trip.\nIts been an incredible experience of highs and lows and I hope that you have enjoyed following along.\nOnto the next adventure!\n\nKeywords: ",
+    "tags": [
+      "Fowlers Bay",
+      "Bunda Cliffs",
+      "Esperance",
+      "South Australia",
+      "Western Australia",
+      "Esperance",
+      "Nulabore",
+      "Coober Pedy",
+      "Fowlers Bay",
+      "Bunda Cliffs"
+    ]
+  },
+  {
+    "title": "Cannyshammy Everquest Goodbye",
+    "prompt": "Blog Post: This little flash movie was created for my old everquest guild when i left the game. Its more of a montage of my time in everquest and is presented as a kinda slideshow. I played the game for 3 years and i still have many fond memories of my time in the game.\n\nLink: Peeky Peeky\n\nKeywords: ",
+    "tags": [
+      "guilds",
+      "guilds",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild",
+      "guild,"
+    ]
+  },
+  {
+    "title": "ChainReaction (Binary+Source Release)",
+    "prompt": "Blog Post: Okay so i have finally decided to upload this. I had intended to do some more work on it and get it into a more presentable state. However as time goes on and I still havent found time to do any more on it I have just decided to upload it now.\n\nChainReaction was my large (60 credits) project for my final year of university. It is basically a tool for creating 2D particle effects in an easy and fun way. There are two parts to it. Firstly the main tool:\n\nThe tool lets an artist or designer visually lay out their effect in an easy to use and understand manner. Once an effect has been created it can be exported out to either the XNA SDK or the Flash SDK for a programmer to use in thier own projects:\n\nI have produced video tutorials explaining how to use these in conjunction with each other. However you must understand this is mainly an academic project and I had realy intended to clean this up before I released it.\nThere is also a GIF animation export option that I added late in the project and as such is a little slow and buggy :P\n\nThe source code is included within the project. Feel free to use it for anything non-commercial. If you wish to use it for commercial purposes I would like to be contacted for permission first: mike.cann@gmail.com\nDownload: ChainReaction-Final.zip (161mb)\n\nKeywords: ",
+    "tags": [
+      "Flash",
+      "Tutorial",
+      "Video",
+      "Tutorial",
+      "C#",
+      "XNA",
+      "C#",
+      "XNA4",
+      "XNA4",
+      "C#",
+      "Tutorial",
+      "Video",
+      "Tutorial",
+      "C#",
+      "XNA",
+      "C#",
+      "XNA4"
+    ]
+  },
+  {
+    "title": "ChainReaction (part1) - Effects Preview",
+    "prompt": "Blog Post: Okay its project presenting time again. This time its a biggie, its my final year main module, 60 credits of year-long projectness (not a word i know).\n\nWell its almost getting to the end of the project and i thought i would release bits and bobs as they are finished.\nA full description of what the project is and what it does will follow but for now in this post im going to show off a few of the example particle effects that have been created with the tool then exported out using the inbuilt GIF exporter.\nYou will have to excuse how slow the GIFs run. For some reason i cant get the frame delay any lower than about 10ms, any suggestions?\n\nKeywords: ",
+    "tags": [
+      "bge",
+      "bge particle system",
+      "blender particle system",
+      "bge psys",
+      "blender psys",
+      "blender psys tutorial",
+      "blender psys examples",
+      "blender psys examples tutorial",
+      "blender psys examples final year project"
+    ]
+  },
+  {
+    "title": "ChainReaction (Part2) - Video Tutorials",
+    "prompt": "Blog Post: Okay i have now completed a couple of video tutorials for ChainReaction. They should also give a little more info on what ChainReaction is!\n\nTutorial1:\n\nTutorial2:\nChain Reaction Tutorial 2 from mike cann on Vimeo.\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "chains",
+    "prompt": "Blog Post: Chains was created in one of my more \"dark\" moments I wanted to get more volumetric shadowing on it but by the time it finished rendering i was no-longer in my dark mood so decided to leave it\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "chainsaw girl 4",
+      "chainsaw girl 5",
+      "chainsaw girl 6",
+      "chainsaw girl 7",
+      "chainsaw girl 8",
+      "chainsaw girl 9",
+      "chainsaw girl 10",
+      "chainsaw girl 11,"
+    ]
+  },
+  {
+    "title": "Cheers Pete!",
+    "prompt": "Blog Post: Cheers for the support Pete mate :D\n\nKeywords: ",
+    "tags": [
+      "apps",
+      "games",
+      "itunes gift card",
+      "itunes gift card codes",
+      "itunes gift card generator",
+      "itunes gift card generator no survey",
+      "itunes gift card generator no survey no download",
+      "itunes gift card generator no survey"
+    ]
+  },
+  {
+    "title": "Code Drop V2",
+    "prompt": "Blog Post: CodeDrop came about mainly by accident. I wanted to see if i could create a 2D particle explosion effect. After i discovered how easy this was to do i decided to create a whole game around it!\n\nThe game is now in its second version, and has many new improvements over the last, check it out, tell me what you think.\nUsed: DarkBASIC, PhotoShop 7\nDownload: CodeDrop-v2.0.zip (16.8Mb)\n\nKeywords: ",
+    "tags": [
+      "game engine",
+      "game maker",
+      "game maker 8",
+      "game maker 8.1",
+      "game maker 8.1 pro",
+      "game maker 8.1 pro trial",
+      "game maker 8.1 pro trial version",
+      "game maker 8.1 pro trial version"
+    ]
+  },
+  {
+    "title": "Code Drop V2 - 2003",
+    "prompt": "Blog Post: CodeDrop came about mainly by accident. I wanted to see if i could create a 2D particle explosion effect. After i discovered how easy this was to do i decided to create a whole game around it!\nThe game is now in its second version, and has many new improvements over the last, check it out, tell me what you think.\nDownload: CodeDrop-v2.0.zip\n\nKeywords: ",
+    "tags": [
+      "particle",
+      "explosion",
+      "arcade",
+      "space",
+      "shooter",
+      "bullet",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship",
+      "spaceship,"
+    ]
+  },
+  {
+    "title": "CodeDrop",
+    "prompt": "Blog Post: Well i have made a decision, instead of starting 10000 projects and never finishing i have decided instead to do some quick projects and shoot them out the door. So the best way to do this i figure is to make flash games.\nSo here is my first flash game of a few. Its basically a port of a game i did in the first year of uni in DarkBASIC but with some modifications.\n\nHope you all enjoy it :)\n\nKeywords: ",
+    "tags": [
+      "collect",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade",
+      "evade"
+    ]
+  },
+  {
+    "title": "Coder Tidbit 01",
+    "prompt": "Blog Post: Keep coming across things like this at work that make me stop and think for a while so i thought they would be interesting to post up here for others to think about too.\n\nHeres one i came accross today that was causing a strange error in the game:\n[code lang=\"java\"]\nboolean a = true;\nif(a){ System.out.println(\"HERE1\"); } { System.out.println(\"HERE2\"); }\n[/code]\nWhich one is printed? HERE1 or HERE2 or both?\nIf a = false which is printed?\n\nKeywords: ",
+    "tags": [
+      "neither",
+      "one",
+      "none"
+    ]
+  },
+  {
+    "title": "Confused Kitty",
+    "prompt": "Blog Post: I dont know why i find this so funny…\n\nKeywords: ",
+    "tags": [
+      "iphone 6 plus",
+      "iphone 6s",
+      "iphone 6s plus",
+      "iphone 7",
+      "iphone 7 plus",
+      "iphone 8,"
+    ]
+  },
+  {
+    "title": "cybrain",
+    "prompt": "Blog Post: Cyber Brain (cybrain) was created from some image i think i saw somewhere with a brain in a glass container. I dont know if it was a dream or if i actually saw it , but anyways here is the result of my mental imagery\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "cyborg",
+      "cyborg brain",
+      "cybernetic brain",
+      "glass",
+      "liquid",
+      "liquid brain",
+      "liquid container",
+      "liquid container brain",
+      "machine",
+      "machine brain",
+      "machine intelligence",
+      "machine intelligence",
+      "machinery",
+      "mechanical",
+      "mechanical brain",
+      "mechanical intelligence,"
+    ]
+  },
+  {
+    "title": "DarkPOOL -- 2003",
+    "prompt": "Blog Post: DarkPOOL was created as a project for one of my first year university modules. It was created primarily as a test into the physics of pool. The game is in 3D however the main camera view is directly over the top of the table giving a 2D appearance.\nNOTE: Unfortuanately i have lost the latest version of this game and hence it doesnt play as well as it should, the physics worked properly in the full version :)\n**Download: **DarkPool-v1.zip\n\nKeywords: ",
+    "tags": [
+      "2.5d",
+      "billiards",
+      "physics based,"
+    ]
+  },
+  {
+    "title": "daydream",
+    "prompt": "Blog Post: Daydream was inspired by my good friend Joy Scott and that is her in the picture\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "bright",
+      "colorful",
+      "computer",
+      "cool",
+      "daydream",
+      "digital",
+      "dream",
+      "fantasy",
+      "futuristic",
+      "game",
+      "graphics",
+      "green",
+      "high-tech",
+      "lightwave",
+      "lightwave3d",
+      "lightwave7",
+      "lightwave7.5",
+      "light"
+    ]
+  },
+  {
+    "title": "Dead Cows Strike Back (DCSB)",
+    "prompt": "Blog Post: Well this was a fun little flash movie i made for a gaming clan i was a part of a coupple of years back. It was all done in 3ds max then vectored'n'imported into flash.\nLink: Take a peek!\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Dev-Bot 2.0",
+    "prompt": "Blog Post: We had our new developer delivered at GameJacket today, he is called dev-bot 2.0:\n\n\nAs you can see he arrived in a box, his improvements over the previous human-dev 1.0 include:\n\nCodes 10x fasterÂ  while on the windows login screen\nProductivity INCREASES proportionally to lunchtime alcohol intake\nAbility to work while within protective packaging\n\nKeywords: ",
+    "tags": [
+      "game",
+      "games for android",
+      "game for android",
+      "game for android phones",
+      "game for android tablet",
+      "game for android tablet",
+      "game for android tablet",
+      "game for android tablet",
+      "game for android tablet",
+      "game for android tablet",
+      "game for"
+    ]
+  },
+  {
+    "title": "dissectURL(url:String)",
+    "prompt": "Blog Post: Been a while since i have shared any coding tips, but here is one for those Actionscript 3 Coders out there. Its a helper function that splits a URL up into its different parts using RegExp.\n\n  public static function dissectURL(url:String) : Object\n  {\n  var keys : Array = [\"source\", \"protocol\", \"authority\", \"userInfo\", \"user\", \"password\", \"host\", \"port\", \"relative\", \"path\", \"directory\", \"file\", \"query\", \"anchor\"];\n  var hostExtractPattern:RegExp = /^(?:([^:/?#]+):)?(?://((?:(([^:@]):?([^:@]))?@)?([^:/?#])(?::(d))?))?((((?:[^?#/]/))([^?#]))(?:?([^#]))?(?:#(.*))?)/;\n  var o : Object = hostExtractPattern.exec(url);\n  var r : Object = new Object();\n  for (var i:int = 0; i < keys.length; i++) { r[keys[i]] = o[i];Â Â Â  }\n  return r;\n  }\n  An example of its use would be:\n  var protocol : String = dissectURL(\"https://www.mikecann.co.uk/?p=294\").protocol;\n  trace(protocol);\n  It would trace \"http\".\n\nEnjoy!\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Docking Nightmares",
+    "prompt": "Blog Post: The tool has to be functional, elegant and fun. For that I wanted a special UI for it. I loved what the team had done over at Blade3D and i wanted something similar. Unfortunately they paid at least \\$300 for thiers, and hence this wasnt realy an option for me just yet :P\nSo for now im stuck with an old 2005 style UI. To spice it up abit I decided to add docking panels. I had worked with docking panels before for my ChainReaction project in Java but hadnt done one in C# before. A quick search on sourceforge came up with DockPanel Suite.\nIt certainly wasn't as easy to pick up as when I did docking panels in Java, but I eventually got it. The toughest part which I still haven't sorted out 100% is rendering a XNA window into a docking panel. As XNA runs using a DirectX graphics device its very picky about loosing its rendering state. So if a user undocks the window and moves it about and then redocks it, it doesnt like it due to the loss of rendering state. For now the XNA window has been fixed so that it cant be undocked.\nAs you can see in the screenshot above I have added some visual properties to the BlueprintEditor so that you can affect how its rendered, its all working beautifully.\nThe next step is to get the blueprints being placed on the grid so that you can build the level.\n\nKeywords: ",
+    "tags": [
+      "xbox",
+      "windows",
+      "game",
+      "game development",
+      "game programming",
+      "game programmer",
+      "games",
+      "game programming",
+      "game programming",
+      "game",
+      "programming",
+      "programming",
+      "c++",
+      "c",
+      "c-sharp",
+      "c-sharp",
+      "c#"
+    ]
+  },
+  {
+    "title": "Does it Offend You - Weird Science",
+    "prompt": "Blog Post: Was just going thru my juice auto-download folder from knobtweakers when i came accross this little gem, good morning wake up music, enjoy!\n\nDoes it Offend You - Weird Science\n\nKeywords: ",
+    "tags": [
+      "iphone music downloader app free download",
+      "iphone music downloader app free download for android",
+      "iphone music"
+    ]
+  },
+  {
+    "title": "Dry spell",
+    "prompt": "Blog Post: Well I have just started a new job in a new town. Well actually the job nor the town is that new as I worked here two years ago during my placement year. The town, Manchester, the company Rockpool Games.\n\n\nBasically this means im working all day during the week and when I get home I dont have the internet so cant upload anything.\nHopefully ill get the internet at home soon tho so back to the posting :P\n\nKeywords: ",
+    "tags": [
+      "Action RTS",
+      "Multiplayer Online Battle Arena",
+      "Moba",
+      "Warcraft",
+      "3D",
+      "Fantasy",
+      "Strategy",
+      "PC",
+      "Gameplay",
+      "Commentary",
+      "Lets Play",
+      "Lets Play Dota 2",
+      "Lets Play Dota",
+      "Dota 2 Commentary"
+    ]
+  },
+  {
+    "title": "Dynamite Surfing",
+    "prompt": "Blog Post: My good friend Jason sent me this today, and i just had to share it, madness!\n\nKeywords: ",
+    "tags": [
+      "macbook air",
+      "mac mini",
+      "imac",
+      "ipod",
+      "ipod touch",
+      "iphone 5",
+      "ipad 3",
+      "ipad 4",
+      "ipad mini",
+      "ipad mini with retina display",
+      "ipad air,"
+    ]
+  },
+  {
+    "title": "enterwarpfactor",
+    "prompt": "Blog Post: Enterwarpfactor is a different view of the image \"warpfactor\", from this perspective you can see how the vortex swirls into the nebulea in the background.\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Fixing Old Posts & Uploading Videos",
+    "prompt": "Blog Post: I just realised the other day when I was trying to show someone some of my old projects that half of my old posts are broken.Videos are missing, download links gone, images half broken. Basically the thing is a shambles.\n\nI can only assume that things have gone whoops during the various moves this site has had over the years.\nSo over the course of the next week or so im going to go back through and fix all my old posts and make sure everything is working again. I would greatly appreciate it if you could drop me a comment or an email if you see any post that is still broken and ill take a look at it. Cheers!\nI have started by uploading a load of my old videos to Youtube and Vimeo (stupid YT 10min limit).\nIf you are interested I have included them all below the jump\n\nKeywords: ",
+    "tags": [
+      "unlock",
+      "unlock iphone",
+      "unlock ipod touch",
+      "unlock ipad",
+      "unlock iphone 3gs",
+      "unlock iphone 3g",
+      "unlock iphone 3g iphone unlock",
+      "unlock iphone"
+    ]
+  },
+  {
+    "title": "Fixing Unity's Failed AOT cross compiler error",
+    "prompt": "Blog Post: While working on Mr Nibbles Forever I have encountered many annoying errors with Unity. None has been more annoying than the dreaded AOT errors I was getting when building for iOS.\n\nI foolishly had gone a while (a few weeks) without attempting to build for iOS. In that time I had added many third party libraries and made changes to much of the code. I decided one day to do a build for my iPad. I fired up Unity on OSX and tried to build and ran into the following:\n\n  stderr:\n  at UnityEditor.MonoProcessUtility.RunMonoProcess (System.Diagnostics.Process process, System.String name, System.String resultingFile) [0x00000] in :0\n  at UnityEditor.MonoCrossCompile.CrossCompileAOT (BuildTarget target, System.String crossCompilerAbsolutePath, System.String assembliesAbsoluteDirectory, CrossCompileOptions crossCompileOptions, System.String input, System.String output, System.String additionalOptions) [0x00000] in :0\n  at UnityEditor.MonoCrossCompile+JobCompileAOT.ThreadPoolCallback (System.Object threadContext) [0x00000] in :0\n  UnityEditor.HostView:OnGUI()\n\nAh jeeze, I thought to myself, I have no idea what could be causing this compile error. Unity gives me no information where or why this error is occurring. I have no idea what these third party libraries are doing behind the scenes. Perhaps one of them is interfering with one of the others? They all work fine on my windows / android build. sigh\nSo I ripped out all the third party libraries and tried to build again and surprise surprise the error was still there. So now I was really confused. What was going on, was it something in one my scenes?\nSo I created a blank scene and set that as the only scene the in game, built again and the error was still there. Now I was really worried, I had made a bunch of changes since the last build, which of those was it? I had no idea and I really didnt want to go line by line and comment \n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Fixing Unity's Internal Compiler Error",
+    "prompt": "Blog Post: As mentioned in my last post, I am working on a Unity game that takes advantage of Parse for Asyncronous multiplayer. Well one nice feature of parse is that it uses Tasks to handle its asynchronicity.\n\nTasks are very much like JS promises (except they are type-safe) and return when the operation has completed. For example:\n[code lang=\"csharp\"]\nobj.SaveAsync().ContinueWith(task =>\n{\nif (task.IsCanceled)\n{\n// the save was cancelled.\n}\nelse if (task.IsFaulted)\n{\nAggregateException exception = task.Exception;\n}\nelse\n{\n// the object was saved successfully.\n}\n});\n[/code]\nYou can chain tasks together like so:\n[code lang=\"csharp\"]\nvar query = new ParseQuery(\"Student\")\n.OrderByDescending(\"gpa\");\nquery.FindAsync().ContinueWith(t =>\n{\nvar students = t.Result;\nIEnumerator enumerator = students.GetEnumerator();\nenumerator.MoveNext();\nvar student = enumerator.Current;\nstudent[\"valedictorian\"] = true;\nreturn student.SaveAsync();\n}).Unwrap().ContinueWith(t =>\n{\nreturn query.FindAsync();\n}).Unwrap().ContinueWith(t =>\n{\nvar students = t.Result;\nIEnumerator enumerator = students.GetEnumerator();\nenumerator.MoveNext();\nenumerator.MoveNext();\nvar student = enumerator.Current;\nstudent[\"salutatorian\"] = true;\nreturn student.SaveAsync();\n}).Unwrap().ContinueWith(t =>\n{\n// Everything is done!\n});\n[/code]\nThe problem is that if you want to catch errors you must manually check the task return for errors inside each handler. This seemed wasteful to me as all I wanted was a global error handler for that particular task chain, such as can be achieved with Javascript Promises.\nFortunately someone else also had noticed this problem and solved it:\n[code lang=\"csharp\"]\nTask.Factory.StartNew(StartBusyIndicator)\n.Then(task => GetWebResponseAsync(url))\n.Then(task => Console.WriteLine(task.Result.Headers))\n.Finally(ExceptionHandler, StopBusyIndicator);\n[/code]\nThe only problem is that when I tried to impl\n\nKeywords: ",
+    "tags": [
+      "node",
+      "c#",
+      "unity",
+      "parse",
+      "asyncronous",
+      "multiplayer",
+      "unity3d,"
+    ]
+  },
+  {
+    "title": "Flash Develop Plugin: Highlight Selected",
+    "prompt": "Blog Post: Highlight Selected\nNotepad++ comes with a feature where if you double click a variable it will highlight all other instances of that variable in the open document. I wanted this feature in FD so i decided to write this plugin.\n\nThis plugin is very simple and borrows much of the code from the quick-find plugin.\n\nI wrote this little plugin an an hour or so last night, i hope others find it useful too :)\nMore info and download link on the FlashDevelop forums: https://www.flashdevelop.org/community/viewtopic.php?f=4&t=4486\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Flash Whiteboard",
+    "prompt": "Blog Post: The flash whiteboard is a little experiment i cooked up in a couple of days. It basically allows the user to 'hand write' a message which is then saved on the server. Once done you can then view the list of messages. The whiteboard was written in flash and php was used to communicate with the server.\n\n\nOr if you dont want to leave a message you can just view the messages left by others.\n\nKeywords: ",
+    "tags": [
+      "message board",
+      "php",
+      "mysql",
+      "ajax",
+      "html5",
+      "css3",
+      "javascript",
+      "jquery",
+      "mobile",
+      "ios",
+      "android",
+      "tablet",
+      "touch",
+      "finger",
+      "gesture",
+      "drawing",
+      "handwriting",
+      "finger painting",
+      "drawing board"
+    ]
+  },
+  {
+    "title": "FlashCircles Experiment (+Source)",
+    "prompt": "Blog Post: I was in the pub yesterday with Toni and some friends and we saw a painting on the wall that was compleately made up of circles of various sizes with varying borders and none of the circles overlapped.\n\nWell Toni and i got into a discussion of how it could be done in code. I suggested it could be done via a brute force method, she dissagreed and thought that a more mathimatical approch would be better.\nWell i decided to have a stab at it this afternoon. Its definately not perfect, but it does create circles tightly packed with no overlapping.\nCan anyone do any better?\n**Download: **SourceCode\n(P.S. Use FlashDevelop to compile/run this)\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "FlashDevelop, Preloaders and GameJacket",
+    "prompt": "Blog Post: This is a clone of the post i made on the GameJacket developer forums here: https://gamejacket.com/forum/topic.asp?TOPIC_ID=59 but i think it deserves a re-post here so it can be googled :)\n\nAs i had quite abit of trouble getting GameJacket to fit into my work flow properly and have no finally managed it I have decided to share my experiences and write a tutorial.\nSo this is a tutorial for using FlashDevelop with the Flex Complier to build a game with a pre-loader that passes the GameJacket security checks.\n\nFirstly i assume you have downloaded and installed Flash Develop successfully (if you havent grab it from here https://www.flashdevelop.org/community/viewforum.php?f=11&sid=322bc6ebe846fdaba31f86627ac2c3ac and follow the install instructions). And i assume you have downloaded the GameJacket developer pack.\nNext lets setup a project to work in:\n\nNow we have our project setup lets add a little code into the in our Main.as which will represent our game:\n\npackage\n{\nimport flash.display.Bitmap;\nimport flash.display.Sprite;\npublic class Main extends Sprite\n{\n[Embed(source = \"cat.gif\")]\npublic var Cat:Class;\npublic function Main():void\n{\nvar bm : Bitmap = Bitmap(new Cat());\naddChild(bm);\n}\n}\n}\nYou will obviously replace this with your actual game code but for the purposes of this tutorial the game consists of a very large picture of a cat.\nTry running this now, as you should expect there is our \"game\" up and running.\nThe next step is to add the GameJacket security code. To do this lets add a new class to the project and call it GJCheck.as:\n\nNow we are going to fill this with the same code as there is in the \"main.as\" of the AS3 folder of the GameJacket Developer Pack:\npackage\n{\nimport flash.display.Sprite;\nimport flash.display.LoaderInfo;\nimport flash.events.Event;\nimport flash.text.TextField;\nimport flash.text.TextFieldAutoSize;\npublic class GJCheck extends Sprite\n{\npub\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Flashteroids 3D (teaser)",
+    "prompt": "Blog Post: A quick little teaser of my next flash game.. ;)\n\nKeywords: ",
+    "tags": [
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra",
+      "extra"
+    ]
+  },
+  {
+    "title": "Flashteroids is out... finally!",
+    "prompt": "Blog Post: Yep, thats right, its taken me months of hard effort and stress but i have finally done it. Im in two minds about this one, it looks nice and its got quite abit of new tech in it but the gameplay is kinda tricky to pickup due to the 3d nature.\n\nAnyways enough chatter, game follows…\n\nKeywords: ",
+    "tags": [
+      "windows phone",
+      "windows 8",
+      "windows 8.1",
+      "windows 10",
+      "mac",
+      "macbook",
+      "macbook pro",
+      "macbook air",
+      "mac mini",
+      "mac pro",
+      "xbox one",
+      "playstation 4",
+      "playstation 3"
+    ]
+  },
+  {
+    "title": "Forget me not..",
+    "prompt": "Blog Post: I have a terrible memory, often desprite setting alarms leaving notes for myself all over the place, writing on my hands, i still forget to do something. For that reason we have come up with the \"forget me not\" copyright 2009. See image for more info\n\nKeywords: ",
+    "tags": [
+      "iphone app",
+      "ipad app",
+      "ipod app",
+      "ipad app",
+      "iphone app",
+      "ipad app",
+      "ipod app",
+      "ipad app",
+      "iphone app",
+      "ipad app,"
+    ]
+  },
+  {
+    "title": "Game of Life HaXe & NME on iOS",
+    "prompt": "Blog Post: For the last few days I have been playing around with trying to get the game of life sample from my previous post working on the iPhone using haXe with NME.\n\nIn theory NME should do all the heavy lifting for you so that it should be as simple as running:\n[code lang=\"text\"]\nhaxelib run nme build nmebuild.nmml ios\n[/code]\nUnfortunately however when I ran this I was getting rather cryptic errors:\n[code lang=\"text\"]\nCalled from ? line 1\nCalled from InstallTool.hx line 384\nCalled from a C function\nCalled from InstallTool.hx line 70\nCalled from a C function\nCalled from installers/InstallerBase.hx line 61\nCalled from installers/InstallerBase.hx line 668\nCalled from installers/InstallerBase.hx line 762\nCalled from haxe/xml/Fast.hx line 59\nUncaught exception - icon is missing attribute name\n[/code]\nI had read from the NME documentation page that this may have been fixed in the more reccent versions of NME. So I downloaded the beta version (you could checkout from SVN too if you wish) and told haxelib that im going to be working with a development version of NME with the following command:\n[code lang=\"text\"]\nhaxelib dev nme /Users/mikec/Documents/NME_3.1_Beta\n[/code]\nNow when I try to build for ios I get success!\n\nFrom there is a simple matter of opening the generated xcode project, connecting my iphone and hitting run:\n\nI really like how easy the workflow is compared to the Adobe Air packaging system. Generating the xcode project makes things so much faster.\nIf I can get my hands on an Android phone next I think im going to have to have a go at getting this sample working on there too!\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "GameJacket",
+    "prompt": "Blog Post: Well today is my second day at my new job and as i havent mentioned my employment change on this blog yet i thought its about time to post about it.\nOne month ago i decided to leave Dubit and head back to manchester to join Barry and chums at GameJacket. My reasons for this abrupt change after such a short period at Dubit (4 months) are numerous. Mostly it has to do with what I wanted to achieve in the future and the type of projects i want to be a part of. At GameJacket im to be a flash swiss-army-knife of sorts so should keep me on my toes and constantly challenged. In addition to that I am to be working part time of my own volition so i can concentrate atleast part of my working week on developing my own games under the name Artificial Games.\nTwo days in and im thoroughly enjoying myself and im sure now i have made the right move. Anyways enough chat heres a pic of my new office\n\nKeywords: ",
+    "tags": [
+      "artificial",
+      "games",
+      "flash",
+      "unity",
+      "2d",
+      "3d",
+      "game",
+      "development",
+      "programming",
+      "programming blog",
+      "programming blog",
+      "programming blog",
+      "programming blog",
+      "programming blog",
+      "programming blog",
+      "programming blog",
+      "programming blog",
+      "programming blog"
+    ]
+  },
+  {
+    "title": "GameJacket Joke Wall",
+    "prompt": "Blog Post: Joke a day keep the bugs at bay!\n\nKeywords: ",
+    "tags": [
+      "windows phone",
+      "windows",
+      "mac",
+      "linux",
+      "windows phone",
+      "android",
+      "blackberry",
+      "mac",
+      "linux",
+      "iphone",
+      "ipod",
+      "ipad",
+      "windows",
+      "windows phone",
+      "blackberry",
+      "android",
+      "mac",
+      "linux",
+      ""
+    ]
+  },
+  {
+    "title": "gems",
+    "prompt": "Blog Post: This was created (like most of my images) as an experiment, this time it was into using radioisty lighting.\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Github Project Uploads",
+    "prompt": "Blog Post: Its a lazy sunday so I have decided to do a few chores I have been meaning to do for a while. One of them has been to move some of my old projects over from Google Code over to Github and to begin uploading some of my older projects that are scattered through this blog directly to Github.\n\nSo I have first moved over Chrome Crawler (https://github.com/mikecann/Chrome-Crawler) my Chome Extension for spidering sites.\nAlso I moved Windows7 Taskbar Monitor (https://github.com/mikecann/Windows7-Taskbar-Monitor) a small C# application that provides stats-at-a-glance.\nI then uploaded Portal2D XNA (https://github.com/mikecann/Portal2D-XNA) a c# based proof of concept game I made way back in university as part of a team project.\nFinally I uploaded Audiobook Organiser (https://github.com/mikecann/Audiobook-Organiser) a simple Adobe Air based tool for organising and tracking Audiobooks.\nI have a great many other projects scattered about the place which I hope to upload as I can.\n\nKeywords: ",
+    "tags": [
+      "Audiobook Organiser"
+    ]
+  },
+  {
+    "title": "Graduation Part One",
+    "prompt": "Blog Post: Just got a letter through the post confirming the date for my graduation from Uni. \nAlso at the same time I received a letter informing that I received an award for \"Best Overall Performance on the Final Year of the Computer Games Programming Course\" which is probably the longest name for an award in history but im still proud :D\nJump to part two after the 26th November to see photos of the ceremony!\n\nKeywords: ",
+    "tags": [
+      "Programming",
+      "Computer",
+      "Programming",
+      "Course",
+      "Awarded",
+      "Best",
+      "Overall",
+      "Performance",
+      "Award",
+      "Longest",
+      "Name",
+      "Ever",
+      "Proud",
+      "Proud",
+      "Award",
+      "Awarded",
+      "Proud",
+      "Awarded",
+      "Proud",
+      "Awarded",
+      "Proud"
+    ]
+  },
+  {
+    "title": "Graduation Part Two",
+    "prompt": "Blog Post: Well thats officialy it now, university is over. Quite a sad thing but i guess it had to happen eventually.\n\nThe night out afterwards was fantastic however with the usual bunch of crazy antics and lethal quantities of alcahol.\nHead over to my picassa album for more pics: https://picasaweb.google.com/mike.cann/Graduation07\n\nKeywords: ",
+    "tags": [
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog",
+      "blog"
+    ]
+  },
+  {
+    "title": "Gyroalien",
+    "prompt": "Blog Post: This image took me a relatively long time to make because of the modeling involved in creating it. Im not sure exactly what i was envisiging when i started out creating this but it ended up as some half organic teleporting device for one occupant.\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "transporter",
+      "travel",
+      "unknown",
+      "unknown planet",
+      "unknown world",
+      "unknown world alien",
+      "unknown world spaceship",
+      "unknown world teleporter",
+      "unknown world transporter",
+      "unknown world travel",
+      "unknown world travel alien",
+      "unknown world travel spaceship",
+      "unknown world travel teleporter"
+    ]
+  },
+  {
+    "title": "hahahahaha",
+    "prompt": "Blog Post: hehehe its infectious\n\nKeywords: ",
+    "tags": [
+      "ipad 2",
+      "iphone 3",
+      "iphone 3gs",
+      "iphone 4s",
+      "ipad 3",
+      "ipad 2",
+      "ipad",
+      "ipad air",
+      "ipad mini",
+      "ipad mini",
+      "ip"
+    ]
+  },
+  {
+    "title": "Hmmm",
+    "prompt": "Blog Post: Council Tax FAIL ?\n\nKeywords: ",
+    "tags": [
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax",
+      "Council Tax"
+    ]
+  },
+  {
+    "title": "Homebrewin' Tip",
+    "prompt": "Blog Post: This post is a little off the normal beaten track for my blog. I have been so super busy of late on a project that I havent really had any time for technical personal projects.\n\nI have however had time to do a little home-brewing so I thought I would share a little tip I had picked up. A little white back a friend lent me his kit for homebrewing. Its so simple all you have to do is fill a two litre bottle with juice and sugar, add a little yeast and cap it off with a simple valve-cap. Leave it for a few weeks and you have a 'tastey' strong beverage.\nThe problem however is knowing how long to leave it. The instructions say 2-3weeks but that is heavily dependant on a number of factors such as the ambient temperature of the room. At first what I was doing was putting the juice, yeast and sugar in at the same time then giving it a good shake so all the sugar was disolved.\nI have discovered a better way of doing things however. If you put the sugar in the bottom then put the yeast on top then gently pour in the juice over it then you get a rough indicator of when the fermentation process has completed. As the yeast grows and respirates it burns its way down through the sugar slowly converting the sucrose to alcohol. What this results in is a slowly shifting yeast layer as it works it way down. When the layer hits the bottom, no more sugar left and the brew is ready for drinking :)\n\nKeywords: ",
+    "tags": [
+      "iphone app development training",
+      "iphone app development course",
+      "iphone app development training",
+      "iphone app development tutorial",
+      "iphone app"
+    ]
+  },
+  {
+    "title": "How To Get Ahead in Science",
+    "prompt": "Blog Post: Great animation, good giggle, great video :P\n\nKeywords: ",
+    "tags": [
+      "iphone6",
+      "iphone6s",
+      "iphone7",
+      "iphone7s",
+      "iphone8",
+      "iphone8s",
+      "iph"
+    ]
+  },
+  {
+    "title": "Hxaria, Terraria like terrain in HaXe and WebGL",
+    "prompt": "Blog Post: I woke up the other day thinking about Terraria. No idea why as I haven't played it in ages, but its the type of game I really enjoy so it must have snuck into my dreams during the night.\n\nAnyways, it got my thinking if it would be possible to make something similar to it in the browser using WebGL. For those not aware of Terraria, it looks something like this:\n\nTo produce the above you need several layers of tilemaps (background, water, foreground etc) that can potentially change every single frame (due to lighting environment effects etc). To do that at 1680x1050 at 16x16 per tile with only one layer changing each frame will be 6800 tile draws per frame.\nHaving calculated that I got thinking about the best way to render lots of tiles.\nMy first thought was to render each tile as a separate quad. That would certainty work, however it would mean that for each tile I would need 4 vertices, times that by say 4 layers that's 108,800 vertices. Its not a massive massive amount but sizable enough for me to wonder if there was a more efficient way.\nMy next thought was that I could share vertices by using vertex indices in a triangle-strip, that way at best each tile will only require just over one vertex per tile then arrange them in a lattice so that the vertices are shard between tiles:\n\nThis would then only require about 27,200 vertices which is really nice. I was hover having difficulties imagining how I would reference each tile individually in the shader so I could apply texture and color transformations and started wondering if another technique might work..\nHaving recently done some work with Point Sprite Particles I knew that the GPU was really good at rendering Point Sprites. So I thought to myself, why not just make each tile a point sprite. That way I could then represent each tile as a vertex then I could pass custom properties such as texture and color to the sh\n\nKeywords: ",
+    "tags": [
+      "WebGL 2 shader code",
+      "WebGL 2 shader tutorial",
+      "WebGL 2 shader examples",
+      "WebGL 2 shader code",
+      "WebGL 2 shader tutorial",
+      "WebGL 2 shader examples"
+    ]
+  },
+  {
+    "title": "I cant stop playing with particles..",
+    "prompt": "Blog Post: Well I have been at it again, tweaking and altering the particles in LieroXNA. You can see a video of my results below.\n\nParticles now represent the pixel they exploded from. i.e. if the terrain was green the particle is green, if it was blue the particle is blue etc.\nParticles are now more white (hot) depending on how fast and how old they are.\nParticles now explode in a circular direction and less randomly (looks more like an explosion).\nParticles now have a direction from which they are exploded, at the moment is just current mouse position - last mouse position but in the future this will be used to blow particles away from a high energy collision.\nParticles now react to the player. I realised that instead of just passing in the terrain texture to the particle update routine i could pass the entire back buffer allowing the player and any other objects in the scene to have particle reactions, yey!\nParticles now have a bit of alpha blending to make them look a little less in focus, not sure if this works well, let me know :)\n\nKeywords: ",
+    "tags": [
+      "liero for windows free",
+      "liero for windows game",
+      "liero for windows games",
+      "liero for windows games download",
+      "liero for windows"
+    ]
+  },
+  {
+    "title": "Icy Slicy",
+    "prompt": "Blog Post: Well after weeks and weeks of having the game all but finished i have finally sorted out the sponsorship, ironed out the bugs (most of them) and sorted all the artwork. The game is now released and ready to be sliced up by critics on the internet.\n\nAnyways onto the game; The object of the game is simple. Several silly critters and their things have gotten frozen inÂ  the ice and they need your help to cut them out. Using your mouse slice off chunks of ice in this exciting physics based game!\n\nKeywords: ",
+    "tags": [
+      "touch",
+      "physics",
+      "puzzle",
+      "ice",
+      "frozen",
+      "slice",
+      "cut",
+      "cut the rope",
+      "cut the rope demo",
+      "cut the rope full version",
+      "cut the rope full version free",
+      "cut the rope full version for free",
+      "cut the"
+    ]
+  },
+  {
+    "title": "Icy Slicy Like Game",
+    "prompt": "Blog Post: Just came accross this rather interesting variation on my Icy Slicy game. Its called Ice Breaker. Its not exactly a clone, but the tech is very simmilar to Icy Slicy.\n\nKeywords: ",
+    "tags": [
+      "game development",
+      "game programming",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game studio",
+      "game"
+    ]
+  },
+  {
+    "title": "Im Famous!",
+    "prompt": "Blog Post: … well im on the front page of the gamejacket homepage, im not exactly A-list now but its better than nothing ;)\n\n\nSource: https://www.gamejacket.com/news.asp?news=7\n\nKeywords: ",
+    "tags": [
+      "developer",
+      "indie game",
+      "indie game developer",
+      "indie game developer interview",
+      "indie game developer interview",
+      "indie game development",
+      "indie game development",
+      "indie game development interview",
+      "indie game development interview",
+      "indie game developer",
+      "indie game developer",
+      "indie game"
+    ]
+  },
+  {
+    "title": "Imagining the Tenth Dimension",
+    "prompt": "Blog Post: Ever read anything about string theroy and thought WTF? 10 dimensions? I find it hard enough to imagine anything higher than 3 let alone 10! Well this little flash website tries to help out. Check it out :D\n\nKeywords: ",
+    "tags": [
+      "stringtheorycomic.com/comic/comic",
+      "stringtheorycomic.com/comic"
+    ]
+  },
+  {
+    "title": "implosion",
+    "prompt": "Blog Post: Implosion is one of my favourite images because of the variety of colours in it. Also it has got \"depth\" to it. By that i mean it takes a close look at it before you understand what is meant to be going on with it. Download it, see for yourself\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "cool",
+      "fractal",
+      "green",
+      "image",
+      "light",
+      "lightwave",
+      "orange",
+      "purple",
+      "red",
+      "render",
+      "screen",
+      "space",
+      "sphere",
+      "sphere2",
+      "sphere3",
+      "sphere4",
+      "sphere5",
+      "sphere6",
+      "sphere7",
+      "sphere8"
+    ]
+  },
+  {
+    "title": "Improve Flash Builder Performance and Compile Times by 30%",
+    "prompt": "Blog Post: I spend most of my working day and sometimes my evenings and weekends coding in Flash Builder. Flash Builder is the main professional coding environment for Actionscript and MXML and is sold by Adobe.\n\nIts fairly okay as an IDE, not the best but not the worst also. I wont go into all of Flash Builders' problems (I would be here forever) but instead want to talk about one key way you can improve your efficiency when working in Flash Builder.\nFirstly the test environment :\n\nIts a pretty beasty machine, the project and flash builder folders are sat on an SSD drive.\nI have two projects to test these compile times with. Using RichCodeAnalyser:\nProject A\n\n1670 Classes, 188,771 Lines\nProject B\n\n2386 Classes, 135,647 Lines\nBoth projects have a mixture of MXML and AS files as well as employing several .swc libraries.\nIll be testing two different scenarios. 1 complete build from clean. 2. a single line change in the Main class. Ill run each test three times and take the average. I close FB down between projects just in-case there is any memory caching limiting the performance. All builds are built in debug mode using various different Flex SDK versions.\nSo using the vanilla install of Flash Builder 4.6:\n\nNot a good start. The two projects wont even compile. They get so far through the build then crash, not just the compiler but the entire IDE itself, ugh!\nSo the first improvement is to up the amount of memory that Flash Builder has. Incredibly  (in this day and age) you have to manually do this, it isn't built into Flash Builder (which is built on Eclipse). So to do this you need to edit the FlashBuilder.ini found (on my machine) at:\nC:Program Files (x86)AdobeAdobe Flash Builder 4.6FlashBuilder.ini\n\nThe main setting for the amount of memory is \"-Xmx512m\" which sets the maximum value of the heap to 512Mb. So to give FB more memory set that to:\n-Xmx1024m\n\nIf you try to set it any\n\nKeywords: ",
+    "tags": [
+      "flash builder 4.6 speed",
+      "flash builder 4.6 tips",
+      "flash builder 4.6 tricks",
+      "flash builder 4.6 tricks and"
+    ]
+  },
+  {
+    "title": "Irony",
+    "prompt": "Blog Post: My morning chuckle over with, its time to work!\n\nKeywords: ",
+    "tags": [
+      "iphone 6 plus",
+      "iphone 6s",
+      "iphone 6s plus",
+      "iphone 7",
+      "iphone 7 plus",
+      "iphone 8,"
+    ]
+  },
+  {
+    "title": "Kitty Wash",
+    "prompt": "Blog Post: Okay all that know me know i love kittys, but i also love to see kittys get scared.. (dont ask me why)\n\nThis one made me laugh so hard…\n\nKeywords: ",
+    "tags": [
+      "iphone 6",
+      "iphone 6s",
+      "iphone 7",
+      "iphone 7s",
+      "iphone 8",
+      "iphone 8s",
+      "iph"
+    ]
+  },
+  {
+    "title": "LAN08",
+    "prompt": "Blog Post: Well i just got back from the geek-based crazyness that is the stourbridge LAN party. Despite having the worlds word journey getting down there i still had a bloody good time. As usual pictures and videos on picassa, heres a lil sample\n\nKeywords: ",
+    "tags": [
+      "iphone 3g video review youtube",
+      "iphone 3g youtube",
+      "iphone 3g youtube review",
+      "iphone 3"
+    ]
+  },
+  {
+    "title": "Lets Make a Mobile Game in 3-Weeks with Haxe & NME",
+    "prompt": "Blog Post: I have decided that I would like to learn more about mobile game development. Its an exciting area of the games industry at the moment with so many frameworks and languages to choose from to develop with. The plethora of choice however can be a hindrance, what are the best frameworks and language for this particular task? Haxe with NME?  C# MonoTouch with Monogame? or even Javascript with Titanium? One can only go so far just reading about them, eventually you have to jump in and try them out for yourself.\n\nSo on that note I have decided to team up with an artist colleague (Moh 'Mohzart' Mukhtar) from work to create a mobile game in three weeks of evenings and weekends. Three weeks is an ambitious target for a game on any platform let alone mobile with its added complications. The primary purpose of this project however is to gather experience on the process of making mobile games using a given langauge, framework and platform. Having a longer time-scale I feel would deter from this, the primary motivation. Having said that however, I hope that in three weeks we will have something that to be reasonably proud of.\nFor this particular game I have decided to explore Haxe with NME. Haxe is a programming language I have been using for my personal projects for about a year now and is ideally suited to mobile development due to its ability to target multiple platforms with the same codebase. NME is a framework written in Haxe that emulates the Flash API and thus provides an interface I am extremely familiar with having used it for many years on personal and professional games. I dabbled with NME about a year ago while at the TryHarder conference however things have moved on with the project a lot since then and im looking forward to getting stuck in and playing around with it some more.\nIn theory Haxe with NME should give us the ability to target Flash, HTML5, OSX, Linux, Wi\n\nKeywords: ",
+    "tags": [
+      "haxe",
+      "nme",
+      "flash",
+      "html5",
+      "osx",
+      "linux",
+      "windows",
+      "javascript",
+      "c#",
+      "mono",
+      "unity",
+      "xna",
+      "c++",
+      "c",
+      "c++",
+      "c#",
+      "mono",
+      "unity",
+      "xna",
+      "c"
+    ]
+  },
+  {
+    "title": "Liero + 200,000 Particles",
+    "prompt": "Blog Post: Been workin on this abit this weekend and managed to intergrate my earlier work on GPU particles with the game to create some nice effects. See the video below to see thousands of particles being blown in many different directions.\n\nKeywords: ",
+    "tags": [
+      "cocos2d",
+      "cocos2d-iphone",
+      "cocos2d-iphone-game",
+      "cocos2d-iphone-game-development",
+      "cocos2d-iphone-game-development"
+    ]
+  },
+  {
+    "title": "Liero Update - Console & ATi",
+    "prompt": "Blog Post: Well I took Liero into work today just to show to a few people who were interested and to test it on another machine other than my own. And low and behold it didnt work on my work machine which was no surprise as it doesnt have a graphics card so it fell down at the first hurdle. I then went to test it on an artists ATi based machine expecting it to work. It did but sadly there were no particles.\n\nWell after digging around abit, I discovered that it was the same problem I encountered before when I released my 1,000,000 particles demo a few months ago. The problem is that ATi dont include the ability to use Vertex Textures in their graphics hardware (the core technology allowing me to get many particles on the screen). I knew the solution from previous work was to use ATi's alternative Renter To Vertex Buffer (R2VB) unfortunately I could not find anyone else that had done this in XNA before which led me to the suspicion that it wasnt possible. I posted on the XNA forum about this, you can see the replies here.\nAnyways to cut a long story short I have not been able to implement R2VB for ATi cards but I have instead done the next best thing which is to implement a CPU particle system instead. This means that people with realy old cards (or like my work machine without a card atall) or people with ATi cards they can still play the game and still have particles, just not as many (200-400k on nVidia, 10-50k on CPU).\nAlso something I implemented over the weekend was this fancy console which, makes life alot easier for me when developing, isnt it nice ;)\n\nKeywords: ",
+    "tags": [
+      "liero source code released under gpl",
+      "liero source code released under gplv3",
+      "liero source code released under gplv3 license,"
+    ]
+  },
+  {
+    "title": "LieroXNA - A Tentative Beginning",
+    "prompt": "Blog Post: Okay I have decided to start a new mini pet project. As you may have guessed by now I have stopped work on the TDProject. The reason is that it is too large of a project to take on at the same time as having a job, should I ever find myself without a job in the future I may pick it up again.\n\nSo the new project is designed to be alot smaller than the last and should give a more immediate sense of achievement. The project is going to be a clone of the popular game Liero but for XNA (so xbox eventualy). For those that havent played it, its a real-time 2D action game (basically worms without the turn based tedium).\nSo far im just playing around with getting the core of the engine up and running. The original Liero and its successive clones were all done in C/C++. In those languages you have the ability to pixel blit, that is write directly to the back buffer one pixel at a time. In XNA/C# however you dont have that ability, so you have to do some funky stuff with shaders. The advantage of doing it this way however is that GPU particles that have physics (can bounce around the level) should fall out of the code nicely allowing for large numbers of particles.\nAnyways, as I said its just a beginning for now. So far I have a level rendered with a terrain map, an explosion map (renders explosions to the texture each frame if any occurred) and a collision map which allows objects to collide. With the left mouse button you can blow holes in the terrain which in turn updates the collision map allowing the worm to move around more of the level.\n\nKeywords: ",
+    "tags": [
+      "game",
+      "game programming",
+      "game development",
+      "game design",
+      "game development blog",
+      "game design blog",
+      "game development blog",
+      "game design blog",
+      "game development",
+      "game design",
+      "game programming",
+      "game development",
+      "game design",
+      "game programming",
+      "game"
+    ]
+  },
+  {
+    "title": "LieroXNA - Improvements and Additions",
+    "prompt": "Blog Post: Been a while since I have posted about LieroXNA but I havent been doing nothing. Changes and things:\n\n\nAdded a destroyed layer to the game which is just the initial map but darker.\nAdded a shadow to the foreground to give it a more 3D appearence.\nAdded an indestructable layer, so that maps can have abit of structure even after a long battle.\nAdded the ability to zoom in and out. This was a big one and took most of last weekend to sort out.\nAdded player spawning.\nAdded the ability to control the player with the 360 controller.\nStarted to add other gameplay features such as player jumps, crosshair, weapon switching things and others.\n\nKeywords: ",
+    "tags": [
+      "lieroXNA",
+      "lieroxnaXNA",
+      "lieroXNA",
+      "lieroxnaXNA",
+      "lieroXNA",
+      "lier"
+    ]
+  },
+  {
+    "title": "LieroXNA - Weapons and Forces",
+    "prompt": "Blog Post: I have been working hard on LieroXNA this weekend and have managed to get quite abit of what I wanted done.\nFirstly I worked on setting up a framework for weapons that allows them to be described by an external xml. This should reduce the effort involved in creating new weapons in the future. Taking a quick look at the XML that describes the rocket weapon you can see its straight forward but also pretty powerful:\n\n\n\n \n  rocket\n  smoke\n \n\n  \n   \n   \n   \n  \n \n\nIn addition I have been working on adding forces into the game. It took abit of tweaking but now explosions have a force which repels particles around it, you can see this in action in the video below. I have also added a \"vortex\" special weapon that sucks particles towards it which then swirl around until the vortex implodes expelling all the particles.\nThe size of the world has now been expanded and a simple camera has been added. Previously the intention was the world was to be split into multiple tiles of 1024x768 textures but i have now decided against that due to the level of complexity involved and gone for a system that uses one large texture (2048x2048 currently) instead. I have also changed the texture so its a little less \"programmer art\" as I was getting some stick for that :P\nThere is still alot of work to be done but im happy with the way it looks at the moment. You will have to excuse the video quality below, flash isnt the best compression for alot of fast moving small particles.\nIf you want to see a larger less compressed video (35meg) you can download it HERE.\n\nKeywords: ",
+    "tags": [
+      "liero xna devblog",
+      "liero xna devblog 2",
+      "liero xna devblog 3",
+      "liero xna devblog 4"
+    ]
+  },
+  {
+    "title": "llamp",
+    "prompt": "Blog Post: Llamp (lava lamp) was created as an experiment with hypervoxels, however when it rendered i found it to be quite boring so i decided to \"liven\" it up abit in photoshop\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "hypervoxels",
+      "hypervoxels",
+      "hypervoxels",
+      "hypervoxels",
+      "hypervoxels",
+      "hypervoxels",
+      "hypervoxels",
+      "hypervoxels"
+    ]
+  },
+  {
+    "title": "llamp2",
+    "prompt": "Blog Post: Llamp2 uses the same image created by lightwave however i applied different effects to it photoshop.\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "spaceship",
+      "spaceship interior",
+      "spaceship exterior",
+      "spaceship bridge",
+      "spaceship corridor",
+      "spaceship corridor 2",
+      "spaceship corridor 3",
+      "spaceship corridor 4",
+      "spaceship corridor 5",
+      "spaceship corridor 6",
+      "spaceship corridor 7",
+      "spaceship corridor 8",
+      "spaceship corridor 9",
+      "spaceship"
+    ]
+  },
+  {
+    "title": "Long live Halo 3!",
+    "prompt": "Blog Post: Brilliant video from Loading Ready Run\n\nKeywords: ",
+    "tags": [
+      "iphone 6",
+      "iphone 6 plus",
+      "iphone 6s",
+      "iphone 6s plus",
+      "iphone 7",
+      "iphone 7 plus,"
+    ]
+  },
+  {
+    "title": "Malta '08",
+    "prompt": "Blog Post: Well im back from my excellent holiday in Mata with my little lady. I havent uploaded pics to my picassa account for a while so i thought i would take this oppertunity to do so and upload some holiday snaps at the same time ;)\n\nHighlights include:\n\n[\n](https://picasaweb.google.com/lh/photo/K1oYnhyl1N7Y5x9tUXzxdA)\nFrom Malta08\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Martin-Kaye Case Tracker",
+    "prompt": "Blog Post: This is my first commercial Rich Internet App written in flash. It was written for the legal firm Martin-Kaye as a front end for thier extensive database.\n\nIt allows clients to login and view thier currently active case's and view a myriad of infomation about each case. It also allows the client to add \"activities\" to individual cases for the firm to view.\nIt was written in flash 8 and uses amfphp to communicate with an MSSQL backend. It was designed to be used on multiple sites for multiple brokers so has been split into modules allowing for easy skinning accross multiple websites.\nYou can view it in action in several places:\nMartin-Kaye Tracker\nPMC Tracker\nBespokeHip Tracker\nUsername: 1001, Password: 1001\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "mass",
+    "prompt": "Blog Post: This has to be one of my fastest creations (about 30mins) while i was waiting to go out I think it creates a nice effect but its abit rushed, so i will probably re-visit this and see what i can do a second time around\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "digital",
+      "glitch",
+      "glitch art",
+      "glitch background",
+      "glitch effect",
+      "glitchy",
+      "glitchy background",
+      "glitchy computer",
+      "glitchy design",
+      "glitchy digital",
+      "glitchy effect",
+      "glitchy wall",
+      "glitchy wallpaper",
+      "glitchy-background"
+    ]
+  },
+  {
+    "title": "Master Cleanse",
+    "prompt": "Blog Post: This is all I will be eating for the next 14 days! Well the ingredients of anyways. Its called the Master Cleanse and our tour leader in America Becca told me about it and it really intrigued me. It is basically a massive detox that should flush loads of stuff out of my system and set me on track for a healthier life.\n\nThose that know me know that im not really a mega health fanatic, in fact usually quite the opposite. This is one of the reasons I want to try this. Another reason is that it will be a massive challenge for me not to drink any alcohol during this period. This i think will be the hardest part especially as I have my sisters \"late\" 21st party coming up on friday where I wont be able to touch a drop!\nBasically it works by taking senna tea (green box in the photo) before I go to bed. Senna tea is a mega laxative and should flush the system. In the morning i have to drink warm salt water which also has a laxative effect. During the day i drink a drink that is a mixture of lemons, maple syrup and Cayenne pepper (hot!).\nIts going to be tough, realy tough, but I think I can do it. I will be journaling day by day here, partly so that I dont give myself the option of backing out.\nGoing to drink the tea in a few hours then go to bed and see what happens, wish me luck!\nDay -1\nOkay, just took the senna tea for the first time. Not particularly great tasting i must admit, but not too bad either. I wonder if i can put abit of that maple syrup in it next time to make it taste better. Anyways, bed in abit, i hope this doesn't wake me up too early, i want to be able to at least get some sleep tonight. Tomorrow is going to be tough at work tho gulp\nDay 1\nWell thats almost the end of my first day. Impressions? Well apart from having dreams of going to the toilet then being rudely awoken by my angry bowel at 4:30 and 7:00 all went well. I have been abit hungry, but nothing t\n\nKeywords: ",
+    "tags": [
+      "Master Cleanse Day 4",
+      "Master Cleanse Day 5",
+      "Master Cleanse Day 6",
+      "Master Cleanse Day 7",
+      "Master Cleanse Day 8",
+      "Master Clean"
+    ]
+  },
+  {
+    "title": "match",
+    "prompt": "Blog Post: I personally hate this image, however others have told me they like it so im putting it up here.\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "sci-fi",
+      "sci-fi girl",
+      "sci-fi girl robot",
+      "sci-fi girl cyborg",
+      "sci-fi robot",
+      "sci-fi cyborg",
+      "sci-fi cyborg girl",
+      "sci-fi cyborg girl robot"
+    ]
+  },
+  {
+    "title": "matrix-cells",
+    "prompt": "Blog Post: This is still one of my personal favourites, i love the green effect of the hypervoxels and the way it goes with the background so well. You could almost imagine that if there was a matrix and the code looks like the background then perhaps the machines are made up of cells that look like these\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "MazeHunt",
+    "prompt": "Blog Post: This is another little project i did in the earlier part of my second year at university. It was my second project i ever did in DirectX and as such is rather limited.\nThe theme of the project was maze generation and AI solving. I developed my own algoritm based on square weighting to create two bots, one called a hunter bot which will actively hunt the player down, and a flee bot which will flee from the player.\nUsed: Microsoft Visual Studio .NET (DirectX 9c), 3DS Max **\nDownload:** MazeHunt-1-00.zip (694 KB)\n\nKeywords: ",
+    "tags": [
+      "Hunter",
+      "Flee",
+      "Weighting",
+      "Square",
+      "Weighted",
+      "Square Weighting",
+      "Weighted Square",
+      "Weighted Squares",
+      "Weighted Squares Algorithm",
+      "Weighted Squares Algorithm Maze",
+      "Weighted Squares Algorithm"
+    ]
+  },
+  {
+    "title": "Meowcenaries",
+    "prompt": "Blog Post: So much WIN!\n\nKeywords: ",
+    "tags": [
+      "itunes",
+      "music",
+      "movies",
+      "tv shows",
+      "app store",
+      "itunes store",
+      "itunes gift card",
+      "itunes gift card code",
+      "itunes gift card generator",
+      "itunes gift card codes",
+      "itunes gift card code free,"
+    ]
+  },
+  {
+    "title": "mikecann.net",
+    "prompt": "Blog Post: Ha! Just got a google alert from a site: \"https://www.mikecann.net/\" didnt know that site even existed. Looks like its some cannabis campaign site :P\n\nKeywords: ",
+    "tags": [
+      "ikea hack",
+      "ikea hack",
+      "ikea hack",
+      "ikea hack",
+      "ikea hack",
+      "ikea hack",
+      "ikea hack",
+      "ike"
+    ]
+  },
+  {
+    "title": "Monkey Mines - Sneak Peek",
+    "prompt": "Blog Post: After monts of work my next game is very almost done, and im pretty damn proud of this one. Just hunting about for sponsorship deals then I release. Until then here are a few piccies\n\nKeywords: ",
+    "tags": [
+      "ipad",
+      "ipod",
+      "ipad",
+      "ipod",
+      "ipad",
+      "ipod",
+      "ipad",
+      "ipod",
+      "ipad",
+      "ipod",
+      "ipad",
+      "ipod",
+      "ipad",
+      "ipod",
+      "ipad,"
+    ]
+  },
+  {
+    "title": "More Harmony Creations",
+    "prompt": "Blog Post: Was doing some more playing around on Harmony this evening, so relaxing. It kinda reminds me of some of the stuff I did on Particle Playground.\nHere are some of the better ones..\n\nClick them for full-size versions\n\nwavebow.png\n\nsupermassive.png\n\npluralvortex.png\n\norangeuniverse.png\n\ndisco.png\nAgain, id love to see other peoples! Shoot me a comment with yours :)\n\nKeywords: ",
+    "tags": [
+      "music",
+      "harmony",
+      "music",
+      "app",
+      "music",
+      "ipad",
+      "iphone",
+      "ipod",
+      "music",
+      "sound",
+      "music",
+      "harmony",
+      "music",
+      "app",
+      "music",
+      "ipad",
+      "iphone",
+      "ipod",
+      "music",
+      "sound"
+    ]
+  },
+  {
+    "title": "More Photos..",
+    "prompt": "Blog Post: Just some more photos of my latest comings and goings :P\n\nHighlights\n\nKeywords: ",
+    "tags": [
+      "iphone6s",
+      "iphone6c",
+      "iphone7",
+      "iphone7s",
+      "iphone7c",
+      "iphone8",
+      ""
+    ]
+  },
+  {
+    "title": "More photos, yey!",
+    "prompt": "Blog Post: Got a new phone the other day, so had to back up all my photos before i switched phones, so i have now uploaded all those photos to my website. You can find the photos by using the link at the top or clicking here.\n\nSome highlights\n\nKeywords: ",
+    "tags": [
+      "iphone6s",
+      "iphone6splus",
+      "iphone7",
+      "iphone7plus",
+      "iphone8",
+      "iphone8plus,"
+    ]
+  },
+  {
+    "title": "More Ronnie and Worms News!",
+    "prompt": "Blog Post: Well it looks like both the games are still doing very well in the charts. This report on gamasutra says that _Worms _is currently second highest selling game in the UK and _Ronnie O'Sullivan's Snooker _is currently 6th. Not bad for my first two commercial games ever :)\n\nKeywords: ",
+    "tags": [
+      "iphone apps",
+      "iphone games",
+      "iphone development",
+      "iphone apps",
+      "iphone games",
+      "iphone development",
+      "iphone apps",
+      ""
+    ]
+  },
+  {
+    "title": "Mr Nibbles",
+    "prompt": "Blog Post: Mr Nibbles was a Web, iOS and Android game I wrote in my evenings and weekends with a Playdemic colleague. We set ourselves a goal of finishing it in 3 weeks, it actually took 5 but I was very proud of the result.\n\nYou can check the game out here: https://www.mr-nibbles.com\nOr read the numerous posts I wrote on the subject:\n[catlist id=577 numberposts=100]\n\nKeywords: ",
+    "tags": [
+      "nibbles",
+      "food",
+      "restaurant",
+      "fish",
+      "fishtank",
+      "fishbowl",
+      "aquarium",
+      "fishtank game",
+      "food game",
+      "restaurant game",
+      "casual game",
+      "mobile game",
+      "html5",
+      "javascript",
+      "css",
+      "php",
+      "mysql",
+      "mong"
+    ]
+  },
+  {
+    "title": "Mr Nibbles 3D - Level Building",
+    "prompt": "Blog Post: As this is a level based puzzle game one of the big requirements for the project will be the ability to quickly build and test levels. In the original Mr Nibbles the levels were all 2D generated from a bitmap image where each pixel represents a single tile in the world. So for example here is level 4:\n\n\nRepresenting the levels as a bitmap image meant that Photoshop became my level editor which allowed me to very quickly make changes and test the levels as I made them.\nObviously that scheme wont work for 3D so I started thinking about how to build levels in the editor. If you have used Unity before you will know that in addition to the actual editor they run a website called the Asset Store where users can submit tools and assets that others can use in their project. It was on there that I came across the Tidy Tile Mapper:\n\nIt looked exactly what I wanted. So I bought it and started using it to build the first few levels you see in the video at the start of this post. It was while I was using it that I discovered problems in the way it works.\nFirstly its slow to use both from a performance perspective and from a usability perspective. There aren't any hot keys for commonly used things and painting and removing blocks just chugs after a while. I also don't like the way the tool handles \"empty\" blocks which are infact real object that clutter up the hierarchy. The block editor also doesn't seem to handle some rotations. The way it handles layers is awkward and will be a pain for this game that will require many layers or axis' of movement.\nIn short I decided I could do better:\n\nIts only a few hours work at this point and doesn't have all the features of the Tidy Tile Mapper but it has enough for me to get building my levels quickly. It works by having a \"working axis\" that you can paint blocks to or remove blocks from. All blocks are added as a child of a \"blockmap\" whic\n\nKeywords: ",
+    "tags": [
+      "3d ",
+      "2d ",
+      "ipad ",
+      "game design ",
+      "game development ",
+      "unity ",
+      "3d ",
+      "2d ",
+      "ipad"
+    ]
+  },
+  {
+    "title": "Mr Nibbles 3D - Menus & Obscuring",
+    "prompt": "Blog Post: While experimenting around with rotating in more than just one axis I ran into an issue. When rotating you can obscure the camera with the level. It would be possible to construct levels such that they can't be rotate into a position that anything would be obscured but it would severely restrict the number and type of levels I could build.\n\n\nThe solution to this problem was to shoot a ray (well, several rays) from the player to the camera, if they collide with anything then its obscuring and thus I fade it out. When its no longer obscuring I fade it back in again. It works pretty well as a solution though I will need to see how it actually works out when I build more levels.\nI have also been thinking about the menus in the game. I was wonder if there was a way to make the menus more interesting. Then I had the idea, why not make the menus a level? That way I could introduce the basic controls at the same time!\n\nEach section of the menus are navigable by jumping into the portal which loads the next menu section. Obviously this wont work for menus that need sliders and checkboxes like the options screen, in those cases ill just pop up a regular menu. What do you think? Is it a good idea or will it get annoying?\n\nKeywords: ",
+    "tags": [
+      "3d",
+      "c#",
+      "game",
+      "game development",
+      "indie",
+      "indie game",
+      "indie games",
+      "video games",
+      "video game",
+      "video games",
+      "2d",
+      "3d",
+      "c#",
+      "unity",
+      "unity3d",
+      "unity3d tutorial"
+    ]
+  },
+  {
+    "title": "Mr Nibbles & Blackberry",
+    "prompt": "Blog Post: Im proud to announce that Mr Nibbles is now available on Blackberry App World :)\n\nThanks to the cross-platform nature of Haxe and NME it was actually really easy to do. Just a matter of changing a single word on the command-line: \"nme build blackberry\" and that was it, everything just worked out of the box!\nI want to give a massive thanks to Joshua Granick for helping with some of the strange certification issues I was getting. Joshua also very kindly helped test the blackberry build out on his Playbook before very kindly asking RIM to ship one out to test on myself.\nJoshua also recently written a blog post on the Blackberry developer blog highlighting the awesomeness of NME and its ability to target Blackberry devices natively:\nhttps://devblog.blackberry.com/2012/09/fast-native-games-for-blackberry-without-cc/\nHe was also kind enough to mention Mr Nibbles in the post :)\nSo that means Mr Nibbles is now available on the Web, Android, iOS and Blackberry. I wonder where it can go next!\n\nKeywords: ",
+    "tags": [
+      "openfl",
+      "hxcpp",
+      "c++",
+      "cpp",
+      "c",
+      "c#",
+      "objective-c",
+      "objective-cpp",
+      "haxe",
+      "nme",
+      "openfl",
+      "hxcpp",
+      "c++",
+      "cpp",
+      "c"
+    ]
+  },
+  {
+    "title": "Mr Nibbles Forever - Prototype 2",
+    "prompt": "Blog Post: So its almost a week on since the first build of Mr Nibbles Forever and a fair bit of work has gone into the game this week. Its starting to take shape a little more now which i'm happy about.\n\nI had a few people play the first Prototype last week and the overwhelming response was that it was too hard so the first thing I did this week was to make the game easier. So I slowed Mr Nibbles down and making the tilting of the device more responsive. Then I added a difficulty progression to the game. The longer you play it the harder the game gets. Check out the difficulty progression in the video below:\n\nI achieved the difficulty change by ranking each chunk by difficulty then selecting an appropriate one randomly as the player moves along.\n\nAs can be seen in the video there are now 3 themes that the player progresses through as they go along. This mirrors the 3 stages that can be found in the original game:\n\nI worried about this for a little while as I wasnt sure how to get the three themes in the game and make it work. The solution was to have transitions between the themes and have each theme more difficult from the last so that as you play from the cage to the backyard to orbit the game progresses smoothly in difficulty.\nBecause the game now features three distinct themes I needed to upgrade my chunk building tools to accommodate the different tiling requirements for each theme:\n\nBuilding tilesets is now a breeze thanks to custom inspectors and other editor tools.\n\nI have a long list of features building up on Trello:\n\nBut this week I hope to have most of the chunks complete and have started or finished work on the meta-game. What is the meta-game? Well find out next week ;)\nBTW, if you are interested in testing the game on iOS send me an email: mike.cann@gmail.com and ill get you added as a beta tester. If you are on Android then simply join this community: https://pl\n\nKeywords: ",
+    "tags": [
+      "game development",
+      "games",
+      "game design",
+      "games development",
+      "game design",
+      "indie",
+      "indie games",
+      "indie game",
+      "indie games development",
+      "indie game development",
+      "game development",
+      "games",
+      "game development",
+      "game design",
+      "games development",
+      "game design",
+      "indie"
+    ]
+  },
+  {
+    "title": "Mr Nibbles Forever Update",
+    "prompt": "Blog Post: Its been a while since a Mr Nibbles Forever update. To be honest I haven't actually done a whole lot coding wise on the project since the last update. I have been busy on other projects while I searched for an Artist and Audio guy to help on the project. Well im happy to say I have now found a couple of excellent guys to help me out so I have started to do some more work on the project.\n\nIts not ready for a new release yet but for now you can see some of the new pretty art :)\n\n\nIts nice isnt it?\nWe also have some cool new outfits in the pipeline:\n\n\n\nStay tuned for a playable release soon!\n\nKeywords: ",
+    "tags": [
+      "android phone",
+      "touch",
+      "mobile",
+      "mobile game",
+      "mobile gaming",
+      "mobile gaming blog",
+      "mobile gaming news",
+      "mobile gaming tips",
+      "mobile gaming updates",
+      "mobile gaming news",
+      "mobile gaming reviews",
+      "mobile gaming news",
+      "mobile gaming reviews",
+      "mobile"
+    ]
+  },
+  {
+    "title": "My 2013",
+    "prompt": "Blog Post: View The Trip in a larger map\nWell I promised that I would talk about what I would be up to this year now that I have quit my job. Well as the above shows I plan on doing quite a bit of travelling. 7 months of it to be exact.\n\nThe first few months of the trip are nailed down but the rest of it is currently in a state of flux. Over the next few weeks the aim is to nail some of the rest of it down so expect the map above to change.\nThe whole thing starts in London on the 7th of May where I fly out to Washington DC there ill spend a few days with a friend before I fly up to Toronto where I plan on seeing the Niagara Falls among other sights. After that ill scoot across to Chicago where ill meet up with another friend and explore the city.\nAfter a few days in Chicago ill fly south to North Carolina where ill spend a nice week with some other friends. From there ill fly to L.A. where I have a 45 day Trek America trek booked. A group of 15 of us will be travelling on buses or local transport down into central america on what looks to be an incredible journey.\nThe trek finishes on the 17th of July which I then have a few days of respite in San Jose Costa Rica before I make my way down and across to Panama City. From there I have a flight to Bogata Colombia. There im meeting a friend and we are going to journey together north to the coast of Colombia.\nAfter that things start to get a little hazy. I have a month or so by myself where I think ill explore some more Colombia, Venezuela and perhaps head north to the islands of the Carribian. Late September I plan to meet a friend in Cuba and spend some time exploring the island.\nFrom Cuba I am going to head south to Peru were im going to take another long tour this time with STA Travel. They are going to take me up the Inca trail and other parts of Peru, Bolivia, Argentia, Paraguay and Brazil.\nTo end it I may end up meeting anothe\n\nKeywords: ",
+    "tags": [
+      "trip blog",
+      "trip blog",
+      "travel blog",
+      "trip blog",
+      "travel",
+      "trip",
+      "trip blog",
+      "travel blog",
+      "travel",
+      "trip",
+      "trip blog",
+      "travel blog",
+      "travel",
+      "trip",
+      "trip blog",
+      "travel blog",
+      "travel",
+      "trip",
+      "trip"
+    ]
+  },
+  {
+    "title": "My Flat!",
+    "prompt": "Blog Post: Well i have now found a new job at a company called Dubit in Leeds, it looks to be an excellent company, looking forward to working there.\n\nBut it also means that i have to go flat hunting again and I have to leave this excellent flat behind :( To help Michelle out with finding a replacement for me i have decided to resurrect this video to show others.\nSo if you are interested in this flat smack bang in the centre of Mancheter then send either me (mike.cann@gmail.com) or Michelle (m_blenkharn@hotmail.com) an email.\n\nKeywords: ",
+    "tags": [
+      "manchester flat share wanted",
+      "manchester flat share wanted now",
+      "manchester flat share wanted now cheap",
+      "manchester flat share wanted now cheap price",
+      "manchester flat share wanted now cheap price near me",
+      "man"
+    ]
+  },
+  {
+    "title": "My new flat",
+    "prompt": "Blog Post: Well i have been living in my new pad in Leeds for going on 4 weeks. Loving the wide open space and the convenience of it to everything else.\n\nAnyways here is a video i took to show potential flatmates on Gumtree\n\nKeywords: ",
+    "tags": [
+      "iphone6",
+      "iphone6s",
+      "iphone6plus",
+      "iphone7",
+      "iphone7plus",
+      "iphone8",
+      "iph"
+    ]
+  },
+  {
+    "title": "My Skydive!",
+    "prompt": "Blog Post: Okay well as some of you know i did a skydive a while back. Just got the video of it in the post today, and with some fancy hocus pocus i have edited together this for your enjoyment\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "My Workspace",
+    "prompt": "Blog Post: Continuing on from the previous post i thought i would just quickly post a picture of my new workspace at Dubit :)\n\nKeywords: ",
+    "tags": [
+      "macbook",
+      "macbook pro",
+      "imac",
+      "mac mini",
+      "macbook air",
+      "mac pro",
+      "mac mini server",
+      "mac mini",
+      "macbook air",
+      "macbook pro",
+      "macbook",
+      "mac",
+      "apple",
+      "macbook air",
+      "mac"
+    ]
+  },
+  {
+    "title": "MyPhotos",
+    "prompt": "Blog Post: \n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "New Camera, oooooo!",
+    "prompt": "Blog Post: So i have bought a new camera in preparation for my trip to America and have been busy taking pictures of everything that moves.. also stuff that doesnt move.\n\nIts all been uploaded to picassa for viewing.\nSome highlights:\n[\n](https://picasaweb.google.com/mike.cann/NewportNightEndOfEaster)\n\nKeywords: ",
+    "tags": [
+      "night",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "nightlife",
+      "night"
+    ]
+  },
+  {
+    "title": "New 'Games' Page",
+    "prompt": "Blog Post: Just a quick one to say i have added a 'games' page at the top for quick reference by myself in my flash games to all the other games by myself.\n\nKeywords: ",
+    "tags": [
+      "fun",
+      "addictive",
+      "action",
+      "arcade",
+      "puzzle",
+      "platform",
+      "skill",
+      "strategy",
+      "kids",
+      "boys",
+      "girls",
+      "kids",
+      "boys",
+      "girls"
+    ]
+  },
+  {
+    "title": "New Hosting, New Theme!",
+    "prompt": "Blog Post: In what appears to be an almost annual event I have decided to move hosting of my blog yet again! Im moving away from the £35 per month hosting of 1&1 because although I like the freedom of having my own box that I can remote into i’m just finding it too expensive for me to justify having it. There are so many Platform as a Service (PaaS) options out there that provide high quality hosting cheaply I thought I would switch over.\nLast year Google announced that you can now host WordPress blogs on Google App Engine so I decided to take the plunge and set it up. It turns out that its not actually that hard. The hard part came with the fact that this blog is 10 years old now and contains 426 posts. That means a huge database that is not easy to import into a new provider. Fortunately this post came to my rescue, in the end it only cost me \\$0.88 in instance backend time to import the whole thing.\nSo now I have my blog hosted on Google App Engine, I moved all my content over to Google Cloud Storage too so its all hosted on Google’s Edge CDN network for super fast access, nice! I am currently running in the free tier for everything except for the Cloud SQL server which WordPress unfortunately needs so that means i’m paying \\$11 per month for that. Not bad considering that it used to cost me on 1&1 and I get all the nice Google features such as backups, redundancy and infinite scaling.\nAt the same time I thought I would tart the site up a little and bought a new theme. This time I went for a theme called Feather from Suitstheme which I rather like! Let me know what you think in the comments.\n\nKeywords: ",
+    "tags": [
+      "Platform as a Service",
+      "Blogging",
+      "Blog",
+      "Blogging Platform",
+      "Blogging Platforms",
+      "Blogging Platforms Comparison",
+      "Blogging Platforms Comparison Chart",
+      "Blogging Platforms Comparison Chart 2013",
+      "Blogging Platform"
+    ]
+  },
+  {
+    "title": "New Indie Game: Mr Nibbles 3D",
+    "prompt": "Blog Post: In-between the downtime of the main game (yet to be announced) I decided to experiment around with an idea I had a while ago.\n\nA couple of years ago I released a totally free game Mr Nibbles, a project I worked on with a colleague from Playdemic. As part of my employment contract at Playdemic I was unable to make any money from games produced in my spare time so I decided to run the project as a challenge to myself; could I make a cross-platform mobile game in 3 weeks of evenings and weekends? Well it actually took 5 weeks but I was pretty happy with the result. Currently it has 25k downloads on android:\n\nAnd 23k on iOS\n\nNot bad considering we did no marketing whatsoever.\nSo I decided why not use some of the skills I have developed with Unity and have a go at making a 3D version? It turns out it was a lot easier to prototype that I thought. The above video is the result after just a few short hours.\nI took the original 4 levels and wrote a converter that reproduced each tile in the original 2D level as a cube in the new 3D level. It was very simple but it got me thinking, why restrict it to the one rotation axis like in the 2D version? What if Mr Nibbles could move into out of the world too? A few hours later and I had quickly prototyped the many-axis concept:\n\nThis definitely has potential. Stay tuned for further posts on the development of the side-project.\n\nKeywords: ",
+    "tags": [
+      "3d game",
+      "3d game development",
+      "3d game prototype",
+      "3d game prototype development",
+      "3d game prototype development in unity",
+      "3d game prototype development in unity3d",
+      "3d game prototype development in unity3d tutorial"
+    ]
+  },
+  {
+    "title": "New project started! TowerDefence",
+    "prompt": "Blog Post: I always need something to be working on in my free time. All this year it has been my University projects that have been keeping me busy. But now all i have left is one exam I have been seeking a new project that I can undertake.\n\nI was looking for a specific kind of project. It had to be something that I am passionate about (i work so much better when i enjoy the project). It preferably had to have something to do with tools and it had to have enough new things in it that I had never done before so that I could learn new stuff.\nWith that said it took alot of head scratching and many weeks passed. I watched many videos of up and coming games and watched several videos related to new PS3 games and in particular \"little big planet\". This is exactly the type of project I wanted to work on, its a tool but its a game at the same time. If you havent seen it then you can check it here. Basically all the content in the world is created in an interactive fun tool by the community which then gets uploaded and others can play.\nI asked myself how can I take the idea of little big planet and game 3.0 and apply it to a project I want to do? Well it dawned on me while i was playing a Tower Defence (TD) on Warcraft 3, I can make this!\nFor those of you that dont know, TD's are mini games that happened by accident. When Blizzard released Warcraft 3 they also released their powerful map editor with it, soon the community were making their own maps and campaigns. Soon people started to notice other features of the map editor like the ability to link triggers together. Duke Wintermaull invented the first TD (i think), basically you and 7 other people have to stop waves of monsters that spawn at the top of the map from getting to the bottom of the map by placing defencive fortifications along the way. As you kill more monsters you get more gold so you can build more defences, simple conce\n\nKeywords: ",
+    "tags": [
+      "game design",
+      "game programming",
+      "game development",
+      "game design",
+      "game programming",
+      "game development",
+      "game design",
+      "game programming",
+      "game development",
+      "game design",
+      "game programming",
+      "game development",
+      "game design",
+      "game programming,"
+    ]
+  },
+  {
+    "title": "New theme yey!",
+    "prompt": "Blog Post: Decided to upgrade my wordpress the other day, and while i was at it i thought i'd change the theme too. I kinda like it but i appear to have lost alot of the cool little things that i had customised into the previous theme, oh well!\n\nHope you all enjoy\n\nKeywords: ",
+    "tags": [
+      "iphoneography",
+      "iphoneography",
+      "iphoneography",
+      "iphoneography",
+      "iphoneography",
+      "iphoneography",
+      "iphoneography",
+      "iph"
+    ]
+  },
+  {
+    "title": "Niflheim & Flash Hacking",
+    "prompt": "Blog Post: Stumbled accross this thing just now. I have heard of this method of flash hacking, but I didnt realise it was so easy to do nor people had actually made special applications to do it!\n\n\nI guess I need to think of ways of hiding these critical variables within my code, or perform some sort of sanity checks perhaps.\nEDIT: Quasimondo on Twitter informs me that \"The Cheat Engine\" appears to be the default tool of the trade for flash memory hacking.\n\nKeywords: ",
+    "tags": [
+      "jailbreak",
+      "root",
+      "unlock",
+      "unlocker",
+      "unlockme",
+      "unlockme2",
+      "unlockme3",
+      "unlockme4",
+      "unlockme5",
+      "unlockme6",
+      "unlockme7",
+      "unlockme8",
+      "unlockme9",
+      "unlockme10,"
+    ]
+  },
+  {
+    "title": "oddball",
+    "prompt": "Blog Post: I personally dont like this image and feel like it could be done alot better but people have told me they like it so im posting it here anyways\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "science fiction",
+      "space",
+      "spaceship",
+      "spaceship interior",
+      "star wars",
+      "the matrix",
+      "war of the worlds"
+    ]
+  },
+  {
+    "title": "Old flash tutorial",
+    "prompt": "Blog Post: This is an old piece of flash from an age ago. Its kinda a 2-parter, the first part is a sig i made for the forums over at my clans website. The second part is a tutorial i did shortly after making the sig. I got a couple of requests of how i made such a thing so i decided to write a very basic flash tutorial. Remember this is quite old so the flash version is a little out of date.\n\n\n**Download: **The tutorial\n\nKeywords: ",
+    "tags": [
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial",
+      "flash",
+      "sig",
+      "tutorial"
+    ]
+  },
+  {
+    "title": "Particle Playground",
+    "prompt": "Blog Post: Well this is the release of my latest little saunter into the world of particles and shaders in flash 10. It started off as and idea to use the new pixel bender shaders of flash 10 as a more efficient method of updating particle simulations.\n\nWell after a few struggling evenings I managed to get a little prototype going. I was so amazed at some of the beautiful patterns and effects that the particles were making I thought it may be nice rather than just releasing a tech demo, to add abit more to it and release it for others to enjoy.\nI will be releasing the source code in the coming weeks along with a blog post which should explain in detail how the technical aspects of updating and rendering tens of thousands of particles per frame works.\nThe tool features a gallery tab which you can use to take screenshots then upload them to my picassa account (proxyed via php). The hope is to get some realy beautiful images in here, perhaps if some are good enough ill get them printed and framed ;)\nI hope to come back to this project regularly to add new features so stay tuned. For now some of the images I have made with this so far\n\nKeywords: ",
+    "tags": [
+      "gpu",
+      "gpu accelerated",
+      "gpu accelerated particles",
+      "gpu accelerated particle system",
+      "gpu accelerated particle engine",
+      "gpu accelerated pixel bender",
+      "gpu accelerated pixel shaders",
+      "gpu accelerated flash"
+    ]
+  },
+  {
+    "title": "Particle Playground Teaser",
+    "prompt": "Blog Post: From ParticlePlayground\nA little teaser of something I have been working on for a few evenings.. coming soon!\n\nKeywords: ",
+    "tags": [
+      "particle playground",
+      "particle editor",
+      "particle sandbox",
+      "particle editor",
+      "particle sandbox",
+      "sandbox",
+      "sandboxing",
+      "sandboxing",
+      "sandbox",
+      "particle playground",
+      "particle editor",
+      "particle sandbox",
+      "sandboxing",
+      "sandboxing",
+      "sandbox",
+      "particle editor",
+      "particle"
+    ]
+  },
+  {
+    "title": "Particle Playground v1.0.3",
+    "prompt": "Blog Post: I made some small heavily requested updates to Particle Playground last night, control C, control V log:\n\nv1.0.3 (18/03/09)\n\nAdded this new popup at the start\nRemoved system reset on every setting change\nAdded Simulation settings\n\nSo far the game has been doing well on Newgrounds with a current score of 3.95 / 5.00 and and average review score of 9.5 / 10 it has managed to win the  Daily 4th Place â€“ 03/19/2009 :)\nOn a related note I came accross this on twitter yesterday: https://www.unitzeroone.com/blog/2009/03/18/flash-10-massive-amounts-of-3d-particles-with-alchemy-source-included/ it blew my head, there I thought I was being clever getting 20-40k of particles in 2D and this guy has managed 300k in 3D! Ive already started work dissecting the code so that I can improve PP some ;)\nOh also so far I have been very impressed with some of the pictures being created by people, so far there have been 157 of them! Some highlights include\n\nKeywords: ",
+    "tags": [
+      "flash",
+      "html5",
+      "web",
+      "3d",
+      "3d engine",
+      "3d game",
+      "3d engine",
+      "3d game",
+      "3d graphics",
+      "3d rendering",
+      "3d animation",
+      "3d modeling",
+      "3d rendering",
+      "3"
+    ]
+  },
+  {
+    "title": "Particle Playground v1.0.4",
+    "prompt": "Blog Post: I have made a few small changes to Particle Playground today:\n\nv1.0.4 (20/03/09)\n\nIve had over 500 uploads to the first gallery (https://picasaweb.google.\nco.uk/mike.cann/ParticleP layground) and the loading times were getting abit silly, so I have now made a second gallery (https://picasaweb.google.\nco.uk/mike.cann/ParticleP layground02) all new uploads now go there.\nChanged the full-screen button to open in _self\n\nIm gettign alot of images uploaded to my picasa, some of them are really good, im thinking of implementing a \"featured\" image very soon :)\nSome good ones again\n\nKeywords: ",
+    "tags": [
+      "particle play",
+      "particle playgound",
+      "particle playground app",
+      "particle playground app for iphone",
+      "particle playground app for ipad",
+      "particle playground app for ipod",
+      "particle playground app for iphone 3gs",
+      "particle playground"
+    ]
+  },
+  {
+    "title": "Particles in RenderMonkey",
+    "prompt": "Blog Post: Well in my final year at university we have been working on shaders. I decided to concentrate on particles as it ties in nicely with my final project (more on that to come).\n\nThis is my first little dabble with the excellent shader creation tool, RenderMonkey. To view this you will need to download the free app.\nThis was acually a peice of work for one of my modules so the .zip file contains the written report too.\n**Download: **Particles01.zip\n\nKeywords: ",
+    "tags": [
+      "School",
+      "Course",
+      "Tutorial",
+      "School",
+      "Course",
+      "Tutorial",
+      "University",
+      "School",
+      "Course",
+      "Tutorial",
+      "School",
+      "Course",
+      "Tutorial",
+      "University",
+      "School",
+      "Course",
+      "Tutorial",
+      "School",
+      "Course",
+      "Tutorial",
+      "University",
+      "School",
+      "Course,"
+    ]
+  },
+  {
+    "title": "Particles Video",
+    "prompt": "Blog Post: This is the video of the XNAGPUParticles project i have uploaded for those peeps who doent have the requirements to run it but want to check it out anyways.\n\nKeywords: ",
+    "tags": [
+      "XNA4",
+      "XNA3",
+      "XNA2",
+      "XNA1",
+      "XNA",
+      "C#",
+      "C++",
+      "C",
+      "C++",
+      "C#",
+      "C++",
+      "C#",
+      "C++",
+      "C"
+    ]
+  },
+  {
+    "title": "Paul Oakenfold's Urban Soundtracks",
+    "prompt": "Blog Post: As I enjoy both trance music and audio books, so what could be better than mixing both together?\n\nThis is an interesting project by one of the master of electronica Paul Okenfold. Some of them work better than others, give them a listen and let me know what you think :)\n**Paul Oakenfold's Urban Soundtracks - **Selected passages from narrated stories such as; Alice in Wonderland, Frankenstein, The Fall of the House of Usher. Narration is mixed with music, mostly trance/electronica, to enhance the story. Heard on Galaxy FM\nPowder\nhttps://rapidshare.com/files/226340469/PaulOakenfoldUS1999-06-26Powder.mp3\nChristmas Carol\nhttps://rapidshare.com/files/226355633/PaulOakenfoldUS1999-12-25AChristmasCarol.mp3\nAlice in Wonderland\nhttps://rapidshare.com/files/226354782/PaulOakenfoldUS2000-03-25AliceinWonderland.mp3\nTreasure Island\nhttps://rapidshare.com/files/226398286/PaulOakenfoldUS2000-05-27Treasure_Island.mp3\nFrankenstein\nhttps://rapidshare.com/files/226397842/PaulOakenfoldUS2000-06-24Frankenstein.mp3\nPinocchio\nhttps://rapidshare.com/files/226446077/PaulOakenfoldUS2000-08-26Pinocchio.mp3\nThe Jungle Book\nhttps://rapidshare.com/files/22644507…ungle_Book.mp3\nOriginal post on TranceFix.nl by JohnFranks: https://www.trancefix.nl/showthread.php?t=215342\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Photo Update",
+    "prompt": "Blog Post: Updated my photos on picassa again. Mainly photos from bens birthday and some from other nights out and some of just random things :D\n\nSome highlights include\n\nKeywords: ",
+    "tags": [
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography",
+      "photography"
+    ]
+  },
+  {
+    "title": "Photos - LAN07",
+    "prompt": "Blog Post: Just got back from this years LAN party with the lads in Stourbridge. Awsome party tho strangely not much gameing went on :P\n\nAnyways, I have uploaded the photos to my picassa account here.\nSome highlights include\n\nKeywords: ",
+    "tags": [
+      "LAN Party UK 2013 Stourbridge",
+      "LAN Party UK 2013 Stourbridge England",
+      "LAN Party UK 2013 Stourbridge England Photos",
+      "LAN Party UK 2013 Stourbridge England Pictures",
+      "LAN Party"
+    ]
+  },
+  {
+    "title": "Photos on Picasa, yey!",
+    "prompt": "Blog Post: Well as the photos plugin for wordpress is pretty crap i have decided to upload all my photos to picassa :D\n\nYou can find them all here: https://picasaweb.google.com/mike.cann\nThere are also some new ones from toni's 21st..\n\nKeywords: ",
+    "tags": [
+      "apple",
+      "app",
+      "apps",
+      "app store",
+      "app store review",
+      "app review",
+      "app reviews",
+      "app reviews iphone",
+      "app reviews ipod touch",
+      "app reviews ipad",
+      "app reviews iphone app",
+      "app"
+    ]
+  },
+  {
+    "title": "Picking and Bounding Boxes",
+    "prompt": "Blog Post: Got the next essential small step of the project in today, picking, that is selecting an object that exists within a 3D world from a mouse click in the 2D world. Found some really good resources for this including the Hazy Mind site again and a new one I discovered by accident by Charles Humphrey. I had a little trouble at first with working out how to calculate a bounding box, but yet again the XNA community came to my rescue. Thanks to Andy and his blog I now have a custom content pipeline that generates a bounding box for my mesh automatically.\n\nNow that you can select a unit on the map the next step will be to add the ability to add properties and gulp custom scripts!\n\nKeywords: ",
+    "tags": [
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3dengine",
+      "3d"
+    ]
+  },
+  {
+    "title": "PlaceEd 3",
+    "prompt": "Blog Post: Recently I have been working on some small tools for the lads at work to aid them in designing mobile phone games.\nOne project I have been working on for a while (in my spare time at work and in the evenings at home) is a new version of PlaceEd. PlaceEd is a small app used by people at work who need to design levels with objects and paths in them.\n\nThe reason for making this new version was because the original was starting to show its age and after several modifications to customise it to certain projects it has become unreliable. A second version (PlaceEd2) was half coded by one of the other employees at rockpool though they ran out of time and didn’t complete it.\nSo that’s where I come in, and I wrote from scratch a new app and called it PlaceEd 3 (even though there wasn’t really a fully released version of PlaceEd 2).\n\n\nPlaceEd3 lets the user create a new project. This project can have levels added to it. Each level can have a certain number of layers. Layers can be either one large image or a tileset and tileset data. The user can then create objects and give them variables that can either be static (global to all objects of that type) or they can be local which means each object has its own value for that variable. Objects can then be placed on the level and moved and dragged about. Paths can also be placed on the level, this is useful for games that need to script specific movement sequences.\nOnce a level has been designed it can then be exported as a single binary file that is easily compressed and a java source file that gives a demonstration of how to load the binary data file.\nThe whole app is written in C# using WeifenLuo docking panels. For the rendering of the level I have integrated an XNA 2.0 panel for speed it gives.\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "planet",
+    "prompt": "Blog Post: This image was created as a splash screen for a web-based game i was going to create, however i never realy got round to creating the game and ended up with this image instead\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "digital",
+      "green",
+      "high-tech",
+      "image",
+      "lightwave",
+      "lightwave7",
+      "low-poly",
+      "low-polygon",
+      "low-polygonal",
+      "lowpoly",
+      "lowpolygon",
+      "lowpolygonal",
+      "lowpolygonal"
+    ]
+  },
+  {
+    "title": "Play Him Off, Keyboard Cat",
+    "prompt": "Blog Post: Latest meme to do with cats, you know im all over this like a nappy rash:\n\nThere is a site full of em, oh the joy! https://playhimoffkeyboardcat.com/\n\nKeywords: ",
+    "tags": [
+      "play him off",
+      "play him off keyboard cat",
+      "play him off keyboard cat meme",
+      "play him off keyboard cat meme generator",
+      "play him off keyboard cat meme generator online",
+      "play him off keyboard cat meme generator online free",
+      "play him off keyboard"
+    ]
+  },
+  {
+    "title": "Polluted Planet",
+    "prompt": "Blog Post: I stumbled accross this yesterday and thought it was too good not to comment on it.\n\n\nYou know me how i love particles, and this is just particle crazy!\nAnd the amasing thing is it was written in java!\nYou can grab the game here: https://pollutedplanet.googlepages.com/\n\nKeywords: ",
+    "tags": [
+      "effects,"
+    ]
+  },
+  {
+    "title": "Polynate",
+    "prompt": "Blog Post: I made this one last night while i was messing around. Its a duel-screen piece and took me about 2 hours to complete. I think its need a little more work but it looks okay on my desktop at the moment ;)\n**\nUsed:** Photoshop\nDownload: 2864x1024\n\nKeywords: ",
+    "tags": [
+      "ipad3",
+      "ipad4",
+      "ipad retina",
+      "ipad air",
+      "ipad mini",
+      "ipad mini retina",
+      "ipad mini air",
+      "iphone",
+      "ipod",
+      "ipad",
+      "ipad2"
+    ]
+  },
+  {
+    "title": "Portal 2D - Alpha",
+    "prompt": "Blog Post: Okay this is a very very alpha release of a game that was created for a team project at the final year of university.\nThe game is a 2D version of Valves up and coming game Portal. You are a scientist in a lab experimentig with the new handhelf portal device that allows you to create portals anywhere that allow you to pass through to the other side. The goal of the game is to solve puzzles and get to the exit in the fastest time possible.\n\nAs i said the game is very very alpha and as such has many holes. The reason i am releasing this now as i dont think im going to have time to work on it in the near future so best get this out now.\nI personally worked on the engine of the game, the menus were done by another team member. The engine features full bloom lighting effect to make all those shineys abit more umm shiney :D\nAnyways, to play this game you will need the XNA runtimes, use THIS to get them installed.\nOnce that is done you can go ahead and dowload the game HERE.\nEnjoy!\n\nKeywords: ",
+    "tags": [
+      "indie",
+      "video game",
+      "indie video game",
+      "video game",
+      "indie game",
+      "indie games",
+      "video games",
+      "indie games",
+      "xbox 360",
+      "xbox",
+      "indie",
+      "game",
+      "games",
+      "xbox",
+      "indie",
+      "game",
+      "games,"
+    ]
+  },
+  {
+    "title": "Post To Tumblr",
+    "prompt": "Blog Post: Post To Tumblr is an extension for the Chrome Browser. It started off as a simple one-evening project to solve an annoyance with Tumblr, before long however it had thousands of users. At the time of writing it currently has 32,000+ users.\n\nYou can download the extension here: https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en\nOver the years it has gone through many different versions and rewrites, checkout the following posts for more info:\n[catlist id=26 numberposts=500]\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Post To Tumblr v.4",
+    "prompt": "Blog Post: While I was travelling I have had a great many people contact me about my popular chrome extension Post To Tumblr. Some wanted me to fix things some wanted me to add things others wanted to buy the extension outright.\n\nWell I didn't have time to do any of those things while I was away so put it off until I returned home. Well I have been back now for a few weeks and have decided to spend quite a bit of time upgrading the extension.\nUnfortunately my time isnt free now that I am working freelance and so I need to justify the time spent working on the extension. So I need a way to monetize the app. There are quite a few ways to do it and I couldn't decide which to go for so I surveyed my users.\n\nThe results were interesting:\n\nIf you take the results on face value it looks as if people didnt mind ad injection but I suspect that they misunderstood the meaning of what ad injection was and thought I just meant adverts. I decided that ad injection was a little too evil for me and decided to go with making the donation more prominent.\nTo do this I rewrote the entire app using Typescript with KnockoutJS and then make the donations front and center. When a user opens the window they are presented with a popup that informs them about all the new features and improvements and gives them an opportunity to donate:\n\nFrom there they are taken to the donate tab of the options that lets them quickly and easily donate.\n\nI decided to set the minimum donation amount to \\$3 which is about the price of a cup of tea in Starbucks.\nAs an incentive I have locked certain features such as the advanced 1-click process and a suggestion submission feature:\n\nI also have promised new features coming soon which donors will have access to:\n\nOn the whole people have responded well to the changes however there have unfortunately been some negative reviews from people on the chrome web store.\nThe negative r\n\nKeywords: ",
+    "tags": [
+      "donate to me",
+      "donate to me button",
+      "tumblr donation",
+      "tumblr button",
+      "donate button for tumblr",
+      "donate to me button for tumblr",
+      "donate to me button for tumblr",
+      "donate to me button"
+    ]
+  },
+  {
+    "title": "Post To Tumblr v4.19",
+    "prompt": "Blog Post: Just a quick post today. I dont post every time I release a new version of my popular chrome extension Post To Tumblr (if I did there would be nothing but PTT posts on this blog), but I decided to make a video for this release as its been a while since I have made one.\n\nIn this release I added a much requested tags caching system and tag hints.\nEnjoy!\n\nKeywords: ",
+    "tags": [
+      "tumblr plugin for chrome",
+      "tumblr plugin for firefox",
+      "tumblr plugin for ie",
+      "tumblr plugin for opera",
+      "tumblr plugin for safari",
+      "tumblr plugin for windows",
+      "tumblr post"
+    ]
+  },
+  {
+    "title": "Printomi Maps",
+    "prompt": "Blog Post: Well since we have made the decision to discontinue Printomi I have been backing up the databases and downloading the 90GB+ of images that users have uploaded.\nWell it wouldn't be like me if I didn't start thinking about what cool things I do with all those pixels. I remember seeing those cool Mincraft maps that use the Google Maps API to explore the Minecraft servers and it got me thinking if it could be possible to do something like that but for the Printomi images.\n\nWell it turns out yes, you can: https://storage.googleapis.com/printomimaps/index.html\nIts only 1,024 of the total 27,497 images that were uploaded but even this small ratio results in a total map size of 115,200 x 86,400 pixels. The Google Maps obviously cant handle an image that large and it would take forever to download so you must split it up into many tiles. To achieve the zooming and performance you must also provide the map at various sizes.\nWith a map of 32x32 image with each image at 3600x2700 pixels and each tile at 450x337 this results in 87,000 tiles at 8 zoom levels! Generating and uploading all that data takes several days. But the result is you can pan and zoom around what seems like one huge 115k x 84k image.\nIf you are interested I have uploaded the source code I wrote to generate the 349k tiles at the various zoom levels from the 1024 3600x2700 input images. You can find it over on Github: https://github.com/mikecann/PrintomiMaps\nIf I had enough disk space on my web server I would love to do the whole 37,000 images in this way. If I did 128x128 that would use 16,384 of the images. This would result in 10 zoom levels and a map 460,800 x 345,600 pixels large. I have no idea or how long it would take to generate and upload all those tiles :P\n\nKeywords: ",
+    "tags": [
+      "printomi image map generator source code",
+      "printomi image map generator source code download",
+      "printomi image map generator source code github"
+    ]
+  },
+  {
+    "title": "Project Technology (Deformable Terrains)",
+    "prompt": "Blog Post: Well i got asked a question in a comment on how the terrains work in the LieroXNA project so I thought i would do a quick post on this rather than reply in the comments.\nThe way the terrains work has changed a few times over the course of development of the project for various reasons mostly related to the incompatabilities of the 360 and my previous methods. I wont go into those previous methods here but if anyone reading this has any questions dont hesitate to ask in a comment or email me. I would also like to say this may not be the most efficient method as I was only getting the terrains up as a proof of concept first then was planning on refining later.\n\nBefore i can explain how the terrain is deformed i must first talk about how the terrain is composed. There are currently three layers to the level, an indestuctable layer, a destructable layer and a background layer.\n\nDestructable Layer\n\nIndestructable Layer\nThere is also a \"destroyed mask\" that is used to create areas at the start that have already been destroyed. This is mainly used so that you dont have to burrow for ages at the start to get to your opposition. Combined together you end up with the final result below.\n\nDestroyed Mask\n\nFinal Result\nEach texture layer at the moment is 2048x2048 (which is the maximum texture resolution the 360 supports) and is in the format Color (8bpp). The indestructable and the destructable layer are then sent to the GPU for use in rendering and particle collisions by the GPU particle system.\nObjects such as players and weapons that are updated by the CPU however cannot perform collision checks on a texture that is on the GPU (without calling getData() which causes read-back which is horribly slow). So the destructable and the instructable layers are duplicated in the initial load of the level and saved as a large two dimensional array of Colors on the CPU.\nYou may ask why wa\n\nKeywords: ",
+    "tags": [
+      "lieroxna tutorial ",
+      "lieroxna tutorial ",
+      "lieroxna tutorial ",
+      "lieroxna tutorial ",
+      "lieroxna tutorial ",
+      "lierox"
+    ]
+  },
+  {
+    "title": "Project Update",
+    "prompt": "Blog Post: Well its been a while since i have posted an update regarding the LieroXNA project. I havent been slacking.\n\nI have been spending the majority of my time getting it to run on the 360. I ran into many problems, the majority of which were due to the different ways render targets work on the 360 and the fact that you cant use 128bit floating point textures (Vector4 textures).\nIll be going into more depth on the problems i faced on the 360 in a different post. But what i can say is that it works almost perfectly on the 360 now and im very happy with it.\nFor now you can see a new video of the engine with some fancy bloom effects added :)\n\nKeywords: ",
+    "tags": [
+      "lieroxna download windows",
+      "lieroxna download mac",
+      "lieroxna download linux",
+      "lieroxna download android",
+      "lieroxna"
+    ]
+  },
+  {
+    "title": "puzzlesphere",
+    "prompt": "Blog Post: I saw a logo simmilar to this when i went skiing a few months back. I decided to see if i could recreate it in lightwave\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "winter",
+      "skiing",
+      "snowboarding",
+      "snow",
+      "winter",
+      "skiing",
+      "snowboarding",
+      "snow",
+      "winter",
+      "skiing",
+      "snowboarding",
+      "snow",
+      "winter",
+      "skiing",
+      "snowboarding",
+      "snow",
+      "winter",
+      "skiing",
+      "snowboarding",
+      "snow",
+      "winter,"
+    ]
+  },
+  {
+    "title": "Quake Live",
+    "prompt": "Blog Post: Last few lunchtimes a few of us at GameJacket have been playing the new online browser-based quake system known as Quake Live. If you fancy it then add \"cannyshammy\" as a friend and lets start fragging ;)\n\nKeywords: ",
+    "tags": [
+      "browser",
+      "browser-based",
+      "multiplayer",
+      "free",
+      "free to play",
+      "free online",
+      "free browser-based",
+      "free to play browser-based",
+      "free online browser-based",
+      "browser-based",
+      "quake live",
+      "quake live browser"
+    ]
+  },
+  {
+    "title": "Redundency is Great",
+    "prompt": "Blog Post: Well thats it for my time at Rockpool Games.\nSince friday the 28th of March Eidos (owners of Rockpool Games) are making thier mobile department redundant.\n\nIts not all doom and gloom however as we all have 90 days remaining fully paid and redundency payments ontop of that, so as today is the first day since the news broke on friday we have been doing very little. I have even had time to build myself a little fort and declare myself the ruler of of this part of the office.\n\nKeywords: ",
+    "tags": [
+      "ipad4",
+      "ipad mini",
+      "ipad air",
+      "ipad pro",
+      "ipad mini 2",
+      "ipad mini 3",
+      "ipad mini 4",
+      "ipad air 2",
+      "ipad air 3",
+      "ipad"
+    ]
+  },
+  {
+    "title": "Ronnie o'Sulivans Snooker",
+    "prompt": "Blog Post: Ronnie O'Sulivans Snooker is a game that i worked on at rockpool games. It was infact one of my very first games at Rockpool and subsequently one of my very first Java games. I started off only doing the menu system for the game, but in the end i worked on virtually every part of the game including the 3D graphics engine which was written from scratch with no built in 3D API's to assist with rendering.\n\nThe game was a great learning experience and didnt do too badly in the rating achieving about a 7/10.\n\nKeywords: ",
+    "tags": [
+      "rockpool games",
+      "ronnie o'sullivan",
+      "snooker",
+      "pool",
+      "pool game",
+      "pool game",
+      "pool game",
+      "pool game",
+      "pool game",
+      "pool game",
+      "pool game",
+      "pool game",
+      "pool game,"
+    ]
+  },
+  {
+    "title": "Rubicon",
+    "prompt": "Blog Post: This one took some time to create, i had a basic idea in my head of how i wanted it to look but it took some jigging to get Bryce to to what i wanted. The bubble i didnt envisage but i think it looks kinda cool so i kept it in!\n\nUsed: Bryce 5, Photoshop 7\nDownload: 3072x1152\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Rubicon-Purple",
+    "prompt": "Blog Post: This image was created for my ex, its basically a purple version of the blue rubicon above, because she likes purple\n\nUsed: Bryce 5, Photoshop 7\nDownload: 3072x1152\n\nKeywords: ",
+    "tags": [
+      "ex-gf",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex-girlfriends",
+      "ex"
+    ]
+  },
+  {
+    "title": "ShadowShader in RenderMonkey",
+    "prompt": "Blog Post: This is my second dabble in HLSL and this time it was just for personal reasons. I wanted to create a shadow effect for a 2D game that we are developing for our group project. Its actually very hard to find any resources on the internet about this but i did stumble accross one resource (which i have now lost the link to) where someone has created a basic shadow effect purely in shaders.\n\nSo i decided to have a go and this was the outcome. In the end however its too slow to be used in the game but serves as a usfull learning tool when the hardware catches up.\nTo view this you will need to download RenderMonkey.\nDownload: ShadowShader.zip\n\nKeywords: ",
+    "tags": [
+      "Game",
+      "Tutorial"
+    ]
+  },
+  {
+    "title": "Site-Redesign",
+    "prompt": "Blog Post: Well, i have had another one of my site-moves around, hope you like it :D\n\nKeywords: ",
+    "tags": [
+      "ipod shuffle",
+      "ipod classic",
+      "ipod touch 4",
+      "ipod touch 5",
+      "ipod nano 6",
+      "ipod nano 7",
+      "ipod nano 8",
+      "ipod nano 9",
+      "ipod nano 10,"
+    ]
+  },
+  {
+    "title": "skyworld",
+    "prompt": "Blog Post: This image is still alot of peoples favourite. I personally think its \"okay\" very simple and easy to make\nUsed: Bryce 5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "planets",
+      "nebula",
+      "starscape",
+      "space",
+      "planet",
+      "planets",
+      "star",
+      "planet",
+      "space",
+      "galaxy",
+      "universe",
+      "nebula",
+      "starscape",
+      "stars",
+      "space",
+      "planet",
+      "planet",
+      "nebula",
+      "starscape",
+      "space",
+      "universe,"
+    ]
+  },
+  {
+    "title": "SnakeZ - 2003",
+    "prompt": "Blog Post: ![](https://www.mikecann.co.uk/Images/Games-Thumbs/snakez.gif)\n\n\n    \n        \n            **          **SnakeZ          was created as a project for one of my modules. We were asked to re-create          an old game using the newly learnt DarkBASIC programming language. I decided          to re-create the classic \"Snake\" game.NOTE : I          seem to have misplaced the latest version of this game, and hence it is          missing several features and sounds. If i find it i will put it up **\n\nUsed:** DarkBASIC, PhotoShop 7 **\nDownload:\\*\\* [SnakeZ-v1.zip](https://www.mikecann.co.uk/Files/SnakeZ-v1.zip) (16.9Mb)\n\nKeywords: ",
+    "tags": [
+      "android",
+      "game",
+      "snake",
+      "classic",
+      "retro",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake",
+      "remake"
+    ]
+  },
+  {
+    "title": "Some more pics up",
+    "prompt": "Blog Post: Just got back from Phil's 23rd party and Jen's 21st. As usual I have uploaded the pics to my picassa account.\n\nSome highlights include\n\nKeywords: ",
+    "tags": [
+      "iphone photos",
+      "iphone pictures",
+      "iphone pics",
+      "iphone photos",
+      "iphone pictures",
+      "iphone pics",
+      "iphone photos",
+      "iph"
+    ]
+  },
+  {
+    "title": "Some picassa updates",
+    "prompt": "Blog Post: Just added a few albums to picassa. Highlights include\n\nKeywords: ",
+    "tags": [
+      "ipod shuffle",
+      "itouch",
+      "itunes",
+      "itunes store",
+      "itunes music store",
+      "itunes music",
+      "itunes podcast",
+      "itunes podcasting",
+      "itunes podcasting software",
+      "itunes podcasting software"
+    ]
+  },
+  {
+    "title": "spacevirus",
+    "prompt": "Blog Post: This is one of my very early images and is still one of my favourite ones. It has been my background countless times\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "cyan",
+      "digital",
+      "fractal",
+      "fractals",
+      "green",
+      "image",
+      "lightwave",
+      "nature",
+      "orange",
+      "red",
+      "space",
+      "texture",
+      "wallpaper",
+      "yellow"
+    ]
+  },
+  {
+    "title": "Spam, the mark of the devil..",
+    "prompt": "Blog Post: 666 spam in my inbox, what happens now? do i win a pize?\n\nKeywords: ",
+    "tags": [
+      "itunes store",
+      "itunes gift card",
+      "itunes gift card code",
+      "itunes gift card generator",
+      "itunes gift card codes",
+      "itunes gift card code free",
+      "itunes gift card code generator",
+      "itunes gift card code"
+    ]
+  },
+  {
+    "title": "sphere",
+    "prompt": "Blog Post: After watching the film \"shpere\" i decided to try and create an image simmilar to the sphere in the film.. however mine has some modifications see sphere-two for what i think is a better version\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "sphere-two",
+    "prompt": "Blog Post: This is a heavily modified version of \"sphere\" and in my opinion its superior\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "planet",
+      "planet surface",
+      "planet surface close up",
+      "planet surface detail",
+      "planet surface detail close up",
+      "planet surface detail close up detail",
+      "planet surface detail close up detail detail",
+      "planet surface detail close up detail detail detail",
+      "planet"
+    ]
+  },
+  {
+    "title": "spherering",
+    "prompt": "Blog Post: Its some crazy collection of reflective spheres with rings around them, i dont know what i was going for when i created this\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "lightwave7.5",
+      "lightwave7.5.3",
+      "lightwave7.5.4",
+      "lightwave7.5.5",
+      "lightwave7.5.6",
+      "lightwave7.5.7",
+      "light"
+    ]
+  },
+  {
+    "title": "Spring Cleaning & Updated Bio",
+    "prompt": "Blog Post: I have been meaning to do this for a while, but never gotten round to it. Well more precisely other projects have always been more interesting so I pursued those instead ;) This Christmas however I decided it was about time that I finally did it.\n\nAnyways I have finally given my bio on the About page abit of a spit shine. I originally wrote it based on my CV a long time ago and thought it deserved a little bit of love considering that it gets quite a few hits. Its all written in the third person, im not entirely sure why I decided to do it like that originally, oh well.\nI have also rearranged some of my earlier work so best to give the archive a more accurate timeline.\n\nKeywords: ",
+    "tags": [
+      "graphics",
+      "graphics programming",
+      "graphics programming tutorial",
+      "graphics tutorial",
+      "graphics blog",
+      "graphics blog tutorial",
+      "graphics blog post",
+      "graphics blog post tutorial",
+      "graphics blog post gamedev",
+      "graphics blog post gamedev tutorial",
+      "graphics"
+    ]
+  },
+  {
+    "title": "squaresquare",
+    "prompt": "Blog Post: This image i think i saw on a site somewhere and wanted a go at creating it myself. it looks okay but could be ALOT better.\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "digital",
+      "fractal",
+      "green",
+      "light",
+      "lightwave",
+      "line",
+      "lines",
+      "orange",
+      "red",
+      "shape",
+      "shapes",
+      "space",
+      "sphere",
+      "spheres",
+      "spiral",
+      "spiral galaxy",
+      "stars",
+      "swirl",
+      "swirls",
+      "swirls2",
+      "swirls"
+    ]
+  },
+  {
+    "title": "Stall",
+    "prompt": "Blog Post: Well i bought my new shiny PC two weeks ago a nice quad core Q6000 machine with an nVidia 8800GTX. All was good and nice, progress on liero was flying along. The machine didnt even flinch at 1,000,000 particles, i conservatively estimate its capable of 5,000,000 at 30FPS. But just the other day it broke down, no reason, no warning, the mobo just went put. It turns on, the lights come on but it doesnt do anything, doesnt even get to the bios screen, nothing.\n\nWhats odd about this is the fact that my backup PC (some crappy little machine i have lying around and have been using as a media PC recently) broke on the same day, with the same problem! It too wont get to the bios screen even tho it turns on and the fans work. \nAnyways, the long of the short is, i sent my new PC back on Tuesday, hopefully, if they are quick it will be back tomorrow and I can resume work on LieroXNA. It annoying as i was really starting to make progress with getting it working on the 360! Stay tuned for a video of this once i get my PC back up and running.\nIn the meantime here is a link to a litte something my work mate pete is working on: https://www.virtualmind.co.uk/?page_id=84\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Started Work at TheBroth in Perth!",
+    "prompt": "Blog Post: Just a quick update. After a year of living down in Bunbury Western Australia and working Freelance and on my own projects (see this blog for more) I have decided to re-enter the workforce. Mainly because I was going a little stir crazy being by myself most of the day every day.\n\n\nI have taken a job 2 hours north in Perth at a company called TheBroth. We mainly work on a mobile and web game called SlotsGalaxy. Its similar sort of work to which I was doing at Playdemic so hopefully my old skills arent too rusty :)\nIm going to continue to work on my projects such as Mr Nibbles Forever and Post To Tumblr and my (still) unreleased strategy game but obviously time is going to be a little more limited.\nI have enjoyed the past year mostly but I think it was time for a change and im looking forward to the next year!\n\nKeywords: ",
+    "tags": [
+      "games",
+      "game design",
+      "game development blog",
+      "game design blog",
+      "games blog",
+      "game development blog",
+      "game design blog",
+      "games blog",
+      "game development blog",
+      "game design blog",
+      "games blog",
+      "game development blog",
+      "game design blog",
+      "games"
+    ]
+  },
+  {
+    "title": "Stupid vista",
+    "prompt": "Blog Post: So true :P\n\nKeywords: ",
+    "tags": [
+      "iphone6s",
+      "iphone6plus",
+      "iphone6splus",
+      "iphone7",
+      "iphone7plus",
+      "iphone8,"
+    ]
+  },
+  {
+    "title": "Sunsetting Printomi",
+    "prompt": "Blog Post: ### **267,270,840,000** pixels\n\n### **93,607,639,042** bytes uploaded\n\n### **34,827** prints viewed\n\n### **31,073** uploads started\n\n### **27,497** uploads finished\n\n### **4,126** uploads claimed\n\n### **3,143** members\n\n### **541** likes\n\n### **308** comments\n\n### **0** posters sold\n\n\n\nAfter just 41 days live we have taken the difficult decision to turn off the Printomi servers. Despite the great stats regarding the number of uploads and views and user engagement, without the poster sales we are unable to keep funding the AWS servers and store the 90GB+ of images that users have uploaded.\nDeveloping Printomi has been a great roller coaster ride of a project. It has been hard work, months of late nights to get things into a shape and despite the fact that less than two months later we decided to shut it all down I still think it was worth it. I am proud of what we accomplished with Printomi and hope that during its short time live others enjoyed what we created.\nI am determined not to get downhearted, instead to grow and learn from the many lessons learnt here. Some things worked and others didnt, but it was all good experience. Printomi's mistakes are all about driving me onto the next, bigger, better thing.\n\nKeywords: ",
+    "tags": [
+      "photo poster",
+      "photo wall",
+      "photo wall art",
+      "photo wall decor",
+      "photo wall art prints",
+      "photo wall decor",
+      "photo wall decor prints",
+      "photo wall art print",
+      "photo wall art print",
+      "photo wall art prints",
+      "photo wall decor"
+    ]
+  },
+  {
+    "title": "SunsFalling",
+    "prompt": "Blog Post: This image was created while i was realy bored waiting to go out, but despite that i think it has turned out realy nice. This is also the first one i have made for duel-screen too!\nUsed: Bryce 5, Photoshop 7\nDownload: 1024x768\nDownload: 2048x768\n\nKeywords: ",
+    "tags": [
+      "apple",
+      "mac",
+      "macintosh",
+      "macbook",
+      "macbook pro",
+      "macbook air",
+      "mac mini",
+      "imac",
+      "apple tv",
+      "apple watch",
+      "apple logo",
+      "iphone",
+      "ipad",
+      "ipod,"
+    ]
+  },
+  {
+    "title": "Supreme Commander Wallpaper",
+    "prompt": "Blog Post: Well i have just finished making a massive (4608x2048) duel-screen wallpaper for a thread on the supreme commander forums.\n(click for full screen)\n\nKeywords: ",
+    "tags": [
+      "for alliance",
+      "for allianc",
+      "for allianc",
+      "for alliance",
+      "for allianc",
+      "for allianc",
+      "for allianc",
+      "for allianc",
+      "for"
+    ]
+  },
+  {
+    "title": "sword",
+    "prompt": "Blog Post: This is one of my very first images and hence you can tell by the cartoony feel too it. Only reason its up here becuse i like the effect with the three lines on the right hand side\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "Digital Artwork",
+      "Digital Painting",
+      "Digital Painting",
+      "Digital Paintings",
+      "Digital Work",
+      "Digital-Painting",
+      "Fantasy",
+      "Fantasy Art",
+      "Fantasy Artwork",
+      "Fantasy Artwork",
+      "Fantasy Digital Artwork",
+      "Fantasy Digital Painting",
+      "Fantasy Digital Paint"
+    ]
+  },
+  {
+    "title": "T-Mobile Ad",
+    "prompt": "Blog Post: The EXCELLENT new T-Mobile ad, thought I would share ;)\n\nKeywords: ",
+    "tags": [
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile",
+      "t-mobile"
+    ]
+  },
+  {
+    "title": "TD Terrains",
+    "prompt": "Blog Post: Well i havent updated in a while one the TD project, not because I wasnt working on anything but mainly because i have been struggling with the nuts and bolts of 3D RTS game development.\n\nNormal game development is fine when you only expect ever to have your game to simply run. When you want to make it run as a game but also act as a tool at the same time you have problems. The way the TD project is structured we have a game \"Engine\" project that contains all the code to display our objects on the screen, then we have a \"Tool\" project that contains all the code for making maps, it creates an instance of the Engine so that it can render those objects. We also have a \"Game\" project that will be the actual game and will contain all the other game type logic like menu systems etc.\nGetting all these to work nice and happily and in an efficient way is proving to be umm difficult. The problem is confounded by the fact that the tool requires multiple rendering windows to display things at once, causing me to redesign alot of the way the game works. When you only have one window open you can set classes to be static all over the place, but if you need those classes to interact in a non static way then you have to use managers to sort out how they should interact, introducing more complexity nightmares!\nBut anyways, enough of that. Time for pretty pictures:\n\nAs you can see Mr Graham 'Golden' Furner has been making good progress on his terrain generation algorithm for the project. Hopefully I will beable to get enough of the structure in place so we can begin to merge the two parts of the project together!\n\nKeywords: ",
+    "tags": [
+      " Unity",
+      " XNA",
+      " Graphics",
+      " Graphics3D",
+      " GraphicsDevice",
+      " GraphicsDeviceManager",
+      " GraphicsDeviceManager."
+    ]
+  },
+  {
+    "title": "TDProject BlueprintStore and BlueprintEditor",
+    "prompt": "Blog Post: Today I added the BlueprintStore and the BlueprintEditor.\n\nFirstly the BlueprintStore has two halfs to it. On the left hand side you have a list of \"library blueprints\" these are loaded from an XML document. Library blueprints can then be dragged over to the second half which is where all the blueprints that are used in the map are stored.\nIf you select a blueprint you can then click a button to open the BlueprintEditor. The editor is a separate window with a rotating view of the current model for the blueprint and on the right is a property grid that lets the user edit any number of properties a blueprint has.\nSo you can see that when a user creates a map they are going to require blueprints. Blueprints can be anything from creeps, towers, trees, houses, anything. Blueprints are the actual objects that that you place in the world and interact with.\nTomorrow will be more work on the blueprint editor me thinks :D\nMike\n\nKeywords: ",
+    "tags": [
+      "Unreal Engine 4",
+      "UE4",
+      "C++",
+      "Blueprint",
+      "Blueprint Editor",
+      "Blueprint Store",
+      "XML",
+      "C++",
+      "Unreal Engine 4",
+      "UE4",
+      "C++"
+    ]
+  },
+  {
+    "title": "Terrainicles [WebGL & HaXe]",
+    "prompt": "Blog Post: I have been playing with this thing, tweaking it, making changes for weeks. Theres so many different things I want to add. Different options, scenarios, optimisations etc. I decided however just to follow the 'release early and often' mantra and get this thing out now.\n\nBefore I go any further check out what im talking about here:\n/projects/WebGLTerrainicles/\n(You will need a WebGL compatible browser, that means no IE) \nIts a continuation of my earlier work on GPU particles using WebGL and HaXE. Im trying to emulate some work I did years ago in XNA, on the LieroXNA project.\nIt uses the same techniques for updating and rendering particles entirely on the GPU as my previous post. What that means is that is possible have millions of particles interacting updating and rendering simultaneously as all the operations are performed on the GPU.\nWhat I have added this time is another texture for the particles to collide with as they move. I was originally working with the same dirt and grass texture as my XNA project but I thought as it was Halloween I would get into the spirit a little ;)\nThere are several options on the right hand side that can be used to tweak the properties of the simulation. I spent alot of time playing around with these, there are some really cool effects you can achieve with just simple modifications.\nThere are so many things I could add to improve this. You can see some of them in a video I made years ago:\n\nThere we have some cool stuff like Bloom, forces and multiple rendering layers going on. It would be nice to get those in this sample too.\nFor now however I think im going to have a break from this sample. I have spent quite a few weeks to get to this point so far, and I think I need a break for a little bit so I can work on other things. I may come back to it soon tho If people are interested or if (probably more likely) I think of some 'cool new th\n\nKeywords: ",
+    "tags": [
+      "WebGLTerrainicles",
+      "WebGLTerrainicles",
+      "WebGLTerrainicles",
+      "WebGLTerrainicles",
+      "WebGLTerrainicles",
+      "WebGLTerrainicles",
+      "WebGLTerrain"
+    ]
+  },
+  {
+    "title": "The Trip 2013 - Cartagena to Taganga",
+    "prompt": "Blog Post: Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album The Trip 2013 - Cartagena to Taganga. Each picture can be clicked to see a larger version and comment / like.\n\nAfter 10 days up in the chilly hills I was looking forward to getting down to the coast and enjoying some of the sun and beach again. First up was the ancient colonial town of Cartagena. This place is a dichotomy of poverty and wealth thanks to the large number of western tourists that visit the city.\n\n\n\nThe first couple of days I stayed in a party hostel and so spent most of my time drinking and not sleeping. I did take a break at one point though to visit the famous 'Mud Volcano'.\n\nInside of it is a big hole that at the bottom is filled with mud. You ease your self down a mud slicked ladder until you reach the grey goop.\n\nThere were already a load of people wallowing around when I got in. It was almost impossible to move in there so you had to grab onto whatever body part is available to move yourself about.\nApparently the mud goes down for 2km into the earth. The mud was so buoyant that I couldn't actually go down to see how far it went. I did stick my head under though which in hindsight was a poor idea as my hands were covered in mud too so I couldn't remove the insidious stuff from my eyes and mouth.\n\nAfter the parties I decided I needed to rest for a little while so I shut myself away in a hotel. I spent the days chilling out and exploring more of the city. On the sunday I walked along the wall to watch the sunset and watch hundreds of people flying kites.\n\n\nAfter my days of solitude I was ready to enter the fray again. This time I had chosen a different hostel called the Calamari which turned out to have the nicest dorm room I had ever stayed in.\n\n\nIn the evening I went out to meet Anna my German friend from the San Blas \n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Tilt-Shift Video",
+    "prompt": "Blog Post: This is the first time I have heard of the photography technique known as \"Tilt-Shift\". I dont know why but it appeals to me on some fundamental level :P\n\nBathtub IV from Keith Loutit on Vimeo.\n\nKeywords: ",
+    "tags": [
+      "tilt shift effect iphone",
+      "tilt shift effect iphone app",
+      "tilt shift effect iphone app review",
+      "tilt shift effect iphone review",
+      "tilt shift effect iphone app review,"
+    ]
+  },
+  {
+    "title": "TowerDefence - A Slow Beginning",
+    "prompt": "Blog Post: Just a quick update on the project, not much to show as of yet. Been working on getting a basic terrain in place with 3D picking so you can place towers on the map.\n\nI realised once I had done this however I was jumping the gun abit, so the next bit im going to be working on is the BlueprintStore. The BlueprintStore lets you create tower blueprints that the player can then use in the game. There will also be a library of pre-built towers that you can just drag and drop and use.\n\nKeywords: ",
+    "tags": [
+      "game",
+      "tower defense",
+      "defense",
+      "strategy",
+      "free",
+      "open source",
+      "open source game",
+      "open source project",
+      "open source development",
+      "open source game development",
+      "open source programming",
+      "open source project development",
+      "open source game programming",
+      "open source"
+    ]
+  },
+  {
+    "title": "Trance and Bass",
+    "prompt": "Blog Post: Artist: John B\n** Genre:** trance and bass\n\n\nThis is one of my favourite albums of all time and infact came free on the cover of mixmag a very long time ago. Despite that i think think this album never got the praise it desereved and hence the niche genre never flourished as it should of!\n\n[**Download **](https://www.mikecann.co.uk/MP3s/John%20B%20-%20Trance%20n%20Bass.zip)\n\nKeywords: ",
+    "tags": [
+      "mix",
+      "mixmag",
+      "mixmag cover cd",
+      "cover cd",
+      "cover cd mixmag",
+      "cover cd mixmag free",
+      "cover cd mixmag free download",
+      "cover cd mixmag free mp3",
+      "cover cd mixmag free music,"
+    ]
+  },
+  {
+    "title": "Trip to America",
+    "prompt": "Blog Post: This will be my last post for a while as im going on a 24day holiday to America on Tuesday. Im going with my old school mate Ben and we will be hitting the west coast on a large 21 day camping trip with the group Trek America.\n\nIt should be awesome, going to visit all the main national parks on the Midwest of the US and alot of the main cities too :D\nAnyways, I may be checking my email when we arrive in the cities, I may not, so dont expect any instant reply from emails while im away.\n\nKeywords: ",
+    "tags": [
+      "iphone 6",
+      "iphone 6s",
+      "iphone 7",
+      "iphone 7s",
+      "iphone 8",
+      "iphone 8s",
+      "iph"
+    ]
+  },
+  {
+    "title": "#tweetcoding icyslicy",
+    "prompt": "Blog Post: This is another entry for tweetcoding comp, this time i have been ultra-cheeky ;)\n\n!i++?flash.net.navigateToURL(new URLRequest(\"https://is.gd/keKE\"), \"_level0\"):0\n\nKeywords: ",
+    "tags": [
+      "safari",
+      "navigate",
+      "url",
+      "request",
+      "level0",
+      "level1",
+      "level2",
+      "level3",
+      "level4",
+      "level5",
+      "level6",
+      "level7",
+      "level8",
+      "level9",
+      "level10",
+      "level11",
+      "level12,"
+    ]
+  },
+  {
+    "title": "#tweetcoding Line Dance",
+    "prompt": "Blog Post: One for the coders out there. GrantSkinner (flash guru) has started a little twitter AS3 contest: https://gskinner.com/playpen/tweetcoding.html its actually pretty fun, wrote my first little one at lunch today:\n\n!i++?o.x=o.y=o.w=o.v=0:x-=4;a=mouseX;b=mouseY;o.v+=(a-o.x)/9;o.w+=(b-o.y)/9;o.x+=o.v*=0.9;o.y+=o.w*=0.9;ls(2,i<<i);mt(a,b);lt(o.x,o.y);\n\n137 chars, tho its defiantly possible to cut that one down abit more.\n\nHere is it running (move your mouse over the swf):\n\n\nAs i say, this one is for the coders out there ;)\n\nLink to skinner on twitter: [https://twitter.com/gskinner/](https://twitter.com/gskinner/)\n\nKeywords: ",
+    "tags": [
+      "AS3",
+      "tweecode",
+      "tweecoder",
+      "tweecoder.com",
+      "tweecoder.net",
+      "tweecoder.org",
+      "tweecoder.net.au",
+      "tweecoder.org.au",
+      "tweec"
+    ]
+  },
+  {
+    "title": "Twitter and Scorpions",
+    "prompt": "Blog Post: Ive finally decided to see what all the fuss is about and jump on the twitter train, im not sure whether it will be complimentary to this blog or exclusive lets wait and see shall we. I have also added a little sidebar widget to this blog showing my latest tweets. You can add me if you so desire: https://twitter.com/mikeysee\n\nAlso in other news I have been been working my way slowly through various foods that I have never had before, tomatos, pasta, rice and now… scorpion!\n\nKeywords: ",
+    "tags": [
+      "blogpost,"
+    ]
+  },
+  {
+    "title": "Undergoing Renovations",
+    "prompt": "Blog Post: I have decided to dump my crappy streamline.net hosting and go for something a little better. \n\nIm going to be making a large overhall to this site and setting up a new site dedicated to Artificial-Games, bear with me ;)\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "Unit Placement",
+    "prompt": "Blog Post: I have to be honest I haven't been working as hard as I could have recently on the TD project. The reason for this is that I have been trying to decide whether to progress with it atall. I believe it is an awesome project and will be successful, however each time I complete something in the project it adds to the complexity never subtracting from the amount of work remaining.\n\nI finally however decided that I would stick it out as my mantra goes \"Your success is only measured by your accomplishments\". If I constantly keep starting new projects then I will never accomplish anything and therefore never be successful.\nI had a long chat with my new friend Ebor Jan Folkertsma about different technical challenges associated with developing a tool and a game engine in tandem. The chat was extremely useful in the fact that it allowed me to take a more objective view of the project and split it down into simple tasks rather than getting swamped by the enormity of the project. It also made me feel like I wasn't sailing into uncharted waters, there were others out there that had run into similar problems and had come up with solutions to solve it. Basically Ebor gave me a big morale boost which encouraged me to stick with this project.\nSo onto the progress. Well as I said not a whole lot of visible progress has been made, I have mostly been re-organising the core of the project again to best suit my needs. I have however been adding more functionality allowing the user to place objects on the level in preparation for setting triggers and the like later down the road.\n\nNext step in the project is picking so that the new objects on the map can be selected and have their properties modified and triggers added and the such :)\n\nKeywords: ",
+    "tags": [
+      "Tool Development",
+      "Level Editor",
+      "Gameplay Programming"
+    ]
+  },
+  {
+    "title": "VerdantGardens",
+    "prompt": "Blog Post: Verdant Gardens is my first image i have done with bryce, pretty aint it? Expect more large open scenery, this is an awsome program!\n\nUsed: Bryce 5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "flowers",
+      "lake",
+      "water",
+      "mountains",
+      "clouds",
+      "sky",
+      "sun",
+      "clouds",
+      "light",
+      "bright",
+      "blue",
+      "green",
+      "yellow",
+      "orange",
+      "red",
+      "purple",
+      "pink",
+      "white",
+      "black",
+      "brown",
+      "purple",
+      "pink",
+      "white",
+      "black,"
+    ]
+  },
+  {
+    "title": "Village Life",
+    "prompt": "Blog Post: Village life is a flash-based social game I worked on while at Playdemic. Its incredibly popular and has been played by millions of people.\n\nI was responsible for the underlying client side technology that was used for developing the game.\n\nPlay it on facebook: https://apps.facebook.com/villagelifegame\n\nKeywords: ",
+    "tags": [
+      "mobile",
+      "game",
+      "facebook",
+      "multiplayer",
+      "flash",
+      "social",
+      "facebook",
+      "multiplayer",
+      "flash",
+      "social",
+      "facebook",
+      "multiplayer",
+      "flash",
+      "social",
+      "facebook",
+      "multiplayer",
+      "flash",
+      "social",
+      "facebook",
+      "multiplayer",
+      "flash",
+      "social",
+      "facebook",
+      "multiplayer,"
+    ]
+  },
+  {
+    "title": "wall",
+    "prompt": "Blog Post: This image was made realy fast but i tihnk it turned out quite nice. Thanks go to my good friend \"cat\" for the quote, cheers kitty!\n\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay",
+      "decay"
+    ]
+  },
+  {
+    "title": "warpfactor",
+    "prompt": "Blog Post: This is one of my more reccent images and is as allways and experiment. I was experimenting with the types of effects you can get with particles in lightwave. After i created that the whole image seemed to pan out into this thing. I think i envisioned a series of rings that may create a \"warp tunnel\" effect.\nUsed: Lightwave 7.5, Photoshop 7\nDownload: 1024x768\n\nKeywords: ",
+    "tags": [
+      "sci-fi",
+      "science fiction",
+      "3d art",
+      "3d modeling",
+      "3d animation",
+      "3d",
+      "3d software",
+      "3d graphic",
+      "3d graphics",
+      "3d rendering",
+      "3d animation",
+      "3d modeling",
+      "3"
+    ]
+  },
+  {
+    "title": "Why I probably won't be making another mobile game ever again",
+    "prompt": "Blog Post: Exactly one month ago I wrote about a new app I had developed for Android called Credit Redeemer. Thanks to Google and my naivete this simple one week project has dealt a crushing blow to my indie game development career.\n\nThe idea for Credit Redeemer was simple; allow users to convert unused Google Play credit into paypal payments.\n\nI thought as there were 3 other competitors on the market that did the same thing; Rebatr, Payback and Cashify then Credit Redeemer would be fine. I was a little worried about the terms of service but I assumed as they had been on there for years already then must be fine.\n3 days after launch I received this email from Google:\n\nNeedless to say I was shocked, worried, upset and annoyed. Not only was Credit Redeemer taken down but my entire Google Play Developer account terminated including Mr Nibbles, Mr Nibbles Forever and Ectoplasm.\n\nI of course immediately appealed stating that I wasn't aware of any previous violations and asking for more information. Surely it must be some sort of mistake? 3 days later I get the following:\n\nWow okay so now I am really worried. It seems like it's a robotic reply, even if \"Bruce\" is a real person he certainly hasn't read what I said in the appeal and hasn't offered any more information or reason for the lack of extra information.\nAt this point I decided to dig back through my inbox looking for previous mentions to Google Play and violation. The only thing I could find was from 2 years ago when I received what I believed to be warnings regarding an OpenSSL vulnerability in the AirSDK.\nI didnt action on the error as it was for Ectoplasm, a hackathon project, plus I was travelling at the time, I assumed that it would just be automatically disabled. This was a big mistake I really should have paid attention to it as this counts as a strike against your developer account.\nI emailed \"Bruce\" back again and rece\n\nKeywords: ",
+    "tags": [
+      "Google Play Developer Console",
+      "Google Play Developer Agreement",
+      "Google Play Developer Program Policies",
+      "Google Play Developer Program Policies Violation",
+      "Google Play Developer Console",
+      "Google Play Developer Console Violation",
+      "Google Play Developer Agreement",
+      "Google Play"
+    ]
+  },
+  {
+    "title": "Windows Taskbar Monitor v0.3",
+    "prompt": "Blog Post: I have just pushed a few small changes to one of my projects, Windows Taskbar Monitor.\nOne of the users of the app noted that they find it rather annoying having the animated progress bars and asked whether it would be possible to add an option to disable it. I agreed that it could get a little distracting so I added the option to disable the bars.\n\nWhile I was there I also added a couple of command line arguments to the app so that you could configure each instance from a shortcut.\nThe options are:\n-bars [true/false]\nThis tells the app to startup with the bars enabled or not, the default is true.\n-type [cpu/mem/net]\nThis tells which of the three monitors the app should start up with, cpu, memory or network.\nOne way to get all three to start with different monitors when windows startup would be to use the statup folder in windows.\n1) Click the windows start icon, then right click on \"all programs\" and click open:\n\n2) Navigate to Programs > Startup then make three shortcuts to Windows Taskbar Monitor v0.3 you can rename the shortcuts if you like:\n\n3) For each shortcut, right click and select properties:\n\n4) Now enter your command line arguments in the Target field after the final .exe:\n\nEt voilà when windows starts you should now have three different monitors opening!\nI have pushed all the source code and the new binary files to my google code project: https://code.google.com/p/win7-taskbar-mon/\nEnjoy!\n\nKeywords: ",
+    "tags": [
+      "Windows 10",
+      "Task Monitor",
+      "Taskbar Monitor",
+      "Taskbar Monitors",
+      "Taskbar Monitor Windows 7",
+      "Taskbar Monitor Windows 8",
+      "Taskbar Monitor Windows 10",
+      "Taskbar Monitor Windows 10 Technical Preview",
+      "Windows Taskbar Monitor"
+    ]
+  },
+  {
+    "title": "Wordpress 2.3",
+    "prompt": "Blog Post: Well I decided it was about that time again to take the plunge and upgrade Wordpress to the latest version as my spam filter had stopped working for some reason.\n\nIt went okay however there were some problems such as the fact that the way i have been embedding videos from other websites such as youtube seems to mess up the formatting of the site. I tried about 100 different things to fix it including deleting my entire website and then reinstalling! Well I still havent got the embedding sorted but atleast the website formatting is back to normal now.\nOh I changed the skin too, to this very sexy one by [MangoOrange™](https://www.mangoorange.com/).\n\nKeywords: ",
+    "tags": [
+      "Skin",
+      "MangoOrange™,"
+    ]
+  },
+  {
+    "title": "Worms 2",
+    "prompt": "Blog Post: Worms two was the third project I undertook during my stay at Rockpool Games and was certainly the one i got most excited about. It was a tough project with extremely tough deadlines.\n\nThere were two coders, one being myself, and an artist on the project. It was coded in J2ME and ported to multiple handsets. I enjoyed parts of the project, such as the random level generation algorithm and the particle system, however the majority of the time was spent wrestling with bugs that only appeared on one or two handsets\nDespite this it was phenominally successfull scoring game of the month as Orange Mobile and getting a perfect 10/10 score from the Total Mobile Magazine\n\nWorms_Total Mobile.pdf\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "XNA 2.0 && Silicon Minds",
+    "prompt": "Blog Post: Well its that time again. XNA 2.0 has been released and with it a new Dream Build Play competition.\n\nAs a warm up to the competition Microsoft have launched a smaller contest named Silicon Minds. The central idea behind this contest is to encourage A.I. in games and as such 60% of the marks will be given to the quality of the AI in the game a further 20% given to how fun the game is and a final 20% given to the polish of the game.\nI have been wracking my brain trying to think of a good project to do for this contest, some of the ideas i came up with were:\n\nBee Swarm Game\nDynamic FPS Difficulty\nParticle Flocking\nLearning Geometry Wars\nPredictive Multiplayer\nAdaptive Level Design\nDNA Designer\nDesign a Positronic Brain\n\nIn the end i decided that due to how short the competition is (ends jan 27th) and my lack of any A.I. experience I would stick with what I have learnt in the past and develop on that. So using the work i have done on LieroXNA so far im planning on writing an A.I. for a deformable 2d landscape.\nSorry i cant say any more at this stage but stay tuned and ill update in the near future.\n\nKeywords: ",
+    "tags": [
+      "indie",
+      "indie games",
+      "indie game",
+      "indie games blog",
+      "indie games blogspot",
+      "indie games development",
+      "indie game development",
+      "indie game development blog",
+      "indie game development blogspot",
+      "indie game development blog",
+      "indie game"
+    ]
+  },
+  {
+    "title": "XNA Archive",
+    "prompt": "Blog Post: I just realised some of my old XNAGPUParticles project videos have gone walkies. So I have reposted them on youtube. These are my old projects from my final year of uni, binary and source code can be found in the relevant post for each video.\n\nhttps://www.mikecann.co.uk/?p=163\nhttpvh://www.youtube.com/watch?v=vxrg1YavBIg\n\nhttps://www.mikecann.co.uk/?p=169\nhttpvh://www.youtube.com/watch?v=3wdIiCCAb9U\nI have another reason for these old re-posts, something a little more flash orientated.. Stay tuned for more info ;)\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "XNAGPUParticles (1,000,000 Dynamic Particles)",
+    "prompt": "Blog Post: This is another submission of work i have done in my final year. This time the project is all my own work.\nThe project is a continuation based on work from before Christmas and is an experiment into state preserving particle systems. I started out with examining the basic particle systems such as a static system and one that updates on the CPU. I then moved onto more advanced systems such as the GPU based system described by Lance Latta and others. I soon discovered however that XNA doesn't support \"uber buffers\" and as such had to invent a new solution using vertex textures. The result is a particle system written in XNA that is able to update and render 1,000,000 particles at about 22 frames a second with 4 forces.\n\nTo view this demo you first need to have the XNA runtimes. If you dont have those just go HERE.\nOnce installed you can grab the binary for this project https://www.mikecann.co.uk/Work/XNAGPUParticles.zip\nIf you are interested in seeing the source code for this project, just drop me an email: mike.cann@gmail.com\nOh also, the written report for this can be found https://www.mikecann.co.uk/Work/GPUParticles2003.doc\n\nKeywords: ",
+    "tags": []
+  },
+  {
+    "title": "XNAGPUParticles 1.1",
+    "prompt": "Blog Post: I got bored of revision for my final exam so i decided to play around with my XNAGPUParticles abit more and came up with this thing.\n\nBasically it takes a texture and picks out pixel colours from the texture and maps it onto a large vertex buffer which then is used as the input to my Vetex Texture particle system.\nI have made a few adjustments to the way the vertex texture system works, now each particle has its own centre of gravity that it revolves about.\nYou can grab the new binary: https://www.mikecann.co.uk/Work/XNAGPUParticles_v1-1.zip\nAs per last time if you wish to see the source please dont hestitate to email me.\n\nKeywords: ",
+    "tags": [
+      "Vertex Buffer",
+      "Particle System",
+      "Vertex Shader",
+      "Fragment Shader",
+      "XBOX360",
+      "C#",
+      "XBOX360",
+      "C#",
+      "XNA",
+      "XNAGPUParticles,"
+    ]
+  },
+  {
+    "title": "XNALiquids 01",
+    "prompt": "Blog Post: Well after seeing what Polluted Planet did with large numbers of interactive particles in java, it got me interested.\nSo i have decided to have a go at implementing it myself in XNA.\n\nSo here it is, my first attempt at it. Currently the algorithm is very rough as you can see from the video there are still some problems that cause the particle to behave a little… umm.. erratic ;)\nHopefully with abit more time and effort ill get it sorted. At the moment there are 5000 interacting particle on one CPU, hopefully i will beable to push that figue up soon and take advantage of my quad-core system :)\n\nKeywords: ",
+    "tags": [
+      "Fluid Dynamics",
+      "Fluid Simulation",
+      "Fluid",
+      "Flowing",
+      "Water",
+      "Flow",
+      "Fluid Dynamics",
+      "Simulation",
+      "Simulation Engine",
+      "Fluid Simulation",
+      "Fluid Simulation Engine",
+      "Fluid Simulation Engine",
+      "XNA,"
+    ]
+  },
+  {
+    "title": "XNALiquids 03",
+    "prompt": "Blog Post: Well i was just thinking in work today that it may be possible to detect the bounds of the the particle \"clusters\" and then line drawing the boundry and then you wouldnt notice the compression that the particles tend to suffer from.\n\nWhen i got home i tested out my theroy and the results can be seen below. Its pretty obvious that its not perfect but as i say it was just me messing.\nOh BTW grant kot has been working on his polluted planet some more, and its starting to look quite impressive now its over in XNA: link1, link2\n\nKeywords: ",
+    "tags": [
+      "XNA",
+      "XNA 4.0",
+      "XNA 4.0.3",
+      "XNA 4.0.4",
+      "XNA 4.0.5",
+      "XNA 4.0.6",
+      "XNA 4"
+    ]
+  },
+  {
+    "title": "XNALiquids02",
+    "prompt": "Blog Post: Okay well i have been playing around with my particles **AGAIN **:P\n\nI started this time from some work done by the CUDA team over at NVidia. As im running windows Vista i couldnt get CUDA to work so i read through the source and adapted it to my needs.\nAs you can see from the video below its better than my last attempt but still not perfect, it also still runs on  the CPU on a single core and has had no optomisations applied to it.\nHopefully tho i can build on this to make it better.\n\nKeywords: ",
+    "tags": [
+      "CUDA C++",
+      "CUDA C++",
+      "CUDA C++ Code",
+      "CUDA C++ Code",
+      "CUDA C++ Code Sample",
+      "CUDA C++ Code Sample",
+      "CUDA C++ Code"
+    ]
+  },
+  {
+    "title": "Yhazee Strikes Again!",
+    "prompt": "Blog Post: Prolly his funniest one yet i think :P\n\nKeywords: ",
+    "tags": [
+      "blogpost",
+      "funny",
+      "funnyblogpost",
+      "funnyblog",
+      "funnypost",
+      "funnypostblog",
+      "funnypostblogpost",
+      "funnypostblogpostblogpost",
+      "funnypostblogpostblogpostblogpost",
+      "funnypostblogpostblogpostblogpostblog"
+    ]
+  },
+  {
+    "title": "Zero Punctuation - Halo3",
+    "prompt": "Blog Post: Abit old now i know but when this made the rounds at the office last week it had me practically wetting myself\n\nKeywords: ",
+    "tags": [
+      "iphone 5",
+      "iphone 5s",
+      "iphone 5s",
+      "iphone 6",
+      "iphone 6",
+      "iphone 6 plus",
+      "iph"
+    ]
+  }
+]

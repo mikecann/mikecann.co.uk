@@ -32,7 +32,7 @@ async function bootstrap() {
   });
 
   // We want to record any failures for later analysis
-  const failures: { title: string; prompt: string }[] = [];
+  const results: { title: string; prompt: string; tags: string[] }[] = [];
 
   // For each post
   const handle = async (post: PostWithContent) => {
@@ -72,6 +72,8 @@ async function bootstrap() {
 
     const tags = responseText.split(`, `).slice(5);
 
+    results.push({ title: post.meta.title, prompt, tags });
+
     if (tags.length > 0) {
       console.log(`Adding ${tags.length} tags back into the post`);
       fs.writeFileSync(
@@ -81,10 +83,7 @@ async function bootstrap() {
           tags,
         })
       );
-    } else {
-      console.log(`The prompt that it struggled on was:\n\n---\n${prompt}\n---\n\n`);
-      failures.push({ title: post.meta.title, prompt });
-    }
+    } else console.log(`The prompt that it struggled on was:\n\n---\n${prompt}\n---\n\n`);
   };
 
   // Iterate all the posts
@@ -98,7 +97,7 @@ async function bootstrap() {
   }
 
   // Always write out the failures to a file
-  fs.writeFileSync(`./open-ai-keywords-failures-log.json`, JSON.stringify(failures, null, 2));
+  fs.writeFileSync(`./open-ai-keywords-results-log.json`, JSON.stringify(results, null, 2));
 
   // And close
   await page.close();
