@@ -26,4 +26,6 @@ If you would like to dig a little deeper into how it all works all the source is
 
 I also put together a miro board for this project here which goes over some of the high-level structure: https://miro.com/app/board/o9J_lq_d2nE=/
 
+BTW I also submitted this project to the [Cloudflare Developer Challenge](https://blog.cloudflare.com/developer-summer-challenge/), fingers crossed they like it!
+
 Let me know in the comments what you think!
