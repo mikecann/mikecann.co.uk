@@ -1,9 +1,5 @@
 import * as React from "react";
-import { Grid, Horizontal, Vertical, VerticalSpacer } from "gls/lib";
-import { SocialIcon } from "./SocialIcon";
-import { AiOutlineGithub, AiOutlineTwitter, AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
-import { RiStackOverflowLine } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
+import { Grid, Vertical, VerticalSpacer } from "gls/lib";
 import { PageButton } from "./PageButton";
 import { FaHome, FaTags, FaRssSquare } from "react-icons/fa";
 import { HiArchive } from "react-icons/hi";
@@ -12,6 +8,7 @@ import { SearchModal } from "../searchModal/SearchModal";
 import { useState } from "react";
 import { Background } from "./Background";
 import { SocialIcons } from "./SocialIcons";
+import Link from "next/link";
 
 interface Props {}
 
@@ -21,13 +18,19 @@ export const TabletSidebar: React.FC<Props> = ({}) => {
   return (
     <>
       <Background style={{ width: 200 }}>
-        <img
-          alt={`profile picture of me mike cann`}
-          style={{ borderRadius: "50%", animation: "float 6s ease-in-out infinite" }}
-          width={120}
-          height={120}
-          src="/images/me.jpg"
-        />
+        <Link href="/about">
+          <img
+            alt={`profile picture of me mike cann`}
+            style={{
+              borderRadius: "50%",
+              animation: "float 6s ease-in-out infinite",
+              cursor: "pointer",
+            }}
+            width={120}
+            height={120}
+            src="/images/me.jpg"
+          />
+        </Link>
         <VerticalSpacer space={20} />
         <div style={{ fontSize: "1.8em", fontWeight: "bold" }}>Mike Cann</div>
         <VerticalSpacer space={30} />
