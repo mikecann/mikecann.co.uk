@@ -108,6 +108,17 @@ const PostPage = ({ post, html }: Props) => {
             priority
             alt={`post header image for ${title}`}
           />
+          <div
+            style={{
+              width: `100%`,
+              height: 40,
+              background:
+                "linear-gradient(0deg, rgba(250, 250, 250, 1) 0%, rgba(250,250,250,0) 100%)",
+              bottom: 0,
+              left: 0,
+              position: "absolute",
+            }}
+          ></div>
         </div>
         <Horizontal width="100%" horizontalAlign="center">
           <Vertical
