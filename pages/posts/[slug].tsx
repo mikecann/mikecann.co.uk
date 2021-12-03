@@ -16,11 +16,18 @@ import { MailchimpSignupForm } from "../../components/mailchimp/MailchimpSignupF
 import { MailchimpSignupPopup } from "../../components/mailchimp/MailchimpSignupPopup";
 import Head from "next/head";
 import { PostTags } from "../../components/PostTags";
+import { media, style } from "typestyle";
 
 type Props = {
   post: Post;
   html: string;
 };
+
+const postContainerClass = style(
+  {},
+  media({ minWidth: 0, maxWidth: 500 }, { padding: 10 }),
+  media({ minWidth: 501 }, { padding: 40 })
+);
 
 const PostPage = ({ post, html }: Props) => {
   const { meta, slug } = post;
@@ -82,8 +89,17 @@ const PostPage = ({ post, html }: Props) => {
 
       <TopNavbar />
 
-      <Vertical width="100%">
-        <div style={{ width: "100%", height: "75vh", position: "relative" }}>
+      <Vertical width="100%" style={{ position: "relative", backgroundColor: "rgb(250 250 250)" }}>
+        <div
+          style={{
+            width: "100%",
+            height: "75vh",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            zIndex: 0,
+          }}
+        >
           <Image
             layout="fill"
             className="post-header"
@@ -95,12 +111,17 @@ const PostPage = ({ post, html }: Props) => {
         </div>
         <Horizontal width="100%" horizontalAlign="center">
           <Vertical
+            className={postContainerClass}
             style={{
-              marginTop: 40,
+              marginTop: `60vh`,
               marginBottom: 40,
               maxWidth: 700,
-              padding: 20,
               width: "100%",
+              border: `1px solid #ddd`,
+              boxShadow: `rgb(221 221 221 / 15%) 0px 3px 0px 5px`,
+              backgroundColor: `white`,
+              borderRadius: 6,
+              zIndex: 1,
             }}
           >
             <h1 style={{ fontSize: "3em", margin: 0, color: "#555", textAlign: "center" }}>
@@ -110,6 +131,11 @@ const PostPage = ({ post, html }: Props) => {
               <div style={{ color: "#bbbbbb" }}>{format(new Date(date), "do MMMM yyyy")}</div>
               <PostTags horizontalAlign="center" tags={post.meta.tags} />
             </Vertical>
+            <Horizontal width="100%" horizontalAlign="center">
+              <div
+                style={{ height: 10, marginTop: 20, borderTop: `1px solid #ddd`, width: `10%` }}
+              />
+            </Horizontal>
             <ReactMarkdown
               className="markdown-content"
               children={html}
@@ -117,17 +143,40 @@ const PostPage = ({ post, html }: Props) => {
               allowDangerousHtml
               plugins={[gfm]}
             />
-            <h3 style={{ textAlign: "center", color: "#aaa" }}>SIGNUP</h3>
-            <MailchimpSignupForm />
-            <MailchimpSignupPopup />
-            <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
-            <DiscussionEmbed
-              shortname="devwbfg"
-              config={{
-                identifier: meta.oldUrl ?? slug,
-                title: title,
+
+            <div
+              style={{
+                border: `1px dashed #ddd`,
+                marginTop: 40,
+                marginBottom: 10,
+                padding: `10px 30px`,
+                borderRadius: 6,
               }}
-            />
+            >
+              <h3 style={{ textAlign: "center", color: "#aaa" }}>SIGNUP</h3>
+              <MailchimpSignupForm />
+            </div>
+
+            <MailchimpSignupPopup />
+
+            <div
+              style={{
+                border: `1px dashed #ddd`,
+                marginTop: 40,
+                marginBottom: 40,
+                borderRadius: 6,
+                padding: `10px 30px`,
+              }}
+            >
+              <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
+              <DiscussionEmbed
+                shortname="devwbfg"
+                config={{
+                  identifier: meta.oldUrl ?? slug,
+                  title: title,
+                }}
+              />
+            </div>
           </Vertical>
         </Horizontal>
       </Vertical>
