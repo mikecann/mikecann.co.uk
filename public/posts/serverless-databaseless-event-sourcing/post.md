@@ -20,6 +20,8 @@ This post is a little different than usual. Instead of subjecting you to a wall 
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/W7PmZmVmsDo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+If you want to see a demo of this in action checkout: https://mikecann.co.uk/posts/serverless-databaseless-event-sourcing
+
 If you would like to dig a little deeper into how it all works all the source is available on Github here: https://github.com/mikecann/clouds-and-edges
 
 I also put together a miro board for this project here which goes over some of the high-level structure: https://miro.com/app/board/o9J_lq_d2nE=/
