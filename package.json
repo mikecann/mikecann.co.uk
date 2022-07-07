@@ -2,6 +2,9 @@
   "name": "next-mikecann",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "yarn populateAlgolia && yarn generateRSS && next build",
