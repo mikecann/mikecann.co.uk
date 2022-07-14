@@ -1,12 +1,8 @@
-import { Horizontal, Vertical, VerticalSpacer } from "gls/lib";
+import { Horizontal, Vertical } from "gls/lib";
 import * as React from "react";
 import { Modal } from "../Modal";
-import algoliasearch from "algoliasearch";
-import { ensure } from "../../utils/ensure";
 import { AlgoliaHit } from "../../pages/api/algolia/types";
 import { useWindowSize } from "../../utils/useWindowSize";
-import Image from "next/image";
-import { style } from "typestyle";
 import { CloseButton } from "../CloseButton";
 import { getAlgoliaIndex } from "../../utils/algolia";
 import { SearchResult } from "./SearchResult";
@@ -35,6 +31,14 @@ export const SearchModal: React.FC<Props> = ({ onClose }) => {
     if (!input) return;
     input.focus();
   }, [input]);
+
+  React.useEffect(() => {
+    const onEvent = (e: KeyboardEvent) => {
+      if (e.key == "Escape") onClose();
+    };
+    window.addEventListener("keyup", onEvent);
+    return () => window.removeEventListener("keyup", onEvent);
+  }, [onClose]);
 
   return (
     <Modal
