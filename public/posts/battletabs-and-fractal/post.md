@@ -10,7 +10,7 @@ tags:
 title: BattleTabs & Fractal
 ---
 
-Its been a while since I have posted about BattleTabs but things most definitely haven't been inactive so I think its time for an update!
+Its been a while since I have posted about BattleTabs but things most definitely haven't been standing still, so I think its time for an update!
 
 # Background
 
@@ -24,26 +24,26 @@ I have [posted quite a few times in the past](https://mikecann.co.uk/tags/battle
 
 Since November last year there have been over 40 updates to the game. Some of the major ones include:
 
-- Rivalry Feature - challenge other to "just one more battle"
-- Huge change to battles architecture allowing for more complex ship-ship interactions
+- Rivalry Feature - challenge others to "just one more battle"
+- Huge change to the battles architecture allowing for more complex ship-ship interactions
 - New content - ships, emotes, etc
 - Lots of changes to support Manifest v3 Chrome Extensions
-- Added new sound effects
-- Added push notifications to web versions of the game
-- Added "Daily Deals" feature to ship
+- Added new sound and visual effects
+- Added push notifications to the web versions of the game
+- Added "Daily Deals" feature to the shop
 - AI turn taking for players that go offline
 - Board Ping feature
 - TONs of bug fixes
 
-In addition to the above raft of BattleTabs updates we also started work on our long-term strategy for the company.
+In addition to the above we also started working on our long-term strategy for the company.
 
 # Cards & Web3
 
-We believe strongly in the power of community driven games. We think that a game can be good but the community is what makes it great. This is certainly the case for BattleTabs.
+We strongly believe in the power of community driven games. We think that a game can be good but the community is what makes it great. This is certainly the case for BattleTabs.
 
-Over the almost 3 years of running the game we have amassed over a million downloads and 15k+ members on discord. 24 hours a day players discuss the game, create content, share ideas or just generally hang out.
+Over the almost 3 years of running the game we have amassed over a million downloads, millions of battles played and over 15,000 members on discord. 24 hours a day players on discord discuss the game, create content, share ideas or just generally hang out.
 
-Given this progress we started to think how we could empower our community to go further and at the same time develop a strategy that allows us to continue to develop the game and company.
+Given this, we started to think how we could empower our community to go further and at the same time develop a strategy that allows us to continue to develop the game and company.
 
 This is where BattleTabs Cards comes in.
 
@@ -65,11 +65,11 @@ From our [community page](https://battletabs.com/battletabs-cards) on the topic:
 
 > Say you have a vast stack of cards saved up and want to give some to helpful members in the community, you can do that with cards!
 
-We think its all really cool. And to kick things off we are running a tournament on [Fractal.is](https://fractal.is)
+We think it an exciting direction for the company and community. To kick things off we are running a tournament on [Fractal.is](https://fractal.is).
 
 # Fractal Tournament
 
-Our first card is going to be special. Its our first one and our first foray in this new direction Rather than simply selling or giving them away we thought it would be more fun if we rewarded top players and community members by giving them preferential access.
+Our first card is going to be special. Rather than simply selling or giving them away we thought it would be more fun if we rewarded top players and community members by giving them preferential access.
 
 So every day that the tournament runs (2 weeks), the top 20 players that participate will earn a silver token:
 
