@@ -1,12 +1,13 @@
 ---
 coverImage: ./header.jpg
-date: '2019-11-17T09:51:40.000Z'
+date: "2019-11-17T09:51:40.000Z"
 tags:
   - chrome extension
   - game
   - async
   - typescript
   - battleships
+  - battletabs
 title: Introducing BattleTabs
 oldUrl: /markd/introducing-battletabs
 ---
