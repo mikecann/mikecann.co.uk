@@ -20,6 +20,6 @@ Bandai are joining a number of other investors as part of our early-seed round t
 
 Its been a long roller-coaster of a journey to reach this point but after 3 years of working in a very small team im really happy that we are finally able to grow a little bit and hire some more gang-members.
 
-We still have a tough path ahead of us with some ambitious plans but I think we are starting to assemble a fantastic team that will allow us to get there. I personally cant wait to show our incredible community what we can do now :)
+We still have a tough path ahead of us with some ambitious plans but I think we are starting to assemble a fantastic team that will allow us to get there. I personally cant wait to show our incredible community what we can do now!
 
-We still have a small amount of space in our current seed round so if you are interested in participating then email us: mike@gangbusters.io or brandon@gangbusters.io :)
+We still have a small amount of space in our current seed round so if you are interested in participating then email us: mike@gangbusters.io or brandon@gangbusters.io.
