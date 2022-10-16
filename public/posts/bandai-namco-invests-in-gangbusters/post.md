@@ -22,4 +22,4 @@ Its been a long roller-coaster of a journey to reach this point but after 3 year
 
 We still have a tough path ahead of us with some ambitious plans but I think we are starting to assemble a fantastic team that will allow us to get there. I personally cant wait to show our incredible community what we can do now!
 
-We still have a small amount of space in our current seed round so if you are interested in participating then email us: mike@gangbusters.io or brandon@gangbusters.io.
+If you are interested in partnering up or what we are working on, reach out to: mike@gangbusters.io or brandon@gangbusters.io.
