@@ -114,7 +114,7 @@ See how the programmer no longer writes code. Instead he describes iteratively w
 
 What happens in this world where the programmer no longer needs to write code? The syntax for the code becomes your own language; English, French, Chinese whatever. The countless arguments over semicolons or braces become obsolete and irrelevant when you no longer have to write using syntax dictated by a "programming language".
 
-I have spent so much of my career thinking about and worrying over the best practices for programming. Am I correctly implementing the SOID principles in OO C# or and I fully understanding the Monad or ADTs in Functional Programming? In the future <b>IT DOES NOT MATTER</b>. The output is the only thing that matters.
+I have spent so much of my career thinking about and worrying over the best practices for programming. Am I correctly implementing the SOLID principles in OO C# or and I fully understanding the Monad or ADTs in Functional Programming? In the future <b>IT DOES NOT MATTER</b>. The output is the only thing that matters.
 
 I think about the future of programming more as sculpting. You start off with a blank slate then using your own words you command by command iterate towards your end goal.
 
