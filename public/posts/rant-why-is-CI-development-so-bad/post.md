@@ -2,10 +2,12 @@
 coverImage: ./header.jpg
 date: "2023-01-02T07:31:40.000Z"
 tags:
-  - BattleTabs
-  - Gangbusters
-  - GameDev
-  - BabylonJS
+  - CircleCI
+  - Jenkins
+  - Github
+  - Coding
+  - Programmer
+  - CI
 title: Rant - Why is CI Development so bad?
 ---
 
