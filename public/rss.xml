@@ -4,7 +4,7 @@
         <description><![CDATA[Blog - Mike Cann]]></description>
         <link>https://mikecann.co.uk</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Jan 2021 12:46:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Feb 2023 07:40:36 GMT</lastBuildDate>
         <atom:link href="https://mikecann.co.uk/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[1,000,000 Views!!]]></title>
@@ -338,6 +338,14 @@ This is one of my favourite tunes of all time, glad someone has covered it, even
             <guid isPermaLink="false">https://mikecann.co.uk/posts/acoustic-cover-of-binary-finarys-1998</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Thu, 23 Apr 2009 19:00:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI & The Future of Game Development]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/ai-and-the-future-of-game-development</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/ai-and-the-future-of-game-development</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 03 Nov 2022 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[alien2]]></title>
@@ -841,6 +849,51 @@ Here is a little experiment i used in a game during my time at Rockpool.
             <pubDate>Thu, 06 Jul 2006 14:27:26 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Bandai Namco Invests in Gangbusters]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/bandai-namco-invests-in-gangbusters</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/bandai-namco-invests-in-gangbusters</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sat, 15 Oct 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why we converted BattleTabs from 2D to 3D]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/battletabs-3d</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/battletabs-3d</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 29 Dec 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BattleTabs - 6 Months Later]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/battletabs-6-months-later</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/battletabs-6-months-later</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Wed, 28 Apr 2021 20:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BattleTabs & Fractal]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/battletabs-and-fractal</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/battletabs-and-fractal</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sun, 14 Aug 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BattleTabs - Season 1]]></title>
+            <description><![CDATA[
+Well its been years in the planning and months in the development but the "Big Summer Update" / "Seasons" / V1 update for our game [BattleTabs](https://battletabs.com) is finally out!
+
+This is by far our biggest update yet. We generally don't like making large changes to the game like this, preferring small frequent incremental changes but it was necessary however as there are lots of exciting new overlapping systems and features in this update!
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/battletabs-season1</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/battletabs-season1</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 29 Nov 2021 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[BattleTabs - Ships and Fleets Update]]></title>
             <description><![CDATA[
 After months of hard work we are excited to announce that our latest and largest ever update to [BattleTabs](https://www.battletabs.com/) is finally live! Read on to find out about some of the gory details.
@@ -956,6 +1009,17 @@ It has been months and months since Oliver and I finished (functionally) our lat
             <guid isPermaLink="false">https://mikecann.co.uk/posts/boxthing</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Wed, 17 May 2006 21:33:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Building a Pi NAS and Plex Server]]></title>
+            <description><![CDATA[
+My PC is awesome but it has a bit of an addiction to Watts. So I wanted to build a low-powered NAS and Plex server so when I put PC asleep at night I can still enjoy some quality time with my content on the TV downstairs. Since I had a spare Raspberry Pi 4 glaring at me from my desk I thought, sure why not, how hard could it be?
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/building-a-pi-nas-and-plex-server</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/building-a-pi-nas-and-plex-server</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 13 Sep 2021 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BumpSpace]]></title>
@@ -1364,6 +1428,14 @@ The second day of [try{harder}](/posts/try-harder-my-haxe-slides-and-code/) was 
             <pubDate>Thu, 10 Apr 2003 14:44:30 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[DataDog Metrics with Heroku Docker Deploys]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/datadog-metrics-with-heroku-docker-deploys</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/datadog-metrics-with-heroku-docker-deploys</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 23 Mar 2021 20:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Day 6 - Mobile Game Progress]]></title>
             <description><![CDATA[
 <object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="/wp-content/uploads/2012/07/Main1.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="/wp-content/uploads/2012/07/Main1.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>
@@ -1457,6 +1529,14 @@ Abit old I know but I only just stumbled across it, very interesting watch, but 
             <guid isPermaLink="false">https://mikecann.co.uk/posts/did-you-know-30</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Wed, 27 May 2009 09:35:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Discriminated Unions & Pattern Matching in Typescript]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/discriminated-unions-and-pattern-matching-in-typescript</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/discriminated-unions-and-pattern-matching-in-typescript</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Fri, 30 Sep 2022 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dissectURL(url:String)]]></title>
@@ -1623,6 +1703,17 @@ For a long while I have been worried about my lack of backups for my machine. I 
             <guid isPermaLink="false">https://mikecann.co.uk/posts/file-and-folder-syncing</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Thu, 03 Sep 2009 19:34:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Firebase Cloud Messaging and Chrome Extension Manifest V3]]></title>
+            <description><![CDATA[
+This is one of those super annoying things that took me a while to discover and I was unable to find any prior art on it so I thought I would share.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/firebase-cloud-messaging-and-chrome-extension-manifest-v3</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/firebase-cloud-messaging-and-chrome-extension-manifest-v3</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 14 Jun 2022 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Fixing Old Posts & Uploading Videos]]></title>
@@ -2156,6 +2247,14 @@ We were having serious memory issues on the Heroku hosted NodeJS backend for our
             <guid isPermaLink="false">https://mikecann.co.uk/posts/how-to-halve-your-node-js-memory-usage</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Thu, 26 Nov 2020 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to Save 20x on Your DB Costs]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/how-to-save-20x-on-your-db-costs</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/how-to-save-20x-on-your-db-costs</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 14 Feb 2023 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[How to tell if you cat is plotting to kill you...]]></title>
@@ -3137,6 +3236,17 @@ After my many [hard-learnt-lessons](/projects/mikes-mirror-overview/) building a
             <pubDate>Tue, 24 Jul 2018 14:51:40 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Minimal Mike - A Fitbit Clock Face]]></title>
+            <description><![CDATA[
+When I was sent a replacement for my broken [Versa 1](https://www.fitbit.com/global/us/products/smartwatches) by Fitbit they decided to upgrade me to a Versa 2. This was great except it meant that the watch face I was using before no longer worked and I was unable to find a good replacement so I thought it was time to get my hands dirty and code one up myself.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/minimal-mike-a-fitbit-watchface</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/minimal-mike-a-fitbit-watchface</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Fri, 28 May 2021 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Mixcloud-dl]]></title>
             <description><![CDATA[
 I love the mix-streaming service Mixcloud but its unfriendly user-interface was really starting to bug me so I whipped up this little tool to help.
@@ -3665,6 +3775,17 @@ Well i have been living in my new pad in Leeds for going on 4 weeks. Loving the 
             <guid isPermaLink="false">https://mikecann.co.uk/posts/my-new-flat</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Fri, 25 Jul 2008 15:20:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My Old Flash Games]]></title>
+            <description><![CDATA[
+Just a small post today sharing with you a really cool project that I have only recently become aware of.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/my-old-flash-games</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/my-old-flash-games</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 17 Jun 2021 20:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[My Skydive!]]></title>
@@ -4325,6 +4446,17 @@ It had been long coming, the last major update I gave it was about 1.5 years ago
             <pubDate>Fri, 29 Jan 2016 03:57:56 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Post To Tumblr Sunset]]></title>
+            <description><![CDATA[
+Well all good things must come to an end and Post To Tumblr has had 14 excellent years. Its just about my longest running project but unfortunately its come time to let it go the way Old Yeller...
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/post-to-tumblr-sunset</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/post-to-tumblr-sunset</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 14 Apr 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Post To Tumblr v.4]]></title>
             <description><![CDATA[
 While I was travelling I have had a great many people contact me about my popular chrome extension [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en). Some wanted me to fix things some wanted me to add things others wanted to buy the extension outright.
@@ -4567,6 +4699,14 @@ I have immense respect for some of the flash developers out there and Quasimondo
             <pubDate>Sun, 10 Jan 2010 21:17:09 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Rant - Why is CI Development so bad?]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/rant-why-is-CI-development-so-bad</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/rant-why-is-CI-development-so-bad</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 02 Jan 2023 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Recursive - Explore the endless web]]></title>
             <description><![CDATA[
 Wow, well that took longer than expected! [44 days ago I blogged](/posts/tinkering-with-typescript/) that I had started work on a second version of my Chrome Crawler extension and have only just managed to get it to a state I was happy with enough to release it. To be fair I had been on [a trip to New York](/posts/new-york-new-york/) during that period so perhaps I can be excused. Having said that however I think the time has been well spent and am fairly proud of the result.
@@ -4713,6 +4853,19 @@ Well as you can probably tell from my [last](https://www.mikecann.co.uk/art/harm
             <guid isPermaLink="false">https://mikecann.co.uk/posts/scribble-v0-1-harmony-but-in-flash-kinda</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Thu, 25 Mar 2010 20:00:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Serverless & Databaseless Event Sourcing]]></title>
+            <description><![CDATA[
+3 years ago while [working at Bamboo](/posts/started-at-bamboo) I was introduced to the concept of [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) for the first time. The concept of turning the database inside out blew my mind. Since then I have been fascinated with the possibilities for the technology and have wanted to build another Event Sourced app.
+
+When I heard about Cloudflare's new Durable Object tech I decided now was the time to tinker with Event Sourcing once again and to see if it was possible create one in a wholely serverless and databaseless manner.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/serverless-databaseless-event-sourcing</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/serverless-databaseless-event-sourcing</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sat, 16 Oct 2021 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Shader Based 2D Shadowing]]></title>
@@ -4876,6 +5029,19 @@ I have been meaning to do this for a while, but never gotten round to it. Well m
             <guid isPermaLink="false">https://mikecann.co.uk/posts/squaresquare</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Wed, 17 May 2006 22:01:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Squash, Lasers and Other Thoughts]]></title>
+            <description><![CDATA[
+Quite some time ago now a good friend and fellow squash player shared an idea he had with me, to create a system that is able to track a squash ball during a game and project realtime information onto the back wall.
+
+Its an idea that really resonated with me and I have been thinking about it ever since. I want to share my thoughts here and see if anyone else has ideas on how to tackle this thorny problem.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/squash-lasers-and-other-thoughts</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/squash-lasers-and-other-thoughts</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sat, 16 Jul 2022 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Stall]]></title>
@@ -5126,6 +5292,17 @@ I started coding when I was 7 years old at a school-holidays computer camp in th
             <pubDate>Sun, 02 Oct 2016 01:57:08 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Tech to Tinker with in 2022]]></title>
+            <description><![CDATA[
+Wow how fast did 2021 go? Crazy! And we are already almost at the end of January.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/tech-to-tinker-with-in-2022</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tech-to-tinker-with-in-2022</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 24 Jan 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Terrainicles [WebGL & HaXe]]]></title>
             <description><![CDATA[
 I have been playing with this thing, tweaking it, making changes for weeks. Theres so many different things I want to add. Different options, scenarios, optimisations etc. I decided however just to follow the 'release early and often' mantra and get this thing out now.
@@ -5259,6 +5436,17 @@ Got sent this today by a friend who linked to Newgrounds [upload](https://www.ne
             <guid isPermaLink="false">https://mikecann.co.uk/posts/the-scale-of-the-universe-in-flash</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Wed, 03 Feb 2010 12:46:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Scam That Almost Got Me]]></title>
+            <description><![CDATA[
+This post is a little different to my usual but the incident had me thinking so I thought I would share..
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/the-scam-that-almost-got-me</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/the-scam-that-almost-got-me</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 13 Jul 2021 03:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The sleeping headphones saga]]></title>
@@ -5729,6 +5917,17 @@ I recently had the opportunity to experiment with something I have been meaning 
             <pubDate>Sun, 02 Nov 2014 05:18:13 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Tinkering with GPT-3]]></title>
+            <description><![CDATA[
+Back in in the before-times of May 2020 OpenAI made a [stunning announcement](https://openai.com/blog/tags/announcements/) about the capabilities of their latest project named GPT3. When I saw [what it was capable of](https://beta.openai.com/) and it was going to be turned into an API I knew I was going to have to tinker with it!
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/tinkering-with-GPT-3</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-GPT-3</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 09 Aug 2021 03:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Tinkering with MobX Keystone]]></title>
             <description><![CDATA[
 Its no secret that im a fan of MobX and have been using it for many years now. I have even [written a couple of libraries](/projects/mst-libs) for its sister project MobX State Tree. So when I encountered [MobX Keystone](https://mobx-keystone.js.org/) I was intrigued..
@@ -5749,6 +5948,17 @@ I spent a few hours tinkering with the new (alpha release) version of React whic
             <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-react-hooks-and-chrome-extensions</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Thu, 27 Dec 2018 14:51:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tinkering With The Internet Computer]]></title>
+            <description><![CDATA[
+Im not sure how I first came across [Dfinity](dfinity.org) and the Internet Computer project but when I heard about the technologies they were using (Blockchain, Actors, Motoko) and the goals they were striving for I knew I had to have a tinker.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/tinkering-with-the-internet-computer</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-the-internet-computer</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 16 Feb 2021 08:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tinkering With TypeScript]]></title>
@@ -5946,6 +6156,17 @@ Ive finally decided to see what all the fuss is about and jump on the twitter tr
             <pubDate>Tue, 17 Feb 2009 11:01:16 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Under Da Sea]]></title>
+            <description><![CDATA[
+Ever since I was a baby I have loved the water. I remember always enjoying going under the water and holding my breath while I challenged my mates to see who could stay under the longest.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/under-da-sea</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/under-da-sea</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sun, 20 Feb 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Undergoing Renovations]]></title>
             <description><![CDATA[
 I have decided to dump my crappy [streamline.net](https://www.streamline.net/) hosting and go for something [a little better. ](https://www.slicehost.com/)
@@ -6083,6 +6304,17 @@ Village life is a flash-based social game I worked on while at Playdemic. Its in
             <guid isPermaLink="false">https://mikecann.co.uk/posts/village-life</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Tue, 05 Jun 2012 01:34:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vincent van Cann Sails the OpenSea]]></title>
+            <description><![CDATA[
+I wanted to experiment more with the NFT space. Get my hands dirty and actually mint an NFT. But what pieces should one immortalize on the immutable blockchain? Then it hit me! Vincent van Cann.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/vincent-van-cann-sails-the-opensea</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/vincent-van-cann-sails-the-opensea</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sun, 27 Mar 2022 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Wake Mate - Human Augmentation, the future?]]></title>
