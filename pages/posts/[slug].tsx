@@ -184,6 +184,7 @@ const PostPage = ({ post, html }: Props) => {
                 shortname="devwbfg"
                 config={{
                   identifier: meta.oldUrl ?? slug,
+                  url: `https://mikecann.co.uk/posts/${meta.oldUrl ?? slug}`,
                   title: title,
                 }}
               />
