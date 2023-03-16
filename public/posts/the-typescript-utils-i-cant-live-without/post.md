@@ -105,7 +105,7 @@ export const filterObj = <T extends string, U>(
 And an example of its use would be:
 
 ```ts
-const filtered = mapObj(people, (key, value) => "person1");
+const filtered = filterObj(people, (key, value) => key == "person2");
 // { person2: { name: 'Bob', age: 25 } }
 ```
 
