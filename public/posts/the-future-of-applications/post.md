@@ -8,6 +8,8 @@ tags:
 title: The Future of Applications
 ---
 
+(no this isn't an april fools post :P)
+
 I wrote my first Application 31 years ago when I was [7 years old](https://mikecann.co.uk/about). Since then I have spent most of my career learning the fine art of of crafting clean code. From hand-crafted HTML and CSS to wrestling with MXML and AS3 I have been doing this for a long time.
 
 With the incredible advances in Large Language Models (LLMs) and their ability to generate code on demand i'm starting to wonder if the days of hand-crafted applications are numbered.
@@ -72,7 +74,7 @@ So what has all this got to do with User Interfaces? Well if you put it all toge
 
 For example take a look at Microsoft's recent [release of Security Copilot](https://www.reuters.com/technology/google-ai-chatbot-bard-offers-inaccurate-information-company-ad-2023-02-08/):
 
-<iframe width="853" height="480" src="https://www.youtube.com/watch?v=g1HoXNoP3V0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g1HoXNoP3V0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The UI for Security Copilot is simply a chat prompt. The has a conversation using natural language to get the information they need.
 
