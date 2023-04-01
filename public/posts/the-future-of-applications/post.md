@@ -128,29 +128,31 @@ So you have an AI generating your UI and the API is simply a prompt, whats left?
 
 In the section above I imagine a future where an AI is able to generate an SQL query to interrogate an existing relational datasource such as Postgres. But what if we took that one step further.
 
-What if we wanted the data storage to be more flexible so that as the application evolves the data can be stored however it is best suited to the application at that time.
+What if we wanted the data storage to be more flexible so that as the application evolves the new structure of the data can be stored correctly?
 
-Currently we have to define migrations to modify the schema of our database as the application evolves over time but what if instead data was stored in a less-structured NOSQL like manner. Now your data storage can change over time without and migrations.
+Currently we have to define migrations to modify the schema of our database as the application evolves over time but what if instead data was stored in a less-structured NoSQL like manner. Now your data storage can change over time without and migrations.
 
-Now if we take that another step forward, what if the AI is able to run in the background and spot inefficiencies in the way the data is structured and restructure it on the fly.
+The AI can still write NoSQL queries to access the data and it could also record a "dynamic" schema that it uses before it queries the data source.
 
-In this world you no longer know how your data is stored at all as the AI has organised and evolved it as your application has evolved.
+Now if we take that another step forward, what if the AI is able to run in the background and spot inefficiencies in the way the data is structured and restructure it on the fly?
 
-But we can take this a step further. What if your data isn't structured at all? This is a future suggested [back in January](https://twitter.com/DYtweetshere/status/1617471632909676544?s=20).
+In this world you no longer know how your data is stored as the AI has organized and evolved it as your application has evolved.
+
+But we can take this a step further. What if your data isn't structured at all? This is a future suggested [by @DYtweetshere in January](https://twitter.com/DYtweetshere/status/1617471632909676544?s=20).
 
 [![](./backend.jpg)](./backend.jpg)
 
-Instead the the AI "backend" simply "remembers" all the previous prompts ever given it and is able to infer structure and meaning from that data as new prompts come in.
+Instead the the AI "backend" simply "remembers" all the previous prompts ever given and is able to infer structure and meaning from that data as new prompts come in.
 
 This is the ultimate in storage flexibility as there is now no longer and structure to your data, it is instead simply a list of strings.
 
-Now this final example will take a few more advances in model context size as the AI must keep everything ever muttered in its "head".
+Now this final example will take a few more advances in model context size as the AI must keep everything ever muttered in its "memory" so its can draw meaning from it without querying it. For a large app this is currently infeasible, but I suspect possible in the future.
 
 The other potential is it stores a "compression" of the data via weights in exactly the same way the AI itself is trained but that by its very nature would be a lossy mechanism and thus your stored "Todos" (for example) would only have a probability of being recalled exactly which might not be ideal.
 
 # Conclusion
 
-For the past 31+ years I have been making applications things have generally been the same. You hand-craft some code for the UI, API and Data store, refine and repeat. I think this age is finally coming to an end.
+For the past 31+ years I have been making applications in generally the same way. Hand-crafted some code for the UI, API and Data store, refine and repeat. I think this age is finally coming to an end.
 
 I think the next few years are going to see some of the biggest changes in the way applications are created and consumed. More so than the cloud computing revolution, more so than even the mobile computing revolution.
 
