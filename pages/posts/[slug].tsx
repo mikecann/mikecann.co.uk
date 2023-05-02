@@ -76,7 +76,7 @@ const PostPage = ({ post, html }: Props) => {
   return (
     <Layout>
       <Head>
-        <title key="title">{title} - mikecann.co.uk</title>
+        <title key="title">{String(title)} - mikecann.co.uk</title>
         <meta property="og:title" content={`${title} - mikecann.co.uk`} key="og-title" />
         <meta property="og:site_name" content="MikeCann.co.uk" key="og-site_name" />
         <meta property="og:url" content={`https://mikecann.co.uk/posts/${slug}`} key="og-url" />
