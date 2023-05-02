@@ -4,12 +4,14 @@ import { Media, MediaContextProvider } from "../../utils/media";
 import { MobileSidebarLayout } from "./MobileSidebarLayout";
 import { TabletSidebarLayout } from "./TabletSidebarLayout";
 
-interface Props {}
+interface Props {
+  children?: React.ReactNode;
+}
 
 export const ResponsiveSidebarLayouts: React.FC<Props> = ({ children }) => {
   return (
     <MediaContextProvider>
-      <Media at="xs">
+      {/* <Media at="xs">
         <MobileSidebarLayout>{children}</MobileSidebarLayout>
       </Media>
       <Media at="sm">
@@ -17,7 +19,8 @@ export const ResponsiveSidebarLayouts: React.FC<Props> = ({ children }) => {
       </Media>
       <Media greaterThanOrEqual="md">
         <DesktopSidebarLayout>{children}</DesktopSidebarLayout>
-      </Media>
+      </Media> */}
+      <DesktopSidebarLayout>{children}</DesktopSidebarLayout>
     </MediaContextProvider>
   );
 };

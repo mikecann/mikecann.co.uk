@@ -4,7 +4,7 @@ import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import { getAllPostsWithoutContent } from "../api/posts/index";
 import Link from "next/link";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
-import Head from 'next/head';
+import Head from "next/head";
 
 type Props = {
   tags: { tag: string; postsCount: number }[];

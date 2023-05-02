@@ -13,6 +13,7 @@ interface Props {
 const styles = style({
   opacity: 0.8,
   cursor: "pointer",
+  color: "rgba(255,255,255,0.8)",
   $nest: {
     "&:hover": {
       opacity: 1,

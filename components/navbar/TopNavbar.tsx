@@ -37,11 +37,9 @@ export const TopNavbar: React.FC<Props> = ({}) => {
         }}
       >
         <Link href="/">
-          <a>
             <IconButton>
               <FaHome />
             </IconButton>
-          </a>
         </Link>
 
         <StretchSpacer />

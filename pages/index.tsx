@@ -6,7 +6,6 @@ import { getAllPostsWithoutContent } from "./api/posts/index";
 import React from "react";
 import { PostsGrid } from "../components/PostsGrid";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
-import Head from 'next/head';
 
 type Props = {
   postsByYear: PostsByYear;
@@ -16,7 +15,6 @@ type Props = {
 const IndexPage = ({ postsByYear, theOtherYears }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
-      
       <PostsGrid postsByYear={postsByYear} />
       <Vertical style={{ marginBottom: 20 }}>
         <h1>Archive</h1>

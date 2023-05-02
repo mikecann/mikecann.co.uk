@@ -21,10 +21,8 @@ const styles = style({
 
 export const SocialIcon: React.FC<Props> = ({ children, href }) => {
   return (
-    <Link href={href}>
-      <a target="_blank" className={styles}>
-        {children}
-      </a>
+    <Link target="_blank" className={styles} href={href}>
+      {children}
     </Link>
   );
 };

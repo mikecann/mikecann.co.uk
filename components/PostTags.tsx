@@ -41,11 +41,9 @@ export const PostTags: React.FC<Props> = ({ tags, style, ...rest }) => {
       spacing={5}
       {...rest}
     >
-      {tags.map((t) => (
-        <div key={t} className={tagStyles}>
-          <Link href="/tags/[r]" as={`/tags/${t}`}>
-            {t}
-          </Link>
+      {tags.map((t, i) => (
+        <div key={i} className={tagStyles}>
+          <div onClick={() => (window.location.href = `/tags/${t}`)}>{String(t)}</div>
         </div>
       ))}
     </Horizontal>

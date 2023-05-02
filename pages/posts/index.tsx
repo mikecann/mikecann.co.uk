@@ -17,9 +17,9 @@ const Posts = ({ allPosts }: Props) => (
     </Head>
 
     <h1>Posts..</h1>
-    <p>
+    <div>
       Example fetching data from inside <code>getStaticProps()</code>.
-    </p>
+    </div>
     <p>You are currently on: /users</p>
     <ul>
       {allPosts.map(({ meta: { title }, slug }) => (
@@ -32,11 +32,9 @@ const Posts = ({ allPosts }: Props) => (
         </li>
       ))}
     </ul>
-    <p>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </p>
+    <div>
+      <Link href="/">Go home</Link>
+    </div>
   </Layout>
 );
 
