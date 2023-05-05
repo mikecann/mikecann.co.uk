@@ -18,6 +18,8 @@ import Head from "next/head";
 import { PostTags } from "../../components/PostTags";
 import { media, style } from "typestyle";
 import rehypeRaw from "rehype-raw";
+import Script from "next/script";
+import { PostComments } from "../../components/PostComments";
 
 type Props = {
   post: Post;
@@ -38,7 +40,7 @@ const PostPage = ({ post, html }: Props) => {
     <Layout>
       <Head>
         <title key="title">{String(title)} - mikecann.co.uk</title>
-        <meta property="og:title" content={`${title} - mikecann.co.uk`} key="og-title" />
+        <meta property="og:title" content={`${title}`} key="og-title" />
         <meta property="og:site_name" content="MikeCann.co.uk" key="og-site_name" />
         <meta property="og:url" content={`https://mikecann.co.uk/posts/${slug}`} key="og-url" />
         <meta
@@ -166,38 +168,30 @@ const PostPage = ({ post, html }: Props) => {
 
             <div
               style={{
-                border: `1px dashed #ddd`,
-                marginTop: 40,
-                marginBottom: 10,
-                padding: `10px 30px`,
-                borderRadius: 6,
+                borderTop: `1px dashed #ddd`,
+                width: "100%",
+                marginTop: 20,
+                marginBottom: 20,
               }}
-            >
-              <h3 style={{ textAlign: "center", color: "#aaa" }}>SUBSCRIBE TO POSTS</h3>
-              <MailchimpSignupForm />
-            </div>
+            />
 
-            <MailchimpSignupPopup />
+            <h3 style={{ textAlign: "center", color: "#aaa" }}>SUBSCRIBE TO POSTS</h3>
+            <MailchimpSignupForm />
 
             <div
               style={{
-                border: `1px dashed #ddd`,
-                marginTop: 40,
-                marginBottom: 40,
-                borderRadius: 6,
-                padding: `10px 30px`,
+                borderTop: `1px dashed #ddd`,
+                width: "100%",
+                marginTop: 20,
+                marginBottom: 20,
               }}
-            >
-              <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
-              <DiscussionEmbed
-                shortname="devwbfg"
-                config={{
-                  identifier: meta.oldUrl ?? slug,
-                  url: `https://mikecann.co.uk/posts/${meta.oldUrl ?? slug}`,
-                  title: title,
-                }}
-              />
-            </div>
+            />
+
+            <MailchimpSignupPopup />
+
+            <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
+
+            <PostComments />
           </Vertical>
         </Horizontal>
       </Vertical>
