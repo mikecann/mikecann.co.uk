@@ -113,17 +113,6 @@ const PostPage = ({ post, html }: Props) => {
               children={html}
               rehypePlugins={[rehypeRaw]}
               components={{
-                // img: (image: any) => {
-                //   console.log(`PROPS`, image);
-                //   return (
-                //     <img src={image.src} alt={image.alt} />
-                //     // <div style={{ textAlign: "center" }}>
-                //     //   <a href={getRelativePathForPost(post.slug, image.src)}>
-                //     //     <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
-                //     //   </a>
-                //     // </div>
-                //   );
-                // },
                 code: ({ node, inline, className, children, ...props }) => {
                   const match = /language-(\w+)/.exec(className || "");
                   return !inline && match ? (
@@ -136,11 +125,23 @@ const PostPage = ({ post, html }: Props) => {
                       PreTag="div"
                     />
                   ) : (
-                    <code {...props} className={className}>
+                    <code
+                      {...props}
+                      className={className}
+                      style={{
+                        padding: "0.2em 0.4em",
+                        margin: "0",
+                        fontSize: "85%",
+                        backgroundColor: "rgb(161, 161, 161)",
+                        borderRadius: 6,
+                        color: "white",
+                      }}
+                    >
                       {children}
                     </code>
                   );
                 },
+
                 // inlineCode: ({ language, value }: any) => {
                 //   return (
                 //     <code
