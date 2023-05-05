@@ -11,7 +11,6 @@ import gfm from "remark-gfm";
 import Layout from "../../components/layout/Layout";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { darcula } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import { DiscussionEmbed } from "disqus-react";
 import { MailchimpSignupForm } from "../../components/mailchimp/MailchimpSignupForm";
 import { MailchimpSignupPopup } from "../../components/mailchimp/MailchimpSignupPopup";
 import Head from "next/head";
@@ -143,23 +142,6 @@ const PostPage = ({ post, html }: Props) => {
                     </code>
                   );
                 },
-
-                // inlineCode: ({ language, value }: any) => {
-                //   return (
-                //     <code
-                //       style={{
-                //         padding: "0.2em 0.4em",
-                //         margin: "0",
-                //         fontSize: "85%",
-                //         backgroundColor: "rgb(161, 161, 161)",
-                //         borderRadius: 6,
-                //         color: "white",
-                //       }}
-                //     >
-                //       {value}
-                //     </code>
-                //   );
-                // },
               }}
               remarkPlugins={[gfm]}
               transformImageUri={(src) => getRelativePathForPost(post.slug, src)}

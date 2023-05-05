@@ -39,3 +39,4 @@ _posts3
 local.config.json
 
 .env
+tsconfig.tsbuildinfo
