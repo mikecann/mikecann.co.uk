@@ -4,6 +4,7 @@ import { style } from "typestyle";
 
 interface Props {
   href: string;
+  children?: React.ReactElement;
 }
 
 const styles = style({

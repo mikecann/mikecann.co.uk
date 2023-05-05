@@ -17,6 +17,7 @@ import { MailchimpSignupPopup } from "../../components/mailchimp/MailchimpSignup
 import Head from "next/head";
 import { PostTags } from "../../components/PostTags";
 import { media, style } from "typestyle";
+import rehypeRaw from "rehype-raw";
 
 type Props = {
   post: Post;
@@ -32,46 +33,6 @@ const postContainerClass = style(
 const PostPage = ({ post, html }: Props) => {
   const { meta, slug } = post;
   const { title, date } = meta;
-
-  const renderers = {
-    image: (image: any) => {
-      return (
-        <div style={{ textAlign: "center" }}>
-          <a href={getRelativePathForPost(post.slug, image.src)}>
-            <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
-          </a>
-        </div>
-      );
-    },
-    code: ({ language, value }: any) => {
-      return (
-        <div style={{ fontSize: "0.8em" }}>
-          <SyntaxHighlighter
-            customStyle={{ borderRadius: 6 }}
-            style={darcula}
-            language={language}
-            children={value}
-          />
-        </div>
-      );
-    },
-    inlineCode: ({ language, value }: any) => {
-      return (
-        <code
-          style={{
-            padding: "0.2em 0.4em",
-            margin: "0",
-            fontSize: "85%",
-            backgroundColor: "rgb(161, 161, 161)",
-            borderRadius: 6,
-            color: "white",
-          }}
-        >
-          {value}
-        </code>
-      );
-    },
-  };
 
   return (
     <Layout>
@@ -150,9 +111,56 @@ const PostPage = ({ post, html }: Props) => {
             <ReactMarkdown
               className="markdown-content"
               children={html}
-              renderers={renderers}
-              allowDangerousHtml
-              plugins={[gfm]}
+              rehypePlugins={[rehypeRaw]}
+              components={{
+                // img: (image: any) => {
+                //   console.log(`PROPS`, image);
+                //   return (
+                //     <img src={image.src} alt={image.alt} />
+                //     // <div style={{ textAlign: "center" }}>
+                //     //   <a href={getRelativePathForPost(post.slug, image.src)}>
+                //     //     <img src={getRelativePathForPost(post.slug, image.src)} alt={image.alt} />
+                //     //   </a>
+                //     // </div>
+                //   );
+                // },
+                code: ({ node, inline, className, children, ...props }) => {
+                  const match = /language-(\w+)/.exec(className || "");
+                  return !inline && match ? (
+                    <SyntaxHighlighter
+                      {...props}
+                      customStyle={{ fontSize: "0.8em", borderRadius: 6 }}
+                      children={String(children).replace(/\n$/, "")}
+                      style={darcula}
+                      language={match[1]}
+                      PreTag="div"
+                    />
+                  ) : (
+                    <code {...props} className={className}>
+                      {children}
+                    </code>
+                  );
+                },
+                // inlineCode: ({ language, value }: any) => {
+                //   return (
+                //     <code
+                //       style={{
+                //         padding: "0.2em 0.4em",
+                //         margin: "0",
+                //         fontSize: "85%",
+                //         backgroundColor: "rgb(161, 161, 161)",
+                //         borderRadius: 6,
+                //         color: "white",
+                //       }}
+                //     >
+                //       {value}
+                //     </code>
+                //   );
+                // },
+              }}
+              remarkPlugins={[gfm]}
+              transformImageUri={(src) => getRelativePathForPost(post.slug, src)}
+              transformLinkUri={(href) => getRelativePathForPost(post.slug, href)}
             />
 
             <div
@@ -164,7 +172,7 @@ const PostPage = ({ post, html }: Props) => {
                 borderRadius: 6,
               }}
             >
-              <h3 style={{ textAlign: "center", color: "#aaa" }}>SIGNUP</h3>
+              <h3 style={{ textAlign: "center", color: "#aaa" }}>SUBSCRIBE TO POSTS</h3>
               <MailchimpSignupForm />
             </div>
 

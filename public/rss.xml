@@ -4,7 +4,7 @@
         <description><![CDATA[Blog - Mike Cann]]></description>
         <link>https://mikecann.co.uk</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Feb 2023 07:40:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 May 2023 04:01:08 GMT</lastBuildDate>
         <atom:link href="https://mikecann.co.uk/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[1,000,000 Views!!]]></title>
@@ -346,6 +346,14 @@ This is one of my favourite tunes of all time, glad someone has covered it, even
             <guid isPermaLink="false">https://mikecann.co.uk/posts/ai-and-the-future-of-game-development</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Thu, 03 Nov 2022 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI Profanity Checking in BattleTabs]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/ai-profanity-checking-in-battletabs</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/ai-profanity-checking-in-battletabs</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 02 May 2023 08:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[alien2]]></title>
@@ -5382,6 +5390,14 @@ Well it may have taken two weeks longer than [my original plan](/posts/lets-make
             <pubDate>Sun, 05 Aug 2012 20:52:06 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[The Future of Applications]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/the-future-of-applications</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/the-future-of-applications</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sat, 01 Apr 2023 07:31:40 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[The Irrational Behavior of People]]></title>
             <description><![CDATA[...]]></description>
             <link>https://mikecann.co.uk/posts/the-irrational-behavior-of-people</link>
@@ -5858,6 +5874,14 @@ So my trip has finally started! I have not had anywhere near as much free time t
             <guid isPermaLink="false">https://mikecann.co.uk/posts/the-trip-2013-washington-dc</guid>
             <dc:creator><![CDATA[Mike Cann]]></dc:creator>
             <pubDate>Tue, 21 May 2013 15:58:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Typescript Utils I Can't Live Without]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/the-typescript-utils-i-cant-live-without</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/the-typescript-utils-i-cant-live-without</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Tue, 14 Mar 2023 07:31:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Think Twice Before Getting an STA Travel Cashcard]]></title>

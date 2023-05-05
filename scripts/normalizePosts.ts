@@ -70,6 +70,7 @@ const normalizeMetadata = async () => {
       console.log(`downloading '${coverImage}'...`);
       const response = await fetch(coverImage);
       if (!response.ok) throw new Error(`unexpected response ${response.statusText}`);
+      if (!response.body) throw new Error(`response.body is null`);
       await streamPipeline(response.body, fs.createWriteStream(join(postDir, `cover.jpg`)));
       coverImage = `/public/posts/${filename}/cover.jpg`;
     }
