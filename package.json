@@ -1,6 +1,6 @@
 {
   "name": "next-mikecann",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "engines": {
     "node": "18"
@@ -44,9 +44,6 @@
     "rehype-raw": "^6.1.1",
     "remark": "^14.0.2",
     "remark-gfm": "^3.0.1",
-    "@mdx-js/loader": "^1.5.1",
-    "@mdx-js/react": "^1.6.18",
-    "@next/mdx": "^9.1.1",
     "remark-html": "^15.0.2",
     "rss": "^1.2.2",
     "typestyle": "^2.4.0"
