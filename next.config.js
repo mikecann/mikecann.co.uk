@@ -1,13 +1,10 @@
 const fs = require("fs");
 const { join } = require("path");
 const matter = require("gray-matter");
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-})
 
 const postsDirectory = join(process.cwd(), "public/posts");
 
-module.exports = withMDX({
+module.exports = {
   async redirects() {
     const redirects = [];
 
@@ -38,4 +35,4 @@ module.exports = withMDX({
       },
     ];
   },
-});
+};
