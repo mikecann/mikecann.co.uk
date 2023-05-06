@@ -113,6 +113,18 @@ const PostPage = ({ post, html }: Props) => {
               children={html}
               rehypePlugins={[rehypeRaw]}
               components={{
+                // img: (props) => {
+                //   return (
+                //     <div
+                //       style={{
+                //         width: "100%",
+                //         textAlign: "center",
+                //       }}
+                //     >
+                //       <img {...props} />
+                //     </div>
+                //   );
+                // },
                 code: ({ node, inline, className, children, ...props }) => {
                   const match = /language-(\w+)/.exec(className || "");
                   return !inline && match ? (
@@ -156,8 +168,10 @@ const PostPage = ({ post, html }: Props) => {
               }}
             />
 
-            <h3 style={{ textAlign: "center", color: "#aaa" }}>SUBSCRIBE TO POSTS</h3>
-            <MailchimpSignupForm />
+            <div style={{ backgroundColor: `rgba(0,0,0,0.015)`, padding: 10 }}>
+              <h3 style={{ textAlign: "center", color: "#aaa" }}>SUBSCRIBE TO FUTURE POSTS</h3>
+              <MailchimpSignupForm />
+            </div>
 
             <div
               style={{
@@ -168,11 +182,11 @@ const PostPage = ({ post, html }: Props) => {
               }}
             />
 
-            <MailchimpSignupPopup />
-
-            <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
-
-            <PostComments />
+            <div style={{ backgroundColor: `rgba(0,0,0,0.015)`, padding: 10 }}>
+              <MailchimpSignupPopup />
+              <h3 style={{ textAlign: "center", color: "#aaa" }}>COMMENT</h3>
+              <PostComments />
+            </div>
           </Vertical>
         </Horizontal>
       </Vertical>

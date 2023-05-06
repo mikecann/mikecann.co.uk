@@ -10,7 +10,9 @@ tags:
 title: AI Profanity Checking in BattleTabs
 ---
 
-AI is all the rage at the moment, for very good reason. Since I first wrote about it in the context of Game Development back [in November](https://mikecann.co.uk/posts/ai-and-the-future-of-game-development) I have been thinking how we can apply the latest advances to one of the thorniest issues we have [in our](https://gangbusters.io/) game [BattleTabs](https://battletabs.io/).
+AI is all the rage at the moment and for good reason, its going to revolutionize many industries.
+
+Since I first wrote about it in the context of Game Development back [in November](https://mikecann.co.uk/posts/ai-and-the-future-of-game-development) I have been thinking how we can apply some of the advances to [our](https://gangbusters.io/) game [BattleTabs](https://battletabs.io/).
 
 # Problem
 
@@ -62,7 +64,7 @@ Obviously it relied on people reporting others and then out Community moderators
 
 So it meant that some names slipped through the cracks or went days before being detected.
 
-# AI
+# AI Enters The Chat
 
 Enter ChatGPT in late 2022 and suddenly every problems seems possible to solve with the hammer that is LLMs.
 
@@ -94,11 +96,11 @@ Ill save you all the iterations we did around the prompts and just show you what
 }
 ```
 
-We set the temperature to very low as we wanted it to give consistent outputs given the same inputs, but im not sure how well that works.
+We set the temperature to very low as we wanted it to give consistent outputs given the same inputs, but im not sure is that makes much difference.
 
 We have quite a long prompt, this was based on recommendations from [awesome chat gpt prompts](https://github.com/f/awesome-chatgpt-prompts).
 
-We also had add the `the phrase is: '${phrase}'`, instead of simply providing the phrase because for some reason the AI would still get confused and try to respond to the phrase rather than the system message:
+We also added the `the phrase is: '${phrase}'`, instead of simply providing the phrase because for some reason the AI would still get confused and try to respond to the phrase rather than the system message:
 
 [![](./whoops.png)](./whoops.png)
 
