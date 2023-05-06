@@ -36,6 +36,7 @@ const Page = ({ tags }: Props) => {
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const postsByTag = groupPostsByTag(getAllPostsWithoutContent());
   const tagsByLastUsed = calculateTagsLastUse(postsByTag);
+
   const tags: Props["tags"] = tagsByLastUsed
     .sort((a, b) => b.lastUse.getTime() - a.lastUse.getTime())
     .map(({ tag, posts }) => ({ tag, postsCount: posts.length }));

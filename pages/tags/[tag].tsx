@@ -54,7 +54,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const query = ensure(params);
-  const tag = ensure(query.tag) + "";
+  const tag = decodeURIComponent(ensure(query.tag) + "");
   const posts = sortPosts(groupPostsByTag(getAllPosts())[tag], "desc");
   return {
     props: { tag, posts },

@@ -16,7 +16,7 @@ export const UtterencesPostComments: React.FC<Props> = ({}) => {
     ref: comment,
   });
 
-  console.log(`utterences status`, status);
+  //console.log(`utterences status`, status);
 
   return <div ref={comment}></div>;
 };

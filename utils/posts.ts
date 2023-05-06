@@ -3,14 +3,15 @@ import { Post, PostWithContent } from "../pages/api/posts";
 
 type SortDirection = "asc" | "desc";
 
-export const sortPosts = <T extends Post>(posts: T[], direction: SortDirection = "asc"): T[] =>
-  posts.sort((post1, post2) => {
+export const sortPosts = <T extends Post>(posts: T[], direction: SortDirection = "asc"): T[] => {
+  return posts.sort((post1, post2) => {
     const d1 = Date.parse(post1.meta.date);
     const d2 = Date.parse(post2.meta.date);
 
     if (d1 > d2) return direction == "desc" ? -1 : 1;
     return direction == "desc" ? 1 : -1;
   });
+};
 
 // export const sortPostsDescending = (posts: Post[]): Post[] =>
 //   posts.sort((post1, post2) =>
