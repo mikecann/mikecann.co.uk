@@ -1,13 +1,12 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { getAllPosts, Post } from "../api/posts";
 import { PostTeaser } from "../../components/PostTeaser";
 import { ensure } from "../../utils/ensure";
-import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { getAllYears, getPostsByYear, sortPosts } from "../../utils/posts";
 import { ArchiveYears } from "../../components/ArchiveYears";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import Head from "next/head";
+import { Post, getAllPosts } from "../../scripts/posts";
 
 type Props = {
   year: string;

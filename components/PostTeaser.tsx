@@ -1,12 +1,12 @@
 import { Grid, Vertical } from "gls/lib";
 import * as React from "react";
-import { Post } from "../pages/api/posts";
 import { format } from "date-fns";
 import Image from "next/image";
 import { getPostRootCoverImagePath } from "../utils/posts";
 import { style } from "typestyle";
 import Link from "next/link";
 import { PostTags } from "./PostTags";
+import { Post } from "../scripts/posts";
 
 interface Props {
   post: Post;

@@ -1,5 +1,4 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { getAllPosts, getPostBySlug, Post } from "../api/posts";
 import { ensure } from "../../utils/ensure";
 import Image from "next/image";
 import { Horizontal, Vertical } from "gls/lib";
@@ -17,8 +16,8 @@ import Head from "next/head";
 import { PostTags } from "../../components/PostTags";
 import { media, style } from "typestyle";
 import rehypeRaw from "rehype-raw";
-import Script from "next/script";
 import { PostComments } from "../../components/PostComments";
+import { Post, getAllPosts, getPostBySlug } from "../../scripts/posts";
 
 type Props = {
   post: Post;

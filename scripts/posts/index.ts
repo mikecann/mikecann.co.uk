@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { map, pipe } from "ramda";
 import { PostMeta, producePostMeta } from "./PostMeta";
 import imageSize from "image-size";
-import { removeContentFromPosts } from "../../../utils/posts";
+import { removeContentFromPosts } from "../../utils/posts";
 
 export type PostContent = string;
 

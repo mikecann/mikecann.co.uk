@@ -1,8 +1,8 @@
 import { Horizontal, Vertical } from "gls/lib";
 import * as React from "react";
-import { AlgoliaHit } from "../../pages/api/algolia/types";
 import { format } from "date-fns";
 import Link from "next/link";
+import { AlgoliaHit } from "../../scripts/algolia/types";
 
 export function SearchResult({ hit, onClick }: { hit: AlgoliaHit; onClick?: () => any }) {
   const { coverImage, createdAt, excerpt, title, slug } = hit;

@@ -1,12 +1,12 @@
 import { Horizontal, Vertical } from "gls/lib";
 import * as React from "react";
 import { Modal } from "../Modal";
-import { AlgoliaHit } from "../../pages/api/algolia/types";
 import { useWindowSize } from "../../utils/useWindowSize";
 import { CloseButton } from "../CloseButton";
 import { getAlgoliaIndex } from "../../utils/algolia";
 import { SearchResult } from "./SearchResult";
 import { match } from "ramda";
+import { AlgoliaHit } from "../../scripts/algolia/types";
 
 interface Props {
   onClose: () => any;

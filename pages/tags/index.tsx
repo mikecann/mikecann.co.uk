@@ -1,10 +1,10 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
 import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
-import { getAllPostsWithoutContent } from "../api/posts/index";
 import Link from "next/link";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import Head from "next/head";
+import { getAllPostsWithoutContent } from "../../scripts/posts";
 
 type Props = {
   tags: { tag: string; postsCount: number }[];

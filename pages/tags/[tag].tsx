@@ -1,9 +1,7 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { getAllPosts, Post, PostWithContent } from "../api/posts";
 import { PostTeaser } from "../../components/PostTeaser";
 import { ensure } from "../../utils/ensure";
-import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import {
   getAllYears,
   getPostsByYear,
@@ -15,6 +13,7 @@ import {
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import { encodeTag } from "../../utils/tags";
 import Head from "next/head";
+import { PostWithContent, getAllPosts } from "../../scripts/posts";
 
 type Props = {
   tag: string;

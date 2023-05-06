@@ -1,5 +1,5 @@
 import { omit } from "ramda";
-import { Post, PostWithContent } from "../pages/api/posts";
+import { Post, PostWithContent } from "../scripts/posts";
 
 type SortDirection = "asc" | "desc";
 

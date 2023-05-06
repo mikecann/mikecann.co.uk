@@ -1,11 +1,10 @@
 import { Grid, Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
-import { DesktopSidebarLayout } from "../../components/layout/DesktopSidebarLayout";
 import { PostsByYear, groupPostsByYear, sortPosts, sortYears } from "../../utils/posts";
 import { ArchiveCard } from "../../components/ArchiveCard";
-import { getAllPostsWithoutContent } from "../api/posts/index";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import Head from "next/head";
+import { getAllPostsWithoutContent } from "../../scripts/posts";
 
 type Props = {
   postsByYear: PostsByYear;

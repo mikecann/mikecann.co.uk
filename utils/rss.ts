@@ -1,5 +1,5 @@
-import { Post, PostWithContent } from "../pages/api/posts";
 import RSS from "rss";
+import { PostWithContent } from "../scripts/posts";
 
 const postContentToDescription = (content: string) => {
   const moreIndex = content.indexOf("<!-- more -->");

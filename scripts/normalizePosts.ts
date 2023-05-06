@@ -1,12 +1,12 @@
 import fs, { writeFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
-import { producePostMeta } from "../pages/api/posts/PostMeta";
 import { promisify } from "util";
 import fetch from "node-fetch";
 import { pipeline } from "stream";
 import imageSize from "image-size";
-import { getPostCoverImageAbsolutePath } from "../pages/api/posts/index";
+import { getPostCoverImageAbsolutePath } from "./posts";
+import { producePostMeta } from "./posts/PostMeta";
 
 const streamPipeline = promisify(pipeline);
 

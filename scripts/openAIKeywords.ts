@@ -1,11 +1,11 @@
 import puppeteer from "puppeteer";
-import { getAllPosts, PostWithContent } from "../pages/api/posts/index";
 import { Converter } from "showdown";
 import dotenv from "dotenv";
 import OpenAI from "openai-api";
 import fs from "fs";
 import { writeFileSync } from "fs";
 import matter from "gray-matter";
+import { PostWithContent, getAllPosts } from "./posts";
 
 dotenv.config({
   path: `.env`,

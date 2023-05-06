@@ -1,7 +1,7 @@
-import { getAllPosts } from "../pages/api/posts";
 import { generateRss } from "../utils/rss";
 import fs from "fs";
 import { sortPosts } from "../utils/posts";
+import { getAllPosts } from "./posts";
 
 async function bootstrap() {
   const posts = sortPosts(getAllPosts(), "desc");

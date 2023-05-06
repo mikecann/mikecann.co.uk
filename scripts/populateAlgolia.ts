@@ -1,7 +1,7 @@
 import algoliasearch from "algoliasearch";
-import { getAllPosts } from "../pages/api/posts/index";
-import { AlgoliaHit } from "../pages/api/algolia/types";
 import { config } from "../config/config";
+import { AlgoliaHit } from "./algolia/types";
+import { getAllPosts } from "./posts";
 
 const { ALGOLIA_ADMIN_KEY, ALGOLIA_APP_ID } = config;
 
