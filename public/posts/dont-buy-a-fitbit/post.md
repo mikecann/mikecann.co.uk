@@ -22,7 +22,7 @@ Surely Google has purely [altruistic reasons](https://time.com/5717726/google-fi
 
 Well I received my Versa 4 and quickly realized that past-Mike is a poor naive fool.
 
-## Can No Longer Create Custom Watchfaces or Apps
+## No Custom Watchfaces or Apps
 
 I have long enjoyed creating and running my own watchfaces on my Versa. I even wrote about how much I enjoyed the process [back in May 2021](https://mikecann.co.uk/posts/minimal-mike-a-fitbit-watchface).
 
