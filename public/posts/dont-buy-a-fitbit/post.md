@@ -66,19 +66,19 @@ Unfortunately however I quickly discovered that turning on this feature rapidly 
 
 I know technologically it's possible as every Garmin watch has an always-on display and maintains weeks or months of battery life.
 
-# Super annoying notifications
+# Annoying Notifications
 
 [![](./notifications.png)](./notifications.png)
 
 I couldn't find any good footage of this issue and for some reason my Versa has decided to stop sending me notifications at all (again) so just take my word for it, getting notifications on this device are super annoying.
 
-Im sure some designer at Fitbit thought it would be super cute if they played an intro animation every time you get a notification before actually showing you the contents of that notification. The issue is this intro takes like 2 seconds.
+Im sure some designer at Fitbit thought it would be cute if they played an intro animation every time you get a notification before actually showing you the contents of that notification. The issue is this intro takes like 2 seconds.
 
-This is super annoying when you want to quickly scan that text message while continuing what you are doing.
+This is annoying particularly when you want to quickly scan that text message while continuing what you are doing.
 
 Like with most other things with this watch, this is not configurable without entirely disabling notifications.
 
-# Every update resets settings
+# Update Resets Settings
 
 This one isn't a Versa 4 specific issue and has always happened to me on Fitbit devices but I thought I would mention it while im on the rant-train.
 
