@@ -94,8 +94,12 @@ input:focus {
   position: relative;
   color: #5d686f;
   font-size: 1.15em;
-  line-height: 1.4em;
+  /* line-height: 1.4em; */
   width: 100%;
+}
+
+.markdown-content p {
+  line-height: 1.4em;
 }
 
 .markdown-content img {
