@@ -2,7 +2,7 @@
 coverImage: ./header.jpg
 date: "2022-12-29T07:31:40.000Z"
 tags:
-  - BattleTabs
+  - battletabs
   - Gangbusters
   - GameDev
   - BabylonJS
