@@ -66,3 +66,7 @@ Early 2018 mike joined GenVis a company using the latest machine learning techni
 Later in 2018 mike left GenVis to join an exciting blockchain based development company Bamboo. He worked as the lead engineer responsible for developing both the front-end React Native mobile app and the back-end serverless Event-Sourced architecture.
 
 Early 2019 saw mike co-found Markd a SAAS company dedicated to making remembering people simple fast and fun. He currently works full time on the product while loving life in sunny Western Australia.
+
+Late in 2019 Markd pivoted from building a CMS to building a games company working on a web and chrome extension game BattleTabs. Later in 2022 the company was renamed to Gangbusters. More on the history of the game and company on this post: https://mikecann.co.uk/posts/battletabs-in-7-minutes
+
+Since then the company has grown in size and has taken on a number of full time and part time staff members while they ramp up their success on BattleTabs into a full mobile release.
