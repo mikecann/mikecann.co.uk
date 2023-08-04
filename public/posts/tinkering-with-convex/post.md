@@ -22,11 +22,11 @@ I personally find that I learn best by implementing something. So I started to w
 
 Then it hit me, why not build a Twitter clone. It has the requirement that you have realtime incoming messages, likes and other features and it can stretch the full-text searching and image uploading capabilities.
 
-But not just any Twitter clones are so 2006. This is 2023 so instead I built.. a Threads clone.. And because Twitter is now called X, thus "ThreadX" was born.
+But Twitter clones are so 2006. This is 2023 so instead I built.. a Threads clone.. And because Twitter is now called X, thus "ThreadX" was born.
 
 # Demo
 
-So after a rather fun 8 hours of solid tinkering I had an application. Its a little rough around the edges but you can see it in action here:
+So after a fun 8 hours of solid tinkering I had an application. Its a little rough around the edges but you can see it in action here:
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/kTYDdVEg1us" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -34,13 +34,13 @@ If you want to play with it yourself you can find the application at: [https://t
 
 # Things I love
 
-There is so much to love with Convex that its hard to know where, here are some of the things that I like the most:
+There is so much to love with Convex, here are some of the things that I like the most:
 
 ## Speed of development
 
-My is it ever fast to build stuff with Convex!
+Its so fast to build with Convex!
 
-The demo app I built above (ThreadX) took me less than a day to put together and a whole bunch of that time was spent fighting with UI libraries and flexbox. If I didnt bother styling it it would have been done much sooner.
+The demo app I built above (ThreadX) took me less than a day to put together and a whole bunch of that time was spent fighting with UI libraries (why I ever strayed from the trusty ChakraUI I dont know) and flexbox. If I didnt bother styling it it would have been done much sooner.
 
 Because Convex is a bundler, API layer, server-side route handler, database AND client-side query handler then you get incredible synergies from all of that.
 
@@ -107,9 +107,9 @@ I cant overstate how good it feels to be able to go at this speed AND know that 
 
 ## Realtime updates
 
-I have spent A LOT of time thinking about and coding up various realtime systems for both [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) and other projects over the years and let me tell you, its never simple and never "just works". There are ALWAYS caveats and issues.
+I have spent A LOT of time thinking about and coding up various realtime systems for both [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) and other projects and let me tell you, its never simple and never "just works". There are ALWAYS caveats and issues.
 
-Some issues I have encountered before are:
+Some problems I have encountered in the past:
 
 1. It works with individual entities, but doesnt work queries that involve lists of entities.
 2. [Its very inefficient / expensive](https://supabase.com/docs/guides/realtime/quotas)
@@ -117,7 +117,7 @@ Some issues I have encountered before are:
 4. [It only works at the "application"](https://wundergraph.com/blog/deprecate_graphql_subscriptions_over_websockets) level so any other changes to the database (dashboard, migrations, other changes) arent captured.
 5. [How do you have](https://the-guild.dev/blog/subscriptions-and-live-queries-real-time-with-graphql) a clean [developer experience](https://firebase.google.com/docs/firestore/query-data/listen) for this?
 
-So when I saw with Convex I could simply write this on the server:
+So I was exited that with Convex I could simply write this on the server:
 
 ```ts
 export const listAll = query({
@@ -160,17 +160,17 @@ export const AllMessages: React.FC<Props> = ({ list }) => {
 };
 ```
 
-I was 🤯.
+🤯
 
 This is the perfect developer experience in my opinion. You just declare the data you want in a simple to understand query and the platform takes care of the rest ensuring that "messages" is updated whenever there is something new or updated.
 
-Critically this also works for queries for documents that reference other documents (joins). So if one of those joined documents changes then the parent query is "invalidated" and updated.
+Critically this also works for queries that reference other documents (JOINs). So if one of those joined documents changes then the parent query is "invalidated" and updated.
 
 ## Flexible type-safe database schema
 
-I have been developing for [quite some time](https://mikecann.co.uk/about) now. Over the years I have worked with a great many databases.
+Over the [many](https://mikecann.co.uk/about) years of my development career I have worked with quite a few different databases.
 
-I started off with MySQL and MSSql then hopped on MongoDB when NoSQL was all the rage then migrated over to Postgres when the sugar-high wore off. In-between I have used hosted DBs like Parse, DynamoDB and Firebase too.
+I started off with MySQL and MSSQL then hopped on MongoDB when NoSQL was all the rage then migrated over to Postgres when the sugar-high wore off. In-between I used hosted DBs like Parse, DynamoDB and Firebase too.
 
 NoSQL databases were fun and scalable but I found that I ended up creating layers of abstraction around my database to enforce a "schema". I was basically re-creating a relational table structure on top of NoSQL which seemed crazy. So I made the leap to Postrgres which had the best of both, relational tables AND JSON columns.
 
@@ -356,13 +356,15 @@ Convex has a series of [blog posts](https://stack.convex.dev/row-level-security)
 1. [Sessions](https://stack.convex.dev/sessions-wrappers-as-middleware)
 2. [Authentication](https://stack.convex.dev/wrappers-as-middleware-authentication)
 3. [Data Migrations](https://stack.convex.dev/migrating-data-with-mutations)
-4. [Relationships](Stack post on relationship helpers)
+4. [Relationships](https://stack.convex.dev/functional-relationships-helpers)
 5. [Hono](https://stack.convex.dev/hono-with-convex)
 6. [Single-flighting](https://stack.convex.dev/throttling-requests-by-single-flighting)
 7. [Stable queries](https://stack.convex.dev/help-my-app-is-overreacting)
 8. [Presence](https://stack.convex.dev/presence-with-convex)
 
-Because DB queries are simply JS that is run inside of the DB then all those solutions are actually just implemented in JS (TS) and so their implementation is really clean and you can imagine coming up with any number of your own.
+Because DB queries are simply JS that is run inside of the DB then all those solutions are actually just implemented in JS (Typescript actually) and so their implementation is really clean and you can imagine coming up with any number of your own.
+
+BTW [this](https://www.youtube.com/watch?v=iizcidmSwJ4) video from the CTO a couple of years ago was super interesting if you want to go a little deeper and understand how this works.
 
 ## Automatic caching
 
@@ -404,13 +406,15 @@ This may or may not be an issue due to the way the JS-as-query-language works I 
 
 ## Requires internet connection
 
-I already mentioned that there is no self-hosted version of Convex and compared it to Firebase. One other downside of having no local version of your system is that should your internet go down you are no longer able to work on your project. This infact happened to me when I was working on ThreadX which forced me to go outside and touch grass.. ewww..
+I already mentioned that there is no self-hosted version of Convex and compared it to Firebase. One other downside of having no local version of your system is that should your internet go down you are no longer able to work on your project.
+
+This infact happened to me when I was working on ThreadX which forced me to go outside and touch grass.. ewww..
 
 ## No enforced reference constraints
 
 Unfortunately the schema doesn't enforce reference constraints this means that unlike Postgres you cant "CASCADE" when you delete a row. For example if I delete a message on ThreadX I would also like to delete any likes that might be associated with it.
 
-I understand this might be a challenging thing to do technically and IMO there are work arounds so its not that big of a deal.
+I understand this might be a challenging thing to do technically and there are work arounds so _shrug_ its probably not that big of a deal.
 
 It may also be solvable using [the relationship helpers](https://stack.convex.dev/functional-relationships-helpers).
 
@@ -430,7 +434,7 @@ There are a couple of things im not 100% sure on if they are good or bad, time w
 
 Convex [recently reached version 1](https://news.convex.dev/convex-1-0/) and with it they changed their [pricing structure](https://www.convex.dev/plans).
 
-Before they had a much simpler pricing outline but at the same time [I had concerns that the old plan didnt incentivize the right things](https://discord.com/channels/1019350475847499849/1132904064179511317/1132904064179511317).
+Before they had a much simpler pricing structure but at the same time [I had concerns that the old plan didnt incentivize the right things](https://discord.com/channels/1019350475847499849/1132904064179511317/1132904064179511317).
 
 The new plan is significantly more complicated but I think is good as it puts more concrete limits to prevent people abusing the system and making things worse for everyone else.
 
