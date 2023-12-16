@@ -138,8 +138,8 @@ Open questions for next time.
 
 # Conclusion
 
-This post is getting quite long and is getting quite negative. I dont want it to come across that way, I think SpacetimeDB is an interesting technology and is in a niece (realtime relational database targeted at game developers) that is very interesting to me.
+This post is getting quite long and is getting quite negative. I dont want it to come across that way, I think SpacetimeDB is an interesting technology and is in a niche (realtime relational database targeted at game developers) that is very interesting to me.
 
-I just feel like I perhaps am a bit too early to the project and it needs to bake for a good while longer before its ready for further tinkering.
+I just feel like perhaps its a bit too early for the project and it needs to bake for a good while longer before its ready for further tinkering.
 
 Keen to hear what you think if you have experimented with Spacetime, leave me a comment below :)
