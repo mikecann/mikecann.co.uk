@@ -68,7 +68,7 @@ spacetime call spacetime-sandbox send_message '["Hello, World!"]'
 
 Unfortunately I now got a different error.
 
-[![](./dns-error.png)](./dns-error.png)
+[![](./http-error.png)](./http-error.png)
 
 I decided to move on, hopefully this was just a CLI issue I thought.
 
@@ -86,7 +86,7 @@ I was now greeted with a new set of runtime errors in the console:
 
 [![](./ts-errors.png)](./ts-errors.png)
 
-Sigh. I suspect this might be something to do with the dns issue that I saw above.
+Sigh. I suspect this might be something to do with the HTTP issue that I saw above.
 
 I posted the problem to the discord once again but have yet to have a solution.
 
