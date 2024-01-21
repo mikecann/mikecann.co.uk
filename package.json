@@ -13,10 +13,13 @@
     "generateRSS": "yarn script ./scripts/generateRSS.ts",
     "script": "ts-node --files --project ./scripts/tsconfig.json",
     "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts",
-    "checkLinks": "yarn blc http://localhost:3000 -ro --exclude https://www.linkedin.com/in/mikecann"
+    "checkLinks": "yarn blc http://localhost:3000 -ro --exclude https://www.linkedin.com/in/mikecann",
+    "compress:all:lossless": "optimizt --lossless ./public",
+    "compress:textures:lossy": "optimizt ./public"
   },
   "dependencies": {
     "@artsy/fresnel": "^6.1.0",
+    "@funboxteam/optimizt": "^5.0.2",
     "@types/isomorphic-fetch": "^0.0.36",
     "@types/node-fetch": "^2.6.3",
     "@types/ramda": "^0.29.1",
