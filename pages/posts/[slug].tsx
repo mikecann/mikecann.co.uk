@@ -50,7 +50,13 @@ const PostPage = ({ post, html }: Props) => {
 
       <TopNavbar />
 
-      <Vertical width="100%" style={{ position: "relative", backgroundColor: "rgb(250 250 250)" }}>
+      <Vertical
+        width="100%"
+        style={{
+          position: "relative",
+          backgroundImage: `url('/images/background-pattern.jpg')`,
+        }}
+      >
         <div
           style={{
             width: "100%",
