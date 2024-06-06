@@ -99,7 +99,11 @@ input:focus {
 }
 
 .markdown-content p {
-  line-height: 1.4em;
+  line-height: 1.5em;
+}
+
+.markdown-content li {
+  line-height: 1.5em;
 }
 
 .markdown-content img {
