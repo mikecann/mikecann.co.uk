@@ -5,6 +5,7 @@ import "../styles/globals.css";
 import Head from "next/head";
 import { useEffect } from "react";
 import { setStylesTarget } from "typestyle";
+import { Analytics } from "@vercel/analytics/react";
 
 // normalize();
 // setupPage("body");
@@ -42,6 +43,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <meta property="og:type" content="website" key="og-type" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </GLSDefaults.Provider>
   );
 };
