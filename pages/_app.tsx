@@ -6,6 +6,19 @@ import Head from "next/head";
 import { useEffect } from "react";
 import { setStylesTarget } from "typestyle";
 import { Analytics } from "@vercel/analytics/react";
+import { PostHogProvider } from "posthog-js/react";
+import posthog from "posthog-js";
+
+if (typeof window !== "undefined") {
+  // checks that we are client-side
+  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY ?? "", {
+    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
+    person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+    loaded: (posthog) => {
+      if (process.env.NODE_ENV === "development") posthog.debug(); // debug mode in development
+    },
+  });
+}
 
 // normalize();
 // setupPage("body");
@@ -42,7 +55,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <meta property="og:image" content="https://mikecann.co.uk/images/me.jpg" key="og-image" />
         <meta property="og:type" content="website" key="og-type" />
       </Head>
-      <Component {...pageProps} />
+      <PostHogProvider client={posthog}>
+        <Component {...pageProps} />
+      </PostHogProvider>
       <Analytics />
     </GLSDefaults.Provider>
   );
