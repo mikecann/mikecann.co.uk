@@ -2,6 +2,7 @@ import { Grid, Horizontal } from "gls/lib";
 import * as React from "react";
 import Link from "next/link";
 import { style } from "typestyle";
+import { randomNiceColor } from "./utils/colors";
 
 interface Props extends React.ComponentProps<typeof Horizontal> {
   tags: string[];
@@ -36,13 +37,18 @@ export const PostTags: React.FC<Props> = ({ tags, style, ...rest }) => {
         color: "#ddd",
         fontSize: "0.6em",
         flexWrap: "wrap",
+        marginBottom: "-0.5em",
         ...style,
       }}
       spacing={5}
       {...rest}
     >
       {tags.map((t, i) => (
-        <div key={i} className={tagStyles}>
+        <div
+          key={i}
+          className={tagStyles}
+          style={{ backgroundColor: randomNiceColor(t), marginBottom: "0.5em" }}
+        >
           <div style={{ cursor: "pointer" }} onClick={() => (window.location.href = `/tags/${t}`)}>
             {String(t)}
           </div>

@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2024-06-06T07:31:40.000Z"
+date: "2024-07-01T07:31:40.000Z"
 tags:
   - ai
   - code
@@ -15,11 +15,11 @@ tags:
 title: Whisper Farm - Parallel Transcription
 ---
 
-I really enjoy reading [Ian Macartney's](https://stack.convex.dev/author/ian-macartney) on the Convex blog and when I saw his post about [Work Stealing](https://stack.convex.dev/work-stealing) a strategy for distributing compute heavy workloads I decided I wanted to have a play with it myself..
+I enjoy reading [Ian Macartney's](https://stack.convex.dev/author/ian-macartney) posts on the Convex blog. When I saw his piece on [Work Stealing](https://stack.convex.dev/work-stealing), a strategy for distributing compute-heavy workloads, I decided to try it myself.
 
-# TLDR;
+# TL;DR
 
-Checkout the demo video below to see what I built:
+Check out the demo video below to see what I built:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/sovYE3sWszY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -27,70 +27,64 @@ Code: [https://github.com/mikecann/whisper-farm](https://github.com/mikecann/whi
 
 # Whisper Farm
 
-The idea was to see if I can speed up podcast transcription by parallelizing "chunking" the task up into separate "jobs" then performing each in parallel on [Fly.io's GPU machines](https://fly.io/gpu).
+I aimed to speed up podcast transcription by parallelizing the task into separate "jobs" and performing each in parallel on [Fly.io's GPU machines](https://fly.io/gpu).
 
-Each Fly.io machine is a single docker container that contains a Whisper binary provided by [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win), an [FFmpeg](https://github.com/kribblo/node-ffmpeg-installer) binary and a nodejs "worker" that runs either "chunking" or "transcription" jobs.
+Each Fly.io machine runs a single Docker container with a Whisper binary from [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win), an [FFmpeg](https://github.com/kribblo/node-ffmpeg-installer) binary, and a Node.js "worker" for "chunking" or "transcription" jobs.
 
-To orchestrate all this I used [Convex](https://convex.dev) which is an excellent backend as a service that I have written about [many times before](https://mikecann.co.uk/tags/convex).
+To orchestrate this, I used [Convex](https://convex.dev), an excellent backend as a service that I’ve discussed [many times before](https://mikecann.co.uk/tags/convex).
 
 # Challenges
 
-This project was actually quite a bit more challenging than I thought it would be at first.
+This project was more challenging than I initially thought.
 
-Much of the difficulties I faced were Docker and Fly.io related, the Convex part was generally problem free.
+Most difficulties were related to Docker and Fly.io, while the Convex part was problem-free.
 
 ## Docker
 
-I am a long way from a Docker expert and as such this fact caused me many headaches when attempting to package up the Whisper model and code.
+Not being a Docker expert caused several headaches when packaging the Whisper model and code.
 
-I started off in high hopes after reading [this blog post](https://fly.io/blog/transcribing-on-fly-gpu-machines/) from Fly. Unfortunately I quickly ran into the issue that I didnt want to run this as a standalone container, instead I wanted to run my worker code along side it so that I could startup and scale machines without having to also worry about scaling whisper machines which would complicate things and increase costs. I wanted a worker to be a self-contained standalone thing.
+I started off in high hopes after reading [this blog post](https://fly.io/blog/transcribing-on-fly-gpu-machines/) from Fly. However, I soon realized I didn't want to run it as a standalone container. Instead, I wanted my worker code to run alongside it, simplifying scaling and cost management. I wanted a self-contained worker.
 
-It turns out doing this is docker is not easy. I thought it would be simple to "simply" merge two Dockerfiles. It appears this is not the case :P
+Merging two Dockerfiles turned out to be complex. Eventually, I abandoned that approach and used a [Whisper binary](https://github.com/Purfview/whisper-standalone-win), dynamically downloading and unzipping it when the container was constructed.
 
-To cut a long story short what I ended up doing was abandoning the merging approach and instead use a [whisper binary](https://github.com/Purfview/whisper-standalone-win) and instead just dynamically download and unzip that when the container is constructed.
+Another issue was the large Docker image size, around 15 GB, causing problems on Fly.io. Machines wouldn't start or took a long time, likely due to the image size. Fly.io's error messages weren't helpful here.
 
-The next issue I faced was that I found my docker image getting very large, on the order of 15 gig or so. This was causing all kinds of problems on the Fly side. Machines wouldnt start for unknown reasons or would just take a long time. In the end I assumed it was because the images were so large but Fly wasn't particularly helpful with its errors on this one.
-
-So how to make a Docker image smaller? Well ChatGPT give me a great bit of info I didn't know about Docker containers. Every time you use the "RUN" command it creates a new layer in the image. So by re-arranging the order I ran the RUN commands and also combining some RUN's together I was able to take it down from 15GB to 5GB
+To reduce the Docker image size, I learned (thanks, ChatGPT!) that each "RUN" command creates a new layer. By rearranging and combining "RUN" commands, I reduced the image size from 15 GB to 5 GB.
 
 [![](./dockerimagesize.png)](./dockerimagesize.png)
 
-I think what this experience taught me is that I need to do a bit more reading / watching videos around Docker, there is clearly some learnings that I still need here.
+This experience taught me that I probably need to learn a bit more about Docker fundamentals.
 
 # UI - Shadcn & Tailwind
 
-So another side-quest I went on for this project was to experiment with "the new hotness" in web UI design.
+Another side quest was experimenting with "the new hotness" in web UI design.
 
 [![](./shadcnui.png)](./shadcnui.png)
 
-[Shadcn/ui](https://ui.shadcn.com/) is all the rage at the moment. The main idea is that you "copy and paste" the component code directly into your project then directly modify the component yourself effectively creating your own component library.
+[Shadcn/ui](https://ui.shadcn.com/) is popular right now. The idea is to copy and paste component code directly into your project and modify it, creating your own component library.
 
-Shadcn uses Tailwind to do the styling. I have put off using Tailwind for a while as I have never been a massive fan on "[stringly typed](https://wiki.c2.com/?StringlyTyped)" things but I decided to give it a crack as it seems like just about everyone and their cat uses Tailwind these days.
+Shadcn uses Tailwind for styling. Although I’ve avoided Tailwind due to its "[stringly typed](https://wiki.c2.com/?StringlyTyped)" nature, I decided to try it since it’s widely used.
 
 My conclusions?
 
-Im not sold. Sorry if this offends you.
+I’m just not sold on Tailwind. I dislike its stringly typed nature and the need for additional tools like `prettier-plugin-tailwindcss` and extra linting rules. Managing className attributes requires more libraries like `tailwind-merge` and `class-variance-authority` which irks me. Tailwind also needs its own compiler/toolchain which is yet another headache to deal with.
 
-I still dont like the stringly typed nature of Tailwind. I have to bring in so many other third party tools to try to make it work such as prettier-plugin-tailwindcss and extra linting rules. Additional there are pains around combining className attributes so you have to use additional libraries like tailwind-merge and class-variance-authority just to make it work in a sane way. not to mention that Tailwind requires its own compiler / toolchain sigh.
-
-Shadcn/ui is also another dud for me. On one hand I do like the copy paste nature of the UI there and you can in theory get things going quite quick. I just found myself getting frustrated that the copy-paste component is missing a heap of things I have come to expect from my UI library.
-
-Also when it comes time to actually making changes to the components, you open one up and..
+Shadcn/ui was also disappointing. While the copy-paste nature is quick, the components lacked features I expected from a UI library. Modifying components that often looked like this is just simply confusing:
 
 [![](./tailwind.png)](./tailwind.png)
 
-... cool cool cool cool cool cool
-
 # Issues and Future Work
 
-So back to the point of this post.
+Back to the main point of this post.
 
-I got this to the point that I feel like I had proven out the concept and learnt a bunch along the way. I think if I wanted to take this futher there would be a bunch more work needed. In no particular order:
+I think I proved the concept of work-stealing and learned a lot along the way. There is however more work that would be needed to take this further.
 
-- The transcription result might be larger than the 1mb row limit in the database (https://docs.convex.dev/production/state/limits) so we might have to store it as a file instead
-- There is virtually no error handling around fly machines starting up etc, so this is definately required to make sure we can recover from errors
-- There is not much in the way of testing at all at the moment, so this makes me a bit nervous about the fragile code
-- In addition to the above the code is rather messy and really could do with tidying up
-- There is no authorization or authentication in place so this is obviously not great
-- There is no limits on the number of workers that can be started, so this could be a problem
-- The UI is really very basic and could do with a lot of work and is more of an experiment than anything else for me to tinker with Shadcn and Tailwind
+Some key areas include:
+
+- Transcription results might exceed the 1 MB row limit in the database (https://docs.convex.dev/production/state/limits), so storing it as a file might be necessary.
+- Error handling for Fly.io machine startup needs improvement.
+- More testing is required to ensure stability.
+- The code is messy and needs tidying up.
+- There’s no authorization or authentication.
+- Worker count limits are needed to prevent potential issues.
+- The UI is basic and was more of an experiment with Shadcn and Tailwind.

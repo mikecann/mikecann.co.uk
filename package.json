@@ -9,7 +9,7 @@
     "dev": "next dev",
     "build": "yarn populateAlgolia && yarn generateRSS && next build",
     "start": "next start",
-    "compile": "tsc --noEmit",
+    "dev:ts": "tsc --noEmit -w",
     "generateRSS": "yarn script ./scripts/generateRSS.ts",
     "script": "ts-node --files --project ./scripts/tsconfig.json",
     "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts",
