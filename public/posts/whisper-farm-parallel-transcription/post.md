@@ -1,5 +1,5 @@
 ---
-coverImage: ./header.jpg
+coverImage: ./header.webp
 date: "2024-07-01T07:31:40.000Z"
 tags:
   - ai
@@ -51,7 +51,7 @@ Another issue was the large Docker image size, around 15 GB, causing problems on
 
 To reduce the Docker image size, I learned (thanks, ChatGPT!) that each "RUN" command creates a new layer. By rearranging and combining "RUN" commands, I reduced the image size from 15 GB to 5 GB.
 
-[![](./dockerimagesize.png)](./dockerimagesize.png)
+[![](./dockerimagesize.webp)](./dockerimagesize.webp)
 
 This experience taught me that I probably need to learn a bit more about Docker fundamentals.
 
@@ -59,7 +59,7 @@ This experience taught me that I probably need to learn a bit more about Docker 
 
 Another side quest was experimenting with "the new hotness" in web UI design.
 
-[![](./shadcnui.png)](./shadcnui.png)
+[![](./shadcnui.webp)](./shadcnui.webp)
 
 [Shadcn/ui](https://ui.shadcn.com/) is popular right now. The idea is to copy and paste component code directly into your project and modify it, creating your own component library.
 
