@@ -4,9 +4,8 @@ import { ResponsiveSidebarLayouts } from "../../../components/layout/ResponsiveS
 import Head from "next/head";
 import { PostWithContent } from "../../../scripts/posts";
 import { useQuery } from "convex/react";
-import { api } from "../_generated/api";
-import { Doc } from "../_generated/dataModel";
 import Link from "next/link";
+import { makeFunctionReference } from "convex/server";
 
 type Props = {};
 
@@ -21,7 +20,7 @@ type Item = {
 const defaultHeaderImageUrl = `https://images.unsplash.com/photo-1617050318658-a9a3175e34cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80`;
 
 export const Items = ({}: Props) => {
-  const items: Item[] | null = useQuery(api.items.listForMikesBlog);
+  const items: Item[] | null = useQuery(makeFunctionReference("items:listForMikesBlog") as any);
 
   if (!items) return <div>loading..</div>;
 
