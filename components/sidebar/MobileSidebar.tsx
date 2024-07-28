@@ -13,6 +13,7 @@ import { SearchModal } from "../searchModal/SearchModal";
 import { useState } from "react";
 import { Background } from "./Background";
 import Link from "next/link";
+import { PiTreasureChestDuotone } from "react-icons/pi";
 
 interface Props {}
 
@@ -43,6 +44,7 @@ export const MobileSidebar: React.FC<Props> = ({}) => {
           <PageButton icon={<IoMdInformationCircle />} href="/about" />
           <PageButton icon={<FaRssSquare />} href="/rss.xml" />
           <PageButton icon={<IoMdSearch />} onClick={() => setSearchVisible(true)} />
+          <PageButton icon={<PiTreasureChestDuotone />} href="/stash" />
         </Vertical>
       </Background>
       {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}

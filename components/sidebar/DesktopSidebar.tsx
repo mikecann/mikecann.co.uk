@@ -4,6 +4,7 @@ import { PageButton } from "./PageButton";
 import { FaHome, FaTags, FaRssSquare } from "react-icons/fa";
 import { HiArchive } from "react-icons/hi";
 import { IoMdSearch, IoMdInformationCircle } from "react-icons/io";
+import { PiTreasureChestDuotone } from "react-icons/pi";
 import { SearchModal } from "../searchModal/SearchModal";
 import { useState } from "react";
 import { Background } from "./Background";
@@ -47,6 +48,7 @@ export const DesktopSidebar: React.FC<Props> = ({}) => {
           <PageButton icon={<IoMdInformationCircle />} label="About" href="/about" />
           <PageButton icon={<FaRssSquare />} label="RSS" href="/rss.xml" />
           <PageButton icon={<IoMdSearch />} label="Search" onClick={() => setSearchVisible(true)} />
+          <PageButton icon={<PiTreasureChestDuotone />} label="Stash" href="/stash" />
         </Grid>
       </Background>
       {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}

@@ -9,6 +9,7 @@ import { useState } from "react";
 import { Background } from "./Background";
 import { SocialIcons } from "./SocialIcons";
 import Link from "next/link";
+import { PiTreasureChestDuotone } from "react-icons/pi";
 
 interface Props {}
 
@@ -45,6 +46,7 @@ export const TabletSidebar: React.FC<Props> = ({}) => {
           <PageButton icon={<IoMdInformationCircle />} label="About" href="/about" />
           <PageButton icon={<FaRssSquare />} label="RSS" href="/rss.xml" />
           <PageButton icon={<IoMdSearch />} label="Search" onClick={() => setSearchVisible(true)} />
+          <PageButton icon={<PiTreasureChestDuotone />} label="Stash" href="/stash" />
         </Vertical>
       </Background>
       {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}
