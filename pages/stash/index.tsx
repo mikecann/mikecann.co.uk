@@ -21,6 +21,7 @@ const Page = ({ tags }: Props) => {
           ? "https://clear-rabbit-84.convex.cloud"
           : "https://festive-sparrow-314.convex.cloud"
       ),
+    //new ConvexReactClient("https://festive-sparrow-314.convex.cloud"),
     []
   );
   return (
@@ -29,8 +30,9 @@ const Page = ({ tags }: Props) => {
         <Head>
           <title key="title">stash - mikecann.co.uk</title>
         </Head>
-        <Vertical style={{ marginBottom: 20 }}>
-          <h1 style={{ marginBottom: "0px" }}>My Stash</h1>
+        <Vertical className="stash-page" style={{ marginBottom: 20 }}>
+          <img src="/images/stashit-logo.png" width="200px" style={{}} />
+          <h1 style={{ margin: "0px" }}>My Stash</h1>
           <p>
             Articles that I have been reading lately.. This is part of my <a>StashIt</a> project.
           </p>
@@ -40,18 +42,5 @@ const Page = ({ tags }: Props) => {
     </ConvexProvider>
   );
 };
-
-// export const getStaticProps: GetStaticProps<Props> = async () => {
-//   const postsByTag = groupPostsByTag(getAllPostsWithoutContent());
-//   const tagsByLastUsed = calculateTagsLastUse(postsByTag);
-
-//   const tags: Props["tags"] = tagsByLastUsed
-//     .sort((a, b) => b.lastUse.getTime() - a.lastUse.getTime())
-//     .map(({ tag, posts }) => ({ tag, postsCount: posts.length }));
-
-//   return {
-//     props: { tags },
-//   };
-// };
 
 export default Page;

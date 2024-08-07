@@ -4,8 +4,123 @@
         <description><![CDATA[Blog - Mike Cann]]></description>
         <link>https://mikecann.co.uk</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 May 2023 04:45:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jul 2024 09:19:52 GMT</lastBuildDate>
         <atom:link href="https://mikecann.co.uk/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Whisper Farm - Parallel Transcription]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/whisper-farm-parallel-transcription</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/whisper-farm-parallel-transcription</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 01 Jul 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tinkering With Temporal.io]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/tinkering-with-tempoaral-io</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-tempoaral-io</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 06 Jun 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tinkering With AI App Generators - LazyAI, Pythagora.ai]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/tinkering-with-ai-app-generators</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-ai-app-generators</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sun, 19 May 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BattleTabs Enters Soft Launch!]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/battletabs-enters-soft-launch</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/battletabs-enters-soft-launch</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 11 Apr 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10 Years in Oz]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/10-years-in-oz</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/10-years-in-oz</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Thu, 14 Mar 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meetup.com and the Cancel Subscription Dark Pattern]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/meetup-and-the-cancel-subscription-dark-pattern</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/meetup-and-the-cancel-subscription-dark-pattern</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Fri, 02 Feb 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Improving Performance in BabylonJS]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/improving-performance-in-babylonjs</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/improving-performance-in-babylonjs</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 22 Jan 2024 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tinkering With SpacetimeDB]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/tinkering-with-spacetime-db</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-spacetime-db</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sat, 16 Dec 2023 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Im now a Convex.dev Developer Champion!]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/im-now-a-convex-developer-advocate</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/im-now-a-convex-developer-advocate</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 06 Nov 2023 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chatter Craft - collaborative art with just your voice]]></title>
+            <description><![CDATA[
+I have got to be honest, I have never heard of [Web Dev Cody](https://www.youtube.com/@WebDevCody) before but when I saw that he had a [hackathon](https://hackathon.webdevcody.com/) in partnership with [Convex](https://www.convex.dev/) I knew I was going to have to carve off a bit of time from [BattleTabs](https://battletabs.com/) development to have a crack.
+
+...]]></description>
+            <link>https://mikecann.co.uk/posts/chatter-craft-collaborative-art-with-just-your-voice</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/chatter-craft-collaborative-art-with-just-your-voice</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 02 Oct 2023 07:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Moving Home & Starlink]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/moving-home-and-startlink</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/moving-home-and-startlink</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Fri, 08 Sep 2023 08:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tinkering With Convex]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/tinkering-with-convex</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/tinkering-with-convex</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Fri, 04 Aug 2023 08:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BattleTabs in 7 Minutes]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/battletabs-in-7-minutes</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/battletabs-in-7-minutes</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Mon, 17 Jul 2023 08:31:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Don't Buy a Fitbit]]></title>
+            <description><![CDATA[...]]></description>
+            <link>https://mikecann.co.uk/posts/dont-buy-a-fitbit</link>
+            <guid isPermaLink="false">https://mikecann.co.uk/posts/dont-buy-a-fitbit</guid>
+            <dc:creator><![CDATA[Mike Cann]]></dc:creator>
+            <pubDate>Sun, 11 Jun 2023 08:31:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[AI Profanity Checking in BattleTabs]]></title>
             <description><![CDATA[...]]></description>
