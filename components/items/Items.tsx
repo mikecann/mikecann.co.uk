@@ -133,7 +133,8 @@ export const Items = ({}: Props) => {
             justifyContent: "center",
             padding: "5px 10px 10px 10px",
             height: "50px",
-            backgroundColor: "rgba(0,0,0.05)",
+            marginTop: "50px",
+            opacity: 0.3,
           }}
           ref={ref}
         >
