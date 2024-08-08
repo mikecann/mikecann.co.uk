@@ -7,7 +7,7 @@ import Head from "next/head";
 import { getAllPostsWithoutContent } from "../../scripts/posts";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { useMemo } from "react";
-import { Items } from "./_components/Items";
+import { Items } from "../../components/items/Items";
 
 type Props = {
   tags: { tag: string; postsCount: number }[];

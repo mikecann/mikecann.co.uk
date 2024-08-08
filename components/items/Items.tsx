@@ -1,8 +1,8 @@
 import { Grid, Horizontal, Vertical } from "gls/lib";
-import { PostTeaser } from "../../../components/PostTeaser";
-import { ResponsiveSidebarLayouts } from "../../../components/layout/ResponsiveSidebarLayouts";
+import { PostTeaser } from "../PostTeaser";
+import { ResponsiveSidebarLayouts } from "../layout/ResponsiveSidebarLayouts";
 import Head from "next/head";
-import { PostWithContent } from "../../../scripts/posts";
+import { PostWithContent } from "../../scripts/posts";
 import { usePaginatedQuery, useQuery } from "convex/react";
 import Link from "next/link";
 import { makeFunctionReference } from "convex/server";
