@@ -14,6 +14,7 @@ html {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* a {
@@ -106,6 +107,14 @@ input:focus {
   line-height: 1.5em;
 }
 
+.markdown-content h1 a,
+.markdown-content h2 a,
+.markdown-content h3 a,
+.markdown-content h4 a,
+.markdown-content h5 a {
+  color: #5d686f;
+}
+
 .markdown-content img {
   max-width: 100%;
   margin-top: 20px;
@@ -152,7 +161,8 @@ blockquote p {
   font-size: 2em;
 } */
 
-.navbar-title a, .stash-page a {
+.navbar-title a,
+.stash-page a {
   color: #5d686f;
 }
 

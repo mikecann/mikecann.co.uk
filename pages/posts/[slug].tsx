@@ -18,6 +18,8 @@ import { media, style } from "typestyle";
 import rehypeRaw from "rehype-raw";
 import { PostComments } from "../../components/PostComments";
 import { Post, getAllPosts, getPostBySlug } from "../../scripts/posts";
+import { generateSlug, slugFromChildren } from "../../components/utils/slug";
+import { HeadingLink } from "../../components/HeadingLink";
 
 type Props = {
   post: Post;
@@ -131,6 +133,61 @@ const PostPage = ({ post, html }: Props) => {
                 //     </div>
                 //   );
                 // },
+                h1: ({ ...props }) => {
+                  const slug = slugFromChildren(props.children);
+                  return (
+                    <h1
+                      id={slug}
+                      style={{ position: "relative", display: "flex", alignItems: "center" }}
+                    >
+                      <HeadingLink href={`#${slug}`} {...(props as any)} />
+                    </h1>
+                  );
+                },
+                h2: ({ ...props }) => {
+                  const slug = slugFromChildren(props.children);
+                  return (
+                    <h2
+                      id={slug}
+                      style={{ position: "relative", display: "flex", alignItems: "center" }}
+                    >
+                      <HeadingLink href={`#${slug}`} {...(props as any)} />
+                    </h2>
+                  );
+                },
+                h3: ({ ...props }) => {
+                  const slug = slugFromChildren(props.children);
+                  return (
+                    <h3
+                      id={slug}
+                      style={{ position: "relative", display: "flex", alignItems: "center" }}
+                    >
+                      <HeadingLink href={`#${slug}`} {...(props as any)} />
+                    </h3>
+                  );
+                },
+                h4: ({ ...props }) => {
+                  const slug = slugFromChildren(props.children);
+                  return (
+                    <h4
+                      id={slug}
+                      style={{ position: "relative", display: "flex", alignItems: "center" }}
+                    >
+                      <HeadingLink href={`#${slug}`} {...(props as any)} />
+                    </h4>
+                  );
+                },
+                h5: ({ ...props }) => {
+                  const slug = slugFromChildren(props.children);
+                  return (
+                    <h5
+                      id={slug}
+                      style={{ position: "relative", display: "flex", alignItems: "center" }}
+                    >
+                      <HeadingLink href={`#${slug}`} {...(props as any)} />
+                    </h5>
+                  );
+                },
                 code: ({ node, inline, className, children, ...props }) => {
                   const match = /language-(\w+)/.exec(className || "");
                   return !inline && match ? (
