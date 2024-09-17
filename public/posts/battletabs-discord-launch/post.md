@@ -45,11 +45,11 @@ After a brief call with Discord, we went live! We immediately started to see our
 
 ![](./initial-spike-graph.png)
 
-And this is where the fun started. To explain the issues we were soon to face, I first have to explain the architecture for BattleTabs a bit. Check out the following diagram:
+And this is where the fun started. To explain the issues we were soon to face, I first have to explain the architecture for BattleTabs a bit.
 
 ![](./architecture1.png)
 
-You can see from the diagram that we have two different kinds of servers. "Web" servers are the ones users connect to via WebSockets. These can scale out horizontally and generally aren’t a problem.
+You can see from the above diagram that we have two different kinds of servers. Users connect to the "Web" servers via WebSockets, these scale out horizontally and generally aren’t a problem.
 
 The other kind is the "worker" server. This is a singleton server and was serving many roles (foreshadowing). Some of its responsibilities include:
 
@@ -72,13 +72,13 @@ It was sitting at about 50% utilization for most of the day, which was a bit hig
 
 I woke up to an absolute nightmare. The servers had clearly been having a bad time while I was asleep. I hopped on [our Discord Server](https://discord.gg/fTdxf4y9) and saw that many players were complaining about the game not working correctly.
 
-I took a look at my app event queue metrics and, to my horror, saw that there were over 3 million events in the queue waiting to be processed.
+I took a look at the app event queue and, to my horror, saw that there were over 3 million events in the queue waiting to be processed.
 
 ![](./3m-queued-events.png)
 
-The number was decreasing, but even after much tweaking of the various settings, I calculated it would take 26 hours for my poor single worker server to clear the queue, on top of everything else it was dealing with.
+The number was decreasing, but even after much tweaking of the various settings, I calculated it would take 26 hours for my poor single worker server to clear them all down, on top of everything else it was dealing with.
 
-I felt like I didn’t have much of a choice, though, as before I could make any architectural changes, I needed to clear this queue to avoid losing data or causing more problems by handling events out of order.
+Before I could make any architectural changes to the servers, I needed to clear this queue to avoid losing data or causing more problems by handling events out of order.
 
 ![](./slack-to-brandon.png)
 
@@ -127,15 +127,14 @@ To explain what I mean, let's take an example event, `matchFinished`. (By the wa
 + MedalAwardingService - to potentially award a user a new medal
 + UserChatDetectionService - to check for abuse if a user plays the same person multiple times
 + UserStatsService - to update a user’s stats
++ ChallengeUpdatingService - to progress any challenges the user might be on
 + TVChannelsService - to update any playing BattleTabsTV instances
 
 Each of these is a totally different feature in the game and independent of each other, which is why they are handled as events rather than inline function calls in the first place.
 
 When a battle was finished, I would publish a `matchFinished` event to the queue ([managed by pgboss](https://github.com/timgit/pg-boss)). The event would then be picked up by a background worker to handle all that work mentioned above.
 
-I realized, though, that instead of sending it to the background, I could simply emit a "server event" in addition to the "app event." Then, each of those systems could listen to the server event instead
-
- of the app event.
+I realized, though, that instead of sending it to the background, I could simply emit a "server event" in addition to the "app event". These server events would only be listenable by services running on that one server.
 
 This shifted the computational burden from the background workers to the web workers, which could easily scale horizontally.
 
@@ -143,7 +142,7 @@ It seems obvious now, but hindsight is 20/20. I had been so focused on client-si
 
 So, shortly after 4 p.m., the events were all cleared. I scaled the eventsWorkers down from 15 to 3, then pushed my "server events" change.
 
-This immediately reduced worker load but increased web server load. However, web servers could [auto-scale](https://fly.io/docs/reference/autoscaling/) up.
+This immediately reduced worker load but increased web server load as expected. Web servers could [auto-scale](https://fly.io/docs/reference/autoscaling/) up however so I wasn't worried.
 
 I went to bed feeling pretty good about things. I did tell Brandon (who is based in the UK) to call me if the servers went down.
 
@@ -163,9 +162,11 @@ This time, it wasn’t immediately obvious what was wrong. It appeared that the 
 
 By 4:30 a.m. my brain really wasn’t working properly. I felt like the game was stable, so I decided to get an hour of sleep.
 
+### Later on Friday
+
 Awake and rested, I realized what the problem might be.
 
-As I mentioned above, one of the worker server’s responsibilities was:
+As previously mentioned, one of the worker server’s responsibilities was:
 
 > Polling the database for matchmaking, AI turn-taking, daily shop reward rotations, etc.
 

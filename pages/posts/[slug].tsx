@@ -121,18 +121,16 @@ const PostPage = ({ post, html }: Props) => {
               children={html}
               rehypePlugins={[rehypeRaw]}
               components={{
-                // img: (props) => {
-                //   return (
-                //     <div
-                //       style={{
-                //         width: "100%",
-                //         textAlign: "center",
-                //       }}
-                //     >
-                //       <img {...props} />
-                //     </div>
-                //   );
-                // },
+                img: (props) => {
+                  return (
+                    <div>
+                      <a href={props.src}><img {...props} /></a>
+                      <div className="image-alt">
+                        {props.alt}
+                      </div>
+                    </div>
+                  );
+                },
                 h1: ({ ...props }) => {
                   const slug = slugFromChildren(props.children);
                   return (
