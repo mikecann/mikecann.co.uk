@@ -31,11 +31,9 @@ Fast forward a year or two, and after much hard work by [Brandon](https://www.ga
 
 The first step was a "geo test" or soft launch, focusing on Canada. This was an opportunity for Discord to see how the game performed before deciding whether to move forward with a global launch.
 
-One of the key metrics Discord was looking for was "User Sentiment." This value is calculated by asking users if they enjoyed the game after playing.
-
 ![](./happy-meme.png)
 
-After two weeks of the game being available in Canada, we sat down with Discord again, and they gave us the very exciting news that the game had done exceedingly well, with user sentiment much higher than required. As a result, they wanted to take us to a global launch.
+After two weeks of the game being available in Canada, we sat down with Discord again, and they gave us the very exciting news that the game had done exceedingly well. As a result, they wanted to take us to a global launch.
 
 We scheduled the official global launch for 10 a.m. my time (Western Australia) on Tuesday, September 10th.
 
