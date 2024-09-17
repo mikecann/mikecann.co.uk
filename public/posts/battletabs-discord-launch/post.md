@@ -151,105 +151,104 @@ I soon fell asleep, fairly confident I would get a good night’s rest...
 
 # Friday
 
-3:14am I get call from Brandon letting me know that the game was down.
+3:14 a.m. – I got a call from Brandon letting me know that the game was down.
 
-I jump out of bed and hop on my PC and sure enough things are not looking good and haven't been for a couple of hours
+I jumped out of bed and hopped on my PC. Sure enough, things were not looking good and hadn’t been for a couple of hours.
 
 ![](./friday-morning-graph.png)
 
-This time it wasn't immediately obvious what was going wrong. It appeared that the worker process was still running out of memory. I attempted some desperate fixes but wasnt sure about the underlying reason.
+This time, it wasn’t immediately obvious what was wrong. It appeared that the worker process was running out of memory. I attempted some desperate fixes but wasn’t sure about the underlying reason.
 
 ![](./desperate-commit-log.png)
 
-It was 4:30am now and my brain really wasnt working properly, it looked like things were sort of working so I decided to get an hour of sleep.
+By 4:30 a.m. my brain really wasn’t working properly. I felt like the game was stable, so I decided to get an hour of sleep.
 
-Awake and rested I realized what the problem might be. 
+Awake and rested, I realized what the problem might be.
 
-As I have mentioned above, one of the other responsibilities of the "worker" server was:
+As I mentioned above, one of the worker server’s responsibilities was:
 
-> Polling the database checking for matchmaking, AI turn taking, daily shop reward rotation etc
+> Polling the database for matchmaking, AI turn-taking, daily shop reward rotations, etc.
 
-For example matchmaking works by every few seconds requesting a list of the open battle proposals then looping over that list and creating battles as needed. 
+For example, matchmaking works by requesting a list of open battle proposals every few seconds, then looping over that list and creating battles as needed.
 
-Turn timeouts, AI turn taking and a bunch of other systems worked in similar ways.
+Turn timeouts, AI turn-taking, and a bunch of other systems worked similarly.
 
-The issue is that this polling was effectively another kind of queue. If the number of rows I return from the database each poll is too small then that queue is going to build up. 
+The issue was that this polling was effectively another kind of queue. If the number of rows returned from the database during each poll was too small, that queue would build up.
 
-Unfortunately I had no metrics around these polling "queues" so my first task was to get some visibility into these. 
+Unfortunately, I had no metrics around these polling "queues," so my first task was to get some visibility into them.
 
 ![](./poll-queue-growth-chart.png)
 
-Sure enough those queues had grown to huge levels. 
+Sure enough, those queues had grown to huge levels.
 
-Much like with my app events problem from before I knew the solution was going to be parallelization. 
+Much like my app events problem earlier, I knew the solution would be parallelization.
 
-So I very carefully moved the polling code over to the eventsWorker instances. I was very nervous about this as I knew that by allowing multiple servers to poll the database at once there was a high chance of race conditions and other problems due to polling overlaps. 
+So, I carefully moved the polling code over to the eventsWorker instances. I was very nervous about this, as I knew that allowing multiple servers to poll the database simultaneously risked race conditions and other problems due to polling overlaps.
 
-My solution was to very carefully place [distributed locks](https://github.com/mike-marcacci/node-redlock) around the place such that it was not possible for two different workers to be working on the same item from a polling queue at once.
+My solution was to carefully place [distributed locks](https://github.com/mike-marcacci/node-redlock) to ensure that two different workers couldn’t work on the same item from a polling queue simultaneously.
 
-This solution seemed to work very well and I soon had the polling queues back under control.
+This solution worked well, and I soon had the polling queues back under control.
 
 ![](./polling-under-control-graph.png)
 
-That was when disaster struck ..
+That’s when disaster struck...
 
 ![](./slack-to-brandon-wild-db-growth.png)
 
-I had been keeping a close eye our database's growth over time as I knew that if we ran out of DB space that would put a hard stop to the game. 
+I had been keeping a close eye on our database’s growth, knowing that if we ran out of space, it would put a hard stop to the game.
 
-Well it turns out with all the chaos of the past 12 hours I forgot to check the DB size and it looks like it had grown wildly and had finally run out of space and started refusing connections. 
+Well, it turns out that with all the chaos of the past 12 hours, I forgot to check the DB size, and it had grown wildly. It finally ran out of space and started refusing connections.
 
-Fortunately I was looking at the logs at the time when I saw this message go whizzing past:
+Fortunately, I was looking at the logs when I saw this message go by:
 
 ![](./jobs-cannot-archive-log-message.png)
 
-It looks like pgboss our app events queuing and jobs system was timing out when attempting to archive completed jobs. I ran a quick query against the database and sure enough there were over 7 million events rows waiting to be archived and a further 3 million events in the archive waiting to be deleted. 
+It turns out that pgboss, our app events queuing and jobs system, was timing out when trying to archive completed jobs. I ran a quick query against the database and saw over 7 million event rows waiting to be archived, with another 3 million waiting to be deleted.
 
-It seems like pgboss was not designed to handle this scenario very well and was simply erroring out when it was running its archival and deletion routines. 
+It seems like pgboss wasn’t designed to handle this scenario very well and was erroring out during its archival and deletion routines.
 
-My solution as to manually delete all 10 million rows from the database immediately, this instantly dropped 70 gig from the DB. I then ran a [Postgres VACCUM](https://www.postgresql.org/docs/current/sql-vacuum.html) to clear up any other deleted tuples. 
+My solution was to manually delete all 10 million rows from the database immediately. This instantly freed up 70 GB of space. I then ran a [Postgres VACUUM](https://www.postgresql.org/docs/current/sql-vacuum.html) to clear up any deleted tuples.
 
-Instantly the database came alive again and disaster was averted. 
+Instantly, the database came alive again, and disaster was averted.
 
-Phew it had been a long day but I was feeling good about things now. I went to be certain everything was all good.
+Phew! It had been a long day, but I was finally feeling good about things. I went to bed certain that everything was all good.
 
 # Saturday
 
-I woke up, hopped on my PC and to my dismay saw that my "worker stopped" alert had triggered.
+I woke up, hopped on my PC, and to my dismay, saw that my "worker stopped" alert had triggered.
 
 ![](./slack-message-alert-worker-stopped.png)
 
-Fortunately it didn't take me long to track down that this time the worker hadn't actually gone down, instead the alert had triggered because [Axiom](https://axiom.co/) (our log aggregation tool) had stopped receiving log messages. This happened because our "[log shipper](https://github.com/superfly/fly-log-shipper)" instance had died. 
+Fortunately, it didn’t take long to track down that this time the worker hadn’t actually gone down. The alert had triggered because [Axiom](https://axiom.co/) (our log aggregation tool) had stopped receiving log messages. This happened because our "[log shipper](https://github.com/superfly/fly-log-shipper)" instance had died.
 
-I still dont know why or how this happened but I quickly give it a poke and things were up and running again.
+I still don’t know why or how this happened, but I quickly gave it a poke, and things were up and running again.
 
-From the Grafana logs on the servers it appeared everything had been fine over night much to my relief. 
+From the Grafana logs on the servers, it appeared that everything had been fine overnight, much to my relief.
 
-I think im going to leave the day-by-day commentary here but I think you have probably got a good sense of the kind of firefight I was putting up at this point.
+I think I’m going to leave the day-by-day commentary here, but I believe you’ve got a good sense of the firefight I was putting up at this point.
 
 # Lessons
 
 So what lessons did I learn from all this?
 
-1. Be wary of queues. Any time you feel like you are making something that might potentially get backed up if you 10 or 100x your traffic it would be wise to deal with it now or at the very least get some metrics around it so you can keep an eye on it.
+1. **Be wary of queues**. Anytime you’re building something that could get backed up if you 10x or 100x your traffic, it’s wise to deal with it now or, at the very least, get some metrics around it so you can keep an eye on it.
 
-2. Single points of failure are a bomb waiting to go off. For the same reasons above you really should be wary of any places that cannot be scaled horizontally. 
+2. **Single points of failure are ticking time bombs**. For the same reasons as above, be cautious of any places that cannot scale horizontally.
 
-3. Use Axiom, its fast, cheap and powerful. Log everything and then build graphs.
+3. **Use Axiom**. It’s fast, cheap, and powerful. Log everything, then build graphs.
 
 ![](./axiom-pricing.png)
 
-500GB on the free tier! Thats just insane. 
+500GB on the free tier? That’s just insane.
 
-To put that in perspective despite all the spam we were producing over the past week, over the lifetime of using Axiom we have amassed 54million log lines which amounts to just 17GB of space which only 1GB compressed!
+To put it into perspective: despite all the spam we produced over the past week, we’ve amassed 54 million log lines, amounting to just 17GB of space, which is only 1GB compressed!
 
 ![](./axiom-dataset-logs.png)
 
-4. If you can, load test before you expect a large increase in traffic! Even if you cant easily hit the numbers you expect on your local machine it should hopefully hint towards where some of the bottlenecks might be.
+4. **Load test if you can** before you expect a large increase in traffic. Even if you can’t easily hit the expected numbers on your local machine, it should at least hint at where bottlenecks might occur.
 
 # Conclusions & Thanks
 
-Its still a bit early to talk about the results of all this traffic on the business but things are going well. 
+It’s still a bit early to talk about the results of all this traffic on the business, but things are going well.
 
-I would like to thank the special people at Discord that took a chance with us and were very patient  while we fought through the problems :)
-
+I would like to thank the special people at Discord who took a chance on us and were very patient while we fought through these problems. :)
