@@ -126,11 +126,16 @@ input:focus {
   border-radius: 4px;
 }
 
+.markdown-content image-wrapper {
+  display: block;
+}
+
 .markdown-content .image-alt {
   color: rgba(0, 0, 0, 0.2);
   text-align: center;
   font-size: 0.9em;
   margin-top: -10px;
+  display: block;
 }
 
 .markdown-content iframe {

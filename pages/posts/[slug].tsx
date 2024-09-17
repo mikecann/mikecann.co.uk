@@ -123,12 +123,12 @@ const PostPage = ({ post, html }: Props) => {
               components={{
                 img: (props) => {
                   return (
-                    <div>
+                    <span className="image-wrapper">
                       <a href={props.src}><img {...props} /></a>
-                      <div className="image-alt">
+                      <span className="image-alt">
                         {props.alt}
-                      </div>
-                    </div>
+                      </span>
+                    </span>
                   );
                 },
                 h1: ({ ...props }) => {

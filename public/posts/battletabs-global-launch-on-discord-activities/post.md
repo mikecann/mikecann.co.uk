@@ -1,12 +1,12 @@
 ---
 coverImage: ./header.jpg  
-date: "2024-09-16T07:31:40.000Z"  
+date: "2024-09-17T07:31:40.000Z"  
 tags:  
   - battletabs  
   - discord  
   - business  
   - gangbusters  
-title: BattleTabs Goes Global on Discord
+title: BattleTabs Global Launch on Discord Activities
 ---
 
 For the [longest time](https://mikecann.co.uk/posts/battletabs-6-months-later), Gangbusters has been a Discord-focused company. We use it as our primary method of interacting with our community, receiving bug reports, and gathering feature suggestions.
