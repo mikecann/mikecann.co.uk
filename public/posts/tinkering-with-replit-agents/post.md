@@ -14,7 +14,7 @@ I recently took a much-needed vacation to an exotic location. While I was away, 
 
 One issue was that, despite all my best efforts, our worker server was still regularly shutting down and not coming back online.
 
-[![](./downtime.png)](./downtime.png)
+![](./downtime.png)
 
 This generally happened at points of peak load and usually when I was in bed (typical). The result was that chunks of the game wouldn't work or would work in unexpected ways.
 
@@ -32,7 +32,7 @@ If you're not familiar with Replit Agents, here's a quick primer:
 
 The idea was to use their AI to generate my script and host it on Replit. It should be a fairly simple script and, therefore, hopefully a straightforward, isolated task for the AI.
 
-[![](./initial-impressions.png)](./initial-impressions.png)
+![](./initial-impressions.png)
 
 I hadn’t used Replit before, and my initial impressions were good. I was very impressed with the UI. It felt like a cut-down code editor, but with the agent chat on the side, taking up a large chunk of the UI to let you know that this is a sort of "pair programming" type of workflow.
 
@@ -40,7 +40,7 @@ I started out with what I felt was a pretty clear prompt (see the image above) a
 
 After it had generated the files, it asked me if it worked. Unfortunately, it didn’t, so I had to dig through the code and do a bit of guesswork to try to work out what was going on.
 
-[![](./env.png)](./env.png)
+![](./env.png)
 
 It probably would have been better if it worked out this issue by itself, but I was impressed to see that they had a little inline UI for adding an environment variable. I thought that was a nice touch.
 
@@ -48,7 +48,7 @@ This is where things started to go off the rails a bit. The AI continued to make
 
 Eventually, I had what I thought should work, but I was still getting errors. I eventually tracked down the problem—it stemmed right back to the first prompt, where the AI was using a very outdated endpoint URL for the API.
 
-[![](./tracked-down-the-error.png)](./tracked-down-the-error.png)
+![](./tracked-down-the-error.png)
 
 After letting it know, it was able to fix the problem, and I finally had a working API call.
 
@@ -56,13 +56,13 @@ As a side note, I was impressed that Replit has a Git integration, and the AI ma
 
 With it working, I now wanted to have it run itself every 5 minutes. This cloud hosting and cron functionality is one of the core features of Replit, so I thought it should be pretty straightforward for the Agent.
 
-[![](./always-on.png)](./always-on.png)
+![](./always-on.png)
 
 I was super confused at first as it directed me towards an "Always On" feature that doesn’t seem to exist in Replit (anymore). When I pointed it out to the Agent, it even suggested using another service to run the cron!
 
 I had to manually read through the Replit docs before I worked out how to do it myself in the UI.
 
-[![](./deployments.png)](./deployments.png)
+![](./deployments.png)
 
 With that, my script was up and working, checking the worker every 5 minutes.
 
