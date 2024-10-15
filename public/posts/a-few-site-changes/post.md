@@ -8,6 +8,7 @@ tags:
   - website
 title: A Few Site Changes
 oldUrl: /websites/a-few-site-changes
+openAIPostsVectorStoreFileId: file-Fa8EJ6bW9Ef6SJ0ebDptldpL
 ---
 
 [![](/wp-content/uploads/2010/08/Untitled-1.jpg "Untitled-1")](/wp-content/uploads/2010/08/Untitled-1.jpg)

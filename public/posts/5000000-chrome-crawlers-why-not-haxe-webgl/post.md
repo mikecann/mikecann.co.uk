@@ -13,6 +13,7 @@ tags:
   - webgl
 title: '5,000,000 Chrome Crawlers? Why not [haXe & WebGL]'
 oldUrl: /glsl/5000000-chrome-crawlers-why-not-haxe-webgl
+openAIPostsVectorStoreFileId: file-E1tgkqq1qQR3Gl4OhANV0S7g
 ---
 
 Following on from my previous experiments into the world of [haXe and HTML5](/posts/more-html5-haxe-speed-tests/) I have been playing around again with trying to get as many 2D sprites on screen as I can.

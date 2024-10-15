@@ -6,11 +6,13 @@ import { createReadStream, writeFileSync } from "fs";
 import fs from "fs";
 import path from "path";
 
+// Load environment variables from .env file
 dotenv.config({
   path: `.env`,
 });
 
 async function bootstrap() {
+  // Check for required environment variables
   const openAIKey = process.env.OPEN_AI_API_KEY;
   if (!openAIKey)
     throw new Error(
@@ -23,10 +25,12 @@ async function bootstrap() {
       `Missing env OPENAI_POSTS_VECTOR_STORE_ID, have you defined a .env file in the root of the project?`
     );
 
+  // Initialize OpenAI client
   const openai = new OpenAI({
     apiKey: openAIKey,
   });
 
+  // Get all posts and filter out those that have already been uploaded
   const allPosts = getAllPosts();
   const postsToUpload = allPosts.filter((post) => !post.meta.openAIPostsVectorStoreFileId);
 
@@ -35,13 +39,12 @@ async function bootstrap() {
     postsToUpload: postsToUpload.length,
   });
 
-  // Create temporary directory
+  // Create temporary directory for file operations
   const tmpDir = path.join(process.cwd(), "tmp");
-  if (!fs.existsSync(tmpDir)) {
+  if (!fs.existsSync(tmpDir))
     fs.mkdirSync(tmpDir);
-  }
 
-  // For each post
+  // Function to handle individual post upload
   const handle = async (post: PostWithContent) => {
     const postDir = path.dirname(post.absPostPath);
     const tempFileName = path.join(tmpDir, path.basename(postDir) + ".md");
@@ -51,6 +54,7 @@ async function bootstrap() {
 
     console.log(`uploading..`, tempFileName);
 
+    // Upload file to OpenAI vector store
     const result = await openai.beta.vectorStores.files.uploadAndPoll(
       vectorStoreId,
       createReadStream(tempFileName)
@@ -58,6 +62,7 @@ async function bootstrap() {
 
     if (result.status == "completed") {
       console.log(`Upload completed, Adding id '${result.id}' back into the post`);
+      // Update post metadata with vector store file ID
       fs.writeFileSync(
         post.absPostPath,
         matter.stringify(post.content, {
@@ -65,28 +70,25 @@ async function bootstrap() {
           openAIPostsVectorStoreFileId: result.id,
         })
       );
-    } else {
+    } else
       console.log(`Error uploading post`, result);
-    }
 
-    // Delete temporary file
+    // Clean up temporary file
     fs.unlinkSync(tempFileName);
   };
 
-  const somePosts = postsToUpload.slice(0, 3);
+  // Limit the number of posts to upload (for testing or batching)
+  const somePosts = postsToUpload.slice(0, 20);
 
-  //await handle(postsToUpload[0]);
-
-  // Iterate all the posts
+  // Process posts
   try {
-    for (let post of somePosts) {
+    for (let post of somePosts)
       await handle(post);
-    }
   } catch (e) {
     console.error(e);
   }
 
-  // Delete temporary directory
+  // Clean up temporary directory
   fs.rmdirSync(tmpDir);
 
   process.exit(0);

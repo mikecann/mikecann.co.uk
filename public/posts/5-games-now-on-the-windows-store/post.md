@@ -8,6 +8,7 @@ tags:
   - windows store
 title: 5 Games now on the Windows Store
 oldUrl: /blastwave-lost-at-sea/5-games-now-on-the-windows-store
+openAIPostsVectorStoreFileId: file-8hFuMcJOhYOkW9KxOXnpfiSK
 ---
 
 Over the Christmas period Microsoft were running a promotion to developers; "Publish your apps to the Windows store before the 23rd of December and we will give you some Microsoft store credit". Well as I had already spent a whole bunch of time learning how to publish natives desktop apps to the Windows Store during the development of [Glancer](https://www.mikecann.co.uk/myprojects/glancer/introducing-glancer-pc-vitals-at-a-glance/) I thought sure, why not capitalize on that.
