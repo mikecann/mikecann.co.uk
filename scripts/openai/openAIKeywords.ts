@@ -5,7 +5,7 @@ import OpenAI from "openai-api";
 import fs from "fs";
 import { writeFileSync } from "fs";
 import matter from "gray-matter";
-import { PostWithContent, getAllPosts } from "./posts";
+import { PostWithContent, getAllPosts } from "../posts";
 
 dotenv.config({
   path: `.env`,

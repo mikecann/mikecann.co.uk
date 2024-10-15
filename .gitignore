@@ -40,3 +40,4 @@ local.config.json
 
 .env
 tsconfig.tsbuildinfo
+tmp
