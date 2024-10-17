@@ -7,11 +7,42 @@ import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { listMessagesForUserThread } from "../../convex/messages";
 import { MessageRow } from "./MessageRow";
+import { style } from "typestyle";
 
 interface Props {
   threadId: Id<"threads">;
   userId: Id<"users">;
 }
+
+const listStyles = style({
+  maxHeight: "300px",
+  overflowY: "auto",
+  scrollbarWidth: "thin",
+  scrollbarColor: "rgba(0,0,0,0.2) transparent",
+  $nest: {
+    "&::-webkit-scrollbar": {
+      width: "8px",
+    },
+    "&::-webkit-scrollbar-thumb": {
+      backgroundColor: "rgba(0,0,0,0.2)",
+      borderRadius: "4px",
+    },
+    "&::-webkit-scrollbar-thumb:hover": {
+      backgroundColor: "rgba(0,0,0,0.3)",
+    },
+    "&:hover": {
+      scrollbarColor: "rgba(0,0,0,0.2) transparent",
+    },
+    "&:not(:hover)": {
+      scrollbarColor: "transparent transparent",
+      $nest: {
+        "&::-webkit-scrollbar-thumb": {
+          backgroundColor: "transparent",
+        },
+      },
+    },
+  },
+});
 
 export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
   const messages = useQuery(api.messages.listMessagesForUserThread, {
@@ -20,6 +51,7 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
   });
 
   const messagesEndRef = React.useRef<HTMLDivElement>(null);
+  const scrollContainerRef = React.useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -30,8 +62,14 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
   }, [messages]);
 
   return (
-    <Vertical spacing="5px" width="100%" style={{ maxHeight: "300px", overflowY: "auto" }}>
-      {messages?.map(message => (
+    <Vertical
+      spacing="5px"
+      width="100%"
+      className={listStyles}
+      ref={scrollContainerRef}
+      style={{ position: "relative", paddingRight: "0px", paddingLeft: "8px" }}
+    >
+      {messages?.map((message) => (
         <MessageRow key={message._id} message={message} />
       ))}
       <div ref={messagesEndRef} />

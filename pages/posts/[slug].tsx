@@ -124,12 +124,10 @@ const PostPage = ({ post, html }: Props) => {
                 img: (props) => {
                   return (
                     <span className="image-wrapper">
-                      <a href={props.src}>
-                        <img {...props} />
-                      </a>
-                      <span className="image-alt">
-                        {props.alt}
-                      </span>
+                      {/* <a href={props.src}> */}
+                      <img {...props} />
+                      {/* </a> */}
+                      {/* <span className="image-alt">{props.alt}</span> */}
                     </span>
                   );
                 },
