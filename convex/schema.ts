@@ -8,6 +8,7 @@ export const annotationSchema = v.union(
     kind: v.literal("post_citation"),
     startIndex: v.number(),
     endIndex: v.number(),
+    text: v.string(),
     openAIFileId: v.string(),
     postId: v.string(),
   }),
@@ -16,11 +17,15 @@ export const annotationSchema = v.union(
     startIndex: v.number(),
     endIndex: v.number(),
     openAIFileId: v.string(),
+    text: v.string(),
     pageId: pageIdSchema,
   })
 );
 
 export type Annotation = typeof annotationSchema.type;
+export type AnnotationKind = Annotation["kind"];
+export type AnnotationByKind<TKind = AnnotationKind> = Extract<Annotation, { kind: TKind }>;
+export type PageId = AnnotationByKind<"page_citation">["pageId"];
 
 export default defineSchema({
   users: defineTable({

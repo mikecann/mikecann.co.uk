@@ -2,11 +2,14 @@ import { v } from "convex/values";
 import { internalAction, internalMutation } from "../_generated/server";
 import OpenAI from "openai";
 import { ensure } from "../../essentials/misc/ensure";
-import { getThreadForUser } from "../threads";
 import { api, internal } from "../_generated/api";
 import { Signal } from "../../essentials/Signal";
 import { Annotation } from "../schema";
-import { isNotNullOrUndefined } from "../../essentials/misc/filter";
+import { findKnownPageIdFromFileId } from "./files";
+import { wait } from "../../essentials/misc/misc";
+
+// Cache for file-id to file-name mappings
+const fileIdToNameCache = new Map<string, string>();
 
 export const addUserMessageAndRequestAnswer = internalAction({
   args: {
@@ -59,7 +62,7 @@ export const addUserMessageAndRequestAnswer = internalAction({
 
     let updateTimeout: NodeJS.Timeout | null = null;
     let latestSnapshot: OpenAI.Beta.Threads.Messages.Text | null = null;
-    const onTimeoutFinished = new Signal();
+    const timeoutTime = 250;
 
     const updateMessage = async (snapshot: OpenAI.Beta.Threads.Messages.Text) => {
       latestSnapshot = snapshot;
@@ -71,15 +74,15 @@ export const addUserMessageAndRequestAnswer = internalAction({
           await ctx.runMutation(internal.messages.updateMessageTextFromAssistant, {
             messageId: args.assistantMessageId,
             text: latestSnapshot.value ?? "",
-            annotations: convertOpenAIAnnotationsToSchemaAnnotations(
-              latestSnapshot.annotations ?? []
+            annotations: await convertOpenAIAnnotationsToSchemaAnnotations(
+              latestSnapshot.annotations ?? [],
+              openai
             ),
           });
         } catch (e) {
           console.error(e);
         }
         updateTimeout = null;
-        onTimeoutFinished.dispatch();
       }, 250);
     };
 
@@ -99,13 +102,13 @@ export const addUserMessageAndRequestAnswer = internalAction({
         })
         .on("end", async () => {
           console.log("end");
-          if (updateTimeout) onTimeoutFinished.addOnce(() => resolve(null));
-          else resolve(null);
+          await wait(500);
+          resolve(null);
         })
         .on("error", async (error) => {
           console.log("error", error);
-          if (updateTimeout) onTimeoutFinished.addOnce(() => resolve(null));
-          else resolve(null);
+          await wait(500);
+          resolve(null);
         });
     });
 
@@ -113,21 +116,49 @@ export const addUserMessageAndRequestAnswer = internalAction({
   },
 });
 
-function convertOpenAIAnnotationsToSchemaAnnotations(
-  openAIAnnotations: OpenAI.Beta.Threads.Messages.Annotation[]
-): Annotation[] {
-  return openAIAnnotations
-    .map((annotation) => {
-      if (annotation.type === "file_citation")
-        return {
+async function convertOpenAIAnnotationsToSchemaAnnotations(
+  openAIAnnotations: OpenAI.Beta.Threads.Messages.Annotation[],
+  openai: OpenAI
+): Promise<Annotation[]> {
+  const annotations: Annotation[] = [];
+
+  for (const annotation of openAIAnnotations) {
+    if (annotation.type === "file_citation") {
+      const pageId = findKnownPageIdFromFileId(annotation.file_citation.file_id);
+      if (pageId) {
+        annotations.push({
           kind: "page_citation",
           startIndex: annotation.start_index,
           endIndex: annotation.end_index,
           openAIFileId: annotation.file_citation.file_id,
-          pageId: "about",
-        } as const;
+          pageId,
+          text: annotation.text,
+        });
+        continue;
+      }
 
-      return null;
-    })
-    .filter(isNotNullOrUndefined);
+      let fileName = fileIdToNameCache.get(annotation.file_citation.file_id);
+      if (!fileName) {
+        try {
+          const file = await openai.files.retrieve(annotation.file_citation.file_id);
+          fileName = file.filename;
+          fileIdToNameCache.set(annotation.file_citation.file_id, fileName);
+        } catch (error) {
+          console.error("Error retrieving file:", error);
+          continue;
+        }
+      }
+
+      annotations.push({
+        kind: "post_citation",
+        startIndex: annotation.start_index,
+        endIndex: annotation.end_index,
+        openAIFileId: annotation.file_citation.file_id,
+        postId: fileName.replaceAll(".md", ""),
+        text: annotation.text,
+      });
+    }
+  }
+
+  return annotations;
 }

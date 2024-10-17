@@ -10,6 +10,7 @@ import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
 import { useEffect } from "react";
 import { MessagesList } from "./MessagesList";
+import { useQueryWithStatus } from "./helpers";
 
 interface Props {}
 
@@ -36,24 +37,31 @@ export const MikebotWindow: React.FC<Props> = () => {
 
   const createThread = useMutation(api.threads.createThreadForUser);
 
-  const thread = useQuery(
+  const threadQuery = useQueryWithStatus(
     api.threads.findThreadForUser,
     currentThreadId && me ? { threadId: currentThreadId, userId: me._id } : "skip"
   );
 
   useEffect(() => {
     if (!me) return;
-    if (currentThreadId) return;
+
+    if (currentThreadId) {
+      if (threadQuery.data) return;
+      if (threadQuery.status == "pending") return;
+      setCurrentThreadId(null);
+      return;
+    }
+
     createThread({ userId: me._id })
       .then((id) => {
         localStorage[currentThreadIdStorageKey] = id;
         setCurrentThreadId(id);
       })
       .catch(console.error);
-  }, [currentThreadId, me]);
+  }, [currentThreadId, me, threadQuery.data?._id, threadQuery.status]);
 
   if (!me) return null;
-  if (!thread) return null;
+  if (!threadQuery.data) return null;
 
   return (
     <Vertical className={windowStyle}>
@@ -82,9 +90,9 @@ export const MikebotWindow: React.FC<Props> = () => {
         </Horizontal>
       </Horizontal>
       <Stretch verticalAlign="bottom" padding="8px">
-        <MessagesList threadId={thread._id} userId={me._id} />
+        <MessagesList threadId={threadQuery.data._id} userId={me._id} />
       </Stretch>
-      <MessageEntryBox userId={me._id} threadId={thread._id} />
+      <MessageEntryBox userId={me._id} threadId={threadQuery.data._id} />
     </Vertical>
   );
 };
