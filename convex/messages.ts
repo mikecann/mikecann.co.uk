@@ -3,7 +3,7 @@ import { mutationWithUser, queryWithUser } from "./functions";
 import { getThreadForUser } from "./threads";
 import { internalMutation, query } from "./_generated/server";
 import { internal } from "./_generated/api";
-import { annotationSchema } from "./schema";
+import { annotationSchema, messageStatusSchema } from "./schema";
 
 export const listMessagesForUserThread = query({
   args: {
@@ -105,5 +105,15 @@ export const updateMessageTextFromAssistant = internalMutation({
       text: args.text,
       annotations: args.annotations,
     });
+  },
+});
+
+export const updateMessageStatus = internalMutation({
+  args: {
+    messageId: v.id("messages"),
+    status: messageStatusSchema,
+  },
+  handler: async (ctx, args) => {
+    return ctx.db.patch(args.messageId, { status: args.status });
   },
 });

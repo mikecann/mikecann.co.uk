@@ -1,11 +1,8 @@
-import { Grid, Vertical } from "gls/lib";
+import { Vertical } from "gls/lib";
 import * as React from "react";
-import { format } from "date-fns";
-import Link from "next/link";
 import { Id } from "../../convex/_generated/dataModel";
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
-import { listMessagesForUserThread } from "../../convex/messages";
 import { MessageRow } from "./MessageRow";
 import { style } from "typestyle";
 
@@ -17,8 +14,10 @@ interface Props {
 const listStyles = style({
   maxHeight: "300px",
   overflowY: "auto",
+  overflowX: "hidden",
   scrollbarWidth: "thin",
   scrollbarColor: "rgba(0,0,0,0.2) transparent",
+  paddingTop: "10px",
   $nest: {
     "&::-webkit-scrollbar": {
       width: "8px",
@@ -63,7 +62,7 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
 
   return (
     <Vertical
-      spacing="5px"
+      spacing="10px"
       width="100%"
       className={listStyles}
       ref={scrollContainerRef}

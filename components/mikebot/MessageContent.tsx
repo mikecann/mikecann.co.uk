@@ -32,10 +32,7 @@ const replaceAnnotationsWithLinks = (text: string, annotations: Annotation[] | u
     const linkHref =
       annotation.kind === "page_citation" ? `/${annotation.pageId}` : `/posts/${annotation.postId}`;
 
-    result = result.replace(
-      annotation.text,
-      `[${linkEmoji}](${linkHref} "Open in new tab")`
-    );
+    result = result.replace(annotation.text, `[${linkEmoji}](${linkHref} "Open in new tab")`);
   }
   return result;
 };
@@ -44,19 +41,17 @@ export const MessageContent: React.FC<Props> = ({ message }) => {
   const processedText = React.useMemo(
     () => replaceAnnotationsWithLinks(message.text, message.annotations),
     [message.text, message.annotations]
-  )
+  );
 
   return (
     <div className={contentStyle}>
       <Markdown
         components={{
-          a: ({ node, ...props }) => (
-            <a {...props} target="_blank" rel="noopener noreferrer" />
-          ),
+          a: ({ node, ...props }) => <a {...props} target="_blank" rel="noopener noreferrer" />,
         }}
       >
         {processedText}
       </Markdown>
     </div>
-  )
-}
+  );
+};

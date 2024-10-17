@@ -27,6 +27,22 @@ export type AnnotationKind = Annotation["kind"];
 export type AnnotationByKind<TKind = AnnotationKind> = Extract<Annotation, { kind: TKind }>;
 export type PageId = AnnotationByKind<"page_citation">["pageId"];
 
+export const messageStatusSchema = v.union(
+  v.object({ kind: v.literal("created") }),
+  v.object({
+    kind: v.literal("message_completion_requested"),
+    at: v.number(),
+    scheduledFunctionId: v.id("_scheduled_functions"),
+    scheduledApiCallTime: v.number(),
+  }),
+  v.object({
+    kind: v.literal("message_completion_errored"),
+    at: v.number(),
+    error: v.string(),
+  }),
+  v.object({ kind: v.literal("finished") })
+);
+
 export default defineSchema({
   users: defineTable({
     kind: v.literal("anonymous"),
@@ -38,21 +54,7 @@ export default defineSchema({
     openAIMessageId: v.optional(v.string()),
     text: v.string(),
     annotations: v.optional(v.array(annotationSchema)),
-    status: v.union(
-      v.object({ kind: v.literal("created") }),
-      v.object({
-        kind: v.literal("message_completion_requested"),
-        at: v.number(),
-        scheduledFunctionId: v.id("_scheduled_functions"),
-        scheduledApiCallTime: v.number(),
-      }),
-      v.object({
-        kind: v.literal("message_completion_errored"),
-        at: v.number(),
-        error: v.string(),
-      }),
-      v.object({ kind: v.literal("finished") })
-    ),
+    status: messageStatusSchema,
   }).index("by_threadId", ["threadId"]),
 
   threads: defineTable({

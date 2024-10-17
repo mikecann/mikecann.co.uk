@@ -103,16 +103,28 @@ export const addUserMessageAndRequestAnswer = internalAction({
         .on("end", async () => {
           console.log("end");
           await wait(500);
+          await ctx.runMutation(internal.messages.updateMessageStatus, {
+            messageId: args.assistantMessageId,
+            status: {
+              kind: "finished",
+            },
+          });
           resolve(null);
         })
         .on("error", async (error) => {
           console.log("error", error);
           await wait(500);
           resolve(null);
+          await ctx.runMutation(internal.messages.updateMessageStatus, {
+            messageId: args.assistantMessageId,
+            status: {
+              kind: "message_completion_errored",
+              at: Date.now(),
+              error: `${error}`,
+            },
+          });
         });
     });
-
-    console.log("done");
   },
 });
 

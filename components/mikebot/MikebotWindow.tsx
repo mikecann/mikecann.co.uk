@@ -15,6 +15,8 @@ import { useQueryWithStatus } from "./helpers";
 interface Props {}
 
 const windowStyle = style({
+  display: "flex",
+  flexDirection: "column",
   border: "1px solid #ddd",
   borderRadius: 6,
   overflow: "hidden",
@@ -64,35 +66,49 @@ export const MikebotWindow: React.FC<Props> = () => {
   if (!threadQuery.data) return null;
 
   return (
-    <Vertical className={windowStyle}>
-      <Horizontal
-        style={{ height: "40px", background: "#ddd", flexShrink: 0, paddingLeft: "10px" }}
+    <div className={windowStyle}>
+      <div
+        style={{
+          height: "40px",
+          background: "#ddd",
+          flexShrink: 0,
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+          padding: "0 10px",
+        }}
       >
-        <Stretch verticalAlign="center">Mikebot</Stretch>
-        <Horizontal>
-          <button
-            onClick={() => {
-              if (!confirm("Are you sure you want to clear this thread?")) return;
-              localStorage.removeItem(currentThreadIdStorageKey);
-              setCurrentThreadId(null);
-            }}
-            style={{
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              fontSize: "20px",
-              padding: "5px 10px",
-            }}
-            aria-label="Delete thread"
-          >
-            🗑️
-          </button>
-        </Horizontal>
-      </Horizontal>
-      <Stretch verticalAlign="bottom" padding="8px">
+        <div>Mikebot</div>
+        <button
+          onClick={() => {
+            if (!confirm("Are you sure you want to clear this thread?")) return;
+            localStorage.removeItem(currentThreadIdStorageKey);
+            setCurrentThreadId(null);
+          }}
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            fontSize: "20px",
+            padding: "5px",
+          }}
+          aria-label="Delete thread"
+        >
+          🗑️
+        </button>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          flexGrow: 1,
+          borderBottom: "1px solid #eee",
+        }}
+      >
         <MessagesList threadId={threadQuery.data._id} userId={me._id} />
-      </Stretch>
+      </div>
       <MessageEntryBox userId={me._id} threadId={threadQuery.data._id} />
-    </Vertical>
+    </div>
   );
 };
