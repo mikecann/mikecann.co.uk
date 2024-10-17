@@ -5,7 +5,7 @@ tags:
   - dark-pattern
   - misc
 title: Meetup.com and the Cancel Subscription Dark Pattern
-openAIPostsVectorStoreFileId: file-H4j3CXdqtZGaJcymN77vx7Iv
+openAIMikesBlogFileId: file-H4j3CXdqtZGaJcymN77vx7Iv
 ---
 
 Due to my current focus on transitioning [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) to mobile, my time for other activities is quite limited. However, I feel compelled to discuss a concerning practice I recently encountered on Meetup.com, known as a dark pattern.

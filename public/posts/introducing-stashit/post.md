@@ -8,7 +8,7 @@ tags:
   - convex
   - nextjs
 title: Introducing StashIt
-openAIPostsVectorStoreFileId: file-d1pSWFEhTaWbLVBB7W0B8QJ1
+openAIMikesBlogFileId: file-d1pSWFEhTaWbLVBB7W0B8QJ1
 ---
 
 I have a confession to make—I have a superpower: the ability to stay in the flow.

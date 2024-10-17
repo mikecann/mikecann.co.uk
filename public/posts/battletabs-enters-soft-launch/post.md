@@ -4,7 +4,7 @@ date: '2024-04-11T07:31:40.000Z'
 tags:
   - personal
 title: BattleTabs Enters Soft Launch!
-openAIPostsVectorStoreFileId: file-XoUrTrl627WNuzZAmzCDSmd8
+openAIMikesBlogFileId: file-XoUrTrl627WNuzZAmzCDSmd8
 ---
 
 Phew its been a long long journey for our little game [BattleTabs](https://battletabs.com/) ([watch a summary video here](https://mikecann.co.uk/posts/battletabs-in-7-minutes)) but finally we are entering the phase that is a culmination of all the hard work, creativity, and perseverance: [the soft launch!](https://play.google.com/store/apps/details?id=io.battletabs)

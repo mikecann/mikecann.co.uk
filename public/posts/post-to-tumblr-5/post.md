@@ -8,7 +8,7 @@ tags:
   - typescript
 title: Post To Tumblr 5
 oldUrl: /post-to-tumbr/post-to-tumblr-5
-openAIPostsVectorStoreFileId: file-cjD1eoOVjQcP8ak76Bplafpl
+openAIMikesBlogFileId: file-cjD1eoOVjQcP8ak76Bplafpl
 ---
 
 Almost exactly [6 months ago I released Post To Tumblr 4](https://www.mikecann.co.uk/myprojects/post-to-tumbr/post-to-tumblr-v-4/) and today im proud to have pushed the 5th version of my popular Chrome Extension to the [Chrome app store](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah?hl=en).

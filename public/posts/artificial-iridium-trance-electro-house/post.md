@@ -6,7 +6,7 @@ tags:
   - trance
 title: 'Artificial - Iridium [Trance, Electro, House]'
 oldUrl: /audio/artificial-iridium-trance-electro-house
-openAIPostsVectorStoreFileId: file-NuKhF0xz7yuOjFW1oE4whI7j
+openAIMikesBlogFileId: file-NuKhF0xz7yuOjFW1oE4whI7j
 ---
 
 [![](/wp-content/uploads/2011/08/Iridium-Cover.png "Iridium-Cover")](/wp-content/uploads/2011/08/Iridium-Cover.png)

@@ -4,7 +4,7 @@ date: '2006-05-27T22:32:40.000Z'
 tags: []
 title: Artificial Harmonics ( part 1 )
 oldUrl: /personal-mixes/artificial-harmonics-part-1
-openAIPostsVectorStoreFileId: file-STF8xKdD4UJMIyUkQKWFYp9q
+openAIMikesBlogFileId: file-STF8xKdD4UJMIyUkQKWFYp9q
 ---
 
 **![](/wp-content/uploads/Image/PixelHouse.gif)**

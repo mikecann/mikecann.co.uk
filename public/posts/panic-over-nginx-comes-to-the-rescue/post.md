@@ -6,7 +6,7 @@ tags:
   - web
 title: 'Panic over, nginx comes to the rescue'
 oldUrl: /websites/panic-over-nginx-comes-to-the-rescue
-openAIPostsVectorStoreFileId: file-qEg0llU1oLRsyWr3VeHb2LXE
+openAIMikesBlogFileId: file-qEg0llU1oLRsyWr3VeHb2LXE
 ---
 
 A while back I changed my hosting over from the worse than dismal streamline.net over to the much better slicehost service. Slicehost offer alot more power by giving your own server with root access. All well and good if you are knowing what you are doing in Linux, i dont, so I struggled for some time getting Apache and php and all the rest running nice.

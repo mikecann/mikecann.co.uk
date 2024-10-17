@@ -10,7 +10,7 @@ tags:
   - exodus
 title: New OS Project - exodus-safe-to-csv
 oldUrl: /programming/new-os-project-exodus-safe-to-csv
-openAIPostsVectorStoreFileId: file-P4K18ge6bMorA1KOA6fFw14l
+openAIMikesBlogFileId: file-P4K18ge6bMorA1KOA6fFw14l
 ---
 
 Just a quick one today, I thought I would share a little tool I wrote to help with converting data exported from Exodus to be used in CoinTracking.com.

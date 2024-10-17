@@ -8,7 +8,7 @@ tags:
   - tech
   - tinkering
 title: Tech to Tinker with in 2022
-openAIPostsVectorStoreFileId: file-b3C857GIZrSHgczqHlsc4nor
+openAIMikesBlogFileId: file-b3C857GIZrSHgczqHlsc4nor
 ---
 
 Wow how fast did 2021 go? Crazy! And we are already almost at the end of January.

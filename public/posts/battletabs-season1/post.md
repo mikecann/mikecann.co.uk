@@ -6,7 +6,7 @@ tags:
   - gangbusters
   - gaming
 title: BattleTabs - Season 1
-openAIPostsVectorStoreFileId: file-4B3AmNCHZLk5NyQhFLLtTX08
+openAIMikesBlogFileId: file-4B3AmNCHZLk5NyQhFLLtTX08
 ---
 
 Well its been years in the planning and months in the development but the "Big Summer Update" / "Seasons" / V1 update for our game [BattleTabs](https://battletabs.com) is finally out!

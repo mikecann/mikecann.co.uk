@@ -11,7 +11,7 @@ tags:
   - webgl
 title: Why Developing for WebGL Sucks!
 oldUrl: /programming/why-developing-for-webgl-sucks
-openAIPostsVectorStoreFileId: file-n4UGZVm6W15inu0hpg546dXX
+openAIMikesBlogFileId: file-n4UGZVm6W15inu0hpg546dXX
 ---
 
 [![](/wp-content/uploads/2011/10/head02.png "head02")](/wp-content/uploads/2011/10/head02.png)

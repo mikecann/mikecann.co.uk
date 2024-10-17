@@ -8,7 +8,7 @@ tags:
   - upload
 title: Post To Tumblr 5.9
 oldUrl: /post-to-tumbr/post-to-tumblr-5-9
-openAIPostsVectorStoreFileId: file-16eVfhLR7C05oqPJa4KbDTJr
+openAIMikesBlogFileId: file-16eVfhLR7C05oqPJa4KbDTJr
 ---
 
 One thing that has always bothered me with Post To Tumblr ever since version 1.0, and I have finally fixed it in 5.9!

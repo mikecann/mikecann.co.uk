@@ -6,7 +6,7 @@ tags:
   - ui
   - prediction
 title: The Future of Applications
-openAIPostsVectorStoreFileId: file-T818UneCJzOR0ze09OD0xwjX
+openAIMikesBlogFileId: file-T818UneCJzOR0ze09OD0xwjX
 ---
 
 (no this isn't an april fools post :P)

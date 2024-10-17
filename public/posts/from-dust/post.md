@@ -12,7 +12,7 @@ tags:
   - xbox
 title: From Dust
 oldUrl: /fun-amp-videos/from-dust
-openAIPostsVectorStoreFileId: file-Y0rVbwOfNoAuu7kZcqfwGD3b
+openAIMikesBlogFileId: file-Y0rVbwOfNoAuu7kZcqfwGD3b
 ---
 
 [![](/wp-content/uploads/2011/07/Gamescom-2010-From-Dust-First-Look-Preview.jpg "Gamescom-2010-From-Dust-First-Look-Preview")](/wp-content/uploads/2011/07/Gamescom-2010-From-Dust-First-Look-Preview.jpg)

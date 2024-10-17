@@ -9,7 +9,7 @@ tags:
   - websites
 title: The Case of The Transitional Doctype
 oldUrl: /html/the-case-of-the-transitional-doctype
-openAIPostsVectorStoreFileId: file-qOrpoIQNn2sAHgqX5areodk9
+openAIMikesBlogFileId: file-qOrpoIQNn2sAHgqX5areodk9
 ---
 
 I took a little break from my 'top secret' project (more on this coming soon) this evening to do some much needed repair work on one of my flash games portals [www.worldsbestflashgames.com](www.worldsbestflashgames.com).

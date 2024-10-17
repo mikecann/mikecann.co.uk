@@ -4,7 +4,7 @@ date: '2008-06-06T10:01:21.000Z'
 tags: []
 title: Blast Out
 oldUrl: /actionscript/blast-out
-openAIPostsVectorStoreFileId: file-dhXcr3iCg051tlBCfGZiBj1c
+openAIMikesBlogFileId: file-dhXcr3iCg051tlBCfGZiBj1c
 ---
 
 Well here is my next flash based offering...

@@ -8,7 +8,7 @@ tags:
   - markd
 title: Farewell Bamboo - Hello Markd
 oldUrl: /personal/farewell-bamboo-hello-markd
-openAIPostsVectorStoreFileId: file-ygGLhZMjrhoUIF1r3YhQaKFq
+openAIMikesBlogFileId: file-ygGLhZMjrhoUIF1r3YhQaKFq
 ---
 
 So Friday marks what could be a very important day for me. It was my last day in the employ of Bamboo but was my first day in the employ of myself for Markd!

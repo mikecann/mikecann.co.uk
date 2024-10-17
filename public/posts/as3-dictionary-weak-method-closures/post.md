@@ -11,7 +11,7 @@ tags:
   - robotlegs
 title: 'AS3, Dictionary & Weak Method Closures'
 oldUrl: /actionscript/as3-dictionary-weak-method-closures
-openAIPostsVectorStoreFileId: file-n84eGXffT3JTwTXrylMZyr3b
+openAIMikesBlogFileId: file-n84eGXffT3JTwTXrylMZyr3b
 ---
 
 This is going to be a technical post so those of you not of the code persuasion look away now..

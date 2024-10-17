@@ -11,7 +11,7 @@ tags:
   - video
 title: Starcraft II & TDs
 oldUrl: /fun-amp-videos/starcraft-ii-tds
-openAIPostsVectorStoreFileId: file-FKFkIktvca7MvIwjAf3HphIl
+openAIMikesBlogFileId: file-FKFkIktvca7MvIwjAf3HphIl
 ---
 
 I, like many others have been eagerly anticipating the latest Blizzard release Starcraft 2\. I have been looking forward to the game but more importantly I have been eagerly anticipating the custom maps from the community.

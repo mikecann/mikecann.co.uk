@@ -4,6 +4,9 @@ import OpenAI from "openai";
 import { ensure } from "../../essentials/misc/ensure";
 import { getThreadForUser } from "../threads";
 import { api, internal } from "../_generated/api";
+import { Signal } from "../../essentials/Signal";
+import { Annotation } from "../schema";
+import { isNotNullOrUndefined } from "../../essentials/misc/filter";
 
 export const addUserMessageAndRequestAnswer = internalAction({
   args: {
@@ -54,33 +57,41 @@ export const addUserMessageAndRequestAnswer = internalAction({
       openAIMessageId: userMessage.id,
     });
 
-    let accumulatedDelta = "";
-    let lastUpdateTime = 0;
+    let updateTimeout: NodeJS.Timeout | null = null;
+    let latestSnapshot: OpenAI.Beta.Threads.Messages.Text | null = null;
+    const onTimeoutFinished = new Signal();
 
-    const updateMessage = async (force = false) => {
-      const now = Date.now();
-      if (force || now - lastUpdateTime >= 500) {
-        if (accumulatedDelta) {
-          await ctx.runMutation(internal.messages.updateMessageTextFromAssistantDelta, {
+    const updateMessage = async (snapshot: OpenAI.Beta.Threads.Messages.Text) => {
+      latestSnapshot = snapshot;
+      if (updateTimeout) return;
+
+      updateTimeout = setTimeout(async () => {
+        if (!latestSnapshot) return;
+        try {
+          await ctx.runMutation(internal.messages.updateMessageTextFromAssistant, {
             messageId: args.assistantMessageId,
-            textDelta: accumulatedDelta,
+            text: latestSnapshot.value ?? "",
+            annotations: convertOpenAIAnnotationsToSchemaAnnotations(
+              latestSnapshot.annotations ?? []
+            ),
           });
-          accumulatedDelta = "";
-          lastUpdateTime = now;
+        } catch (e) {
+          console.error(e);
         }
-      }
+        updateTimeout = null;
+        onTimeoutFinished.dispatch();
+      }, 250);
     };
 
     await new Promise((resolve) => {
-      const run = openai.beta.threads.runs
+      openai.beta.threads.runs
         .stream(ensure(thread.openAIThreadId, "Missing thread.openAIThreadId"), {
           assistant_id: assistantId,
         })
         .on("textCreated", (text) => console.log("textCreated", text))
         .on("textDelta", async (textDelta, snapshot) => {
           console.log("textDelta", textDelta, snapshot);
-          accumulatedDelta += textDelta.value ?? "";
-          await updateMessage();
+          await updateMessage(snapshot);
         })
         .on("toolCallCreated", (toolCall) => console.log("toolCallCrated", toolCall))
         .on("toolCallDelta", (toolCallDelta, snapshot) => {
@@ -88,14 +99,35 @@ export const addUserMessageAndRequestAnswer = internalAction({
         })
         .on("end", async () => {
           console.log("end");
-          await updateMessage(true);
-          resolve(null);
+          if (updateTimeout) onTimeoutFinished.addOnce(() => resolve(null));
+          else resolve(null);
         })
         .on("error", async (error) => {
           console.log("error", error);
-          await updateMessage(true);
-          resolve(null);
+          if (updateTimeout) onTimeoutFinished.addOnce(() => resolve(null));
+          else resolve(null);
         });
     });
+
+    console.log("done");
   },
 });
+
+function convertOpenAIAnnotationsToSchemaAnnotations(
+  openAIAnnotations: OpenAI.Beta.Threads.Messages.Annotation[]
+): Annotation[] {
+  return openAIAnnotations
+    .map((annotation) => {
+      if (annotation.type === "file_citation")
+        return {
+          kind: "page_citation",
+          startIndex: annotation.start_index,
+          endIndex: annotation.end_index,
+          openAIFileId: annotation.file_citation.file_id,
+          pageId: "about",
+        } as const;
+
+      return null;
+    })
+    .filter(isNotNullOrUndefined);
+}

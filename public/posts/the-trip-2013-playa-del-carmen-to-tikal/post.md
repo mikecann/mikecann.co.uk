@@ -10,7 +10,7 @@ tags:
   - travel
 title: The Trip 2013 - Playa del Carmen to Tikal
 oldUrl: /2013-trip/the-trip-2013-playa-del-carmen-to-tikal
-openAIPostsVectorStoreFileId: file-QD6Pu84R6jXo6Wb1cgFvo8qe
+openAIMikesBlogFileId: file-QD6Pu84R6jXo6Wb1cgFvo8qe
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/07/screenshot_01.png)

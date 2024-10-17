@@ -6,7 +6,7 @@ tags:
   - personal
   - ux
 title: Don't Buy a Fitbit
-openAIPostsVectorStoreFileId: file-bbbe4xB2YFF9okBbOgn7ql6A
+openAIMikesBlogFileId: file-bbbe4xB2YFF9okBbOgn7ql6A
 ---
 
 Strap yourselves in, this one is a bit of a rant.

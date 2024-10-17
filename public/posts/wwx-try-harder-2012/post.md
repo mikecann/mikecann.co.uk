@@ -8,7 +8,7 @@ tags:
   - wwx
 title: WWX & Try Harder 2012
 oldUrl: /misc/wwx-try-harder-2012
-openAIPostsVectorStoreFileId: file-TMRPgDRI6mYGLhT0csqHxk7B
+openAIMikesBlogFileId: file-TMRPgDRI6mYGLhT0csqHxk7B
 ---
 
 [![](/wp-content/uploads/2012/09/newhead2.jpg "newhead2")](/wp-content/uploads/2012/09/newhead2.jpg)

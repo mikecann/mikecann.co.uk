@@ -8,7 +8,7 @@ tags:
   - travel
 title: Camping Oz 2017 - East Kimberly
 oldUrl: /above-under/camping-oz-2017-east-kimberly
-openAIPostsVectorStoreFileId: file-RB2FpRKeLs1tzZKIP71JHmnF
+openAIMikesBlogFileId: file-RB2FpRKeLs1tzZKIP71JHmnF
 ---
 
 After the relaxing couple of weeks in Broome we were back on the road again. The original plan was to head along the Gibbs River road a 660 km long dirt road that has a number of beautiful stops at gorges along the way. We had done it once before in 2014 and enjoyed it so much that we wanted to do it again. This year however was one of the wettest wet season on record, the result is that the road has been closed much longer than usual and many of the gorges have been closed.

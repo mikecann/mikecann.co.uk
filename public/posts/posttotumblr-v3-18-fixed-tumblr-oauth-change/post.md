@@ -10,7 +10,7 @@ tags:
   - tumblr
 title: PostToTumblr v3.18 - Fixed Tumblr oauth change
 oldUrl: /haxe/posttotumblr-v3-18-fixed-tumblr-oauth-change
-openAIPostsVectorStoreFileId: file-QIHG7Ost578bm6f1102h96F5
+openAIMikesBlogFileId: file-QIHG7Ost578bm6f1102h96F5
 ---
 
 [![head](/wp-content/uploads/2013/03/head1.png)](/posts/posttotumblr-v3-18-fixed-tumblr-oauth-change/attachment/head-9/)

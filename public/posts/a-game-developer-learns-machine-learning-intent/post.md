@@ -10,7 +10,7 @@ tags:
   - agdlml
 title: A Game Developer Learns Machine Learning - Intent
 oldUrl: /machine-learning/a-game-developer-learns-machine-learning-intent
-openAIPostsVectorStoreFileId: file-BcZh2fEl7SqGWXcZDymAIlOS
+openAIMikesBlogFileId: file-BcZh2fEl7SqGWXcZDymAIlOS
 ---
 
 Lately I have spent a considerable amount of time thinking about where I want to go in my career and what sort of things do I want to work on going forward.

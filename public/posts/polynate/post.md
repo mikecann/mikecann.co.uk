@@ -4,7 +4,7 @@ date: '2006-08-14T12:24:40.000Z'
 tags: []
 title: Polynate
 oldUrl: /art/polynate
-openAIPostsVectorStoreFileId: file-0GprY8Tuh3Psbp6UHYB6uDae
+openAIMikesBlogFileId: file-0GprY8Tuh3Psbp6UHYB6uDae
 ---
 
 ![](/wp-content/uploads/Image/polynate-thumb.png)

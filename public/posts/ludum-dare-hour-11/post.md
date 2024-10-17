@@ -10,7 +10,7 @@ tags:
   - project
 title: 'Ludum Dare - Hour 11 '
 oldUrl: /48-hours-later/ludum-dare-hour-11
-openAIPostsVectorStoreFileId: file-wDpyh9mUT6lY5oiFYrcUFhD3
+openAIMikesBlogFileId: file-wDpyh9mUT6lY5oiFYrcUFhD3
 ---
 
 Thought I would update now I have a basic scene and a controllable player. See for yourself:

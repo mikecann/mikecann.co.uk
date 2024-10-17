@@ -8,7 +8,7 @@ tags:
   - rockyou
 title: Playdemic acquired by RockYou
 oldUrl: /misc/playdemic-acquired-by-rockyou
-openAIPostsVectorStoreFileId: file-QVbt9v8xQSGc88Lat062iOk1
+openAIMikesBlogFileId: file-QVbt9v8xQSGc88Lat062iOk1
 ---
 
 [![](/wp-content/uploads/2011/01/top.jpg "top")](/wp-content/uploads/2011/01/top.jpg)

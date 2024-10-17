@@ -5,7 +5,7 @@ tags:
   - convex
   - personal
 title: Im now a Convex.dev Developer Champion!
-openAIPostsVectorStoreFileId: file-1l0xjE6VsGlfX9erippk1DVk
+openAIMikesBlogFileId: file-1l0xjE6VsGlfX9erippk1DVk
 ---
 
 Just a short one this month as I have been working super hard with the team on the mobile port of [our game BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes). But as this is a personal blog I thought I would share something I think is quite cool.

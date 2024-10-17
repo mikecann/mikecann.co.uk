@@ -15,7 +15,7 @@ tags:
   - version
 title: Inputtie - Beta Release!
 oldUrl: /inputtie/inputtie-beta-release
-openAIPostsVectorStoreFileId: file-208bZn9MINFsvDcB8Kvq3qV0
+openAIMikesBlogFileId: file-208bZn9MINFsvDcB8Kvq3qV0
 ---
 
 [![](/wp-content/uploads/2010/09/ScreenHunter_01-Sep.-22-19.58.png "ScreenHunter_01 Sep. 22 19.58")](/wp-content/uploads/2010/09/ScreenHunter_01-Sep.-22-19.58.png)

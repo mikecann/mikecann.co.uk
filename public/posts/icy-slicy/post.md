@@ -4,7 +4,7 @@ date: '2008-08-13T09:49:18.000Z'
 tags: []
 title: Icy Slicy
 oldUrl: /actionscript/icy-slicy
-openAIPostsVectorStoreFileId: file-yTt97pG6wAe9F5fnRNS8JcOo
+openAIMikesBlogFileId: file-yTt97pG6wAe9F5fnRNS8JcOo
 ---
 
 Well after weeks and weeks of having the game all but finished i have finally sorted out the sponsorship, ironed out the bugs (most of them) and sorted all the artwork. The game is now released and ready to be sliced up by critics on the internet.

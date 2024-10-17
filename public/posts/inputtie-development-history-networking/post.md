@@ -13,7 +13,7 @@ tags:
   - zero conf
 title: Inputtie Development History - Networking
 oldUrl: /inputtie/inputtie-development-history-networking
-openAIPostsVectorStoreFileId: file-aMOchakpf9jjODJtcds7POi2
+openAIMikesBlogFileId: file-aMOchakpf9jjODJtcds7POi2
 ---
 
 <!-- p.p1 {margin: 0.0px 0.0px 13.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia} p.p2 {margin: 0.0px 0.0px 16.0px 0.0px; line-height: 19.0px; font: 20.0px Georgia} p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia; color: #0101ee; min-height: 15.0px} p.p4 {margin: 0.0px 0.0px 13.0px 0.0px; line-height: 19.0px; font: 13.0px Georgia; min-height: 15.0px} span.s1 {text-decoration: underline ; color: #0101ee} span.s2 {color: #0101ee} -->This is part two in my series of posts on the development history of [Inputtie](https://www.inputtie.com/).

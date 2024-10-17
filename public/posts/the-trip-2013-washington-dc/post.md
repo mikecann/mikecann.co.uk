@@ -8,7 +8,7 @@ tags:
   - washington
 title: The Trip 2013 - Washington DC
 oldUrl: /2013-trip/the-trip-2013-washington-dc
-openAIPostsVectorStoreFileId: file-EZZLG6YQYSvDr4BEd6Cdt1PR
+openAIMikesBlogFileId: file-EZZLG6YQYSvDr4BEd6Cdt1PR
 ---
 
 [![screenshot_02](/wp-content/uploads/2013/05/screenshot_02.png)](/wp-content/uploads/2013/05/screenshot_02.png)

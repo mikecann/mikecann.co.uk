@@ -4,7 +4,7 @@ date: '2009-03-27T13:15:08.000Z'
 tags: []
 title: 'Flash Develop Plugin: Highlight Selected'
 oldUrl: /fun-amp-videos/flash-develop-plugin-highlight-selected
-openAIPostsVectorStoreFileId: file-ieswPpe9gqiiv0UazDMu7RBV
+openAIMikesBlogFileId: file-ieswPpe9gqiiv0UazDMu7RBV
 ---
 
 **Highlight Selected**

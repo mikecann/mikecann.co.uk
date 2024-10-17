@@ -4,7 +4,7 @@ date: '2009-04-23T12:46:27.000Z'
 tags: []
 title: Niflheim & Flash Hacking
 oldUrl: /actionscript/niflheim-flash-hacking
-openAIPostsVectorStoreFileId: file-gf8OP68QmBhuA4XVjaxz5u9p
+openAIMikesBlogFileId: file-gf8OP68QmBhuA4XVjaxz5u9p
 ---
 
 Stumbled accross this thing just now. I have heard of this method of flash hacking, but I didnt realise it was so easy to do nor people had actually made special applications to do it!

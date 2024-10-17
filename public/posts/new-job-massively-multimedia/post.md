@@ -7,7 +7,7 @@ tags:
   - personal
 title: New Job - Massively Multimedia
 oldUrl: /photos-personal/new-job-massively-multimedia
-openAIPostsVectorStoreFileId: file-tX6xL7FzHTr9KcsAKXaIcfyz
+openAIMikesBlogFileId: file-tX6xL7FzHTr9KcsAKXaIcfyz
 ---
 
 [![logo](/wp-content/uploads/2009/08/logo.png "logo")](/wp-content/uploads/2009/08/logo.png)

@@ -13,7 +13,7 @@ tags:
   - signals
 title: On the Bleeding Edge
 oldUrl: /actionscript/on-the-bleeding-edge
-openAIPostsVectorStoreFileId: file-OMOP0z1RMMxDvVBYwqnocUSp
+openAIMikesBlogFileId: file-OMOP0z1RMMxDvVBYwqnocUSp
 ---
 
 Well it thought it was about time I did some posting about my personal project im working on at the moment as I havent spoken about my coding for a while.

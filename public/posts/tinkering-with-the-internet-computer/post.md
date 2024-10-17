@@ -7,7 +7,7 @@ tags:
   - motoko
   - actors
 title: Tinkering With The Internet Computer
-openAIPostsVectorStoreFileId: file-mPv2bJF3qpEAVunxZoQuVSoW
+openAIMikesBlogFileId: file-mPv2bJF3qpEAVunxZoQuVSoW
 ---
 
 Im not sure how I first came across [Dfinity](dfinity.org) and the Internet Computer project but when I heard about the technologies they were using (Blockchain, Actors, Motoko) and the goals they were striving for I knew I had to have a tinker.

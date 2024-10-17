@@ -32,7 +32,7 @@ async function bootstrap() {
 
   // Get all posts and filter out those that have already been uploaded
   const allPosts = getAllPosts();
-  const postsToUpload = allPosts.filter((post) => !post.meta.openAIPostsVectorStoreFileId);
+  const postsToUpload = allPosts.filter((post) => !post.meta.openAIMikesBlogFileId);
 
   console.log(`starting..`, {
     totalPosts: allPosts.length,
@@ -66,7 +66,7 @@ async function bootstrap() {
         post.absPostPath,
         matter.stringify(post.content, {
           ...post.meta,
-          openAIPostsVectorStoreFileId: result.id,
+          openAIMikesBlogFileId: result.id,
         })
       );
     } else console.log(`Error uploading post`, result);

@@ -4,7 +4,7 @@ date: '2004-11-27T21:58:33.000Z'
 tags: []
 title: MazeHunt
 oldUrl: /c/mazehunt-winter-2004
-openAIPostsVectorStoreFileId: file-577PCCBYQ2spwCG7l5jYSLRc
+openAIMikesBlogFileId: file-577PCCBYQ2spwCG7l5jYSLRc
 ---
 
 <span>This is another little project i did in the earlier part of my second year at university. It was my second project i ever did in DirectX and as such is rather limited.

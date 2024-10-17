@@ -4,7 +4,7 @@ date: '2015-01-25T23:52:20.000Z'
 tags: []
 title: Mr Nibbles Forever - Prototype 2
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-prototype-2
-openAIPostsVectorStoreFileId: file-l8tVzfm2fh3UEyUZgQSWfdPY
+openAIMikesBlogFileId: file-l8tVzfm2fh3UEyUZgQSWfdPY
 ---
 
 So its almost a week on since the first build of Mr Nibbles Forever and a fair bit of work has gone into the game this week. Its starting to take shape a little more now which i'm happy about.

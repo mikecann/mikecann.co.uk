@@ -5,7 +5,7 @@ tags:
   - battletabs
   - markd
 title: BattleTabs - 6 Months Later
-openAIPostsVectorStoreFileId: file-YYv7fJf43qiv6tffPRuCnNbI
+openAIMikesBlogFileId: file-YYv7fJf43qiv6tffPRuCnNbI
 ---
 
 It's been 6 months since [I last wrote about BattleTabs](/posts/battletabs-ships-and-fleets-update) and so much has happened and so many things have changed I felt it was time to do an update.

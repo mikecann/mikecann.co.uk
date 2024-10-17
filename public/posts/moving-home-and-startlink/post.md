@@ -5,7 +5,7 @@ tags:
   - personal
   - tech
 title: Moving Home & Starlink
-openAIPostsVectorStoreFileId: file-4HBcETysPpJL3fCKgC7PSfnl
+openAIMikesBlogFileId: file-4HBcETysPpJL3fCKgC7PSfnl
 ---
 
 Its been a while since I have given a personal update so I thought I would take this month to talk about my recent move and some adventures with satellite internet.

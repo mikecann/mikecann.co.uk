@@ -4,7 +4,7 @@ date: '2008-10-14T23:14:16.000Z'
 tags: []
 title: ArtificialGames.co.uk & Site Changes
 oldUrl: /misc/artificialgamescouk-site-changes
-openAIPostsVectorStoreFileId: file-PmvjrVk1Y6iUPvWKKQhzTGPH
+openAIMikesBlogFileId: file-PmvjrVk1Y6iUPvWKKQhzTGPH
 ---
 
 [![](/wp-content/uploads/2008/10/artificialgamesscreeny.png "artificialgamesscreeny")](www.artificialgames.co.uk)

@@ -5,7 +5,7 @@ tags:
   - photos and personal
 title: Joshua Christopher Cann
 oldUrl: /projects/joshua-christopher-cann
-openAIPostsVectorStoreFileId: file-DIImtulyEcDjDaV7GkZ0uUfC
+openAIMikesBlogFileId: file-DIImtulyEcDjDaV7GkZ0uUfC
 ---
 
 Im proud to announce my latest project: Joshua Christopher Cann :)

@@ -4,7 +4,7 @@ date: '2006-05-17T22:04:26.000Z'
 tags: []
 title: archisland
 oldUrl: /art/archisland
-openAIPostsVectorStoreFileId: file-DrxSOA6QqvSLjBwu7sxh0X04
+openAIMikesBlogFileId: file-DrxSOA6QqvSLjBwu7sxh0X04
 ---
 
 > Archisland is one of my most reccent additions and was done in Bryce. Took alot of tinkering to get it looking like this, even though it isnt perfect im happy with it

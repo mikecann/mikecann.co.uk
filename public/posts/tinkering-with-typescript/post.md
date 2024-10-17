@@ -11,7 +11,7 @@ tags:
   - typescript
 title: Tinkering With TypeScript
 oldUrl: /chrome-crawler/tinkering-with-typescript
-openAIPostsVectorStoreFileId: file-BUjBTPoPoCW9k3sIf1DjAJ5A
+openAIMikesBlogFileId: file-BUjBTPoPoCW9k3sIf1DjAJ5A
 ---
 
 [![](/wp-content/uploads/2012/10/ts2.png "ts2")](/wp-content/uploads/2012/10/ts2.png)

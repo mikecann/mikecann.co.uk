@@ -6,7 +6,7 @@ tags:
   - life
 title: A Personal Update
 oldUrl: /personal/a-personal-update
-openAIPostsVectorStoreFileId: file-QCEepD2c8vriVzqfseRg1M9a
+openAIMikesBlogFileId: file-QCEepD2c8vriVzqfseRg1M9a
 ---
 
 This blog has been going for a long time and in the early days it was a mixture of Personal updates and technical updates.

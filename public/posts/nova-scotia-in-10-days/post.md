@@ -7,7 +7,7 @@ tags:
   - trip
 title: Nova Scotia in 10 Days
 oldUrl: /misc/nova-scotia-in-10-days
-openAIPostsVectorStoreFileId: file-KJBWxrt20pnnPOOrN8cjHa66
+openAIMikesBlogFileId: file-KJBWxrt20pnnPOOrN8cjHa66
 ---
 
 [![novampa](/wp-content/uploads/2009/06/novampa.jpg "novampa")](https://picasaweb.google.co.uk/lh/albumMap?uname=mike.cann&aid=5348332286173974433#map)

@@ -4,7 +4,7 @@ date: '2007-05-05T20:01:22.000Z'
 tags: []
 title: TowerDefence - A Slow Beginning
 oldUrl: /c/towerdefence-a-slow-beginning
-openAIPostsVectorStoreFileId: file-HbQr9jBXSpDkdLXbscCRb9vT
+openAIMikesBlogFileId: file-HbQr9jBXSpDkdLXbscCRb9vT
 ---
 
 ![](https://www.mikecann.co.uk/Work/TDProject/engine02.png)

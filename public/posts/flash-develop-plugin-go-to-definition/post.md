@@ -9,7 +9,7 @@ tags:
   - projects
 title: 'Flash Develop Plugin: Go To Definition'
 oldUrl: /c/flash-develop-plugin-go-to-definition
-openAIPostsVectorStoreFileId: file-OK3tIGiOnlFHJxqVHyXdewI6
+openAIMikesBlogFileId: file-OK3tIGiOnlFHJxqVHyXdewI6
 ---
 
 **Go To Definition**

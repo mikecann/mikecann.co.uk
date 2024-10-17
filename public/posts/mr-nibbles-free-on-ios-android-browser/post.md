@@ -11,7 +11,7 @@ tags:
   - nibbles
 title: 'Mr Nibbles, Free on iOS, Android & Browser'
 oldUrl: /mr-nibbles/mr-nibbles-free-on-ios-android-browser
-openAIPostsVectorStoreFileId: file-tRkO6Yq1dapH7NqIKsxLfD0m
+openAIMikesBlogFileId: file-tRkO6Yq1dapH7NqIKsxLfD0m
 ---
 
 Finally! Apple approved the iOS version of the game this morning, and this evening I finished off the site, so the holy trinity of game availability; iOS, Android and the browser is now complete!

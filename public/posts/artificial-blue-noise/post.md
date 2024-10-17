@@ -10,7 +10,7 @@ tags:
   - soundcloud
 title: Artificial - Blue Noise
 oldUrl: /audio/artificial-blue-noise
-openAIPostsVectorStoreFileId: file-Ns1tgkLnSwfZiibnKwW296NG
+openAIMikesBlogFileId: file-Ns1tgkLnSwfZiibnKwW296NG
 ---
 
 [![](/wp-content/uploads/2011/03/700.png "700")](/wp-content/uploads/2011/03/700.png)

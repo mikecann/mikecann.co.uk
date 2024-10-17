@@ -7,7 +7,7 @@ tags:
   - games
 title: Windosill
 oldUrl: /flash/windosill
-openAIPostsVectorStoreFileId: file-HaDENrPuxgVMTnOS3ImeM0Od
+openAIMikesBlogFileId: file-HaDENrPuxgVMTnOS3ImeM0Od
 ---
 
 [![windowsil](/wp-content/uploads/2009/07/windowsil.png "windowsil")](https://www.mochigames.com/game/play/windosill_v4/)

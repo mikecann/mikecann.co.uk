@@ -9,7 +9,7 @@ export const PostMeta = t.intersection([
   }),
   t.partial({
     oldUrl: t.string,
-    openAIPostsVectorStoreFileId: t.string,
+    openAIMikesBlogFileId: t.string,
   }),
 ]);
 

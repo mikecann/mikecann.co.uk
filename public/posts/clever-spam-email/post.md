@@ -11,7 +11,7 @@ tags:
   - virus
 title: Clever Spam Email..
 oldUrl: /misc/clever-spam-email
-openAIPostsVectorStoreFileId: file-qyib68JJ6eHbm435uMp1qxAx
+openAIMikesBlogFileId: file-qyib68JJ6eHbm435uMp1qxAx
 ---
 
 Its not often that spam gets through my gmail spam filters but this one did, and its quite ingenious:

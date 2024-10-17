@@ -13,7 +13,7 @@ tags:
   - windows
 title: Inputtie - Beta Drawing Near!
 oldUrl: /inputtie/inputtie-beta-drawing-near
-openAIPostsVectorStoreFileId: file-BM6UTFfOxK0inmcF3U7DaPKg
+openAIMikesBlogFileId: file-BM6UTFfOxK0inmcF3U7DaPKg
 ---
 
 Final testing is under way here at mission control for the [Inputtie](https://www.inputtie.com) Beta.

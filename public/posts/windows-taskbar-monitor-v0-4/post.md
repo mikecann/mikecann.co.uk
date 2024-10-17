@@ -8,7 +8,7 @@ tags:
   - windows
 title: Windows Taskbar Monitor v0.4
 oldUrl: /projects/windows-taskbar-monitor-v0-4
-openAIPostsVectorStoreFileId: file-qnIAhsGJYcJQhlru4QgTfa6k
+openAIMikesBlogFileId: file-qnIAhsGJYcJQhlru4QgTfa6k
 ---
 
 Over the years I have had a great many projects, most of which have been chronicled on this blog. The majority of them I leave alone once I have finished with them and never return to.

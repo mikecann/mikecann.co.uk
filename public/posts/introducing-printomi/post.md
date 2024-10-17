@@ -12,7 +12,7 @@ tags:
   - website
 title: Introducing Printomi
 oldUrl: /business/introducing-printomi
-openAIPostsVectorStoreFileId: file-UjXDy5iPoerqDizmht3d8lhQ
+openAIMikesBlogFileId: file-UjXDy5iPoerqDizmht3d8lhQ
 ---
 
 I'm extremely proud to announce the launch of a project I have been working on for quite a while now.

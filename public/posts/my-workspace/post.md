@@ -4,7 +4,7 @@ date: '2008-08-11T16:00:58.000Z'
 tags: []
 title: My Workspace
 oldUrl: /photos-personal/my-workspace
-openAIPostsVectorStoreFileId: file-G5ZLFQYqWJmhIu7bTbIpuWHp
+openAIMikesBlogFileId: file-G5ZLFQYqWJmhIu7bTbIpuWHp
 ---
 
 Continuing on from the previous post i thought i would just quickly post a picture of my new workspace at Dubit :)

@@ -4,7 +4,7 @@ date: '2012-05-16T19:36:28.000Z'
 tags: []
 title: Printomi Maps
 oldUrl: /html/printomi-maps
-openAIPostsVectorStoreFileId: file-MGi3J8T15ikKTnCD6eVKtT2j
+openAIMikesBlogFileId: file-MGi3J8T15ikKTnCD6eVKtT2j
 ---
 
 Well since we have made the [decision to discontinue Printomi](/posts/sunsetting-printomi/) I have been backing up the databases and downloading the 90GB+ of images that users have uploaded.

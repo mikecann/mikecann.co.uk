@@ -13,7 +13,7 @@ tags:
   - typescript
 title: 'Recursive, Nuts & Bolts Part 2 - Crawling the World Wide Web (2 of 3)'
 oldUrl: /programming/recursive-nuts-bolts-part-2-crawling-the-world-wide-web-2-of-3
-openAIPostsVectorStoreFileId: file-H2ylXIHCOlc2HyxoFlkqkSyN
+openAIMikesBlogFileId: file-H2ylXIHCOlc2HyxoFlkqkSyN
 ---
 
 [![screenshot_05](/wp-content/uploads/2012/12/screenshot_05.png)](/posts/recursive-nuts-bolts-part-2-crawling-the-world-wide-web-2-of-3/attachment/screenshot_05-5/)

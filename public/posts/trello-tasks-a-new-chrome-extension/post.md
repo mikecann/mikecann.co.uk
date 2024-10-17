@@ -9,7 +9,7 @@ tags:
   - typescript
 title: Trello Tasks - A Chrome Extension
 oldUrl: /trello-tasks/trello-tasks-a-new-chrome-extension
-openAIPostsVectorStoreFileId: file-nRdBfiSC2a6qjNjECF2a06Ye
+openAIMikesBlogFileId: file-nRdBfiSC2a6qjNjECF2a06Ye
 ---
 
 So I am taking a little time away from games development at the moment to explore a few other projects and ideas. I want to solve real problems that either I or others have had. I want the projects to be short so I don't get bored and frustrated and I want to also learn new techniques and technologies as I build them.

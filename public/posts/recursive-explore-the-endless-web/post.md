@@ -17,7 +17,7 @@ tags:
   - website
 title: Recursive - Explore the endless web
 oldUrl: /html/recursive-explore-the-endless-web
-openAIPostsVectorStoreFileId: file-XirTT68MwLMiId5p3hCon7nv
+openAIMikesBlogFileId: file-XirTT68MwLMiId5p3hCon7nv
 ---
 
 Wow, well that took longer than expected! [44 days ago I blogged](/posts/tinkering-with-typescript/) that I had started work on a second version of my Chrome Crawler extension and have only just managed to get it to a state I was happy with enough to release it. To be fair I had been on [a trip to New York](/posts/new-york-new-york/) during that period so perhaps I can be excused. Having said that however I think the time has been well spent and am fairly proud of the result.

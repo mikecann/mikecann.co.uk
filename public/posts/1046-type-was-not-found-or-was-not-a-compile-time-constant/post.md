@@ -12,7 +12,7 @@ tags:
   - flex
 title: '1046: Type was not found or was not a compile-time constant'
 oldUrl: /actionscript/1046-type-was-not-found-or-was-not-a-compile-time-constant
-openAIPostsVectorStoreFileId: file-17HGwCIr15H6eUhuqBGoJgYB
+openAIMikesBlogFileId: file-17HGwCIr15H6eUhuqBGoJgYB
 ---
 
 [![](/wp-content/uploads/2011/02/001.jpg "001")](/wp-content/uploads/2011/02/001.jpg)

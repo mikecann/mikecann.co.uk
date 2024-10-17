@@ -3,6 +3,7 @@ import { mutationWithUser, queryWithUser } from "./functions";
 import { getThreadForUser } from "./threads";
 import { internalMutation, query } from "./_generated/server";
 import { internal } from "./_generated/api";
+import { annotationSchema } from "./schema";
 
 export const listMessagesForUserThread = query({
   args: {
@@ -90,17 +91,19 @@ export const setOpenAIMessageId = internalMutation({
   },
 });
 
-export const updateMessageTextFromAssistantDelta = internalMutation({
+export const updateMessageTextFromAssistant = internalMutation({
   args: {
     messageId: v.id("messages"),
-    textDelta: v.string(),
+    text: v.string(),
+    annotations: v.array(annotationSchema),
   },
   handler: async (ctx, args) => {
     const message = await ctx.db.get(args.messageId);
     if (!message) throw new Error(`Message ${args.messageId} not found`);
 
     return ctx.db.patch(args.messageId, {
-      text: message.text + args.textDelta,
+      text: args.text,
+      annotations: args.annotations,
     });
   },
 });

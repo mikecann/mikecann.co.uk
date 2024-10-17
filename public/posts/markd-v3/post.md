@@ -10,7 +10,7 @@ tags:
   - typescript
 title: Markd V3
 oldUrl: /markd/markd-v3
-openAIPostsVectorStoreFileId: file-8dX7U6sXXvjr1DTrZnnaeyAe
+openAIMikesBlogFileId: file-8dX7U6sXXvjr1DTrZnnaeyAe
 ---
 
 Wow its taken a little longer than we would have liked but finally we have finally released the completely redesigned and rewritten [Markd](https://markd.co) website, extension and server!

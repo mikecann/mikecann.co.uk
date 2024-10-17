@@ -11,7 +11,7 @@ tags:
   - update
 title: PostToTumblr v3.12 Update
 oldUrl: /post-to-tumbr/posttotumblr-v3-12-update
-openAIPostsVectorStoreFileId: file-6uu1kpIAPd929QxtJaaKkoX7
+openAIMikesBlogFileId: file-6uu1kpIAPd929QxtJaaKkoX7
 ---
 
 [![head](/wp-content/uploads/2013/01/head1.png)](/posts/posttotumblr-v3-12-update/attachment/head-5/)

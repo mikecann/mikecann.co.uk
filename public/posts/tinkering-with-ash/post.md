@@ -11,7 +11,7 @@ tags:
   - framework
 title: Tinkering With Ash
 oldUrl: /actionscript/tinkering-with-ash
-openAIPostsVectorStoreFileId: file-XkM2PhfuHn1wD2hdl4ffgq2U
+openAIMikesBlogFileId: file-XkM2PhfuHn1wD2hdl4ffgq2U
 ---
 
 [Last October](/posts/try-harder-2012-slides/) I was fortunate enough to attend the excellent [Try Harder](https://www.tryharder.org.uk/) conference for the second time.[ I have spoken before](/posts/try-harder-2012/) about how inspirational the event is where every attendant must give a talk on something they are passionate about. One of the talks was by David Wagner's and was on 'The Value of Tinkering' and it inspired me to[ tinker with TypeScript](/posts/tinkering-with-typescript/) which led to my [Recursive Chrome Extension](/posts/personal-project/recursive/).

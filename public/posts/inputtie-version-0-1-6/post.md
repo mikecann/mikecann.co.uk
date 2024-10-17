@@ -8,7 +8,7 @@ tags:
   - version
 title: Inputtie - Version 0.1.6
 oldUrl: /inputtie/inputtie-version-0-1-6
-openAIPostsVectorStoreFileId: file-cDrsVIuOAEyYoU2Ybqpxsz4l
+openAIMikesBlogFileId: file-cDrsVIuOAEyYoU2Ybqpxsz4l
 ---
 
 Made a few small stability changes with Inputtie tonight, thought I would share.

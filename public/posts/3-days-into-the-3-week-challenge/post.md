@@ -9,7 +9,7 @@ tags:
   - update
 title: 3 Days into the 3-Week Challenge
 oldUrl: /games/3-days-into-the-3-week-challenge
-openAIPostsVectorStoreFileId: file-aSFmYzpNXVs2It98SamAzSdh
+openAIMikesBlogFileId: file-aSFmYzpNXVs2It98SamAzSdh
 ---
 
 <object id="test1" width="650" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="/wp-content/uploads/2012/07/Main.swf" /><param name="pluginspage" value="https://www.adobe.com/go/getflashplayer" /><embed id="test1" width="650" height="400" type="application/x-shockwave-flash" src="/wp-content/uploads/2012/07/Main.swf" pluginspage="https://www.adobe.com/go/getflashplayer" /></object>

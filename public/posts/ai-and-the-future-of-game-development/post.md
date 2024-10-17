@@ -7,7 +7,7 @@ tags:
   - stable diffusion
   - GAN
 title: AI & The Future of Game Development
-openAIPostsVectorStoreFileId: file-Ca3STwW08sKvigTCcZAgH4BZ
+openAIMikesBlogFileId: file-Ca3STwW08sKvigTCcZAgH4BZ
 ---
 
 As a [game developer of 30](/about) years I like to stay up to date with new tools and techniques in my chosen profession. There is however a change coming of such magnitude I think its going to totally upend the way games are made in the future.

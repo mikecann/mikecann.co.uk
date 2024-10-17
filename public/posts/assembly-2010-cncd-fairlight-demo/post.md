@@ -16,7 +16,7 @@ tags:
   - video
 title: Assembly 2010 - CNCD & Fairlight Demo
 oldUrl: /fun-amp-videos/assembly-2010-cncd-fairlight-demo
-openAIPostsVectorStoreFileId: file-FYfrjrwzzlmc0BXa2Cu12qe9
+openAIMikesBlogFileId: file-FYfrjrwzzlmc0BXa2Cu12qe9
 ---
 
 It was the massive annual Assembly gathering last week. Traditionally its a place for the [demo scene](https://scene.org) to gather and present their demos and to hack out new ones.

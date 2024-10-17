@@ -7,7 +7,7 @@ tags:
   - gumtree
   - warning
 title: The Scam That Almost Got Me
-openAIPostsVectorStoreFileId: file-pKkY6tB6uLEuSjkxSUkm6RhH
+openAIMikesBlogFileId: file-pKkY6tB6uLEuSjkxSUkm6RhH
 ---
 
 This post is a little different to my usual but the incident had me thinking so I thought I would share..

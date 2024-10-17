@@ -13,7 +13,7 @@ tags:
   - waterfall
 title: The Trip 2013 - Mercedes to Itacare
 oldUrl: /2013-trip/the-trip-2013-mercedes-to-itacare
-openAIPostsVectorStoreFileId: file-98kLsXiN5AdaiqFEhFkVHyr4
+openAIMikesBlogFileId: file-98kLsXiN5AdaiqFEhFkVHyr4
 ---
 
 Note: This is a condensed version of the pictures I took with some added narrative. The rest of the pics can be viewed in the album [Trip 2013 - Mercedes to Itacare](https://www.facebook.com/media/set/?set=a.10152111043631031.1073741860.593661030&type=1&l=a4ef0bc980). Each picture can be clicked to see a larger version and comment / like.

@@ -8,7 +8,7 @@ tags:
   - typescript
 title: MK Bridges
 oldUrl: /mk-bridges/mk-bridges
-openAIPostsVectorStoreFileId: file-B5hJs5Ur0uBwc0Gv1VzKOkfG
+openAIMikesBlogFileId: file-B5hJs5Ur0uBwc0Gv1VzKOkfG
 ---
 
 MK Bridges is an ongoing freelance project I worked on for Martin-Kaye Solicitors.

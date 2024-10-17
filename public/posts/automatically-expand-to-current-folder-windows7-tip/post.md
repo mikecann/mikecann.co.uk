@@ -7,7 +7,7 @@ tags:
   - windows7
 title: 'Automatically Expand To Current Folder [Windows7 Tip]'
 oldUrl: /misc/automatically-expand-to-current-folder-windows7-tip
-openAIPostsVectorStoreFileId: file-JuyCQNWf5K9xFqF4st7ZWZMO
+openAIMikesBlogFileId: file-JuyCQNWf5K9xFqF4st7ZWZMO
 ---
 
 [![](/wp-content/uploads/2010/12/Shot_0032.png "Shot_003")](/wp-content/uploads/2010/12/Shot_0032.png)

@@ -7,7 +7,7 @@ tags:
   - gratitude
 title: Mike's Lifehacks - Highlight Reel
 oldUrl: /lifehacks/mikes-lifehacks-highlight-reel
-openAIPostsVectorStoreFileId: file-VTW9qy5qcPq8o3vINFsUEuWD
+openAIMikesBlogFileId: file-VTW9qy5qcPq8o3vINFsUEuWD
 ---
 
 This is a technique my girlfriend I have have been practicing every day for years now so I thought I would share.

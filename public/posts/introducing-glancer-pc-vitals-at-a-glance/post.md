@@ -10,7 +10,7 @@ tags:
   - wpf
 title: Introducing Glancer - PC Vitals at a Glance
 oldUrl: /glancer/introducing-glancer-pc-vitals-at-a-glance
-openAIPostsVectorStoreFileId: file-fYjyKFPloW5a5KvFVFfN2vIQ
+openAIMikesBlogFileId: file-fYjyKFPloW5a5KvFVFfN2vIQ
 ---
 
 This post has been over 6 years in the making but im glad I can finally write it.

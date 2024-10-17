@@ -10,7 +10,7 @@ tags:
   - battletabs
 title: Introducing BattleTabs
 oldUrl: /markd/introducing-battletabs
-openAIPostsVectorStoreFileId: file-TxtqeUomKLsEFL63O83osvTL
+openAIMikesBlogFileId: file-TxtqeUomKLsEFL63O83osvTL
 ---
 
 This one has been quite a while in the making but im proud to announce this innovative new game we have been working on.

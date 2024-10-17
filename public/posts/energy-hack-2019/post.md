@@ -8,7 +8,7 @@ tags:
   - perth
 title: Energy Hack 2019
 oldUrl: /personal/energy-hack-2019
-openAIPostsVectorStoreFileId: file-z2WYgoGeQe5J9F1ApBD2wOv0
+openAIMikesBlogFileId: file-z2WYgoGeQe5J9F1ApBD2wOv0
 ---
 
 Just a quick post on my recent attendance of the one-day hackathon "Energy Hack".

@@ -8,7 +8,7 @@ tags:
   - travel
 title: Camping Oz 2017 - Northern Territory
 oldUrl: /above-under/camping-oz-2017-northern-territory
-openAIPostsVectorStoreFileId: file-YyN4vuuRtneGIN0x05yz9F7x
+openAIMikesBlogFileId: file-YyN4vuuRtneGIN0x05yz9F7x
 ---
 
 Following on from our travels through the East Kimberly region we passed over the border from Western Australia into the Northern Territory. Our first port of call was the second largest city in the NT; Kathrine.

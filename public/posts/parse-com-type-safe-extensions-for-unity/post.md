@@ -10,7 +10,7 @@ tags:
   - unity
 title: Parse.com Type-Safe Extensions for Unity
 oldUrl: /c/parse-com-type-safe-extensions-for-unity
-openAIPostsVectorStoreFileId: file-bl3SfE6Ot4zQuIdO8Fy45XRg
+openAIMikesBlogFileId: file-bl3SfE6Ot4zQuIdO8Fy45XRg
 ---
 
 As mentioned in my [previous post](https://www.mikecann.co.uk/games/taming-unity/) I have been working on a multiplayer game built in Unity for a little while now. I ummed and ahhed over the technology choice for the backend for a little while before deciding to go with [Parse.com](https://Parse.com)'s library. The reason being that it looked simple to implement (they have a Unity SDK), they take care of all the backend headaches for me and the pricing model looked fair.

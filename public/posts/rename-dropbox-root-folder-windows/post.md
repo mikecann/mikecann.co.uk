@@ -6,7 +6,7 @@ tags:
   - utility
 title: Rename Dropbox Root Folder Windows
 oldUrl: /photos-personal/rename-dropbox-root-folder-windows
-openAIPostsVectorStoreFileId: file-IvyaUBtvb1Lowxfxof7MFm7S
+openAIMikesBlogFileId: file-IvyaUBtvb1Lowxfxof7MFm7S
 ---
 
 [![](/wp-content/uploads/2010/01/pyDropboxPath.png "pyDropboxPath")](/wp-content/uploads/2010/01/pyDropboxPath.png)

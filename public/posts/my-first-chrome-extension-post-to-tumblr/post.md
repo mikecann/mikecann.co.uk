@@ -13,7 +13,7 @@ tags:
   - tumblr
 title: My First Chrome Extension - "Post To Tumblr"
 oldUrl: /post-to-tumbr/my-first-chrome-extension-post-to-tumblr
-openAIPostsVectorStoreFileId: file-MeKc09ikui54Z03fc7wPfkNp
+openAIMikesBlogFileId: file-MeKc09ikui54Z03fc7wPfkNp
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_002.png "Shot_002")](/wp-content/uploads/2010/10/Shot_002.png)

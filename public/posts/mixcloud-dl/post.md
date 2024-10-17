@@ -8,7 +8,7 @@ tags:
   - tool
 title: Mixcloud-dl
 oldUrl: /misc/mixcloud-dl
-openAIPostsVectorStoreFileId: file-1OuPP46A52toRSN8jYjAhSzK
+openAIMikesBlogFileId: file-1OuPP46A52toRSN8jYjAhSzK
 ---
 
 I love the mix-streaming service Mixcloud but its unfriendly user-interface was really starting to bug me so I whipped up this little tool to help.

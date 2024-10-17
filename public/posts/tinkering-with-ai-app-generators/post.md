@@ -7,7 +7,7 @@ tags:
   - convex
   - tinkering
 title: 'Tinkering With AI App Generators - LazyAI, Pythagora.ai'
-openAIPostsVectorStoreFileId: file-lV6fAj1gU5fDjEc3pcj7YENp
+openAIMikesBlogFileId: file-lV6fAj1gU5fDjEc3pcj7YENp
 ---
 
 As is [rapidly becoming a trend](https://mikecann.co.uk/posts/tinkering-with-spacetime-db) in my tinkering adventures, today's post chronicles a bit of a failed adventure. But that's okay, it's always good to explore and learn, particularly in the rapidly evolving field of AI.

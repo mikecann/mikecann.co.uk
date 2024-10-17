@@ -4,7 +4,7 @@ date: '2012-07-03T21:28:01.000Z'
 tags: []
 title: Lets Make a Mobile Game in 3-Weeks with Haxe & NME
 oldUrl: /games/lets-make-a-mobile-game-in-3-weeks-with-haxe-nme
-openAIPostsVectorStoreFileId: file-h0IbbIppR6bBoQmPtHn7Tpni
+openAIMikesBlogFileId: file-h0IbbIppR6bBoQmPtHn7Tpni
 ---
 
 I have decided that I would like to learn more about mobile game development. Its an exciting area of the games industry at the moment with so many frameworks and languages to choose from to develop with. The plethora of choice however can be a hindrance, what are the best frameworks and language for this particular task? Haxe with NME?  C# MonoTouch with Monogame? or even Javascript with Titanium? One can only go so far just reading about them, eventually you have to jump in and try them out for yourself.

@@ -4,7 +4,7 @@ date: '2015-04-29T10:02:48.000Z'
 tags: []
 title: Mr Nibbles Forever Update
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-update
-openAIPostsVectorStoreFileId: file-0ddgiB8GpCjr21RUuZ3a17mu
+openAIMikesBlogFileId: file-0ddgiB8GpCjr21RUuZ3a17mu
 ---
 
 Its been a while since a Mr Nibbles Forever update. To be honest I haven't actually done a whole lot coding wise on the project since the last update. I have been busy on other projects while I searched for an Artist and Audio guy to help on the project. Well im happy to say I have now found a couple of excellent guys to help me out so I have started to do some more work on the project.

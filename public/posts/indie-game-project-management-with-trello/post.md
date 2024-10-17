@@ -7,7 +7,7 @@ tags:
   - trello
 title: Indie Game Project Management with Trello
 oldUrl: /misc/indie-game-project-management-with-trello
-openAIPostsVectorStoreFileId: file-5kYzgxJLjM7Afr9ckoi41m2x
+openAIMikesBlogFileId: file-5kYzgxJLjM7Afr9ckoi41m2x
 ---
 
 Project management is one of those things that can easily be shrugged away and forgotten about when developing indie games. The temptation is to just leap in and start making without any thought to what the priorities are or how long things are going to take.

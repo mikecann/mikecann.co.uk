@@ -4,7 +4,7 @@ date: '2009-03-20T14:13:47.000Z'
 tags: []
 title: Particle Playground v1.0.4
 oldUrl: /misc/particle-playground-v104
-openAIPostsVectorStoreFileId: file-UrvwyvyG2hnb9KBewumNRu3q
+openAIMikesBlogFileId: file-UrvwyvyG2hnb9KBewumNRu3q
 ---
 
 I have made a few small changes to [Particle Playground](https://www.mikecann.co.uk/?p=384) today:

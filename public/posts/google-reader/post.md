@@ -7,7 +7,7 @@ tags:
   - utility
 title: Google Reader
 oldUrl: /photos-personal/google-reader
-openAIPostsVectorStoreFileId: file-ltFadEM0OyWVo2GtW0kmsj3R
+openAIMikesBlogFileId: file-ltFadEM0OyWVo2GtW0kmsj3R
 ---
 
 [![](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-16-11.00.jpg "ScreenHunter_01 Jan. 16 11.00")](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-16-11.00.jpg)

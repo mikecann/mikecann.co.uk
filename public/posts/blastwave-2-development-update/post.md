@@ -8,7 +8,7 @@ tags:
   - projects
 title: BlastWave 2 Development Update
 oldUrl: /actionscript/blastwave-2-development-update
-openAIPostsVectorStoreFileId: file-Ok0a4aALsTRZulHlIuMWtKtF
+openAIMikesBlogFileId: file-Ok0a4aALsTRZulHlIuMWtKtF
 ---
 
 We are still working on [BlastWave 2](https://www.mikecann.co.uk/?p=513). Over the last 4 days or so we have progressed quite far:

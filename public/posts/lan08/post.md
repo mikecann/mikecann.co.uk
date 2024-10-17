@@ -4,7 +4,7 @@ date: '2008-07-13T23:15:43.000Z'
 tags: []
 title: LAN08
 oldUrl: /fun-amp-videos/lan08
-openAIPostsVectorStoreFileId: file-6xOSOpEF9BXT1KSFVSCqeKga
+openAIMikesBlogFileId: file-6xOSOpEF9BXT1KSFVSCqeKga
 ---
 
 Well i just got back from the geek-based crazyness that is the stourbridge LAN party. Despite having the worlds word journey getting down there i still had a bloody good time. As usual pictures and videos [on picassa](https://picasaweb.google.com/mike.cann/LAN08), heres a lil sample:

@@ -7,7 +7,7 @@ tags:
   - performance
   - games
 title: Improving Performance in BabylonJS
-openAIPostsVectorStoreFileId: file-xHrcma3CewBhyYCZdomkHq2r
+openAIMikesBlogFileId: file-xHrcma3CewBhyYCZdomkHq2r
 ---
 
 As we close in on our year-long goal of bringing [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) to mobile the time has come for some long-overdue performance improvements.

@@ -8,7 +8,7 @@ tags:
   - typescript
 title: Markd - Import From Google Contacts
 oldUrl: /markd/markd-import-from-google-contacts
-openAIPostsVectorStoreFileId: file-AKu3uweLm4kwXq8QRIUm0VNn
+openAIMikesBlogFileId: file-AKu3uweLm4kwXq8QRIUm0VNn
 ---
 
 Its taken us a little while to get this right but we are proud to announce the latest feature for [Markd](https://markd.co): Import from Google Contacts.

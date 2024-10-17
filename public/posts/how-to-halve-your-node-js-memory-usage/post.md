@@ -6,7 +6,7 @@ tags:
   - typescript
   - battletabs
 title: How To Halve Your Node JS Memory Usage
-openAIPostsVectorStoreFileId: file-cNe7HyZbu8582C89ocWZzV2q
+openAIMikesBlogFileId: file-cNe7HyZbu8582C89ocWZzV2q
 ---
 
 We were having serious memory issues on the Heroku hosted NodeJS backend for our game [BattleTabs](https://battletabs.com) when we decided to apply "this one little trick"...

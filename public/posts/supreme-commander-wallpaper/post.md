@@ -4,7 +4,7 @@ date: '2007-03-19T19:55:46.000Z'
 tags: []
 title: Supreme Commander Wallpaper
 oldUrl: /art/supreme-commander-wallpaper
-openAIPostsVectorStoreFileId: file-3Y0dcYijVBxhC1296alSHosI
+openAIMikesBlogFileId: file-3Y0dcYijVBxhC1296alSHosI
 ---
 
 Well i have just finished making a massive <span class="postbody">(4608x2048) duel-screen wallpaper for a thread on the supreme commander forums.

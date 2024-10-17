@@ -8,7 +8,7 @@ tags:
   - entity
 title: Unity-Ash Upgrades
 oldUrl: /c/unity-ash-upgrades
-openAIPostsVectorStoreFileId: file-5vjkMni5zWq9SFcbZe68zb6p
+openAIMikesBlogFileId: file-5vjkMni5zWq9SFcbZe68zb6p
 ---
 
 [A while back](https://www.mikecann.co.uk/portfolio/projects/unity-ashteroids-ash-framework-in-unity/) I decided to scratch an itch and see if [Richard Lord's Ash Entity Framework](https://www.ashframework.org/) could be ported to Unity. Well I was pleasantly surprised that it did port quite easily (with some help from David Arno's .NET port) and worked well enough that I could also port [Richard's Asteroids game over to Unity](https://github.com/mikecann/UnityAshteroids) too.

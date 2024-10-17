@@ -6,7 +6,7 @@ tags:
   - code
   - utils
 title: The Typescript Utils I Can't Live Without
-openAIPostsVectorStoreFileId: file-B7mpGYDx0rI3TgYl728Bx5o0
+openAIMikesBlogFileId: file-B7mpGYDx0rI3TgYl728Bx5o0
 ---
 
 Are you a TypeScript enthusiast looking for ways to streamline your development process? Look no further! As someone who has been writing TypeScript [for a significant amount of time](https://mikecann.co.uk/posts/post-to-tumblr-5), I have accumulated a handful of utility tools that I consider essential for every new project. These tools have proven to be so helpful that they have become a staple in my development toolkit. In this blog post, I will share with you some of these tools that will make your TypeScript development journey smoother and more efficient.

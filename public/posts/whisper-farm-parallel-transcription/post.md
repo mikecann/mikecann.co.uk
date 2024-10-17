@@ -13,7 +13,7 @@ tags:
   - bun
   - shadcnui
 title: Whisper Farm - Parallel Transcription
-openAIPostsVectorStoreFileId: file-FfmnHRxDRGFxLeQGrBTS1QkY
+openAIMikesBlogFileId: file-FfmnHRxDRGFxLeQGrBTS1QkY
 ---
 
 I enjoy reading [Ian Macartney's](https://stack.convex.dev/author/ian-macartney) posts on the Convex blog. When I saw his piece on [Work Stealing](https://stack.convex.dev/work-stealing), a strategy for distributing compute-heavy workloads, I decided to try it myself.

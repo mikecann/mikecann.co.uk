@@ -11,7 +11,7 @@ tags:
   - typescript
 title: Post To Tumblr 6
 oldUrl: /post-to-tumbr/post-to-tumblr-6
-openAIPostsVectorStoreFileId: file-87elq6Xo3Ykl9cxpdtwMnA0D
+openAIMikesBlogFileId: file-87elq6Xo3Ykl9cxpdtwMnA0D
 ---
 
 [Post To Tumblr](https://chrome.google.com/webstore/detail/post-to-tumblr/dbpicbbcpanckagpdjflgojlknomoiah) my popular Chrome extension will be entering its 6th year of continual development this year so I thought it fitting that I give it a much needed overhaul.

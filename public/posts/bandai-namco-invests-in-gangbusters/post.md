@@ -6,7 +6,7 @@ tags:
   - business
   - investment
 title: Bandai Namco Invests in Gangbusters
-openAIPostsVectorStoreFileId: file-VM8KqZ0uNVai9uaGmudp3prV
+openAIMikesBlogFileId: file-VM8KqZ0uNVai9uaGmudp3prV
 ---
 
 Im super excited to announce that [Gangbusters](https://www.gangbusters.io/) (the company that I am a co-founder and CTO of) has been joined on its journey by the gaming powerhouse [Bandai Namco](https://021fund.bn-ent.net/en/news/)!

@@ -11,7 +11,7 @@ tags:
   - unity
 title: Mr Nibbles Forever - A Prototype
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-a-prototype
-openAIPostsVectorStoreFileId: file-rfujFMOA82wVpLjkNkkCa7f9
+openAIMikesBlogFileId: file-rfujFMOA82wVpLjkNkkCa7f9
 ---
 
 About a week ago I had an idea: what would [Mr Nibbles](https://www.mikecann.co.uk/portfolio/mr-nibbles-2/) look like if it was turned into an endless runner? Well in-between other things I knocked out a gameplay prototype using my weapon of choice these days, Unity.

@@ -4,7 +4,7 @@ date: '2011-10-29T14:14:07.000Z'
 tags: []
 title: 'Terrainicles [WebGL & HaXe]'
 oldUrl: /glsl/terrainicles-webgl-haxe
-openAIPostsVectorStoreFileId: file-pC4BscdylKpFna4ZDAv5i8qj
+openAIMikesBlogFileId: file-pC4BscdylKpFna4ZDAv5i8qj
 ---
 
 I have been playing with this thing, tweaking it, making changes for weeks. Theres so many different things I want to add. Different options, scenarios, optimisations etc. I decided however just to follow the 'release early and often' mantra and get this thing out now.

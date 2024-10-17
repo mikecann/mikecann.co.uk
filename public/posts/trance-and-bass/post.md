@@ -4,7 +4,7 @@ date: '2006-05-27T22:41:59.000Z'
 tags: []
 title: Trance and Bass
 oldUrl: /albums/trance-and-bass
-openAIPostsVectorStoreFileId: file-lKdSSipgSOKXDjoDIUXqDpRL
+openAIMikesBlogFileId: file-lKdSSipgSOKXDjoDIUXqDpRL
 ---
 
 **Artist:** [John B](https://www.beta-recordings.co.uk/)

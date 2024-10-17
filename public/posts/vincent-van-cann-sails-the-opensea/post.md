@@ -6,7 +6,7 @@ tags:
   - cypto
   - web3
 title: Vincent van Cann Sails the OpenSea
-openAIPostsVectorStoreFileId: file-RXu7VNxUDjhzY1G31le5LX1w
+openAIMikesBlogFileId: file-RXu7VNxUDjhzY1G31le5LX1w
 ---
 
 I wanted to experiment more with the NFT space. Get my hands dirty and actually mint an NFT. But what pieces should one immortalize on the immutable blockchain? Then it hit me! Vincent van Cann.

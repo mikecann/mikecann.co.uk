@@ -9,7 +9,7 @@ tags:
   - typescript
 title: Introducing - Post To Google Photos
 oldUrl: /markd/introducing-post-to-google-photos
-openAIPostsVectorStoreFileId: file-YFuKSjqE0TVROblU0grZ62iH
+openAIMikesBlogFileId: file-YFuKSjqE0TVROblU0grZ62iH
 ---
 
 Lately we (Markd Ltd) have been working on a few different projects, today we are announcing another of those projects; [Post To Google Photos](https://chrome.google.com/webstore/detail/post-to-google-photos/lafpnfnchohhamoidohgmljijeafebbf).

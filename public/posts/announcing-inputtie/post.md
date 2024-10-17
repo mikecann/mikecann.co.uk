@@ -14,7 +14,7 @@ tags:
   - tool
 title: Announcing Inputtie
 oldUrl: /inputtie/announcing-inputtie
-openAIPostsVectorStoreFileId: file-RB4xtX4J4j1KnZ7dewJ1xakl
+openAIMikesBlogFileId: file-RB4xtX4J4j1KnZ7dewJ1xakl
 ---
 
 For the last year or so my major personal-project has been under wraps but after a few intense weeks its finally time to talk about it!

@@ -10,7 +10,7 @@ tags:
   - unity
 title: Unity Ashteroids - Ash Game Framework in Unity
 oldUrl: /unityasteroids/unity-ashteroids-ash-framework-in-unity
-openAIPostsVectorStoreFileId: file-NK5pS5718CdmJZi0VXDWy4wg
+openAIMikesBlogFileId: file-NK5pS5718CdmJZi0VXDWy4wg
 ---
 
 I decided to take a break from the [game development](https://www.mikecann.co.uk/myprojects/mr-nibbles-3d/mr-nibbles-3d-menus-obscuring/) today to scratch an itch I had had for a while.

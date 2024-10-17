@@ -14,7 +14,7 @@ tags:
   - swift suspenders
 title: Funk IoC - A New Dependency Injection Framework
 oldUrl: /actionscript/funk-ioc-a-new-dependency-injection-framework
-openAIPostsVectorStoreFileId: file-Zkt1c2xd1fOoESIr4gr00B9q
+openAIMikesBlogFileId: file-Zkt1c2xd1fOoESIr4gr00B9q
 ---
 
 [![](/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-08-20.11.gif "ScreenHunter_01 Apr. 08 20.11")](/wp-content/uploads/2010/04/ScreenHunter_01-Apr.-08-20.11.gif)

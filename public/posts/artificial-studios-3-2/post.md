@@ -4,7 +4,7 @@ date: '2006-08-04T12:57:53.000Z'
 tags: []
 title: Artificial-Studios 3
 oldUrl: /mysql/artificial-studios-3-2
-openAIPostsVectorStoreFileId: file-uxr52S2c3bA9AflO7dqhm3Fd
+openAIMikesBlogFileId: file-uxr52S2c3bA9AflO7dqhm3Fd
 ---
 
 ![](/wp-content/uploads/Image/artstu3.gif)

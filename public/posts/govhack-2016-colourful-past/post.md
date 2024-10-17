@@ -9,7 +9,7 @@ tags:
   - machine learning
 title: Govhack 2016 - Colourful Past
 oldUrl: /colourful-past/govhack-2016-colourful-past
-openAIPostsVectorStoreFileId: file-wAbJq7SF6BZwJWGPpsuKKer8
+openAIMikesBlogFileId: file-wAbJq7SF6BZwJWGPpsuKKer8
 ---
 
 Wow, I cant believe its been one whole year since [the last Govhack](https://www.mikecann.co.uk/portfolio/projects/govhack-2015-should-i-drive/), the hackathon where groups of people use government data to hack together a project over the course of a weekend.

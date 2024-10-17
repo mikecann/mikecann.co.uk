@@ -9,7 +9,7 @@ tags:
   - tumblr
 title: All New Post To Tumblr Chrome Extension created with Haxe & Robotlegs
 oldUrl: /haxe/all-new-post-to-tumblr-chrome-extension-created-with-haxe-robotlegs
-openAIPostsVectorStoreFileId: file-f3PeHBjz8fP1jQlN7kiLuz9W
+openAIMikesBlogFileId: file-f3PeHBjz8fP1jQlN7kiLuz9W
 ---
 
 [![](/wp-content/uploads/2012/09/newhead.jpg "newhead")](/wp-content/uploads/2012/09/newhead.jpg)

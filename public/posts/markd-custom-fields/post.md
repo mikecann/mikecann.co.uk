@@ -8,7 +8,7 @@ tags:
   - typescript
 title: Markd - Custom Fields
 oldUrl: /markd/markd-custom-fields
-openAIPostsVectorStoreFileId: file-JBcHiSqilpvH2mLQtW4dlL2M
+openAIMikesBlogFileId: file-JBcHiSqilpvH2mLQtW4dlL2M
 ---
 
 Now we have our [new designs](/markd/markd-v3) in place for [Markd](https://markd.co) things can start moving again on new features. This has been an oft-requested one, Custom Fields!

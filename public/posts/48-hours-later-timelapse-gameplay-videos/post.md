@@ -10,7 +10,7 @@ tags:
   - video
 title: 48 Hours Later - Timelapse & Gameplay Videos
 oldUrl: /48-hours-later/48-hours-later-timelapse-gameplay-videos
-openAIPostsVectorStoreFileId: file-EQbfMTokTizzLKKLTbvaR33Z
+openAIMikesBlogFileId: file-EQbfMTokTizzLKKLTbvaR33Z
 ---
 
 Just made these two videos. One is the timelapse video I took to show my development process and the other is to show off the gameplay for those that cant run flash (Linux) or dont want to actually play the game, just want to see what the fuss is about :P

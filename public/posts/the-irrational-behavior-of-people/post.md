@@ -5,7 +5,7 @@ tags:
   - marketing
 title: The Irrational Behavior of People
 oldUrl: /misc/the-irrational-behavior-of-people
-openAIPostsVectorStoreFileId: file-x2tXEBre6GZIWTf6djBves7N
+openAIMikesBlogFileId: file-x2tXEBre6GZIWTf6djBves7N
 ---
 
 ![](https://farm3.static.flickr.com/2227/2291518025_994bbb93d7.jpg)

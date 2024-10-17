@@ -8,7 +8,7 @@ tags:
   - gamedev
   - gangbusters
 title: AI Profanity Checking in BattleTabs
-openAIPostsVectorStoreFileId: file-4FyE9vklIX8wfTAtfW1UCkar
+openAIMikesBlogFileId: file-4FyE9vklIX8wfTAtfW1UCkar
 ---
 
 AI is all the rage at the moment and for good reason, its going to revolutionize many industries.

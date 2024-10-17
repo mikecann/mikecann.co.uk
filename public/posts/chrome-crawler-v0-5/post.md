@@ -8,7 +8,7 @@ tags:
   - update
 title: Chrome Crawler v0.5
 oldUrl: /chrome-crawler/chrome-crawler-v0-5
-openAIPostsVectorStoreFileId: file-apHSz38hNY0AFAjaRbnnpobE
+openAIMikesBlogFileId: file-apHSz38hNY0AFAjaRbnnpobE
 ---
 
 [![](/wp-content/uploads/2011/05/icon128.png "icon128")](/wp-content/uploads/2011/05/icon128.png)

@@ -10,7 +10,7 @@ tags:
   - trip
 title: Back From Outer Space
 oldUrl: /photos-personal/back-from-outer-space
-openAIPostsVectorStoreFileId: file-7R6cH5FVW57s4iORb4nvUlPO
+openAIMikesBlogFileId: file-7R6cH5FVW57s4iORb4nvUlPO
 ---
 
 .. well California actually but im just listening to abit of Prodigy so I thought it appropriate.

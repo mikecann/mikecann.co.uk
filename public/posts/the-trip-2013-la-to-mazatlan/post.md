@@ -11,7 +11,7 @@ tags:
   - sea lions
 title: The Trip 2013 - LA to Mazatlan
 oldUrl: /2013-trip/the-trip-2013-la-to-mazatlan
-openAIPostsVectorStoreFileId: file-fZ3PQHRu8lirYx1Ks00HaPel
+openAIMikesBlogFileId: file-fZ3PQHRu8lirYx1Ks00HaPel
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/06/screenshot_02.png)

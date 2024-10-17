@@ -8,7 +8,7 @@ tags:
   - tryharder
 title: 'try {harder} - my haXe slides and code'
 oldUrl: /conferences/try-harder-my-haxe-slides-and-code
-openAIPostsVectorStoreFileId: file-2vgTBYpnGD4VbNYL7STTSC4A
+openAIMikesBlogFileId: file-2vgTBYpnGD4VbNYL7STTSC4A
 ---
 
 [![](/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg "OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D")](/wp-content/uploads/2011/10/OgAAAHhn4BJar2TiwRVG6a9Iyn24Zeg3ov_xhlUpxh8Qc82gF7JUO0ZpZ1GKsyt9wvRVycQokM5VyyD1y19zptmBtDEA15jOjFehd4noW7IGV2At9D0xiW5l-E_D.jpeg)

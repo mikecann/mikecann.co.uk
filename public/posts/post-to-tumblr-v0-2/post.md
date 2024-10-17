@@ -10,7 +10,7 @@ tags:
   - update
 title: Post To Tumblr - v0.2
 oldUrl: /post-to-tumbr/post-to-tumblr-v0-2
-openAIPostsVectorStoreFileId: file-7LZOu6ETKNIhvk92u5kj6QuX
+openAIMikesBlogFileId: file-7LZOu6ETKNIhvk92u5kj6QuX
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_0011.png "Shot_001")](/wp-content/uploads/2010/10/Shot_0011.png)

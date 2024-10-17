@@ -18,6 +18,7 @@ const windowStyle = style({
   borderRadius: 6,
   overflow: "hidden",
   background: "rgba(255,255,255,0.8)",
+  backdropFilter: "blur(8px)",
   position: "fixed",
   right: "10px",
   bottom: "10px",
@@ -56,8 +57,29 @@ export const MikebotWindow: React.FC<Props> = () => {
 
   return (
     <Vertical className={windowStyle}>
-      <Horizontal verticalAlign="center" style={{ height: "40px", background: "#ddd" }}>
-        Mikebot
+      <Horizontal
+        style={{ height: "40px", background: "#ddd", flexShrink: 0, paddingLeft: "10px" }}
+      >
+        <Stretch verticalAlign="center">Mikebot</Stretch>
+        <Horizontal>
+          <button
+            onClick={() => {
+              if (!confirm("Are you sure you want to clear this thread?")) return;
+              localStorage.removeItem(currentThreadIdStorageKey);
+              setCurrentThreadId(null);
+            }}
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              fontSize: "20px",
+              padding: "5px 10px",
+            }}
+            aria-label="Delete thread"
+          >
+            🗑️
+          </button>
+        </Horizontal>
       </Horizontal>
       <Stretch verticalAlign="bottom" padding="8px">
         <MessagesList threadId={thread._id} userId={me._id} />

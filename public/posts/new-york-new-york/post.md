@@ -8,7 +8,7 @@ tags:
   - photos
 title: New York New York
 oldUrl: /photos-personal/new-york-new-york
-openAIPostsVectorStoreFileId: file-wnV4s3qqluC8rqXKic2Ny4z9
+openAIMikesBlogFileId: file-wnV4s3qqluC8rqXKic2Ny4z9
 ---
 
 [![](/wp-content/uploads/2012/11/header.jpg "header")](/wp-content/uploads/2012/11/header.jpg)

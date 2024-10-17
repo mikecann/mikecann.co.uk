@@ -10,7 +10,7 @@ tags:
   - version
 title: PostToTumblr v0.6
 oldUrl: /post-to-tumbr/posttotumblr-v0-6
-openAIPostsVectorStoreFileId: file-Le72uwWXv4y2PsVC92he6Fie
+openAIMikesBlogFileId: file-Le72uwWXv4y2PsVC92he6Fie
 ---
 
 [![](/wp-content/uploads/2010/12/icon128.png "icon128")](/wp-content/uploads/2010/12/icon128.png)

@@ -9,7 +9,7 @@ tags:
   - travel
 title: The Trip 2013 - Toronto
 oldUrl: /2013-trip/the-trip-2013-toronto
-openAIPostsVectorStoreFileId: file-ryr31cwyZ1KI2dLBktNnEz02
+openAIMikesBlogFileId: file-ryr31cwyZ1KI2dLBktNnEz02
 ---
 
 ![screenshot_05](/wp-content/uploads/2013/05/screenshot_05.png)

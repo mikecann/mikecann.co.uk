@@ -8,7 +8,7 @@ tags:
   - photos
 title: Only In America...
 oldUrl: /photos-personal/only-in-america
-openAIPostsVectorStoreFileId: file-QrbzZKUr2Ya1EcXpCPLSMitD
+openAIMikesBlogFileId: file-QrbzZKUr2Ya1EcXpCPLSMitD
 ---
 
 While over in [California](/posts/back-from-outer-space/) this month we saw some rather interesting things. Thought I would share them.

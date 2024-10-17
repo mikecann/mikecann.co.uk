@@ -8,7 +8,7 @@ tags:
   - travel
 title: Camping Oz 2017 - North Queensland
 oldUrl: /above-under/camping-oz-2017-north-queensland
-openAIPostsVectorStoreFileId: file-B4JzH85Z2Xk0IyuLArMPfAIP
+openAIMikesBlogFileId: file-B4JzH85Z2Xk0IyuLArMPfAIP
 ---
 
 A few days after leaving Daly Waters and the NT we arrived into Cairns in the north of Queensland.

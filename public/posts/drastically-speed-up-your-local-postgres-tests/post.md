@@ -8,7 +8,7 @@ tags:
   - testing
   - battletabs
 title: Drastically Speed Up Your Local Postgres Tests
-openAIPostsVectorStoreFileId: file-HEsWgTHdq59BUYGXELA8tBeL
+openAIMikesBlogFileId: file-HEsWgTHdq59BUYGXELA8tBeL
 ---
 
 We were suffering from slow integration tests on our server when I discovered something that sped up performance by 15 times!

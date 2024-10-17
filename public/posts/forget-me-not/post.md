@@ -4,7 +4,7 @@ date: '2009-01-27T18:23:48.000Z'
 tags: []
 title: Forget me not..
 oldUrl: /fun-amp-videos/forget-me-not
-openAIPostsVectorStoreFileId: file-Gq65l9NQnrjsNqrL2i92yuG8
+openAIMikesBlogFileId: file-Gq65l9NQnrjsNqrL2i92yuG8
 ---
 
 I have a terrible memory, often desprite setting alarms leaving notes for myself all over the place, writing on my hands, i still forget to do something. For that reason we have come up with the "forget me not" copyright 2009\. See image for more info:

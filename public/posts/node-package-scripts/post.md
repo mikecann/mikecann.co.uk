@@ -9,7 +9,7 @@ tags:
   - lint
 title: Node Package Scripts
 oldUrl: /tooling/node-package-scripts
-openAIPostsVectorStoreFileId: file-QwElZBDoFoWp1fpu7YCAK2qt
+openAIMikesBlogFileId: file-QwElZBDoFoWp1fpu7YCAK2qt
 ---
 
 For some time now I have done all my build-scripting on Javascript / Typescript projects in package.json. In a complex projects such as [Markd2](/markd/portfolio/markd-2-total-re-write-using-react-mobx-state-tree-and-parse-server/): this can quickly become quite unweildy.

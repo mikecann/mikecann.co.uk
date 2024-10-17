@@ -4,7 +4,7 @@ date: '2014-02-17T19:06:22.000Z'
 tags: []
 title: 'New Hosting, New Theme!'
 oldUrl: /uncategorized/new-hosting-new-theme
-openAIPostsVectorStoreFileId: file-Ahmeh43MUSvJ1voytFviJVRe
+openAIMikesBlogFileId: file-Ahmeh43MUSvJ1voytFviJVRe
 ---
 
 [![hero](https://www.mikecann.co.uk/wp-content/uploads/2014/03/hero.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/03/hero.png)

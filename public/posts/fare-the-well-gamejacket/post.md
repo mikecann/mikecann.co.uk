@@ -7,7 +7,7 @@ tags:
   - personal
 title: Fare-The-Well GameJacket!
 oldUrl: /photos-personal/fare-the-well-gamejacket
-openAIPostsVectorStoreFileId: file-60jr1gQziGYtzPVlH7EtjFxx
+openAIMikesBlogFileId: file-60jr1gQziGYtzPVlH7EtjFxx
 ---
 
 ![sorrygj](/wp-content/uploads/2009/06/sorrygj.gif "sorrygj")

@@ -4,7 +4,7 @@ date: '2007-08-27T13:58:51.000Z'
 tags: []
 title: Master Cleanse
 oldUrl: /photos-personal/master-cleanse
-openAIPostsVectorStoreFileId: file-Pt35RXnLm6ZUEQR4WGQgiioh
+openAIMikesBlogFileId: file-Pt35RXnLm6ZUEQR4WGQgiioh
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/lemon.JPG)

@@ -6,7 +6,7 @@ tags:
   - flash
   - development
 title: My Old Flash Games
-openAIPostsVectorStoreFileId: file-5dT1xZOuJR9XbaXXdkiCOsov
+openAIMikesBlogFileId: file-5dT1xZOuJR9XbaXXdkiCOsov
 ---
 
 Just a small post today sharing with you a really cool project that I have only recently become aware of.

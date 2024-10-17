@@ -4,7 +4,7 @@ date: '2011-10-13T19:22:42.000Z'
 tags: []
 title: Game of Life HaXe & NME on iOS
 oldUrl: /haxe/game-of-life-haxe-nme-on-ios
-openAIPostsVectorStoreFileId: file-jeBf6cqkg8uaR5fKOE1NjWZq
+openAIMikesBlogFileId: file-jeBf6cqkg8uaR5fKOE1NjWZq
 ---
 
 For the last few days I have been playing around with trying to get the[ game of life sample from my previous post](/posts/conways-game-of-life-in-haxe-nme-massiveunit/) working on the iPhone using haXe with NME.

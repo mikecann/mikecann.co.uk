@@ -12,7 +12,7 @@ tags:
   - version
 title: Inputtie - Version 0.1.5
 oldUrl: /inputtie/inputtie-version-0-1-5
-openAIPostsVectorStoreFileId: file-xw5nSTKoK9I7tiWDH1GPm1p4
+openAIMikesBlogFileId: file-xw5nSTKoK9I7tiWDH1GPm1p4
 ---
 
 [![](/wp-content/uploads/2010/10/Untitled-1.png "Untitled-1")](/wp-content/uploads/2010/10/Untitled-1.png)

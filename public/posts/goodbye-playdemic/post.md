@@ -8,7 +8,7 @@ tags:
   - trip
 title: Goodbye Playdemic
 oldUrl: /photos-personal/goodbye-playdemic
-openAIPostsVectorStoreFileId: file-BYBvnK77daoYz7SsN658geFa
+openAIMikesBlogFileId: file-BYBvnK77daoYz7SsN658geFa
 ---
 
 [![head](/wp-content/uploads/2013/03/head.png)](/posts/goodbye-playdemic/attachment/head-8/)

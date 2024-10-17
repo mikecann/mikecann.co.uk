@@ -8,7 +8,7 @@ tags:
   - typescript
   - c sharp
 title: Tinkering With SpacetimeDB
-openAIPostsVectorStoreFileId: file-wm6TDkOtO3x9AFRsYO9ZslHx
+openAIMikesBlogFileId: file-wm6TDkOtO3x9AFRsYO9ZslHx
 ---
 
 This is going to be a bit of an unusual post as it details a failed tinkering project.

@@ -12,7 +12,7 @@ tags:
   - xna
 title: Shader Based 2D Shadowing
 oldUrl: /c/shader-based-2d-shadowing
-openAIPostsVectorStoreFileId: file-bP6n3ttyuMdz3oCbCNgfwfm8
+openAIMikesBlogFileId: file-bP6n3ttyuMdz3oCbCNgfwfm8
 ---
 
 [![](/wp-content/uploads/2010/08/11_scene.png "11_scene")](/wp-content/uploads/2010/08/11_scene.png)

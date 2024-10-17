@@ -4,7 +4,7 @@ date: '2006-05-17T22:05:54.000Z'
 tags: []
 title: skyworld
 oldUrl: /art/skyworld
-openAIPostsVectorStoreFileId: file-W74Rs2CrWYyvCydU8aDI5MHL
+openAIMikesBlogFileId: file-W74Rs2CrWYyvCydU8aDI5MHL
 ---
 
 This image is still alot of peoples favourite. I personally think its "okay" very simple and easy to make

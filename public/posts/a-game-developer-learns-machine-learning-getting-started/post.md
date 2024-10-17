@@ -10,7 +10,7 @@ tags:
   - agdlml
 title: A Game Developer Learns Machine Learning - Getting Started
 oldUrl: /machine-learning/a-game-developer-learns-machine-learning-getting-started
-openAIPostsVectorStoreFileId: file-vOjMARk10Dxnd9V5Khdzyl20
+openAIMikesBlogFileId: file-vOjMARk10Dxnd9V5Khdzyl20
 ---
 
 I mentioned [in my last post](/machine-learning/a-game-developer-learns-machine-learning-intent/) that the intent is to write an AI to play [Mr Nibbles Forever](http://epicshrimp.com/app/mrnibblesforever/) better an any human. Before we can get anywhere near that goal however we need to get the very basics working first.

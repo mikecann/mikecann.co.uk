@@ -12,7 +12,7 @@ tags:
   - score
 title: Ludum Dare Hour 408 (15 Days later) - Results!
 oldUrl: /48-hours-later/ludum-dare-hour-408-15-days-later-results
-openAIPostsVectorStoreFileId: file-NUpRDNVRPCBUAgtA3NZSon7p
+openAIMikesBlogFileId: file-NUpRDNVRPCBUAgtA3NZSon7p
 ---
 
 Well the judging is now finally over for the Ludum Dare competition I entered 17 days ago.

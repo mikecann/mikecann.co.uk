@@ -4,7 +4,7 @@ date: '2007-12-18T12:26:45.000Z'
 tags: []
 title: XNA 2.0 && Silicon Minds
 oldUrl: /projects/xna-20-silicon-minds
-openAIPostsVectorStoreFileId: file-OUwBW40Z3TYpC7WpLCxndH7V
+openAIMikesBlogFileId: file-OUwBW40Z3TYpC7WpLCxndH7V
 ---
 
 ![](/wp-content/uploads/2007/12/xna.jpg)

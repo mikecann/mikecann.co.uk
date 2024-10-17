@@ -18,6 +18,7 @@ import type {
 import type * as functions from "../functions.js";
 import type * as messages from "../messages.js";
 import type * as openai_assistants from "../openai/assistants.js";
+import type * as openai_files from "../openai/files.js";
 import type * as serve from "../serve.js";
 import type * as threads from "../threads.js";
 import type * as users from "../users.js";
@@ -34,6 +35,7 @@ declare const fullApi: ApiFromModules<{
   functions: typeof functions;
   messages: typeof messages;
   "openai/assistants": typeof openai_assistants;
+  "openai/files": typeof openai_files;
   serve: typeof serve;
   threads: typeof threads;
   users: typeof users;

@@ -9,7 +9,7 @@ tags:
   - headphones
 title: Sleeping Headphones Update
 oldUrl: /personal/sleeping-headphones-update
-openAIPostsVectorStoreFileId: file-MU33p8XTzKaYxGNx5SXmn88e
+openAIMikesBlogFileId: file-MU33p8XTzKaYxGNx5SXmn88e
 ---
 
 Its been quite some time since my original post on [The Sleeping Headphones Saga](./photos-personal/the-sleeping-headphones-saga/) so I thought it was time I updated with my current situation my my experiments since then.

@@ -8,7 +8,7 @@ tags:
   - tech
 title: 'Artificial - Argon [Tech, House, Progressive]'
 oldUrl: /audio/artificial-argon-tech-house-progressive
-openAIPostsVectorStoreFileId: file-vwy6te9U1e4pm0T5k6hVwfMq
+openAIMikesBlogFileId: file-vwy6te9U1e4pm0T5k6hVwfMq
 ---
 
 [![](/wp-content/uploads/2011/08/Argon-Cover.png "Argon-Cover")](/wp-content/uploads/2011/08/Argon-Cover.png)

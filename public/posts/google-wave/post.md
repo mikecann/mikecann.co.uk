@@ -6,7 +6,7 @@ tags:
   - wave
 title: Google Wave
 oldUrl: /misc/google-wave
-openAIPostsVectorStoreFileId: file-PGyxYuNQW4GTzi780zTeDFAS
+openAIMikesBlogFileId: file-PGyxYuNQW4GTzi780zTeDFAS
 ---
 
 [![2009-10-15_1400](/wp-content/uploads/2009/10/2009-10-15_1400.png "2009-10-15_1400")](/wp-content/uploads/2009/10/2009-10-15_1400.png)

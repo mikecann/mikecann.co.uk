@@ -6,7 +6,7 @@ tags:
   - spam
 title: Bigresource.com IS SPAM
 oldUrl: /misc/bigresource-com-is-spam
-openAIPostsVectorStoreFileId: file-4V6ksuifL4FkGAUB2xBCIKgP
+openAIMikesBlogFileId: file-4V6ksuifL4FkGAUB2xBCIKgP
 ---
 
 Thats it im angry enough with this site to actually write a blogpost about it.

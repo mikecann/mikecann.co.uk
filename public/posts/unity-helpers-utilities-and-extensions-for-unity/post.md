@@ -9,7 +9,7 @@ tags:
   - utils
 title: Unity Helpers - Utilities and Extensions for Unity
 oldUrl: /c/unity-helpers-utilities-and-extensions-for-unity
-openAIPostsVectorStoreFileId: file-CPmPhMdd1XBcUNaV8rRFdCTt
+openAIMikesBlogFileId: file-CPmPhMdd1XBcUNaV8rRFdCTt
 ---
 
 During the development of my up and coming game I have encountered some snags when developing in Unity so I wrote a number of utilities and extension methods to help out.

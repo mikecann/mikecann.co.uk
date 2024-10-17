@@ -6,7 +6,7 @@ tags:
   - tinkering
   - linux
 title: Building a Pi NAS and Plex Server
-openAIPostsVectorStoreFileId: file-ACIpY9MB7haDdgLtQdOEAEl1
+openAIMikesBlogFileId: file-ACIpY9MB7haDdgLtQdOEAEl1
 ---
 
 My PC is awesome but it has a bit of an addiction to Watts. So I wanted to build a low-powered NAS and Plex server so when I put PC asleep at night I can still enjoy some quality time with my content on the TV downstairs. Since I had a spare Raspberry Pi 4 glaring at me from my desk I thought, sure why not, how hard could it be?

@@ -10,7 +10,7 @@ tags:
   - professional
 title: Gourmet Ranch
 oldUrl: /games/gourmet-ranch
-openAIPostsVectorStoreFileId: file-GrLSHhaW7rNed4XWib0zjzTe
+openAIMikesBlogFileId: file-GrLSHhaW7rNed4XWib0zjzTe
 ---
 
 [About 6 months ago I joined a new startup](/posts/playdemic-my-fist-day/) called Playdemic as the Lead Flash Developer. I couldn't say much at the time as we were in stealth mode. As our first product has been out for about a month however, I think its about time I wrote a blog post on the subject.

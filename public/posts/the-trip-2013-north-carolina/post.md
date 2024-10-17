@@ -8,7 +8,7 @@ tags:
   - trvel
 title: The Trip 2013 - North Carolina
 oldUrl: /2013-trip/the-trip-2013-north-carolina
-openAIPostsVectorStoreFileId: file-uiwKwt3aTdZvK8Zn8EnMrdTQ
+openAIMikesBlogFileId: file-uiwKwt3aTdZvK8Zn8EnMrdTQ
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/05/screenshot_021.png)

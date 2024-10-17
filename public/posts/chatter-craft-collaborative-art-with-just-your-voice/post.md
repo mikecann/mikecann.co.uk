@@ -9,7 +9,7 @@ tags:
   - coding
   - development
 title: Chatter Craft - collaborative art with just your voice
-openAIPostsVectorStoreFileId: file-tqkbCy82riI0kL8w9rNSP9RT
+openAIMikesBlogFileId: file-tqkbCy82riI0kL8w9rNSP9RT
 ---
 
 I have got to be honest, I have never heard of [Web Dev Cody](https://www.youtube.com/@WebDevCody) before but when I saw that he had a [hackathon](https://hackathon.webdevcody.com/) in partnership with [Convex](https://www.convex.dev/) I knew I was going to have to carve off a bit of time from [BattleTabs](https://battletabs.com/) development to have a crack.

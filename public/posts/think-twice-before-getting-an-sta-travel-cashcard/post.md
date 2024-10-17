@@ -8,7 +8,7 @@ tags:
   - tavel
 title: Think Twice Before Getting an STA Travel Cashcard
 oldUrl: /travel/think-twice-before-getting-an-sta-travel-cashcard
-openAIPostsVectorStoreFileId: file-UQqjb84nZPVClMTt63M7iseC
+openAIMikesBlogFileId: file-UQqjb84nZPVClMTt63M7iseC
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/09/screenshot_012.png)

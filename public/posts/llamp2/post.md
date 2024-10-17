@@ -4,7 +4,7 @@ date: '2006-05-17T21:40:01.000Z'
 tags: []
 title: llamp2
 oldUrl: /art/llamp2
-openAIPostsVectorStoreFileId: file-Ltqy8zWTGahBFIxXgc7k8Cf5
+openAIMikesBlogFileId: file-Ltqy8zWTGahBFIxXgc7k8Cf5
 ---
 
 Llamp2 uses the same image created by lightwave however i applied different effects to it photoshop.

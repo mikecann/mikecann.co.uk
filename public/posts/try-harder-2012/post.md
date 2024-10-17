@@ -13,7 +13,7 @@ tags:
   - stray
 title: Try Harder 2012
 oldUrl: /photos-personal/try-harder-2012
-openAIPostsVectorStoreFileId: file-Ey01ahh5qBi6ZBeoTq35r9Ay
+openAIMikesBlogFileId: file-Ey01ahh5qBi6ZBeoTq35r9Ay
 ---
 
 [![](/wp-content/uploads/2012/10/thheader.jpg "thheader")](/wp-content/uploads/2012/10/headfull.jpg)

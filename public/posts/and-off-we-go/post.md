@@ -8,7 +8,7 @@ tags:
   - travel
 title: And Off We Go!
 oldUrl: /above-under/and-off-we-go
-openAIPostsVectorStoreFileId: file-WjbuneBvYrCliH1Lq04XmAZj
+openAIMikesBlogFileId: file-WjbuneBvYrCliH1Lq04XmAZj
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

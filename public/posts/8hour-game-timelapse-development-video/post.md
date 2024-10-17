@@ -10,7 +10,7 @@ tags:
   - video
 title: 8hour Game Timelapse Development Video
 oldUrl: /actionscript/8hour-game-timelapse-development-video
-openAIPostsVectorStoreFileId: file-Fk1WrGVFrr04R3UR09j8Utyp
+openAIMikesBlogFileId: file-Fk1WrGVFrr04R3UR09j8Utyp
 ---
 
 As promised here is the time-lapse sequence for the development process of my 8hr game [Countdown with Neil Haversham](https://www.mikecann.co.uk/?p=537). The video is comprised of 789 JPGs taken every 30 seconds then compressed into a movie.
