@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import { Converter } from "showdown";
 import dotenv from "dotenv";
-import OpenAI from "openai-api";
+import OpenAI from "openai";
 import fs from "fs";
 import { writeFileSync } from "fs";
 import matter from "gray-matter";
@@ -21,7 +21,9 @@ async function bootstrap() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const converter = new Converter();
-  const openai = new OpenAI(process.env.OPEN_AI_API_KEY + "");
+  const openai = new OpenAI({
+    apiKey: openAIKey,
+  });
 
   const allPosts = getAllPosts();
   const postsWithNoTags = allPosts.filter((p) => p.meta.tags.length == 0);
@@ -53,55 +55,55 @@ async function bootstrap() {
 
     console.log(`Sending ${prompt.length} chars to OpenAI..`);
 
-    const gptResponse = await openai.complete({
-      engine: "davinci",
-      prompt,
-      maxTokens: 60,
-      temperature: 0.3,
-      topP: 1,
-      presencePenalty: 0,
-      frequencyPenalty: 0,
-      bestOf: 1,
-      n: 1,
-      stream: false,
-      stop: ["\n"],
-    });
+    //   const gptResponse = await openai.complete({
+    //     engine: "davinci",
+    //     prompt,
+    //     maxTokens: 60,
+    //     temperature: 0.3,
+    //     topP: 1,
+    //     presencePenalty: 0,
+    //     frequencyPenalty: 0,
+    //     bestOf: 1,
+    //     n: 1,
+    //     stream: false,
+    //     stop: ["\n"],
+    //   });
 
-    const responseText = gptResponse.data.choices[0]?.text ?? "";
-    console.log(`OpenAI returned the keywords: ${responseText}`);
+    //   const responseText = gptResponse.data.choices[0]?.text ?? "";
+    //   console.log(`OpenAI returned the keywords: ${responseText}`);
 
-    const tags = responseText.split(`, `).slice(5);
+    //   const tags = responseText.split(`, `).slice(5);
 
-    results.push({ title: post.meta.title, prompt, tags });
+    //   results.push({ title: post.meta.title, prompt, tags });
 
-    if (tags.length > 0) {
-      console.log(`Adding ${tags.length} tags back into the post`);
-      fs.writeFileSync(
-        post.absPostPath,
-        matter.stringify(post.content, {
-          ...post.meta,
-          tags,
-        })
-      );
-    } else console.log(`The prompt that it struggled on was:\n\n---\n${prompt}\n---\n\n`);
+    //   if (tags.length > 0) {
+    //     console.log(`Adding ${tags.length} tags back into the post`);
+    //     fs.writeFileSync(
+    //       post.absPostPath,
+    //       matter.stringify(post.content, {
+    //         ...post.meta,
+    //         tags,
+    //       })
+    //     );
+    //   } else console.log(`The prompt that it struggled on was:\n\n---\n${prompt}\n---\n\n`);
   };
 
-  // Iterate all the posts
-  try {
-    for (let post of postsWithNoTags) {
-      console.log(``);
-      await handle(post);
-    }
-  } catch (e) {
-    console.error(e);
-  }
+  // // Iterate all the posts
+  // try {
+  //   for (let post of postsWithNoTags) {
+  //     console.log(``);
+  //     await handle(post);
+  //   }
+  // } catch (e) {
+  //   console.error(e);
+  // }
 
-  // Always write out the failures to a file
-  fs.writeFileSync(`./open-ai-keywords-results-log.json`, JSON.stringify(results, null, 2));
+  // // Always write out the failures to a file
+  // fs.writeFileSync(`./open-ai-keywords-results-log.json`, JSON.stringify(results, null, 2));
 
-  // And close
-  await page.close();
-  process.exit(0);
+  // // And close
+  // await page.close();
+  // process.exit(0);
 }
 
 bootstrap();

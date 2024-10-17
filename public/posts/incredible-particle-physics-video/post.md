@@ -9,6 +9,7 @@ tags:
   - video
 title: Incredible Particle & Physics Video
 oldUrl: /fun-amp-videos/incredible-particle-physics-video
+openAIPostsVectorStoreFileId: file-qnebTHJG0C9y1r968Q503c78
 ---
 
 Saw this [post on Gizmodo](https://gizmodo.com/5591613/incredible-physics-engine-yields-some-seriously-jaw+dropping-dirt) and thought I would share on my blog as I think its incredible.

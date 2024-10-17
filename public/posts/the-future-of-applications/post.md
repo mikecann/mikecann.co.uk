@@ -1,11 +1,12 @@
 ---
 coverImage: ./header.jpg
-date: "2023-04-01T07:31:40.000Z"
+date: '2023-04-01T07:31:40.000Z'
 tags:
   - ai
   - ui
   - prediction
 title: The Future of Applications
+openAIPostsVectorStoreFileId: file-T818UneCJzOR0ze09OD0xwjX
 ---
 
 (no this isn't an april fools post :P)

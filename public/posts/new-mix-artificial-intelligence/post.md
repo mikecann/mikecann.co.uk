@@ -8,6 +8,7 @@ tags:
   - music
 title: 'New Mix: Artificial - Intelligence'
 oldUrl: /audio/new-mix-artificial-intelligence
+openAIPostsVectorStoreFileId: file-WY1srNryZaBgXzYpEd7y5FU3
 ---
 
 ![aiimage](/wp-content/uploads/2009/06/aiimage.gif "aiimage")

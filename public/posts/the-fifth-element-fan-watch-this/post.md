@@ -9,6 +9,7 @@ tags:
   - video
 title: The Fifth Element Fan? Watch This!
 oldUrl: /fun-amp-videos/the-fifth-element-fan-watch-this
+openAIPostsVectorStoreFileId: file-4jrd4i0RovsqdQbFXHiXgHLu
 ---
 
 Its no secret that im a sci-fi fan and The Fifth Element is my favourite film. Watched it again in epic 1080p BluRay quality last night. Went poking about on Youtube afterwards and found this little gem:<!-- more -->

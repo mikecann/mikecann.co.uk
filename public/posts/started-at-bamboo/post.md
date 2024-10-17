@@ -8,6 +8,7 @@ tags:
   - react native
 title: Started At Bamboo
 oldUrl: /employment/started-at-bamboo
+openAIPostsVectorStoreFileId: file-WpiCfPAvQ93ssmftTL5juYNv
 ---
 
 Just a quick employment update today.

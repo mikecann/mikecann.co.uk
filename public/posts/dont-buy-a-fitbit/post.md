@@ -1,11 +1,12 @@
 ---
 coverImage: ./header.jpg
-date: "2023-06-11T08:31:40.000Z"
+date: '2023-06-11T08:31:40.000Z'
 tags:
   - rant
   - personal
   - ux
 title: Don't Buy a Fitbit
+openAIPostsVectorStoreFileId: file-bbbe4xB2YFF9okBbOgn7ql6A
 ---
 
 Strap yourselves in, this one is a bit of a rant.

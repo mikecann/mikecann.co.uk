@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2022-08-14T07:31:40.000Z"
+date: '2022-08-14T07:31:40.000Z'
 tags:
   - nfts
   - blockchain
@@ -8,6 +8,7 @@ tags:
   - gaming
   - gangbusters
 title: BattleTabs & Fractal
+openAIPostsVectorStoreFileId: file-uG5THW5HiYG2eFJJFmj0gxFN
 ---
 
 Its been a while since I have posted about BattleTabs but things most definitely haven't been standing still, so I think its time for an update!

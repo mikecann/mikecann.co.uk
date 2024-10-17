@@ -8,6 +8,7 @@ tags:
   - unity
 title: Tinkering With Entitias - Entitiasteroids
 oldUrl: /entitiasteroids/tinkering-with-entitias-entitiasteroids
+openAIPostsVectorStoreFileId: file-WYMFn9xokRpElNvH0GRQBqoY
 ---
 
 **EDIT: Check the comments for an excellent reply from Simon, creator of Entitias.**

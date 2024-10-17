@@ -10,6 +10,7 @@ tags:
   - mobile
 title: The Three Game Challenge - Part 1 - Latesha's Crib
 oldUrl: /actionscript/the-three-game-challenge-part-1-lateshas-crib
+openAIPostsVectorStoreFileId: file-PQWCDDB1LUFexBE3bEZoePCx
 ---
 
 Well I have just finished off the first of [my three prototype games challenge](/posts/the-three-game-challenge/) ([part two](/posts/the-three-game-challenge-part-2-a-cunning-plan/), [part three](/posts/the-three-game-challenge-part-3-the-family-jewels/)) that I set myself last week.

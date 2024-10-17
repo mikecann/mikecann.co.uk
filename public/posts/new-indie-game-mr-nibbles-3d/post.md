@@ -4,6 +4,7 @@ date: '2014-07-03T02:40:47.000Z'
 tags: []
 title: 'New Indie Game: Mr Nibbles 3D'
 oldUrl: /mr-nibbles-3d/new-indie-game-mr-nibbles-3d
+openAIPostsVectorStoreFileId: file-GUXZ5OKLiPGbXA2astB7KKQz
 ---
 
 In-between the downtime of the main game (yet to be announced) I decided to experiment around with an idea I had a while ago.

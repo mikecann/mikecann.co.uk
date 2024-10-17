@@ -7,6 +7,7 @@ tags:
   - salford
 title: NHS Social Innovation in Salford Competition
 oldUrl: /misc/nhs-social-innovation-in-salford-competition
+openAIPostsVectorStoreFileId: file-CbZ4rs99qaRUOj7thhWx528P
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/07/screenshot_02.png)

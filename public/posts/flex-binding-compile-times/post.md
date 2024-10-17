@@ -10,6 +10,7 @@ tags:
   - speed
 title: Flex Binding & Compile Times
 oldUrl: /actionscript/flex-binding-compile-times
+openAIPostsVectorStoreFileId: file-cNcqCo4y8YjjBlQNdESZM68A
 ---
 
 [![](/wp-content/uploads/2011/02/commandlin01.jpg "commandlin01")](/wp-content/uploads/2011/02/commandlin01.jpg)

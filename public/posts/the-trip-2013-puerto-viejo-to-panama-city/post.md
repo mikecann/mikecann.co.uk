@@ -11,6 +11,7 @@ tags:
   - travel
 title: The Trip 2013 - Puerto Viejo to Panama City
 oldUrl: /2013-trip/the-trip-2013-puerto-viejo-to-panama-city
+openAIPostsVectorStoreFileId: file-dvq7InG0tWkmri6eRyhxmWfY
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/08/screenshot_02.png)

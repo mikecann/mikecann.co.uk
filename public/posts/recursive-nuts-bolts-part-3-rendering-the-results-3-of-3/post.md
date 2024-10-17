@@ -15,6 +15,7 @@ tags:
   - typescript
 title: 'Recursive, Nuts & Bolts Part 3 - Rendering the Results (3 of 3)'
 oldUrl: /programming/recursive-nuts-bolts-part-3-rendering-the-results-3-of-3
+openAIPostsVectorStoreFileId: file-yU2gEqvbc9VRes79MtARJfkW
 ---
 
 [![screenshot_01](/wp-content/uploads/2012/12/screenshot_01.png)](/posts/recursive-nuts-bolts-part-3-rendering-the-results-3-of-3/attachment/screenshot_01-7/)

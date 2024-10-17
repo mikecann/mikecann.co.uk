@@ -9,6 +9,7 @@ tags:
   - release
 title: Mr Nibbles Forever - Now on Apple App Store!
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-now-on-apple-app-store
+openAIPostsVectorStoreFileId: file-19QIUGVvsjawGz96nrAp9ozB
 ---
 
 Weeeee! Finally we got approval from Apple on Friday last week and after a frustrating 3 hours of waiting for apple to push a button it launched!

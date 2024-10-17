@@ -7,6 +7,7 @@ tags:
   - sync
 title: File and Folder Syncing
 oldUrl: /misc/file-and-folder-syncing
+openAIPostsVectorStoreFileId: file-fx1z18VikfDEbo6tJQuNUBDK
 ---
 
 For a long while I have been worried about my lack of backups for my machine. I detest the fact that i  [actually lost some of my older work](https://www.mikecann.co.uk/lieroxna/lieroxna-digging-up-the-past/). Getting[ the Mac](https://www.mikecann.co.uk/photos-personal/new-laptop-iphone-fun/) has been the final straw and my instigator for change.

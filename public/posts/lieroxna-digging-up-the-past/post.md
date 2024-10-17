@@ -8,6 +8,7 @@ tags:
   - xna
 title: LieroXNA - Digging up the past..
 oldUrl: /lieroxna/lieroxna-digging-up-the-past
+openAIPostsVectorStoreFileId: file-fD51SGAQtbff8ZNKfVayyxi6
 ---
 
 I received a very pleasant email yesterday from a fine chap Michael Lindholm. He was enquiring about my old project [LieroXNA ](https://www.mikecann.co.uk/category/lieroxna/)and whether I was still working on it. As it sound like some people are still interested in the project Ill copy / pase the email for the record here:

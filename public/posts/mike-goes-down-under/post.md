@@ -9,6 +9,7 @@ tags:
   - travel
 title: Mike Goes Down Under
 oldUrl: /photos-personal/mike-goes-down-under
+openAIPostsVectorStoreFileId: file-a04ZKtWa2EtOp6rXkI5AIy3u
 ---
 
 [![CropperCapture[1]](https://www.mikecann.co.uk/wp-content/uploads/2014/03/CropperCapture1.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/03/CropperCapture1.png)

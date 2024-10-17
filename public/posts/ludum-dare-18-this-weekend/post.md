@@ -8,6 +8,7 @@ tags:
   - ludum
 title: Ludum Dare 18 this Weekend!
 oldUrl: /48-hours-later/ludum-dare-18-this-weekend
+openAIPostsVectorStoreFileId: file-zfNNWp2bCPaxLp1PG3aEiBQv
 ---
 
 [![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-16-20.48.gif "ScreenHunter_01 Aug. 16 20.48")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-16-20.48.gif)

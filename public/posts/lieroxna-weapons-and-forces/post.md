@@ -4,6 +4,7 @@ date: '2007-09-16T19:37:10.000Z'
 tags: []
 title: LieroXNA - Weapons and Forces
 oldUrl: /c/lieroxna-weapons-and-forces
+openAIPostsVectorStoreFileId: file-cb2rm10PLdmceb0MCofbDUJf
 ---
 
 I have been working hard on LieroXNA this weekend and have managed to get quite abit of what I wanted done.

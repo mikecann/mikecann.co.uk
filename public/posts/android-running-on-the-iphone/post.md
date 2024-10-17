@@ -8,6 +8,7 @@ tags:
   - video
 title: Android Running on the iPhone!
 oldUrl: /fun-amp-videos/android-running-on-the-iphone
+openAIPostsVectorStoreFileId: file-6fbwHkcX7KUudH96ZvBwiEHt
 ---
 
 [![](/wp-content/uploads/2010/04/android.gif "android")](/wp-content/uploads/2010/04/android.gif)

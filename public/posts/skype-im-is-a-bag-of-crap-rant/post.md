@@ -10,6 +10,7 @@ tags:
   - skype
 title: 'Skype IM, is a bag of crap [Rant]'
 oldUrl: /misc/skype-im-is-a-bag-of-crap-rant
+openAIPostsVectorStoreFileId: file-i4qbFNbpUNCxVL3s16u5mapu
 ---
 
 [![head](/wp-content/uploads/2013/01/head.png)](/posts/skype-im-is-a-bag-of-crap-rant/attachment/head-4/)

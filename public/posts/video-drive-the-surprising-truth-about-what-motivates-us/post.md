@@ -6,6 +6,7 @@ tags:
   - video
 title: '[Video] Drive: The surprising truth about what motivates us'
 oldUrl: /fun-amp-videos/video-drive-the-surprising-truth-about-what-motivates-us
+openAIPostsVectorStoreFileId: file-aizwhCc2z1GbA2aqXM1Fynsf
 ---
 
 I have been meaning to post this one for a while, but only just got round to it. It was linked on the RobotLegs mailing list. Its an interestive watch if not just for the incredible artist animating it ;)

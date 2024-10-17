@@ -6,6 +6,7 @@ tags:
   - video
 title: Did You Know 3.0...
 oldUrl: /fun-amp-videos/did-you-know-30
+openAIPostsVectorStoreFileId: file-OxZePD8Wxs3eVZ6xSy7ii3es
 ---
 
 Abit old I know but I only just stumbled across it, very interesting watch, but does anyone else feel a little unsettled after watching it?

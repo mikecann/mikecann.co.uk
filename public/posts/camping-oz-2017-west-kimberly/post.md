@@ -8,6 +8,7 @@ tags:
   - travel
 title: Camping Oz 2017 - West Kimberly
 oldUrl: /above-under/camping-oz-2017-west-kimberly
+openAIPostsVectorStoreFileId: file-NRfyLKJRICUHcZIWRZ4Ftc3r
 ---
 
 Wow, its been a while since I have written an update but so much has been going on I have struggled to find the time!

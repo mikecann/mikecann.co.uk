@@ -8,6 +8,7 @@ tags:
   - strato
 title: New Blog Host & Face-lift
 oldUrl: /misc/new-blog-host-face-lift
+openAIPostsVectorStoreFileId: file-XH6JkIvRYqwsU2ibyDxj8WLX
 ---
 
 [![](/wp-content/uploads/2011/11/mememe.jpg "mememe")](/wp-content/uploads/2011/11/mememe.jpg)

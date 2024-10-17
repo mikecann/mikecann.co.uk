@@ -6,6 +6,7 @@ tags:
   - opinion
 title: A Week on the Mac
 oldUrl: /misc/a-week-on-the-mac
+openAIPostsVectorStoreFileId: file-lNzvz0IEHORpI707Kb3w5ijF
 ---
 
 Well its now a couple of weeks into using my shiney new MacBook Pro 15" and I have decided to do an early report on a few things I like / dont like about it. Its not an exhaustive list but just a small rant of my main pleasures / gripes.<!-- more -->

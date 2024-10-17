@@ -6,6 +6,7 @@ tags:
   - trip
 title: The Trip 2013 - The Stats
 oldUrl: /2013-trip/the-trip-2013-the-stats
+openAIPostsVectorStoreFileId: file-GdayEnrWzwdc2hkbUnLONRr3
 ---
 
 [![screenshot_02](/wp-content/uploads/2014/01/screenshot_02.png)](https://mapsengine.google.com/map/embed?mid=zqHG_2WyX1Rw.kX4lL2DfOU1E)

@@ -10,6 +10,7 @@ tags:
   - trip
 title: The Trip 2013 - Bogota to Medellin
 oldUrl: /2013-trip/the-trip-2013-bogota-to-medellin
+openAIPostsVectorStoreFileId: file-3cYFHidsUvygMzdqxE7pxRLb
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/09/screenshot_01.png)

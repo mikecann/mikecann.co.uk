@@ -41,8 +41,7 @@ async function bootstrap() {
 
   // Create temporary directory for file operations
   const tmpDir = path.join(process.cwd(), "tmp");
-  if (!fs.existsSync(tmpDir))
-    fs.mkdirSync(tmpDir);
+  if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir);
 
   // Function to handle individual post upload
   const handle = async (post: PostWithContent) => {
@@ -70,20 +69,18 @@ async function bootstrap() {
           openAIPostsVectorStoreFileId: result.id,
         })
       );
-    } else
-      console.log(`Error uploading post`, result);
+    } else console.log(`Error uploading post`, result);
 
     // Clean up temporary file
     fs.unlinkSync(tempFileName);
   };
 
   // Limit the number of posts to upload (for testing or batching)
-  const somePosts = postsToUpload.slice(0, 20);
+  const somePosts = postsToUpload; //.slice(0, 10);
 
   // Process posts
   try {
-    for (let post of somePosts)
-      await handle(post);
+    for (let post of somePosts) await handle(post);
   } catch (e) {
     console.error(e);
   }

@@ -4,6 +4,7 @@ date: '2006-05-17T21:35:34.000Z'
 tags: []
 title: chains
 oldUrl: /art/chains
+openAIPostsVectorStoreFileId: file-h0t7BSmHhynQj8QHJ9eKS4up
 ---
 
 > Chains was created in one of my more "dark" moments I wanted to get more volumetric shadowing on it but by the time it finished rendering i was no-longer in my dark mood so decided to leave it

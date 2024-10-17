@@ -7,6 +7,7 @@ tags:
   - typescript
 title: My Fenders Typescript Talk
 oldUrl: /personal/my-fenders-typescript-talk
+openAIPostsVectorStoreFileId: file-j17nOFh0nbjBd5kCpaTU98UV
 ---
 
 Back in August 2019 I have a talk at the local [Front End Web Developers (Fenders)](https://www.meetup.com/Front-End-Web-Developers-Perth/) meetup group here in Perth. Its taken them a little while but the talk is finally up on Youtube!

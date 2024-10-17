@@ -9,6 +9,7 @@ tags:
   - typescript
 title: Introducing - LinkedIn Notes
 oldUrl: /markd/introducing-linkedin-notes
+openAIPostsVectorStoreFileId: file-MhYmsYm26P0w3BjrTDABraAt
 ---
 
 Lately we (Markd Ltd) have been working on a few different projects, today we are happy to announce one of those new projects, [LinkedIn Notes](https://chrome.google.com/webstore/detail/linkedin-notes/efjjkjipkkciokjblkmmfbihellibile).

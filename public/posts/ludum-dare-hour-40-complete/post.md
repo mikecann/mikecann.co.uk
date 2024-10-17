@@ -11,6 +11,7 @@ tags:
   - project
 title: Ludum Dare - Hour 40 - COMPLETE!
 oldUrl: /48-hours-later/ludum-dare-hour-40-complete
+openAIPostsVectorStoreFileId: file-WOScywGX6q5pRkZQzLvbFtAl
 ---
 
 [![](/wp-content/uploads/2010/08/title.png "title")](/wp-content/uploads/2010/08/title.png)

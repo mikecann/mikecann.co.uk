@@ -9,6 +9,7 @@ tags:
   - trip
 title: The Trip 2013 - Chicago
 oldUrl: /2013-trip/the-trip-2013-chicago
+openAIPostsVectorStoreFileId: file-C93o7C0L2JaSRWlK9Co1Jhn6
 ---
 
 ![screenshot_08](/wp-content/uploads/2013/05/screenshot_08.png)

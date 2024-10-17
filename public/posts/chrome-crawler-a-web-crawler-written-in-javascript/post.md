@@ -14,6 +14,7 @@ tags:
   - spider
 title: Chrome Crawler - A web-crawler written in Javascript
 oldUrl: /chrome-crawler/chrome-crawler-a-web-crawler-written-in-javascript
+openAIPostsVectorStoreFileId: file-SupiwheNY4cpHSitpsApxgdm
 ---
 
 [![](/wp-content/uploads/2010/12/700.jpg "700")](/wp-content/uploads/2010/12/700.jpg)

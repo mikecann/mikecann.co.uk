@@ -7,6 +7,7 @@ tags:
   - stolen
 title: 'Bike Be Gone :('
 oldUrl: /misc/bike-be-gone
+openAIPostsVectorStoreFileId: file-0jpnlzcOlElpV4hBdpxaD6Xu
 ---
 
 Went downstairs to the first floor carpark this morning to grab my bike for my morning 15min cycle into work to find that all that remained was this:

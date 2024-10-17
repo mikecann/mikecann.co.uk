@@ -9,6 +9,7 @@ tags:
   - update
 title: 'Dev Update: BlastWave - Lost At Sea'
 oldUrl: /blastwave-lost-at-sea/dev-update-blastwave-lost-at-sea
+openAIPostsVectorStoreFileId: file-pqSCfodQiJubj3xH13toGxuF
 ---
 
 Oliver and I have been working hard on the game and we are almost ready to rock.

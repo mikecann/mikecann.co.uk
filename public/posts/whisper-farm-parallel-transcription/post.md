@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.webp
-date: "2024-07-01T07:31:40.000Z"
+date: '2024-07-01T07:31:40.000Z'
 tags:
   - ai
   - code
@@ -13,6 +13,7 @@ tags:
   - bun
   - shadcnui
 title: Whisper Farm - Parallel Transcription
+openAIPostsVectorStoreFileId: file-FfmnHRxDRGFxLeQGrBTS1QkY
 ---
 
 I enjoy reading [Ian Macartney's](https://stack.convex.dev/author/ian-macartney) posts on the Convex blog. When I saw his piece on [Work Stealing](https://stack.convex.dev/work-stealing), a strategy for distributing compute-heavy workloads, I decided to try it myself.

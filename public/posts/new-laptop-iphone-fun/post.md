@@ -6,6 +6,7 @@ tags:
   - personal
 title: New Laptop = iPhone Fun!
 oldUrl: /photos-personal/new-laptop-iphone-fun
+openAIPostsVectorStoreFileId: file-tRaqIOaAP6uqmwQmAdYU4vj4
 ---
 
 ![photo](/wp-content/uploads/2009/07/photo.jpg "photo")

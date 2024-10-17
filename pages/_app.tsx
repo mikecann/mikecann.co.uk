@@ -8,6 +8,9 @@ import { setStylesTarget } from "typestyle";
 import { Analytics } from "@vercel/analytics/react";
 import { PostHogProvider } from "posthog-js/react";
 import posthog from "posthog-js";
+import dynamic from "next/dynamic";
+
+const MikebotDynamic = dynamic(() => import("../components/mikebot/Mikebot"), { ssr: false });
 
 if (typeof window !== "undefined") {
   // checks that we are client-side
@@ -57,6 +60,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       </Head>
       <PostHogProvider client={posthog}>
         <Component {...pageProps} />
+        <div style={{ position: "fixed", bottom: 0, right: 0 }}>
+          <MikebotDynamic />
+        </div>
       </PostHogProvider>
       <Analytics />
     </GLSDefaults.Provider>

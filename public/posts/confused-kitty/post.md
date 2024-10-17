@@ -4,6 +4,7 @@ date: '2007-11-14T14:06:56.000Z'
 tags: []
 title: Confused Kitty
 oldUrl: /fun-amp-videos/confused-kitty
+openAIPostsVectorStoreFileId: file-iJa6mCDpNpjohovwCdT2PwxD
 ---
 
 I dont know why i find this so funny...

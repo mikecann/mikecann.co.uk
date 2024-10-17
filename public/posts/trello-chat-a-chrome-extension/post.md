@@ -8,6 +8,7 @@ tags:
   - typescript
 title: Trello Chat - A Chrome Extension
 oldUrl: /projects/trello-chat-a-chrome-extension
+openAIPostsVectorStoreFileId: file-lQ8PUno2NHY64JfLf3cXilSs
 ---
 
 Following on my theme of "Not Games" projects, I have just released my latest Chrome Extension; [Trello Chat](https://chrome.google.com/webstore/detail/trello-chat/ohgelebenfafafahlppompddhdkimcan).

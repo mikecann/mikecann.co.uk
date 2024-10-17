@@ -9,6 +9,7 @@ tags:
   - personal
 title: 'New Mix: Coalescence'
 oldUrl: /personal-mixes/new-mix-coalescence
+openAIPostsVectorStoreFileId: file-IHN3u2cizRC5y6T8JwE90dOZ
 ---
 
 [![artificialcoalcover](/wp-content/uploads/2009/07/artificialcoalcover.png "artificialcoalcover")](/wp-content/uploads/2009/07/artificialcoalcover.png)

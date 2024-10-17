@@ -12,6 +12,7 @@ tags:
   - track
 title: Newmix - Second Harmonic
 oldUrl: /audio/newmix-second-harmonic
+openAIPostsVectorStoreFileId: file-2jDvjWPfwDwL9n1DtFP6q7P7
 ---
 
 [![head02](/wp-content/uploads/2013/01/head02.png)](/posts/newmix-second-harmonic/attachment/head02-2/)

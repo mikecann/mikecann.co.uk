@@ -9,6 +9,7 @@ tags:
   - teaser
 title: 'BlastWave: Lost at Sea - Its almost done!'
 oldUrl: /blastwave-lost-at-sea/blastwave-lost-at-sea-its-almost-done
+openAIPostsVectorStoreFileId: file-64zTYC9p89YxHXJqUIVaYNHI
 ---
 
 Its just going through the final polishing and bidding stage at the moment. From the looks of the comments we are getting on FGL it should do quite well :) We have been asked to produce a video of the game for FGL marketing purposes so oliver whipped this little beauty out:

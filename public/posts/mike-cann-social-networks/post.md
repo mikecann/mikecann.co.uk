@@ -7,6 +7,7 @@ tags:
   - update
 title: Mike Cann & Social Networks
 oldUrl: /projects/mike-cann-social-networks
+openAIPostsVectorStoreFileId: file-FrSg44INmn8I6hvmg6C8emjJ
 ---
 
 Well as it appears that every day there is a new "Must Join" social network and I appear to have joined most of them I thought I would write a little rundown post of where you can find my digital presence.

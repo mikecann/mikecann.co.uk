@@ -9,6 +9,7 @@ tags:
   - mobile
 title: The Three Game Challenge
 oldUrl: /games/the-three-game-challenge
+openAIPostsVectorStoreFileId: file-rvwk6gJKaK5cy7Y5o02UkkrQ
 ---
 
 ![](/wp-content/uploads/2013/03/c05c1aa4a34153cda98d2ed3964498f6.png)

@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2023-05-05T08:31:40.000Z"
+date: '2023-05-05T08:31:40.000Z'
 tags:
   - ai
   - typescript
@@ -8,6 +8,7 @@ tags:
   - gamedev
   - gangbusters
 title: AI Profanity Checking in BattleTabs
+openAIPostsVectorStoreFileId: file-4FyE9vklIX8wfTAtfW1UCkar
 ---
 
 AI is all the rage at the moment and for good reason, its going to revolutionize many industries.

@@ -6,6 +6,7 @@ tags:
   - public speaking
 title: Talks of 2018
 oldUrl: /talks/talks-of-2018
+openAIPostsVectorStoreFileId: file-l8OUOkMZXJsRh80cILHZH6cO
 ---
 
 I totally forgot to post about the various talks I gave this year so I thought I would take a few minutes and post about them.

@@ -1,11 +1,12 @@
 ---
 coverImage: ./header.jpg
-date: "2021-10-16T07:31:40.000Z"
+date: '2021-10-16T07:31:40.000Z'
 tags:
   - cloudflare
   - typescript
   - event-sourcing
 title: Serverless & Databaseless Event Sourcing
+openAIPostsVectorStoreFileId: file-3Yz1HfS8SCx8zaENMwMXGVc0
 ---
 
 3 years ago while [working at Bamboo](/posts/started-at-bamboo) I was introduced to the concept of [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) for the first time. The concept of turning the database inside out blew my mind. Since then I have been fascinated with the possibilities for the technology and have wanted to build another Event Sourced app.

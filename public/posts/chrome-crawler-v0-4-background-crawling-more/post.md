@@ -11,6 +11,7 @@ tags:
   - update
 title: Chrome Crawler v0.4 - Background Crawling & More!
 oldUrl: /chrome-crawler/chrome-crawler-v0-4-background-crawling-more
+openAIPostsVectorStoreFileId: file-X6Y7cVLaVHEy8EW4HL8vuhNE
 ---
 
 [![](/wp-content/uploads/2010/12/Shot_0041.png "Shot_004")](/wp-content/uploads/2010/12/Shot_0041.png)

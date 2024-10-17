@@ -10,6 +10,7 @@ tags:
   - projects
 title: 'Scribble v0.1 ... Harmony, but in Flash.. kinda!'
 oldUrl: /actionscript/scribble-v0-1-harmony-but-in-flash-kinda
+openAIPostsVectorStoreFileId: file-ms8Yh3A8CKbHjIC0epWeynZq
 ---
 
 Well as you can probably tell from my [last](https://www.mikecann.co.uk/art/harmony-html5-procedural-drawing/) few [posts](https://www.mikecann.co.uk/art/more-harmony-creations/), I have been loving the simple browser drawing app called [Harmony](https://mrdoob.com/projects/harmony/). Well, while playing with it I thought to myself, "Is there a reason this cant be done in Flash?". Well this is the answer to my question.

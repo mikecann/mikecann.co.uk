@@ -13,6 +13,7 @@ tags:
   - water
 title: The Trip 2013 - Oaxaca to Chichen Itza
 oldUrl: /2013-trip/the-trip-2013-oaxaca-to-chichen-itza
+openAIPostsVectorStoreFileId: file-UB3NOahtL4ES2dbzei70F2bI
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/07/screenshot_01.png)

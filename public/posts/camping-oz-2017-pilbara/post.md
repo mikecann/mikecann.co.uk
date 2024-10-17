@@ -8,6 +8,7 @@ tags:
   - travel
 title: Camping Oz 2017 - Pilbara
 oldUrl: /above-under/camping-oz-2017-pilbara
+openAIPostsVectorStoreFileId: file-PtKqgP2gogJCMiRAVoa3qrMe
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

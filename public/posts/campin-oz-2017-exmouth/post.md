@@ -8,6 +8,7 @@ tags:
   - travel
 title: Campin Oz 2017 - Exmouth
 oldUrl: /above-under/campin-oz-2017-exmouth
+openAIPostsVectorStoreFileId: file-5C1Gxhgj1JVQcpVN7EdtSJbn
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

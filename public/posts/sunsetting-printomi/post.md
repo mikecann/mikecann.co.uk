@@ -4,6 +4,7 @@ date: '2012-05-12T16:40:42.000Z'
 tags: []
 title: Sunsetting Printomi
 oldUrl: /printomi/sunsetting-printomi
+openAIPostsVectorStoreFileId: file-mogjlvEIgNkJJVu9tobEaAcK
 ---
 
 [![](/wp-content/uploads/2012/05/02.png "02")](/wp-content/uploads/2012/05/02.png)

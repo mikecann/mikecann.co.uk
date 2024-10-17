@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2023-07-17T08:31:40.000Z"
+date: '2023-07-17T08:31:40.000Z'
 tags:
   - battletabs
   - gaming
@@ -8,6 +8,7 @@ tags:
   - youtube
   - video
 title: BattleTabs in 7 Minutes
+openAIPostsVectorStoreFileId: file-PJbD7f1BAA4gHKbdO4TuDM4W
 ---
 
 As you may be aware we have been working really hard lately on the next version of our game [BattleTabs](https://mikecann.co.uk/tags/battletabs).

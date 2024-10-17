@@ -11,6 +11,7 @@ tags:
   - video
 title: Defcon 2010 - Hacker Intercepts GSM
 oldUrl: /fun-amp-videos/defcon-2010-hacker-intercepts-gsm
+openAIPostsVectorStoreFileId: file-3sqRF4KrTvMlbNVM6M16AJXo
 ---
 
 I know I have been posting alot of videos lately but this one caught my eye for a couple of reasons this morning.

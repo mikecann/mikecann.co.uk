@@ -8,6 +8,7 @@ tags:
   - travel
 title: Campin Oz 2017 - Shark Bay
 oldUrl: /above-under/campin-oz-2017-shark-bay
+openAIPostsVectorStoreFileId: file-qkfKTehR1Vy693ZOd2Pdg79b
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

@@ -10,6 +10,7 @@ tags:
   - web components
 title: Tinkering with Google Polymer and Typescript
 oldUrl: /polymer/tinkering-with-google-polymer-and-typescript
+openAIPostsVectorStoreFileId: file-5mVzHkUqy69OAUKQHfFnq2S7
 ---
 
 I recently had the opportunity to experiment with something I have been meaning to play with for a little while, Google's Polymer.

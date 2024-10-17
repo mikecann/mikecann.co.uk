@@ -5,6 +5,7 @@ tags:
   - c sharp
 title: Killer space penguins!
 oldUrl: /c/killer-space-penguins
+openAIPostsVectorStoreFileId: file-RMxXaRJA8i1PxhTTBjasoQ5k
 ---
 
 [![](https://www.mikecann.co.uk/Images/Others/spacepenguin.png)](https://www.mikecann.co.uk/Images/Others/spacepenguin.png)

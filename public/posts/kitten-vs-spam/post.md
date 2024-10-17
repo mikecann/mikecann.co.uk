@@ -7,6 +7,7 @@ tags:
   - video
 title: Kitten vs Spam
 oldUrl: /fun-amp-videos/kitten-vs-spam
+openAIPostsVectorStoreFileId: file-7T6d368jl4ETY842fCNAuKEV
 ---
 
 Well im back from Germany and after a horrendous journey involving stolen passports, lost luggage, cancelled flights, 11 hour waits in airports and 9 hour bus journeys I needed something to cheer me up. This fit the bill nicely:

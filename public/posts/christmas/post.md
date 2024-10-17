@@ -6,6 +6,7 @@ tags:
   - photos
 title: Christmas..
 oldUrl: /photos-personal/christmas
+openAIPostsVectorStoreFileId: file-N7wOPmtlOo2GiTHQjQQNbHbH
 ---
 
 Well kind of.. We got our very pretty little tree up today:

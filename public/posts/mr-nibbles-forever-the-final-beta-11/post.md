@@ -10,6 +10,7 @@ tags:
   - update
 title: Mr Nibbles Forever - The Final Beta (11)
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-the-final-beta-11
+openAIPostsVectorStoreFileId: file-WRTGbEU8gftS20vGjvnwGDnZ
 ---
 
 It's been 3 weeks since the last update but lots has happened in that time.

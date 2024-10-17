@@ -11,6 +11,7 @@ tags:
   - starling
 title: The Three Game Challenge – Part 3 – The Family Jewels
 oldUrl: /actionscript/the-three-game-challenge-part-3-the-family-jewels
+openAIPostsVectorStoreFileId: file-VKza9s3m1mvC0XfvpjB1HPn0
 ---
 
 Well this is it! I have completed the third game in my [three game prototype challenge](/posts/the-three-game-challenge/). ([first game](/posts/the-three-game-challenge-part-1-lateshas-crib/), [second game](/posts/the-three-game-challenge-part-2-a-cunning-plan/))

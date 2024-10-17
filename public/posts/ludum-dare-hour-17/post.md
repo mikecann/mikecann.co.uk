@@ -11,6 +11,7 @@ tags:
   - project
 title: Ludum Dare - Hour 17
 oldUrl: /48-hours-later/ludum-dare-hour-17
+openAIPostsVectorStoreFileId: file-MBuudnUvNEb4scx3IW6bg9rB
 ---
 
 [![](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg "ScreenHunter_01 Aug. 21 19.31")](/wp-content/uploads/2010/08/ScreenHunter_01-Aug.-21-19.31.jpg)

@@ -9,6 +9,7 @@ tags:
   - projects
 title: Artificial - Harmonics (Part 3)
 oldUrl: /audio/artificial-harmonics-part-3
+openAIPostsVectorStoreFileId: file-VOjB7sRIGG0aDDKf3TgBEfNe
 ---
 
 [![](/wp-content/uploads/2010/04/ArtificialHarmonics3.png "ArtificialHarmonics3")](/wp-content/uploads/2010/04/ArtificialHarmonics3.png)

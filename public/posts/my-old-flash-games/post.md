@@ -1,11 +1,12 @@
 ---
 coverImage: ./header.jpg
-date: "2021-06-17T20:31:40.000Z"
+date: '2021-06-17T20:31:40.000Z'
 tags:
   - games
   - flash
   - development
 title: My Old Flash Games
+openAIPostsVectorStoreFileId: file-5dT1xZOuJR9XbaXXdkiCOsov
 ---
 
 Just a small post today sharing with you a really cool project that I have only recently become aware of.

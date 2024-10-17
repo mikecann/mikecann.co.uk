@@ -8,6 +8,7 @@ tags:
   - video
 title: Tramp-tastic!
 oldUrl: /fun-amp-videos/tramp-tastic
+openAIPostsVectorStoreFileId: file-TvsjJ19BM8nTmlGPhfs3Svsj
 ---
 
 I used to be [into messing about on trampolines](https://picasaweb.google.com/mike.cann/RandomMe#5046188492515494834) which is why this video [on Gizmodo](https://uk.gizmodo.com/) caught my eye. I have watched it several times now and im half in awe of this and half cringing in fright of how dangerous the stunts are he is doing!

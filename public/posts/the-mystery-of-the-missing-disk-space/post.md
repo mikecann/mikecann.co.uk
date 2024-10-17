@@ -7,6 +7,7 @@ tags:
   - windows
 title: The Mystery of the Missing Disk Space
 oldUrl: /misc/the-mystery-of-the-missing-disk-space
+openAIPostsVectorStoreFileId: file-ryZ3r9960H2NuHGIxJWnc82R
 ---
 
 [![screenshot_06](/wp-content/uploads/2014/02/screenshot_06.png)](/wp-content/uploads/2014/02/screenshot_06.png)

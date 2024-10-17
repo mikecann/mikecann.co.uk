@@ -4,6 +4,7 @@ date: '2007-05-03T13:42:03.000Z'
 tags: []
 title: New project started! TowerDefence
 oldUrl: /c/new-project-started-towerdefence
+openAIPostsVectorStoreFileId: file-4g8c0J6fy6slsXz8lgeyhQ1i
 ---
 
 I always need something to be working on in my free time. All this year it has been my [University](https://www.mikecann.co.uk/?p=163) [projects](https://www.mikecann.co.uk/?p=168) [that](https://www.mikecann.co.uk/?p=162) have been keeping me busy. But now all i have left is one exam I have been seeking a new project that I can undertake.

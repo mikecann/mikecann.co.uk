@@ -4,6 +4,7 @@ date: '2008-01-03T11:34:32.000Z'
 tags: []
 title: Polluted Planet
 oldUrl: /fun-amp-videos/polluted-planet
+openAIPostsVectorStoreFileId: file-OJ4aGOjcNqX2Dc30lj3SVy4f
 ---
 
 I stumbled accross this yesterday and thought it was too good not to comment on it.

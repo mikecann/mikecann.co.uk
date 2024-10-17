@@ -4,6 +4,7 @@ date: '2006-11-25T19:15:52.000Z'
 tags: []
 title: Artificial - ChillTrip
 oldUrl: /personal-mixes/artificial-chilltrip
+openAIPostsVectorStoreFileId: file-BGZLTyvDkoPUlNtMvi53KgJh
 ---
 
 ![](</wp-content/uploads/Image/cover(1).png>)

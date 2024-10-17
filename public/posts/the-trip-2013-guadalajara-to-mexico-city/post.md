@@ -9,6 +9,7 @@ tags:
   - trip
 title: The Trip 2013 - Guadalajara to Mexico City
 oldUrl: /td-project/the-trip-2013-guadalajara-to-mexico-city
+openAIPostsVectorStoreFileId: file-8QZGY3iVHYBAnttkbv3TadKp
 ---
 
 ![screenshot_02](/wp-content/uploads/2013/06/screenshot_021.png)

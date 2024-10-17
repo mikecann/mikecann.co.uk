@@ -8,6 +8,7 @@ tags:
   - music
 title: Artificial - Second Life
 oldUrl: /audio/artificial-second-life
+openAIPostsVectorStoreFileId: file-wTqUo67CrVNLVL7vqLr5mJgU
 ---
 
 [![](/wp-content/uploads/2012/02/header.png "header")](/wp-content/uploads/2012/02/header.png)

@@ -11,6 +11,7 @@ tags:
   - post mortem
 title: Mr Nibbles - The Post Mortem
 oldUrl: /haxe/mr-nibbles-the-post-mortem
+openAIPostsVectorStoreFileId: file-rzE2SvZnrev5pxYkl6q6iWAu
 ---
 
 [![](/wp-content/uploads/2012/09/header.jpg "header")](/wp-content/uploads/2012/09/header.jpg)

@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2024-10-04T07:31:40.000Z"
+date: '2024-10-04T07:31:40.000Z'
 tags:
   - tinkering
   - ai
@@ -8,6 +8,7 @@ tags:
   - gangbusters
   - code
 title: Tinkering With Replit Agents
+openAIPostsVectorStoreFileId: file-cDzsjvo4zzsZh9cxnV5WLJ3g
 ---
 
 I recently took a much-needed vacation to an exotic location. While I was away, I kept a close eye on the [BattleTabs](https://battletabs.com/) servers. Given [our recent global launch](https://mikecann.co.uk/posts/battletabs-global-launch-on-discord-activities), things were still a bit unstable, and traffic was continuing to increase.

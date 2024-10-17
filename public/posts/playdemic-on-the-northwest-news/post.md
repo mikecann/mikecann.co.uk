@@ -8,6 +8,7 @@ tags:
   - tv
 title: Playdemic on the Northwest News
 oldUrl: /business/playdemic-on-the-northwest-news
+openAIPostsVectorStoreFileId: file-oFjAbNNcL1DoAfWqqZm9iwJh
 ---
 
 <iframe width="600" height="335" src="https://www.youtube.com/embed/TjMnDQw4zqI" frameborder="0" allowfullscreen></iframe>

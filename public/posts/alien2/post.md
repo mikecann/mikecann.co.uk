@@ -4,6 +4,7 @@ date: '2006-05-17T21:34:30.000Z'
 tags: []
 title: alien2
 oldUrl: /art/alien2
+openAIPostsVectorStoreFileId: file-yFrvS6IxalFzGNxdpUb6K9DH
 ---
 
 > Alien2 was one of my very early pieces of work. I wanted to create the impression the alien was coming through a misty doorway with light streaming behind him. However at the time i didnt have the technical know-how to achieve this effect and so had to make do with the effect above.

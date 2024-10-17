@@ -7,6 +7,7 @@ tags:
   - iphone
 title: Called It!
 oldUrl: /misc/called-it
+openAIPostsVectorStoreFileId: file-ipMbFdW94VXZ7Gvpfo8R0iVG
 ---
 
 [![500x_fs-details](/wp-content/uploads/2009/09/500x_fs-details.jpg "500x_fs-details")](/wp-content/uploads/2009/09/500x_fs-details.jpg)

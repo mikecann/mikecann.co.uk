@@ -12,6 +12,7 @@ tags:
   - utility
 title: AudioBook Organiser v1.3.0 - Drag'n'Drop
 oldUrl: /actionscript/audiobook-organiser-v1-3-0-dragndrop
+openAIPostsVectorStoreFileId: file-qb3Tew7CVC4FLshebXvUMzg2
 ---
 
 [![](/wp-content/uploads/2010/01/ScreenHunter_04-Jan.-11-22.36.jpg "ScreenHunter_04-Jan.-11-22.36")](/wp-content/uploads/2010/01/ScreenHunter_04-Jan.-11-22.36.jpg)

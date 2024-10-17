@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2022-01-24T07:31:40.000Z"
+date: '2022-01-24T07:31:40.000Z'
 tags:
   - cloudflare
   - faunadb
@@ -8,6 +8,7 @@ tags:
   - tech
   - tinkering
 title: Tech to Tinker with in 2022
+openAIPostsVectorStoreFileId: file-b3C857GIZrSHgczqHlsc4nor
 ---
 
 Wow how fast did 2021 go? Crazy! And we are already almost at the end of January.

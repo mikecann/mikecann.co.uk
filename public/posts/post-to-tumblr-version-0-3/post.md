@@ -14,6 +14,7 @@ tags:
   - video
 title: Post To Tumblr Version 0.3
 oldUrl: /post-to-tumbr/post-to-tumblr-version-0-3
+openAIPostsVectorStoreFileId: file-idNxzXvqSrCoDymGBnejjJ2e
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_004.png "Shot_004")](/wp-content/uploads/2010/10/Shot_004.png)

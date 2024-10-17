@@ -6,6 +6,7 @@ tags:
   - photos
 title: Manchester Snow Women
 oldUrl: /photos-personal/manchester-snow-women
+openAIPostsVectorStoreFileId: file-6n8iAno3eYb0Vj3omaYKagtI
 ---
 
 Well, this is just incredible, I dont think in my lifetime I have EVER seen so much snow in the UK letalone the city where it NEVER snows, Manchester.

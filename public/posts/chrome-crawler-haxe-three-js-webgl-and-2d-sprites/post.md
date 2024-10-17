@@ -11,6 +11,7 @@ tags:
   - webgl
 title: 'Chrome Crawler, HaXe, Three.js, WebGL and 2D Sprites'
 oldUrl: /chrome-crawler/chrome-crawler-haxe-three-js-webgl-and-2d-sprites
+openAIPostsVectorStoreFileId: file-UKFbzUkf5Kk9jm7i8paBCDI2
 ---
 
 [![](/wp-content/uploads/2011/06/banbanbnanbab.jpg "banbanbnanbab")](/wp-content/uploads/2011/06/banbanbnanbab.jpg)

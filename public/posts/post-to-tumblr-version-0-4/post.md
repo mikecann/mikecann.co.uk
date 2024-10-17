@@ -9,6 +9,7 @@ tags:
   - update
 title: Post To Tumblr Version 0.4
 oldUrl: /post-to-tumbr/post-to-tumblr-version-0-4
+openAIPostsVectorStoreFileId: file-uljAl40H5Yx29OjShGMPXtMg
 ---
 
 [![](/wp-content/uploads/2010/10/Shot_0012.png "Shot_001")](/wp-content/uploads/2010/10/Shot_0012.png)

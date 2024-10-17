@@ -7,6 +7,7 @@ tags:
   - personal
 title: Sound Cloud & Previous Mixes
 oldUrl: /misc/sound-cloud-previous-mixes
+openAIPostsVectorStoreFileId: file-8FPs2oLGd5Ml17lYXoj8ynxn
 ---
 
 Been messing about with [Sound Cloud](https://soundcloud.com/mike-cann) recently, just seeing what all the audio related fuss is about and I must say its quite good. I have uploaded some of my mixes up there (not all of them as there is a size restriction on the number of uploads). I have also gone back and edited some of my old posts as the links to my old mixes no longer worked (thanks for [Richard Davey](https://www.photonstorm.com/) for spotting that one.

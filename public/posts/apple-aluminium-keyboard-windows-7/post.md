@@ -9,6 +9,7 @@ tags:
   - windows
 title: Apple Aluminium Keyboard Windows 7
 oldUrl: /photos-personal/apple-aluminium-keyboard-windows-7
+openAIPostsVectorStoreFileId: file-PggnzPGLA2cmLfkGz6nGEUu2
 ---
 
 [![](/wp-content/uploads/2010/01/CropperCapture1.jpg "CropperCapture[1]")](/wp-content/uploads/2010/01/CropperCapture1.jpg)

@@ -11,6 +11,7 @@ tags:
   - twitter
 title: 'Proof of Concept: TwittBot'
 oldUrl: /c/proof-of-concept-twittbot
+openAIPostsVectorStoreFileId: file-raQD8xvByDejhUkOAeeODS7T
 ---
 
 Well for the last few evenings I have been working on this little proof of concept. One of my work colleague Ade ([@6t8](https://twitter.com/6t8)) came up with the idea "someone should make a game that you can play over twitter". Well after abit of excitement and talk I decided to have a go at coding this idea. Once I had started I realised that it could be possible to do alot more with this, so I decided to make the project a little more generic and turn it into a pluggable bot for automating twitter.

@@ -6,6 +6,7 @@ tags:
   - blog
   - performance
 title: Why This Blog Runs on NextJS Instead of Gatsby Now
+openAIPostsVectorStoreFileId: file-pphAMl2aZh1EUOVOSoit6hN8
 ---
 
 Its no secret that im a bit of a tinker'er and this blog seems to bear the brunt of my experiments.

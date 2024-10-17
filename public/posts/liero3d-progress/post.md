@@ -7,6 +7,7 @@ tags:
   - ssao
 title: Liero3D Progress
 oldUrl: /misc/liero3d-progress
+openAIPostsVectorStoreFileId: file-UjoHqkUsdQxEp8WVpXYfF3Qe
 ---
 
 [![](/wp-content/uploads/2011/03/Untitled-1.jpg "Untitled-1")](/wp-content/uploads/2011/03/Untitled-1.jpg)

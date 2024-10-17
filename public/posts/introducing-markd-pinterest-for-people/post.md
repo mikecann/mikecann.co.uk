@@ -9,6 +9,7 @@ tags:
   - website
 title: Introducing Markd - Pinterest for people
 oldUrl: /markd/introducing-markd-pinterest-for-people
+openAIPostsVectorStoreFileId: file-5wMilSfTKjTh18wihDaXHafh
 ---
 
 [Markd](https://markd.co/) is a project I have been working on for Brandon over a [pepwuper.com](https://www.pepwuper.com/) for a while now.

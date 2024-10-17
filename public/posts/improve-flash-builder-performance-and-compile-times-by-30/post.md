@@ -4,6 +4,7 @@ date: '2012-08-15T18:56:59.000Z'
 tags: []
 title: Improve Flash Builder Performance and Compile Times by 30%
 oldUrl: /actionscript/improve-flash-builder-performance-and-compile-times-by-30
+openAIPostsVectorStoreFileId: file-QGfwzCaj5IlG0upB0YQL1D2v
 ---
 
 I spend most of my working day and sometimes my evenings and weekends coding in Flash Builder. Flash Builder is the main professional coding environment for Actionscript and MXML and is sold by Adobe.

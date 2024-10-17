@@ -10,6 +10,7 @@ tags:
   - teaser
 title: 'BlastWave: Lost at Sea, so very almost!'
 oldUrl: /blastwave-lost-at-sea/blastwave-lost-at-sea-so-very-almost
+openAIPostsVectorStoreFileId: file-D3HijN5sGlBoe0oySFTIm68J
 ---
 
 It has been months and months since Oliver and I finished (functionally) our latest flash game 'BlastWave: Lost at Sea'. It has taken all this time to sort out sponsorship deals, with all the various portals. We have been through headache after headache but its finally almost time to release to the general public!

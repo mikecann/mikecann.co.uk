@@ -13,6 +13,7 @@ tags:
   - video
 title: Flex 4 Spark & Rollover Group Containing Rect
 oldUrl: /actionscript/flex-4-spark-rollover-group-containing-rect
+openAIPostsVectorStoreFileId: file-xytu8gS4l7pk4zr8eehfzxkG
 ---
 
 Was working on my top-secret Flex-based project over the weekend when I discovered something I hadn't come across before.

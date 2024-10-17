@@ -7,6 +7,7 @@ tags:
   - programming
 title: Funky Javascript Trick
 oldUrl: /programming/funky-javascript-trick
+openAIPostsVectorStoreFileId: file-JJu7mbdlkqP6bMMSZOmysSBa
 ---
 
 ![img01](/wp-content/uploads/2009/05/img01.png "img01")

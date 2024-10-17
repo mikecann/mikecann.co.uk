@@ -8,6 +8,7 @@ tags:
   - travel
 title: Campin Oz 2017 - Kalbarri
 oldUrl: /above-under/campin-oz-2017-kalbarri
+openAIPostsVectorStoreFileId: file-G4RV4yzIqnr268TAVmawvwBf
 ---
 
 **This post was copied from my site [AboveUnder.com](https://aboveunder.com) a site dedicated to my travel drone photography.**

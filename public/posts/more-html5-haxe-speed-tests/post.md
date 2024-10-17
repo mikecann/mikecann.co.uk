@@ -11,6 +11,7 @@ tags:
   - speed
 title: More HTML5 & HaXe Speed Tests
 oldUrl: /haxe/more-html5-haxe-speed-tests
+openAIPostsVectorStoreFileId: file-f3kw1UjKzaGWLe79hLIPiJ63
 ---
 
 [![](/wp-content/uploads/2011/07/header.png "header")](/wp-content/uploads/2011/07/header.png)

@@ -13,6 +13,7 @@ tags:
   - trance
 title: 'Trance Around The World, Show Downloader'
 oldUrl: /actionscript/trance-around-the-world-show-downloader
+openAIPostsVectorStoreFileId: file-EA8t0DfwaOgvsQVahfknUoah
 ---
 
 Had this little idea a while back, thought I would spend an hour tonight and bash it out.

@@ -1,12 +1,13 @@
 ---
 coverImage: ./header.jpg
-date: "2022-06-14T07:31:40.000Z"
+date: '2022-06-14T07:31:40.000Z'
 tags:
   - tips
   - extension
   - browser
   - typescript
 title: Firebase Cloud Messaging and Chrome Extension Manifest V3
+openAIPostsVectorStoreFileId: file-rvWcodn9A6r1AkSXs9ubvWjR
 ---
 
 This is one of those super annoying things that took me a while to discover and I was unable to find any prior art on it so I thought I would share.

@@ -4,6 +4,7 @@ date: '2009-01-29T18:17:16.000Z'
 tags: []
 title: Audiosize
 oldUrl: /flash/audiosize
+openAIPostsVectorStoreFileId: file-fhwq7AR2ebHX4SMza26r9hxw
 ---
 
 After another evenings worth of work I have come up with this little thing.

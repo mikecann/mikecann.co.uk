@@ -8,6 +8,7 @@ tags:
   - utility
 title: 'Wake Mate - Human Augmentation, the future?'
 oldUrl: /photos-personal/wake-mate-human-augmentation-the-future
+openAIPostsVectorStoreFileId: file-cH7rL5CcDKlqrjpT1IFPMuxU
 ---
 
 [![](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg "ScreenHunter_01 Jan. 24 14.13")](/wp-content/uploads/2010/01/ScreenHunter_01-Jan.-24-14.13.jpg)

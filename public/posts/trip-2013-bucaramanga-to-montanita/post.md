@@ -9,6 +9,7 @@ tags:
   - travel
 title: Trip 2013 - Bucaramanga to Montanita
 oldUrl: /2013-trip/trip-2013-bucaramanga-to-montanita
+openAIPostsVectorStoreFileId: file-5cPmkgm3sMpiNYSD6eaqysQF
 ---
 
 ![screenshot_01](/wp-content/uploads/2013/10/screenshot_01.png)

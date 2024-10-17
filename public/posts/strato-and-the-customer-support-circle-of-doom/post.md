@@ -8,6 +8,7 @@ tags:
   - strato
 title: STRATO and the Customer-Support-Circle-of-Doom
 oldUrl: /photos-personal/strato-and-the-customer-support-circle-of-doom
+openAIPostsVectorStoreFileId: file-iJGLfYVqT1eFNkwArh395E7f
 ---
 
 [/wp-content/uploads/2012/10/screenshot_021.png](/wp-content/uploads/2012/10/screenshot_021.png)

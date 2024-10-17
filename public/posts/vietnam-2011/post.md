@@ -7,6 +7,7 @@ tags:
   - vietnam
 title: Vietnam 2011
 oldUrl: /travel/vietnam-2011
+openAIPostsVectorStoreFileId: file-kMb0obXb7GAGIbLQ9DyDGzUw
 ---
 
 [![](/wp-content/uploads/2011/09/title.jpg "title")](/wp-content/uploads/2011/09/title.jpg)

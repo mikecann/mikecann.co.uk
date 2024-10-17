@@ -10,6 +10,7 @@ tags:
   - tilemaps
 title: 'Hxaria, Infinite Terrain [HaXe, WebGL,dat.GUI]'
 oldUrl: /glsl/hxaria-infinite-terrain-haxe-webgldat-gui
+openAIPostsVectorStoreFileId: file-iI647RpAtVCLLnL53uHRAA3I
 ---
 
 So I have been working on my "[Terraria like Terrain](/posts/hxaria-terraria-like-terrain-in-haxe-and-webgl/)" project "Hxaria" again.

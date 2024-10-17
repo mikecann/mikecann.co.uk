@@ -11,6 +11,7 @@ tags:
   - source
 title: Resizeable Chromeless Window AIR
 oldUrl: /mxml/resizeable-chromeless-window-air
+openAIPostsVectorStoreFileId: file-2ThJvuK6hodYrM7tHTdxGrUJ
 ---
 
 Thought I would share this little ditty. Been working in AIR recently and decided to make the window "chromeless" which means there are no controls so no resizing.

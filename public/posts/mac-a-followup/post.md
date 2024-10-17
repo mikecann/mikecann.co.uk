@@ -7,6 +7,7 @@ tags:
   - review
 title: Mac - a Followup
 oldUrl: /photos-personal/mac-a-followup
+openAIPostsVectorStoreFileId: file-paIZ3b7PWo0977zj55qmFsM7
 ---
 
 So after reading my last blog post "A Week on The Mac" the family cat had something to say about the subject too.

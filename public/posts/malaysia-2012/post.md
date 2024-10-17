@@ -8,6 +8,7 @@ tags:
   - travel
 title: Malaysia 2012
 oldUrl: /photos-personal/malaysia-2012
+openAIPostsVectorStoreFileId: file-w5q1Hig1nyuEM8rltqufzBv7
 ---
 
 [![](/wp-content/uploads/2012/06/screenshot_01.jpg "screenshot_01")](/wp-content/uploads/2012/06/screenshot_01.jpg)

@@ -11,6 +11,7 @@ tags:
 title: 'Working with Parse.com in Unity - Part 3 - Tests, Typescript and Common Code'
 oldUrl: >-
   /programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code
+openAIPostsVectorStoreFileId: file-HFpiai3xCNCkijNjLKIP2jqt
 ---
 
 > This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:

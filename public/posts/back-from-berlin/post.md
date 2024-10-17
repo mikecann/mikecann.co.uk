@@ -4,6 +4,7 @@ date: '2009-01-05T08:50:21.000Z'
 tags: []
 title: Back from Berlin
 oldUrl: /photos-personal/back-from-berlin
+openAIPostsVectorStoreFileId: file-Ip2Y2FosY0JKzHrCDRj6rf08
 ---
 
 Well its now 2009 and im back at work, but as sad as it sounds im enjoying being back desprite the backlog of support tickets here at [GameJacket ](https://support.gamejacket.com):P

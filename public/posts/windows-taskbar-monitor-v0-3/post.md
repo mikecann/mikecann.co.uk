@@ -4,6 +4,7 @@ date: '2011-10-01T10:02:07.000Z'
 tags: []
 title: Windows Taskbar Monitor v0.3
 oldUrl: /c/windows-taskbar-monitor-v0-3
+openAIPostsVectorStoreFileId: file-ZPX3OdDW2eioTOQeHnh5P1Hr
 ---
 
 [![](/wp-content/uploads/2011/10/Shot_01.png "Shot_01")](/wp-content/uploads/2011/10/Shot_01.png)

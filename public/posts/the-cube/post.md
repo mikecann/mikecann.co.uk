@@ -8,6 +8,7 @@ tags:
   - toy
 title: The Cube
 oldUrl: /projects/the-cube
+openAIPostsVectorStoreFileId: file-6IqT6G0MbWJb8AThV48c2Kxi
 ---
 
 After months and months its finally done! My 6-sided 24,576 LED self-contained cube project is finally complete!

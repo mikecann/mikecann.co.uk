@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2019-11-17T09:51:40.000Z"
+date: '2019-11-17T09:51:40.000Z'
 tags:
   - chrome extension
   - game
@@ -10,6 +10,7 @@ tags:
   - battletabs
 title: Introducing BattleTabs
 oldUrl: /markd/introducing-battletabs
+openAIPostsVectorStoreFileId: file-TxtqeUomKLsEFL63O83osvTL
 ---
 
 This one has been quite a while in the making but im proud to announce this innovative new game we have been working on.

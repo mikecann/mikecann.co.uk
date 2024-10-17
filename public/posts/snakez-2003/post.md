@@ -4,6 +4,7 @@ date: '2003-02-27T21:53:07.000Z'
 tags: []
 title: SnakeZ - 2003
 oldUrl: /darkbasic/snakez-2003
+openAIPostsVectorStoreFileId: file-xJpNXjVWBg7BfXac9ZtdOJ5o
 ---
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0">

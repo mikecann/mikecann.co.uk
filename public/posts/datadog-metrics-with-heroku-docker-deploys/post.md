@@ -1,12 +1,13 @@
 ---
 coverImage: ./header.jpg
-date: "2021-03-23T20:31:40.000Z"
+date: '2021-03-23T20:31:40.000Z'
 tags:
   - heroku
   - datadog
   - metrics
   - devops
 title: DataDog Metrics with Heroku Docker Deploys
+openAIPostsVectorStoreFileId: file-3STddzJ1CldqBB7RDSmj4klG
 ---
 
 Making Heroku and DataDog Metrics play together isnt as straight forward as it probably should be. Read on to find out how to remedy this.

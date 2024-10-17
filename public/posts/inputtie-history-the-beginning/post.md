@@ -9,6 +9,7 @@ tags:
   - project
 title: Inputtie History - The Beginning
 oldUrl: /inputtie/inputtie-history-the-beginning
+openAIPostsVectorStoreFileId: file-MCZmzFfAqyAUNVLNVwrdLlBE
 ---
 
 I [promised in a previous post to post](/posts/announcing-inputtie/) to talk about the Inputtie development process a little, the various challenges encountered and how I attempted to solve them.

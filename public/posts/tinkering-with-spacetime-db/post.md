@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: "2023-12-16T07:31:40.000Z"
+date: '2023-12-16T07:31:40.000Z'
 tags:
   - games
   - tech
@@ -8,6 +8,7 @@ tags:
   - typescript
   - c sharp
 title: Tinkering With SpacetimeDB
+openAIPostsVectorStoreFileId: file-wm6TDkOtO3x9AFRsYO9ZslHx
 ---
 
 This is going to be a bit of an unusual post as it details a failed tinkering project.

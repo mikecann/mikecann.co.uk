@@ -4,6 +4,7 @@ date: '2007-11-24T18:08:32.000Z'
 tags: []
 title: Artificial - Future Harmonics
 oldUrl: /audio/artificial-future-harmonics
+openAIPostsVectorStoreFileId: file-z7aU5X8nZx8k8oPJ6Yhq1U8J
 ---
 
 ![](https://www.mikecann.co.uk/Images/Others/FutureHarmonics.png)

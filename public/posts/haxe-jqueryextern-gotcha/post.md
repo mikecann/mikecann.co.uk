@@ -10,6 +10,7 @@ tags:
   - tips
 title: HaXe & jQueryExtern Gotcha
 oldUrl: /haxe/haxe-jqueryextern-gotcha
+openAIPostsVectorStoreFileId: file-yp8CWI4024zeh2NvqmL8Adsi
 ---
 
 [![](/wp-content/uploads/2011/04/ahxelogo.jpg "ahxelogo")](/wp-content/uploads/2011/04/ahxelogo.jpg)

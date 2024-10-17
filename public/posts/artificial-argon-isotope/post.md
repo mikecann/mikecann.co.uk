@@ -12,6 +12,7 @@ tags:
   - techo
 title: Artificial - Argon Isotope
 oldUrl: /audio/artificial-argon-isotope
+openAIPostsVectorStoreFileId: file-PYqNBeNgiyvPUboggsiOUngG
 ---
 
 [![argon](/wp-content/uploads/2013/04/argon.png)](/audio/artificial-argon-isotope/attachment/argon/)

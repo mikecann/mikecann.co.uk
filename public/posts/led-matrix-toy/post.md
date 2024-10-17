@@ -7,6 +7,7 @@ tags:
   - linux
 title: LED Matrix Toy
 oldUrl: /personal/led-matrix-toy
+openAIPostsVectorStoreFileId: file-xvkhFpHO1yOOi0Dq5SxD9vOM
 ---
 
 Ever since I [built my own smart mirror](/posts/mikes-mirror-the-talk) back in 2018 I have been keen to do another hardware project...

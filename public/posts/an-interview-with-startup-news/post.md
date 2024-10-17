@@ -9,6 +9,7 @@ tags:
   - taslk
 title: An Interview with Startup News
 oldUrl: /media/an-interview-with-startup-news
+openAIPostsVectorStoreFileId: file-LweA32MCYkid6eJyyjn1fzDW
 ---
 
 Just a short one today..

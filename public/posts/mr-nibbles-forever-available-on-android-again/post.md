@@ -10,6 +10,7 @@ tags:
   - success
 title: Mr Nibbles Forever - Available on Android Again!
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-available-on-android-again
+openAIPostsVectorStoreFileId: file-rxy0TK22WhzJbKPPjVSz8pMD
 ---
 
 Just a quick one and some good news on the nibbles front since the horror story that was my [Google Play debacle](https://www.mikecann.co.uk/misc/why-i-probably-wont-be-making-another-mobile-game-ever-again/).

@@ -4,6 +4,7 @@ date: '2006-05-17T22:01:17.000Z'
 tags: []
 title: squaresquare
 oldUrl: /art/squaresquare
+openAIPostsVectorStoreFileId: file-Kix3D7SXw27UJ0WEEEx1iUWb
 ---
 
 This image i think i saw on a site somewhere and wanted a go at creating it myself. it looks okay but could be ALOT better.

@@ -10,6 +10,7 @@ tags:
   - video
 title: Jessie Warden - Flash & Flex Videos
 oldUrl: /fun-amp-videos/jessie-warden-flash-flex-videos
+openAIPostsVectorStoreFileId: file-ne9WajUmyWbm4jB7xN7sPB4y
 ---
 
 [![](/wp-content/uploads/2010/02/ScreenHunter_01-Feb.-02-13.15.gif "ScreenHunter_01 Feb. 02 13.15")](/wp-content/uploads/2010/02/ScreenHunter_01-Feb.-02-13.15.gif)

@@ -9,6 +9,7 @@ tags:
   - parse
 title: URI Parser For HaXe
 oldUrl: /chrome-crawler/uri-parser-for-haxe
+openAIPostsVectorStoreFileId: file-Blv7RoxXqZAGSBTd8xdWfJX5
 ---
 
 Continuing on my [theme of the moment haXe](/posts/haxe-jqueryextern-gotcha/), I have another post  regarding the development of my haXe rewrite of  [ChromeCrawler](/posts/chrome-crawler-v0-4-background-crawling-more/).

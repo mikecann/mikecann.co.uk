@@ -12,6 +12,7 @@ tags:
   - version
 title: PostToTumblr 0.8 - 8000 Users and Counting
 oldUrl: /javascript/posttotumblr-0-8-8000-users-and-counting
+openAIPostsVectorStoreFileId: file-e0VZo0IfSq0mfRoaOGRzR7Dv
 ---
 
 [![](/wp-content/uploads/2011/06/Shot_01.png "Shot_01")](/wp-content/uploads/2011/06/Shot_01.png)

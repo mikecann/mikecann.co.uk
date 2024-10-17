@@ -4,6 +4,7 @@ date: '2008-11-25T15:00:35.000Z'
 tags: []
 title: Flashteroids 3D (teaser)
 oldUrl: /flash/flashteroids-3d-teaser
+openAIPostsVectorStoreFileId: file-wHOaXmJ8iA17LQspuUztMJK9
 ---
 
 A quick little teaser of my next flash game.. ;)

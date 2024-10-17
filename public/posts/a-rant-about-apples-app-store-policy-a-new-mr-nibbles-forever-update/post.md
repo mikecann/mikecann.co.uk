@@ -13,6 +13,7 @@ tags:
 title: A rant about Apple's App Store policy & A new Mr Nibbles Forever Update
 oldUrl: >-
   /mr-nibbles-forever/a-rant-about-apples-app-store-policy-a-new-mr-nibbles-forever-update
+openAIPostsVectorStoreFileId: file-T1UBigfJ0BMJXqoNMuOc1XE2
 ---
 
 A few weeks ago I got a friendly reminder from Apple that my Developer license was about to expire. What I hadn't realized however was that should it expire my games would no longer be available to download on the store.<!-- more -->

@@ -4,6 +4,7 @@ date: '2007-09-08T14:07:40.000Z'
 tags: []
 title: Some more pics up
 oldUrl: /photos-personal/some-more-pics-up
+openAIPostsVectorStoreFileId: file-JwYLlJggdj0szxCluNpXtZ6y
 ---
 
 Just got back from [Phil's 23rd](https://picasaweb.google.com/mike.cann/Phils23rd) party and [Jen's 21st](https://picasaweb.google.com/mike.cann/Jens21st). As usual I have uploaded the pics to my [picassa account.](https://picasaweb.google.com/mike.cann)

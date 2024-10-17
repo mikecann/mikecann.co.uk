@@ -4,6 +4,7 @@ date: '2006-05-17T22:02:43.000Z'
 tags: []
 title: wall
 oldUrl: /art/wall
+openAIPostsVectorStoreFileId: file-t8VOujkJvYl9Lx5ygLJrqBdR
 ---
 
 > This image was made realy fast but i tihnk it turned out quite nice. Thanks go to my good friend "cat" for the quote, cheers kitty!

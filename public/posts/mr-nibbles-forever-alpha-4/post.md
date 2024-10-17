@@ -10,6 +10,7 @@ tags:
   - unity
 title: Mr Nibbles Forever - Alpha 4
 oldUrl: /mr-nibbles-forever/mr-nibbles-forever-alpha-4
+openAIPostsVectorStoreFileId: file-b8EmsLUsXxrEwRE1x6Px4CdB
 ---
 
 The 4th week of development is over and although I haven't had as much time as I would have liked this week (reinstalled windows AGAIN, prepared for my open-water swim) I still managed to make some significant progress, checkout the video below:

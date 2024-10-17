@@ -4,6 +4,7 @@ date: '2008-04-29T12:26:59.000Z'
 tags: []
 title: Blast Wave
 oldUrl: /blastwave/blast-wave
+openAIPostsVectorStoreFileId: file-3hOoSDI0ahk9fzEplNI5Qwc0
 ---
 
 Heres my latest flash based creation, Blast Wave.

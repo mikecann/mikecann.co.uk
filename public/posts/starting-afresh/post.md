@@ -7,6 +7,7 @@ tags:
   - wordpress
 title: Starting Afresh
 oldUrl: /websites/starting-afresh
+openAIPostsVectorStoreFileId: file-54R24l1XY61AEd3AR06lDMyw
 ---
 
 [![](/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg "ScreenHunter_01 Jun. 11 11.37")](/wp-content/uploads/2010/06/ScreenHunter_01-Jun.-11-11.37.jpg)

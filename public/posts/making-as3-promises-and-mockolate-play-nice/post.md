@@ -9,6 +9,7 @@ tags:
   - testing
 title: Making AS3 Promises and Mockolate Play Nice
 oldUrl: /actionscript/making-as3-promises-and-mockolate-play-nice
+openAIPostsVectorStoreFileId: file-Ga6XnHyReEA3Wg41ErNeo3A0
 ---
 
 For the [past 5 months](https://www.mikecann.co.uk/uncategorized/started-work-at-thebroth-in-perth/) my day job has been an AS3 developer with the awesome folks over at The Broth in Perth. Having worked with AS3 for most of my professional career it was a good fit for my coding skills.

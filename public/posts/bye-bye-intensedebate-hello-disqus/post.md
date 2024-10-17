@@ -8,6 +8,7 @@ tags:
   - website
 title: 'Bye Bye IntenseDebate, Hello Disqus'
 oldUrl: /websites/bye-bye-intensedebate-hello-disqus
+openAIPostsVectorStoreFileId: file-shfj6z9eiVVtJJlLb6sAUq0X
 ---
 
 [![](/wp-content/uploads/2011/06/disqus2.jpg "disqus2")](/wp-content/uploads/2011/06/disqus2.jpg)

@@ -6,6 +6,7 @@ tags:
   - games
 title: Monkey Dressup
 oldUrl: /actionscript/monkey-dressup
+openAIPostsVectorStoreFileId: file-GKVatQKLtt6L4XURYejjFlLu
 ---
 
 ![monkeykitten](/wp-content/uploads/2009/07/monkeykitten.jpg "monkeykitten")

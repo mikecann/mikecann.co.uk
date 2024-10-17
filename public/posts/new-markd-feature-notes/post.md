@@ -8,6 +8,7 @@ tags:
   - typescript
 title: New Markd Feature - Notes
 oldUrl: /markd/new-markd-feature-notes
+openAIPostsVectorStoreFileId: file-PLqqHvVfJHB9VDKbHfkVd7Oo
 ---
 
 Thick and fast on the heels of our last new feature [Custom Fields](/markd/markd-custom-fields) today we are happy to announce our latest feature: Notes.

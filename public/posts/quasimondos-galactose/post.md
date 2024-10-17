@@ -10,6 +10,7 @@ tags:
   - programming
 title: Quasimondo's Galactose
 oldUrl: /actionscript/quasimondos-galactose
+openAIPostsVectorStoreFileId: file-vVvdHcy85vGRwyfCb5qNFKOE
 ---
 
 [![ScreenHunter_02 Jan. 10 20.13](/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg "ScreenHunter_02 Jan. 10 20.13")](/wp-content/uploads/2010/01/ScreenHunter_02-Jan.-10-20.13.jpg)

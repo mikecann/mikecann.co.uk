@@ -12,6 +12,7 @@ tags:
   - web
 title: 'Recursive, Nuts & Bolts Part 1 - A Typescript Chrome Extension  (1 of 3)'
 oldUrl: /programming/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3
+openAIPostsVectorStoreFileId: file-sggVeEE54Gw24QSRAVSwE34N
 ---
 
 [![screenshot_04](/wp-content/uploads/2012/12/screenshot_041.png)](/posts/recursive-nuts-bolts-part-1-a-typescript-chrome-extension-1-of-3/attachment/screenshot_04-5/)
