@@ -60,7 +60,16 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       </Head>
       <PostHogProvider client={posthog}>
         <Component {...pageProps} />
-        <div style={{ position: "absolute", width: "100%", height: "100%", top: 0, left: 0 }}>
+        <div
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+            top: 0,
+            left: 0,
+            pointerEvents: "none",
+          }}
+        >
           <MikebotDynamic />
         </div>
       </PostHogProvider>

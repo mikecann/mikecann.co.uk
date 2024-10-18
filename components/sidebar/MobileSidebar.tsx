@@ -14,6 +14,9 @@ import { useState } from "react";
 import { Background } from "./Background";
 import Link from "next/link";
 import { PiTreasureChestDuotone } from "react-icons/pi";
+import { onOpenMikebot } from "../mikebot/signals";
+import { AvatarSpeechBubble } from "../mikebot/AvatarSpeechBubble";
+import { floatAnimation } from "../animations";
 
 interface Props {}
 
@@ -23,19 +26,32 @@ export const MobileSidebar: React.FC<Props> = ({}) => {
   return (
     <>
       <Background style={{ width: 60 }}>
-        <Link href="/about">
+        <div
+          onClick={() => onOpenMikebot.dispatch()}
+          style={{
+            cursor: "pointer",
+            position: "relative",
+            animation: `${floatAnimation(5)} 6s ease-in-out infinite`,
+          }}
+        >
           <img
             alt={`profile picture of me mike cann`}
             style={{
               borderRadius: "50%",
-              animation: "float 6s ease-in-out infinite",
-              cursor: "pointer",
+              boxShadow: "0 5px 15px 0px rgba(0, 0, 0, 0.6)",
             }}
             width={40}
             height={40}
             src="/images/me.jpg"
           />
-        </Link>
+          <AvatarSpeechBubble
+            style={{ fontSize: "1.2em" }}
+            strokeSize="1px"
+            top="5px"
+            left="-10px"
+            floatAnimSize={5}
+          />
+        </div>
         <VerticalSpacer space={30} />
         <Vertical spacing={20} style={{ fontSize: "1.5em" }}>
           <PageButton icon={<FaHome />} href="/" />

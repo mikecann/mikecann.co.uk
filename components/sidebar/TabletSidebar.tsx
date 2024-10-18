@@ -10,6 +10,9 @@ import { Background } from "./Background";
 import { SocialIcons } from "./SocialIcons";
 import Link from "next/link";
 import { PiTreasureChestDuotone } from "react-icons/pi";
+import { onOpenMikebot } from "../mikebot/signals";
+import { floatAnimation } from "../animations";
+import { AvatarSpeechBubble } from "../mikebot/AvatarSpeechBubble";
 
 interface Props {}
 
@@ -19,19 +22,26 @@ export const TabletSidebar: React.FC<Props> = ({}) => {
   return (
     <>
       <Background style={{ width: 200 }}>
-        <Link href="/about">
+        <div
+          onClick={() => onOpenMikebot.dispatch()}
+          style={{
+            cursor: "pointer",
+            position: "relative",
+            animation: `${floatAnimation()} 6s ease-in-out infinite`,
+          }}
+        >
           <img
             alt={`profile picture of me mike cann`}
             style={{
               borderRadius: "50%",
-              animation: "float 6s ease-in-out infinite",
-              cursor: "pointer",
+              boxShadow: "0 5px 15px 0px rgba(0, 0, 0, 0.6)",
             }}
             width={120}
             height={120}
             src="/images/me.jpg"
           />
-        </Link>
+          <AvatarSpeechBubble style={{ fontSize: "2.8em" }} />
+        </div>
         <VerticalSpacer space={20} />
         <div style={{ fontSize: "1.8em", fontWeight: "bold" }}>Mike Cann</div>
         <VerticalSpacer space={30} />

@@ -39,6 +39,7 @@ const windowStyle = style({
   zIndex: 30,
   transition: "all 0.2s ease",
   transformOrigin: "bottom right",
+  pointerEvents: "initial",
 });
 
 const iconButtonStyle = style({
@@ -66,6 +67,7 @@ const overlayStyle = style({
   backgroundColor: "rgba(255, 255, 255, 0.1)",
   backdropFilter: "blur(5px)",
   zIndex: 20,
+  pointerEvents: "initial",
 });
 
 const currentThreadIdStorageKey = "mikebot_current_thread_id";
@@ -109,11 +111,8 @@ export const MikebotWidgetView: React.FC<Props> = ({ onMinimize }) => {
   }, []);
 
   useEffect(() => {
-    if (isMaximized) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
+    if (isMaximized) document.body.style.overflow = "hidden";
+    else document.body.style.overflow = "";
     return () => {
       document.body.style.overflow = "";
     };
@@ -121,7 +120,7 @@ export const MikebotWidgetView: React.FC<Props> = ({ onMinimize }) => {
 
   return (
     <>
-      {isMaximized && <div className={overlayStyle} />}
+      {isMaximized && <div className={overlayStyle} onClick={() => setIsMaximized(false)} />}
       <div
         className={windowStyle}
         style={{
@@ -204,7 +203,11 @@ export const MikebotWidgetView: React.FC<Props> = ({ onMinimize }) => {
           }}
         >
           {threadQuery.data && me ? (
-            <MessagesList threadId={threadQuery.data._id} userId={me._id} />
+            <MessagesList
+              threadId={threadQuery.data._id}
+              userId={me._id}
+              isMaximized={isMaximized}
+            />
           ) : (
             <Horizontal
               style={{

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { floatAnimation } from "../animations";
 import { PiChatCircleTextDuotone } from "react-icons/pi";
+import { AvatarSpeechBubble } from "./AvatarSpeechBubble";
 
 interface Props {
   onOpen: () => void;
@@ -15,14 +16,13 @@ const cardStyle = style({
   position: "fixed",
   right: "10px",
   bottom: "10px",
-  animation: `${floatAnimation} 6s ease-in-out infinite`,
+  animation: `${floatAnimation()} 6s ease-in-out infinite`,
   cursor: "pointer",
   zIndex: 1,
+  pointerEvents: "initial",
 });
 
 export const MikebotMinimizedView: React.FC<Props> = ({ onOpen }) => {
-  const strokeColor = "white";
-  const strokeSize = "2px";
   return (
     <Vertical className={cardStyle} onClick={onOpen}>
       <img
@@ -35,18 +35,7 @@ export const MikebotMinimizedView: React.FC<Props> = ({ onOpen }) => {
         height={60}
         src="/images/me.jpg"
       />
-      <PiChatCircleTextDuotone
-        style={{
-          position: "absolute",
-          top: "0px",
-          left: "-20px",
-          zIndex: 1,
-          fontSize: "2em",
-          color: "black",
-          transform: "scale(-1, 1)",
-          filter: `drop-shadow(${strokeSize} 0 0 ${strokeColor}) drop-shadow(0 ${strokeSize} 0 ${strokeColor}) drop-shadow(-${strokeSize} 0 0 ${strokeColor}) drop-shadow(0 -${strokeSize} 0 ${strokeColor})`,
-        }}
-      />
+      <AvatarSpeechBubble />
     </Vertical>
   );
 };

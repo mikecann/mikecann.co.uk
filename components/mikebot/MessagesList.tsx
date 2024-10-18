@@ -9,6 +9,7 @@ import { style } from "typestyle";
 interface Props {
   threadId: Id<"threads">;
   userId: Id<"users">;
+  isMaximized: boolean;
 }
 
 const listStyles = style({
@@ -43,7 +44,7 @@ const listStyles = style({
   },
 });
 
-export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
+export const MessagesList: React.FC<Props> = ({ threadId, userId, isMaximized }) => {
   const messages = useQuery(api.messages.listMessagesForUserThread, {
     threadId,
     userId,
@@ -56,6 +57,8 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+
+  React.useEffect(() => scrollToBottom(), [isMaximized]);
 
   React.useEffect(() => {
     if (messages && isFirstLoad) {
