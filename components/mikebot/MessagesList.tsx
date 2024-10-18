@@ -12,7 +12,7 @@ interface Props {
 }
 
 const listStyles = style({
-  maxHeight: "300px",
+  height: "100%",
   overflowY: "auto",
   overflowX: "hidden",
   scrollbarWidth: "thin",
@@ -51,14 +51,25 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId }) => {
 
   const messagesEndRef = React.useRef<HTMLDivElement>(null);
   const scrollContainerRef = React.useRef<HTMLDivElement>(null);
+  const [isFirstLoad, setIsFirstLoad] = React.useState(true);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   React.useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
+    if (messages && isFirstLoad) {
+      scrollToBottom();
+      setIsFirstLoad(false);
+    } else if (messages && !isFirstLoad) {
+      const scrollContainer = scrollContainerRef.current;
+      if (scrollContainer) {
+        const isScrolledToBottom =
+          scrollContainer.scrollHeight - scrollContainer.scrollTop === scrollContainer.clientHeight;
+        if (isScrolledToBottom) scrollToBottom();
+      }
+    }
+  }, [messages, isFirstLoad]);
 
   return (
     <Vertical
