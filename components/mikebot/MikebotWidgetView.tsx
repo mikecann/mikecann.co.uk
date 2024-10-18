@@ -29,7 +29,7 @@ const windowStyle = style({
   flexDirection: "column",
   border: "1px solid #b9b8b8",
   borderRadius: "6px",
-  background: "rgba(255,255,255,0.8)",
+  background: "rgba(255,255,255,1)",
   boxShadow: "0 5px 10px 0px rgba(0, 0, 0, 0.3)",
   backdropFilter: "blur(8px)",
   position: "fixed",
