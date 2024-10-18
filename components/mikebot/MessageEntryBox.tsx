@@ -40,6 +40,7 @@ export const MessageEntryBox: React.FC<Props> = ({ userId, threadId }) => {
       message,
       userId,
       threadId,
+      currentUrl: window.location.href,
     }).catch(console.error);
     setMessage("");
   };

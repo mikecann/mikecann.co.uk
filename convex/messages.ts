@@ -23,6 +23,7 @@ export const sendMessageToThreadFromUser = mutationWithUser({
   args: {
     message: v.string(),
     threadId: v.id("threads"),
+    currentUrl: v.string(),
   },
   handler: async (ctx, args) => {
     if (args.message.length === 0) return;
@@ -58,6 +59,7 @@ export const sendMessageToThreadFromUser = mutationWithUser({
         assistantMessageId: itemChatMessageId,
         threadId: thread._id,
         userId: ctx.user._id,
+        currentUrl: args.currentUrl,
       }
     );
 

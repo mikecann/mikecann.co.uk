@@ -17,6 +17,7 @@ export const addUserMessageAndRequestAnswer = internalAction({
     userId: v.id("users"),
     assistantMessageId: v.id("messages"),
     threadId: v.id("threads"),
+    currentUrl: v.string(),
   },
   handler: async (ctx, args) => {
     // Initialize OpenAI client
@@ -90,6 +91,7 @@ export const addUserMessageAndRequestAnswer = internalAction({
       openai.beta.threads.runs
         .stream(ensure(thread.openAIThreadId, "Missing thread.openAIThreadId"), {
           assistant_id: assistantId,
+          additional_instructions: `\n\nThe user is currently on the url: ${args.currentUrl}. This may or may not be a post. You should lookup the contents of this using you file search ability if the user asks about it for example if they ask you to summarize it. If there are no results from the file search, respond by giving the url and saying you couldn't find any information about it.`,
         })
         .on("textCreated", (text) => console.log("textCreated", text))
         .on("textDelta", async (textDelta, snapshot) => {

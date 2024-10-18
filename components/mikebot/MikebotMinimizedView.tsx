@@ -1,12 +1,9 @@
 import { Grid, Vertical } from "gls/lib";
 import * as React from "react";
-import { format } from "date-fns";
 import { style } from "typestyle";
-import Link from "next/link";
-import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { floatAnimation } from "../animations";
-import { PiChatCircleTextDuotone } from "react-icons/pi";
 import { AvatarSpeechBubble } from "./AvatarSpeechBubble";
+import { useScrollYWithDelta } from "../../utils/useScrollYWithDelta";
 
 interface Props {
   onOpen: () => void;
@@ -23,8 +20,20 @@ const cardStyle = style({
 });
 
 export const MikebotMinimizedView: React.FC<Props> = ({ onOpen }) => {
+  const [scrollY, scrollDelta] = useScrollYWithDelta();
+  const isPostsPage = window.location.pathname.includes("/posts");
+  const shouldShow = isPostsPage ? scrollY == 0 || scrollDelta < 0 : true;
+
   return (
-    <Vertical className={cardStyle} onClick={onOpen}>
+    <Vertical
+      className={cardStyle}
+      onClick={onOpen}
+      style={{
+        opacity: shouldShow ? 1 : 0,
+        transition: "all 0.3s linear",
+        pointerEvents: shouldShow ? undefined : "none",
+      }}
+    >
       <img
         alt={`profile picture of me mike cann`}
         style={{

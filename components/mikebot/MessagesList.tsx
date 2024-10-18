@@ -53,6 +53,7 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId, isMaximized })
   const messagesEndRef = React.useRef<HTMLDivElement>(null);
   const scrollContainerRef = React.useRef<HTMLDivElement>(null);
   const [isFirstLoad, setIsFirstLoad] = React.useState(true);
+  const [shouldScrollToBottom, setShouldScrollToBottom] = React.useState(true);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -61,18 +62,31 @@ export const MessagesList: React.FC<Props> = ({ threadId, userId, isMaximized })
   React.useEffect(() => scrollToBottom(), [isMaximized]);
 
   React.useEffect(() => {
-    if (messages && isFirstLoad) {
+    const scrollContainer = scrollContainerRef.current;
+    if (!scrollContainer) return;
+
+    const handleScroll = () => {
+      const isScrolledToBottom =
+        Math.abs(
+          scrollContainer.scrollHeight - scrollContainer.scrollTop - scrollContainer.clientHeight
+        ) < 1;
+      setShouldScrollToBottom(isScrolledToBottom);
+    };
+
+    scrollContainer.addEventListener("scroll", handleScroll);
+    return () => scrollContainer.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  React.useEffect(() => {
+    if (!messages) return;
+
+    if (isFirstLoad) {
       scrollToBottom();
       setIsFirstLoad(false);
-    } else if (messages && !isFirstLoad) {
-      const scrollContainer = scrollContainerRef.current;
-      if (scrollContainer) {
-        const isScrolledToBottom =
-          scrollContainer.scrollHeight - scrollContainer.scrollTop === scrollContainer.clientHeight;
-        if (isScrolledToBottom) scrollToBottom();
-      }
+    } else if (shouldScrollToBottom) {
+      scrollToBottom();
     }
-  }, [messages, isFirstLoad]);
+  }, [messages, isFirstLoad, shouldScrollToBottom]);
 
   return (
     <Vertical
