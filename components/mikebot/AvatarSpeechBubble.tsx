@@ -17,7 +17,7 @@ export const AvatarSpeechBubble: React.FC<Props> = ({
   strokeSize = "2px",
   top = "0px",
   left = "-20px",
-  floatAnimSize
+  floatAnimSize,
 }) => {
   return (
     <div style={{ transform: "scale(-1, 1)", position: "absolute", top, left }}>
@@ -25,7 +25,7 @@ export const AvatarSpeechBubble: React.FC<Props> = ({
         style={{
           zIndex: 1,
           fontSize: "2em",
-          color: "black",
+          color: "#6d6de4",
           filter: `drop-shadow(${strokeSize} 0 0 ${strokeColor}) drop-shadow(0 ${strokeSize} 0 ${strokeColor}) drop-shadow(-${strokeSize} 0 0 ${strokeColor}) drop-shadow(0 -${strokeSize} 0 ${strokeColor})`,
           animation: `${floatAnimation(floatAnimSize)} 5s 1s ease-in-out infinite`,
           ...style,
