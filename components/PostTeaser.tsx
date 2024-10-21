@@ -58,7 +58,10 @@ export const PostTeaser: React.FC<Props> = ({ post }) => {
           width={320}
           height={180}
           quality={80}
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <Vertical>
           <Vertical
             spacing={5}

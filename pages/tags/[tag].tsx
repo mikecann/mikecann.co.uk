@@ -24,7 +24,7 @@ const Page = ({ tag, posts }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
       <Head>
-        <title key="title">{tag} - mikecann.co.uk</title>
+        <title key="title">{`${tag} - mikecann.co.uk`}</title>
       </Head>
 
       <Vertical width="100%">
