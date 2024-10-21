@@ -73,7 +73,7 @@ export const sendThreadUpdatedNotification = internalAction({
       ${messageHtml}
     `;
 
-    console.log("sending email..", html);
+    console.log("sending email...", html);
 
     await resend.emails.send({
       from: "admin@mikecann.co.uk",
