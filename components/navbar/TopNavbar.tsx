@@ -2,20 +2,32 @@ import Link from "next/link";
 import * as React from "react";
 import { FaHome, FaSearch } from "react-icons/fa";
 import { IconButton } from "../IconButton";
-import { useScrollYPosition } from "react-use-scroll-position";
-import { useScrollYWithDelta } from "../../utils/useScrollYWithDelta";
 import { SearchModal } from "../searchModal/SearchModal";
-import { useState } from "react";
 import { Horizontal } from "../utils/gls";
 import { StretchSpacer } from "gls";
 
 interface Props {}
 
-export const TopNavbar: React.FC<Props> = ({}) => {
-  const [scrollY, scrollDelta] = useScrollYWithDelta();
-  const [searchVisible, setSearchVisible] = useState(false);
+export const TopNavbar: React.FC<Props> = () => {
+  const [shouldShow, setShouldShow] = React.useState(true);
+  const [searchVisible, setSearchVisible] = React.useState(false);
+  const lastScrollY = React.useRef(0);
 
-  const shouldShow = scrollY == 0 || scrollDelta < 0;
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY
+      const isAtTop = currentScrollY === 0
+      const isScrollingUp = currentScrollY < lastScrollY.current
+
+      setShouldShow(isAtTop || isScrollingUp)
+      lastScrollY.current = currentScrollY
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    handleScroll() // Initial check
+
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   return (
     <>
@@ -34,7 +46,7 @@ export const TopNavbar: React.FC<Props> = ({}) => {
           boxShadow: "0px 4px 10px rgba(0,0,0,0.2)",
           opacity: shouldShow ? 1 : 0,
           transition: "all 0.3s linear",
-          pointerEvents: shouldShow ? undefined : "none",
+          pointerEvents: shouldShow ? "auto" : "none",
         }}
       >
         <Link href="/">
