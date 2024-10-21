@@ -22,7 +22,18 @@ const cardStyle = style({
 export const MikebotMinimizedView: React.FC<Props> = ({ onOpen }) => {
   const [scrollY, scrollDelta] = useScrollYWithDelta();
   const isPostsPage = window.location.pathname.includes("/posts");
-  const shouldShow = isPostsPage ? scrollY == 0 || scrollDelta < 0 : true;
+  
+  const isNearBottom = React.useMemo(() => {
+    if (typeof window === "undefined") return false;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollPosition = window.scrollY + windowHeight;
+    return documentHeight - scrollPosition <= 500;
+  }, [scrollY]);
+
+  const shouldShow = isPostsPage
+    ? scrollY === 0 || scrollDelta < 0 || isNearBottom
+    : true;
 
   return (
     <Vertical

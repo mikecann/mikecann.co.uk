@@ -7,6 +7,7 @@ import { Signal } from "../../essentials/Signal";
 import { Annotation } from "../schema";
 import { findKnownPageIdFromFileId } from "./files";
 import { wait } from "../../essentials/misc/misc";
+import { updateThreadTokensUsed } from "../threads";
 
 // Cache for file-id to file-name mappings
 const fileIdToNameCache = new Map<string, string>();
@@ -102,8 +103,20 @@ export const addUserMessageAndRequestAnswer = internalAction({
         .on("toolCallDelta", (toolCallDelta, snapshot) => {
           console.log("toolCallDelta", toolCallDelta);
         })
+        .on("textDone", async (snapshot, x) => {
+          console.log("textDone", snapshot);
+          await updateMessage(snapshot);
+        })
+        .on("runStepDone", async (runStepDone) => {
+          console.log("runStepDone", runStepDone);
+          await ctx.runMutation(internal.threads.updateThreadTokensUsed, {
+            threadId: thread._id,
+            completionTokensUsed: runStepDone.usage?.completion_tokens ?? 0,
+            promptTokensUsed: runStepDone.usage?.prompt_tokens ?? 0,
+            totalTokensUsed: runStepDone.usage?.total_tokens ?? 0,
+          });
+        })
         .on("end", async () => {
-          console.log("end");
           await wait(500);
           await ctx.runMutation(internal.messages.updateMessageStatus, {
             messageId: args.assistantMessageId,

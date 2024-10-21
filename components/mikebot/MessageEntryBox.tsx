@@ -53,6 +53,11 @@ export const MessageEntryBox: React.FC<Props> = ({ userId, threadId }) => {
 
   const canSubmit = !!userId && !!threadId && !!message;
 
+  // Add this new useEffect hook
+  React.useEffect(() => {
+    if (textareaRef.current) textareaRef.current.focus();
+  }, []);
+
   return (
     <Horizontal padding="3px" spacing={"5px"}>
       <Stretch verticalAlign="center">

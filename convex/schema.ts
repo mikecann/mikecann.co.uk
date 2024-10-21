@@ -43,22 +43,28 @@ export const messageStatusSchema = v.union(
   v.object({ kind: v.literal("finished") })
 );
 
+export const threadSchema = v.object({
+  owningUserId: v.id("users"),
+  openAIThreadId: v.optional(v.string()),
+  completionTokensUsed: v.number(),
+  promptTokensUsed: v.number(),
+  totalTokensUsed: v.number(),
+  threadUpdatedNoticationFunctionId: v.optional(v.id("_scheduled_functions")),
+});
+
+export const messageSchema = v.object({
+  speaker: v.union(v.literal("assistant"), v.literal("user")),
+  threadId: v.id("threads"),
+  openAIMessageId: v.optional(v.string()),
+  text: v.string(),
+  annotations: v.optional(v.array(annotationSchema)),
+  status: messageStatusSchema,
+});
+
 export default defineSchema({
   users: defineTable({
     kind: v.literal("anonymous"),
   }),
-
-  messages: defineTable({
-    speaker: v.union(v.literal("assistant"), v.literal("user")),
-    threadId: v.id("threads"),
-    openAIMessageId: v.optional(v.string()),
-    text: v.string(),
-    annotations: v.optional(v.array(annotationSchema)),
-    status: messageStatusSchema,
-  }).index("by_threadId", ["threadId"]),
-
-  threads: defineTable({
-    owningUserId: v.id("users"),
-    openAIThreadId: v.optional(v.string()),
-  }).index("by_owningUserId", ["owningUserId"]),
+  messages: defineTable(messageSchema).index("by_threadId", ["threadId"]),
+  threads: defineTable(threadSchema).index("by_owningUserId", ["owningUserId"]),
 });
