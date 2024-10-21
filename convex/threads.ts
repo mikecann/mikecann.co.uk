@@ -4,8 +4,6 @@ import { ensureFP } from "../essentials/misc/ensure";
 import { hoursInMs } from "../essentials/misc/time";
 import { internal } from "./_generated/api";
 
-
-
 export const findThreadForUser = query({
   args: {
     threadId: v.id("threads"),
@@ -96,7 +94,7 @@ export const scheduleThreadUpdatedNotification = internalMutation({
 
     await ctx.db.patch(args.threadId, {
       threadUpdatedNoticationFunctionId: await ctx.scheduler.runAfter(
-        hoursInMs(24),
+        hoursInMs(3),
         internal.resend.resend.sendThreadUpdatedNotification,
         { threadId: args.threadId }
       ),
