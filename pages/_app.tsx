@@ -12,7 +12,7 @@ import { GLSDefaults } from "gls";
 
 const MikebotDynamic = dynamic(() => import("../components/mikebot/Mikebot"), { ssr: false });
 
-if (typeof window !== "undefined") {
+if (typeof window !== "undefined" && process.env.NEXT_PUBLIC_POSTHOG_KEY) {
   // checks that we are client-side
   posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY ?? "", {
     api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",

@@ -30,7 +30,7 @@ const Page = ({ tags }: Props) => {
         <Head>
           <title key="title">stash - mikecann.co.uk</title>
         </Head>
-        <Vertical className="stash-page" style={{ marginBottom: 20 }}>
+        <Vertical className="stash-page" style={{ marginBottom: 20, overflowX: "hidden" }}>
           <img src="/images/stashit-logo.png" width="200px" style={{}} />
           <h1 style={{ margin: "0px" }}>My Stash</h1>
           <p>
