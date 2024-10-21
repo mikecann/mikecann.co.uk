@@ -23,7 +23,7 @@ const NotFoundPage = ({}: Props) => {
   React.useEffect(() => {
     if (!term) return;
     setLoading(true);
-    console.log(`Searching for '${term}'`);
+    console.log(`Searching for '${term}'..`);
     getAlgoliaIndex()
       .search(term)
       .then((resp) => {
