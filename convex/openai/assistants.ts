@@ -96,7 +96,7 @@ export const addUserMessageAndRequestAnswer = internalAction({
         })
         .on("textCreated", (text) => console.log("textCreated", text))
         .on("textDelta", async (textDelta, snapshot) => {
-          console.log("textDelta", textDelta, snapshot);
+          //console.log("textDelta", textDelta, snapshot);
           await updateMessage(snapshot);
         })
         .on("toolCallCreated", (toolCall) => console.log("toolCallCrated", toolCall))
