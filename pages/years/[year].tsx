@@ -1,4 +1,4 @@
-import { Grid, Vertical } from "gls/lib";
+import { Grid, Vertical } from "../../components/utils/gls";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { PostTeaser } from "../../components/PostTeaser";
 import { ensure } from "../../utils/ensure";

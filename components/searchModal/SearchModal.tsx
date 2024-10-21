@@ -1,4 +1,4 @@
-import { Horizontal, Vertical } from "gls/lib";
+import { Horizontal, Vertical } from "../../components/utils/gls";
 import * as React from "react";
 import { Modal } from "../Modal";
 import { useWindowSize } from "../../utils/useWindowSize";

@@ -1,8 +1,9 @@
-import { Box, Grid, Horizontal, HorizontalSpacer, Stretch, Vertical } from "gls/lib";
+import { Grid, Horizontal, Vertical } from "../../components/utils/gls";
 import * as React from "react";
 import { Doc } from "../../convex/_generated/dataModel";
 import { MessageContent } from "./MessageContent";
 import { bouncy } from "ldrs";
+import { HorizontalSpacer } from "gls";
 
 interface Props {
   message: Doc<"messages">;

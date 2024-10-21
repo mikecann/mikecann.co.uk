@@ -1,9 +1,9 @@
-import { Grid, Vertical } from "gls/lib";
 import * as React from "react";
 import { format } from "date-fns";
 import { style } from "typestyle";
 import Link from "next/link";
 import { Post } from "../scripts/posts";
+import { Vertical } from "./utils/gls";
 
 interface Props {
   title: string;

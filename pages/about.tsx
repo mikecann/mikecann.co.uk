@@ -3,9 +3,9 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { join } from "path";
 import fs from "fs";
-import { Vertical } from "gls/lib";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
 import Head from "next/head";
+import { Vertical } from "../components/utils/gls";
 
 type Props = {
   content: string;

@@ -1,7 +1,8 @@
-import { Horizontal, Vertical } from "gls/lib";
+import { VerticalProps } from "gls";
 import * as React from "react";
+import { Horizontal, Vertical } from "./utils/gls";
 
-interface Props extends React.ComponentProps<typeof Vertical> {
+interface Props extends VerticalProps {
   onClose?: () => any;
 }
 

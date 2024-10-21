@@ -1,4 +1,4 @@
-import { Horizontal, Vertical } from "gls/lib";
+import { Horizontal, Vertical } from "../../components/utils/gls";
 import * as React from "react";
 import { format } from "date-fns";
 import Link from "next/link";

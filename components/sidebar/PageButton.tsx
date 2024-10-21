@@ -1,4 +1,4 @@
-import { Horizontal } from "gls/lib";
+import { Horizontal } from "../../components/utils/gls";
 import Link from "next/link";
 import * as React from "react";
 import { style } from "typestyle";

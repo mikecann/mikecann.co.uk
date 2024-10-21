@@ -1,4 +1,4 @@
-import { Grid, Horizontal, Vertical } from "gls/lib";
+import { Grid, Horizontal, Vertical } from "../../components/utils/gls";
 import { PostTeaser } from "../PostTeaser";
 import { ResponsiveSidebarLayouts } from "../layout/ResponsiveSidebarLayouts";
 import Head from "next/head";

@@ -1,4 +1,3 @@
-import { Vertical } from "gls/lib";
 import { GetStaticProps } from "next";
 import { groupPostsByYear, PostsByYear, sortPosts } from "../utils/posts";
 import { ArchiveYears } from "../components/ArchiveYears";
@@ -6,6 +5,7 @@ import React from "react";
 import { PostsGrid } from "../components/PostsGrid";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
 import { getAllPostsWithoutContent } from "../scripts/posts";
+import { Vertical } from "../components/utils/gls";
 
 type Props = {
   postsByYear: PostsByYear;

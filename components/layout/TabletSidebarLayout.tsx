@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Horizontal, Vertical } from "gls/lib";
+import { Horizontal, Vertical } from "../../components/utils/gls";
 import Layout from "./Layout";
 import { MobileSidebar } from "../sidebar/MobileSidebar";
 import { TabletSidebar } from "../sidebar/TabletSidebar";

@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Grid, Vertical } from "gls/lib";
 import { PostTeaser } from "./PostTeaser";
 import { PostsByYear } from "../utils/posts";
+import { Grid, Vertical } from "./utils/gls";
 
 interface Props {
   postsByYear: PostsByYear;

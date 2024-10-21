@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Grid, Vertical, VerticalSpacer } from "gls/lib";
 import { PageButton } from "./PageButton";
 import { FaHome, FaTags, FaRssSquare } from "react-icons/fa";
 import { HiArchive } from "react-icons/hi";
@@ -13,6 +12,8 @@ import { PiTreasureChestDuotone } from "react-icons/pi";
 import { onOpenMikebot } from "../mikebot/signals";
 import { floatAnimation } from "../animations";
 import { AvatarSpeechBubble } from "../mikebot/AvatarSpeechBubble";
+import { Grid, Vertical } from "../utils/gls";
+import { VerticalSpacer } from "gls";
 
 interface Props {}
 

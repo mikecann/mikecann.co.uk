@@ -1,4 +1,4 @@
-import { Grid, Vertical } from "gls/lib";
+import { Grid, Vertical } from "../../components/utils/gls";
 import * as React from "react";
 import { style } from "typestyle";
 import { floatAnimation } from "../animations";
@@ -22,7 +22,7 @@ const cardStyle = style({
 export const MikebotMinimizedView: React.FC<Props> = ({ onOpen }) => {
   const [scrollY, scrollDelta] = useScrollYWithDelta();
   const isPostsPage = window.location.pathname.includes("/posts");
-  
+
   const isNearBottom = React.useMemo(() => {
     if (typeof window === "undefined") return false;
     const windowHeight = window.innerHeight;
@@ -31,9 +31,7 @@ export const MikebotMinimizedView: React.FC<Props> = ({ onOpen }) => {
     return documentHeight - scrollPosition <= 500;
   }, [scrollY]);
 
-  const shouldShow = isPostsPage
-    ? scrollY === 0 || scrollDelta < 0 || isNearBottom
-    : true;
+  const shouldShow = isPostsPage ? scrollY === 0 || scrollDelta < 0 || isNearBottom : true;
 
   return (
     <Vertical

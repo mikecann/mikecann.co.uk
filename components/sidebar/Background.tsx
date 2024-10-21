@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Vertical } from "gls/lib";
+import { Vertical } from "../../components/utils/gls";
 
 interface Props extends React.ComponentProps<typeof Vertical> {}
 

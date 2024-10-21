@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from "next";
 import { ensure } from "../../utils/ensure";
 import Image from "next/image";
-import { Horizontal, Vertical } from "gls/lib";
+import { Horizontal, Vertical } from "../../components/utils/gls";
 import { format } from "date-fns";
 import { getPostRootCoverImagePath, getRelativePathForPost } from "../../utils/posts";
 import { TopNavbar } from "../../components/navbar/TopNavbar";

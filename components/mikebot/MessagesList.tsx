@@ -1,4 +1,4 @@
-import { Vertical } from "gls/lib";
+import { Vertical } from "../../components/utils/gls";
 import * as React from "react";
 import { Id } from "../../convex/_generated/dataModel";
 import { useQuery } from "convex/react";

@@ -1,4 +1,4 @@
-import { Grid, Vertical, Horizontal, Stretch } from "gls/lib";
+import { Grid, Vertical, Horizontal, Stretch } from "../../components/utils/gls";
 import * as React from "react";
 import { format } from "date-fns";
 import Link from "next/link";

@@ -6,17 +6,17 @@
     "node": "20"
   },
   "scripts": {
-    "dev": "concurrently --names \"next,convex\" --prefix-colors \"cyan,magenta\" \"yarn dev:next\" \"yarn dev:convex\"",
+    "dev": "concurrently --names \"next,convex\" --prefix-colors \"cyan,magenta\" \"bun run dev:next\" \"bun run dev:convex\"",
     "dev:next": "next dev",
     "dev:convex": "convex dev",
-    "build": "yarn populateAlgolia && yarn generateRSS && yarn uploadsPostsToOpenAIStorage && yarn convex deploy --check-build-environment=disable && next build",
+    "build": "bun run populateAlgolia && bun run generateRSS && bun run uploadsPostsToOpenAIStorage && bun run convex deploy --check-build-environment=disable && next build",
     "start": "next start",
     "dev:ts": "tsc --noEmit -w",
-    "generateRSS": "yarn script ./scripts/generateRSS.ts",
-    "uploadsPostsToOpenAIStorage": "yarn script ./scripts/openai/uploadPostsToStorage.ts",
+    "generateRSS": "bun run script ./scripts/generateRSS.ts",
+    "uploadsPostsToOpenAIStorage": "bun run script ./scripts/openai/uploadPostsToStorage.ts",
     "script": "ts-node --files --project ./scripts/tsconfig.json",
-    "populateAlgolia": "yarn script ./scripts/populateAlgolia.ts",
-    "checkLinks": "yarn blc http://localhost:3000 -ro --exclude https://www.linkedin.com/in/mikecann",
+    "populateAlgolia": "bun run script ./scripts/populateAlgolia.ts",
+    "checkLinks": "bun run blc http://localhost:3000 -ro --exclude https://www.linkedin.com/in/mikecann",
     "compress:all:lossless": "optimizt --lossless ./public",
     "compress:one:lossless": "optimizt --lossless ./public/posts/battletabs-enters-soft-launch",
     "compress:one:webp": "optimizt --webp ./public/posts/introducing-stashit"
@@ -77,6 +77,6 @@
     "puppeteer": "^19.11.1",
     "showdown": "^2.1.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.6.3"
   }
 }

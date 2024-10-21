@@ -1,10 +1,11 @@
-import { Grid, Horizontal } from "gls/lib";
 import * as React from "react";
 import Link from "next/link";
 import { style } from "typestyle";
 import { randomNiceColor } from "./utils/colors";
+import { HorizontalProps } from "gls";
+import { Horizontal } from "./utils/gls";
 
-interface Props extends React.ComponentProps<typeof Horizontal> {
+interface Props extends HorizontalProps {
   tags: string[];
   style?: React.CSSProperties;
 }

@@ -1,5 +1,5 @@
 "use client";
-import { Box, Grid, Horizontal, Stretch, StretchSpacer, Vertical } from "gls/lib";
+import { Grid, Horizontal } from "../../components/utils/gls";
 import * as React from "react";
 import { style } from "typestyle";
 import { MessageRow } from "./MessageRow";

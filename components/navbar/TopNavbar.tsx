@@ -1,4 +1,3 @@
-import { Horizontal, StretchSpacer } from "gls/lib";
 import Link from "next/link";
 import * as React from "react";
 import { FaHome, FaSearch } from "react-icons/fa";
@@ -7,6 +6,8 @@ import { useScrollYPosition } from "react-use-scroll-position";
 import { useScrollYWithDelta } from "../../utils/useScrollYWithDelta";
 import { SearchModal } from "../searchModal/SearchModal";
 import { useState } from "react";
+import { Horizontal } from "../utils/gls";
+import { StretchSpacer } from "gls";
 
 interface Props {}
 
@@ -37,9 +38,9 @@ export const TopNavbar: React.FC<Props> = ({}) => {
         }}
       >
         <Link href="/">
-            <IconButton>
-              <FaHome />
-            </IconButton>
+          <IconButton>
+            <FaHome />
+          </IconButton>
         </Link>
 
         <StretchSpacer />

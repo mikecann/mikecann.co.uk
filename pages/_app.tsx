@@ -1,4 +1,3 @@
-import { GLSDefaults } from "gls/lib";
 import { AppProps } from "next/app";
 import "../styles/normalize.css";
 import "../styles/globals.css";
@@ -9,6 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { PostHogProvider } from "posthog-js/react";
 import posthog from "posthog-js";
 import dynamic from "next/dynamic";
+import { GLSDefaults } from "gls";
 
 const MikebotDynamic = dynamic(() => import("../components/mikebot/Mikebot"), { ssr: false });
 

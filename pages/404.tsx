@@ -1,4 +1,3 @@
-import { Vertical, Grid } from "gls/lib";
 import { ResponsiveSidebarLayouts } from "../components/layout/ResponsiveSidebarLayouts";
 import * as React from "react";
 import { getAlgoliaIndex } from "../utils/algolia";
@@ -6,6 +5,7 @@ import { SearchResult } from "../components/searchModal/SearchResult";
 import { SearchModal } from "../components/searchModal/SearchModal";
 import Head from "next/head";
 import { AlgoliaHit } from "../scripts/algolia/types";
+import { Vertical } from "../components/utils/gls";
 
 type Props = {};
 

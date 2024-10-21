@@ -1,9 +1,10 @@
-import { Horizontal, HorizontalProps } from "gls/lib";
 import * as React from "react";
 import { style } from "typestyle";
 import { RiCloseCircleFill } from "react-icons/ri";
+import { HorizontalProps } from "gls";
+import { Horizontal } from "./utils/gls";
 
-interface Props extends React.ComponentProps<typeof Horizontal> {}
+interface Props extends HorizontalProps {}
 
 const styles = style({
   color: "#666",

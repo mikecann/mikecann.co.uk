@@ -1,4 +1,4 @@
-import { Grid, Vertical } from "gls/lib";
+import { Grid, Vertical } from "../../components/utils/gls";
 import { GetStaticProps } from "next";
 import { groupPostsByTag, calculateTagsLastUse } from "../../utils/posts";
 import Link from "next/link";

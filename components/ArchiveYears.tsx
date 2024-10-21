@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Grid, Horizontal } from "gls/lib";
 import Link from "next/link";
+import { Grid, Horizontal } from "./utils/gls";
 
 interface Props {
   years: string[];
