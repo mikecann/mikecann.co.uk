@@ -9,7 +9,7 @@
     "dev": "concurrently --names \"next,convex\" --prefix-colors \"cyan,magenta\" \"yarn dev:next\" \"yarn dev:convex\"",
     "dev:next": "next dev",
     "dev:convex": "convex dev",
-    "build": "yarn populateAlgolia && yarn generateRSS && yarn uploadsPostsToOpenAIStorage && next build && yarn convex deploy",
+    "build": "yarn populateAlgolia && yarn generateRSS && yarn uploadsPostsToOpenAIStorage && yarn convex deploy && next build",
     "start": "next start",
     "dev:ts": "tsc --noEmit -w",
     "generateRSS": "yarn script ./scripts/generateRSS.ts",
