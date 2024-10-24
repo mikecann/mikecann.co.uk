@@ -32,6 +32,6 @@ This line was the only line that differed in the index to the category page, whi
 
 So I took out the "Transitional" and low and behold it worked!
 
-[![ScreenHunter_02 Dec. 10 19.41](https://www.mikecann.co.uk/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-10-19.41-1024x484.jpg "ScreenHunter_02 Dec. 10 19.41")](/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-10-19.41.jpg)
+[![ScreenHunter_02 Dec. 10 19.41](https://www.mikecann.blog/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-10-19.41-1024x484.jpg "ScreenHunter_02 Dec. 10 19.41")](/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-10-19.41.jpg)
 
 No idea what Transitional does, but I hope this helps someone else out in the future!

@@ -28,7 +28,7 @@ For this reason I almost always have headphones in my ears. I have tried many di
 
 ## Regular Old Headphones
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/Apple_EarPods_35446297_03.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/Apple_EarPods_35446297_03.jpg)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/10/Apple_EarPods_35446297_03.jpg)](https://www.mikecann.blog/wp-content/uploads/2017/10/Apple_EarPods_35446297_03.jpg)
 
 These have been my go-tos for many years. I rock an iphone so mine are apple ear pods. This work just fine and sound great not that thats really important for audio books while you are trying to sleep however.
 
@@ -41,7 +41,7 @@ Another problem with these headphones is that they are wired, which means that y
 
 ## SleepPhones Headband
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/sleepphones-headphones-headband-2.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/sleepphones-headphones-headband-2.jpg)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/10/sleepphones-headphones-headband-2.jpg)](https://www.mikecann.blog/wp-content/uploads/2017/10/sleepphones-headphones-headband-2.jpg)
 
 The first alternative I tried was the [SleepPhones](https://www.sleepphones.com/shopify-collections/sleepphones) headband. These look like they promise solutions to many of the problems listed above.
 
@@ -58,7 +58,7 @@ The biggest problem with them however is that I live in Australia and it can get
 
 ## BedPhones
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/Bedphones-31u8vwkkxjzale44ympn9m.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/Bedphones-31u8vwkkxjzale44ympn9m.jpg)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/10/Bedphones-31u8vwkkxjzale44ympn9m.jpg)](https://www.mikecann.blog/wp-content/uploads/2017/10/Bedphones-31u8vwkkxjzale44ympn9m.jpg)
 
 The next ones I tried were [dubslabs bedphones](https://www.dubslabs.com/). These are over-ear headphones means that they dont sit directly in your ear and instead sit on the ear. This means that you dont suffer from the same sort of inner-ear pain as you do with the air pods.
 
@@ -71,7 +71,7 @@ The biggest problem is the over-ear wire they use to hold them in place was so f
 
 ## Panasonic RP-HS46
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/s-l300.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/s-l300.jpg)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/10/s-l300.jpg)](https://www.mikecann.blog/wp-content/uploads/2017/10/s-l300.jpg)
 
 I bought these guys only a month or so ago and have been rather impressed with them considering the very low (\$12.59 AUD) price tag.
 
@@ -91,7 +91,7 @@ They are also still wired so although it hasn't happened yet I can imagine that 
 
 ## [NOT TRIED] BedPhones Wireless
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/bpw-man-laying-down-web-smallest-1024x683.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/bpw-man-laying-down-web-smallest.jpg)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/10/bpw-man-laying-down-web-smallest-1024x683.jpg)](https://www.mikecann.blog/wp-content/uploads/2017/10/bpw-man-laying-down-web-smallest.jpg)
 
 These are the second set of headphones from [dubslabs](https://www.dubslabs.com/products/bedphones-wireless-the-worlds-smallest-on-ear-headphones.html) in this post and look so interesting I have a pair on them on preorder.
 
@@ -106,7 +106,7 @@ At \$100 USD these really are rather expensive as an experiment but I spend 8 ho
 
 ## [NOT TRIED] Ear Hero
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/10/122830902_1280x720-1024x576.jpg)](https://www.mikecann.co.uk/wp-content/uploads/2017/10/122830902_1280x720.jpg)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/10/122830902_1280x720-1024x576.jpg)](https://www.mikecann.blog/wp-content/uploads/2017/10/122830902_1280x720.jpg)
 
 I haven't tried these from [Ear Hero](https://earhero.com/store/) yet but they certainty look very interesting. They are very low-profile headphones that are designed for police and other security professionals so they can hear whats going on around them at the same time as listening to the earpiece.
 

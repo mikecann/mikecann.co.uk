@@ -19,13 +19,13 @@ This site now uses [NextJS](https://nextjs.org/) hosted on [Vercel](https://verc
 
 # History
 
-This blog started [way back in feb 2003](https://mikecann.co.uk/posts/snakez-2003) with some simple flash experiments. Back then it was itself a flash site (they all were at the time!). Over the years however it went through many iterations. 
+This blog started [way back in feb 2003](https://mikecann.blog/posts/snakez-2003) with some simple flash experiments. Back then it was itself a flash site (they all were at the time!). Over the years however it went through many iterations. 
 
-Some time in 2006 it became a Wordpress site, which it stayed for quite some time. I never was happy with the performance on Wordpress however so [in 2017](https://mikecann.co.uk/posts/the-static-blog) I decided to move the blog to Hexo a static site generator. This allowed the site to be super fast because all the posts and pages were pre-rendered as simple HTML pages during build time then served from the AWS CDN close to the user.
+Some time in 2006 it became a Wordpress site, which it stayed for quite some time. I never was happy with the performance on Wordpress however so [in 2017](https://mikecann.blog/posts/the-static-blog) I decided to move the blog to Hexo a static site generator. This allowed the site to be super fast because all the posts and pages were pre-rendered as simple HTML pages during build time then served from the AWS CDN close to the user.
 
 Although I was happy with the performance I wasn't happy with the development process with Hexo, it felt very messy and archaic using bower for dependency management. It also took ages to build the blog which by that point has amassed 14 years of posts.
 
-So [in 2019](https://mikecann.co.uk/posts/migrating-from-hexo-to-gatsby) I moved from Hexo to the popular Gatsby static site generator. This was definitely more modern and was highly configurable however I personally am not a fan of using GraphQL for accessing assets locally, it all just felt very complicated. It also took a long time to build everything.
+So [in 2019](https://mikecann.blog/posts/migrating-from-hexo-to-gatsby) I moved from Hexo to the popular Gatsby static site generator. This was definitely more modern and was highly configurable however I personally am not a fan of using GraphQL for accessing assets locally, it all just felt very complicated. It also took a long time to build everything.
 
 # Now
 

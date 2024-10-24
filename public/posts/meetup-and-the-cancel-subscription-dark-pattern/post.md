@@ -8,7 +8,7 @@ title: Meetup.com and the Cancel Subscription Dark Pattern
 openAIMikesBlogFileId: file-H4j3CXdqtZGaJcymN77vx7Iv
 ---
 
-Due to my current focus on transitioning [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) to mobile, my time for other activities is quite limited. However, I feel compelled to discuss a concerning practice I recently encountered on Meetup.com, known as a dark pattern.
+Due to my current focus on transitioning [BattleTabs](https://mikecann.blog/posts/battletabs-in-7-minutes) to mobile, my time for other activities is quite limited. However, I feel compelled to discuss a concerning practice I recently encountered on Meetup.com, known as a dark pattern.
 
 As a longtime user, I've tolerated Meetup.com's mediocre app experience because it was a key resource for discovering tech-related meetups in Perth. When I relocated to Busselton in September, I decided to initiate my own tech meetup, [South West Devs](https://www.meetup.com/south-west-devs/). Unfortunately, Meetup.com does not offer a free tier for group hosts, forcing me to commit to a six-month subscription. My hope was that this period would be sufficient to gauge interest.
 

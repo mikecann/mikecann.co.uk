@@ -62,7 +62,7 @@ So I take the stage, I have 1 minute to explain my idea, I have practiced it a c
 >
 > This circulates traffic between the authors on Medium.com and thus is good for everyone.
 >
-> But what if your blog isnt on Medium.com? Like mikecann.co.uk for example?
+> But what if your blog isnt on Medium.com? Like mikecann.blog for example?
 >
 > I dont want to have to move all my posts over to Medium to take advantage of that post syndication feature.
 >

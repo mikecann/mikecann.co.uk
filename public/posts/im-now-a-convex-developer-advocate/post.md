@@ -8,9 +8,9 @@ title: Im now a Convex.dev Developer Champion!
 openAIMikesBlogFileId: file-1l0xjE6VsGlfX9erippk1DVk
 ---
 
-Just a short one this month as I have been working super hard with the team on the mobile port of [our game BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes). But as this is a personal blog I thought I would share something I think is quite cool.
+Just a short one this month as I have been working super hard with the team on the mobile port of [our game BattleTabs](https://mikecann.blog/posts/battletabs-in-7-minutes). But as this is a personal blog I thought I would share something I think is quite cool.
 
-I have recently really been into the back-end platform [Convex.dev](https://www.convex.dev/) writing this review on it back in August: https://mikecann.co.uk/posts/tinkering-with-convex then entering the WebDevCody competition and coming third in this post: https://mikecann.co.uk/posts/chatter-craft-collaborative-art-with-just-your-voice.
+I have recently really been into the back-end platform [Convex.dev](https://www.convex.dev/) writing this review on it back in August: https://mikecann.blog/posts/tinkering-with-convex then entering the WebDevCody competition and coming third in this post: https://mikecann.blog/posts/chatter-craft-collaborative-art-with-just-your-voice.
 
 So when Convex reached out to me a few weeks ago to let me know they were starting a brand new Developer Champion program and would like to invite me to be a part of it I was super excited and signed up immediately.
 

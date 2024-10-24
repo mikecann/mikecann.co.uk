@@ -13,7 +13,7 @@ openAIMikesBlogFileId: file-wm6TDkOtO3x9AFRsYO9ZslHx
 
 This is going to be a bit of an unusual post as it details a failed tinkering project.
 
-I still want to write it however as I think its an interesting project that has promise and also has some relevance to my [recent](https://mikecann.co.uk/posts/chatter-craft-collaborative-art-with-just-your-voice) wo[rk wi](https://mikecann.co.uk/posts/tinkering-with-convex)th [Convex](https://mikecann.co.uk/posts/im-now-a-convex-developer-advocate).
+I still want to write it however as I think its an interesting project that has promise and also has some relevance to my [recent](https://mikecann.blog/posts/chatter-craft-collaborative-art-with-just-your-voice) wo[rk wi](https://mikecann.blog/posts/tinkering-with-convex)th [Convex](https://mikecann.blog/posts/im-now-a-convex-developer-advocate).
 
 # SpacetimeDB
 
@@ -49,7 +49,7 @@ I had the idea I would build a realtime shared-cursor app where you can see ever
 
 Before I get there however I felt it probably best to start with the quick-start tutorials and unfortunately this is where the troubles began.
 
-You can develop the server-side component of your application in one of two languages, either Rust or C#. [Given my background](https://mikecann.co.uk/tags/c%20sharp) C# was the natural choice for me.
+You can develop the server-side component of your application in one of two languages, either Rust or C#. [Given my background](https://mikecann.blog/tags/c%20sharp) C# was the natural choice for me.
 
 After copy-pasting the code (no ready-to-go example project unfortunately) from the [C# Quickstart](https://spacetimedb.com/docs/modules/c-sharp/quickstart) and running the `publish` command that pushes the built code to the locally running Spacetime platform I was greeted with the following error:
 
@@ -115,7 +115,7 @@ I had planned to test out these things and make sure they were indeed issues bef
 
 The first big issue I noticed with Spacetime is there is no concept of "Authorization" or "Row Level Security" that is there is no way that some information can be private from other users.
 
-This is obviously critical for most (if not all) games. You need to hide some information from other players. For example in [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) each player hides their ship positions from each other until the end of the battle, without this players could cheat by looking at the data that the server sends down or could directly issue queries to the database and retrieve that information.
+This is obviously critical for most (if not all) games. You need to hide some information from other players. For example in [BattleTabs](https://mikecann.blog/posts/battletabs-in-7-minutes) each player hides their ship positions from each other until the end of the battle, without this players could cheat by looking at the data that the server sends down or could directly issue queries to the database and retrieve that information.
 
 When queried about this on discord I was informed that [that is indeed coming](https://discord.com/channels/1037340874172014652/1134597033613869207/1183210861700055150) and that there is a concept of "Private Tables" that you designate by prefixing your table with an underscore.
 

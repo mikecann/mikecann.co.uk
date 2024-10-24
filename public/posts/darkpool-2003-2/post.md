@@ -11,5 +11,5 @@ openAIMikesBlogFileId: file-NEtFqZUbNW378dJjknKdde6P
 
 <font size="1" face="Verdana, Arial, Helvetica, sans-serif">NOTE: Unfortuanately i have lost the latest version of this game and hence it doesnt play as well as it should, the physics worked properly in the full version :)</font>
 
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">**Download: **[DarkPool-v1.zip](https://www.mikecann.co.uk/Files/DarkPool-v1.zip)
+<font size="1" face="Verdana, Arial, Helvetica, sans-serif">**Download: **[DarkPool-v1.zip](https://www.mikecann.blog/Files/DarkPool-v1.zip)
 </font>

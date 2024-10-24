@@ -11,4 +11,4 @@ openAIMikesBlogFileId: file-bnK62myDhmuFzvAKvOE2Q9RQ
 
 And then there was the second incarnation of Artificial-Studios. Although it was far more manageable than version 1.0 but it was still too complicated to add new content.
 **
-Link:** [www.artificial-studios.co.uk/ArtificialStudios2/](https://www.mikecann.co.uk/ArtificialStudios2/)
+Link:** [www.artificial-studios.co.uk/ArtificialStudios2/](https://www.mikecann.blog/ArtificialStudios2/)

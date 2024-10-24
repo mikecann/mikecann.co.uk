@@ -27,7 +27,7 @@ Been a while since i have shared any coding tips, but here is one for those Acti
 >
 > }
 > An example of its use would be:
-> var protocol : String = dissectURL("https://www.mikecann.co.uk/?p=294").protocol;
+> var protocol : String = dissectURL("https://www.mikecann.blog/?p=294").protocol;
 >
 > trace(protocol);
 > It would trace "http".

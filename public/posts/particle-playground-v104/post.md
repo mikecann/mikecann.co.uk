@@ -7,7 +7,7 @@ oldUrl: /misc/particle-playground-v104
 openAIMikesBlogFileId: file-UrvwyvyG2hnb9KBewumNRu3q
 ---
 
-I have made a few small changes to [Particle Playground](https://www.mikecann.co.uk/?p=384) today:
+I have made a few small changes to [Particle Playground](https://www.mikecann.blog/?p=384) today:
 
 <!-- more -->
 

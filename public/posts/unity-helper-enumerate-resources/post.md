@@ -12,7 +12,7 @@ oldUrl: /c/unity-helper-enumerate-resources
 openAIMikesBlogFileId: file-Z97Aps8Ah6tjyBW6hZ2KPwPa
 ---
 
-Following on from [yesterdays post](https://www.mikecann.co.uk/programming/unity-helpers-utilities-and-extensions-for-unity/) on my [Unity-Helpers](https://github.com/mikecann/Unity-Helpers) I have added another utility to the library.
+Following on from [yesterdays post](https://www.mikecann.blog/programming/unity-helpers-utilities-and-extensions-for-unity/) on my [Unity-Helpers](https://github.com/mikecann/Unity-Helpers) I have added another utility to the library.
 
 <!-- more -->
 

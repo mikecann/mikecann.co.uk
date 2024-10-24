@@ -17,7 +17,7 @@ So much has happened in the intervening years that its hard to know where to sta
 
 ## 1. Arrived in Australia
 
-This [very blog documented](https://mikecann.co.uk/posts/mike-goes-down-under) the day that I arrived in Australia 3652.5 days ago.
+This [very blog documented](https://mikecann.blog/posts/mike-goes-down-under) the day that I arrived in Australia 3652.5 days ago.
 
 I remember being in a sort of shock for several days when I first arrived. I had heard so much about Australia from Kelsie on our travels so when I finally arrived it was hard to wrap my head around.
 
@@ -29,7 +29,7 @@ I remember being stunned that there were beautiful parrots and cockatoos just fl
 
 I remember everything smelling so different, a rich dry-eucalyptus smell that I now associate with home.
 
-I remember many long days working by myself on [Mr Nibbles](https://mikecann.co.uk/posts/indie-game-project-management-with-trello) and other projects, often not speaking to anyone all day then being super excited when Kelsie returned home that "I just wouldn't shut up".
+I remember many long days working by myself on [Mr Nibbles](https://mikecann.blog/posts/indie-game-project-management-with-trello) and other projects, often not speaking to anyone all day then being super excited when Kelsie returned home that "I just wouldn't shut up".
 
 I remember stressing about visa's and how I was going to stay in Australia, so thats why after a year I..
 
@@ -49,7 +49,7 @@ But before long the old traveling itch started again and I wanted to explore a b
 
 ## 3. Traveled Australia
 
-Kelsie and I loved the idea of exploring more of the vast country so we went out and bought a car and a camper and [set off for 5 months](https://mikecann.co.uk/posts/and-off-we-go).
+Kelsie and I loved the idea of exploring more of the vast country so we went out and bought a car and a camper and [set off for 5 months](https://mikecann.blog/posts/and-off-we-go).
 
 [![](./camper.jpg)](./camper.jpg)
 
@@ -85,7 +85,7 @@ With myself settling into Aussie life it was just about time that I..
 
 ## 6. Became a Citizen
 
-In January of 2020 [I officially became](https://mikecann.co.uk/posts/a-personal-update) a citizen of Australia!
+In January of 2020 [I officially became](https://mikecann.blog/posts/a-personal-update) a citizen of Australia!
 
 [![](./citizenship.jpg)](./citizenship.jpg)
 
@@ -97,9 +97,9 @@ Around the same time I also..
 
 ## 7. Started a Company
 
-I have always been entrepreneurial so when my co-founder Brandon raised the possibility of securing some funding to work on a new SaaS business I [lept at the opportunity](https://mikecann.co.uk/posts/farewell-bamboo-hello-markd).
+I have always been entrepreneurial so when my co-founder Brandon raised the possibility of securing some funding to work on a new SaaS business I [lept at the opportunity](https://mikecann.blog/posts/farewell-bamboo-hello-markd).
 
-That has been an incredibly difficult but rewarding adventure that is still ongoing with [Gangbusters](https://mikecann.co.uk/posts/bandai-namco-invests-in-gangbusters) as we work on brining our premier title BattleTabs to mobile.
+That has been an incredibly difficult but rewarding adventure that is still ongoing with [Gangbusters](https://mikecann.blog/posts/bandai-namco-invests-in-gangbusters) as we work on brining our premier title BattleTabs to mobile.
 
 [![](./battletabs.png)](./battletabs.png)
 
@@ -131,7 +131,7 @@ Our honeymoon was exactly as I liked it, functional, as you see we had just..
 
 ## 10. Bought a house
 
-After years of moving, traveling, and exploring, Kelsie and I decided it was time to lay down more permanent roots. [Buying a house in Busselton](https://mikecann.co.uk/posts/moving-home-and-startlink) was a milestone that symbolized not just a physical home, but the establishment of our family's base camp.
+After years of moving, traveling, and exploring, Kelsie and I decided it was time to lay down more permanent roots. [Buying a house in Busselton](https://mikecann.blog/posts/moving-home-and-startlink) was a milestone that symbolized not just a physical home, but the establishment of our family's base camp.
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/T4kaZX1ZzzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

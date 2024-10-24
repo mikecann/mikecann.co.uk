@@ -13,6 +13,6 @@ openAIMikesBlogFileId: file-X9KebFURbRdFrOBPGw1wFMeD
 
 Check it out:
 
-https://www.mikecann.co.uk/DumpingGround/ld/18/05/LudumDare18.swf
+https://www.mikecann.blog/DumpingGround/ld/18/05/LudumDare18.swf
 
 I blogged about its progress which you can checkout here:

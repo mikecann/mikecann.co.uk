@@ -11,7 +11,7 @@ title: Tinkering With Temporal.io
 openAIMikesBlogFileId: file-G60KN9vvtIPpxhIoDKV02HPr
 ---
 
-I've been meaning to tinker with Temporal for quite some time now, as it intersects some of my key interests: [Event Sourcing](https://mikecann.co.uk/posts/serverless-databaseless-event-sourcing), [durable execution](https://mikecann.co.uk/posts/tech-to-tinker-with-in-2022), and [cool application architectures](https://mikecann.co.uk/posts/tinkering-with-convex).
+I've been meaning to tinker with Temporal for quite some time now, as it intersects some of my key interests: [Event Sourcing](https://mikecann.blog/posts/serverless-databaseless-event-sourcing), [durable execution](https://mikecann.blog/posts/tech-to-tinker-with-in-2022), and [cool application architectures](https://mikecann.blog/posts/tinkering-with-convex).
 
 # What is Temporal?
 

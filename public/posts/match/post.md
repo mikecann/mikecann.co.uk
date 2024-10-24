@@ -10,6 +10,6 @@ openAIMikesBlogFileId: file-bIrTjGZ7SCXw8Flge1inixxR
 I personally hate this image, however others have told me they like it so im putting it up here.
 
 Used: Lightwave 7.5, Photoshop 7
-Download: [1024x768](https://www.mikecann.co.uk/Images/Art-Full/match.jpg)
+Download: [1024x768](https://www.mikecann.blog/Images/Art-Full/match.jpg)
 
-![Thumb](https://www.mikecann.co.uk/Images/Art-Thumbs/match.gif "Thumb")
+![Thumb](https://www.mikecann.blog/Images/Art-Thumbs/match.gif "Thumb")

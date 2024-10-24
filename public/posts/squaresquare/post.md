@@ -10,6 +10,6 @@ openAIMikesBlogFileId: file-Kix3D7SXw27UJ0WEEEx1iUWb
 This image i think i saw on a site somewhere and wanted a go at creating it myself. it looks okay but could be ALOT better.
 
 Used: Lightwave 7.5, Photoshop 7
-Download: [1024x768](https://www.mikecann.co.uk/Images/Art-Full/squaresquare.jpg)
+Download: [1024x768](https://www.mikecann.blog/Images/Art-Full/squaresquare.jpg)
 
-![Thumb](https://www.mikecann.co.uk/Images/Art-Thumbs/squaresquare.gif "Thumb")
+![Thumb](https://www.mikecann.blog/Images/Art-Thumbs/squaresquare.gif "Thumb")

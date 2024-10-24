@@ -25,7 +25,7 @@ Well I received my Versa 4 and quickly realized that past-Mike is a poor naive f
 
 ## No Custom Watchfaces or Apps
 
-I have long enjoyed creating and running my own watchfaces on my Versa. I even wrote about how much I enjoyed the process [back in May 2021](https://mikecann.co.uk/posts/minimal-mike-a-fitbit-watchface).
+I have long enjoyed creating and running my own watchfaces on my Versa. I even wrote about how much I enjoyed the process [back in May 2021](https://mikecann.blog/posts/minimal-mike-a-fitbit-watchface).
 
 Unfortunately however Fitbit / Google in their infinite wisdom have decided to [no longer allow this](https://community.fitbit.com/t5/Versa-4/Versa-4-can-t-install-any-apps/m-p/5293897/highlight/true#M2012).
 

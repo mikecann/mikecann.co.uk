@@ -86,7 +86,7 @@ The key is; once the season is over this content will no longer be unlockable. T
 
 This update brings a name-change for the company.
 
-[3 years ago](https://mikecann.co.uk/posts/farewell-bamboo-hello-markd) Brandon and I started working on a SaaS product called "Markd.co" and so we named the company "Markd Ltd".
+[3 years ago](https://mikecann.blog/posts/farewell-bamboo-hello-markd) Brandon and I started working on a SaaS product called "Markd.co" and so we named the company "Markd Ltd".
 
 Some time later we decided to pivot the company and focus on BattleTabs. For for some time now we have felt that the name no longer suits what we are doing and have been searching for a new name.
 

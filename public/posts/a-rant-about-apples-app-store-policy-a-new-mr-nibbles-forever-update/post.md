@@ -18,13 +18,13 @@ openAIMikesBlogFileId: file-T1UBigfJ0BMJXqoNMuOc1XE2
 
 A few weeks ago I got a friendly reminder from Apple that my Developer license was about to expire. What I hadn't realized however was that should it expire my games would no longer be available to download on the store.<!-- more -->
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/02/chrome_2017-02-28_07-11-33-1024x451.png)](https://www.mikecann.co.uk/wp-content/uploads/2017/02/chrome_2017-02-28_07-11-33.png)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/02/chrome_2017-02-28_07-11-33-1024x451.png)](https://www.mikecann.blog/wp-content/uploads/2017/02/chrome_2017-02-28_07-11-33.png)
 
 I can sort of understand this policy for paid apps, should you app earn anything, where does Apple send the money to? But for totally free apps such as [Mr Nibbles](https://itunes.apple.com/us/app/mr-nibbles/id552109003?mt=8) or [Ectoplasm](https://itunes.apple.com/us/app/ectoplasm/id619071417?mt=8) why do this? Its frustrating that I have to pay £80 per year just to keep my free games alive.
 
 To add insult to injury, shortly after receiving the demand for cash from Apple I receive this lovely email:
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2017/02/chrome_2017-02-15_07-56-10-1024x642.png)](https://www.mikecann.co.uk/wp-content/uploads/2017/02/chrome_2017-02-15_07-56-10.png)
+[![](https://www.mikecann.blog/wp-content/uploads/2017/02/chrome_2017-02-15_07-56-10-1024x642.png)](https://www.mikecann.blog/wp-content/uploads/2017/02/chrome_2017-02-15_07-56-10.png)
 
 So not only do I have to pay Apple for the privilege of keeping my free apps on their incredible store I also have to continually update them even tho there is nothing wrong with them. Sigh. I have no idea if I can sill even build my old games for iOS any more. Mr Nibbles was built using Haxe which has no doubt moved on significantly in the intervening years.
 
@@ -32,4 +32,4 @@ In other news I decided to release a new version of [Mr Nibbles Forever](https:/
 
 While I was there I also decided to simplify things and bring them more inline with the PC version. With that in mind I ripped out all the IAPs and advertising and put a price of \$0.99 on it instead. To be honest its probably what I should have done for the start it would have saved me a bunch of time and headaches if I had done so.
 
-Well thats is for now, not too much to report on. I have been busy [preparing for the next few months](https://www.mikecann.co.uk/travel/camping-australia-2017-the-plan/), researching, shopping and organizing. Hopefully ill have some exciting news to report on in that direction soon!
+Well thats is for now, not too much to report on. I have been busy [preparing for the next few months](https://www.mikecann.blog/travel/camping-australia-2017-the-plan/), researching, shopping and organizing. Hopefully ill have some exciting news to report on in that direction soon!

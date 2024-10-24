@@ -9,7 +9,7 @@ tags:
   - webfusion
   - websites
   - wordpress
-title: mikecann.co.uk moved.. again.. too!
+title: mikecann.blog moved.. again.. too!
 oldUrl: /websites/mikecann-co-uk-moved-again-too
 openAIMikesBlogFileId: file-KmZ8lGDS1K0zoIF8h9EhJOTn
 ---
@@ -32,4 +32,4 @@ If you wish to be able to create new clients using Plesk then allow those clie
 
 **Mod_Rewrite and .htaccess**
 
-This blog is wordpress and I wanted the pretty perma-links that Wordpress is capable of so* https://www.mikecann.co.uk/about/* rather than \_https://www.mikecann.co.uk/?page=about. \_To achieve this I tried many different things before I hit on the correct solution which was to use FTP to modify the permissions on the httpdocs folder to 777 then go to the perma-links section of the Wordpress settings and allow Wordpress to setup .htaccess for me! I then just went back and changed the permissions back to 750, simples!
+This blog is wordpress and I wanted the pretty perma-links that Wordpress is capable of so* https://www.mikecann.blog/about/* rather than \_https://www.mikecann.blog/?page=about. \_To achieve this I tried many different things before I hit on the correct solution which was to use FTP to modify the permissions on the httpdocs folder to 777 then go to the perma-links section of the Wordpress settings and allow Wordpress to setup .htaccess for me! I then just went back and changed the permissions back to 750, simples!

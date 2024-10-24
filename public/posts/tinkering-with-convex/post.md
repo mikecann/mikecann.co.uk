@@ -108,7 +108,7 @@ I cant overstate how good it feels to be able to go at this speed AND know that 
 
 ## Realtime updates
 
-I have spent A LOT of time thinking about and coding up various realtime systems for both [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) and other projects and let me tell you, its never simple and never "just works". There are ALWAYS caveats and issues.
+I have spent A LOT of time thinking about and coding up various realtime systems for both [BattleTabs](https://mikecann.blog/posts/battletabs-in-7-minutes) and other projects and let me tell you, its never simple and never "just works". There are ALWAYS caveats and issues.
 
 Some problems I have encountered in the past:
 
@@ -169,7 +169,7 @@ Critically this also works for queries that reference other documents (JOINs). S
 
 ## Flexible type-safe database schema
 
-Over the [many](https://mikecann.co.uk/about) years of my development career I have worked with quite a few different databases.
+Over the [many](https://mikecann.blog/about) years of my development career I have worked with quite a few different databases.
 
 I started off with MySQL and MSSQL then hopped on MongoDB when NoSQL was all the rage then migrated over to Postgres when the sugar-high wore off. In-between I used hosted DBs like Parse, DynamoDB and Firebase too.
 
@@ -276,7 +276,7 @@ export const listForList = query({
 });
 ```
 
-Thanks to the pattern matching provided by [Variant](https://github.com/paarthenon/variant) (BTW I have [talked extensively about my love of this](https://mikecann.co.uk/posts/discriminated-unions-and-pattern-matching-in-typescript)) and the Typescript compiler, now whenever we add a new "kind" of list the compiler will ensure that we have handled all cases.
+Thanks to the pattern matching provided by [Variant](https://github.com/paarthenon/variant) (BTW I have [talked extensively about my love of this](https://mikecann.blog/posts/discriminated-unions-and-pattern-matching-in-typescript)) and the Typescript compiler, now whenever we add a new "kind" of list the compiler will ensure that we have handled all cases.
 
 Because Convex also supports "optional" types as well as unions in its database schema it makes "migrationless" changes to your database but in a super-safe way thanks to its automatic checking process.
 

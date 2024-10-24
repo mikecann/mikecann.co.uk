@@ -17,13 +17,13 @@ Its been almost 2 years since I had to change anything with my blog but unfortun
 
 # The Problem
 
-So a few days ago I sat down to write a post on how we had just converted the entire backend of Markd over from Parse to GraphQL. I had recently upgraded my machine and thus I checked out the source from the [repo](https://github.com/mikecann/mikecann.co.uk) and started to build.
+So a few days ago I sat down to write a post on how we had just converted the entire backend of Markd over from Parse to GraphQL. I had recently upgraded my machine and thus I checked out the source from the [repo](https://github.com/mikecann/mikecann.blog) and started to build.
 
 To my incredible frustration, no matter what I did, I couldn't get the project t build. I spent 2 hours wrestling with npm, hexo, gulp, grunt, saas, node-gyp and windows native compilation. Eventually I threw my hands in the air and decided enough was enough. Im just going to rebuild the site myself so I know exactly how everything works.
 
 # Gatsby
 
-I knew from my [last migration](http://mikecann.co.uk/blog/the-static-blog) that the key to a good performing blog was a staticly generated site. With that in mind I had heard much about [GatsbyJs](https://www.gatsbyjs.org/) the static site generator with a large following and so I decided to give it a shot.
+I knew from my [last migration](http://mikecann.blog/blog/the-static-blog) that the key to a good performing blog was a staticly generated site. With that in mind I had heard much about [GatsbyJs](https://www.gatsbyjs.org/) the static site generator with a large following and so I decided to give it a shot.
 
 One of the awesome things about Gatsby is the documentation is very thorough and there are plenty of third party tutorials so I found it pretty easy to do just about everything that I needed to do. 
 

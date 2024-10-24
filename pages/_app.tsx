@@ -41,7 +41,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         />
 
         <meta charSet="utf-8" />
-        <title key="title">MikeCann.co.uk</title>
+        <title key="title">mikecann.blog</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" key="icon" />
         <link rel="shortcut icon" href="/favicon.ico" key="favicon" />
         <meta name="description" content="BattleTabs" key="description" />
@@ -51,11 +51,11 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           key="keywords"
         />
 
-        <meta property="og:title" content="MikeCann.co.uk" key="og-title" />
-        <meta property="og:site_name" content="MikeCann.co.uk" key="og-site_name" />
-        <meta property="og:url" content="https://mikecann.co.uk" key="og-url" />
+        <meta property="og:title" content="mikecann.blog" key="og-title" />
+        <meta property="og:site_name" content="mikecann.blog" key="og-site_name" />
+        <meta property="og:url" content="https://mikecann.blog" key="og-url" />
         <meta property="og:description" content="The Blog of Mike Cann" key="og-description" />
-        <meta property="og:image" content="https://mikecann.co.uk/images/me.jpg" key="og-image" />
+        <meta property="og:image" content="https://mikecann.blog/images/me.jpg" key="og-image" />
         <meta property="og:type" content="website" key="og-type" />
       </Head>
       <PostHogProvider client={posthog}>

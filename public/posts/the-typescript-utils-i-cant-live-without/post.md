@@ -9,7 +9,7 @@ title: The Typescript Utils I Can't Live Without
 openAIMikesBlogFileId: file-B7mpGYDx0rI3TgYl728Bx5o0
 ---
 
-Are you a TypeScript enthusiast looking for ways to streamline your development process? Look no further! As someone who has been writing TypeScript [for a significant amount of time](https://mikecann.co.uk/posts/post-to-tumblr-5), I have accumulated a handful of utility tools that I consider essential for every new project. These tools have proven to be so helpful that they have become a staple in my development toolkit. In this blog post, I will share with you some of these tools that will make your TypeScript development journey smoother and more efficient.
+Are you a TypeScript enthusiast looking for ways to streamline your development process? Look no further! As someone who has been writing TypeScript [for a significant amount of time](https://mikecann.blog/posts/post-to-tumblr-5), I have accumulated a handful of utility tools that I consider essential for every new project. These tools have proven to be so helpful that they have become a staple in my development toolkit. In this blog post, I will share with you some of these tools that will make your TypeScript development journey smoother and more efficient.
 
 # ensure
 
@@ -132,7 +132,7 @@ export const turnTakingSequence = (player: Player, ai: AI) => {
 
 # match and matchKind
 
-This is a bit of a cheeky one as its not really my util function but I have a full blog post on this "pattern matching" technique here: https://mikecann.co.uk/posts/discriminated-unions-and-pattern-matching-in-typescript
+This is a bit of a cheeky one as its not really my util function but I have a full blog post on this "pattern matching" technique here: https://mikecann.blog/posts/discriminated-unions-and-pattern-matching-in-typescript
 
 Go there to see what the function looks like an more depth but its a suuuper useful util that I use everywhere in my projects. An example of its use might be:
 

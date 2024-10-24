@@ -10,7 +10,7 @@ oldUrl: /misc/file-and-folder-syncing
 openAIMikesBlogFileId: file-fx1z18VikfDEbo6tJQuNUBDK
 ---
 
-For a long while I have been worried about my lack of backups for my machine. I detest the fact that i  [actually lost some of my older work](https://www.mikecann.co.uk/lieroxna/lieroxna-digging-up-the-past/). Getting[ the Mac](https://www.mikecann.co.uk/photos-personal/new-laptop-iphone-fun/) has been the final straw and my instigator for change.
+For a long while I have been worried about my lack of backups for my machine. I detest the fact that i  [actually lost some of my older work](https://www.mikecann.blog/lieroxna/lieroxna-digging-up-the-past/). Getting[ the Mac](https://www.mikecann.blog/photos-personal/new-laptop-iphone-fun/) has been the final straw and my instigator for change.
 
 <!-- more -->
 
@@ -50,7 +50,7 @@ Ironically I read about Dropbox from the SpiderOak[ press release](https://spide
 [![thumb_down](../wp-content/uploads/2009/09/thumb_down.png "thumb_down")](../wp-content/uploads/2009/09/thumb_down.png) Simple to use interface. This is what I like to call the "Apple Effect", it may be easy to use but sometimes you want more options and settings to control how the app functions.
 [![thumb_down](../wp-content/uploads/2009/09/thumb_down.png "thumb_down")](../wp-content/uploads/2009/09/thumb_down.png) Only one "dropbox" so only one root folder can by synced. This is a BIG issue and the one in the end that turned me off DropBox. I know that you can [setup symbolic links](https://wiki.getdropbox.com/TipsAndTricks/SyncOtherFolders) so that you can sync external folders but I found this to be error prone and hacky at best.
 
-[![Live_Mesh_Logo](https://www.mikecann.co.uk/wp-content/uploads/2009/09/Live_Mesh_Logo-300x84.jpg "Live_Mesh_Logo")](https://www.mesh.com)
+[![Live_Mesh_Logo](https://www.mikecann.blog/wp-content/uploads/2009/09/Live_Mesh_Logo-300x84.jpg "Live_Mesh_Logo")](https://www.mesh.com)
 
 Live Mesh is Microsofts offering to file and folder syncing problem. I actually heard about this a few years ago and even used it quite abit, but mostly for simple file sharing and using thier unique VNC remote desktop ability (great for accessing the home PC from work). I recently rediscovered it again while on this crusade and decided to give it another go for my new purposes.
 

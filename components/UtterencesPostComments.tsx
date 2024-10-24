@@ -12,7 +12,7 @@ export const UtterencesPostComments: React.FC<Props> = ({}) => {
     theme: "github-light",
     issueTerm: "og:title",
     label: "💬 comments",
-    repo: "mikecann/mikecann.co.uk",
+    repo: "mikecann/mikecann.blog",
     ref: comment,
   });
 

@@ -17,9 +17,9 @@ For the past several months I have been working on a little project completely d
 
 One of the basic tenants of the app is that it needs to work  cross-platform, so on mac, windows, linux, etc. As my previous experience with any sort of cross-platform coding involves using Java that was my natural first choice.
 
-It has been a while since I have coding anything substantial in Java, infact my university project [Chain Reaction](https://www.mikecann.co.uk/programming/java/chainreaction-binarysource-release/) was my last serious foray into the language:
+It has been a while since I have coding anything substantial in Java, infact my university project [Chain Reaction](https://www.mikecann.blog/programming/java/chainreaction-binarysource-release/) was my last serious foray into the language:
 
-![](https://www.mikecann.co.uk/Work/CRImages/CR01.png)
+![](https://www.mikecann.blog/Work/CRImages/CR01.png)
 
 I knew that I wanted a nice rich interface for the project as it was intended to be sold to non-technical users. My first choice with Java was naturally with Swing. This, however, soon brought back various memories of 'JPanels', 'Layouts' and 'Look and Feels'  and the headaches of trying to make simple things look attractive (tho some cool advances have been made with [substance look and feel](https://www.pushing-pixels.org/)).
 
@@ -37,7 +37,7 @@ As I was at the end of my line with Java I thought, hell why not give it a littl
 
 For those who havent heard f JavaFX; taken from Wikipeda:
 
-> <address>[![javafx_logo_color_1](https://www.mikecann.co.uk/wp-content/uploads/2009/12/javafx_logo_color_1-300x150.jpg "javafx_logo_color_1")](/wp-content/uploads/2009/12/javafx_logo_color_1.jpg)JavaFX is a software platform for creating and delivering rich Internet applications that can run across a wide variety of connected devices. The current release (JavaFX 1.2, June 2009) enables building applications for desktop, browser and mobile phones. </address> <address> </address> <address>
+> <address>[![javafx_logo_color_1](https://www.mikecann.blog/wp-content/uploads/2009/12/javafx_logo_color_1-300x150.jpg "javafx_logo_color_1")](/wp-content/uploads/2009/12/javafx_logo_color_1.jpg)JavaFX is a software platform for creating and delivering rich Internet applications that can run across a wide variety of connected devices. The current release (JavaFX 1.2, June 2009) enables building applications for desktop, browser and mobile phones. </address> <address> </address> <address>
 >
 > </address><address>TV set-top boxes, gaming consoles, Blu-ray players and other platforms are planned.JavaFX is fully integrated with the Java Runtime Environment (JRE) – JavaFX applications will run on any desktop and browser that runs the JRE and on top of mobile phones running Java ME.</address>
 > What this means is that you can (with a little jiggery pokery) use JavaFX with normal Java. This is great as I had already written a whole load of code in Java which I didn't want to get rid of.

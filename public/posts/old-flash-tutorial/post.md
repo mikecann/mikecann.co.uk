@@ -15,4 +15,4 @@ This is an old piece of flash from an age ago. Its kinda a 2-parter, the first p
 
 <embed width="350" height="80" menu="true" loop="true" play="true" src="/wp-content/uploads/Flash/1.swf" pluginspage="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
 
-**Download: **[The tutorial](https://www.mikecann.co.uk/wp-content/uploads/File/Tutorial1.doc)
+**Download: **[The tutorial](https://www.mikecann.blog/wp-content/uploads/File/Tutorial1.doc)

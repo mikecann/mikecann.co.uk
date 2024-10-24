@@ -13,7 +13,7 @@ openAIMikesBlogFileId: file-4FyE9vklIX8wfTAtfW1UCkar
 
 AI is all the rage at the moment and for good reason, its going to revolutionize many industries.
 
-Since I first wrote about it in the context of Game Development back [in November](https://mikecann.co.uk/posts/ai-and-the-future-of-game-development) I have been thinking how we can apply some of the advances to [our](https://gangbusters.io/) game [BattleTabs](https://battletabs.io/).
+Since I first wrote about it in the context of Game Development back [in November](https://mikecann.blog/posts/ai-and-the-future-of-game-development) I have been thinking how we can apply some of the advances to [our](https://gangbusters.io/) game [BattleTabs](https://battletabs.io/).
 
 # Problem
 
@@ -21,7 +21,7 @@ Since the first version of the game (3+ years ago) we allowed users to name thei
 
 [![](./signup.png)](./signup.png)
 
-A year or so after launch [we introduced the "Custom Fleets" feature](https://mikecann.co.uk/posts/battletabs-ships-and-fleets-update). As part of this feature we also allowed the user to name their fleet.
+A year or so after launch [we introduced the "Custom Fleets" feature](https://mikecann.blog/posts/battletabs-ships-and-fleets-update). As part of this feature we also allowed the user to name their fleet.
 
 [![](./fleet-name.png)](./fleet-name.png)
 
@@ -113,4 +113,4 @@ Its not perfect and we are still refining it but it generally works really well 
 
 # Conclusion
 
-In the end im super happy with how this has turned out. For minimal effort and cost we were able to get a much more super profanity checker improving the experience for the 99.9% of our players who dont want to see profanity while playing [BattleTabs](https://mikecann.co.uk).
+In the end im super happy with how this has turned out. For minimal effort and cost we were able to get a much more super profanity checker improving the experience for the 99.9% of our players who dont want to see profanity while playing [BattleTabs](https://mikecann.blog).

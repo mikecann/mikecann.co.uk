@@ -9,4 +9,4 @@ openAIMikesBlogFileId: file-pt9Qqvp4kDRhdAcI7UNxAk0A
 
 Well this is the intro for the second version of this website. I went for a much more minimalist approach with this one as opposed to the massively complicated intro of the previous version. Let me know what u think ;)
 
-**Link:** [Take a peek!](https://www.mikecann.co.uk/ArtificialStudios2/index.html)
+**Link:** [Take a peek!](https://www.mikecann.blog/ArtificialStudios2/index.html)

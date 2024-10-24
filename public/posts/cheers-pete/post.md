@@ -7,6 +7,6 @@ oldUrl: /misc/cheers-pete
 openAIMikesBlogFileId: file-dvsSaY54kVDwWXMKO7HoX8tg
 ---
 
-![](https://www.mikecann.co.uk/Images/Others/cheerspete.png)
+![](https://www.mikecann.blog/Images/Others/cheerspete.png)
 
 Cheers for the support Pete mate :D

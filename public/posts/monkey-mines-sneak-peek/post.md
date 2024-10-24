@@ -11,4 +11,4 @@ After monts of work my next game is very almost done, and im pretty damn proud o
 
 <!-- more -->
 
-![](https://www.mikecann.co.uk/Images/MonkeyMines/1.png)![](https://www.mikecann.co.uk/Images/MonkeyMines/2.png)![](https://www.mikecann.co.uk/Images/MonkeyMines/3.png)
+![](https://www.mikecann.blog/Images/MonkeyMines/1.png)![](https://www.mikecann.blog/Images/MonkeyMines/2.png)![](https://www.mikecann.blog/Images/MonkeyMines/3.png)

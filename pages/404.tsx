@@ -90,7 +90,7 @@ const NotFoundPage = ({}: Props) => {
   return (
     <ResponsiveSidebarLayouts>
       <Head>
-        <title key="title">404 - mikecann.co.uk</title>
+        <title key="title">404 - mikecann.blog</title>
       </Head>
       {render()}
       {searchVisible && <SearchModal onClose={() => setSearchVisible(false)} />}

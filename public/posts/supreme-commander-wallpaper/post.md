@@ -10,6 +10,6 @@ openAIMikesBlogFileId: file-3Y0dcYijVBxhC1296alSHosI
 Well i have just finished making a massive <span class="postbody">(4608x2048) duel-screen wallpaper for a thread on the supreme commander forums.
 
 (click for full screen)
-[![](https://www.mikecann.co.uk/Images/Others/sc02-thumb.jpg)](https://www.mikecann.co.uk/Images/Others/sc02.jpg)
+[![](https://www.mikecann.blog/Images/Others/sc02-thumb.jpg)](https://www.mikecann.blog/Images/Others/sc02.jpg)
 
   </span>

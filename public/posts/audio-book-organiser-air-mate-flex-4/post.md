@@ -28,12 +28,12 @@ In addition I wanted to look at the various frameworks in use for Flex these day
 
 Finally we get to the point of this post. I have developed a simple Adobe AIR application that allows you to organise audio books. The basic idea is simple you give the application a selection of 'source' directories where your audiobooks belong then you can tick off whether you have listened to each one, and what rating you would give them.
 
-[![ScreenHunter_02 Dec. 30 12.32](https://www.mikecann.co.uk/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-30-12.32-300x262.jpg "ScreenHunter_02 Dec. 30 12.32")](/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-30-12.32.jpg)[![ScreenHunter_03 Dec. 30 12.32](https://www.mikecann.co.uk/wp-content/uploads/2009/12/ScreenHunter_03-Dec.-30-12.32-300x261.jpg "ScreenHunter_03 Dec. 30 12.32")](/wp-content/uploads/2009/12/ScreenHunter_03-Dec.-30-12.32.jpg)
+[![ScreenHunter_02 Dec. 30 12.32](https://www.mikecann.blog/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-30-12.32-300x262.jpg "ScreenHunter_02 Dec. 30 12.32")](/wp-content/uploads/2009/12/ScreenHunter_02-Dec.-30-12.32.jpg)[![ScreenHunter_03 Dec. 30 12.32](https://www.mikecann.blog/wp-content/uploads/2009/12/ScreenHunter_03-Dec.-30-12.32-300x261.jpg "ScreenHunter_03 Dec. 30 12.32")](/wp-content/uploads/2009/12/ScreenHunter_03-Dec.-30-12.32.jpg)
 
 The data is persisted to a file that is saved to your hard drive, so when you open the application up again next time it remembers which audio books you have listened to and what ratings you gave them.
 
 I havent tested it very much atall so there is a very high likelyhood of being some strange bugs in there. I am also releasing all the source code for this project for all to see, use and study if they so wish.
 
-[https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser.air](https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser.air)
+[https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser.air](https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser.air)
 
-Source: [https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser_v101_source.zip](https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser_v101_source.zip)
+Source: [https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser_v101_source.zip](https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser_v101_source.zip)

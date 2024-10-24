@@ -11,7 +11,7 @@ oldUrl: /unity-ash/unit-testing-with-unity-ash-and-unity-test-tools
 openAIMikesBlogFileId: file-vVIGSXLD2raURoQ8bBo5OMps
 ---
 
-So I promised in my [last post](https://www.mikecann.co.uk/programming/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/) to show how how [Unity-Ash](https://github.com/mikecann/Unity-Ash) can make things easyier when it comes to Unit Testing.
+So I promised in my [last post](https://www.mikecann.blog/programming/unity-ash-a-different-way-of-thinking-about-making-games-in-unity/) to show how how [Unity-Ash](https://github.com/mikecann/Unity-Ash) can make things easyier when it comes to Unit Testing.
 
 <!-- more -->
 
@@ -83,7 +83,7 @@ private DeathThroesSystem \_system;
 
 I wrote a little helper that adds an entity to the engine with the necessary components. In the future we could use reflection to looup the types on the Nodeless system, but for now its enough to satisfy the test:
 
-[![2015-11-02_17-28-19](https://www.mikecann.co.uk/wp-content/uploads/2015/11/2015-11-02_17-28-19.png)](https://www.mikecann.co.uk/wp-content/uploads/2015/11/2015-11-02_17-28-19.png)
+[![2015-11-02_17-28-19](https://www.mikecann.blog/wp-content/uploads/2015/11/2015-11-02_17-28-19.png)](https://www.mikecann.blog/wp-content/uploads/2015/11/2015-11-02_17-28-19.png)
 
 Next we want to check that after update the countdown is decremented.
 

@@ -11,7 +11,7 @@ openAIMikesBlogFileId: file-T818UneCJzOR0ze09OD0xwjX
 
 (no this isn't an april fools post :P)
 
-I wrote my first Application 31 years ago when I was [7 years old](https://mikecann.co.uk/about). Since then I have spent most of my career learning the fine art of of crafting clean code. From hand-crafted HTML and CSS to wrestling with MXML and AS3 I have been doing this for a long time.
+I wrote my first Application 31 years ago when I was [7 years old](https://mikecann.blog/about). Since then I have spent most of my career learning the fine art of of crafting clean code. From hand-crafted HTML and CSS to wrestling with MXML and AS3 I have been doing this for a long time.
 
 With the incredible advances in Large Language Models (LLMs) and their ability to generate code on demand i'm starting to wonder if the days of hand-crafted applications are numbered.
 
@@ -53,7 +53,7 @@ If you don't like or understand the particular design of a given UI, you are gen
 
 # UIs of Tomorrow
 
-Back at the start of [November 2022](https://mikecann.co.uk/posts/ai-and-the-future-of-game-development) I wrote a post on how I thought AI would change the future of game development. In that post I talked about how I thought that the future of app development will feel more like sculpting than coding.
+Back at the start of [November 2022](https://mikecann.blog/posts/ai-and-the-future-of-game-development) I wrote a post on how I thought AI would change the future of game development. In that post I talked about how I thought that the future of app development will feel more like sculpting than coding.
 
 > I have spent so much of my career thinking about and worrying over the best practices for programming. Am I correctly implementing the SOLID principles in OO C# or and I fully understanding the Monad or ADTs in Functional Programming? In the future IT DOES NOT MATTER. The output is the only thing that matters.
 

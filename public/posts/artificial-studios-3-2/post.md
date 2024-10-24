@@ -11,4 +11,4 @@ openAIMikesBlogFileId: file-uxr52S2c3bA9AflO7dqhm3Fd
 
 And so version 3 was born. Now in blog from thanks to [wordpress](https://www.wordpress.com) it was much easyier to add new content and to maintain.
 **
-Link:** [www.artificial-studios.co.uk](https://www.mikecann.co.uk)
+Link:** [www.artificial-studios.co.uk](https://www.mikecann.blog)

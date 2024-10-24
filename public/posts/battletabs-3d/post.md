@@ -22,7 +22,7 @@ This has been a surprise to some as they assumed the game was 3D but in actualit
 
 [![](./spritesheet.png)](./spritesheet.png)
 
-This looked great and worked just fine at first but then we started to add more and more ships and started to run into issue with our process. I have previously [discussed this in detail here](https://mikecann.co.uk/posts/introducing-battletabs) but the short version is "isometric is hard".
+This looked great and worked just fine at first but then we started to add more and more ships and started to run into issue with our process. I have previously [discussed this in detail here](https://mikecann.blog/posts/introducing-battletabs) but the short version is "isometric is hard".
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/ivIm2bZNQ3Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

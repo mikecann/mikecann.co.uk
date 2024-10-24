@@ -11,7 +11,7 @@ title: BattleTabs in 7 Minutes
 openAIMikesBlogFileId: file-PJbD7f1BAA4gHKbdO4TuDM4W
 ---
 
-As you may be aware we have been working really hard lately on the next version of our game [BattleTabs](https://mikecann.co.uk/tags/battletabs).
+As you may be aware we have been working really hard lately on the next version of our game [BattleTabs](https://mikecann.blog/tags/battletabs).
 
 In an effort to broaden the game's reach for the upcoming mobile release, we decided to invest some time in producing "devlogs".
 

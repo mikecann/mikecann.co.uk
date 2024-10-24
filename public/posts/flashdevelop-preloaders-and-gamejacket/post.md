@@ -201,4 +201,4 @@ And thats all there is to it, you can now test out your game, if you do test it 
 
 **!!DONT FORGET!!** Dont forget to remove the "securityOK(null);" in the GJCheck constructor before you try to upload to GameJacket or else you will pass the security check every time when you are supposed to fail.
 
-Download project source code: [https://www.mikecann.co.uk/flash/GameJacketTutorial/GameJacketProject.zip](../../../../../flash/GameJacketTutorial/GameJacketProject.zip)</span>
+Download project source code: [https://www.mikecann.blog/flash/GameJacketTutorial/GameJacketProject.zip](../../../../../flash/GameJacketTutorial/GameJacketProject.zip)</span>

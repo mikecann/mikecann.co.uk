@@ -76,7 +76,7 @@ export const sendThreadUpdatedNotification = internalAction({
     console.log("sending email..", html);
 
     await resend.emails.send({
-      from: "admin@mikecann.co.uk",
+      from: "admin@mikecann.blog",
       to: "mike.cann@gmail.com",
       subject: "Mikebot Thread Updated",
       html,

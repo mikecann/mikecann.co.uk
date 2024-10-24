@@ -16,7 +16,7 @@ Oliver and I have been working hard on the game and we are almost ready to rock.
 
 <!-- more -->
 
-We are wanting to go for a significantly more polished feel to this game and one of the factors that has been abit rough around the edges in the past has been the menu systems. As mentioned in a [previous dev update](https://www.mikecann.co.uk/personal-project/the-next-one-blast-wave-2/) were were looking to for something like Photon Storm's [Kyobi ](https://www.photonstorm.com/archives/378/kyobi-is-now-live-on-gamejacket)as a splash screen:
+We are wanting to go for a significantly more polished feel to this game and one of the factors that has been abit rough around the edges in the past has been the menu systems. As mentioned in a [previous dev update](https://www.mikecann.blog/personal-project/the-next-one-blast-wave-2/) were were looking to for something like Photon Storm's [Kyobi ](https://www.photonstorm.com/archives/378/kyobi-is-now-live-on-gamejacket)as a splash screen:
 
 [![bwfrontpage](/wp-content/uploads/2009/07/bwfrontpage.png "bwfrontpage")](/wp-content/uploads/2009/07/bwfrontpage.png)
 

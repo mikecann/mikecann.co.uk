@@ -15,13 +15,13 @@ Wow how fast did 2021 go? Crazy! And we are already almost at the end of January
 
 <!-- more -->
 
-I try to write at least one blog post a month but I have to admit, lately I have been struggling to find the time. A combination of more [family](https://mikecann.co.uk/posts/joshua-christopher-cann) and more [business](https://gangbusters.io) are the likely culprits. Whatever the reasons, it means my personal projects have taken a back seat lately.
+I try to write at least one blog post a month but I have to admit, lately I have been struggling to find the time. A combination of more [family](https://mikecann.blog/posts/joshua-christopher-cann) and more [business](https://gangbusters.io) are the likely culprits. Whatever the reasons, it means my personal projects have taken a back seat lately.
 
 Thats not to say that there hasn't been a heap of cool stuff that has caught my eye over the past few months and am itchy to tinker with. So I thought for this month's post I would list a few of the projects that I want to take a closer look at this year :)
 
 # Cloudflare's DOG
 
-[BattleTabs](https://battletabs.com/) is currently [Gangbuster's](https://www.gangbusters.io/) only title and has been in development for [a couple of years](https://mikecann.co.uk/posts/introducing-battletabs) now. Initially it was released as a concept. We didnt know if it would work or not so I chose the technology I knew I could get going with the fastest, which was Heroku and Postgres at the time.
+[BattleTabs](https://battletabs.com/) is currently [Gangbuster's](https://www.gangbusters.io/) only title and has been in development for [a couple of years](https://mikecann.blog/posts/introducing-battletabs) now. Initially it was released as a concept. We didnt know if it would work or not so I chose the technology I knew I could get going with the fastest, which was Heroku and Postgres at the time.
 
 Since then the game has grown and the requirements have changed as we added new features. We have faced a number of challenges on Heroku and it is a continual worry of mine that the servers will fall over one day or run out of capacity when im on holiday or something. There is also the significant cost associated with Heroku compared to the alternatives.
 
@@ -33,7 +33,7 @@ The issue with a serverless stack for us would be the lack of a websocket connec
 
 So when I heard about [Cloudflare's Durable Objects](https://developers.cloudflare.com/workers/learning/using-durable-objects) and their [ability to handle websockets](https://developers.cloudflare.com/workers/learning/using-websockets#:~:text=%E2%80%8BDurable%20Objects%20and%20WebSocket%20state&text=Durable%20Objects%20are%20a%20coordinated,learning%20page%20to%20get%20started.) and could do it in a [cost effective manner](https://developers.cloudflare.com/workers/platform/pricing#durable-objects) (you only pay for the message handling time) I became excited.
 
-[In October](https://mikecann.co.uk/posts/serverless-databaseless-event-sourcing) I tinkered with Durable Objects to build a serverless Event-Sourcing application. This worked well but I ran out of time to try the websockets potential of the technology.
+[In October](https://mikecann.blog/posts/serverless-databaseless-event-sourcing) I tinkered with Durable Objects to build a serverless Event-Sourcing application. This worked well but I ran out of time to try the websockets potential of the technology.
 
 Because a single server / Durable Object can only support a limited number of connections was I needed was a way to automatically "fan-out" incoming connections to "children" automatically so that each server managed only a few thousand connections while still able to communicate with the others in the Group.
 

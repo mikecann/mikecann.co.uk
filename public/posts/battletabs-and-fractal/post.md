@@ -17,7 +17,7 @@ Its been a while since I have posted about BattleTabs but things most definitely
 
 Just quickly; [BattleTabs](https://battletabs.com/) is the premier game from [Gangbusters](https://www.gangbusters.io/), the company that im a co-founder of.
 
-I have [posted quite a few times in the past](https://mikecann.co.uk/tags/battletabs) about BattleTabs so checkout those posts for more background on the game and how it works.
+I have [posted quite a few times in the past](https://mikecann.blog/tags/battletabs) about BattleTabs so checkout those posts for more background on the game and how it works.
 
 # Whats Changed
 

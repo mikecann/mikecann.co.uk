@@ -24,6 +24,6 @@ Just did a quick update to the audio book organiser. Added the ability to move t
 
 New version and sources:
 
-[airbadge]Audio Book Orgainser,https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser.air,1,https://www.mikecann.co.uk/flash/AudioBookOrganiser/badgeImg.jpg[/airbadge]
+[airbadge]Audio Book Orgainser,https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser.air,1,https://www.mikecann.blog/flash/AudioBookOrganiser/badgeImg.jpg[/airbadge]
 
-Source: [https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser_v120_source.zip](https://www.mikecann.co.uk/flash/AudioBookOrganiser/AudioBookOrganiser_v120_source.zip)
+Source: [https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser_v120_source.zip](https://www.mikecann.blog/flash/AudioBookOrganiser/AudioBookOrganiser_v120_source.zip)

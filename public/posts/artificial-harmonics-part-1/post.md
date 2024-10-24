@@ -9,7 +9,7 @@ openAIMikesBlogFileId: file-STF8xKdD4UJMIyUkQKWFYp9q
 
 **![](/wp-content/uploads/Image/PixelHouse.gif)**
 
-**Artist:** [Artificial](https://www.mikecann.co.uk/www.artificial-studios.co.uk) ** Genre:** downtempo / chillout
+**Artist:** [Artificial](https://www.mikecann.blog/www.artificial-studios.co.uk) ** Genre:** downtempo / chillout
 
 <div>
 

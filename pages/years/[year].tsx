@@ -18,7 +18,7 @@ const Page = ({ year, posts, years }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
       <Head>
-        <title key="title">{`archive ${year} - mikecann.co.uk`}</title>
+        <title key="title">{`archive ${year} - mikecann.blog`}</title>
       </Head>
       <Vertical width="100%">
         <h1>{year}</h1>

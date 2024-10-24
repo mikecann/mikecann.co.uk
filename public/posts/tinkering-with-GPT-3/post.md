@@ -44,7 +44,7 @@ Then I decided to set it a little challenge. One of the examples is called "TL;D
 
 > This prompt summarizes text by adding a 'tl;dr:' to the end of a text passage. It shows that the API understands how to perform a number of tasks with no instructions.
 
-So given this post from my blog: [Introducing BattleTabs](https://mikecann.co.uk/posts/introducing-battletabs), I wonder what kind of tl;dr it will give me..
+So given this post from my blog: [Introducing BattleTabs](https://mikecann.blog/posts/introducing-battletabs), I wonder what kind of tl;dr it will give me..
 
 [![](./tldr1.png)](./tldr1.png)
 
@@ -72,7 +72,7 @@ It might be worth a shot, it would save me a bunch of time manually going throug
 
 First step was to try out this keyword extractor with my manually-markdown-stripped text from before.
 
-As "[Introducing BattleTabs](https://mikecann.co.uk/posts/introducing-battletabs)" is a fairly recent post it already has some manually hand-crafted tags:
+As "[Introducing BattleTabs](https://mikecann.blog/posts/introducing-battletabs)" is a fairly recent post it already has some manually hand-crafted tags:
 
 ```
 - chrome extension
@@ -94,7 +94,7 @@ Simples! ...
 
 It turns out that stripping the markdown markup from text is actually more complex that I thought it would be. To cut a long story short I decided to render the Markdown to HTML then using Puppeteer I extract the text from the page using `element.textContent`.
 
-I will spare you all the other steps but if you are interested you can checkout the final script [HERE](https://github.com/mikecann/mikecann.co.uk/blob/master/scripts/openAIKeywords.ts).
+I will spare you all the other steps but if you are interested you can checkout the final script [HERE](https://github.com/mikecann/mikecann.blog/blob/master/scripts/openAIKeywords.ts).
 
 # Results
 
@@ -106,7 +106,7 @@ It was able to generate tags for 177 of those 213 posts leaving 39 left over tha
 
 But what about the ones it could find keywords for?
 
-Well firstly the good news, it seems like it was able to find good keywords for some of them. For example [my post titled "Village Life" from back in 2012](https://mikecann.co.uk/posts/village-life) it was able to generate these tags:
+Well firstly the good news, it seems like it was able to find good keywords for some of them. For example [my post titled "Village Life" from back in 2012](https://mikecann.blog/posts/village-life) it was able to generate these tags:
 
 ```
 "mobile",
@@ -218,7 +218,7 @@ Unfortunately I have run out of time to tinker on this little side-quest at the 
 
 My conclusion is that although very impressive, the purpose I used the model for is not quite what I was looking for so in the end I decided not to use the generated tags.
 
-Im 100% sure that this is the future tho. I mentioned [back in 2017](https://mikecann.co.uk/posts/a-game-developer-learns-machine-learning-intent) that:
+Im 100% sure that this is the future tho. I mentioned [back in 2017](https://mikecann.blog/posts/a-game-developer-learns-machine-learning-intent) that:
 
 > I see a future where an AI is capable of generating an entire game based on your preferences such as "I would like a game that plays like Mario but has the same size and scope as World of Warcraft", the AI then generates variants on that for you to play.
 

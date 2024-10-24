@@ -31,7 +31,7 @@ With no other options I decided to call my hosting provider STRATO. It turns out
 
 > Hi
 >
-> A visitor reported that my site was down: [https://www.mikecann.co.uk/](https://www.mikecann.co.uk/). I cant access it either. I have tried to remote into my VM but it wont connect. I have logged into the Strato backend and tried to reboot my machine. It says it has rebooted, but I still cant login or access my site.
+> A visitor reported that my site was down: [https://www.mikecann.blog/](https://www.mikecann.blog/). I cant access it either. I have tried to remote into my VM but it wont connect. I have logged into the Strato backend and tried to reboot my machine. It says it has rebooted, but I still cant login or access my site.
 >
 > Can you help please.
 >

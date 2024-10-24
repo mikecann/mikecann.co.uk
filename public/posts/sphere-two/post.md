@@ -10,6 +10,6 @@ openAIMikesBlogFileId: file-TpywyHDBlpAwO1qi7OzmQTVJ
 This is a heavily modified version of "sphere" and in my opinion its superior
 
 Used: Lightwave 7.5, Photoshop 7
-Download: [1024x768](https://www.mikecann.co.uk/Images/Art-Full/sphere-two.jpg)
+Download: [1024x768](https://www.mikecann.blog/Images/Art-Full/sphere-two.jpg)
 
-![Thumb](https://www.mikecann.co.uk/Images/Art-Thumbs/sphere-two.gif "Thumb")
+![Thumb](https://www.mikecann.blog/Images/Art-Thumbs/sphere-two.gif "Thumb")

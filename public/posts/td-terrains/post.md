@@ -17,6 +17,6 @@ Getting all these to work nice and happily and in an efficient way is proving to
 
 But anyways, enough of that. Time for pretty pictures:
 
-![](https://www.mikecann.co.uk/Work/TDProject/terrain01.jpg)
+![](https://www.mikecann.blog/Work/TDProject/terrain01.jpg)
 
 As you can see Mr Graham 'Golden' Furner has been making good progress on his terrain generation algorithm for the project. Hopefully I will beable to get enough of the structure in place so we can begin to merge the two parts of the project together!

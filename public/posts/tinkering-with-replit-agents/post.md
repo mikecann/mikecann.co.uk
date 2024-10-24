@@ -11,7 +11,7 @@ title: Tinkering With Replit Agents
 openAIMikesBlogFileId: file-cDzsjvo4zzsZh9cxnV5WLJ3g
 ---
 
-I recently took a much-needed vacation to an exotic location. While I was away, I kept a close eye on the [BattleTabs](https://battletabs.com/) servers. Given [our recent global launch](https://mikecann.co.uk/posts/battletabs-global-launch-on-discord-activities), things were still a bit unstable, and traffic was continuing to increase.
+I recently took a much-needed vacation to an exotic location. While I was away, I kept a close eye on the [BattleTabs](https://battletabs.com/) servers. Given [our recent global launch](https://mikecann.blog/posts/battletabs-global-launch-on-discord-activities), things were still a bit unstable, and traffic was continuing to increase.
 
 One issue was that, despite all my best efforts, our worker server was still regularly shutting down and not coming back online.
 
@@ -23,7 +23,7 @@ Technically, this should not have been possible as Fly.io's machines have [an au
 
 Since I was on vacation and didn’t have time to debug the root cause of the issue, I decided the simplest thing to do was to write a script that would continually check if the worker server was alive, and if it wasn't, start it up.
 
-I knew that this script would need to be online all the time, so I started thinking about how to host it. I could have easily used my favorite tool, [Convex](https://mikecann.co.uk/posts/im-now-a-convex-developer-advocate), but I had heard about the recently released [Replit Agents](https://docs.replit.com/replitai/agent), so I thought—why not give that a go?
+I knew that this script would need to be online all the time, so I started thinking about how to host it. I could have easily used my favorite tool, [Convex](https://mikecann.blog/posts/im-now-a-convex-developer-advocate), but I had heard about the recently released [Replit Agents](https://docs.replit.com/replitai/agent), so I thought—why not give that a go?
 
 # Replit Agents
 

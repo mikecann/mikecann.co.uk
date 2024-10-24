@@ -9,4 +9,4 @@ openAIMikesBlogFileId: file-XvABqcNFqaaZMp5RLWD7KukU
 
 Well i thought i would post these intros separate from my old website as its quite a nice demonstration of some of the things i have done in flash over the years. This one is my old intro from my very first website so bear with the unpolished graphics.
 
-[Take a look at it](https://www.mikecann.co.uk/ArtificialStudios1/ArtStu.html)
+[Take a look at it](https://www.mikecann.blog/ArtificialStudios1/ArtStu.html)

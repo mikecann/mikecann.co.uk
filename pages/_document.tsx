@@ -10,7 +10,7 @@ export default class extends Document {
             rel="alternate"
             type="application/rss+xml"
             title="RSS feed for blog posts"
-            href="https://mikecann.co.uk/rss.xml"
+            href="https://mikecann.blog/rss.xml"
           />
           <style
             id="styles-target"
@@ -30,7 +30,7 @@ export default class extends Document {
         </Head>
         <body>
           <Main />
-          <NextScript />   
+          <NextScript />
         </body>
       </Html>
     );

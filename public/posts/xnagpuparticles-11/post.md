@@ -15,6 +15,6 @@ Basically it takes a texture and picks out pixel colours from the texture and ma
 
 I have made a few adjustments to the way the vertex texture system works, now each particle has its own centre of gravity that it revolves about.
 
-You can grab the new binary: [https://www.mikecann.co.uk/Work/XNAGPUParticles_v1-1.zip](https://www.mikecann.co.uk/Work/XNAGPUParticles_v1-1.zip)
+You can grab the new binary: [https://www.mikecann.blog/Work/XNAGPUParticles_v1-1.zip](https://www.mikecann.blog/Work/XNAGPUParticles_v1-1.zip)
 
 As per last time if you wish to see the source please dont hestitate to [email me](https://mailto:mike.cann@gmail.com).

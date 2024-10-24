@@ -11,8 +11,8 @@ const postContentToDescription = (content: string) => {
 export const generateRss = (posts: PostWithContent[]): string => {
   const feed = new RSS({
     title: `Blog - Mike Cann`,
-    site_url: `https://mikecann.co.uk`,
-    feed_url: `https://mikecann.co.uk/rss.xml`,
+    site_url: `https://mikecann.blog`,
+    feed_url: `https://mikecann.blog/rss.xml`,
   });
 
   for (let {
@@ -22,8 +22,8 @@ export const generateRss = (posts: PostWithContent[]): string => {
   } of posts) {
     feed.item({
       title,
-      guid: `https://mikecann.co.uk/posts/${slug}`,
-      url: `https://mikecann.co.uk/posts/${slug}`,
+      guid: `https://mikecann.blog/posts/${slug}`,
+      url: `https://mikecann.blog/posts/${slug}`,
       date: new Date(date).toUTCString(),
       description: postContentToDescription(content),
       author: `Mike Cann`,

@@ -10,6 +10,6 @@ openAIMikesBlogFileId: file-h0t7BSmHhynQj8QHJ9eKS4up
 > Chains was created in one of my more "dark" moments I wanted to get more volumetric shadowing on it but by the time it finished rendering i was no-longer in my dark mood so decided to leave it
 
 Used: Lightwave 7.5, Photoshop 7
-Download: [1024x768](https://www.mikecann.co.uk/Images/Art-Full/chains.jpg)
+Download: [1024x768](https://www.mikecann.blog/Images/Art-Full/chains.jpg)
 
-![Thumb](https://www.mikecann.co.uk/Images/Art-Thumbs/chains.gif "Thumb")
+![Thumb](https://www.mikecann.blog/Images/Art-Thumbs/chains.gif "Thumb")

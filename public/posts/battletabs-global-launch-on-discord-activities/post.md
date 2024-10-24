@@ -10,7 +10,7 @@ title: BattleTabs Global Launch on Discord Activities
 openAIMikesBlogFileId: file-802UFT3PSJBpZvskbMvewW8I
 ---
 
-For the [longest time](https://mikecann.co.uk/posts/battletabs-6-months-later), Gangbusters has been a Discord-focused company. We use it as our primary method of interacting with our community, receiving bug reports, and gathering feature suggestions.
+For the [longest time](https://mikecann.blog/posts/battletabs-6-months-later), Gangbusters has been a Discord-focused company. We use it as our primary method of interacting with our community, receiving bug reports, and gathering feature suggestions.
 
 So when [we heard about](https://venturebeat.com/games/discord-launches-activities-with-light-games-and-a-new-app-store/) Discord's intention to make games playable within the app itself, we knew it was a strong opportunity for our game [BattleTabs](https://battletabs.com/).
 

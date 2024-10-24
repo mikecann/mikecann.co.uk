@@ -29,4 +29,4 @@ or at: [https://www.mr-nibbles.com](https://www.mr-nibbles.com)
 
 For once I actually finished one of my projects :) Im really happy with how the whole thing went, sure it went a couple of weeks over my original three-week estimate but still im happy with the result. Of course there is so much that could be improved, but for a free game made in a very short time I think it has done
 
-Checkout more mr-nibbles posts: [https://www.mikecann.co.uk/category/myprojects/mr-nibbles-myprojects/](https://www.mikecann.co.uk/category/myprojects/mr-nibbles-myprojects/)
+Checkout more mr-nibbles posts: [https://www.mikecann.blog/category/myprojects/mr-nibbles-myprojects/](https://www.mikecann.blog/category/myprojects/mr-nibbles-myprojects/)

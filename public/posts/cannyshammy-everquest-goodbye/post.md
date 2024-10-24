@@ -11,4 +11,4 @@ openAIMikesBlogFileId: file-tMK20kdx53wI40RIpLwr6IbR
 
 <!-- more -->
 
-**Link:** [Peeky Peeky](https://www.mikecann.co.uk/flash/cannyshammy2.html)
+**Link:** [Peeky Peeky](https://www.mikecann.blog/flash/cannyshammy2.html)

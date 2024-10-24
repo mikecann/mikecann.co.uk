@@ -10,7 +10,7 @@ title: 'Tinkering With AI App Generators - LazyAI, Pythagora.ai'
 openAIMikesBlogFileId: file-lV6fAj1gU5fDjEc3pcj7YENp
 ---
 
-As is [rapidly becoming a trend](https://mikecann.co.uk/posts/tinkering-with-spacetime-db) in my tinkering adventures, today's post chronicles a bit of a failed adventure. But that's okay, it's always good to explore and learn, particularly in the rapidly evolving field of AI.
+As is [rapidly becoming a trend](https://mikecann.blog/posts/tinkering-with-spacetime-db) in my tinkering adventures, today's post chronicles a bit of a failed adventure. But that's okay, it's always good to explore and learn, particularly in the rapidly evolving field of AI.
 
 # LazyAI
 
@@ -22,7 +22,7 @@ Its tagline is "Idea to software 10X faster." Let's see how it does.
 
 # The Project
 
-As I am [a massive Convex.dev fan](https://mikecann.co.uk/posts/im-now-a-convex-developer-advocate), I knew it had to be something Convex related. I felt like this could be tough for the AI, as Convex is not as well-known yet, and so the LLM may not have as much pre-trained knowledge.
+As I am [a massive Convex.dev fan](https://mikecann.blog/posts/im-now-a-convex-developer-advocate), I knew it had to be something Convex related. I felt like this could be tough for the AI, as Convex is not as well-known yet, and so the LLM may not have as much pre-trained knowledge.
 
 Something I had wanted to experiment with for a while was some sort of visualization for Convex database schemas so you can see the relationship between tables and types. I was imagining some sort of class diagram:
 

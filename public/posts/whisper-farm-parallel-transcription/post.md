@@ -32,7 +32,7 @@ I aimed to speed up podcast transcription by parallelizing the task into separat
 
 Each Fly.io machine runs a single Docker container with a Whisper binary from [whisper-standalone-win](https://github.com/Purfview/whisper-standalone-win), an [FFmpeg](https://github.com/kribblo/node-ffmpeg-installer) binary, and a Node.js "worker" for "chunking" or "transcription" jobs.
 
-To orchestrate this, I used [Convex](https://convex.dev), an excellent backend as a service that I’ve discussed [many times before](https://mikecann.co.uk/tags/convex).
+To orchestrate this, I used [Convex](https://convex.dev), an excellent backend as a service that I’ve discussed [many times before](https://mikecann.blog/tags/convex).
 
 # Challenges
 

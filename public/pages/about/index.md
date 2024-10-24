@@ -3,7 +3,7 @@ date: 2007-09-14 16:25:48
 openAIMikesBlogFileId: file-NQ33YPlykfxMZizEp13t3U8a
 ---
 
-[![Me Professional](https://www.mikecann.co.uk/wp-content/uploads/2007/09/Me-Professional.png)](https://www.mikecann.co.uk/wp-content/uploads/2007/09/Me-Professional.png)
+[![Me Professional](https://www.mikecann.blog/wp-content/uploads/2007/09/Me-Professional.png)](https://www.mikecann.blog/wp-content/uploads/2007/09/Me-Professional.png)
 
 Michael Cann was born during the spring of 1985 in the town of Shrewsbury (Shropshire), and raised by his parents in Newport (Shropshire). Ever since he first play on a Sega Mega-Drive he was fascinated by the inner workings of software and games alike. He was determined to find out how people had made Sonic and [James Pond](https://en.wikipedia.org/wiki/James_Pond_2) and other games that had captured his interest so much.
 
@@ -34,7 +34,7 @@ The third year of University was an industrial placement year for Michael. He ha
 
 Having completed his 12 month placement at Rockpool he continued to do freelance contracting work over the summer of 2006\. The work included development in Flash, Javascript, HTML and PHP. He also launched the second version of his personal site Artificial Studios 2.
 
-![](https://www.mikecann.co.uk/Work/CRImages/CR01.png "ChainReaction")
+![](https://www.mikecann.blog/Work/CRImages/CR01.png "ChainReaction")
 
 In September 2006 he returned to Huddersfield for his fourth and final year of university. That year he learnt many new languages and techniques including GPU programming with HLSL and XNA with C#. His theme for projects throughout the year was particle systems. One such project he taught himself [techniques](/hlsl/shadowshader-in-rendermonkey/) for updating and rendering [many millions of state preserving particles](/c/hlsl/xna/xnagpuparticles-1000000-dynamic-particles/) purely on the GPU.
 
@@ -68,6 +68,6 @@ Later in 2018 mike left GenVis to join an exciting blockchain based development 
 
 Early 2019 saw mike co-found Markd a SAAS company dedicated to making remembering people simple fast and fun. He currently works full time on the product while loving life in sunny Western Australia.
 
-Late in 2019 Markd pivoted from building a CMS to building a games company working on a web and chrome extension game BattleTabs. Later in 2022 the company was renamed to Gangbusters. More on the history of the game and company on this post: https://mikecann.co.uk/posts/battletabs-in-7-minutes
+Late in 2019 Markd pivoted from building a CMS to building a games company working on a web and chrome extension game BattleTabs. Later in 2022 the company was renamed to Gangbusters. More on the history of the game and company on this post: https://mikecann.blog/posts/battletabs-in-7-minutes
 
 Since then the company has grown in size and has taken on a number of full time and part time staff members while they ramp up their success on BattleTabs into a full mobile release.

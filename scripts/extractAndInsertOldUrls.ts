@@ -3,7 +3,7 @@ import { join } from "path";
 import matter from "gray-matter";
 import { writeFileSync } from "fs";
 
-const oldPostsDir = `C:/dev/me/OLD_mikecann.co.uk/public`;
+const oldPostsDir = `C:/dev/me/OLD_mikecann.blog/public`;
 const postsDirectory = join(process.cwd(), "public/posts");
 
 const iterateOldPostsDir = () => {

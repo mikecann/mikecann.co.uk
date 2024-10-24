@@ -9,7 +9,7 @@ oldUrl: /misc/chat-for-trello-a-trello-chat-rewrite
 openAIMikesBlogFileId: file-416xF8MFDmhuIDknqXB6ZGay
 ---
 
-In the [spirit of repeating myself](http://mikecann.co.uk/tasks-for-trello/tasks-for-trello-a-trello-tasks-rewrite/). I have decided to rewrite another one of my chrome extensions.
+In the [spirit of repeating myself](http://mikecann.blog/tasks-for-trello/tasks-for-trello-a-trello-tasks-rewrite/). I have decided to rewrite another one of my chrome extensions.
 
 <!-- more -->
 
@@ -23,7 +23,7 @@ It basically adds chat functionality to a Trello Board.
 
 # Whats changed since Trello Chat?
 
-As with my [Tasks for Trello rewrite](http://mikecann.co.uk/tasks-for-trello/tasks-for-trello-a-trello-tasks-rewrite/) 99% of the source is new, using modern development practices.
+As with my [Tasks for Trello rewrite](http://mikecann.blog/tasks-for-trello/tasks-for-trello-a-trello-tasks-rewrite/) 99% of the source is new, using modern development practices.
 
 I borrowed many of the components and functionality from Tasks for Trello so the browser-action and settings page looks good and is clear and easy to understand:
 

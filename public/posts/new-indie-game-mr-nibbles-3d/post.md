@@ -11,13 +11,13 @@ In-between the downtime of the main game (yet to be announced) I decided to expe
 
 <!-- more -->
 
-A couple of years ago I released a totally free game [Mr Nibbles](https://www.mikecann.co.uk/portfolio/mr-nibbles-2/), a project I worked on with a colleague from Playdemic. As part of my employment contract at Playdemic I was unable to make any money from games produced in my spare time so I decided to run the project as a challenge to myself; could I make a cross-platform mobile game in 3 weeks of evenings and weekends? Well it actually took 5 weeks but I was pretty happy with the result. Currently it has 25k downloads on android:
+A couple of years ago I released a totally free game [Mr Nibbles](https://www.mikecann.blog/portfolio/mr-nibbles-2/), a project I worked on with a colleague from Playdemic. As part of my employment contract at Playdemic I was unable to make any money from games produced in my spare time so I decided to run the project as a challenge to myself; could I make a cross-platform mobile game in 3 weeks of evenings and weekends? Well it actually took 5 weeks but I was pretty happy with the result. Currently it has 25k downloads on android:
 
-[![screenshot_001](https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_001-1024x492.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_001.png)
+[![screenshot_001](https://www.mikecann.blog/wp-content/uploads/2014/07/screenshot_001-1024x492.png)](https://www.mikecann.blog/wp-content/uploads/2014/07/screenshot_001.png)
 
 And 23k on iOS
 
-[![screenshot_002](https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_002-1024x539.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/07/screenshot_002.png)
+[![screenshot_002](https://www.mikecann.blog/wp-content/uploads/2014/07/screenshot_002-1024x539.png)](https://www.mikecann.blog/wp-content/uploads/2014/07/screenshot_002.png)
 
 Not bad considering we did no marketing whatsoever.
 

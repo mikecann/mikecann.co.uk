@@ -28,17 +28,17 @@ const Page = ({ tags }: Props) => {
     <ConvexProvider client={client}>
       <ResponsiveSidebarLayouts>
         <Head>
-          <title key="title">stash - mikecann.co.uk</title>
+          <title key="title">stash - mikecann.blog</title>
         </Head>
         <Vertical className="stash-page" style={{ marginBottom: 20, overflowX: "hidden" }}>
           <img src="/images/stashit-logo.png" width="200px" style={{}} />
           <h1 style={{ margin: "0px" }}>My Stash</h1>
           <p>
             Articles that I have been reading lately.. This is part of my{" "}
-            <a href="https://mikecann.co.uk/posts/introducing-stashit">StashIt</a> project. Read
-            more about it here:{" "}
-            <a href="https://mikecann.co.uk/posts/introducing-stashit">
-              https://mikecann.co.uk/posts/introducing-stashit
+            <a href="https://mikecann.blog/posts/introducing-stashit">StashIt</a> project. Read more
+            about it here:{" "}
+            <a href="https://mikecann.blog/posts/introducing-stashit">
+              https://mikecann.blog/posts/introducing-stashit
             </a>
           </p>
           <Items />

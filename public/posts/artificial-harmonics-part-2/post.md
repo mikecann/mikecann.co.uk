@@ -11,7 +11,7 @@ openAIMikesBlogFileId: file-exmUpYMEO73nBISDsFdRJHud
 
 ![](/wp-content/uploads/Image/AS.gif)\*\*
 
-**Artist:** [Artificial](https://www.mikecann.co.uk/www.artificial-studios.co.uk) ** Genre:** downtempo / chillout / pop
+**Artist:** [Artificial](https://www.mikecann.blog/www.artificial-studios.co.uk) ** Genre:** downtempo / chillout / pop
 
 Well its a long time in the coming but here it is, the second part of my Harmonics series. I started this thing about four months ago and only now have i found the time to complete it. Its a little shorter than the previous version mainly because i ran out of tracks that fit the flow of the set. Im extremely happy with the first half but the second half, im not entirely sure, give it a listen and leave me a comment of what u think :)<!-- more -->
 

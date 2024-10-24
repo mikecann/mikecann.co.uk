@@ -32,7 +32,7 @@ import haxe.Http;
 /\*\*
 
 - ...
-- @author mikecann.co.uk
+- @author mikecann.blog
   \*/
 
 class URLParser
@@ -97,20 +97,20 @@ public var anchor : String;
 So for example the following use:
 
 ```haxe
-trace(new URLParser("https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home"));
+trace(new URLParser("https://www.mikecann.blog/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home"));
 ```
 
 Will print the following:
 
 ```
-For Url -> https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
-source: https://www.mikecann.co.uk/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
+For Url -> https://www.mikecann.blog/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
+source: https://www.mikecann.blog/programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
 protocol: http
-authority: www.mikecann.co.uk
+authority: www.mikecann.blog
 userInfo: undefined
 user: undefined
 password: undefined
-host: www.mikecann.co.uk
+host: www.mikecann.blog
 port: undefined
 relative: /programming/haxe/haxe-jqueryextern-gotcha?somevar=1242#home
 path: /programming/haxe/haxe-jqueryextern-gotcha

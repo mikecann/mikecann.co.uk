@@ -14,7 +14,7 @@ type Props = {
 const About = ({ content }: Props) => (
   <ResponsiveSidebarLayouts>
     <Head>
-      <title key="title">about - mikecann.co.uk</title>
+      <title key="title">about - mikecann.blog</title>
     </Head>
     <Vertical
       style={{

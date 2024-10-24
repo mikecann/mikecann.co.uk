@@ -13,4 +13,4 @@ The theme of the project was maze generation and AI solving. I developed my own 
 
 Used: Microsoft Visual Studio .NET (DirectX 9c), 3DS Max <span>\*\*
 
-Download:\*\* [MazeHunt-1-00.zip](https://www.mikecann.co.uk/Files/MazeHunt-1-00.zip) (694 KB)</span>
+Download:\*\* [MazeHunt-1-00.zip](https://www.mikecann.blog/Files/MazeHunt-1-00.zip) (694 KB)</span>

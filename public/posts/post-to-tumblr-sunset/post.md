@@ -14,15 +14,15 @@ Well all good things must come to an end and Post To Tumblr has had 14 excellent
 
 # History
 
-[12 years ago](https://mikecann.co.uk/posts/my-first-chrome-extension-post-to-tumblr) I posted about my first Chrome Extension ever. A little tool to help with posting content to the (at the time popular) micro blogging platform Tumblr.
+[12 years ago](https://mikecann.blog/posts/my-first-chrome-extension-post-to-tumblr) I posted about my first Chrome Extension ever. A little tool to help with posting content to the (at the time popular) micro blogging platform Tumblr.
 
 The concept was simple. Allow people to quickly post content to Tumblr by simply right clicking on it.
 
-[![](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_002.png)](https://mikecann.co.uk/wp-content/uploads/2010/10/Shot_002.png)
+[![](https://mikecann.blog/wp-content/uploads/2010/10/Shot_002.png)](https://mikecann.blog/wp-content/uploads/2010/10/Shot_002.png)
 
-Since that humble beginning I slowly started adding more and more features such as [post preformatting](https://mikecann.co.uk/posts/post-to-tumblr-version-0-4) and [custom context menus](https://mikecann.co.uk/posts/post-to-tumblr-v6-16-templated-variables).
+Since that humble beginning I slowly started adding more and more features such as [post preformatting](https://mikecann.blog/posts/post-to-tumblr-version-0-4) and [custom context menus](https://mikecann.blog/posts/post-to-tumblr-v6-16-templated-variables).
 
-[![](https://www.mikecann.co.uk/wp-content/uploads/2016/06/chrome_2016-06-26_15-15-13.png)](https://www.mikecann.co.uk/wp-content/uploads/2016/06/chrome_2016-06-26_15-15-13.png)
+[![](https://www.mikecann.blog/wp-content/uploads/2016/06/chrome_2016-06-26_15-15-13.png)](https://www.mikecann.blog/wp-content/uploads/2016/06/chrome_2016-06-26_15-15-13.png)
 
 Over time the extension grew in popularity, reaching a peak of about 50,000 weekly users:
 

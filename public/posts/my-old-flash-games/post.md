@@ -17,9 +17,9 @@ Just a small post today sharing with you a really cool project that I have only 
 
 For new readers of this blog you may not be aware of my long history in building flash content. In fact some of my earliest posts to this blog (14 years ago) were about my (now defunct) Flash website Artifical Studios [way back in 2004](/posts/artificial-sudios-1).
 
-Since then I have worked on [many websites, projects and games](https://mikecann.co.uk/tags/flash) built in Flash both personally [and professionally](/posts/gourmet-ranch).
+Since then I have worked on [many websites, projects and games](https://mikecann.blog/tags/flash) built in Flash both personally [and professionally](/posts/gourmet-ranch).
 
-Some of the Games I built [ended up being fairly popular](https://mikecann.co.uk/posts/1000000-views).
+Some of the Games I built [ended up being fairly popular](https://mikecann.blog/posts/1000000-views).
 
 The problem is because Flash is now [effectively dead](https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update.html) on the web all my old content has stopped working.
 

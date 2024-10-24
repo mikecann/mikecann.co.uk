@@ -75,7 +75,7 @@ And that's about it, functionality-wise—nice and simple, but very useful.
 
 Oh, one more thing: because I built it, I can tailor specific functionality to suit me.
 
-For example, this blog now has an additional page: https://mikecann.co.uk/stash
+For example, this blog now has an additional page: https://mikecann.blog/stash
 
 ![Blog Page Image](./blogpage.webp)
 
@@ -106,7 +106,7 @@ This blog post would turn into a book if I talked about each of those, so instea
 
 ![Convex Image](./convex.webp)
 
-A fantastic experience, [as always](https://mikecann.co.uk/posts/tinkering-with-convex). It's always a pleasure to start a new project with Convex. The speed at which I can get going and how clear the data model is—it's just a joy.
+A fantastic experience, [as always](https://mikecann.blog/posts/tinkering-with-convex). It's always a pleasure to start a new project with Convex. The speed at which I can get going and how clear the data model is—it's just a joy.
 
 However, I bumped into an issue I've mentioned before.
 
@@ -144,7 +144,7 @@ So yeah, I don't think I'll go with Next.js next time.
 
 ![Capgo Image](./capgo.webp)
 
-[BattleTabs](https://mikecann.co.uk/posts/introducing-battletabs) is built on Capacitor, so I decided to go with it for the mobile app for this project too.
+[BattleTabs](https://mikecann.blog/posts/introducing-battletabs) is built on Capacitor, so I decided to go with it for the mobile app for this project too.
 
 BattleTabs works by simply iframing https://battletabs.io. This means updates are a breeze, as we simply need to reload the iframe within the Capacitor wrapper to have it auto-update.
 

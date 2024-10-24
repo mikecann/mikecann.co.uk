@@ -14,7 +14,7 @@ const Page = ({ tags }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
       <Head>
-        <title key="title">tags - mikecann.co.uk</title>
+        <title key="title">tags - mikecann.blog</title>
       </Head>
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={[5, 20]} style={{ alignItems: "center" }}>

@@ -79,7 +79,7 @@ Every page is grouped by its domain and is represented by a circular "node".
 
 [![](/wp-content/uploads/2012/12/Screenshot_013.png "Screenshot_013")](/wp-content/uploads/2012/12/Screenshot_013.png)
 
-So for example "/posts/tinkering-with-typescript/" would be grouped under the "mikecann.co.uk" domain. Any other pages found while running that match this domain are added as little page icons inside the host node.
+So for example "/posts/tinkering-with-typescript/" would be grouped under the "mikecann.blog" domain. Any other pages found while running that match this domain are added as little page icons inside the host node.
 
 [![](/wp-content/uploads/2012/12/Screenshot_014.png "Screenshot_014")](/wp-content/uploads/2012/12/Screenshot_014.png)
 

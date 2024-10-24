@@ -39,13 +39,13 @@ const PostPage = ({ post, html }: Props) => {
   return (
     <Layout>
       <Head>
-        <title key="title">{`${title} - mikecann.co.uk`}</title>
+        <title key="title">{`${title} - mikecann.blog`}</title>
         <meta property="og:title" content={`${title}`} key="og-title" />
-        <meta property="og:site_name" content="MikeCann.co.uk" key="og-site_name" />
-        <meta property="og:url" content={`https://mikecann.co.uk/posts/${slug}`} key="og-url" />
+        <meta property="og:site_name" content="mikecann.blog" key="og-site_name" />
+        <meta property="og:url" content={`https://mikecann.blog/posts/${slug}`} key="og-url" />
         <meta
           property="og:image"
-          content={`https://mikecann.co.uk` + getPostRootCoverImagePath(post)}
+          content={`https://mikecann.blog` + getPostRootCoverImagePath(post)}
           key="og-image"
         />
       </Head>

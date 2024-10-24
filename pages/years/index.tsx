@@ -14,7 +14,7 @@ const Page = ({ postsByYear }: Props) => {
   return (
     <ResponsiveSidebarLayouts>
       <Head>
-        <title key="title">archive - mikecann.co.uk</title>
+        <title key="title">archive - mikecann.blog</title>
       </Head>
       <Vertical style={{ marginBottom: 20 }}>
         <Grid width="100%" spacing={20} style={{ alignItems: "start" }}>

@@ -19,6 +19,6 @@ I personally worked on the engine of the game, the menus were done by another te
 
 Anyways, to play this game you will need the XNA runtimes, use [THIS](https://xnamatrix.com/xnareq.php) to get them installed.
 
-Once that is done you can go ahead and dowload the game [HERE](https://www.mikecann.co.uk/Work/Portal2D_Alpha1.zip).
+Once that is done you can go ahead and dowload the game [HERE](https://www.mikecann.blog/Work/Portal2D_Alpha1.zip).
 
 Enjoy!

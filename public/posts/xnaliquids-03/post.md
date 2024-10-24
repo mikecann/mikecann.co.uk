@@ -15,4 +15,4 @@ When i got home i tested out my theroy and the results can be seen below. Its pr
 
 Oh BTW grant kot has been working on his polluted planet some more, and its starting to look quite impressive now its over in XNA: [link1](https://kotsoft.googlepages.com/multifluidvideo1.html), [link2](https://kotsoft.googlepages.com/)
 
-<flv autostart="false" height="375" width="500" href="https://www.mikecann.co.uk/Files/Upload/files/xnaLiquid03.flv"></flv>
+<flv autostart="false" height="375" width="500" href="https://www.mikecann.blog/Files/Upload/files/xnaLiquid03.flv"></flv>

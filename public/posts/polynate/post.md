@@ -12,4 +12,4 @@ openAIMikesBlogFileId: file-0GprY8Tuh3Psbp6UHYB6uDae
 I made this one last night while i was messing around. Its a duel-screen piece and took me about 2 hours to complete. I think its need a little more work but it looks okay on my desktop at the moment ;)<!-- more -->
 **
 Used:** Photoshop
-**Download:** [2864x1024](https://www.mikecann.co.uk/Images/Art-Full/polynate.png)
+**Download:** [2864x1024](https://www.mikecann.blog/Images/Art-Full/polynate.png)

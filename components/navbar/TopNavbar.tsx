@@ -15,19 +15,19 @@ export const TopNavbar: React.FC<Props> = () => {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      const isAtTop = currentScrollY === 0
-      const isScrollingUp = currentScrollY < lastScrollY.current
+      const currentScrollY = window.scrollY;
+      const isAtTop = currentScrollY === 0;
+      const isScrollingUp = currentScrollY < lastScrollY.current;
 
-      setShouldShow(isAtTop || isScrollingUp)
-      lastScrollY.current = currentScrollY
-    }
+      setShouldShow(isAtTop || isScrollingUp);
+      lastScrollY.current = currentScrollY;
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    handleScroll() // Initial check
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial check
 
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
@@ -61,7 +61,7 @@ export const TopNavbar: React.FC<Props> = () => {
           className="navbar-title"
           style={{ fontSize: "1.2rem", fontWeight: "bold", opacity: 0.5, color: "#333" }}
         >
-          <Link href="/">mikecann.co.uk</Link>
+          <Link href="/">mikecann.blog</Link>
         </div>
 
         <StretchSpacer />

@@ -75,7 +75,7 @@ Since launch we have run most of our infrastructure on Heroku which has been gre
 
 ## Client State
 
-Recently we also changed the way state is managed in the client over from [MobX State Tree](https://github.com/mobxjs/mobx-state-tree) (MST) to just [MobX](https://mobx.js.org/README.html). Although [I am a fan of MST](https://mikecann.co.uk/posts/mst-libs) we have found that it unfortunately doesn't play very well with Typescript once your store reaches a certain size.
+Recently we also changed the way state is managed in the client over from [MobX State Tree](https://github.com/mobxjs/mobx-state-tree) (MST) to just [MobX](https://mobx.js.org/README.html). Although [I am a fan of MST](https://mikecann.blog/posts/mst-libs) we have found that it unfortunately doesn't play very well with Typescript once your store reaches a certain size.
 
 MST relies on a lot of type inference and union types and if you have been around Typescript for a while you will know that this specific combination of characteristics can quickly lead to a combinatorial explosion of types causing slow compile times and a poor IDE experience.
 

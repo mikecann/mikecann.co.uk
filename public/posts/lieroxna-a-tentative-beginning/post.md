@@ -7,7 +7,7 @@ oldUrl: /c/lieroxna-a-tentative-beginning
 openAIMikesBlogFileId: file-wY3ivp2FuxteHRE7ncHzVJJD
 ---
 
-Okay I have decided to start a new mini pet project. As you may have guessed by now I have stopped work on the [TDProject](https://www.mikecann.co.uk/?p=170). The reason is that it is too large of a project to take on at the same time as having a job, should I ever find myself without a job in the future I may pick it up again.
+Okay I have decided to start a new mini pet project. As you may have guessed by now I have stopped work on the [TDProject](https://www.mikecann.blog/?p=170). The reason is that it is too large of a project to take on at the same time as having a job, should I ever find myself without a job in the future I may pick it up again.
 
 <!-- more -->
 
@@ -17,4 +17,4 @@ So far im just playing around with getting the core of the engine up and running
 
 Anyways, as I said its just a beginning for now. So far I have a level rendered with a terrain map, an explosion map (renders explosions to the texture each frame if any occurred) and a collision map which allows objects to collide. With the left mouse button you can blow holes in the terrain which in turn updates the collision map allowing the worm to move around more of the level.
 
-[![](https://www.mikecann.co.uk/Images/LieroXNA/lieroxna01.jpg)](https://www.mikecann.co.uk/Images/LieroXNA/lieroxna01.jpg)
+[![](https://www.mikecann.blog/Images/LieroXNA/lieroxna01.jpg)](https://www.mikecann.blog/Images/LieroXNA/lieroxna01.jpg)

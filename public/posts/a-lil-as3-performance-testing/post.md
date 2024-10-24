@@ -9,7 +9,7 @@ openAIMikesBlogFileId: file-hW3O0XyV0kIO5G9SiIii0Blv
 
 While i have been thinking about what im going to work on for my next flash game i have decided to look abit into whether doing destructible landscapes is now feasible with the new (ish) bitmap abilities.
 
-Because of my earlier work on destructible landscapes on [LieroXNA ](https://www.mikecann.co.uk/?p=208)i know where the potential performance bottlenecks lie.
+Because of my earlier work on destructible landscapes on [LieroXNA ](https://www.mikecann.blog/?p=208)i know where the potential performance bottlenecks lie.
 
 One of these is the reading of the pixel data to perform collision checks. This has to be quick as all the objects must check each frame to see if they collide with the terrain and potentially more than one "lookup" must happen to do this (pixel perfect collisions).
 
@@ -285,5 +285,5 @@ TRANSPARRENT BITMAP: 1779
 
 So as you can see it looks like the ByteArray and the Array are about as fast as each other as is the Bitmap read and Transparrent Bitmap read.
 
-You can grab this project here: [https://www.mikecann.co.uk/Files/Destructable.zip](https://www.mikecann.co.uk/Files/Destructable.zip)
+You can grab this project here: [https://www.mikecann.blog/Files/Destructable.zip](https://www.mikecann.blog/Files/Destructable.zip)
 ````

@@ -41,4 +41,4 @@ The tracklist is as follows:
 <div id="_mcePaste">11\. Telefon Tel Aviv - What it was Will Never Again</div>
 <div id="_mcePaste">12\. Max Richter - Vladimir's Blues</div>
 <div id="_mcePaste">13\. Sigur Ros - Hoppipollo</div>
-If you liked this mix and havent heard my other ones then you can grab those here: [https://www.mikecann.co.uk/misc/sound-cloud-previous-mixes/](https://www.mikecann.co.uk/misc/sound-cloud-previous-mixes/)
+If you liked this mix and havent heard my other ones then you can grab those here: [https://www.mikecann.blog/misc/sound-cloud-previous-mixes/](https://www.mikecann.blog/misc/sound-cloud-previous-mixes/)

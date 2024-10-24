@@ -14,7 +14,7 @@ Im very proud to announce my latest project [AboveUnder.com](https://AboveUnder.
 
 <!-- more -->
 
-As mentioned in a [previous post I recently invested in](https://www.mikecann.co.uk/travel/camping-australia-2017-the-plan/) a DJI Mavic Pro for my up and coming 5-month camping trip around Australia. Well I knew that I wanted a place that I could showcase all of the awesome photos and videos that im going to take as we go around.
+As mentioned in a [previous post I recently invested in](https://www.mikecann.blog/travel/camping-australia-2017-the-plan/) a DJI Mavic Pro for my up and coming 5-month camping trip around Australia. Well I knew that I wanted a place that I could showcase all of the awesome photos and videos that im going to take as we go around.
 
 Currently the selection of photos in the [Print Store](https://aboveunder.com/collections/all) is a little bit limited but I expect that to grow rapidly after we hit the road this Friday.
 

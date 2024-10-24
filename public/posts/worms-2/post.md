@@ -15,4 +15,4 @@ Worms two was the third project I undertook during my stay at [Rockpool Games](h
 Despite this it was phenominally successfull scoring [game of the month as Orange Mobile](https://www1.orange.co.uk/entertainment/games/gameDownloadsArchive/worms.php) and getting a perfect 10/10 score from the Total Mobile Magazine
 ![worms.png](/wp-content/uploads/2006/06/worms.png)
 
-[Worms_Total Mobile.pdf](https://www.mikecann.co.uk/Worms_Total%20Mobile.pdf "Worms_Total Mobile.pdf")
+[Worms_Total Mobile.pdf](https://www.mikecann.blog/Worms_Total%20Mobile.pdf "Worms_Total Mobile.pdf")

@@ -7,7 +7,7 @@ oldUrl: /c/new-project-started-towerdefence
 openAIMikesBlogFileId: file-4g8c0J6fy6slsXz8lgeyhQ1i
 ---
 
-I always need something to be working on in my free time. All this year it has been my [University](https://www.mikecann.co.uk/?p=163) [projects](https://www.mikecann.co.uk/?p=168) [that](https://www.mikecann.co.uk/?p=162) have been keeping me busy. But now all i have left is one exam I have been seeking a new project that I can undertake.
+I always need something to be working on in my free time. All this year it has been my [University](https://www.mikecann.blog/?p=163) [projects](https://www.mikecann.blog/?p=168) [that](https://www.mikecann.blog/?p=162) have been keeping me busy. But now all i have left is one exam I have been seeking a new project that I can undertake.
 
 <!-- more -->
 
@@ -29,4 +29,4 @@ So the project has now started, I have enlisted the help of my flatmate and cour
 
 I have been working on getting an engine up and working and the basics of the tool ready for furthur development. So far there isnt a whole lot to see, I have been working through Michael Schuld's exellent [tutorials on 3D XNA games engines](https://www.thehazymind.com/archives/2006/08/introduction_to.htm). And have now got a basic 3D engine up and running although it doesnt look much like a tool yet, but expect more very soon!
 
-![](https://www.mikecann.co.uk/Work/TDProject/engine01.png)
+![](https://www.mikecann.blog/Work/TDProject/engine01.png)

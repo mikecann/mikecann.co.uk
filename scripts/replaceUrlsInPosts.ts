@@ -3,7 +3,7 @@ import { join } from "path";
 
 const postsDirectory = join(process.cwd(), "public/posts");
 
-const regex = new RegExp("(https://mikecann.co.uk)/(.*)/(.*)", "g");
+const regex = new RegExp("(https://mikecann.blog)/(.*)/(.*)", "g");
 
 async function bootstrap() {
   for (let filename of fs.readdirSync(postsDirectory)) {
@@ -14,7 +14,6 @@ async function bootstrap() {
     const match = regex.exec(fileContents);
 
     if (!match) continue;
-
 
     console.log(filename, match?.length, fileContents.length);
   }

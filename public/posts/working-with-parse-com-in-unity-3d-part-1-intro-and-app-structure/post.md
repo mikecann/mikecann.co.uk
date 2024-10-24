@@ -14,13 +14,13 @@ openAIMikesBlogFileId: file-CI9Tx2Rg3PCAEt9xnJtuSKg3
 >
 > Part 1 - Intro and App Structure
 >
-> [Part 2 - Services, Helpers and Looming](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)
+> [Part 2 - Services, Helpers and Looming](https://www.mikecann.blog/programming/working-with-parse-com-in-unity-part-2-services-helpers-and-looming/)
 >
-> [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
+> [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.blog/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
 
 <!-- more -->
 
-For a while it has been my intention to follow up [my work with Parse.com in Unity](https://www.mikecann.co.uk/programming/fixing-unitys-internal-compiler-error/), but other things have always gotten in the way and thus I have only just managed to get round to it.
+For a while it has been my intention to follow up [my work with Parse.com in Unity](https://www.mikecann.blog/programming/fixing-unitys-internal-compiler-error/), but other things have always gotten in the way and thus I have only just managed to get round to it.
 
 Over the past 9 months of working with Parse I have encountered some pretty nasty issues which I decided to solidify by putting together this guide and [sample project](https://github.com/mikecann/ParseUnitySampleProject) which I hope will help others out there!
 
@@ -32,12 +32,12 @@ Parse.com is a backend as a service (BaaS). This means they take care of managin
 
 I have been using Parse for most of my projects of late for a few reasons, mainly its ease of use (more of that later) and incredibly generous pricing:
 
-[![2014-11-10_15-58-19](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_15-58-19.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_15-58-19.png)
+[![2014-11-10_15-58-19](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_15-58-19.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_15-58-19.png)
 (thats about 77 million free API requests per month, per app!)
 
 In comparison to the competition its much cheaper, Microsoft's Azure based Mobile Services for example:
 
-[![2014-11-10_16-00-33](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-00-33.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-00-33.png)
+[![2014-11-10_16-00-33](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-00-33.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-00-33.png)
 
 Parse.com features a simple way to store..
 
@@ -100,19 +100,19 @@ Although Parse.com has a Unity SDK that looks very simmilar to the .Net API, the
 
 Firstly, everyone's project structure is different and only experience and time will lead you to your own personal preference. For me, I like to setup my project folder like this:
 
-[![2014-11-10_16-15-46](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-15-46.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-15-46.png)
+[![2014-11-10_16-15-46](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-15-46.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-15-46.png)
 
 One folder for the Unity project, one for the Backend and one Common library that is shared between the two.
 
 If you use Visual studio this can all be set into one solution:
 
-[![2014-11-10_16-17-54](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-17-54.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-17-54.png)
+[![2014-11-10_16-17-54](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-17-54.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-17-54.png)
 
 ### Frontend (ParseUnitySampleProject)
 
 This is the Unity project, you can structure this how you like but I have provided a simple login / signup / logged in menus demo to show how I organise the libraries and code within it:
 
-[![2014-11-10_16-51-47](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-51-47.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-51-47.png)
+[![2014-11-10_16-51-47](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-51-47.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-51-47.png)
 
 ### Common
 
@@ -135,17 +135,17 @@ set { SetProperty<string>(value, "PlayerName"); }
 
 Every time you build the common project the DLL that gets created is automatically copied into the game thanks to the build task:
 
-[![2014-11-10_16-22-42](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-22-42.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-22-42.png)
+[![2014-11-10_16-22-42](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-22-42.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-22-42.png)
 
 ### Backend
 
 The backend contains the code that will run on Parse.com and the associated tests:
 
-[![2014-11-10_16-53-18](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-53-18.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-53-18.png)
+[![2014-11-10_16-53-18](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-53-18.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-53-18.png)
 
 I like to use Typescript for my Parse.com backend and so the project is a Typescript project mixed with C# for unit testing. I have provided my unfinished Typescript definition file for parse.com with the project:
 
-[![2014-11-10_16-54-54](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-54-54.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-10_16-54-54.png)
+[![2014-11-10_16-54-54](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-54-54.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-10_16-54-54.png)
 
 ## To be continued..
 

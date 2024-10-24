@@ -40,7 +40,7 @@ With everything now moved we could finally start to settle in and enjoy the envi
 
 # Starlink
 
-So as I work from home on [BattleTabs](https://mikecann.co.uk/posts/battletabs-in-7-minutes) its essential that I have internet and preferably good internet.
+So as I work from home on [BattleTabs](https://mikecann.blog/posts/battletabs-in-7-minutes) its essential that I have internet and preferably good internet.
 
 Although Busselton is 3 hours south of the capital of WA Perth, it isnt a total backwater. It does have broadband connection in the form of the National Broadband Network (NBN).
 

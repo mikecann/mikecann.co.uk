@@ -7,7 +7,7 @@ oldUrl: /c/towerdefence-a-slow-beginning
 openAIMikesBlogFileId: file-HbQr9jBXSpDkdLXbscCRb9vT
 ---
 
-![](https://www.mikecann.co.uk/Work/TDProject/engine02.png)
+![](https://www.mikecann.blog/Work/TDProject/engine02.png)
 
 Just a quick update on the project, not much to show as of yet. Been working on getting a basic terrain in place with 3D picking so you can place towers on the map.
 

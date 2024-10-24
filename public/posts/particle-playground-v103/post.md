@@ -7,7 +7,7 @@ oldUrl: /actionscript/particle-playground-v103
 openAIMikesBlogFileId: file-vLdJ2eOkLMsBxkS3p2Xf0bgP
 ---
 
-I made some small [heavily requested](https://www.newgrounds.com/portal/reviews/487541) updates to [Particle Playground](https://www.mikecann.co.uk/?p=384) last night, control C, control V log:
+I made some small [heavily requested](https://www.newgrounds.com/portal/reviews/487541) updates to [Particle Playground](https://www.mikecann.blog/?p=384) last night, control C, control V log:
 
 <!-- more -->
 

@@ -9,7 +9,7 @@ oldUrl: /photos-personal/the-new-bike
 openAIMikesBlogFileId: file-pUJY3zjYcYi0YlLUpa5Wb6NA
 ---
 
-Well after the thieving of my bike [a few weeks ago](https://www.mikecann.co.uk/misc/bike-be-gone/) I was offered a new bike as replacement by the insurance company, a Kona Shred, another dirt bike.
+Well after the thieving of my bike [a few weeks ago](https://www.mikecann.blog/misc/bike-be-gone/) I was offered a new bike as replacement by the insurance company, a Kona Shred, another dirt bike.
 
 <!-- more -->
 

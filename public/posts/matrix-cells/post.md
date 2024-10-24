@@ -10,6 +10,6 @@ openAIMikesBlogFileId: file-DJ5hEkGOwVUEUQEqHcslay31
 > This is still one of my personal favourites, i love the green effect of the hypervoxels and the way it goes with the background so well. You could almost imagine that if there was a matrix and the code looks like the background then perhaps the machines are made up of cells that look like these
 
 Used: Lightwave 7.5, Photoshop 7
-Download: [1024x768](https://www.mikecann.co.uk/Images/Art-Full/matrix-cells.jpg)
+Download: [1024x768](https://www.mikecann.blog/Images/Art-Full/matrix-cells.jpg)
 
-![Thumb](https://www.mikecann.co.uk/Images/Art-Thumbs/matrix-cells.gif "Thumb")
+![Thumb](https://www.mikecann.blog/Images/Art-Thumbs/matrix-cells.gif "Thumb")

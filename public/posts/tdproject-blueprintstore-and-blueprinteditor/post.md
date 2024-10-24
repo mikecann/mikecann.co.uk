@@ -7,7 +7,7 @@ oldUrl: /c/tdproject-blueprintstore-and-blueprinteditor
 openAIMikesBlogFileId: file-U3kOptmQEffUNfGVcz5dFWmU
 ---
 
-![](https://www.mikecann.co.uk/Work/TDProject/engine03.png)
+![](https://www.mikecann.blog/Work/TDProject/engine03.png)
 
 Today I added the BlueprintStore and the BlueprintEditor.
 

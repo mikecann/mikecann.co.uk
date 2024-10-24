@@ -161,4 +161,4 @@ To use it in your app just add the component into your existing view somewhere:
 
 Setting the alpha to zero will obviously hide the coloured areas at the side of the window.
 
-Grab the mxml here: [WindowResizer.mxml](https://www.mikecann.co.uk/Files/WindowResizer.mxml)
+Grab the mxml here: [WindowResizer.mxml](https://www.mikecann.blog/Files/WindowResizer.mxml)

@@ -7,7 +7,7 @@ oldUrl: /c/xnaliquids-01
 openAIMikesBlogFileId: file-dSVqOOVBkhOPiZ7se3x8ppjZ
 ---
 
-Well after seeing what [Polluted Planet](https://www.mikecann.co.uk/?p=226) did with large numbers of interactive particles in java, it got me interested.
+Well after seeing what [Polluted Planet](https://www.mikecann.blog/?p=226) did with large numbers of interactive particles in java, it got me interested.
 
 So i have decided to have a go at implementing it myself in XNA.
 

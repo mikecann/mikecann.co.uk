@@ -7,13 +7,13 @@ oldUrl: /audio/artificial-future-harmonics
 openAIMikesBlogFileId: file-z7aU5X8nZx8k8oPJ6Yhq1U8J
 ---
 
-![](https://www.mikecann.co.uk/Images/Others/FutureHarmonics.png)
+![](https://www.mikecann.blog/Images/Others/FutureHarmonics.png)
 
 Its been quite some time indeed since i have released a mix so i decided to make another one. This one is a culmination of several weeks work and im pretty proud of it.
 
 <!-- more -->
 
-Its hard to describe which genre this mix falls into, as the name suggests i was going for a [harmonics ](https://www.mikecann.co.uk/?p=87)style mix but with a more edgey, IDM type feel to it, not sure if i succeeded, but oh well.
+Its hard to describe which genre this mix falls into, as the name suggests i was going for a [harmonics ](https://www.mikecann.blog/?p=87)style mix but with a more edgey, IDM type feel to it, not sure if i succeeded, but oh well.
 
 Didnt manage to fit all the tracks i wanted into this one so they may be a simmilar mix on the way in the near future :)
 

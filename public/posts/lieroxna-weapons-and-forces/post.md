@@ -36,6 +36,6 @@ The size of the world has now been expanded and a simple camera has been added. 
 
 There is still alot of work to be done but im happy with the way it looks at the moment. You will have to excuse the video quality below, flash isnt the best compression for alot of fast moving small particles.
 
-If you want to see a larger less compressed video (35meg) you can [download it HERE](https://www.mikecann.co.uk/Files/Upload/files/boom3.wmv).
+If you want to see a larger less compressed video (35meg) you can [download it HERE](https://www.mikecann.blog/Files/Upload/files/boom3.wmv).
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/PVxXCl4tnsQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>

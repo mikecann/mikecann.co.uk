@@ -19,13 +19,13 @@ I love the Ctrl &amp; click feature in Eclipse/Netbeans and the Go To Definition
 
 **Screenshot**
 
-![](https://www.mikecann.co.uk/Files/GoToS01.png)
+![](https://www.mikecann.blog/Files/GoToS01.png)
 
 **DLL**
-[https://www.mikecann.co.uk/Files/GoToDefinition.dll](https://www.mikecann.co.uk/Files/GoToDefinition.dll)
+[https://www.mikecann.blog/Files/GoToDefinition.dll](https://www.mikecann.blog/Files/GoToDefinition.dll)
 
 **Source**
-[https://www.mikecann.co.uk/Files/GoToDefinition_source.zip](https://www.mikecann.co.uk/Files/GoToDefinition_source.zip)
+[https://www.mikecann.blog/Files/GoToDefinition_source.zip](https://www.mikecann.blog/Files/GoToDefinition_source.zip)
 
 **Post**
 [https://www.flashdevelop.org/community/viewtopic.php?f=4&amp;t=4722](https://www.flashdevelop.org/community/viewtopic.php?f=4&t=4722)

@@ -17,11 +17,11 @@ openAIMikesBlogFileId: file-vGdJoHhUfcfsrgovcbrZFXMv
 
 > This is part of a three-post series on working with Parse.com in Unity. For more info please see the other posts in the series:
 >
-> [Part 1 - Intro and App Structure](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
+> [Part 1 - Intro and App Structure](https://www.mikecann.blog/programming/working-with-parse-com-in-unity-3d-part-1-intro-and-app-structure/)
 >
 > Part 2 - Services, Helpers and Looming
 >
-> [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
+> [Part 3 - Tests, Typescript and Common Code](https://www.mikecann.blog/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/)
 
 <!-- more -->
 
@@ -121,7 +121,7 @@ Debug.Log("Logging in..");
 
 The function "OnMainThread" is a helper extension I wrote to deal with the threading issue. If we were to remove that function then when we try to login Unity would throw an error something like:
 
-[![2014-11-11_08-07-43](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-11_08-07-43.png)](https://www.mikecann.co.uk/wp-content/uploads/2014/11/2014-11-11_08-07-43.png)
+[![2014-11-11_08-07-43](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-11_08-07-43.png)](https://www.mikecann.blog/wp-content/uploads/2014/11/2014-11-11_08-07-43.png)
 
 This is because below the covers Parse is making web calls on a separate thread and when it returns the result is passed back to us without returning to be main thread and pretty much everything in Unity needs to happen on the main thread so when we try to access a variable that lives on the main thread Unity crashes.
 
@@ -153,7 +153,7 @@ var loom = Loom.Instance;
 
 So whenever you call Parse functions in your services just make sure you call "OnMainThread()" and you should be good to go!
 
-On a separate note, I have already [previously mentioned](https://www.mikecann.co.uk/programming/fixing-unitys-internal-compiler-error/) that if you are going to write extension methods for Tasks you must make sure that you sepparate your action from the ContinueWith() else you will get an internal compiler error in Unity!
+On a separate note, I have already [previously mentioned](https://www.mikecann.blog/programming/fixing-unitys-internal-compiler-error/) that if you are going to write extension methods for Tasks you must make sure that you sepparate your action from the ContinueWith() else you will get an internal compiler error in Unity!
 
 ## Errors
 
@@ -167,4 +167,4 @@ Generally you can work around it as you can guess what the issue is if an error 
 
 And thats basically it for dealing with Parse.com in Unity, I strongly reccomend [checking out the source](https://github.com/mikecann/ParseUnitySampleProject) if you need more information on anything I have covered, hopefully it makes more sense.
 
-In the [next part](https://www.mikecann.co.uk/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/) ill talk about how to structure your backend so that you can easily test your cloud code.
+In the [next part](https://www.mikecann.blog/programming/working-with-parse-com-in-unity-part-3-tests-typescript-and-common-code/) ill talk about how to structure your backend so that you can easily test your cloud code.
