@@ -1,6 +1,6 @@
 import { v } from "convex/values";
 import { mutationWithUser, queryWithUser } from "./functions";
-import { getThreadForUser } from "./threads";
+import { getThreadForUser, scheduleThreadUpdatedNotification } from "./threads";
 import { internalMutation, query } from "./_generated/server";
 import { internal } from "./_generated/api";
 import { annotationSchema, messageStatusSchema } from "./schema";
@@ -72,6 +72,9 @@ export const sendMessageToThreadFromUser = mutationWithUser({
         at: Date.now(),
       },
     });
+
+    // Let me know via email that someone has been chatting
+    await scheduleThreadUpdatedNotification(ctx, { threadId: thread._id });
   },
 });
 
