@@ -2,7 +2,8 @@
 coverImage: ./header.jpg
 date: '2024-04-11T07:31:40.000Z'
 tags:
-  - personal
+  - gangbusters
+  - battletabs
 title: BattleTabs Enters Soft Launch!
 openAIMikesBlogFileId: file-XoUrTrl627WNuzZAmzCDSmd8
 ---
