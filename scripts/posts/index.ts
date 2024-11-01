@@ -66,9 +66,14 @@ export const getPostBySlug = (slug: PostSlug): PostWithContent => {
   };
 };
 
-export const getAllPublishablePosts = () => {
+export const getAllPosts = () => {
   const slugs = getPostSlugs();
-  let posts = slugs.map((slug) => getPostBySlug(slug));
+  const posts = slugs.map((slug) => getPostBySlug(slug));
+  return posts;
+};
+
+export const getAllPublishablePosts = () => {
+  let posts = getAllPosts();
   if (process.env.NODE_ENV == "production")
     posts = posts.filter(
       (post) => post.meta.status == "published" || post.meta.status == undefined

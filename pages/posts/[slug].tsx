@@ -20,6 +20,7 @@ import { PostComments } from "../../components/PostComments";
 import { Post, getAllPublishablePosts, getPostBySlug } from "../../scripts/posts";
 import { generateSlug, slugFromChildren } from "../../components/utils/slug";
 import { HeadingLink } from "../../components/HeadingLink";
+import { getAllPosts } from "../../scripts/posts/index";
 
 type Props = {
   post: Post;
@@ -259,7 +260,7 @@ const PostPage = ({ post, html }: Props) => {
 export default PostPage;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const posts = getAllPublishablePosts();
+  const posts = getAllPosts();
   return {
     paths: posts.map((post) => ({
       params: {
