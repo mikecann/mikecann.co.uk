@@ -1,6 +1,6 @@
 ---
 coverImage: ./header.jpg
-date: '2024-10-31T07:31:40.000Z'
+date: '2024-11-01T07:31:40.000Z'
 tags:
   - gangbusters
   - battletabs
