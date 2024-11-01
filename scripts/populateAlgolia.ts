@@ -1,7 +1,7 @@
 import algoliasearch from "algoliasearch";
 import { config } from "../config/config";
 import { AlgoliaHit } from "./algolia/types";
-import { getAllPosts } from "./posts";
+import { getAllPublishablePosts } from "./posts";
 
 const { ALGOLIA_ADMIN_KEY, ALGOLIA_APP_ID } = config;
 
@@ -13,7 +13,7 @@ async function bootstrap() {
 
   await index.clearObjects();
 
-  const toAdd: AlgoliaHit[] = getAllPosts().map((e) => ({
+  const toAdd: AlgoliaHit[] = getAllPublishablePosts().map((e) => ({
     excerpt: e.content.substr(0, 5000),
     title: e.meta.title,
     coverImage: e.meta.coverImage,

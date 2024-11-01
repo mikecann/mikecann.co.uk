@@ -5,7 +5,7 @@ import OpenAI from "openai";
 import fs from "fs";
 import { writeFileSync } from "fs";
 import matter from "gray-matter";
-import { PostWithContent, getAllPosts } from "../posts";
+import { PostWithContent, getAllPublishablePosts } from "../posts";
 
 dotenv.config({
   path: `.env`,
@@ -25,7 +25,7 @@ async function bootstrap() {
     apiKey: openAIKey,
   });
 
-  const allPosts = getAllPosts();
+  const allPosts = getAllPublishablePosts();
   const postsWithNoTags = allPosts.filter((p) => p.meta.tags.length == 0);
 
   console.log(`starting..`, {

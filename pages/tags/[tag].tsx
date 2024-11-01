@@ -13,7 +13,7 @@ import {
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import { encodeTag } from "../../utils/tags";
 import Head from "next/head";
-import { PostWithContent, getAllPosts } from "../../scripts/posts";
+import { PostWithContent, getAllPublishablePosts } from "../../scripts/posts";
 
 type Props = {
   tag: string;
@@ -40,7 +40,7 @@ const Page = ({ tag, posts }: Props) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const tags = getAllTags(getAllPosts());
+  const tags = getAllTags(getAllPublishablePosts());
   return {
     paths: tags.map((tag) => ({
       params: {
@@ -54,7 +54,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const query = ensure(params);
   const tag = decodeURIComponent(ensure(query.tag) + "");
-  const posts = sortPosts(groupPostsByTag(getAllPosts())[tag], "desc");
+  const posts = sortPosts(groupPostsByTag(getAllPublishablePosts())[tag], "desc");
   return {
     props: { tag, posts },
   };

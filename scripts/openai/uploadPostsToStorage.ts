@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import OpenAI from "openai";
 import matter from "gray-matter";
-import { PostWithContent, getAllPosts } from "../posts";
+import { PostWithContent, getAllPublishablePosts } from "../posts";
 import { createReadStream, writeFileSync } from "fs";
 import fs from "fs";
 import path from "path";
@@ -31,7 +31,7 @@ async function bootstrap() {
   });
 
   // Get all posts and filter out those that have already been uploaded
-  const allPosts = getAllPosts();
+  const allPosts = getAllPublishablePosts();
   const postsToUpload = allPosts.filter((post) => !post.meta.openAIMikesBlogFileId);
 
   console.log(`starting..`, {

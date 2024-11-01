@@ -6,7 +6,7 @@ import { getAllYears, getPostsByYear, sortPosts } from "../../utils/posts";
 import { ArchiveYears } from "../../components/ArchiveYears";
 import { ResponsiveSidebarLayouts } from "../../components/layout/ResponsiveSidebarLayouts";
 import Head from "next/head";
-import { Post, getAllPosts } from "../../scripts/posts";
+import { Post, getAllPublishablePosts } from "../../scripts/posts";
 
 type Props = {
   year: string;
@@ -37,7 +37,7 @@ const Page = ({ year, posts, years }: Props) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const years = getAllYears(getAllPosts());
+  const years = getAllYears(getAllPublishablePosts());
   return {
     paths: years.map((year) => ({
       params: {
@@ -52,7 +52,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   const query = ensure(params);
   const year = ensure(query.year) + "";
 
-  const allPosts = sortPosts(getAllPosts(), "desc");
+  const allPosts = sortPosts(getAllPublishablePosts(), "desc");
   const posts = getPostsByYear(year, allPosts);
   const years = getAllYears(allPosts);
 

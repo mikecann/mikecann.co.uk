@@ -1,6 +1,7 @@
 ---
 coverImage: ./header.jpg
 date: '2024-11-01T07:31:40.000Z'
+status: draft
 tags:
   - gangbusters
   - battletabs

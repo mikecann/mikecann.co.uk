@@ -1,10 +1,10 @@
 import { generateRss } from "../utils/rss";
 import fs from "fs";
 import { sortPosts } from "../utils/posts";
-import { getAllPosts } from "./posts";
+import { getAllPublishablePosts } from "./posts";
 
 async function bootstrap() {
-  const posts = sortPosts(getAllPosts(), "desc");
+  const posts = sortPosts(getAllPublishablePosts(), "desc");
   const rss = generateRss(posts);
   fs.writeFileSync("./public/rss.xml", rss);
 }

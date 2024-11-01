@@ -14,6 +14,7 @@ export interface Post {
   absPostPath: string;
   slug: PostSlug;
   meta: PostMeta;
+
   coverImageSize: {
     width: number;
     height: number;
@@ -65,6 +66,17 @@ export const getPostBySlug = (slug: PostSlug): PostWithContent => {
   };
 };
 
-export const getAllPosts = pipe(getPostSlugs, map(getPostBySlug));
+export const getAllPublishablePosts = () => {
+  const slugs = getPostSlugs();
+  let posts = slugs.map((slug) => getPostBySlug(slug));
+  if (process.env.NODE_ENV == "production")
+    posts = posts.filter(
+      (post) => post.meta.status == "published" || post.meta.status == undefined
+    );
+  return posts;
+};
 
-export const getAllPostsWithoutContent = pipe(getAllPosts, removeContentFromPosts);
+export const getAllPostsWithoutContent = () => {
+  const posts = getAllPublishablePosts();
+  return removeContentFromPosts(posts);
+};

@@ -17,7 +17,7 @@ import { PostTags } from "../../components/PostTags";
 import { media, style } from "typestyle";
 import rehypeRaw from "rehype-raw";
 import { PostComments } from "../../components/PostComments";
-import { Post, getAllPosts, getPostBySlug } from "../../scripts/posts";
+import { Post, getAllPublishablePosts, getPostBySlug } from "../../scripts/posts";
 import { generateSlug, slugFromChildren } from "../../components/utils/slug";
 import { HeadingLink } from "../../components/HeadingLink";
 
@@ -259,7 +259,7 @@ const PostPage = ({ post, html }: Props) => {
 export default PostPage;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const posts = getAllPosts();
+  const posts = getAllPublishablePosts();
   return {
     paths: posts.map((post) => ({
       params: {
