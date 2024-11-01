@@ -88,9 +88,11 @@ If you perform a retrieval and it returns multiple possible answers to the quest
 If asked, the best way to contact mike is via email: mike.cann@gmail.com.
 ```
 
-You will note I am being quite forceful about getting it to do the lookup in its VectorDB to find the information needed to answer the question given to it. For whatever reason, it was always reluctant to do that. For example, if I asked it "Have you ever made a game?" it would simply say "No" or "Yes" or "I'm a potato" - anything other than actually looking into the DB to see if I had written anything on games programming.
+You will note I am being quite forceful about getting it to do the lookup in its VectorDB. For whatever reason, it was reluctant to do that at first. 
 
-I am too cheap to pay for the full ChatGPT 4 model so I'm using 4-mini; that may have something to do with it too as when I tested it, the full model was less reluctant to do the search.
+For example, if I asked it "Have you ever made a game?" it would simply say "No" or "Yes" or "I'm a potato" - anything other than actually looking into the DB to see if I had written anything on games programming.
+
+Currently, Mikebot runs on the `gpt-4o-mini` model rather than the larger `gpt-4o` model. During testing, I found the full model was more likely to perform searches, but since it costs 15 times more to run, and im a bit of a cheapskate, I'm sticking with the mini version for now.
 
 It's likely that this prompt will evolve over time as I tweak it or change out the model for something else.
 
